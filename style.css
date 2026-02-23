@@ -3,14 +3,14 @@
    ========================================= */
 
 :root {
-    --bg: #1a120b;
-    --bg-card: #221a10;
-    --bg-header: #1e150d;
+    --bg: #261c12;
+    --bg-card: #2c2116;
+    --bg-header: #281e13;
     --sand: #d4a84b;
     --sand-dim: #a07830;
     --sand-glow: rgba(212, 168, 75, 0.15);
     --terracotta: #c45a3c;
-    --leather: #6b3a1f;
+    --leather: #7a4425;
     --wood: #3d2b1a;
     --parchment: #f0dab0;
     --gold: #ffd700;
@@ -28,64 +28,85 @@ body {
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background-color: var(--bg);
     background-image:
-        /* SVG noise grain texture for organic feel */
-        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E"),
-        /* vertical plank seams — bold dark gaps */
+        /* SVG noise — organic roughness like real wood surface */
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.08'/%3E%3C/svg%3E"),
+        /* plank seams — dark gap + light catch edge */
         repeating-linear-gradient(
             90deg,
             transparent 0px,
-            transparent 146px,
-            rgba(107,58,31,0.12) 146px,
-            rgba(0,0,0,0.35) 148px,
-            rgba(0,0,0,0.25) 150px,
-            rgba(107,58,31,0.08) 152px,
+            transparent 144px,
+            rgba(120,70,35,0.15) 144px,
+            rgba(10,6,3,0.45) 146px,
+            rgba(10,6,3,0.3) 148px,
+            rgba(120,70,35,0.10) 150px,
             transparent 152px
         ),
-        /* horizontal grain — fine tight lines */
+        /* grain layer 1 — ultra-fine fiber lines */
         repeating-linear-gradient(
             180deg,
-            rgba(61,43,26,0.0) 0px,
-            rgba(61,43,26,0.12) 3px,
-            rgba(61,43,26,0.0) 5px,
-            rgba(80,50,25,0.08) 8px,
-            rgba(61,43,26,0.0) 10px
+            rgba(90,55,28,0.0) 0px,
+            rgba(90,55,28,0.14) 1px,
+            rgba(90,55,28,0.0) 2px,
+            rgba(70,42,22,0.10) 4px,
+            rgba(90,55,28,0.0) 5px
         ),
-        /* secondary grain — wider wavy bands */
+        /* grain layer 2 — medium lines, slight angle */
         repeating-linear-gradient(
-            178deg,
-            transparent 0px,
-            transparent 18px,
-            rgba(80,50,25,0.10) 20px,
-            rgba(80,50,25,0.04) 22px,
-            transparent 24px
+            179.3deg,
+            rgba(75,48,24,0.0) 0px,
+            rgba(75,48,24,0.16) 2px,
+            rgba(75,48,24,0.0) 4px,
+            rgba(95,60,30,0.12) 7px,
+            rgba(75,48,24,0.0) 9px
         ),
-        /* tertiary grain — broad bands for depth */
+        /* grain layer 3 — wider bands, opposite tilt */
         repeating-linear-gradient(
-            181deg,
+            180.7deg,
             transparent 0px,
-            transparent 45px,
-            rgba(60,40,20,0.08) 48px,
-            rgba(60,40,20,0.03) 51px,
-            transparent 54px
+            transparent 12px,
+            rgba(100,65,32,0.13) 13px,
+            rgba(100,65,32,0.05) 15px,
+            transparent 17px
         ),
-        /* warm knot spots — larger and more visible */
-        radial-gradient(ellipse 140px 100px at 10% 18%, rgba(107,58,31,0.18) 0%, transparent 70%),
-        radial-gradient(ellipse 100px 80px at 62% 30%, rgba(107,58,31,0.14) 0%, transparent 70%),
-        radial-gradient(ellipse 120px 90px at 30% 60%, rgba(107,58,31,0.12) 0%, transparent 70%),
-        radial-gradient(ellipse 130px 70px at 80% 75%, rgba(107,58,31,0.15) 0%, transparent 70%),
-        radial-gradient(ellipse 80px 100px at 48% 48%, rgba(80,50,25,0.10) 0%, transparent 70%),
-        /* color variation across planks — alternating lighter/darker */
+        /* grain layer 4 — broad growth-ring bands */
+        repeating-linear-gradient(
+            179.5deg,
+            transparent 0px,
+            rgba(80,50,26,0.04) 20px,
+            rgba(80,50,26,0.12) 22px,
+            rgba(80,50,26,0.04) 24px,
+            transparent 40px
+        ),
+        /* grain layer 5 — very wide soft undulation */
+        repeating-linear-gradient(
+            180.3deg,
+            rgba(60,38,20,0.0) 0px,
+            rgba(60,38,20,0.08) 35px,
+            rgba(60,38,20,0.0) 70px
+        ),
+        /* warm knot spots — organic imperfections */
+        radial-gradient(ellipse 160px 110px at 8% 15%, rgba(120,68,30,0.20) 0%, transparent 70%),
+        radial-gradient(ellipse 110px 90px at 60% 28%, rgba(110,62,28,0.16) 0%, transparent 70%),
+        radial-gradient(ellipse 130px 100px at 28% 55%, rgba(100,58,26,0.14) 0%, transparent 70%),
+        radial-gradient(ellipse 140px 80px at 78% 70%, rgba(115,65,30,0.18) 0%, transparent 70%),
+        radial-gradient(ellipse 90px 110px at 45% 42%, rgba(95,55,25,0.12) 0%, transparent 70%),
+        radial-gradient(ellipse 100px 70px at 90% 15%, rgba(105,60,28,0.14) 0%, transparent 70%),
+        /* per-plank color variation — warm/cool alternation */
         linear-gradient(90deg,
-            rgba(45,32,18,0.0) 0%,
-            rgba(50,35,20,0.35) 18%,
-            rgba(45,32,18,0.0) 33%,
-            rgba(40,28,16,0.25) 50%,
-            rgba(45,32,18,0.0) 66%,
-            rgba(55,38,22,0.30) 84%,
-            rgba(45,32,18,0.0) 100%
+            rgba(55,38,20,0.0) 0%,
+            rgba(65,42,22,0.30) 10%,
+            rgba(55,38,20,0.0) 22%,
+            rgba(50,34,18,0.20) 34%,
+            rgba(55,38,20,0.0) 44%,
+            rgba(70,45,24,0.28) 56%,
+            rgba(55,38,20,0.0) 68%,
+            rgba(48,32,16,0.22) 80%,
+            rgba(55,38,20,0.0) 90%,
+            rgba(60,40,20,0.25) 100%
         ),
-        /* edge vignette */
-        radial-gradient(ellipse 70% 55% at 50% 50%, transparent 40%, rgba(0,0,0,0.4) 100%);
+        /* edge vignette — warm center spotlight */
+        radial-gradient(ellipse 75% 60% at 50% 45%, rgba(50,35,18,0.08) 0%, transparent 50%),
+        radial-gradient(ellipse 70% 55% at 50% 50%, transparent 40%, rgba(0,0,0,0.35) 100%);
     color: var(--text);
     min-height: 100vh;
 }
@@ -98,8 +119,8 @@ body {
     padding: 2.5rem 1rem 1.5rem;
     text-align: center;
     background:
-        radial-gradient(ellipse 90% 70% at 50% 20%, rgba(212,168,75,0.08) 0%, transparent 70%),
-        linear-gradient(180deg, #201508 0%, var(--bg) 100%);
+        radial-gradient(ellipse 90% 70% at 50% 20%, rgba(212,168,75,0.10) 0%, transparent 70%),
+        linear-gradient(180deg, #2a1e14 0%, var(--bg) 100%);
 }
 
 .hero-content {
