@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T18:26:38.593677+00:00",
+  "last_updated": "2026-02-23T18:51:31.491376+00:00",
   "daltons": {
     "46733": [
       {
@@ -480,6 +480,39 @@
       "leek_names": "MimiEpsilon, MimiZeta, MimiEta, MimiTheta"
     },
     {
+      "fight_id": 51572495,
+      "fight_type": 1,
+      "farmer_name": "BrocoliCosmique",
+      "farmer_id": 71485,
+      "leeks": [
+        {
+          "id": 78017,
+          "name": "ChoucrouteMelba",
+          "level": 301
+        },
+        {
+          "id": 78288,
+          "name": "RussianRafia",
+          "level": 301
+        },
+        {
+          "id": 79069,
+          "name": "LentilleLunaire",
+          "level": 301
+        },
+        {
+          "id": 76366,
+          "name": "ChaussetteBleue",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 5,
+      "date": 1771871405,
+      "key": "71485",
+      "leek_names": "ChoucrouteMelba, RussianRafia, LentilleLunaire, ChaussetteBleue"
+    },
+    {
       "fight_id": 51569812,
       "fight_type": 1,
       "farmer_name": "Mimi25",
@@ -610,6 +643,39 @@
       "date": 1771858027,
       "key": "100566",
       "leek_names": "feeddafeed, leekdafeed, geekdafeed, feedmafeed"
+    },
+    {
+      "fight_id": 51572583,
+      "fight_type": 1,
+      "farmer_name": "Pugnacity",
+      "farmer_id": 71086,
+      "leeks": [
+        {
+          "id": 75922,
+          "name": "Jeez",
+          "level": 301
+        },
+        {
+          "id": 76113,
+          "name": "Boldness",
+          "level": 301
+        },
+        {
+          "id": 76472,
+          "name": "Fierceness",
+          "level": 301
+        },
+        {
+          "id": 78479,
+          "name": "Waywardness",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 11,
+      "date": 1771871546,
+      "key": "71086",
+      "leek_names": "Jeez, Boldness, Fierceness, Waywardness"
     },
     {
       "fight_id": 51569646,
@@ -1105,39 +1171,6 @@
       "date": 1771863482,
       "key": "84466",
       "leek_names": "BernardDeLinformatique, JeanMichelDeLaCompta, ChristineDuSecr\u00e9tariat, Berthier"
-    },
-    {
-      "fight_id": 51570921,
-      "fight_type": 1,
-      "farmer_name": "Pugnacity",
-      "farmer_id": 71086,
-      "leeks": [
-        {
-          "id": 75922,
-          "name": "Jeez",
-          "level": 301
-        },
-        {
-          "id": 76113,
-          "name": "Boldness",
-          "level": 301
-        },
-        {
-          "id": 76472,
-          "name": "Fierceness",
-          "level": 301
-        },
-        {
-          "id": 78479,
-          "name": "Waywardness",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 23,
-      "date": 1771863845,
-      "key": "71086",
-      "leek_names": "Jeez, Boldness, Fierceness, Waywardness"
     },
     {
       "fight_id": 51570750,
