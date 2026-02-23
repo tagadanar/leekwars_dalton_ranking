@@ -452,6 +452,13 @@ main {
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
+.badge-team {
+    color: #8cd4a0;
+    background: rgba(140,212,160,0.08);
+    border: 1px solid rgba(140,212,160,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
 .section-stats {
     margin-left: auto;
     text-align: right;

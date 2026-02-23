@@ -1,8 +1,123 @@
 {
-  "last_updated": "2026-02-23T15:05:47.911802+00:00",
+  "last_updated": "2026-02-23T18:26:38.593677+00:00",
   "daltons": {
-    "46733": [],
+    "46733": [
+      {
+        "fight_id": 51570526,
+        "fight_type": 0,
+        "farmer_name": "SaintSeiya",
+        "farmer_id": 74906,
+        "leeks": [
+          {
+            "id": 79775,
+            "name": "Seiya",
+            "level": 291
+          }
+        ],
+        "total_level": 291,
+        "turns": 8,
+        "date": 1771861989,
+        "key": "74906",
+        "leek_name": "Seiya",
+        "leek_level": 291
+      },
+      {
+        "fight_id": 51570331,
+        "fight_type": 0,
+        "farmer_name": "Smartiz",
+        "farmer_id": 98186,
+        "leeks": [
+          {
+            "id": 104943,
+            "name": "CotteDemaille",
+            "level": 300
+          }
+        ],
+        "total_level": 300,
+        "turns": 2,
+        "date": 1771860623,
+        "key": "98186",
+        "leek_name": "CotteDemaille",
+        "leek_level": 300
+      },
+      {
+        "fight_id": 51570527,
+        "fight_type": 0,
+        "farmer_name": "Casanova",
+        "farmer_id": 92936,
+        "leeks": [
+          {
+            "id": 99804,
+            "name": "NEWCOMB",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 13,
+        "date": 1771862014,
+        "key": "92936",
+        "leek_name": "NEWCOMB",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51570176,
+        "fight_type": 0,
+        "farmer_name": "Kraspen",
+        "farmer_id": 76772,
+        "leeks": [
+          {
+            "id": 82518,
+            "name": "Kraneur",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 15,
+        "date": 1771859721,
+        "key": "76772",
+        "leek_name": "Kraneur",
+        "leek_level": 301
+      }
+    ],
     "51098": [
+      {
+        "fight_id": 51570530,
+        "fight_type": 0,
+        "farmer_name": "SaintSeiya",
+        "farmer_id": 74906,
+        "leeks": [
+          {
+            "id": 79775,
+            "name": "Seiya",
+            "level": 291
+          }
+        ],
+        "total_level": 291,
+        "turns": 32,
+        "date": 1771862063,
+        "key": "74906",
+        "leek_name": "Seiya",
+        "leek_level": 291
+      },
+      {
+        "fight_id": 51570184,
+        "fight_type": 0,
+        "farmer_name": "Kraspen",
+        "farmer_id": 76772,
+        "leeks": [
+          {
+            "id": 82518,
+            "name": "Kraneur",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 5,
+        "date": 1771859742,
+        "key": "76772",
+        "leek_name": "Kraneur",
+        "leek_level": 301
+      },
       {
         "fight_id": 51542947,
         "fight_type": 0,
@@ -25,6 +140,25 @@
     ],
     "51257": [
       {
+        "fight_id": 51570584,
+        "fight_type": 0,
+        "farmer_name": "SaintSeiya",
+        "farmer_id": 74906,
+        "leeks": [
+          {
+            "id": 79775,
+            "name": "Seiya",
+            "level": 291
+          }
+        ],
+        "total_level": 291,
+        "turns": 11,
+        "date": 1771862391,
+        "key": "74906",
+        "leek_name": "Seiya",
+        "leek_level": 291
+      },
+      {
         "fight_id": 51496106,
         "fight_type": 0,
         "farmer_name": "syLL",
@@ -42,6 +176,25 @@
         "key": "75343",
         "leek_name": "Impertino",
         "leek_level": 300
+      },
+      {
+        "fight_id": 51570189,
+        "fight_type": 0,
+        "farmer_name": "Kraspen",
+        "farmer_id": 76772,
+        "leeks": [
+          {
+            "id": 82518,
+            "name": "Kraneur",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 7,
+        "date": 1771859758,
+        "key": "76772",
+        "leek_name": "Kraneur",
+        "leek_level": 301
       },
       {
         "fight_id": 51540163,
@@ -83,6 +236,44 @@
       }
     ],
     "51613": [
+      {
+        "fight_id": 51570604,
+        "fight_type": 0,
+        "farmer_name": "SaintSeiya",
+        "farmer_id": 74906,
+        "leeks": [
+          {
+            "id": 79775,
+            "name": "Seiya",
+            "level": 291
+          }
+        ],
+        "total_level": 291,
+        "turns": 54,
+        "date": 1771862464,
+        "key": "74906",
+        "leek_name": "Seiya",
+        "leek_level": 291
+      },
+      {
+        "fight_id": 51570193,
+        "fight_type": 0,
+        "farmer_name": "Kraspen",
+        "farmer_id": 76772,
+        "leeks": [
+          {
+            "id": 82518,
+            "name": "Kraneur",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 14,
+        "date": 1771859782,
+        "key": "76772",
+        "leek_name": "Kraneur",
+        "leek_level": 301
+      },
       {
         "fight_id": 51569973,
         "fight_type": 0,
@@ -190,6 +381,72 @@
       "leek_names": "Dworkyn, Corwyn, Fyona, Deyrdre"
     },
     {
+      "fight_id": 51570334,
+      "fight_type": 1,
+      "farmer_name": "Smartiz",
+      "farmer_id": 98186,
+      "leeks": [
+        {
+          "id": 103828,
+          "name": "A\u00efeGarleek",
+          "level": 301
+        },
+        {
+          "id": 103951,
+          "name": "LeekWareau",
+          "level": 301
+        },
+        {
+          "id": 104242,
+          "name": "ReauBotcode",
+          "level": 301
+        },
+        {
+          "id": 104943,
+          "name": "CotteDemaille",
+          "level": 300
+        }
+      ],
+      "total_level": 1203,
+      "turns": 2,
+      "date": 1771860645,
+      "key": "98186",
+      "leek_names": "A\u00efeGarleek, LeekWareau, ReauBotcode, CotteDemaille"
+    },
+    {
+      "fight_id": 51570840,
+      "fight_type": 1,
+      "farmer_name": "SlightlySmartLeekStem",
+      "farmer_id": 99628,
+      "leeks": [
+        {
+          "id": 105390,
+          "name": "earendel",
+          "level": 301
+        },
+        {
+          "id": 107375,
+          "name": "kumquaternion",
+          "level": 301
+        },
+        {
+          "id": 107460,
+          "name": "FeleeksKlein",
+          "level": 301
+        },
+        {
+          "id": 107610,
+          "name": "poirol\u00e9taire",
+          "level": 300
+        }
+      ],
+      "total_level": 1203,
+      "turns": 16,
+      "date": 1771863506,
+      "key": "99628",
+      "leek_names": "earendel, kumquaternion, FeleeksKlein, poirol\u00e9taire"
+    },
+    {
       "fight_id": 51570026,
       "fight_type": 1,
       "farmer_name": "MimiVite",
@@ -289,6 +546,39 @@
       "leek_names": "Bux420, Bux1, Bux2, Bux3"
     },
     {
+      "fight_id": 51570878,
+      "fight_type": 1,
+      "farmer_name": "Poliw",
+      "farmer_id": 97547,
+      "leeks": [
+        {
+          "id": 103086,
+          "name": "Poliw",
+          "level": 301
+        },
+        {
+          "id": 103141,
+          "name": "Gentiw",
+          "level": 301
+        },
+        {
+          "id": 103278,
+          "name": "\u00c9rudiw",
+          "level": 301
+        },
+        {
+          "id": 103485,
+          "name": "Exquiw",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 8,
+      "date": 1771863711,
+      "key": "97547",
+      "leek_names": "Poliw, Gentiw, \u00c9rudiw, Exquiw"
+    },
+    {
       "fight_id": 51569963,
       "fight_type": 1,
       "farmer_name": "feeddafeed",
@@ -353,6 +643,105 @@
       "date": 1771856011,
       "key": "73454",
       "leek_names": "Survivor, Savior, Successor, Superior"
+    },
+    {
+      "fight_id": 51570168,
+      "fight_type": 1,
+      "farmer_name": "Kraspen",
+      "farmer_id": 76772,
+      "leeks": [
+        {
+          "id": 81638,
+          "name": "Kraton",
+          "level": 301
+        },
+        {
+          "id": 81733,
+          "name": "Krasseux",
+          "level": 301
+        },
+        {
+          "id": 82210,
+          "name": "Krapule",
+          "level": 301
+        },
+        {
+          "id": 82518,
+          "name": "Kraneur",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 14,
+      "date": 1771859694,
+      "key": "76772",
+      "leek_names": "Kraton, Krasseux, Krapule, Kraneur"
+    },
+    {
+      "fight_id": 51570036,
+      "fight_type": 1,
+      "farmer_name": "mareL",
+      "farmer_id": 51723,
+      "leeks": [
+        {
+          "id": 56137,
+          "name": "Leekosphere",
+          "level": 301
+        },
+        {
+          "id": 56195,
+          "name": "Astroleek",
+          "level": 301
+        },
+        {
+          "id": 56432,
+          "name": "Cosmoleek",
+          "level": 301
+        },
+        {
+          "id": 56679,
+          "name": "VoieLeektee",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 14,
+      "date": 1771859084,
+      "key": "51723",
+      "leek_names": "Leekosphere, Astroleek, Cosmoleek, VoieLeektee"
+    },
+    {
+      "fight_id": 51570904,
+      "fight_type": 1,
+      "farmer_name": "SushiRush",
+      "farmer_id": 97541,
+      "leeks": [
+        {
+          "id": 103080,
+          "name": "SushiRush",
+          "level": 301
+        },
+        {
+          "id": 103143,
+          "name": "MangueBleut\u00e9e",
+          "level": 301
+        },
+        {
+          "id": 103444,
+          "name": "QuiPourUnNasu",
+          "level": 301
+        },
+        {
+          "id": 103832,
+          "name": "PruneBleut\u00e9e",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 15,
+      "date": 1771863806,
+      "key": "97541",
+      "leek_names": "SushiRush, MangueBleut\u00e9e, QuiPourUnNasu, PruneBleut\u00e9e"
     },
     {
       "fight_id": 51569936,
@@ -487,6 +876,72 @@
       "leek_names": "Glubule, Mordor, Broutchlag, Gruhh"
     },
     {
+      "fight_id": 51570918,
+      "fight_type": 1,
+      "farmer_name": "hypernavet",
+      "farmer_id": 87938,
+      "leeks": [
+        {
+          "id": 93072,
+          "name": "hypesnave",
+          "level": 301
+        },
+        {
+          "id": 93272,
+          "name": "bolcheveek",
+          "level": 301
+        },
+        {
+          "id": 94139,
+          "name": "RootOfUnity",
+          "level": 301
+        },
+        {
+          "id": 95337,
+          "name": "PubleekDomain",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 18,
+      "date": 1771863840,
+      "key": "87938",
+      "leek_names": "hypesnave, bolcheveek, RootOfUnity, PubleekDomain"
+    },
+    {
+      "fight_id": 51570877,
+      "fight_type": 1,
+      "farmer_name": "Schrodinger",
+      "farmer_id": 53234,
+      "leeks": [
+        {
+          "id": 57786,
+          "name": "SchrodingerCat",
+          "level": 301
+        },
+        {
+          "id": 57832,
+          "name": "IsDead",
+          "level": 301
+        },
+        {
+          "id": 57979,
+          "name": "IsAlive",
+          "level": 301
+        },
+        {
+          "id": 58172,
+          "name": "IsQuantum",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 18,
+      "date": 1771863707,
+      "key": "53234",
+      "leek_names": "SchrodingerCat, IsDead, IsAlive, IsQuantum"
+    },
+    {
       "fight_id": 51570009,
       "fight_type": 1,
       "farmer_name": "dulph",
@@ -518,6 +973,204 @@
       "date": 1771858914,
       "key": "97030",
       "leek_names": "dulph, dolph, dilph, dalph"
+    },
+    {
+      "fight_id": 51570907,
+      "fight_type": 1,
+      "farmer_name": "Hyu",
+      "farmer_id": 60113,
+      "leeks": [
+        {
+          "id": 64835,
+          "name": "Ryuu",
+          "level": 301
+        },
+        {
+          "id": 64965,
+          "name": "Pye",
+          "level": 301
+        },
+        {
+          "id": 65067,
+          "name": "Too",
+          "level": 301
+        },
+        {
+          "id": 77073,
+          "name": "Neew",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 20,
+      "date": 1771863810,
+      "key": "60113",
+      "leek_names": "Ryuu, Pye, Too, Neew"
+    },
+    {
+      "fight_id": 51570830,
+      "fight_type": 1,
+      "farmer_name": "Beewiz",
+      "farmer_id": 46882,
+      "leeks": [
+        {
+          "id": 51136,
+          "name": "Beewiz",
+          "level": 301
+        },
+        {
+          "id": 51314,
+          "name": "Beewizette",
+          "level": 301
+        },
+        {
+          "id": 51688,
+          "name": "Beewizor",
+          "level": 301
+        },
+        {
+          "id": 52009,
+          "name": "Beewizus",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 20,
+      "date": 1771863411,
+      "key": "46882",
+      "leek_names": "Beewiz, Beewizette, Beewizor, Beewizus"
+    },
+    {
+      "fight_id": 51570743,
+      "fight_type": 1,
+      "farmer_name": "Dynamex",
+      "farmer_id": 58615,
+      "leeks": [
+        {
+          "id": 63343,
+          "name": "Dynamex",
+          "level": 301
+        },
+        {
+          "id": 63583,
+          "name": "leekiLibre",
+          "level": 301
+        },
+        {
+          "id": 101381,
+          "name": "Dynaleak",
+          "level": 301
+        },
+        {
+          "id": 101874,
+          "name": "Damnleak",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 21,
+      "date": 1771863247,
+      "key": "58615",
+      "leek_names": "Dynamex, leekiLibre, Dynaleak, Damnleak"
+    },
+    {
+      "fight_id": 51570835,
+      "fight_type": 1,
+      "farmer_name": "LaCOGIP",
+      "farmer_id": 84466,
+      "leeks": [
+        {
+          "id": 89402,
+          "name": "BernardDeLinformatique",
+          "level": 301
+        },
+        {
+          "id": 89754,
+          "name": "JeanMichelDeLaCompta",
+          "level": 301
+        },
+        {
+          "id": 90553,
+          "name": "ChristineDuSecr\u00e9tariat",
+          "level": 301
+        },
+        {
+          "id": 90924,
+          "name": "Berthier",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 22,
+      "date": 1771863482,
+      "key": "84466",
+      "leek_names": "BernardDeLinformatique, JeanMichelDeLaCompta, ChristineDuSecr\u00e9tariat, Berthier"
+    },
+    {
+      "fight_id": 51570921,
+      "fight_type": 1,
+      "farmer_name": "Pugnacity",
+      "farmer_id": 71086,
+      "leeks": [
+        {
+          "id": 75922,
+          "name": "Jeez",
+          "level": 301
+        },
+        {
+          "id": 76113,
+          "name": "Boldness",
+          "level": 301
+        },
+        {
+          "id": 76472,
+          "name": "Fierceness",
+          "level": 301
+        },
+        {
+          "id": 78479,
+          "name": "Waywardness",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 23,
+      "date": 1771863845,
+      "key": "71086",
+      "leek_names": "Jeez, Boldness, Fierceness, Waywardness"
+    },
+    {
+      "fight_id": 51570750,
+      "fight_type": 1,
+      "farmer_name": "Tabarius",
+      "farmer_id": 16731,
+      "leeks": [
+        {
+          "id": 18884,
+          "name": "Katarn",
+          "level": 301
+        },
+        {
+          "id": 19808,
+          "name": "Yrrage",
+          "level": 301
+        },
+        {
+          "id": 22484,
+          "name": "Atomas",
+          "level": 301
+        },
+        {
+          "id": 80762,
+          "name": "Bigo",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 24,
+      "date": 1771863289,
+      "key": "16731",
+      "leek_names": "Katarn, Yrrage, Atomas, Bigo"
     },
     {
       "fight_id": 51569914,
@@ -617,10 +1270,1065 @@
       "date": 1771857726,
       "key": "55422",
       "leek_names": "SuperAperitif, chiken, SuperChicken, TigreBlanc"
+    },
+    {
+      "fight_id": 51570980,
+      "fight_type": 1,
+      "farmer_name": "SalomonSanto",
+      "farmer_id": 19612,
+      "leeks": [
+        {
+          "id": 22327,
+          "name": "TripleP",
+          "level": 301
+        },
+        {
+          "id": 23878,
+          "name": "BatP",
+          "level": 301
+        },
+        {
+          "id": 25466,
+          "name": "AquaP",
+          "level": 301
+        },
+        {
+          "id": 30840,
+          "name": "SangoP",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 35,
+      "date": 1771864017,
+      "key": "19612",
+      "leek_names": "TripleP, BatP, AquaP, SangoP"
     }
   ],
   "farmer_config": {
     "farmer_id": 42851,
     "name": "tagadalton"
+  },
+  "team_ranking": [
+    {
+      "fight_id": 51486801,
+      "fight_type": 2,
+      "farmer_name": "FdHP3",
+      "farmer_id": 89055,
+      "leeks": [
+        {
+          "id": 97973,
+          "name": "VonNeumann",
+          "level": 300
+        },
+        {
+          "id": 97453,
+          "name": "Hopper",
+          "level": 301
+        },
+        {
+          "id": 96131,
+          "name": "Lovelace",
+          "level": 301
+        },
+        {
+          "id": 94273,
+          "name": "Norvig",
+          "level": 301
+        }
+      ],
+      "total_level": 1203,
+      "turns": 22,
+      "date": 1771237461,
+      "key": "89055",
+      "leek_names": "VonNeumann, Hopper, Lovelace, Norvig"
+    },
+    {
+      "fight_id": 51528370,
+      "fight_type": 2,
+      "farmer_name": "darjac",
+      "farmer_id": 23402,
+      "leeks": [
+        {
+          "id": 32058,
+          "name": "javanic",
+          "level": 301
+        },
+        {
+          "id": 29315,
+          "name": "anac",
+          "level": 301
+        },
+        {
+          "id": 29317,
+          "name": "Yame",
+          "level": 301
+        },
+        {
+          "id": 76641,
+          "name": "pyth0n",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 8,
+      "date": 1771565098,
+      "key": "23402",
+      "leek_names": "javanic, anac, Yame, pyth0n"
+    },
+    {
+      "fight_id": 51564144,
+      "fight_type": 2,
+      "farmer_name": "djac",
+      "farmer_id": 71287,
+      "leeks": [
+        {
+          "id": 76147,
+          "name": "Crotale",
+          "level": 301
+        },
+        {
+          "id": 76294,
+          "name": "c0bra",
+          "level": 301
+        },
+        {
+          "id": 26134,
+          "name": "Yama",
+          "level": 301
+        },
+        {
+          "id": 26745,
+          "name": "Key",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 12,
+      "date": 1771828474,
+      "key": "71287",
+      "leek_names": "Crotale, c0bra, Yama, Key"
+    },
+    {
+      "fight_id": 51520426,
+      "fight_type": 2,
+      "farmer_name": "FdHP2",
+      "farmer_id": 8746,
+      "leeks": [
+        {
+          "id": 8880,
+          "name": "TheDoctor",
+          "level": 301
+        },
+        {
+          "id": 92843,
+          "name": "AmeliaPond",
+          "level": 301
+        },
+        {
+          "id": 94649,
+          "name": "RoseTyler",
+          "level": 301
+        },
+        {
+          "id": 95599,
+          "name": "RiverSong",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 25,
+      "date": 1771511275,
+      "key": "8746",
+      "leek_names": "TheDoctor, AmeliaPond, RoseTyler, RiverSong"
+    },
+    {
+      "fight_id": 51572380,
+      "fight_type": 2,
+      "farmer_name": "C20H14O4",
+      "farmer_id": 25435,
+      "leeks": [
+        {
+          "id": 27927,
+          "name": "Phtaleek",
+          "level": 301
+        },
+        {
+          "id": 21087,
+          "name": "AcideOxaleek",
+          "level": 301
+        },
+        {
+          "id": 24581,
+          "name": "Ballisteek",
+          "level": 301
+        },
+        {
+          "id": 29655,
+          "name": "Phenoleek",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 35,
+      "date": 1771870906,
+      "key": "25435",
+      "leek_names": "Phtaleek, AcideOxaleek, Ballisteek, Phenoleek"
+    },
+    {
+      "fight_id": 51524117,
+      "fight_type": 2,
+      "farmer_name": "ThylaARK",
+      "farmer_id": 88005,
+      "leeks": [
+        {
+          "id": 93195,
+          "name": "974",
+          "level": 239
+        },
+        {
+          "id": 93176,
+          "name": "SABREZ",
+          "level": 212
+        },
+        {
+          "id": 93249,
+          "name": "EtoileDeTerre",
+          "level": 257
+        },
+        {
+          "id": 83003,
+          "name": "LOULOUpoireau",
+          "level": 218
+        },
+        {
+          "id": 93163,
+          "name": "Pr\u00e9dateur",
+          "level": 200
+        },
+        {
+          "id": 68967,
+          "name": "PancaOnden",
+          "level": 233
+        }
+      ],
+      "total_level": 1359,
+      "turns": 19,
+      "date": 1771527595,
+      "key": "88005",
+      "leek_names": "974, SABREZ, EtoileDeTerre, LOULOUpoireau, Pr\u00e9dateur, PancaOnden"
+    },
+    {
+      "fight_id": 51501575,
+      "fight_type": 2,
+      "farmer_name": "gelbaz",
+      "farmer_id": 42329,
+      "leeks": [
+        {
+          "id": 47936,
+          "name": "gelbaz4",
+          "level": 301
+        },
+        {
+          "id": 63761,
+          "name": "poario",
+          "level": 301
+        },
+        {
+          "id": 97,
+          "name": "mamax49poireau",
+          "level": 301
+        },
+        {
+          "id": 38196,
+          "name": "SosoPoireau",
+          "level": 301
+        },
+        {
+          "id": 64200,
+          "name": "Vorberg",
+          "level": 301
+        }
+      ],
+      "total_level": 1505,
+      "turns": 14,
+      "date": 1771358158,
+      "key": "42329",
+      "leek_names": "gelbaz4, poario, mamax49poireau, SosoPoireau, Vorberg"
+    },
+    {
+      "fight_id": 51495166,
+      "fight_type": 2,
+      "farmer_name": "Yama45",
+      "farmer_id": 22470,
+      "leeks": [
+        {
+          "id": 26562,
+          "name": "Yami",
+          "level": 301
+        },
+        {
+          "id": 27290,
+          "name": "jarnac",
+          "level": 301
+        },
+        {
+          "id": 27917,
+          "name": "naja",
+          "level": 301
+        },
+        {
+          "id": 26160,
+          "name": "Keyhno",
+          "level": 301
+        },
+        {
+          "id": 77460,
+          "name": "asp1c",
+          "level": 301
+        }
+      ],
+      "total_level": 1505,
+      "turns": 23,
+      "date": 1771304388,
+      "key": "22470",
+      "leek_names": "Yami, jarnac, naja, Keyhno, asp1c"
+    },
+    {
+      "fight_id": 51551938,
+      "fight_type": 2,
+      "farmer_name": "fujivite",
+      "farmer_id": 97566,
+      "leeks": [
+        {
+          "id": 103972,
+          "name": "LeekideARecurer",
+          "level": 301
+        },
+        {
+          "id": 103626,
+          "name": "BretzelLeekide",
+          "level": 301
+        },
+        {
+          "id": 103111,
+          "name": "Luron",
+          "level": 301
+        },
+        {
+          "id": 103079,
+          "name": "Chlo\u00e9",
+          "level": 301
+        },
+        {
+          "id": 103525,
+          "name": "pakbot",
+          "level": 200
+        },
+        {
+          "id": 103364,
+          "name": "DiDonc",
+          "level": 301
+        }
+      ],
+      "total_level": 1705,
+      "turns": 10,
+      "date": 1771735728,
+      "key": "97566",
+      "leek_names": "LeekideARecurer, BretzelLeekide, Luron, Chlo\u00e9, pakbot, DiDonc"
+    },
+    {
+      "fight_id": 51538129,
+      "fight_type": 2,
+      "farmer_name": "SachaBougPalette",
+      "farmer_id": 124210,
+      "leeks": [
+        {
+          "id": 131073,
+          "name": "CapitaineMamene",
+          "level": 301
+        },
+        {
+          "id": 130660,
+          "name": "GeneralMamene",
+          "level": 301
+        },
+        {
+          "id": 131360,
+          "name": "CaradocDeVannes",
+          "level": 300
+        },
+        {
+          "id": 130932,
+          "name": "ColonelMamene",
+          "level": 301
+        },
+        {
+          "id": 130948,
+          "name": "Scotty2",
+          "level": 301
+        },
+        {
+          "id": 31556,
+          "name": "chibrhook",
+          "level": 300
+        }
+      ],
+      "total_level": 1804,
+      "turns": 3,
+      "date": 1771617664,
+      "key": "124210",
+      "leek_names": "CapitaineMamene, GeneralMamene, CaradocDeVannes, ColonelMamene, Scotty2, chibrhook"
+    },
+    {
+      "fight_id": 51558712,
+      "fight_type": 2,
+      "farmer_name": "ThXr",
+      "farmer_id": 87666,
+      "leeks": [
+        {
+          "id": 92862,
+          "name": "Blameur",
+          "level": 301
+        },
+        {
+          "id": 94002,
+          "name": "Kileur",
+          "level": 301
+        },
+        {
+          "id": 93093,
+          "name": "Flambeur",
+          "level": 301
+        },
+        {
+          "id": 92787,
+          "name": "KlaKeur",
+          "level": 301
+        },
+        {
+          "id": 108449,
+          "name": "dilph",
+          "level": 301
+        },
+        {
+          "id": 103562,
+          "name": "Arcanos",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 6,
+      "date": 1771790532,
+      "key": "87666",
+      "leek_names": "Blameur, Kileur, Flambeur, KlaKeur, dilph, Arcanos"
+    },
+    {
+      "fight_id": 51549202,
+      "fight_type": 2,
+      "farmer_name": "Fer",
+      "farmer_id": 73159,
+      "leeks": [
+        {
+          "id": 79475,
+          "name": "Somnambule",
+          "level": 301
+        },
+        {
+          "id": 66842,
+          "name": "Voracity",
+          "level": 301
+        },
+        {
+          "id": 48617,
+          "name": "MalabareDeMonsanto",
+          "level": 301
+        },
+        {
+          "id": 81573,
+          "name": "Tarteuse",
+          "level": 301
+        },
+        {
+          "id": 90833,
+          "name": "Pitip4",
+          "level": 301
+        },
+        {
+          "id": 108354,
+          "name": "TigerOrange",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 6,
+      "date": 1771704104,
+      "key": "73159",
+      "leek_names": "Somnambule, Voracity, MalabareDeMonsanto, Tarteuse, Pitip4, TigerOrange"
+    },
+    {
+      "fight_id": 51524585,
+      "fight_type": 2,
+      "farmer_name": "augustin2004",
+      "farmer_id": 38535,
+      "leeks": [
+        {
+          "id": 46229,
+          "name": "Gloupp",
+          "level": 301
+        },
+        {
+          "id": 56725,
+          "name": "Pliomini",
+          "level": 301
+        },
+        {
+          "id": 57439,
+          "name": "Miniplio",
+          "level": 301
+        },
+        {
+          "id": 83829,
+          "name": "iLikeToLeek",
+          "level": 301
+        },
+        {
+          "id": 78507,
+          "name": "Pli",
+          "level": 301
+        },
+        {
+          "id": 71938,
+          "name": "Dov",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 6,
+      "date": 1771531201,
+      "key": "38535",
+      "leek_names": "Gloupp, Pliomini, Miniplio, iLikeToLeek, Pli, Dov"
+    },
+    {
+      "fight_id": 51558599,
+      "fight_type": 2,
+      "farmer_name": "temakisushi",
+      "farmer_id": 53392,
+      "leeks": [
+        {
+          "id": 60715,
+          "name": "Kokonoi",
+          "level": 301
+        },
+        {
+          "id": 58550,
+          "name": "Inupi",
+          "level": 301
+        },
+        {
+          "id": 63879,
+          "name": "sushi233",
+          "level": 301
+        },
+        {
+          "id": 57967,
+          "name": "Izana",
+          "level": 301
+        },
+        {
+          "id": 81164,
+          "name": "SoloSushi",
+          "level": 301
+        },
+        {
+          "id": 69482,
+          "name": "BruteDePomme",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 7,
+      "date": 1771790422,
+      "key": "53392",
+      "leek_names": "Kokonoi, Inupi, sushi233, Izana, SoloSushi, BruteDePomme"
+    },
+    {
+      "fight_id": 51493413,
+      "fight_type": 2,
+      "farmer_name": "DeadlySins2626",
+      "farmer_id": 59420,
+      "leeks": [
+        {
+          "id": 64388,
+          "name": "Kingg",
+          "level": 301
+        },
+        {
+          "id": 53090,
+          "name": "ekel",
+          "level": 301
+        },
+        {
+          "id": 59820,
+          "name": "Fiffi",
+          "level": 301
+        },
+        {
+          "id": 58346,
+          "name": "Ununoctium",
+          "level": 301
+        },
+        {
+          "id": 51685,
+          "name": "Polokus",
+          "level": 301
+        },
+        {
+          "id": 64746,
+          "name": "Escanorr",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 7,
+      "date": 1771272036,
+      "key": "59420",
+      "leek_names": "Kingg, ekel, Fiffi, Ununoctium, Polokus, Escanorr"
+    },
+    {
+      "fight_id": 51493767,
+      "fight_type": 2,
+      "farmer_name": "thaddee",
+      "farmer_id": 86242,
+      "leeks": [
+        {
+          "id": 92779,
+          "name": "Canardeur",
+          "level": 301
+        },
+        {
+          "id": 108333,
+          "name": "Ecouteur",
+          "level": 301
+        },
+        {
+          "id": 125259,
+          "name": "Entroupeur",
+          "level": 301
+        },
+        {
+          "id": 92131,
+          "name": "Zeldalink",
+          "level": 301
+        },
+        {
+          "id": 125863,
+          "name": "Casualty",
+          "level": 301
+        },
+        {
+          "id": 91285,
+          "name": "rotulet",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 8,
+      "date": 1771273984,
+      "key": "86242",
+      "leek_names": "Canardeur, Ecouteur, Entroupeur, Zeldalink, Casualty, rotulet"
+    },
+    {
+      "fight_id": 51551552,
+      "fight_type": 2,
+      "farmer_name": "flatzwyx",
+      "farmer_id": 64368,
+      "leeks": [
+        {
+          "id": 69901,
+          "name": "Voltron",
+          "level": 301
+        },
+        {
+          "id": 69561,
+          "name": "Bumblebee",
+          "level": 301
+        },
+        {
+          "id": 71558,
+          "name": "PaulaSchultz",
+          "level": 301
+        },
+        {
+          "id": 71137,
+          "name": "BeatrixKiddo",
+          "level": 301
+        },
+        {
+          "id": 50355,
+          "name": "LAnanasAuJusDeCharly",
+          "level": 301
+        },
+        {
+          "id": 43724,
+          "name": "LaBaguetteMagiqueDeRoger",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 9,
+      "date": 1771719600,
+      "key": "64368",
+      "leek_names": "Voltron, Bumblebee, PaulaSchultz, BeatrixKiddo, LAnanasAuJusDeCharly, LaBaguetteMagiqueDeRoger"
+    },
+    {
+      "fight_id": 51530426,
+      "fight_type": 2,
+      "farmer_name": "Sherox",
+      "farmer_id": 23205,
+      "leeks": [
+        {
+          "id": 29693,
+          "name": "Abzan",
+          "level": 301
+        },
+        {
+          "id": 58511,
+          "name": "Jund",
+          "level": 301
+        },
+        {
+          "id": 27045,
+          "name": "Sultai",
+          "level": 301
+        },
+        {
+          "id": 25769,
+          "name": "Pyrogoyf",
+          "level": 301
+        },
+        {
+          "id": 27962,
+          "name": "Mardu",
+          "level": 301
+        },
+        {
+          "id": 26394,
+          "name": "Barrowgoyf",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 9,
+      "date": 1771574348,
+      "key": "23205",
+      "leek_names": "Abzan, Jund, Sultai, Pyrogoyf, Mardu, Barrowgoyf"
+    },
+    {
+      "fight_id": 51524683,
+      "fight_type": 2,
+      "farmer_name": "Erf",
+      "farmer_id": 44323,
+      "leeks": [
+        {
+          "id": 76217,
+          "name": "Margoullis",
+          "level": 301
+        },
+        {
+          "id": 48348,
+          "name": "Sapristi",
+          "level": 301
+        },
+        {
+          "id": 78113,
+          "name": "MimiHori",
+          "level": 301
+        },
+        {
+          "id": 78201,
+          "name": "MimiTori",
+          "level": 301
+        },
+        {
+          "id": 78485,
+          "name": "MimiNara",
+          "level": 301
+        },
+        {
+          "id": 78580,
+          "name": "MimiNori",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 9,
+      "date": 1771531304,
+      "key": "44323",
+      "leek_names": "Margoullis, Sapristi, MimiHori, MimiTori, MimiNara, MimiNori"
+    },
+    {
+      "fight_id": 51511441,
+      "fight_type": 2,
+      "farmer_name": "Leekspin2",
+      "farmer_id": 75975,
+      "leeks": [
+        {
+          "id": 80776,
+          "name": "Tenor2",
+          "level": 301
+        },
+        {
+          "id": 80871,
+          "name": "Armor2",
+          "level": 301
+        },
+        {
+          "id": 56793,
+          "name": "Tenor1",
+          "level": 301
+        },
+        {
+          "id": 79230,
+          "name": "Albos1",
+          "level": 301
+        },
+        {
+          "id": 56964,
+          "name": "Armor1",
+          "level": 301
+        },
+        {
+          "id": 54033,
+          "name": "jazzblue",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 9,
+      "date": 1771444876,
+      "key": "75975",
+      "leek_names": "Tenor2, Armor2, Tenor1, Albos1, Armor1, jazzblue"
+    },
+    {
+      "fight_id": 51501822,
+      "fight_type": 2,
+      "farmer_name": "Marmotte33",
+      "farmer_id": 36791,
+      "leeks": [
+        {
+          "id": 40230,
+          "name": "KITT",
+          "level": 301
+        },
+        {
+          "id": 61225,
+          "name": "Choobacca",
+          "level": 301
+        },
+        {
+          "id": 44068,
+          "name": "Leekcoptere",
+          "level": 301
+        },
+        {
+          "id": 54409,
+          "name": "Smartie",
+          "level": 301
+        },
+        {
+          "id": 56792,
+          "name": "Sagaa",
+          "level": 301
+        },
+        {
+          "id": 57870,
+          "name": "Fang",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 10,
+      "date": 1771358660,
+      "key": "36791",
+      "leek_names": "KITT, Choobacca, Leekcoptere, Smartie, Sagaa, Fang"
+    },
+    {
+      "fight_id": 51513868,
+      "fight_type": 2,
+      "farmer_name": "bibimission",
+      "farmer_id": 40076,
+      "leeks": [
+        {
+          "id": 44427,
+          "name": "LeTridentMoelleuxDeLuna",
+          "level": 301
+        },
+        {
+          "id": 46072,
+          "name": "LeDouxMunsterDeSophie",
+          "level": 301
+        },
+        {
+          "id": 70480,
+          "name": "Mechagodzilla",
+          "level": 301
+        },
+        {
+          "id": 70898,
+          "name": "ArleneMachiavelli",
+          "level": 301
+        },
+        {
+          "id": 69404,
+          "name": "Alita",
+          "level": 301
+        },
+        {
+          "id": 71989,
+          "name": "BIackMamba",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 14,
+      "date": 1771460400,
+      "key": "40076",
+      "leek_names": "LeTridentMoelleuxDeLuna, LeDouxMunsterDeSophie, Mechagodzilla, ArleneMachiavelli, Alita, BIackMamba"
+    },
+    {
+      "fight_id": 51538140,
+      "fight_type": 2,
+      "farmer_name": "vasilyVM",
+      "farmer_id": 2384,
+      "leeks": [
+        {
+          "id": 2633,
+          "name": "PrazziluK",
+          "level": 301
+        },
+        {
+          "id": 52885,
+          "name": "Klopps",
+          "level": 301
+        },
+        {
+          "id": 75972,
+          "name": "BaBOOMMM",
+          "level": 301
+        },
+        {
+          "id": 63443,
+          "name": "testingLeek",
+          "level": 301
+        },
+        {
+          "id": 91274,
+          "name": "ILikeToFleek",
+          "level": 301
+        },
+        {
+          "id": 92965,
+          "name": "IDFA",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 16,
+      "date": 1771617682,
+      "key": "2384",
+      "leek_names": "PrazziluK, Klopps, BaBOOMMM, testingLeek, ILikeToFleek, IDFA"
+    },
+    {
+      "fight_id": 51549470,
+      "fight_type": 2,
+      "farmer_name": "EF369",
+      "farmer_id": 122869,
+      "leeks": [
+        {
+          "id": 129353,
+          "name": "EF369C",
+          "level": 301
+        },
+        {
+          "id": 129278,
+          "name": "3F3693",
+          "level": 301
+        },
+        {
+          "id": 129212,
+          "name": "EF369A",
+          "level": 301
+        },
+        {
+          "id": 129179,
+          "name": "3F3691",
+          "level": 301
+        },
+        {
+          "id": 129258,
+          "name": "EF369B",
+          "level": 301
+        },
+        {
+          "id": 129220,
+          "name": "3F3692",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 20,
+      "date": 1771705830,
+      "key": "122869",
+      "leek_names": "EF369C, 3F3693, EF369A, 3F3691, EF369B, 3F3692"
+    },
+    {
+      "fight_id": 51501857,
+      "fight_type": 2,
+      "farmer_name": "Nyaleph",
+      "farmer_id": 76142,
+      "leeks": [
+        {
+          "id": 82037,
+          "name": "Basket",
+          "level": 301
+        },
+        {
+          "id": 34867,
+          "name": "CriCriPoir",
+          "level": 301
+        },
+        {
+          "id": 80965,
+          "name": "Brisket",
+          "level": 301
+        },
+        {
+          "id": 179,
+          "name": "mickey49poireau",
+          "level": 301
+        },
+        {
+          "id": 56810,
+          "name": "LittleSoar",
+          "level": 301
+        },
+        {
+          "id": 56228,
+          "name": "milow",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 28,
+      "date": 1771358812,
+      "key": "76142",
+      "leek_names": "Basket, CriCriPoir, Brisket, mickey49poireau, LittleSoar, milow"
+    }
+  ],
+  "team_config": {
+    "team_id": 10151,
+    "farmer_id": 42851,
+    "name": "The Daltons"
   }
 }

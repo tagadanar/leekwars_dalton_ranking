@@ -18,6 +18,7 @@ const DALTON_HATS = {
 };
 
 const FARMER_AVATAR = "https://leekwars.com/avatar/42851.png";
+const TEAM_EMBLEM = "https://leekwars.com/image/emblem/10151.png";
 
 // Star medals for top 3 (gold / silver / bronze)
 const STAR = '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/>';
@@ -66,6 +67,8 @@ function render(data) {
     const daltons = data.daltons || {};
     const farmerRanking = data.farmer_ranking || [];
     const farmerConfig = data.farmer_config;
+    const teamRanking = data.team_ranking || [];
+    const teamConfig = data.team_config;
 
     let html = "";
     let navHtml = "";
@@ -88,6 +91,31 @@ function render(data) {
         html += `<div class="section-stats"><span class="count">${count}</span>challengers</div>`;
         html += `</div>`;
         html += count > 0 ? renderTable(farmerRanking, "farmer") : renderEmpty();
+        html += `</div>`;
+        sectionIndex++;
+    }
+
+    // Team ranking
+    if (teamConfig) {
+        const count = teamRanking.length;
+        navHtml += `<a href="#team" class="nav-btn">` +
+            `<img src="${TEAM_EMBLEM}" alt="">` +
+            `${esc(teamConfig.name)}</a>`;
+
+        if (sectionIndex > 0) {
+            html += `<div class="section-divider"><span>&#9733;</span></div>`;
+        }
+
+        html += `<div class="dalton-section" id="team">`;
+        html += `<div class="section-header">`;
+        html += `<img src="${TEAM_EMBLEM}" class="farmer-avatar" alt="${esc(teamConfig.name)}">`;
+        html += `<div class="section-info">`;
+        html += `<h2>${esc(teamConfig.name)}</h2>`;
+        html += `<span class="badge badge-team">Team fight</span>`;
+        html += `</div>`;
+        html += `<div class="section-stats"><span class="count">${count}</span>challengers</div>`;
+        html += `</div>`;
+        html += count > 0 ? renderTable(teamRanking, "team") : renderEmpty();
         html += `</div>`;
         sectionIndex++;
     }

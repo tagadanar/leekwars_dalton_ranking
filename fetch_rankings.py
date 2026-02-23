@@ -43,7 +43,7 @@ def load_rankings():
     if RANKINGS_PATH.exists():
         with open(RANKINGS_PATH) as f:
             return json.load(f)
-    return {"last_updated": None, "daltons": {}, "farmer_ranking": []}
+    return {"last_updated": None, "daltons": {}, "farmer_ranking": [], "team_ranking": []}
 
 
 def save_rankings(rankings):
@@ -282,6 +282,28 @@ def process_farmer(session, farmer_config, dalton_leek_ids, cache, rankings):
     print(f"  Farmer rankings: {len(updated)} entries")
 
 
+def process_team(session, team_config, dalton_leek_ids, cache, rankings):
+    """Process team fight history for the Dalton team."""
+    farmer_id = team_config["farmer_id"]
+    name = team_config["name"]
+    print(f"\nProcessing team {name} (ID: {team_config['team_id']}) — team fights...")
+
+    entries = fetch_and_process_history(
+        session, f"history/get-farmer-history/{farmer_id}",
+        f"team_{team_config['team_id']}", dalton_leek_ids, cache, type_filter=2
+    )
+
+    # Key by farmer_id for team ranking
+    for e in entries:
+        e["key"] = str(e["farmer_id"])
+        e["leek_names"] = ", ".join(l["name"] for l in e["leeks"])
+
+    existing = rankings.get("team_ranking", [])
+    updated = merge_rankings(existing, entries)
+    rankings["team_ranking"] = updated
+    print(f"  Team rankings: {len(updated)} entries")
+
+
 def main():
     config = load_config()
     cache = load_cache()
@@ -298,9 +320,13 @@ def main():
     if "farmer" in config:
         process_farmer(session, config["farmer"], dalton_leek_ids, cache, rankings)
 
+    if "team" in config:
+        process_team(session, config["team"], dalton_leek_ids, cache, rankings)
+
     rankings["last_updated"] = datetime.now(timezone.utc).isoformat()
     rankings["daltons_config"] = config["daltons"]
     rankings["farmer_config"] = config.get("farmer")
+    rankings["team_config"] = config.get("team")
 
     save_cache(cache)
     save_rankings(rankings)
