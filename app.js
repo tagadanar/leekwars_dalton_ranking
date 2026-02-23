@@ -1,6 +1,6 @@
-const IMG = "https://raw.githubusercontent.com/leek-wars/leek-wars-client/main/public/image";
+const IMG = "https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/image";
 
-// Leek images for each Dalton (keyed by leek_id)
+// Leek images per Dalton
 const DALTON_IMGS = {
     46733: `${IMG}/leek/leek1_front_red.png`,
     51098: `${IMG}/leek/leek1_front_orange.png`,
@@ -9,11 +9,11 @@ const DALTON_IMGS = {
 };
 const FARMER_IMG = `${IMG}/icon/team.png`;
 
-// Trophy SVGs for top 3
+// Trophies for top 3
 const MEDAL = {
-    1: `${IMG}/trophy/big/emperor.svg`,
-    2: `${IMG}/trophy/big/baron.svg`,
-    3: `${IMG}/trophy/big/chief.svg`,
+    1: `${IMG}/trophy/emperor.svg`,
+    2: `${IMG}/trophy/baron.svg`,
+    3: `${IMG}/trophy/chief.svg`,
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -44,7 +44,7 @@ function render(data) {
     let html = "";
     let navHtml = "";
 
-    // Farmer ranking section
+    // Farmer ranking
     if (farmerConfig) {
         const count = farmerRanking.length;
         navHtml += `<a href="#farmer" class="nav-btn">` +
@@ -60,12 +60,7 @@ function render(data) {
         html += `</div>`;
         html += `<div class="section-stats"><span class="count">${count}</span>challengers</div>`;
         html += `</div>`;
-
-        if (count > 0) {
-            html += renderTable(farmerRanking, "farmer");
-        } else {
-            html += renderEmpty();
-        }
+        html += count > 0 ? renderTable(farmerRanking, "farmer") : renderEmpty();
         html += `</div>`;
     }
 
@@ -89,12 +84,7 @@ function render(data) {
         html += `</div>`;
         html += `<div class="section-stats"><span class="count">${count}</span>challengers</div>`;
         html += `</div>`;
-
-        if (count > 0) {
-            html += renderTable(rankings, "solo");
-        } else {
-            html += renderEmpty();
-        }
+        html += count > 0 ? renderTable(rankings, "solo") : renderEmpty();
         html += `</div>`;
     }
 
@@ -122,7 +112,6 @@ function renderTable(entries, type) {
             : esc(e.leek_names || "?");
         const level = type === "solo" ? (e.leek_level || e.total_level) : e.total_level;
 
-        // Rank display: medal image for top 3, number for rest
         let rankHtml;
         if (MEDAL[rank]) {
             rankHtml = `<img src="${MEDAL[rank]}" class="rank-medal" alt="#${rank}">`;
@@ -143,7 +132,7 @@ function renderTable(entries, type) {
         html += `<td class="turns-cell">${e.turns || "?"}</td>`;
         html += `<td class="date-cell">${dateStr}</td>`;
         html += `<td><a class="fight-link" href="https://leekwars.com/fight/${e.fight_id}" target="_blank">` +
-            `<img src="${IMG}/icon/garden.png" alt="">fight</a></td>`;
+            `<img src="${IMG}/weapon/pistol.png" alt="">fight</a></td>`;
         html += `</tr>`;
     });
 
@@ -153,7 +142,7 @@ function renderTable(entries, type) {
 
 function renderEmpty() {
     return `<div class="empty-state">` +
-        `<img src="${IMG}/chip/shield.png" alt="">` +
+        `<img src="${IMG}/weapon/magnum.png" alt="">` +
         `<p>No one has beaten this Dalton yet. Will you be the first?</p>` +
         `</div>`;
 }
