@@ -76,7 +76,10 @@ body {
     background: rgba(30, 21, 13, 0.7);
     box-shadow:
         inset 0 0 40px rgba(0,0,0,0.3),
-        0 0 30px rgba(212,168,75,0.08);
+        0 0 30px rgba(212,168,75,0.08),
+        0 0 0 1px rgba(0,0,0,0.4),
+        0 0 0 5px rgba(61,43,26,0.3),
+        0 0 0 6px rgba(107,58,31,0.2);
     position: relative;
 }
 
@@ -84,15 +87,15 @@ body {
 .wanted-frame::after {
     content: "";
     position: absolute;
-    left: 8px;
-    right: 8px;
+    left: 10px;
+    right: 10px;
     height: 1px;
-    background: var(--sand-dim);
-    opacity: 0.4;
+    background: linear-gradient(90deg, transparent, var(--sand-dim) 15%, var(--sand-dim) 85%, transparent);
+    opacity: 0.5;
 }
 
-.wanted-frame::before { top: 8px; }
-.wanted-frame::after { bottom: 8px; }
+.wanted-frame::before { top: 10px; }
+.wanted-frame::after { bottom: 10px; }
 
 .wanted-label {
     font-family: "Rye", serif;
@@ -108,7 +111,7 @@ body {
     font-size: 2.6rem;
     font-weight: 400;
     color: var(--sand);
-    text-shadow: 0 2px 12px rgba(212,168,75,0.2);
+    text-shadow: 0 2px 12px rgba(212,168,75,0.25), 0 0 40px rgba(212,168,75,0.08);
     margin-bottom: 0.8rem;
 }
 
@@ -206,8 +209,11 @@ body {
     height: 48px;
     border-radius: 6px;
     object-fit: cover;
-    border: 2px solid var(--border);
+    border: 2px solid var(--leather);
     flex-shrink: 0;
+    box-shadow:
+        0 0 0 1px rgba(212,168,75,0.1),
+        0 2px 4px rgba(0,0,0,0.3);
 }
 
 .dalton-mugshot span {
@@ -238,9 +244,14 @@ body {
     justify-content: center;
     gap: 0.5rem;
     padding: 0.7rem 1rem;
-    background: var(--bg-header);
-    border-bottom: 1px solid var(--border);
-    border-top: 1px solid var(--border);
+    background:
+        linear-gradient(180deg, rgba(30,21,13,0.95) 0%, var(--bg-header) 100%);
+    border-bottom: 2px solid var(--leather);
+    border-top: 2px solid var(--leather);
+    box-shadow:
+        inset 0 1px 0 rgba(212,168,75,0.06),
+        inset 0 -1px 0 rgba(212,168,75,0.06),
+        0 2px 6px rgba(0,0,0,0.3);
     position: sticky;
     top: 0;
     z-index: 10;
@@ -257,18 +268,22 @@ body {
     font-size: 0.75rem;
     font-family: inherit;
     color: var(--text-dim);
-    background: transparent;
-    border: 1px solid var(--border);
+    background: rgba(61,43,26,0.3);
+    border: 1px solid var(--leather);
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.15s;
     text-decoration: none;
+    box-shadow: inset 0 1px 0 rgba(212,168,75,0.04);
 }
 
 .nav-btn:hover, .nav-btn.active {
     color: var(--sand);
     border-color: var(--sand-dim);
     background: var(--sand-glow);
+    box-shadow:
+        inset 0 1px 0 rgba(212,168,75,0.1),
+        0 0 8px rgba(212,168,75,0.08);
 }
 
 .nav-btn img {
@@ -283,6 +298,22 @@ main {
     max-width: 960px;
     margin: 0 auto;
     padding: 1.5rem 1rem 3rem;
+    position: relative;
+}
+
+/* Decorative vertical side rails */
+@media (min-width: 1060px) {
+    main::before,
+    main::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        background: linear-gradient(180deg, transparent, rgba(107,58,31,0.15) 10%, rgba(107,58,31,0.15) 90%, transparent);
+    }
+    main::before { left: -20px; }
+    main::after { right: -20px; }
 }
 
 .loading {
@@ -296,9 +327,24 @@ main {
 .dalton-section {
     margin-bottom: 1.5rem;
     background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
+    border: 2px solid var(--leather);
+    border-radius: 6px;
     overflow: hidden;
+    box-shadow:
+        inset 0 0 0 1px rgba(212,168,75,0.08),
+        0 2px 8px rgba(0,0,0,0.3),
+        0 0 0 1px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.dalton-section::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border: 1px solid rgba(212,168,75,0.07);
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: 1;
 }
 
 .section-header {
@@ -306,8 +352,11 @@ main {
     align-items: center;
     gap: 1rem;
     padding: 0.9rem 1.25rem;
-    background: linear-gradient(135deg, rgba(212,168,75,0.06) 0%, transparent 60%);
-    border-bottom: 1px solid var(--border);
+    background:
+        linear-gradient(135deg, rgba(212,168,75,0.06) 0%, transparent 60%),
+        repeating-linear-gradient(90deg, transparent, transparent 120px, rgba(107,58,31,0.04) 120px, rgba(107,58,31,0.04) 121px);
+    border-bottom: 2px solid var(--leather);
+    box-shadow: inset 0 -1px 0 rgba(212,168,75,0.06);
 }
 
 .section-leek {
@@ -337,14 +386,16 @@ main {
 
 .badge-solo {
     color: #8cb4d4;
-    background: rgba(140,180,212,0.1);
+    background: rgba(140,180,212,0.08);
     border: 1px solid rgba(140,180,212,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
 .badge-farmer {
     color: var(--terracotta);
-    background: rgba(196,90,60,0.1);
+    background: rgba(196,90,60,0.08);
     border: 1px solid rgba(196,90,60,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
 .section-stats {
@@ -362,6 +413,20 @@ main {
     line-height: 1;
 }
 
+/* Western divider between sections */
+.dalton-section + .dalton-section::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -0.85rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--leather) 20%, var(--sand-dim) 50%, var(--leather) 80%, transparent);
+    border-radius: 2px;
+}
+
 /* ---------- TABLE ---------- */
 
 .ranking-table {
@@ -370,7 +435,8 @@ main {
 }
 
 .ranking-table th {
-    background: var(--bg-header);
+    background:
+        linear-gradient(180deg, rgba(61,43,26,0.4) 0%, var(--bg-header) 100%);
     color: var(--text-dim);
     padding: 0.5rem 0.75rem;
     text-align: left;
@@ -378,18 +444,23 @@ main {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 2px solid var(--leather);
+    box-shadow: inset 0 1px 0 rgba(212,168,75,0.04);
 }
 
 .ranking-table td {
     padding: 0.55rem 0.75rem;
-    border-bottom: 1px solid rgba(255,255,255,0.02);
+    border-bottom: 1px solid rgba(107,58,31,0.12);
     font-size: 0.85rem;
     transition: background 0.1s;
 }
 
 .ranking-table tbody tr:hover td {
     background: var(--row-hover);
+}
+
+.ranking-table tbody tr:last-child td {
+    border-bottom: none;
 }
 
 /* Rank column */
@@ -416,6 +487,10 @@ main {
 .rank-1 .rank-cell { color: var(--gold); }
 .rank-2 .rank-cell { color: var(--silver); }
 .rank-3 .rank-cell { color: var(--bronze); }
+
+.rank-1 td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
+.rank-2 td:first-child { box-shadow: inset 3px 0 0 var(--silver); }
+.rank-3 td:first-child { box-shadow: inset 3px 0 0 var(--bronze); }
 
 .rank-1:hover td { background: rgba(255, 215, 0, 0.09) !important; }
 .rank-2:hover td { background: rgba(184, 192, 204, 0.06) !important; }
@@ -469,6 +544,7 @@ main {
     color: var(--sand);
     border-color: var(--sand-dim);
     background: var(--sand-glow);
+    box-shadow: 0 0 6px rgba(212,168,75,0.1);
 }
 
 .fight-link img {
@@ -483,6 +559,7 @@ main {
     text-align: center;
     padding: 2.5rem 1rem;
     color: var(--text-dim);
+    border-top: 1px solid rgba(107,58,31,0.15);
 }
 
 .empty-state img {
@@ -503,9 +580,23 @@ main {
 footer {
     text-align: center;
     padding: 2rem 1rem;
-    border-top: 1px solid var(--border);
+    border-top: 2px solid var(--leather);
     color: var(--text-dim);
     font-size: 0.78rem;
+    background:
+        linear-gradient(180deg, transparent 0%, rgba(30,21,13,0.5) 100%);
+    box-shadow: inset 0 1px 0 rgba(212,168,75,0.05);
+    position: relative;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 2rem;
+    right: 2rem;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(107,58,31,0.3) 20%, rgba(107,58,31,0.3) 80%, transparent);
 }
 
 .footer-logo {
@@ -546,6 +637,7 @@ footer a:hover {
     .hero-weapon { display: none; }
 
     .section-header { padding: 0.7rem; gap: 0.6rem; }
+    .dalton-section::before { inset: 2px; }
     .section-leek-wrap { width: 36px; height: 44px; }
     .section-leek-wrap .leek-body { width: 36px; height: 36px; }
     .section-leek-wrap .hat-panama,
