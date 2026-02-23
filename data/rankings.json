@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T12:41:13.822786+00:00",
+  "last_updated": "2026-02-23T15:05:47.911802+00:00",
   "daltons": {
     "46733": [],
     "51098": [
@@ -82,7 +82,27 @@
         "leek_level": 301
       }
     ],
-    "51613": []
+    "51613": [
+      {
+        "fight_id": 51569973,
+        "fight_type": 0,
+        "farmer_name": "Casanova",
+        "farmer_id": 92936,
+        "leeks": [
+          {
+            "id": 99804,
+            "name": "NEWCOMB",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 53,
+        "date": 1771858074,
+        "key": "92936",
+        "leek_name": "NEWCOMB",
+        "leek_level": 301
+      }
+    ]
   },
   "daltons_config": [
     {
@@ -102,7 +122,503 @@
       "name": "AvereIIDalton"
     }
   ],
-  "farmer_ranking": [],
+  "farmer_ranking": [
+    {
+      "fight_id": 51569953,
+      "fight_type": 1,
+      "farmer_name": "Hope",
+      "farmer_id": 123856,
+      "leeks": [
+        {
+          "id": 130288,
+          "name": "Mistral",
+          "level": 300
+        },
+        {
+          "id": 131290,
+          "name": "DeepSeek",
+          "level": 300
+        },
+        {
+          "id": 131318,
+          "name": "Anthropic",
+          "level": 300
+        },
+        {
+          "id": 131330,
+          "name": "Grok",
+          "level": 292
+        }
+      ],
+      "total_level": 1192,
+      "turns": 12,
+      "date": 1771857951,
+      "key": "123856",
+      "leek_names": "Mistral, DeepSeek, Anthropic, Grok"
+    },
+    {
+      "fight_id": 51569754,
+      "fight_type": 1,
+      "farmer_name": "Dworkyn",
+      "farmer_id": 123738,
+      "leeks": [
+        {
+          "id": 130159,
+          "name": "Dworkyn",
+          "level": 301
+        },
+        {
+          "id": 130244,
+          "name": "Corwyn",
+          "level": 300
+        },
+        {
+          "id": 130374,
+          "name": "Fyona",
+          "level": 300
+        },
+        {
+          "id": 130464,
+          "name": "Deyrdre",
+          "level": 300
+        }
+      ],
+      "total_level": 1201,
+      "turns": 5,
+      "date": 1771856493,
+      "key": "123738",
+      "leek_names": "Dworkyn, Corwyn, Fyona, Deyrdre"
+    },
+    {
+      "fight_id": 51570026,
+      "fight_type": 1,
+      "farmer_name": "MimiVite",
+      "farmer_id": 72263,
+      "leeks": [
+        {
+          "id": 77182,
+          "name": "MimiEpsilon",
+          "level": 301
+        },
+        {
+          "id": 77289,
+          "name": "MimiZeta",
+          "level": 301
+        },
+        {
+          "id": 77417,
+          "name": "MimiEta",
+          "level": 301
+        },
+        {
+          "id": 77540,
+          "name": "MimiTheta",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 2,
+      "date": 1771858993,
+      "key": "72263",
+      "leek_names": "MimiEpsilon, MimiZeta, MimiEta, MimiTheta"
+    },
+    {
+      "fight_id": 51569812,
+      "fight_type": 1,
+      "farmer_name": "Mimi25",
+      "farmer_id": 71083,
+      "leeks": [
+        {
+          "id": 75918,
+          "name": "MimiRho",
+          "level": 301
+        },
+        {
+          "id": 75990,
+          "name": "MimiSigma",
+          "level": 301
+        },
+        {
+          "id": 76180,
+          "name": "MimiTau",
+          "level": 301
+        },
+        {
+          "id": 76480,
+          "name": "MimiUpsilon",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 6,
+      "date": 1771856730,
+      "key": "71083",
+      "leek_names": "MimiRho, MimiSigma, MimiTau, MimiUpsilon"
+    },
+    {
+      "fight_id": 51569946,
+      "fight_type": 1,
+      "farmer_name": "Bux420",
+      "farmer_id": 94042,
+      "leeks": [
+        {
+          "id": 99341,
+          "name": "Bux420",
+          "level": 301
+        },
+        {
+          "id": 127341,
+          "name": "Bux1",
+          "level": 301
+        },
+        {
+          "id": 127615,
+          "name": "Bux2",
+          "level": 301
+        },
+        {
+          "id": 128155,
+          "name": "Bux3",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 8,
+      "date": 1771857883,
+      "key": "94042",
+      "leek_names": "Bux420, Bux1, Bux2, Bux3"
+    },
+    {
+      "fight_id": 51569963,
+      "fight_type": 1,
+      "farmer_name": "feeddafeed",
+      "farmer_id": 100566,
+      "leeks": [
+        {
+          "id": 106441,
+          "name": "feeddafeed",
+          "level": 301
+        },
+        {
+          "id": 106530,
+          "name": "leekdafeed",
+          "level": 301
+        },
+        {
+          "id": 106763,
+          "name": "geekdafeed",
+          "level": 301
+        },
+        {
+          "id": 106937,
+          "name": "feedmafeed",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 11,
+      "date": 1771858027,
+      "key": "100566",
+      "leek_names": "feeddafeed, leekdafeed, geekdafeed, feedmafeed"
+    },
+    {
+      "fight_id": 51569646,
+      "fight_type": 1,
+      "farmer_name": "Unbreakable",
+      "farmer_id": 73454,
+      "leeks": [
+        {
+          "id": 78427,
+          "name": "Survivor",
+          "level": 301
+        },
+        {
+          "id": 78605,
+          "name": "Savior",
+          "level": 301
+        },
+        {
+          "id": 80705,
+          "name": "Successor",
+          "level": 301
+        },
+        {
+          "id": 81322,
+          "name": "Superior",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 14,
+      "date": 1771856011,
+      "key": "73454",
+      "leek_names": "Survivor, Savior, Successor, Superior"
+    },
+    {
+      "fight_id": 51569936,
+      "fight_type": 1,
+      "farmer_name": "LaLongueTerre",
+      "farmer_id": 123921,
+      "leeks": [
+        {
+          "id": 130355,
+          "name": "Josu\u00e9Valient\u00e9",
+          "level": 301
+        },
+        {
+          "id": 130419,
+          "name": "Lobsang",
+          "level": 301
+        },
+        {
+          "id": 130578,
+          "name": "SallyLinsay",
+          "level": 301
+        },
+        {
+          "id": 130640,
+          "name": "1\u00e8rePersonneDuSingulier",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 16,
+      "date": 1771857826,
+      "key": "123921",
+      "leek_names": "Josu\u00e9Valient\u00e9, Lobsang, SallyLinsay, 1\u00e8rePersonneDuSingulier"
+    },
+    {
+      "fight_id": 51569918,
+      "fight_type": 1,
+      "farmer_name": "Garcymore008",
+      "farmer_id": 122208,
+      "leeks": [
+        {
+          "id": 128509,
+          "name": "Garcymore007",
+          "level": 301
+        },
+        {
+          "id": 128799,
+          "name": "Mandryke",
+          "level": 301
+        },
+        {
+          "id": 128864,
+          "name": "Hydini",
+          "level": 301
+        },
+        {
+          "id": 128964,
+          "name": "Copperfyld",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 16,
+      "date": 1771857746,
+      "key": "122208",
+      "leek_names": "Garcymore007, Mandryke, Hydini, Copperfyld"
+    },
+    {
+      "fight_id": 51569783,
+      "fight_type": 1,
+      "farmer_name": "leekdaleek",
+      "farmer_id": 99803,
+      "leeks": [
+        {
+          "id": 105584,
+          "name": "leekdaleek",
+          "level": 301
+        },
+        {
+          "id": 105689,
+          "name": "leekdageek",
+          "level": 301
+        },
+        {
+          "id": 105773,
+          "name": "leekmageek",
+          "level": 301
+        },
+        {
+          "id": 105863,
+          "name": "leekmaleek",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 16,
+      "date": 1771856615,
+      "key": "99803",
+      "leek_names": "leekdaleek, leekdageek, leekmageek, leekmaleek"
+    },
+    {
+      "fight_id": 51569930,
+      "fight_type": 1,
+      "farmer_name": "LeGrandPatatoseur",
+      "farmer_id": 60810,
+      "leeks": [
+        {
+          "id": 65639,
+          "name": "Glubule",
+          "level": 301
+        },
+        {
+          "id": 65716,
+          "name": "Mordor",
+          "level": 301
+        },
+        {
+          "id": 67393,
+          "name": "Broutchlag",
+          "level": 301
+        },
+        {
+          "id": 68038,
+          "name": "Gruhh",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 18,
+      "date": 1771857804,
+      "key": "60810",
+      "leek_names": "Glubule, Mordor, Broutchlag, Gruhh"
+    },
+    {
+      "fight_id": 51570009,
+      "fight_type": 1,
+      "farmer_name": "dulph",
+      "farmer_id": 97030,
+      "leeks": [
+        {
+          "id": 102527,
+          "name": "dulph",
+          "level": 301
+        },
+        {
+          "id": 107925,
+          "name": "dolph",
+          "level": 301
+        },
+        {
+          "id": 108449,
+          "name": "dilph",
+          "level": 301
+        },
+        {
+          "id": 124864,
+          "name": "dalph",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 19,
+      "date": 1771858914,
+      "key": "97030",
+      "leek_names": "dulph, dolph, dilph, dalph"
+    },
+    {
+      "fight_id": 51569914,
+      "fight_type": 1,
+      "farmer_name": "geekdageek",
+      "farmer_id": 100010,
+      "leeks": [
+        {
+          "id": 105835,
+          "name": "geekdageek",
+          "level": 301
+        },
+        {
+          "id": 105859,
+          "name": "geekdaleek",
+          "level": 301
+        },
+        {
+          "id": 106018,
+          "name": "geekmaleek",
+          "level": 301
+        },
+        {
+          "id": 106266,
+          "name": "geekmageek",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 27,
+      "date": 1771857721,
+      "key": "100010",
+      "leek_names": "geekdageek, geekdaleek, geekmaleek, geekmageek"
+    },
+    {
+      "fight_id": 51569723,
+      "fight_type": 1,
+      "farmer_name": "EF369",
+      "farmer_id": 122869,
+      "leeks": [
+        {
+          "id": 129212,
+          "name": "EF369A",
+          "level": 301
+        },
+        {
+          "id": 129258,
+          "name": "EF369B",
+          "level": 301
+        },
+        {
+          "id": 129353,
+          "name": "EF369C",
+          "level": 301
+        },
+        {
+          "id": 129584,
+          "name": "EF369D",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 32,
+      "date": 1771856302,
+      "key": "122869",
+      "leek_names": "EF369A, EF369B, EF369C, EF369D"
+    },
+    {
+      "fight_id": 51569915,
+      "fight_type": 1,
+      "farmer_name": "ArdRom",
+      "farmer_id": 55422,
+      "leeks": [
+        {
+          "id": 60151,
+          "name": "SuperAperitif",
+          "level": 301
+        },
+        {
+          "id": 60560,
+          "name": "chiken",
+          "level": 301
+        },
+        {
+          "id": 61028,
+          "name": "SuperChicken",
+          "level": 301
+        },
+        {
+          "id": 61707,
+          "name": "TigreBlanc",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 34,
+      "date": 1771857726,
+      "key": "55422",
+      "leek_names": "SuperAperitif, chiken, SuperChicken, TigreBlanc"
+    }
+  ],
   "farmer_config": {
     "farmer_id": 42851,
     "name": "tagadalton"
