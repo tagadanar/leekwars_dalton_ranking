@@ -26,7 +26,34 @@
 
 body {
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: var(--bg);
+    background:
+        /* subtle vertical wood plank lines */
+        repeating-linear-gradient(
+            90deg,
+            transparent,
+            transparent 119px,
+            rgba(107,58,31,0.06) 119px,
+            rgba(107,58,31,0.03) 121px,
+            transparent 121px
+        ),
+        /* horizontal wood grain streaks */
+        repeating-linear-gradient(
+            178deg,
+            transparent,
+            transparent 60px,
+            rgba(61,43,26,0.05) 60px,
+            rgba(61,43,26,0.02) 62px,
+            transparent 62px
+        ),
+        /* knot-like warm spots scattered */
+        radial-gradient(ellipse 80px 60px at 15% 25%, rgba(107,58,31,0.06) 0%, transparent 70%),
+        radial-gradient(ellipse 100px 50px at 75% 45%, rgba(107,58,31,0.05) 0%, transparent 70%),
+        radial-gradient(ellipse 70px 70px at 40% 70%, rgba(107,58,31,0.04) 0%, transparent 70%),
+        radial-gradient(ellipse 90px 60px at 85% 85%, rgba(107,58,31,0.05) 0%, transparent 70%),
+        /* edge vignette */
+        radial-gradient(ellipse 70% 60% at 50% 50%, transparent 40%, rgba(0,0,0,0.25) 100%),
+        /* base color */
+        var(--bg);
     color: var(--text);
     min-height: 100vh;
 }
