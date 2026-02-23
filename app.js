@@ -65,6 +65,7 @@ function render(data) {
 
     let html = "";
     let navHtml = "";
+    let sectionIndex = 0;
 
     // Farmer ranking
     if (farmerConfig) {
@@ -84,6 +85,7 @@ function render(data) {
         html += `</div>`;
         html += count > 0 ? renderTable(farmerRanking, "farmer") : renderEmpty();
         html += `</div>`;
+        sectionIndex++;
     }
 
     // Per-leek solo sections
@@ -97,6 +99,10 @@ function render(data) {
             `<img src="${img}" alt="">` +
             `${esc(dalton.name)}</a>`;
 
+        if (sectionIndex > 0) {
+            html += `<div class="section-divider"><span>&#9733;</span></div>`;
+        }
+
         html += `<div class="dalton-section" id="leek-${id}">`;
         html += `<div class="section-header">`;
         html += renderLeekWithHat(id, "section-leek-wrap");
@@ -108,6 +114,7 @@ function render(data) {
         html += `</div>`;
         html += count > 0 ? renderTable(rankings, "solo") : renderEmpty();
         html += `</div>`;
+        sectionIndex++;
     }
 
     nav.innerHTML = navHtml;

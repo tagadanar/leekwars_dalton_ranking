@@ -26,34 +26,63 @@
 
 body {
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background:
-        /* subtle vertical wood plank lines */
+    background-color: var(--bg);
+    /* SVG noise grain overlay */
+    background-image:
+        /* vertical plank seams — visible dark gaps */
         repeating-linear-gradient(
             90deg,
             transparent,
-            transparent 119px,
-            rgba(107,58,31,0.06) 119px,
-            rgba(107,58,31,0.03) 121px,
-            transparent 121px
+            transparent 148px,
+            rgba(0,0,0,0.25) 148px,
+            rgba(0,0,0,0.15) 150px,
+            transparent 150px
         ),
-        /* horizontal wood grain streaks */
+        /* thin bright edge next to seam (wood edge catch-light) */
         repeating-linear-gradient(
-            178deg,
+            90deg,
             transparent,
-            transparent 60px,
-            rgba(61,43,26,0.05) 60px,
-            rgba(61,43,26,0.02) 62px,
-            transparent 62px
+            transparent 147px,
+            rgba(107,58,31,0.18) 147px,
+            rgba(107,58,31,0.08) 148px,
+            transparent 150px
         ),
-        /* knot-like warm spots scattered */
-        radial-gradient(ellipse 80px 60px at 15% 25%, rgba(107,58,31,0.06) 0%, transparent 70%),
-        radial-gradient(ellipse 100px 50px at 75% 45%, rgba(107,58,31,0.05) 0%, transparent 70%),
-        radial-gradient(ellipse 70px 70px at 40% 70%, rgba(107,58,31,0.04) 0%, transparent 70%),
-        radial-gradient(ellipse 90px 60px at 85% 85%, rgba(107,58,31,0.05) 0%, transparent 70%),
+        /* horizontal grain — fine lines */
+        repeating-linear-gradient(
+            179deg,
+            transparent,
+            transparent 7px,
+            rgba(61,43,26,0.08) 7px,
+            rgba(61,43,26,0.03) 8px,
+            transparent 8px
+        ),
+        /* wider grain variation */
+        repeating-linear-gradient(
+            177deg,
+            transparent,
+            transparent 23px,
+            rgba(80,50,25,0.06) 23px,
+            rgba(80,50,25,0.02) 25px,
+            transparent 25px
+        ),
+        /* warm knot spots */
+        radial-gradient(ellipse 120px 80px at 12% 20%, rgba(107,58,31,0.12) 0%, transparent 70%),
+        radial-gradient(ellipse 90px 70px at 65% 35%, rgba(107,58,31,0.10) 0%, transparent 70%),
+        radial-gradient(ellipse 100px 80px at 35% 65%, rgba(107,58,31,0.08) 0%, transparent 70%),
+        radial-gradient(ellipse 110px 60px at 82% 80%, rgba(107,58,31,0.10) 0%, transparent 70%),
+        radial-gradient(ellipse 70px 90px at 50% 50%, rgba(80,50,25,0.06) 0%, transparent 70%),
+        /* color variation across planks */
+        linear-gradient(90deg,
+            rgba(26,18,11,0) 0%,
+            rgba(40,28,16,0.3) 20%,
+            rgba(26,18,11,0) 33%,
+            rgba(35,24,14,0.2) 50%,
+            rgba(26,18,11,0) 66%,
+            rgba(42,30,18,0.25) 83%,
+            rgba(26,18,11,0) 100%
+        ),
         /* edge vignette */
-        radial-gradient(ellipse 70% 60% at 50% 50%, transparent 40%, rgba(0,0,0,0.25) 100%),
-        /* base color */
-        var(--bg);
+        radial-gradient(ellipse 70% 55% at 50% 50%, transparent 40%, rgba(0,0,0,0.35) 100%);
     color: var(--text);
     min-height: 100vh;
 }
@@ -147,23 +176,23 @@ body {
 .dalton-lineup {
     display: flex;
     justify-content: center;
-    gap: 1.2rem;
-    margin: 0.5rem 0 1rem;
+    gap: 1.8rem;
+    margin: 0.8rem 0 1.2rem;
 }
 
 .dalton-mugshot {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.25rem;
+    gap: 0.35rem;
 }
 
 /* Leek + hat composite */
 
 .leek-with-hat {
     position: relative;
-    width: 60px;
-    height: 70px;
+    width: 84px;
+    height: 96px;
 }
 
 .leek-with-hat .leek-body {
@@ -171,10 +200,10 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 60px;
-    height: 60px;
+    width: 84px;
+    height: 84px;
     object-fit: contain;
-    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6));
+    filter: drop-shadow(0 3px 8px rgba(0,0,0,0.6));
 }
 
 .leek-with-hat .leek-hat {
@@ -182,18 +211,18 @@ body {
     left: 50%;
     transform: translateX(-50%);
     object-fit: contain;
-    filter: drop-shadow(0 1px 3px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.5));
     z-index: 1;
 }
 
-/* Hat sits on the leek head: leek body top edge is at 10px, head ~15% down */
-.hat-panama   { width: 42px; top: 5px; }
-.hat-fedora   { width: 42px; top: 6px; }
-.hat-sombrero { width: 46px; top: 3px; }
+/* Hat sits on the leek head — scaled for 84px body */
+.hat-panama   { width: 58px; top: 6px; }
+.hat-fedora   { width: 58px; top: 7px; }
+.hat-sombrero { width: 64px; top: 3px; }
 
 .dalton-mugshot:hover .leek-with-hat .leek-body,
 .dalton-mugshot:hover .leek-with-hat .leek-hat {
-    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.6)) brightness(1.05);
+    filter: drop-shadow(0 3px 10px rgba(0,0,0,0.6)) brightness(1.08);
 }
 
 /* Section header leek composite */
@@ -245,7 +274,7 @@ body {
 
 .dalton-mugshot span {
     font-family: "Rye", serif;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     color: var(--text-dim);
     letter-spacing: 0.06em;
 }
@@ -368,8 +397,8 @@ main {
     content: "";
     position: absolute;
     inset: 3px;
-    border: 1px solid rgba(212,168,75,0.07);
-    border-radius: 4px;
+    border: 1px solid rgba(212,168,75,0.15);
+    border-radius: 3px;
     pointer-events: none;
     z-index: 1;
 }
@@ -440,18 +469,36 @@ main {
     line-height: 1;
 }
 
-/* Western divider between sections */
-.dalton-section + .dalton-section::after {
+/* Western star divider between sections */
+.dalton-section + .dalton-section {
+    margin-top: 2rem;
+    position: relative;
+}
+
+.section-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-divider::before,
+.section-divider::after {
     content: "";
-    display: block;
-    position: absolute;
-    top: -0.85rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 40px;
-    height: 3px;
-    background: linear-gradient(90deg, transparent, var(--leather) 20%, var(--sand-dim) 50%, var(--leather) 80%, transparent);
-    border-radius: 2px;
+    height: 1px;
+    width: 60px;
+    background: linear-gradient(90deg, transparent, var(--leather));
+}
+
+.section-divider::after {
+    background: linear-gradient(90deg, var(--leather), transparent);
+}
+
+.section-divider span {
+    color: var(--sand-dim);
+    font-size: 0.9rem;
+    line-height: 1;
 }
 
 /* ---------- TABLE ---------- */
@@ -580,25 +627,27 @@ main {
     opacity: 0.5;
 }
 
-/* Empty state */
+/* Empty state — compact */
 
 .empty-state {
-    text-align: center;
-    padding: 2.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 1rem 1.25rem;
     color: var(--text-dim);
-    border-top: 1px solid rgba(107,58,31,0.15);
 }
 
 .empty-state img {
-    width: 44px;
-    height: 44px;
-    opacity: 0.2;
-    margin-bottom: 0.6rem;
+    width: 24px;
+    height: 24px;
+    opacity: 0.25;
     filter: sepia(1) brightness(0.7);
+    flex-shrink: 0;
 }
 
 .empty-state p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-style: italic;
 }
 
@@ -656,11 +705,11 @@ footer a:hover {
     .hero h1 { font-size: 1.8rem; }
     .wanted-frame { padding: 1rem 1.2rem 0.8rem; }
     .wanted-label { font-size: 0.8rem; }
-    .dalton-lineup { gap: 0.6rem; }
-    .leek-with-hat { width: 44px; height: 54px; }
-    .leek-with-hat .leek-body { width: 44px; height: 44px; }
-    .hat-panama, .hat-fedora { width: 32px; top: 4px; }
-    .hat-sombrero { width: 35px; top: 2px; }
+    .dalton-lineup { gap: 0.8rem; }
+    .leek-with-hat { width: 60px; height: 70px; }
+    .leek-with-hat .leek-body { width: 60px; height: 60px; }
+    .hat-panama, .hat-fedora { width: 42px; top: 5px; }
+    .hat-sombrero { width: 46px; top: 3px; }
     .hero-weapon { display: none; }
 
     .section-header { padding: 0.7rem; gap: 0.6rem; }
