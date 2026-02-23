@@ -19,11 +19,15 @@ const DALTON_HATS = {
 
 const FARMER_AVATAR = "https://leekwars.com/avatar/42851.png";
 
-// Trophies for top 3
+// Star medals for top 3 (gold / silver / bronze)
+const STAR = '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/>';
+function starMedal(color) {
+    return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="${color}">${STAR}</svg>`)}`;
+}
 const MEDAL = {
-    1: `${IMG}/trophy/emperor.svg`,
-    2: `${IMG}/trophy/baron.svg`,
-    3: `${IMG}/trophy/chief.svg`,
+    1: starMedal("#ffd700"),
+    2: starMedal("#b8c0cc"),
+    3: starMedal("#cd7f32"),
 };
 
 document.addEventListener("DOMContentLoaded", () => {
