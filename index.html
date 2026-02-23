@@ -4,20 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dalton Ranking - LeekWars</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/leek-wars/leek-wars-client/main/public/image/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Dalton Ranking</h1>
-        <p class="subtitle">Who can beat the Daltons most efficiently?<br>Lowest level wins. Ties broken by fewest turns.</p>
-        <p class="last-updated" id="last-updated"></p>
-    </header>
+    <div class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <img src="https://raw.githubusercontent.com/leek-wars/leek-wars-client/main/public/image/logo.png"
+                 alt="LeekWars" class="lw-logo">
+            <h1>Dalton Ranking</h1>
+            <p class="tagline">Can you beat the Daltons?<br>Lowest level wins. Ties broken by fewest turns.</p>
+            <div class="dalton-lineup">
+                <div class="dalton-mugshot">
+                    <img src="https://raw.githubusercontent.com/leek-wars/leek-wars-client/main/public/image/leek/leek1_front_red.png" alt="Joe">
+                    <span>Joe</span>
+                </div>
+                <div class="dalton-mugshot">
+                    <img src="https://raw.githubusercontent.com/leek-wars/leek-wars-client/main/public/image/leek/leek1_front_orange.png" alt="William">
+                    <span>William</span>
+                </div>
+                <div class="dalton-mugshot">
+                    <img src="https://raw.githubusercontent.com/leek-wars/leek-wars-client/main/public/image/leek/leek10_front_yellow.png" alt="Jack">
+                    <span>Jack</span>
+                </div>
+                <div class="dalton-mugshot">
+                    <img src="https://raw.githubusercontent.com/leek-wars/leek-wars-client/main/public/image/leek/leek10_front_magenta.png" alt="Averell">
+                    <span>Averell</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="section-nav" id="section-nav"></nav>
+
     <main id="content">
         <p class="loading">Loading rankings...</p>
     </main>
+
     <footer>
-        <p>Data auto-updates every 6 hours &middot; <a href="https://leekwars.com" target="_blank">LeekWars</a></p>
+        <img src="https://raw.githubusercontent.com/leek-wars/leek-wars-client/main/public/image/leek/leek1_front_green.png"
+             alt="" class="footer-leek">
+        <p>Auto-updates every 6 hours</p>
+        <p class="last-updated" id="last-updated"></p>
+        <p><a href="https://leekwars.com" target="_blank">LeekWars</a> &middot; <a href="https://leekwars.com/farmer/42851" target="_blank">tagadalton</a></p>
     </footer>
+
     <script src="app.js"></script>
 </body>
 </html>

@@ -1,3 +1,21 @@
+const IMG = "https://raw.githubusercontent.com/leek-wars/leek-wars-client/main/public/image";
+
+// Leek images for each Dalton (keyed by leek_id)
+const DALTON_IMGS = {
+    46733: `${IMG}/leek/leek1_front_red.png`,
+    51098: `${IMG}/leek/leek1_front_orange.png`,
+    51257: `${IMG}/leek/leek10_front_yellow.png`,
+    51613: `${IMG}/leek/leek10_front_magenta.png`,
+};
+const FARMER_IMG = `${IMG}/icon/team.png`;
+
+// Trophy SVGs for top 3
+const MEDAL = {
+    1: `${IMG}/trophy/big/emperor.svg`,
+    2: `${IMG}/trophy/big/baron.svg`,
+    3: `${IMG}/trophy/big/chief.svg`,
+};
+
 document.addEventListener("DOMContentLoaded", () => {
     fetch("data/rankings.json")
         .then(r => r.json())
@@ -17,76 +35,127 @@ function render(data) {
     }
 
     const main = document.getElementById("content");
+    const nav = document.getElementById("section-nav");
     const config = data.daltons_config || [];
     const daltons = data.daltons || {};
     const farmerRanking = data.farmer_ranking || [];
     const farmerConfig = data.farmer_config;
 
     let html = "";
+    let navHtml = "";
 
     // Farmer ranking section
     if (farmerConfig) {
-        html += '<div class="dalton-section">';
-        html += '<div class="dalton-header">';
+        const count = farmerRanking.length;
+        navHtml += `<a href="#farmer" class="nav-btn">` +
+            `<img src="${FARMER_IMG}" alt="">` +
+            `${esc(farmerConfig.name)}</a>`;
+
+        html += `<div class="dalton-section" id="farmer">`;
+        html += `<div class="section-header">`;
+        html += `<img src="${FARMER_IMG}" class="section-leek" alt="">`;
+        html += `<div class="section-info">`;
         html += `<h2>${esc(farmerConfig.name)}</h2>`;
-        html += '<span class="description">Farmer fight ranking</span>';
-        html += "</div>";
-        if (farmerRanking.length > 0) {
+        html += `<span class="badge badge-farmer">Farmer fight</span>`;
+        html += `</div>`;
+        html += `<div class="section-stats"><span class="count">${count}</span>challengers</div>`;
+        html += `</div>`;
+
+        if (count > 0) {
             html += renderTable(farmerRanking, "farmer");
         } else {
-            html += '<p class="empty-msg">No challengers yet</p>';
+            html += renderEmpty();
         }
-        html += "</div>";
+        html += `</div>`;
     }
 
-    // Per-leek solo ranking sections
+    // Per-leek solo sections
     for (const dalton of config) {
-        const rankings = daltons[String(dalton.leek_id)] || [];
-        html += '<div class="dalton-section">';
-        html += '<div class="dalton-header">';
+        const id = dalton.leek_id;
+        const rankings = daltons[String(id)] || [];
+        const count = rankings.length;
+        const img = DALTON_IMGS[id] || `${IMG}/leek/leek1_front_green.png`;
+
+        navHtml += `<a href="#leek-${id}" class="nav-btn">` +
+            `<img src="${img}" alt="">` +
+            `${esc(dalton.name)}</a>`;
+
+        html += `<div class="dalton-section" id="leek-${id}">`;
+        html += `<div class="section-header">`;
+        html += `<img src="${img}" class="section-leek" alt="${esc(dalton.name)}">`;
+        html += `<div class="section-info">`;
         html += `<h2>${esc(dalton.name)}</h2>`;
-        html += '<span class="description">Solo fight ranking</span>';
-        html += "</div>";
-        if (rankings.length > 0) {
+        html += `<span class="badge badge-solo">Solo fight</span>`;
+        html += `</div>`;
+        html += `<div class="section-stats"><span class="count">${count}</span>challengers</div>`;
+        html += `</div>`;
+
+        if (count > 0) {
             html += renderTable(rankings, "solo");
         } else {
-            html += '<p class="empty-msg">No challengers yet</p>';
+            html += renderEmpty();
         }
-        html += "</div>";
+        html += `</div>`;
     }
 
+    nav.innerHTML = navHtml;
     main.innerHTML = html || '<p class="loading">No rankings data yet.</p>';
 }
 
 function renderTable(entries, type) {
     let html = '<table class="ranking-table"><thead><tr>';
-    html += "<th>#</th><th>Farmer</th>";
-    html += type === "solo" ? "<th>Leek</th>" : "<th>Leeks</th>";
-    html += "<th>Level</th><th>Turns</th><th>Date</th><th></th>";
-    html += "</tr></thead><tbody>";
+    html += '<th style="text-align:center">#</th>';
+    html += '<th>Farmer</th>';
+    html += type === "solo" ? '<th>Leek</th>' : '<th>Leeks</th>';
+    html += '<th style="text-align:center">Level</th>';
+    html += '<th style="text-align:center">Turns</th>';
+    html += '<th>Date</th>';
+    html += '<th></th>';
+    html += '</tr></thead><tbody>';
 
     entries.forEach((e, i) => {
         const rank = i + 1;
-        const rankClass = rank <= 3 ? ` rank-${rank}` : "";
+        const cls = rank <= 3 ? ` rank-${rank}` : "";
         const dateStr = e.date ? new Date(e.date * 1000).toLocaleDateString() : "?";
         const leekCol = type === "solo"
             ? esc(e.leek_name || "?")
             : esc(e.leek_names || "?");
         const level = type === "solo" ? (e.leek_level || e.total_level) : e.total_level;
 
-        html += `<tr class="${rankClass}">`;
-        html += `<td class="rank-cell">${rank}</td>`;
-        html += `<td>${esc(e.farmer_name || "?")}</td>`;
-        html += `<td>${leekCol}</td>`;
+        // Rank display: medal image for top 3, number for rest
+        let rankHtml;
+        if (MEDAL[rank]) {
+            rankHtml = `<img src="${MEDAL[rank]}" class="rank-medal" alt="#${rank}">`;
+        } else {
+            rankHtml = rank;
+        }
+
+        const farmerId = e.farmer_id || "";
+        const farmerLink = farmerId
+            ? `<a href="https://leekwars.com/farmer/${farmerId}" target="_blank">${esc(e.farmer_name || "?")}</a>`
+            : esc(e.farmer_name || "?");
+
+        html += `<tr class="${cls}">`;
+        html += `<td class="rank-cell">${rankHtml}</td>`;
+        html += `<td class="farmer-cell">${farmerLink}</td>`;
+        html += `<td class="leek-cell">${leekCol}</td>`;
         html += `<td class="level-cell">${level}</td>`;
         html += `<td class="turns-cell">${e.turns || "?"}</td>`;
-        html += `<td>${dateStr}</td>`;
-        html += `<td><a class="fight-link" href="https://leekwars.com/fight/${e.fight_id}" target="_blank">view</a></td>`;
-        html += "</tr>";
+        html += `<td class="date-cell">${dateStr}</td>`;
+        html += `<td><a class="fight-link" href="https://leekwars.com/fight/${e.fight_id}" target="_blank">` +
+            `<img src="${IMG}/icon/garden.png" alt="">fight</a></td>`;
+        html += `</tr>`;
     });
 
-    html += "</tbody></table>";
+    html += '</tbody></table>';
     return html;
+}
+
+function renderEmpty() {
+    return `<div class="empty-state">` +
+        `<img src="${IMG}/chip/shield.png" alt="">` +
+        `<p>No one has beaten this Dalton yet. Will you be the first?</p>` +
+        `</div>`;
 }
 
 function esc(str) {
