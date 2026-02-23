@@ -133,7 +133,7 @@ body {
 .leek-with-hat {
     position: relative;
     width: 60px;
-    height: 80px;
+    height: 70px;
 }
 
 .leek-with-hat .leek-body {
@@ -149,7 +149,6 @@ body {
 
 .leek-with-hat .leek-hat {
     position: absolute;
-    top: 0;
     left: 50%;
     transform: translateX(-50%);
     object-fit: contain;
@@ -157,9 +156,10 @@ body {
     z-index: 1;
 }
 
-.hat-panama  { width: 48px; top: 2px; }
-.hat-fedora  { width: 48px; top: 2px; }
-.hat-sombrero { width: 52px; top: 0px; }
+/* Hat sits on the leek head: leek body top edge is at 10px, head ~15% down */
+.hat-panama   { width: 42px; top: 5px; }
+.hat-fedora   { width: 42px; top: 6px; }
+.hat-sombrero { width: 46px; top: 3px; }
 
 .dalton-mugshot:hover .leek-with-hat .leek-body,
 .dalton-mugshot:hover .leek-with-hat .leek-hat {
@@ -171,7 +171,7 @@ body {
 .section-leek-wrap {
     position: relative;
     width: 48px;
-    height: 64px;
+    height: 56px;
     flex-shrink: 0;
 }
 
@@ -188,7 +188,6 @@ body {
 
 .section-leek-wrap .leek-hat {
     position: absolute;
-    top: 0;
     left: 50%;
     transform: translateX(-50%);
     object-fit: contain;
@@ -196,9 +195,9 @@ body {
     z-index: 1;
 }
 
-.section-leek-wrap .hat-panama  { width: 38px; top: 2px; }
-.section-leek-wrap .hat-fedora  { width: 38px; top: 2px; }
-.section-leek-wrap .hat-sombrero { width: 42px; top: 0px; }
+.section-leek-wrap .hat-panama  { width: 34px; top: 4px; }
+.section-leek-wrap .hat-fedora  { width: 34px; top: 5px; }
+.section-leek-wrap .hat-sombrero { width: 37px; top: 2px; }
 
 /* Farmer avatar */
 
@@ -540,18 +539,18 @@ footer a:hover {
     .wanted-frame { padding: 1rem 1.2rem 0.8rem; }
     .wanted-label { font-size: 0.8rem; }
     .dalton-lineup { gap: 0.6rem; }
-    .leek-with-hat { width: 44px; height: 60px; }
+    .leek-with-hat { width: 44px; height: 54px; }
     .leek-with-hat .leek-body { width: 44px; height: 44px; }
-    .hat-panama, .hat-fedora { width: 36px; }
-    .hat-sombrero { width: 40px; }
+    .hat-panama, .hat-fedora { width: 32px; top: 4px; }
+    .hat-sombrero { width: 35px; top: 2px; }
     .hero-weapon { display: none; }
 
     .section-header { padding: 0.7rem; gap: 0.6rem; }
-    .section-leek-wrap { width: 36px; height: 50px; }
+    .section-leek-wrap { width: 36px; height: 44px; }
     .section-leek-wrap .leek-body { width: 36px; height: 36px; }
     .section-leek-wrap .hat-panama,
-    .section-leek-wrap .hat-fedora { width: 30px; }
-    .section-leek-wrap .hat-sombrero { width: 32px; }
+    .section-leek-wrap .hat-fedora { width: 26px; top: 3px; }
+    .section-leek-wrap .hat-sombrero { width: 28px; top: 1px; }
     .farmer-avatar { width: 36px; height: 36px; }
     .section-info h2 { font-size: 1rem; }
     .section-stats { display: none; }
