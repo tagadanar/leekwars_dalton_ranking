@@ -1,11 +1,12 @@
 const IMG = "https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/image";
+const LW = "https://leekwars.com/image";
 
-// Leek images per Dalton
+// Actual leek renders from leekwars.com (skin=dalton, appearance=11, varying face/metal)
 const DALTON_IMGS = {
-    46733: `${IMG}/leek/leek1_front_red.png`,
-    51098: `${IMG}/leek/leek1_front_orange.png`,
-    51257: `${IMG}/leek/leek10_front_yellow.png`,
-    51613: `${IMG}/leek/leek10_front_magenta.png`,
+    46733: `${LW}/leek/svg/leek_11_front_dalton_angry.svg`,       // JoeDalton: face=angry
+    51098: `${LW}/leek/svg/leek_11_front_dalton_metal.svg`,       // WilliamDalton: metal
+    51257: `${LW}/leek/svg/leek_11_front_dalton.svg`,             // JackDalton: plain
+    51613: `${LW}/leek/svg/leek_11_front_dalton_metal_happy.svg`, // AvereIIDalton: metal+happy
 };
 const FARMER_IMG = `${IMG}/icon/team.png`;
 
