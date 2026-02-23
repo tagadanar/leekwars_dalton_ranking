@@ -1,4 +1,129 @@
 {
-    "last_updated": null,
-    "daltons": {}
+  "last_updated": "2026-02-23T11:41:56.246514+00:00",
+  "daltons": {
+    "46733": [],
+    "51098": [
+      {
+        "fight_id": 51542947,
+        "fight_type": 0,
+        "farmer_name": "FantoBlueLock",
+        "farmer_id": 89464,
+        "leeks": [
+          {
+            "id": 94700,
+            "name": "FantoIsagi",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 6,
+        "date": 1771669116,
+        "key": "89464_94700",
+        "leek_name": "FantoIsagi",
+        "leek_level": 301
+      }
+    ],
+    "51257": [
+      {
+        "fight_id": 51496106,
+        "fight_type": 0,
+        "farmer_name": "syLL",
+        "farmer_id": 75343,
+        "leeks": [
+          {
+            "id": 126170,
+            "name": "Impertino",
+            "level": 300
+          }
+        ],
+        "total_level": 300,
+        "turns": 9,
+        "date": 1771314777,
+        "key": "75343_126170",
+        "leek_name": "Impertino",
+        "leek_level": 300
+      },
+      {
+        "fight_id": 51540163,
+        "fight_type": 0,
+        "farmer_name": "tagadamasio",
+        "farmer_id": 53189,
+        "leeks": [
+          {
+            "id": 71600,
+            "name": "Lorca",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 10,
+        "date": 1771639300,
+        "key": "53189_71600",
+        "leek_name": "Lorca",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51514072,
+        "fight_type": 0,
+        "farmer_name": "tagadamasio",
+        "farmer_id": 53189,
+        "leeks": [
+          {
+            "id": 57742,
+            "name": "Captp",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 10,
+        "date": 1771466438,
+        "key": "53189_57742",
+        "leek_name": "Captp",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51562307,
+        "fight_type": 0,
+        "farmer_name": "tagadaveniradieux",
+        "farmer_id": 73155,
+        "leeks": [
+          {
+            "id": 78203,
+            "name": "DecoDeNoel",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 20,
+        "date": 1771812105,
+        "key": "73155_78203",
+        "leek_name": "DecoDeNoel",
+        "leek_level": 301
+      }
+    ],
+    "51613": []
+  },
+  "daltons_config": [
+    {
+      "leek_id": 46733,
+      "name": "JoeDalton"
+    },
+    {
+      "leek_id": 51098,
+      "name": "WilliamDalton"
+    },
+    {
+      "leek_id": 51257,
+      "name": "JackDalton"
+    },
+    {
+      "leek_id": 51613,
+      "name": "AvereIIDalton"
+    }
+  ],
+  "farmer_ranking": [],
+  "farmer_config": {
+    "farmer_id": 42851,
+    "name": "tagadalton"
+  }
 }

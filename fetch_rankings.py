@@ -16,10 +16,9 @@ CONFIG_PATH = Path(__file__).parent / "config.json"
 CACHE_PATH = DATA_DIR / "cache.json"
 RANKINGS_PATH = DATA_DIR / "rankings.json"
 
-# Rate limiting
-REQUEST_DELAY = 1.0  # seconds between requests
+REQUEST_DELAY = 1.0
 MAX_RETRIES = 3
-BACKOFF_BASE = 5  # seconds
+BACKOFF_BASE = 5
 
 
 def load_config():
@@ -44,7 +43,7 @@ def load_rankings():
     if RANKINGS_PATH.exists():
         with open(RANKINGS_PATH) as f:
             return json.load(f)
-    return {"last_updated": None, "daltons": {}}
+    return {"last_updated": None, "daltons": {}, "farmer_ranking": []}
 
 
 def save_rankings(rankings):
@@ -54,7 +53,6 @@ def save_rankings(rankings):
 
 
 def api_request(session, endpoint, retries=MAX_RETRIES):
-    """Make an API request with rate limiting and retry on 429."""
     for attempt in range(retries):
         time.sleep(REQUEST_DELAY)
         r = session.get(f"{BASE_URL}/{endpoint}")
@@ -69,7 +67,6 @@ def api_request(session, endpoint, retries=MAX_RETRIES):
 
 
 def login(session):
-    """Authenticate and return session with auth headers."""
     login_name = os.environ.get("LEEKWARS_LOGIN")
     password = os.environ.get("LEEKWARS_PASSWORD")
     if not login_name or not password:
@@ -90,20 +87,9 @@ def login(session):
     return data["farmer"]
 
 
-def get_fight_type(fight):
-    """Determine fight type: 'solo', 'farmer', or 'other'."""
-    context = fight.get("context", "")
-    fight_type = fight.get("type", 0)
-    # type 0 = solo, type 1 = farmer, type 2 = team
-    if fight_type == 0:
-        return "solo"
-    elif fight_type == 1:
-        return "farmer"
-    return "other"
-
-
-def count_turns(actions):
-    """Count number of turns from actions array."""
+def count_turns(fight):
+    """Count turns from data.actions."""
+    actions = fight.get("data", {}).get("actions", [])
     turns = 0
     for action in actions:
         if isinstance(action, list) and len(action) >= 2 and action[0] == 6:
@@ -111,75 +97,76 @@ def count_turns(actions):
     return turns
 
 
-def extract_challenger_info(fight, dalton_leek_id):
-    """Extract challenger info from a fight where the Dalton lost.
+def extract_challenger_info(fight, dalton_leek_ids):
+    """Extract challenger info from a fight where the Dalton side lost.
 
-    Returns None if the Dalton didn't lose, or dict with challenger info.
+    Uses leeks1/leeks2 arrays (leek objects with id, name, level, farmer).
     """
     winner = fight.get("winner", -1)
-    if winner == -1 or winner == 0:
-        return None  # pending or draw
+    if winner not in (1, 2):
+        return None  # pending, draw, or unknown
 
-    leeks = fight.get("leeks", {})
-    team1 = fight.get("team1", [])
-    team2 = fight.get("team2", [])
+    leeks1 = fight.get("leeks1", [])
+    leeks2 = fight.get("leeks2", [])
 
     # Find which team the Dalton is on
     dalton_team = None
-    dalton_id_str = str(dalton_leek_id)
-    for lid in team1:
-        if str(lid) == dalton_id_str:
+    for leek in leeks1:
+        if leek.get("id") in dalton_leek_ids:
             dalton_team = 1
             break
     if dalton_team is None:
-        for lid in team2:
-            if str(lid) == dalton_id_str:
+        for leek in leeks2:
+            if leek.get("id") in dalton_leek_ids:
                 dalton_team = 2
                 break
 
     if dalton_team is None:
-        return None  # Dalton not found in fight
+        return None
 
-    # Check if the Dalton's team lost
+    # Dalton's team must have lost
     if winner == dalton_team:
-        return None  # Dalton won, skip
+        return None
 
-    # Challenger team is the other team
-    challenger_team_ids = team2 if dalton_team == 1 else team1
+    # Challenger is the winning team
+    challenger_leeks_raw = leeks2 if dalton_team == 1 else leeks1
+    fight_type = fight.get("type", 0)  # 0=solo, 1=farmer, 2=team
 
-    # Leeks dict uses string keys
     challenger_leeks = []
     farmer_name = None
     farmer_id = None
-    for lid in challenger_team_ids:
-        lid_str = str(lid)
-        if lid_str in leeks:
-            leek = leeks[lid_str]
-            challenger_leeks.append({
-                "id": lid,
-                "name": leek.get("name", "?"),
-                "level": leek.get("level", 0),
-            })
-            if farmer_name is None:
-                farmer_name = leek.get("farmer_name", leek.get("owner_name", "?"))
-                farmer_id = leek.get("farmer", leek.get("owner", None))
+    for leek in challenger_leeks_raw:
+        challenger_leeks.append({
+            "id": leek.get("id"),
+            "name": leek.get("name", "?"),
+            "level": leek.get("level", 0),
+        })
+        if farmer_name is None:
+            farmer_name = leek.get("farmer_name")
+            farmer_id = leek.get("farmer")
 
     if not challenger_leeks:
         return None
 
-    fight_type = get_fight_type(fight)
-    turns = count_turns(fight.get("actions", []))
-    fight_date = fight.get("date", 0)
+    # farmer_name may not be in leeks1/2 — we'll fill it from report if needed
+    if farmer_name is None:
+        # Check farmers1/farmers2
+        farmers = fight.get("farmers1", {}) if dalton_team == 2 else fight.get("farmers2", {})
+        if isinstance(farmers, dict):
+            for fid, fdata in farmers.items():
+                farmer_id = int(fid)
+                farmer_name = fdata.get("name", "?") if isinstance(fdata, dict) else "?"
+                break
 
     return {
         "fight_id": fight.get("id"),
         "fight_type": fight_type,
-        "farmer_name": farmer_name,
+        "farmer_name": farmer_name or "?",
         "farmer_id": farmer_id,
         "leeks": challenger_leeks,
         "total_level": sum(l["level"] for l in challenger_leeks),
-        "turns": turns,
-        "date": fight_date,
+        "turns": count_turns(fight),
+        "date": fight.get("date", 0),
     }
 
 
@@ -189,83 +176,98 @@ def ranking_key(entry):
 
 
 def merge_rankings(existing, new_entries):
-    """Merge new entries into existing rankings, keeping best per unique challenger.
-
-    For solo: key is (farmer_id, leek_id) - best attempt per leek
-    For farmer: key is farmer_id - best attempt per farmer
-    """
-    solo = {e["key"]: e for e in existing.get("solo", [])}
-    farmer = {e["key"]: e for e in existing.get("farmer", [])}
-
+    """Merge new entries, keeping best per unique key."""
+    by_key = {e["key"]: e for e in existing}
     for entry in new_entries:
-        if entry["fight_type"] == "solo" and len(entry["leeks"]) == 1:
-            key = f"{entry['farmer_id']}_{entry['leeks'][0]['id']}"
-            entry["key"] = key
-            entry["leek_name"] = entry["leeks"][0]["name"]
-            entry["leek_level"] = entry["leeks"][0]["level"]
-            if key not in solo or ranking_key(entry) < ranking_key(solo[key]):
-                solo[key] = entry
-        elif entry["fight_type"] == "farmer":
-            key = str(entry["farmer_id"])
-            entry["key"] = key
-            entry["leek_names"] = ", ".join(l["name"] for l in entry["leeks"])
-            if key not in farmer or ranking_key(entry) < ranking_key(farmer[key]):
-                farmer[key] = entry
-
-    return {
-        "solo": sorted(solo.values(), key=ranking_key),
-        "farmer": sorted(farmer.values(), key=ranking_key),
-    }
+        key = entry["key"]
+        if key not in by_key or ranking_key(entry) < ranking_key(by_key[key]):
+            by_key[key] = entry
+    return sorted(by_key.values(), key=ranking_key)
 
 
-def process_dalton(session, dalton, cache, rankings):
-    """Process a single Dalton leek: fetch history, extract losses, update rankings."""
-    leek_id = dalton["leek_id"]
-    leek_id_str = str(leek_id)
-    name = dalton["name"]
-
-    print(f"\nProcessing {name} (ID: {leek_id})...")
-
-    # Get fight history
-    data = api_request(session, f"history/get-leek-history/{leek_id}")
+def fetch_and_process_history(session, endpoint, cache_key, dalton_leek_ids, cache, type_filter=None):
+    """Fetch fight history, get details for new fights, extract Dalton losses."""
+    data = api_request(session, endpoint)
     if data is None:
-        print(f"  Failed to get history for {name}")
-        return
+        print(f"  Failed to get history from {endpoint}")
+        return []
 
     fights = data.get("fights", [])
     print(f"  Found {len(fights)} fights in history")
 
-    # Filter already cached fights
-    cached_ids = set(cache.get(leek_id_str, []))
-    new_fight_ids = [f["id"] for f in fights if f["id"] not in cached_ids]
-    print(f"  {len(new_fight_ids)} new fights to process")
+    cached_ids = set(cache.get(cache_key, []))
+    new_fights = [f for f in fights if f["id"] not in cached_ids]
+    # Pre-filter by type from history entry if requested
+    if type_filter is not None:
+        new_fights = [f for f in new_fights if f.get("type") == type_filter]
+    print(f"  {len(new_fights)} new fights to process")
 
-    new_entries = []
-    for fight_id in new_fight_ids:
+    entries = []
+    for hist_fight in new_fights:
+        fight_id = hist_fight["id"]
         fight_data = api_request(session, f"fight/get/{fight_id}")
-        if fight_data is None:
+        if not isinstance(fight_data, dict):
+            cached_ids.add(fight_id)
             continue
 
-        info = extract_challenger_info(fight_data, leek_id)
+        info = extract_challenger_info(fight_data, dalton_leek_ids)
         if info:
-            new_entries.append(info)
+            entries.append(info)
             leek_desc = ", ".join(f"{l['name']}(L{l['level']})" for l in info["leeks"])
-            print(f"  Loss found: {info['farmer_name']} with {leek_desc} in {info['turns']} turns")
+            print(f"  Loss: {info['farmer_name']} with {leek_desc} in {info['turns']}t")
 
-        # Update cache incrementally
         cached_ids.add(fight_id)
 
-    # Save cache
-    cache[leek_id_str] = list(cached_ids)
+    cache[cache_key] = list(cached_ids)
+    return entries
 
-    # Merge rankings
-    existing = rankings.get("daltons", {}).get(leek_id_str, {"solo": [], "farmer": []})
-    updated = merge_rankings(existing, new_entries)
-    if "daltons" not in rankings:
-        rankings["daltons"] = {}
-    rankings["daltons"][leek_id_str] = updated
 
-    print(f"  Rankings: {len(updated['solo'])} solo, {len(updated['farmer'])} farmer entries")
+def process_dalton_leek(session, dalton, dalton_leek_ids, cache, rankings):
+    """Process solo fight history for one Dalton leek."""
+    leek_id = dalton["leek_id"]
+    name = dalton["name"]
+    print(f"\nProcessing {name} (ID: {leek_id}) — solo fights...")
+
+    entries = fetch_and_process_history(
+        session, f"history/get-leek-history/{leek_id}",
+        f"leek_{leek_id}", dalton_leek_ids, cache, type_filter=0
+    )
+
+    # Key by (farmer_id, leek_id) for solo
+    for e in entries:
+        if len(e["leeks"]) == 1:
+            e["key"] = f"{e['farmer_id']}_{e['leeks'][0]['id']}"
+            e["leek_name"] = e["leeks"][0]["name"]
+            e["leek_level"] = e["leeks"][0]["level"]
+
+    solo_entries = [e for e in entries if "key" in e]
+
+    existing = rankings.get("daltons", {}).get(str(leek_id), [])
+    updated = merge_rankings(existing, solo_entries)
+    rankings.setdefault("daltons", {})[str(leek_id)] = updated
+    print(f"  Solo rankings: {len(updated)} entries")
+
+
+def process_farmer(session, farmer_config, dalton_leek_ids, cache, rankings):
+    """Process farmer fight history for the Dalton farmer."""
+    farmer_id = farmer_config["farmer_id"]
+    name = farmer_config["name"]
+    print(f"\nProcessing farmer {name} (ID: {farmer_id}) — farmer fights...")
+
+    entries = fetch_and_process_history(
+        session, f"history/get-farmer-history/{farmer_id}",
+        f"farmer_{farmer_id}", dalton_leek_ids, cache, type_filter=1
+    )
+
+    # Key by farmer_id for farmer ranking
+    for e in entries:
+        e["key"] = str(e["farmer_id"])
+        e["leek_names"] = ", ".join(l["name"] for l in e["leeks"])
+
+    existing = rankings.get("farmer_ranking", [])
+    updated = merge_rankings(existing, entries)
+    rankings["farmer_ranking"] = updated
+    print(f"  Farmer rankings: {len(updated)} entries")
 
 
 def main():
@@ -276,14 +278,17 @@ def main():
     session = requests.Session()
     login(session)
 
+    dalton_leek_ids = {d["leek_id"] for d in config["daltons"]}
+
     for dalton in config["daltons"]:
-        if dalton["leek_id"] == 0:
-            print(f"Skipping {dalton['name']} (placeholder ID 0)")
-            continue
-        process_dalton(session, dalton, cache, rankings)
+        process_dalton_leek(session, dalton, dalton_leek_ids, cache, rankings)
+
+    if "farmer" in config:
+        process_farmer(session, config["farmer"], dalton_leek_ids, cache, rankings)
 
     rankings["last_updated"] = datetime.now(timezone.utc).isoformat()
     rankings["daltons_config"] = config["daltons"]
+    rankings["farmer_config"] = config.get("farmer")
 
     save_cache(cache)
     save_rankings(rankings)

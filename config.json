@@ -1,11 +1,26 @@
 {
     "daltons": [
         {
-            "leek_id": 0,
-            "name": "Dalton Joe",
-            "description": "Level 1 challenge"
+            "leek_id": 46733,
+            "name": "JoeDalton"
+        },
+        {
+            "leek_id": 51098,
+            "name": "WilliamDalton"
+        },
+        {
+            "leek_id": 51257,
+            "name": "JackDalton"
+        },
+        {
+            "leek_id": 51613,
+            "name": "AvereIIDalton"
         }
     ],
+    "farmer": {
+        "farmer_id": 42851,
+        "name": "tagadalton"
+    },
     "site_title": "Dalton Ranking",
     "site_description": "Who can beat the Daltons most efficiently? Lowest level wins. Ties broken by fewest turns."
 }

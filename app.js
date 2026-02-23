@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function render(data) {
-    // Last updated
     if (data.last_updated) {
         const d = new Date(data.last_updated);
         document.getElementById("last-updated").textContent =
@@ -20,50 +19,43 @@ function render(data) {
     const main = document.getElementById("content");
     const config = data.daltons_config || [];
     const daltons = data.daltons || {};
-
-    if (config.length === 0 || config.every(d => d.leek_id === 0)) {
-        main.innerHTML = '<p class="loading">No Dalton leeks configured yet.</p>';
-        return;
-    }
+    const farmerRanking = data.farmer_ranking || [];
+    const farmerConfig = data.farmer_config;
 
     let html = "";
-    for (const dalton of config) {
-        if (dalton.leek_id === 0) continue;
 
-        const rankings = daltons[String(dalton.leek_id)] || { solo: [], farmer: [] };
-        html += renderDaltonSection(dalton, rankings);
+    // Farmer ranking section
+    if (farmerConfig) {
+        html += '<div class="dalton-section">';
+        html += '<div class="dalton-header">';
+        html += `<h2>${esc(farmerConfig.name)}</h2>`;
+        html += '<span class="description">Farmer fight ranking</span>';
+        html += "</div>";
+        if (farmerRanking.length > 0) {
+            html += renderTable(farmerRanking, "farmer");
+        } else {
+            html += '<p class="empty-msg">No challengers yet</p>';
+        }
+        html += "</div>";
+    }
+
+    // Per-leek solo ranking sections
+    for (const dalton of config) {
+        const rankings = daltons[String(dalton.leek_id)] || [];
+        html += '<div class="dalton-section">';
+        html += '<div class="dalton-header">';
+        html += `<h2>${esc(dalton.name)}</h2>`;
+        html += '<span class="description">Solo fight ranking</span>';
+        html += "</div>";
+        if (rankings.length > 0) {
+            html += renderTable(rankings, "solo");
+        } else {
+            html += '<p class="empty-msg">No challengers yet</p>';
+        }
+        html += "</div>";
     }
 
     main.innerHTML = html || '<p class="loading">No rankings data yet.</p>';
-}
-
-function renderDaltonSection(dalton, rankings) {
-    let html = '<div class="dalton-section">';
-    html += '<div class="dalton-header">';
-    html += `<h2>${esc(dalton.name)}</h2>`;
-    if (dalton.description) {
-        html += `<span class="description">${esc(dalton.description)}</span>`;
-    }
-    html += "</div>";
-
-    // Solo rankings
-    html += '<p class="fight-type-label">Solo</p>';
-    if (rankings.solo.length > 0) {
-        html += renderTable(rankings.solo, "solo");
-    } else {
-        html += '<p class="empty-msg">No challengers yet</p>';
-    }
-
-    // Farmer rankings
-    html += '<p class="fight-type-label">Farmer</p>';
-    if (rankings.farmer.length > 0) {
-        html += renderTable(rankings.farmer, "farmer");
-    } else {
-        html += '<p class="empty-msg">No challengers yet</p>';
-    }
-
-    html += "</div>";
-    return html;
 }
 
 function renderTable(entries, type) {
