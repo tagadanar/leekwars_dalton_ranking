@@ -1,14 +1,23 @@
 const IMG = "https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/image";
 const LW = "https://leekwars.com/image";
 
-// Actual leek renders from leekwars.com (skin=dalton, appearance=11, varying face/metal)
+// Actual leek renders (skin=dalton, appearance=11)
 const DALTON_IMGS = {
-    46733: `${LW}/leek/svg/leek_11_front_dalton_angry.svg`,       // JoeDalton: face=angry
-    51098: `${LW}/leek/svg/leek_11_front_dalton_metal.svg`,       // WilliamDalton: metal
-    51257: `${LW}/leek/svg/leek_11_front_dalton.svg`,             // JackDalton: plain
-    51613: `${LW}/leek/svg/leek_11_front_dalton_metal_happy.svg`, // AvereIIDalton: metal+happy
+    46733: `${LW}/leek/svg/leek_11_front_dalton_angry.svg`,       // JoeDalton
+    51098: `${LW}/leek/svg/leek_11_front_dalton_metal.svg`,       // WilliamDalton
+    51257: `${LW}/leek/svg/leek_11_front_dalton.svg`,             // JackDalton
+    51613: `${LW}/leek/svg/leek_11_front_dalton_metal_happy.svg`, // AvereIIDalton
 };
-const FARMER_IMG = `${IMG}/icon/team.png`;
+
+// Hat images per leek (null = no hat)
+const DALTON_HATS = {
+    46733: { src: `${LW}/hat/panama.png`, cls: "hat-panama" },
+    51098: null,
+    51257: { src: `${LW}/hat/gold_fedora.png`, cls: "hat-fedora" },
+    51613: { src: `${LW}/hat/sombrero.png`, cls: "hat-sombrero" },
+};
+
+const FARMER_AVATAR = "https://leekwars.com/avatar/42851.png";
 
 // Trophies for top 3
 const MEDAL = {
@@ -27,6 +36,18 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error(err);
         });
 });
+
+function renderLeekWithHat(leekId, wrapClass) {
+    const img = DALTON_IMGS[leekId];
+    const hat = DALTON_HATS[leekId];
+    let html = `<div class="${wrapClass}">`;
+    html += `<img src="${img}" class="leek-body" alt="">`;
+    if (hat) {
+        html += `<img src="${hat.src}" class="leek-hat ${hat.cls}" alt="">`;
+    }
+    html += `</div>`;
+    return html;
+}
 
 function render(data) {
     if (data.last_updated) {
@@ -49,12 +70,12 @@ function render(data) {
     if (farmerConfig) {
         const count = farmerRanking.length;
         navHtml += `<a href="#farmer" class="nav-btn">` +
-            `<img src="${FARMER_IMG}" alt="">` +
+            `<img src="${FARMER_AVATAR}" alt="">` +
             `${esc(farmerConfig.name)}</a>`;
 
         html += `<div class="dalton-section" id="farmer">`;
         html += `<div class="section-header">`;
-        html += `<img src="${FARMER_IMG}" class="section-leek" alt="">`;
+        html += `<img src="${FARMER_AVATAR}" class="farmer-avatar" alt="${esc(farmerConfig.name)}">`;
         html += `<div class="section-info">`;
         html += `<h2>${esc(farmerConfig.name)}</h2>`;
         html += `<span class="badge badge-farmer">Farmer fight</span>`;
@@ -70,7 +91,7 @@ function render(data) {
         const id = dalton.leek_id;
         const rankings = daltons[String(id)] || [];
         const count = rankings.length;
-        const img = DALTON_IMGS[id] || `${IMG}/leek/leek1_front_green.png`;
+        const img = DALTON_IMGS[id];
 
         navHtml += `<a href="#leek-${id}" class="nav-btn">` +
             `<img src="${img}" alt="">` +
@@ -78,7 +99,7 @@ function render(data) {
 
         html += `<div class="dalton-section" id="leek-${id}">`;
         html += `<div class="section-header">`;
-        html += `<img src="${img}" class="section-leek" alt="${esc(dalton.name)}">`;
+        html += renderLeekWithHat(id, "section-leek-wrap");
         html += `<div class="section-info">`;
         html += `<h2>${esc(dalton.name)}</h2>`;
         html += `<span class="badge badge-solo">Solo fight</span>`;
