@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #1a1a2e;
+    color: #e0e0e0;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-bottom: 2px solid #4caf50;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #4caf50;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #aaa;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.last-updated {
+    color: #666;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+
+.loading {
+    text-align: center;
+    color: #666;
+    padding: 3rem;
+}
+
+.dalton-section {
+    margin-bottom: 2.5rem;
+}
+
+.dalton-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.dalton-header h2 {
+    color: #4caf50;
+    font-size: 1.5rem;
+}
+
+.dalton-header .description {
+    color: #888;
+    font-size: 0.85rem;
+}
+
+.fight-type-label {
+    color: #999;
+    font-size: 0.9rem;
+    margin: 1rem 0 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.ranking-table th {
+    background: #16213e;
+    color: #4caf50;
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #333;
+}
+
+.ranking-table td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #2a2a3e;
+    font-size: 0.9rem;
+}
+
+.ranking-table tr:hover td {
+    background: rgba(76, 175, 80, 0.05);
+}
+
+.rank-cell {
+    font-weight: bold;
+    text-align: center;
+    width: 3rem;
+}
+
+.rank-1 .rank-cell { color: #ffd700; }
+.rank-2 .rank-cell { color: #c0c0c0; }
+.rank-3 .rank-cell { color: #cd7f32; }
+
+.rank-1 td { background: rgba(255, 215, 0, 0.06); }
+.rank-2 td { background: rgba(192, 192, 192, 0.04); }
+.rank-3 td { background: rgba(205, 127, 50, 0.04); }
+
+.level-cell, .turns-cell {
+    text-align: center;
+}
+
+.level-cell {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.fight-link {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.fight-link:hover {
+    color: #4caf50;
+}
+
+.empty-msg {
+    color: #555;
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #555;
+    font-size: 0.8rem;
+    border-top: 1px solid #2a2a3e;
+}
+
+footer a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    .ranking-table th, .ranking-table td {
+        padding: 0.4rem 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .dalton-header {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+}

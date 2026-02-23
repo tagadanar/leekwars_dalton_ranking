@@ -1,0 +1,11 @@
+{
+    "daltons": [
+        {
+            "leek_id": 0,
+            "name": "Dalton Joe",
+            "description": "Level 1 challenge"
+        }
+    ],
+    "site_title": "Dalton Ranking",
+    "site_description": "Who can beat the Daltons most efficiently? Lowest level wins. Ties broken by fewest turns."
+}
