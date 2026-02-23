@@ -503,6 +503,17 @@ main {
 
 /* ---------- TABLE ---------- */
 
+.table-scroll {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.table-scroll thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
 .ranking-table {
     width: 100%;
     border-collapse: collapse;
@@ -731,6 +742,8 @@ footer a:hover {
 
     .date-cell { display: none; }
     .ranking-table th:nth-child(6) { display: none; }
+
+    .table-scroll { max-height: 300px; }
 
     .nav-btn { padding: 0.3rem 0.55rem; font-size: 0.68rem; }
     .nav-btn img { width: 16px; height: 16px; }

@@ -176,8 +176,20 @@ def ranking_key(entry):
 
 
 def merge_rankings(existing, new_entries):
-    """Merge new entries, keeping best per unique key."""
-    by_key = {e["key"]: e for e in existing}
+    """Merge new entries, keeping best per unique key.
+
+    Also migrates old composite keys (e.g. "53189_71600") to farmer-only
+    keys ("53189"), deduplicating by best score.
+    """
+    by_key = {}
+    for e in existing:
+        # Migrate old "farmerId_leekId" keys to farmer-only
+        key = e["key"]
+        if "_" in key and "farmer_id" in e:
+            key = str(e["farmer_id"])
+            e["key"] = key
+        if key not in by_key or ranking_key(e) < ranking_key(by_key[key]):
+            by_key[key] = e
     for entry in new_entries:
         key = entry["key"]
         if key not in by_key or ranking_key(entry) < ranking_key(by_key[key]):
@@ -233,10 +245,10 @@ def process_dalton_leek(session, dalton, dalton_leek_ids, cache, rankings):
         f"leek_{leek_id}", dalton_leek_ids, cache, type_filter=0
     )
 
-    # Key by (farmer_id, leek_id) for solo
+    # Key by farmer_id for solo (best entry per farmer)
     for e in entries:
         if len(e["leeks"]) == 1:
-            e["key"] = f"{e['farmer_id']}_{e['leeks'][0]['id']}"
+            e["key"] = str(e["farmer_id"])
             e["leek_name"] = e["leeks"][0]["name"]
             e["leek_level"] = e["leeks"][0]["level"]
 

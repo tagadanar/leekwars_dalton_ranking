@@ -122,7 +122,7 @@ function render(data) {
 }
 
 function renderTable(entries, type) {
-    let html = '<table class="ranking-table"><thead><tr>';
+    let html = '<div class="table-scroll"><table class="ranking-table"><thead><tr>';
     html += '<th style="text-align:center">#</th>';
     html += '<th>Farmer</th>';
     html += type === "solo" ? '<th>Leek</th>' : '<th>Leeks</th>';
@@ -165,7 +165,7 @@ function renderTable(entries, type) {
         html += `</tr>`;
     });
 
-    html += '</tbody></table>';
+    html += '</tbody></table></div>';
     return html;
 }
 

@@ -18,7 +18,7 @@
         "total_level": 301,
         "turns": 6,
         "date": 1771669116,
-        "key": "89464_94700",
+        "key": "89464",
         "leek_name": "FantoIsagi",
         "leek_level": 301
       }
@@ -39,7 +39,7 @@
         "total_level": 300,
         "turns": 9,
         "date": 1771314777,
-        "key": "75343_126170",
+        "key": "75343",
         "leek_name": "Impertino",
         "leek_level": 300
       },
@@ -58,27 +58,8 @@
         "total_level": 301,
         "turns": 10,
         "date": 1771639300,
-        "key": "53189_71600",
+        "key": "53189",
         "leek_name": "Lorca",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51514072,
-        "fight_type": 0,
-        "farmer_name": "tagadamasio",
-        "farmer_id": 53189,
-        "leeks": [
-          {
-            "id": 57742,
-            "name": "Captp",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 10,
-        "date": 1771466438,
-        "key": "53189_57742",
-        "leek_name": "Captp",
         "leek_level": 301
       },
       {
@@ -96,7 +77,7 @@
         "total_level": 301,
         "turns": 20,
         "date": 1771812105,
-        "key": "73155_78203",
+        "key": "73155",
         "leek_name": "DecoDeNoel",
         "leek_level": 301
       }
