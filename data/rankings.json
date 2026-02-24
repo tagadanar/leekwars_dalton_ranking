@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T12:42:07.161234+00:00",
+  "last_updated": "2026-02-24T18:50:56.076862+00:00",
   "daltons": {
     "46733": [
       {
@@ -650,6 +650,72 @@
       "leek_names": "Poliw, Gentiw, \u00c9rudiw, Exquiw"
     },
     {
+      "fight_id": 51584255,
+      "fight_type": 1,
+      "farmer_name": "Fulify",
+      "farmer_id": 95252,
+      "leeks": [
+        {
+          "id": 101790,
+          "name": "L33kSkywalker",
+          "level": 301
+        },
+        {
+          "id": 101033,
+          "name": "moon1338",
+          "level": 301
+        },
+        {
+          "id": 101409,
+          "name": "xceekx",
+          "level": 301
+        },
+        {
+          "id": 100625,
+          "name": "Fulify",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 9,
+      "date": 1771957801,
+      "key": "95252",
+      "leek_names": "L33kSkywalker, moon1338, xceekx, Fulify"
+    },
+    {
+      "fight_id": 51581298,
+      "fight_type": 1,
+      "farmer_name": "LaCOGIP",
+      "farmer_id": 84466,
+      "leeks": [
+        {
+          "id": 89402,
+          "name": "BernardDeLinformatique",
+          "level": 301
+        },
+        {
+          "id": 89754,
+          "name": "JeanMichelDeLaCompta",
+          "level": 301
+        },
+        {
+          "id": 90553,
+          "name": "ChristineDuSecr\u00e9tariat",
+          "level": 301
+        },
+        {
+          "id": 90924,
+          "name": "Berthier",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 10,
+      "date": 1771937735,
+      "key": "84466",
+      "leek_names": "BernardDeLinformatique, JeanMichelDeLaCompta, ChristineDuSecr\u00e9tariat, Berthier"
+    },
+    {
       "fight_id": 51569963,
       "fight_type": 1,
       "farmer_name": "feeddafeed",
@@ -714,6 +780,72 @@
       "date": 1771871546,
       "key": "71086",
       "leek_names": "Jeez, Boldness, Fierceness, Waywardness"
+    },
+    {
+      "fight_id": 51581614,
+      "fight_type": 1,
+      "farmer_name": "SushiRush",
+      "farmer_id": 97541,
+      "leeks": [
+        {
+          "id": 103080,
+          "name": "SushiRush",
+          "level": 301
+        },
+        {
+          "id": 103143,
+          "name": "MangueBleut\u00e9e",
+          "level": 301
+        },
+        {
+          "id": 103444,
+          "name": "QuiPourUnNasu",
+          "level": 301
+        },
+        {
+          "id": 103832,
+          "name": "PruneBleut\u00e9e",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 13,
+      "date": 1771940989,
+      "key": "97541",
+      "leek_names": "SushiRush, MangueBleut\u00e9e, QuiPourUnNasu, PruneBleut\u00e9e"
+    },
+    {
+      "fight_id": 51582366,
+      "fight_type": 1,
+      "farmer_name": "KavaliovTer",
+      "farmer_id": 56968,
+      "leeks": [
+        {
+          "id": 61753,
+          "name": "KavaFaireMal",
+          "level": 301
+        },
+        {
+          "id": 61857,
+          "name": "KavaBarder",
+          "level": 301
+        },
+        {
+          "id": 62342,
+          "name": "KavaPiquer",
+          "level": 301
+        },
+        {
+          "id": 62680,
+          "name": "Kavalfaire",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 13,
+      "date": 1771944117,
+      "key": "56968",
+      "leek_names": "KavaFaireMal, KavaBarder, KavaPiquer, Kavalfaire"
     },
     {
       "fight_id": 51569646,
@@ -815,37 +947,70 @@
       "leek_names": "Leekosphere, Astroleek, Cosmoleek, VoieLeektee"
     },
     {
-      "fight_id": 51570904,
+      "fight_id": 51581291,
       "fight_type": 1,
-      "farmer_name": "SushiRush",
-      "farmer_id": 97541,
+      "farmer_name": "Dynamex",
+      "farmer_id": 58615,
       "leeks": [
         {
-          "id": 103080,
-          "name": "SushiRush",
+          "id": 63343,
+          "name": "Dynamex",
           "level": 301
         },
         {
-          "id": 103143,
-          "name": "MangueBleut\u00e9e",
+          "id": 63583,
+          "name": "leekiLibre",
           "level": 301
         },
         {
-          "id": 103444,
-          "name": "QuiPourUnNasu",
+          "id": 101381,
+          "name": "Dynaleak",
           "level": 301
         },
         {
-          "id": 103832,
-          "name": "PruneBleut\u00e9e",
+          "id": 101874,
+          "name": "Damnleak",
           "level": 301
         }
       ],
       "total_level": 1204,
-      "turns": 15,
-      "date": 1771863806,
-      "key": "97541",
-      "leek_names": "SushiRush, MangueBleut\u00e9e, QuiPourUnNasu, PruneBleut\u00e9e"
+      "turns": 14,
+      "date": 1771937035,
+      "key": "58615",
+      "leek_names": "Dynamex, leekiLibre, Dynaleak, Damnleak"
+    },
+    {
+      "fight_id": 51582339,
+      "fight_type": 1,
+      "farmer_name": "KavaliovBis",
+      "farmer_id": 56766,
+      "leeks": [
+        {
+          "id": 61547,
+          "name": "KavaTank",
+          "level": 301
+        },
+        {
+          "id": 61654,
+          "name": "Kavamage",
+          "level": 301
+        },
+        {
+          "id": 62052,
+          "name": "KavaPretre",
+          "level": 301
+        },
+        {
+          "id": 62444,
+          "name": "KavaDruide",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 14,
+      "date": 1771943994,
+      "key": "56766",
+      "leek_names": "KavaTank, Kavamage, KavaPretre, KavaDruide"
     },
     {
       "fight_id": 51569936,
@@ -945,6 +1110,39 @@
       "date": 1771856615,
       "key": "99803",
       "leek_names": "leekdaleek, leekdageek, leekmageek, leekmaleek"
+    },
+    {
+      "fight_id": 51581362,
+      "fight_type": 1,
+      "farmer_name": "Hyu",
+      "farmer_id": 60113,
+      "leeks": [
+        {
+          "id": 64835,
+          "name": "Ryuu",
+          "level": 301
+        },
+        {
+          "id": 64965,
+          "name": "Pye",
+          "level": 301
+        },
+        {
+          "id": 65067,
+          "name": "Too",
+          "level": 301
+        },
+        {
+          "id": 77073,
+          "name": "Neew",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 16,
+      "date": 1771939058,
+      "key": "60113",
+      "leek_names": "Ryuu, Pye, Too, Neew"
     },
     {
       "fight_id": 51569930,
@@ -1079,37 +1277,37 @@
       "leek_names": "dulph, dolph, dilph, dalph"
     },
     {
-      "fight_id": 51570907,
+      "fight_id": 51581294,
       "fight_type": 1,
-      "farmer_name": "Hyu",
-      "farmer_id": 60113,
+      "farmer_name": "chrisss",
+      "farmer_id": 120993,
       "leeks": [
         {
-          "id": 64835,
-          "name": "Ryuu",
+          "id": 127228,
+          "name": "makebomonpoivro",
           "level": 301
         },
         {
-          "id": 64965,
-          "name": "Pye",
+          "id": 127500,
+          "name": "soutiendupoireau",
           "level": 301
         },
         {
-          "id": 65067,
-          "name": "Too",
+          "id": 128308,
+          "name": "WizzPoireau",
           "level": 301
         },
         {
-          "id": 77073,
-          "name": "Neew",
+          "id": 128929,
+          "name": "HealPoireau",
           "level": 301
         }
       ],
       "total_level": 1204,
-      "turns": 20,
-      "date": 1771863810,
-      "key": "60113",
-      "leek_names": "Ryuu, Pye, Too, Neew"
+      "turns": 19,
+      "date": 1771937367,
+      "key": "120993",
+      "leek_names": "makebomonpoivro, soutiendupoireau, WizzPoireau, HealPoireau"
     },
     {
       "fight_id": 51570830,
@@ -1145,70 +1343,70 @@
       "leek_names": "Beewiz, Beewizette, Beewizor, Beewizus"
     },
     {
-      "fight_id": 51570743,
+      "fight_id": 51582749,
       "fight_type": 1,
-      "farmer_name": "Dynamex",
-      "farmer_id": 58615,
+      "farmer_name": "KavaliovSexies",
+      "farmer_id": 62050,
       "leeks": [
         {
-          "id": 63343,
-          "name": "Dynamex",
+          "id": 66998,
+          "name": "KavaLeMagnifique",
           "level": 301
         },
         {
-          "id": 63583,
-          "name": "leekiLibre",
+          "id": 67070,
+          "name": "KavaEtreMarrant",
           "level": 301
         },
         {
-          "id": 101381,
-          "name": "Dynaleak",
+          "id": 67230,
+          "name": "Kava",
           "level": 301
         },
         {
-          "id": 101874,
-          "name": "Damnleak",
+          "id": 70287,
+          "name": "KavaPeter",
           "level": 301
         }
       ],
       "total_level": 1204,
       "turns": 21,
-      "date": 1771863247,
-      "key": "58615",
-      "leek_names": "Dynamex, leekiLibre, Dynaleak, Damnleak"
+      "date": 1771947710,
+      "key": "62050",
+      "leek_names": "KavaLeMagnifique, KavaEtreMarrant, Kava, KavaPeter"
     },
     {
-      "fight_id": 51570835,
+      "fight_id": 51581296,
       "fight_type": 1,
-      "farmer_name": "LaCOGIP",
-      "farmer_id": 84466,
+      "farmer_name": "pakalatak",
+      "farmer_id": 21518,
       "leeks": [
         {
-          "id": 89402,
-          "name": "BernardDeLinformatique",
+          "id": 24951,
+          "name": "BMKiddo",
           "level": 301
         },
         {
-          "id": 89754,
-          "name": "JeanMichelDeLaCompta",
+          "id": 26038,
+          "name": "SarahAnn",
           "level": 301
         },
         {
-          "id": 90553,
-          "name": "ChristineDuSecr\u00e9tariat",
+          "id": 28793,
+          "name": "Rincewind",
           "level": 301
         },
         {
-          "id": 90924,
-          "name": "Berthier",
+          "id": 32004,
+          "name": "ClariceStarling",
           "level": 301
         }
       ],
       "total_level": 1204,
-      "turns": 22,
-      "date": 1771863482,
-      "key": "84466",
-      "leek_names": "BernardDeLinformatique, JeanMichelDeLaCompta, ChristineDuSecr\u00e9tariat, Berthier"
+      "turns": 23,
+      "date": 1771937506,
+      "key": "21518",
+      "leek_names": "BMKiddo, SarahAnn, Rincewind, ClariceStarling"
     },
     {
       "fight_id": 51570750,
