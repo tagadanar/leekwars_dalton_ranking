@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T18:51:31.491376+00:00",
+  "last_updated": "2026-02-24T01:14:53.489529+00:00",
   "daltons": {
     "46733": [
       {
@@ -1441,6 +1441,39 @@
       "date": 1771828474,
       "key": "71287",
       "leek_names": "Crotale, c0bra, Yama, Key"
+    },
+    {
+      "fight_id": 51574724,
+      "fight_type": 2,
+      "farmer_name": "WhiteSlash",
+      "farmer_id": 512,
+      "leeks": [
+        {
+          "id": 1549,
+          "name": "Pink",
+          "level": 301
+        },
+        {
+          "id": 81266,
+          "name": "JerryWesterby",
+          "level": 301
+        },
+        {
+          "id": 82030,
+          "name": "Fondeuse",
+          "level": 301
+        },
+        {
+          "id": 81267,
+          "name": "Raon",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 15,
+      "date": 1771878631,
+      "key": "512",
+      "leek_names": "Pink, JerryWesterby, Fondeuse, Raon"
     },
     {
       "fight_id": 51520426,
