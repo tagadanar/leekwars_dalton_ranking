@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T06:52:35.580282+00:00",
+  "last_updated": "2026-02-25T12:41:46.053371+00:00",
   "daltons": {
     "46733": [
       {
@@ -79,6 +79,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51594575,
+        "fight_type": 0,
+        "farmer_name": "tagadanar",
+        "farmer_id": 34958,
+        "leeks": [
+          {
+            "id": 38413,
+            "name": "hardleeker",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 13,
+        "date": 1772022606,
+        "key": "34958",
+        "leek_name": "hardleeker",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51570176,
         "fight_type": 0,
         "farmer_name": "Kraspen",
@@ -154,6 +173,25 @@
         "date": 1771669116,
         "key": "89464",
         "leek_name": "FantoIsagi",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51592835,
+        "fight_type": 0,
+        "farmer_name": "Ref",
+        "farmer_id": 43276,
+        "leeks": [
+          {
+            "id": 48427,
+            "name": "JeVoulais\u00catreUnPapillon",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 8,
+        "date": 1772017238,
+        "key": "43276",
+        "leek_name": "JeVoulais\u00catreUnPapillon",
         "leek_level": 301
       }
     ],
@@ -252,6 +290,25 @@
         "key": "73155",
         "leek_name": "DecoDeNoel",
         "leek_level": 301
+      },
+      {
+        "fight_id": 51592756,
+        "fight_type": 0,
+        "farmer_name": "ToOnS",
+        "farmer_id": 1609,
+        "leeks": [
+          {
+            "id": 1890,
+            "name": "Poireu",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 32,
+        "date": 1772017208,
+        "key": "1609",
+        "leek_name": "Poireu",
+        "leek_level": 301
       }
     ],
     "51613": [
@@ -310,6 +367,25 @@
         "date": 1771859782,
         "key": "76772",
         "leek_name": "Kraneur",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51593169,
+        "fight_type": 0,
+        "farmer_name": "vix",
+        "farmer_id": 58602,
+        "leeks": [
+          {
+            "id": 69118,
+            "name": "viz",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 50,
+        "date": 1772017285,
+        "key": "58602",
+        "leek_name": "viz",
         "leek_level": 301
       },
       {
