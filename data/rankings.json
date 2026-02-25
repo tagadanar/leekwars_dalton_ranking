@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T18:50:56.076862+00:00",
+  "last_updated": "2026-02-25T01:20:07.527938+00:00",
   "daltons": {
     "46733": [
       {
@@ -1897,6 +1897,49 @@
       "leek_names": "Yami, jarnac, naja, Keyhno, asp1c"
     },
     {
+      "fight_id": 51586068,
+      "fight_type": 2,
+      "farmer_name": "Sherox",
+      "farmer_id": 23205,
+      "leeks": [
+        {
+          "id": 27045,
+          "name": "Sultai",
+          "level": 301
+        },
+        {
+          "id": 131361,
+          "name": "Orzhov",
+          "level": 246
+        },
+        {
+          "id": 131388,
+          "name": "Hydreigon",
+          "level": 244
+        },
+        {
+          "id": 71728,
+          "name": "StreetWraith",
+          "level": 228
+        },
+        {
+          "id": 28185,
+          "name": "Nethergoyf",
+          "level": 301
+        },
+        {
+          "id": 75440,
+          "name": "Windgrace",
+          "level": 197
+        }
+      ],
+      "total_level": 1517,
+      "turns": 11,
+      "date": 1771965029,
+      "key": "23205",
+      "leek_names": "Sultai, Orzhov, Hydreigon, StreetWraith, Nethergoyf, Windgrace"
+    },
+    {
       "fight_id": 51551938,
       "fight_type": 2,
       "farmer_name": "fujivite",
@@ -2282,49 +2325,6 @@
       "date": 1771719600,
       "key": "64368",
       "leek_names": "Voltron, Bumblebee, PaulaSchultz, BeatrixKiddo, LAnanasAuJusDeCharly, LaBaguetteMagiqueDeRoger"
-    },
-    {
-      "fight_id": 51530426,
-      "fight_type": 2,
-      "farmer_name": "Sherox",
-      "farmer_id": 23205,
-      "leeks": [
-        {
-          "id": 29693,
-          "name": "Abzan",
-          "level": 301
-        },
-        {
-          "id": 58511,
-          "name": "Jund",
-          "level": 301
-        },
-        {
-          "id": 27045,
-          "name": "Sultai",
-          "level": 301
-        },
-        {
-          "id": 25769,
-          "name": "Pyrogoyf",
-          "level": 301
-        },
-        {
-          "id": 27962,
-          "name": "Mardu",
-          "level": 301
-        },
-        {
-          "id": 26394,
-          "name": "Barrowgoyf",
-          "level": 301
-        }
-      ],
-      "total_level": 1806,
-      "turns": 9,
-      "date": 1771574348,
-      "key": "23205",
-      "leek_names": "Abzan, Jund, Sultai, Pyrogoyf, Mardu, Barrowgoyf"
     },
     {
       "fight_id": 51524683,
