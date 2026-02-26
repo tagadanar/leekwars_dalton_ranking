@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T06:48:59.883454+00:00",
+  "last_updated": "2026-02-26T12:41:51.096190+00:00",
   "daltons": {
     "46733": [
       {
@@ -136,6 +136,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51606307,
+        "fight_type": 0,
+        "farmer_name": "KavaliovSexies",
+        "farmer_id": 62050,
+        "leeks": [
+          {
+            "id": 67070,
+            "name": "KavaEtreMarrant",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 8,
+        "date": 1772107208,
+        "key": "62050",
+        "leek_name": "KavaEtreMarrant",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51595732,
         "fight_type": 0,
         "farmer_name": "Casanova",
@@ -152,25 +171,6 @@
         "date": 1772033568,
         "key": "92936",
         "leek_name": "NEWCOMB",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51596627,
-        "fight_type": 0,
-        "farmer_name": "KavaliovSexies",
-        "farmer_id": 62050,
-        "leeks": [
-          {
-            "id": 67230,
-            "name": "Kava",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 12,
-        "date": 1772038999,
-        "key": "62050",
-        "leek_name": "Kava",
         "leek_level": 301
       },
       {
@@ -439,6 +439,25 @@
         "date": 1772039135,
         "key": "50039",
         "leek_name": "MasqueDeMort",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51606325,
+        "fight_type": 0,
+        "farmer_name": "SalomonSanto",
+        "farmer_id": 19612,
+        "leeks": [
+          {
+            "id": 22327,
+            "name": "TripleP",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 22,
+        "date": 1772107211,
+        "key": "19612",
+        "leek_name": "TripleP",
         "leek_level": 301
       },
       {
@@ -745,6 +764,25 @@
         "date": 1772039447,
         "key": "51723",
         "leek_name": "Astroleek",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51605502,
+        "fight_type": 0,
+        "farmer_name": "Leekspin1",
+        "farmer_id": 52323,
+        "leeks": [
+          {
+            "id": 56793,
+            "name": "Tenor1",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 23,
+        "date": 1772103604,
+        "key": "52323",
+        "leek_name": "Tenor1",
         "leek_level": 301
       },
       {
