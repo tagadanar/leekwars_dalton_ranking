@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T12:41:51.096190+00:00",
+  "last_updated": "2026-02-26T18:39:41.203008+00:00",
   "daltons": {
     "46733": [
       {
@@ -1420,6 +1420,39 @@
       "leek_names": "MimiRho, MimiSigma, MimiTau, MimiUpsilon"
     },
     {
+      "fight_id": 51610011,
+      "fight_type": 1,
+      "farmer_name": "Ref",
+      "farmer_id": 43276,
+      "leeks": [
+        {
+          "id": 47943,
+          "name": "TomateTransg\u00e9nique",
+          "level": 301
+        },
+        {
+          "id": 47546,
+          "name": "Astheopyrosphamidum",
+          "level": 301
+        },
+        {
+          "id": 48427,
+          "name": "JeVoulais\u00catreUnPapillon",
+          "level": 301
+        },
+        {
+          "id": 47183,
+          "name": "Jeez",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 7,
+      "date": 1772128812,
+      "key": "43276",
+      "leek_names": "TomateTransg\u00e9nique, Astheopyrosphamidum, JeVoulais\u00catreUnPapillon, Jeez"
+    },
+    {
       "fight_id": 51569946,
       "fight_type": 1,
       "farmer_name": "Bux420",
@@ -1517,39 +1550,6 @@
       "date": 1771957801,
       "key": "95252",
       "leek_names": "L33kSkywalker, moon1338, xceekx, Fulify"
-    },
-    {
-      "fight_id": 51595314,
-      "fight_type": 1,
-      "farmer_name": "Ref",
-      "farmer_id": 43276,
-      "leeks": [
-        {
-          "id": 47183,
-          "name": "Jeez",
-          "level": 301
-        },
-        {
-          "id": 47546,
-          "name": "Astheopyrosphamidum",
-          "level": 301
-        },
-        {
-          "id": 47943,
-          "name": "TomateTransg\u00e9nique",
-          "level": 301
-        },
-        {
-          "id": 48427,
-          "name": "JeVoulais\u00catreUnPapillon",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 9,
-      "date": 1772028120,
-      "key": "43276",
-      "leek_names": "Jeez, Astheopyrosphamidum, TomateTransg\u00e9nique, JeVoulais\u00catreUnPapillon"
     },
     {
       "fight_id": 51581298,
