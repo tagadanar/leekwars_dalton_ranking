@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T19:01:41.922491+00:00",
+  "last_updated": "2026-02-26T01:14:45.322035+00:00",
   "daltons": {
     "46733": [
       {
@@ -41,6 +41,25 @@
         "leek_level": 300
       },
       {
+        "fight_id": 51599589,
+        "fight_type": 0,
+        "farmer_name": "SachaBougPalette",
+        "farmer_id": 124210,
+        "leeks": [
+          {
+            "id": 130932,
+            "name": "ColonelMamene",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 4,
+        "date": 1772047735,
+        "key": "124210",
+        "leek_name": "ColonelMamene",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51596608,
         "fight_type": 0,
         "farmer_name": "tagadai",
@@ -76,6 +95,25 @@
         "date": 1772038861,
         "key": "84413",
         "leek_name": "Kropotkine",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51602039,
+        "fight_type": 0,
+        "farmer_name": "koe",
+        "farmer_id": 124565,
+        "leeks": [
+          {
+            "id": 131032,
+            "name": "koe",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 7,
+        "date": 1772064079,
+        "key": "124565",
+        "leek_name": "koe",
         "leek_level": 301
       },
       {
@@ -325,6 +363,25 @@
         "date": 1772039199,
         "key": "84413",
         "leek_name": "Stirner",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51599087,
+        "fight_type": 0,
+        "farmer_name": "IndominusRef",
+        "farmer_id": 96163,
+        "leeks": [
+          {
+            "id": 101574,
+            "name": "TyrannosaurusRef",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 9,
+        "date": 1772046429,
+        "key": "96163",
+        "leek_name": "TyrannosaurusRef",
         "leek_level": 301
       },
       {
@@ -2051,6 +2108,39 @@
       "leek_names": "SchrodingerCat, IsDead, IsAlive, IsQuantum"
     },
     {
+      "fight_id": 51601150,
+      "fight_type": 1,
+      "farmer_name": "KavaliovSexies",
+      "farmer_id": 62050,
+      "leeks": [
+        {
+          "id": 66998,
+          "name": "KavaLeMagnifique",
+          "level": 301
+        },
+        {
+          "id": 67070,
+          "name": "KavaEtreMarrant",
+          "level": 301
+        },
+        {
+          "id": 67230,
+          "name": "Kava",
+          "level": 301
+        },
+        {
+          "id": 70287,
+          "name": "KavaPeter",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 18,
+      "date": 1772061845,
+      "key": "62050",
+      "leek_names": "KavaLeMagnifique, KavaEtreMarrant, Kava, KavaPeter"
+    },
+    {
       "fight_id": 51570009,
       "fight_type": 1,
       "farmer_name": "dulph",
@@ -2148,39 +2238,6 @@
       "date": 1771863411,
       "key": "46882",
       "leek_names": "Beewiz, Beewizette, Beewizor, Beewizus"
-    },
-    {
-      "fight_id": 51582749,
-      "fight_type": 1,
-      "farmer_name": "KavaliovSexies",
-      "farmer_id": 62050,
-      "leeks": [
-        {
-          "id": 66998,
-          "name": "KavaLeMagnifique",
-          "level": 301
-        },
-        {
-          "id": 67070,
-          "name": "KavaEtreMarrant",
-          "level": 301
-        },
-        {
-          "id": 67230,
-          "name": "Kava",
-          "level": 301
-        },
-        {
-          "id": 70287,
-          "name": "KavaPeter",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 21,
-      "date": 1771947710,
-      "key": "62050",
-      "leek_names": "KavaLeMagnifique, KavaEtreMarrant, Kava, KavaPeter"
     },
     {
       "fight_id": 51581296,
@@ -2626,6 +2683,44 @@
       "date": 1771527595,
       "key": "88005",
       "leek_names": "974, SABREZ, EtoileDeTerre, LOULOUpoireau, Pr\u00e9dateur, PancaOnden"
+    },
+    {
+      "fight_id": 51600564,
+      "fight_type": 2,
+      "farmer_name": "KavaliovAdvent2020",
+      "farmer_id": 73149,
+      "leeks": [
+        {
+          "id": 78112,
+          "name": "KavaSpeed",
+          "level": 300
+        },
+        {
+          "id": 78295,
+          "name": "KavaRider",
+          "level": 282
+        },
+        {
+          "id": 79410,
+          "name": "kavalcade",
+          "level": 253
+        },
+        {
+          "id": 79775,
+          "name": "Seiya",
+          "level": 291
+        },
+        {
+          "id": 78202,
+          "name": "KavaSpeed2",
+          "level": 290
+        }
+      ],
+      "total_level": 1416,
+      "turns": 13,
+      "date": 1772055001,
+      "key": "73149",
+      "leek_names": "KavaSpeed, KavaRider, kavalcade, Seiya, KavaSpeed2"
     },
     {
       "fight_id": 51501575,
