@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T06:41:01.315563+00:00",
+  "last_updated": "2026-02-27T12:37:08.273053+00:00",
   "daltons": {
     "46733": [
       {
@@ -325,6 +325,25 @@
         "date": 1771669116,
         "key": "89464",
         "leek_name": "FantoIsagi",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51619440,
+        "fight_type": 0,
+        "farmer_name": "koe",
+        "farmer_id": 124565,
+        "leeks": [
+          {
+            "id": 131032,
+            "name": "koe",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 6,
+        "date": 1772190115,
+        "key": "124565",
+        "leek_name": "koe",
         "leek_level": 301
       },
       {
