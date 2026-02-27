@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T18:39:41.203008+00:00",
+  "last_updated": "2026-02-27T01:12:49.096116+00:00",
   "daltons": {
     "46733": [
       {
@@ -2513,6 +2513,39 @@
       "date": 1771237461,
       "key": "89055",
       "leek_names": "VonNeumann, Hopper, Lovelace, Norvig"
+    },
+    {
+      "fight_id": 51612382,
+      "fight_type": 2,
+      "farmer_name": "AntiSlash",
+      "farmer_id": 100982,
+      "leeks": [
+        {
+          "id": 106898,
+          "name": "AntiSlash",
+          "level": 301
+        },
+        {
+          "id": 126754,
+          "name": "ContreOblique",
+          "level": 301
+        },
+        {
+          "id": 126841,
+          "name": "BarreObliqueInvers\u00e9e",
+          "level": 301
+        },
+        {
+          "id": 126952,
+          "name": "BackSIash",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 4,
+      "date": 1772141411,
+      "key": "100982",
+      "leek_names": "AntiSlash, ContreOblique, BarreObliqueInvers\u00e9e, BackSIash"
     },
     {
       "fight_id": 51528370,
