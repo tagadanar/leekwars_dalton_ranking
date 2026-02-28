@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T18:30:06.313637+00:00",
+  "last_updated": "2026-02-28T01:07:48.882722+00:00",
   "daltons": {
     "46733": [
       {
@@ -2631,6 +2631,39 @@
       "date": 1771828474,
       "key": "71287",
       "leek_names": "Crotale, c0bra, Yama, Key"
+    },
+    {
+      "fight_id": 51624279,
+      "fight_type": 2,
+      "farmer_name": "KavaliovOcties",
+      "farmer_id": 72990,
+      "leeks": [
+        {
+          "id": 78110,
+          "name": "Kavaplus",
+          "level": 301
+        },
+        {
+          "id": 75101,
+          "name": "Kavavite",
+          "level": 301
+        },
+        {
+          "id": 61373,
+          "name": "Kavaboost",
+          "level": 301
+        },
+        {
+          "id": 75529,
+          "name": "KavaCouper",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 14,
+      "date": 1772227823,
+      "key": "72990",
+      "leek_names": "Kavaplus, Kavavite, Kavaboost, KavaCouper"
     },
     {
       "fight_id": 51574724,
