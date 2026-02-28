@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28T06:26:36.366359+00:00",
+  "last_updated": "2026-02-28T12:27:23.143848+00:00",
   "daltons": {
     "46733": [
       {
@@ -534,6 +534,25 @@
         "date": 1772039173,
         "key": "55929",
         "leek_name": "Susano",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51629138,
+        "fight_type": 0,
+        "farmer_name": "EnsemblesNumeriques",
+        "farmer_id": 44104,
+        "leeks": [
+          {
+            "id": 64915,
+            "name": "NbrsRationnels",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 51,
+        "date": 1772276424,
+        "key": "44104",
+        "leek_name": "NbrsRationnels",
         "leek_level": 301
       },
       {
@@ -2297,6 +2316,39 @@
       "leek_names": "Beewiz, Beewizette, Beewizor, Beewizus"
     },
     {
+      "fight_id": 51629681,
+      "fight_type": 1,
+      "farmer_name": "PilowAvent",
+      "farmer_id": 73156,
+      "leeks": [
+        {
+          "id": 78120,
+          "name": "Guirlande",
+          "level": 301
+        },
+        {
+          "id": 78226,
+          "name": "Traineau",
+          "level": 301
+        },
+        {
+          "id": 78374,
+          "name": "Reveillon",
+          "level": 301
+        },
+        {
+          "id": 78460,
+          "name": "Lutin",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 22,
+      "date": 1772279484,
+      "key": "73156",
+      "leek_names": "Guirlande, Traineau, Reveillon, Lutin"
+    },
+    {
       "fight_id": 51581296,
       "fight_type": 1,
       "farmer_name": "pakalatak",
@@ -2763,6 +2815,44 @@
       "date": 1771870906,
       "key": "25435",
       "leek_names": "Phtaleek, AcideOxaleek, Ballisteek, Phenoleek"
+    },
+    {
+      "fight_id": 51627846,
+      "fight_type": 2,
+      "farmer_name": "WRNYK",
+      "farmer_id": 66643,
+      "leeks": [
+        {
+          "id": 71728,
+          "name": "StreetWraith",
+          "level": 228
+        },
+        {
+          "id": 29517,
+          "name": "Skithiryx",
+          "level": 301
+        },
+        {
+          "id": 27045,
+          "name": "Sultai",
+          "level": 301
+        },
+        {
+          "id": 131246,
+          "name": "Salamence",
+          "level": 250
+        },
+        {
+          "id": 131217,
+          "name": "Golgari",
+          "level": 250
+        }
+      ],
+      "total_level": 1330,
+      "turns": 11,
+      "date": 1772268810,
+      "key": "66643",
+      "leek_names": "StreetWraith, Skithiryx, Sultai, Salamence, Golgari"
     },
     {
       "fight_id": 51524117,
