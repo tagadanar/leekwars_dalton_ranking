@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T06:35:03.636657+00:00",
+  "last_updated": "2026-03-01T12:29:15.869160+00:00",
   "daltons": {
     "46733": [
       {
@@ -38,6 +38,25 @@
         "date": 1771860623,
         "key": "98186",
         "leek_name": "CotteDemaille",
+        "leek_level": 300
+      },
+      {
+        "fight_id": 51637193,
+        "fight_type": 0,
+        "farmer_name": "Argent",
+        "farmer_id": 87673,
+        "leeks": [
+          {
+            "id": 92791,
+            "name": "khraneur",
+            "level": 300
+          }
+        ],
+        "total_level": 300,
+        "turns": 3,
+        "date": 1772355491,
+        "key": "87673",
+        "leek_name": "khraneur",
         "leek_level": 300
       },
       {
@@ -133,6 +152,25 @@
         "date": 1772038919,
         "key": "122557",
         "leek_name": "Claudias",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51639334,
+        "fight_type": 0,
+        "farmer_name": "BlackSlash",
+        "farmer_id": 19932,
+        "leeks": [
+          {
+            "id": 24498,
+            "name": "GreenSlash",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 5,
+        "date": 1772366411,
+        "key": "19932",
+        "leek_name": "GreenSlash",
         "leek_level": 301
       },
       {
@@ -613,22 +651,22 @@
         "leek_level": 301
       },
       {
-        "fight_id": 51592835,
+        "fight_id": 51639281,
         "fight_type": 0,
         "farmer_name": "Ref",
         "farmer_id": 43276,
         "leeks": [
           {
-            "id": 48427,
-            "name": "JeVoulais\u00catreUnPapillon",
+            "id": 47943,
+            "name": "TomateTransg\u00e9nique",
             "level": 301
           }
         ],
         "total_level": 301,
-        "turns": 8,
-        "date": 1772017238,
+        "turns": 7,
+        "date": 1772366401,
         "key": "43276",
-        "leek_name": "JeVoulais\u00catreUnPapillon",
+        "leek_name": "TomateTransg\u00e9nique",
         "leek_level": 301
       },
       {
@@ -1809,6 +1847,25 @@
         "date": 1771812105,
         "key": "73155",
         "leek_name": "DecoDeNoel",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51639306,
+        "fight_type": 0,
+        "farmer_name": "fabou",
+        "farmer_id": 76155,
+        "leeks": [
+          {
+            "id": 81266,
+            "name": "JerryWesterby",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 20,
+        "date": 1772366406,
+        "key": "76155",
+        "leek_name": "JerryWesterby",
         "leek_level": 301
       },
       {
@@ -4655,6 +4712,49 @@
       "date": 1771272036,
       "key": "59420",
       "leek_names": "Kingg, ekel, Fiffi, Ununoctium, Polokus, Escanorr"
+    },
+    {
+      "fight_id": 51639535,
+      "fight_type": 2,
+      "farmer_name": "Insanity",
+      "farmer_id": 53218,
+      "leeks": [
+        {
+          "id": 58005,
+          "name": "HarryColeek",
+          "level": 301
+        },
+        {
+          "id": 57773,
+          "name": "Cotentin",
+          "level": 301
+        },
+        {
+          "id": 57749,
+          "name": "TheCoralWarrior",
+          "level": 301
+        },
+        {
+          "id": 58373,
+          "name": "VerainHydroleek",
+          "level": 301
+        },
+        {
+          "id": 58135,
+          "name": "Coraleek",
+          "level": 301
+        },
+        {
+          "id": 58177,
+          "name": "ShyleekOnckarne",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 7,
+      "date": 1772368022,
+      "key": "53218",
+      "leek_names": "HarryColeek, Cotentin, TheCoralWarrior, VerainHydroleek, Coraleek, ShyleekOnckarne"
     },
     {
       "fight_id": 51493767,
