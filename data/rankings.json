@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T12:29:15.869160+00:00",
+  "last_updated": "2026-03-01T18:21:32.412463+00:00",
   "daltons": {
     "46733": [
       {
@@ -2118,6 +2118,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51639572,
+        "fight_type": 0,
+        "farmer_name": "Kavaliov",
+        "farmer_id": 56160,
+        "leeks": [
+          {
+            "id": 60897,
+            "name": "Kavaliov",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 5,
+        "date": 1772368205,
+        "key": "56160",
+        "leek_name": "Kavaliov",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51596062,
         "fight_type": 0,
         "farmer_name": "IdeesNoires",
@@ -3078,6 +3097,39 @@
       "date": 1772284891,
       "key": "73156",
       "leek_names": "Guirlande, Traineau, Reveillon, Lutin"
+    },
+    {
+      "fight_id": 51641127,
+      "fight_type": 1,
+      "farmer_name": "fabou",
+      "farmer_id": 76155,
+      "leeks": [
+        {
+          "id": 81439,
+          "name": "MagnusPym",
+          "level": 301
+        },
+        {
+          "id": 80980,
+          "name": "GeorgeSmiley",
+          "level": 301
+        },
+        {
+          "id": 81266,
+          "name": "JerryWesterby",
+          "level": 301
+        },
+        {
+          "id": 81109,
+          "name": "AlecLeamas",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 12,
+      "date": 1772384401,
+      "key": "76155",
+      "leek_names": "MagnusPym, GeorgeSmiley, JerryWesterby, AlecLeamas"
     },
     {
       "fight_id": 51581614,
@@ -4499,6 +4551,49 @@
       "leek_names": "CapitaineMamene, GeneralMamene, CaradocDeVannes, ColonelMamene, Scotty2, chibrhook"
     },
     {
+      "fight_id": 51641008,
+      "fight_type": 2,
+      "farmer_name": "LouisBethune",
+      "farmer_id": 42781,
+      "leeks": [
+        {
+          "id": 46665,
+          "name": "AuTomate",
+          "level": 301
+        },
+        {
+          "id": 46973,
+          "name": "Engrais",
+          "level": 301
+        },
+        {
+          "id": 46600,
+          "name": "rupert",
+          "level": 301
+        },
+        {
+          "id": 47038,
+          "name": "rupert2",
+          "level": 301
+        },
+        {
+          "id": 47746,
+          "name": "rupert3",
+          "level": 301
+        },
+        {
+          "id": 48102,
+          "name": "PoiristeGalois",
+          "level": 300
+        }
+      ],
+      "total_level": 1805,
+      "turns": 8,
+      "date": 1772382367,
+      "key": "42781",
+      "leek_names": "AuTomate, Engrais, rupert, rupert2, rupert3, PoiristeGalois"
+    },
+    {
       "fight_id": 51558712,
       "fight_type": 2,
       "farmer_name": "ThXr",
@@ -4626,6 +4721,49 @@
       "date": 1771531201,
       "key": "38535",
       "leek_names": "Gloupp, Pliomini, Miniplio, iLikeToLeek, Pli, Dov"
+    },
+    {
+      "fight_id": 51641018,
+      "fight_type": 2,
+      "farmer_name": "TheGoat",
+      "farmer_id": 74485,
+      "leeks": [
+        {
+          "id": 79736,
+          "name": "FrankWeapon",
+          "level": 301
+        },
+        {
+          "id": 79800,
+          "name": "gazpacho",
+          "level": 301
+        },
+        {
+          "id": 80164,
+          "name": "mozarella",
+          "level": 301
+        },
+        {
+          "id": 79511,
+          "name": "saucissonalail",
+          "level": 301
+        },
+        {
+          "id": 81211,
+          "name": "knarr1",
+          "level": 301
+        },
+        {
+          "id": 79488,
+          "name": "ReneWeapon",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 6,
+      "date": 1772382420,
+      "key": "74485",
+      "leek_names": "FrankWeapon, gazpacho, mozarella, saucissonalail, knarr1, ReneWeapon"
     },
     {
       "fight_id": 51558599,
