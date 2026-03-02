@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T12:37:05.985326+00:00",
+  "last_updated": "2026-03-02T18:34:23.722164+00:00",
   "daltons": {
     "46733": [
       {
@@ -3057,6 +3057,39 @@
       "leek_names": "BernardDeLinformatique, JeanMichelDeLaCompta, ChristineDuSecr\u00e9tariat, Berthier"
     },
     {
+      "fight_id": 51653184,
+      "fight_type": 1,
+      "farmer_name": "Garcymore008",
+      "farmer_id": 122208,
+      "leeks": [
+        {
+          "id": 128509,
+          "name": "Garcymore007",
+          "level": 301
+        },
+        {
+          "id": 128799,
+          "name": "Mandryke",
+          "level": 301
+        },
+        {
+          "id": 128964,
+          "name": "Copperfyld",
+          "level": 301
+        },
+        {
+          "id": 128864,
+          "name": "Hydini",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 10,
+      "date": 1772470864,
+      "key": "122208",
+      "leek_names": "Garcymore007, Mandryke, Copperfyld, Hydini"
+    },
+    {
       "fight_id": 51569963,
       "fight_type": 1,
       "farmer_name": "feeddafeed",
@@ -3484,39 +3517,6 @@
       "date": 1771857826,
       "key": "123921",
       "leek_names": "Josu\u00e9Valient\u00e9, Lobsang, SallyLinsay, 1\u00e8rePersonneDuSingulier"
-    },
-    {
-      "fight_id": 51569918,
-      "fight_type": 1,
-      "farmer_name": "Garcymore008",
-      "farmer_id": 122208,
-      "leeks": [
-        {
-          "id": 128509,
-          "name": "Garcymore007",
-          "level": 301
-        },
-        {
-          "id": 128799,
-          "name": "Mandryke",
-          "level": 301
-        },
-        {
-          "id": 128864,
-          "name": "Hydini",
-          "level": 301
-        },
-        {
-          "id": 128964,
-          "name": "Copperfyld",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 16,
-      "date": 1771857746,
-      "key": "122208",
-      "leek_names": "Garcymore007, Mandryke, Hydini, Copperfyld"
     },
     {
       "fight_id": 51569783,
@@ -4150,6 +4150,39 @@
       "date": 1772310613,
       "key": "48358",
       "leek_names": "HappyNewYear, HappyHour, HappyTreeFriend, HappyHalloween"
+    },
+    {
+      "fight_id": 51652578,
+      "fight_type": 2,
+      "farmer_name": "MrNakai",
+      "farmer_id": 68992,
+      "leeks": [
+        {
+          "id": 80392,
+          "name": "Yupa",
+          "level": 301
+        },
+        {
+          "id": 80060,
+          "name": "Hauru",
+          "level": 301
+        },
+        {
+          "id": 74112,
+          "name": "Pazu",
+          "level": 301
+        },
+        {
+          "id": 73891,
+          "name": "Totogros",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 10,
+      "date": 1772467308,
+      "key": "68992",
+      "leek_names": "Yupa, Hauru, Pazu, Totogros"
     },
     {
       "fight_id": 51644367,
@@ -5016,6 +5049,49 @@
       "date": 1772368022,
       "key": "53218",
       "leek_names": "HarryColeek, Cotentin, TheCoralWarrior, VerainHydroleek, Coraleek, ShyleekOnckarne"
+    },
+    {
+      "fight_id": 51651854,
+      "fight_type": 2,
+      "farmer_name": "Prop",
+      "farmer_id": 64821,
+      "leeks": [
+        {
+          "id": 71133,
+          "name": "Pulsar",
+          "level": 301
+        },
+        {
+          "id": 69883,
+          "name": "Quasar",
+          "level": 301
+        },
+        {
+          "id": 70359,
+          "name": "Caracole",
+          "level": 301
+        },
+        {
+          "id": 72490,
+          "name": "Blasar",
+          "level": 301
+        },
+        {
+          "id": 70346,
+          "name": "Magnetar",
+          "level": 301
+        },
+        {
+          "id": 57742,
+          "name": "Captp",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 7,
+      "date": 1772465982,
+      "key": "64821",
+      "leek_names": "Pulsar, Quasar, Caracole, Blasar, Magnetar, Captp"
     },
     {
       "fight_id": 51493767,
