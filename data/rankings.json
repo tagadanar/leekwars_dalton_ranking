@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T18:21:32.412463+00:00",
+  "last_updated": "2026-03-02T01:14:47.610417+00:00",
   "daltons": {
     "46733": [
       {
@@ -4060,6 +4060,39 @@
       "date": 1772310613,
       "key": "48358",
       "leek_names": "HappyNewYear, HappyHour, HappyTreeFriend, HappyHalloween"
+    },
+    {
+      "fight_id": 51644367,
+      "fight_type": 2,
+      "farmer_name": "ActiveSushi",
+      "farmer_id": 76696,
+      "leeks": [
+        {
+          "id": 90438,
+          "name": "TheBeholder",
+          "level": 301
+        },
+        {
+          "id": 51148,
+          "name": "LeekTheKid",
+          "level": 301
+        },
+        {
+          "id": 59035,
+          "name": "Myoga",
+          "level": 301
+        },
+        {
+          "id": 28793,
+          "name": "Rincewind",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 11,
+      "date": 1772395233,
+      "key": "76696",
+      "leek_names": "TheBeholder, LeekTheKid, Myoga, Rincewind"
     },
     {
       "fight_id": 51564144,
