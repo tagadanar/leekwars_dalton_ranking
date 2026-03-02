@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T06:45:00.954608+00:00",
+  "last_updated": "2026-03-02T12:37:05.985326+00:00",
   "daltons": {
     "46733": [
       {
@@ -171,6 +171,25 @@
         "date": 1772366411,
         "key": "19932",
         "leek_name": "GreenSlash",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51650008,
+        "fight_type": 0,
+        "farmer_name": "KavaliovBis",
+        "farmer_id": 56766,
+        "leeks": [
+          {
+            "id": 62052,
+            "name": "KavaPretre",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 6,
+        "date": 1772451014,
+        "key": "56766",
+        "leek_name": "KavaPretre",
         "leek_level": 301
       },
       {
@@ -534,6 +553,25 @@
         "date": 1772322703,
         "key": "72263",
         "leek_name": "MimiZeta",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51650325,
+        "fight_type": 0,
+        "farmer_name": "fujiwar",
+        "farmer_id": 58321,
+        "leeks": [
+          {
+            "id": 63514,
+            "name": "Peuhwaro",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 2,
+        "date": 1772454612,
+        "key": "58321",
+        "leek_name": "Peuhwaro",
         "leek_level": 301
       },
       {
@@ -2289,6 +2327,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51649756,
+        "fight_type": 0,
+        "farmer_name": "hypernavet",
+        "farmer_id": 87938,
+        "leeks": [
+          {
+            "id": 94139,
+            "name": "RootOfUnity",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 20,
+        "date": 1772449286,
+        "key": "87938",
+        "leek_name": "RootOfUnity",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51633495,
         "fight_type": 0,
         "farmer_name": "3F369",
@@ -2800,6 +2857,39 @@
       "date": 1772299822,
       "key": "512",
       "leek_names": "Pink, Veggy, CoLeek, Zombizou"
+    },
+    {
+      "fight_id": 51648661,
+      "fight_type": 1,
+      "farmer_name": "Amal",
+      "farmer_id": 19070,
+      "leeks": [
+        {
+          "id": 21631,
+          "name": "Saphyre",
+          "level": 301
+        },
+        {
+          "id": 23245,
+          "name": "Rexy",
+          "level": 301
+        },
+        {
+          "id": 34341,
+          "name": "Varju",
+          "level": 301
+        },
+        {
+          "id": 38241,
+          "name": "Astera",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 6,
+      "date": 1772443798,
+      "key": "19070",
+      "leek_names": "Saphyre, Rexy, Varju, Astera"
     },
     {
       "fight_id": 51610011,
