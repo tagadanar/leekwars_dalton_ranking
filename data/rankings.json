@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T12:35:43.749229+00:00",
+  "last_updated": "2026-03-03T18:36:26.174236+00:00",
   "daltons": {
     "46733": [
       {
@@ -171,6 +171,25 @@
         "date": 1772366411,
         "key": "19932",
         "leek_name": "GreenSlash",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51662985,
+        "fight_type": 0,
+        "farmer_name": "Agade",
+        "farmer_id": 44975,
+        "leeks": [
+          {
+            "id": 49331,
+            "name": "AgadeLeek2",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 5,
+        "date": 1772542801,
+        "key": "44975",
+        "leek_name": "AgadeLeek2",
         "leek_level": 301
       },
       {
@@ -475,6 +494,25 @@
         "date": 1772034099,
         "key": "75975",
         "leek_name": "Armor2",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51663190,
+        "fight_type": 0,
+        "farmer_name": "AntiSlash",
+        "farmer_id": 100982,
+        "leeks": [
+          {
+            "id": 126952,
+            "name": "BackSIash",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 51,
+        "date": 1772544296,
+        "key": "100982",
+        "leek_name": "BackSIash",
         "leek_level": 301
       }
     ],
@@ -2848,6 +2886,39 @@
       "date": 1771871405,
       "key": "71485",
       "leek_names": "ChoucrouteMelba, RussianRafia, LentilleLunaire, ChaussetteBleue"
+    },
+    {
+      "fight_id": 51665354,
+      "fight_type": 1,
+      "farmer_name": "SachaBougPalette",
+      "farmer_id": 124210,
+      "leeks": [
+        {
+          "id": 130660,
+          "name": "GeneralMamene",
+          "level": 301
+        },
+        {
+          "id": 131073,
+          "name": "CapitaineMamene",
+          "level": 301
+        },
+        {
+          "id": 130932,
+          "name": "ColonelMamene",
+          "level": 301
+        },
+        {
+          "id": 131273,
+          "name": "LieutenantMamene",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 5,
+      "date": 1772557210,
+      "key": "124210",
+      "leek_names": "GeneralMamene, CapitaineMamene, ColonelMamene, LieutenantMamene"
     },
     {
       "fight_id": 51569812,
