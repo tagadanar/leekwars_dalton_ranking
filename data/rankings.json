@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T18:34:23.722164+00:00",
+  "last_updated": "2026-03-03T01:18:12.049265+00:00",
   "daltons": {
     "46733": [
       {
@@ -1679,6 +1679,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51657589,
+        "fight_type": 0,
+        "farmer_name": "koe",
+        "farmer_id": 124565,
+        "leeks": [
+          {
+            "id": 131032,
+            "name": "koe",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 9,
+        "date": 1772490249,
+        "key": "124565",
+        "leek_name": "koe",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51540163,
         "fight_type": 0,
         "farmer_name": "tagadamasio",
@@ -3321,6 +3340,39 @@
       "leek_names": "KavaFaireMal, KavaBarder, KavaPiquer, Kavalfaire"
     },
     {
+      "fight_id": 51657197,
+      "fight_type": 1,
+      "farmer_name": "MimiRush",
+      "farmer_id": 73150,
+      "leeks": [
+        {
+          "id": 78113,
+          "name": "MimiHori",
+          "level": 301
+        },
+        {
+          "id": 78201,
+          "name": "MimiTori",
+          "level": 301
+        },
+        {
+          "id": 78485,
+          "name": "MimiNara",
+          "level": 301
+        },
+        {
+          "id": 78580,
+          "name": "MimiNori",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 13,
+      "date": 1772485535,
+      "key": "73150",
+      "leek_names": "MimiHori, MimiTori, MimiNara, MimiNori"
+    },
+    {
       "fight_id": 51569646,
       "fight_type": 1,
       "farmer_name": "Unbreakable",
@@ -3583,6 +3635,39 @@
       "date": 1771939058,
       "key": "60113",
       "leek_names": "Ryuu, Pye, Too, Neew"
+    },
+    {
+      "fight_id": 51657146,
+      "fight_type": 1,
+      "farmer_name": "agatha2004",
+      "farmer_id": 35445,
+      "leeks": [
+        {
+          "id": 38895,
+          "name": "Booliko",
+          "level": 301
+        },
+        {
+          "id": 39404,
+          "name": "Littto",
+          "level": 301
+        },
+        {
+          "id": 45029,
+          "name": "tooliko",
+          "level": 301
+        },
+        {
+          "id": 100749,
+          "name": "Dorito",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 16,
+      "date": 1772484767,
+      "key": "35445",
+      "leek_names": "Booliko, Littto, tooliko, Dorito"
     },
     {
       "fight_id": 51569930,
@@ -4216,6 +4301,39 @@
       "date": 1772395233,
       "key": "76696",
       "leek_names": "TheBeholder, LeekTheKid, Myoga, Rincewind"
+    },
+    {
+      "fight_id": 51656905,
+      "fight_type": 2,
+      "farmer_name": "Ref",
+      "farmer_id": 43276,
+      "leeks": [
+        {
+          "id": 47943,
+          "name": "TomateTransg\u00e9nique",
+          "level": 301
+        },
+        {
+          "id": 63514,
+          "name": "Peuhwaro",
+          "level": 301
+        },
+        {
+          "id": 82518,
+          "name": "Kraneur",
+          "level": 301
+        },
+        {
+          "id": 22484,
+          "name": "Atomas",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 11,
+      "date": 1772483435,
+      "key": "43276",
+      "leek_names": "TomateTransg\u00e9nique, Peuhwaro, Kraneur, Atomas"
     },
     {
       "fight_id": 51564144,
