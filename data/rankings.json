@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T06:39:02.431734+00:00",
+  "last_updated": "2026-03-03T12:35:43.749229+00:00",
   "daltons": {
     "46733": [
       {
@@ -708,6 +708,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51662571,
+        "fight_type": 0,
+        "farmer_name": "BlackSlash",
+        "farmer_id": 19932,
+        "leeks": [
+          {
+            "id": 23362,
+            "name": "BlueSlash",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 8,
+        "date": 1772537433,
+        "key": "19932",
+        "leek_name": "BlueSlash",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51596670,
         "fight_type": 0,
         "farmer_name": "Dala\u00efLamAnarchie",
@@ -1318,6 +1337,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51660488,
+        "fight_type": 0,
+        "farmer_name": "SachaBougPalette",
+        "farmer_id": 124210,
+        "leeks": [
+          {
+            "id": 131273,
+            "name": "LieutenantMamene",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 4,
+        "date": 1772532446,
+        "key": "124210",
+        "leek_name": "LieutenantMamene",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51630700,
         "fight_type": 0,
         "farmer_name": "Leekspin1",
@@ -1622,6 +1660,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51662793,
+        "fight_type": 0,
+        "farmer_name": "tagadanar",
+        "farmer_id": 34958,
+        "leeks": [
+          {
+            "id": 39820,
+            "name": "Lamastico",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 8,
+        "date": 1772541001,
+        "key": "34958",
+        "leek_name": "Lamastico",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51634172,
         "fight_type": 0,
         "farmer_name": "Agade",
@@ -1638,25 +1695,6 @@
         "date": 1772320700,
         "key": "44975",
         "leek_name": "AgadeLeek3",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51633642,
-        "fight_type": 0,
-        "farmer_name": "SachaBougPalette",
-        "farmer_id": 124210,
-        "leeks": [
-          {
-            "id": 130932,
-            "name": "ColonelMamene",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 9,
-        "date": 1772320168,
-        "key": "124210",
-        "leek_name": "ColonelMamene",
         "leek_level": 301
       },
       {
@@ -2194,6 +2232,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51662658,
+        "fight_type": 0,
+        "farmer_name": "KavaliovSexies",
+        "farmer_id": 62050,
+        "leeks": [
+          {
+            "id": 66998,
+            "name": "KavaLeMagnifique",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 7,
+        "date": 1772539207,
+        "key": "62050",
+        "leek_name": "KavaLeMagnifique",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51596062,
         "fight_type": 0,
         "farmer_name": "IdeesNoires",
@@ -2229,25 +2286,6 @@
         "date": 1772320763,
         "key": "31464",
         "leek_name": "Ceacleye",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51580373,
-        "fight_type": 0,
-        "farmer_name": "KavaliovSexies",
-        "farmer_id": 62050,
-        "leeks": [
-          {
-            "id": 67070,
-            "name": "KavaEtreMarrant",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 12,
-        "date": 1771932616,
-        "key": "62050",
-        "leek_name": "KavaEtreMarrant",
         "leek_level": 301
       },
       {
