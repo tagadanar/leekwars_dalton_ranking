@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T12:35:48.343172+00:00",
+  "last_updated": "2026-03-04T18:35:54.336422+00:00",
   "daltons": {
     "46733": [
       {
@@ -1451,6 +1451,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51677581,
+        "fight_type": 0,
+        "farmer_name": "AntiSlash",
+        "farmer_id": 100982,
+        "leeks": [
+          {
+            "id": 126952,
+            "name": "BackSIash",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 4,
+        "date": 1772630518,
+        "key": "100982",
+        "leek_name": "BackSIash",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51630700,
         "fight_type": 0,
         "farmer_name": "Leekspin1",
@@ -1695,25 +1714,6 @@
         "date": 1772320693,
         "key": "101978",
         "leek_name": "AgadeLeek8",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51633636,
-        "fight_type": 0,
-        "farmer_name": "AntiSlash",
-        "farmer_id": 100982,
-        "leeks": [
-          {
-            "id": 126841,
-            "name": "BarreObliqueInvers\u00e9e",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 8,
-        "date": 1772320164,
-        "key": "100982",
-        "leek_name": "BarreObliqueInvers\u00e9e",
         "leek_level": 301
       },
       {
@@ -4009,6 +4009,39 @@
       "date": 1772484767,
       "key": "35445",
       "leek_names": "Booliko, Littto, tooliko, Dorito"
+    },
+    {
+      "fight_id": 51679578,
+      "fight_type": 1,
+      "farmer_name": "FdHP5",
+      "farmer_id": 97569,
+      "leeks": [
+        {
+          "id": 103111,
+          "name": "Luron",
+          "level": 301
+        },
+        {
+          "id": 103176,
+          "name": "Arcom",
+          "level": 301
+        },
+        {
+          "id": 103690,
+          "name": "Burg",
+          "level": 301
+        },
+        {
+          "id": 106242,
+          "name": "Polynomial",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 16,
+      "date": 1772641248,
+      "key": "97569",
+      "leek_names": "Luron, Arcom, Burg, Polynomial"
     },
     {
       "fight_id": 51569930,
