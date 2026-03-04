@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T18:36:26.174236+00:00",
+  "last_updated": "2026-03-04T01:13:50.762091+00:00",
   "daltons": {
     "46733": [
       {
@@ -2441,6 +2441,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51666821,
+        "fight_type": 0,
+        "farmer_name": "LeekSide",
+        "farmer_id": 33819,
+        "leeks": [
+          {
+            "id": 37306,
+            "name": "LeekSidious",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 20,
+        "date": 1772571283,
+        "key": "33819",
+        "leek_name": "LeekSidious",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51633495,
         "fight_type": 0,
         "farmer_name": "3F369",
@@ -2514,6 +2533,25 @@
         "date": 1772034654,
         "key": "49042",
         "leek_name": "Darkizon",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51666852,
+        "fight_type": 0,
+        "farmer_name": "CultureBio",
+        "farmer_id": 55280,
+        "leeks": [
+          {
+            "id": 60518,
+            "name": "PommeBio",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 36,
+        "date": 1772571496,
+        "key": "55280",
+        "leek_name": "PommeBio",
         "leek_level": 301
       },
       {
@@ -2628,6 +2666,25 @@
         "date": 1772034508,
         "key": "44104",
         "leek_name": "NbrsRationnels",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51666830,
+        "fight_type": 0,
+        "farmer_name": "Magestik25",
+        "farmer_id": 66407,
+        "leeks": [
+          {
+            "id": 71416,
+            "name": "MimiPhi",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 51,
+        "date": 1772571338,
+        "key": "66407",
+        "leek_name": "MimiPhi",
         "leek_level": 301
       },
       {
@@ -3119,6 +3176,39 @@
       "leek_names": "Poliw, Gentiw, \u00c9rudiw, Exquiw"
     },
     {
+      "fight_id": 51667351,
+      "fight_type": 1,
+      "farmer_name": "Bluer",
+      "farmer_id": 91992,
+      "leeks": [
+        {
+          "id": 97256,
+          "name": "PeaceKeeper",
+          "level": 301
+        },
+        {
+          "id": 97458,
+          "name": "ForestKeeper",
+          "level": 301
+        },
+        {
+          "id": 98186,
+          "name": "BeeKeeper",
+          "level": 301
+        },
+        {
+          "id": 99148,
+          "name": "ZooKeeper",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 8,
+      "date": 1772572695,
+      "key": "91992",
+      "leek_names": "PeaceKeeper, ForestKeeper, BeeKeeper, ZooKeeper"
+    },
+    {
       "fight_id": 51584255,
       "fight_type": 1,
       "farmer_name": "Fulify",
@@ -3150,6 +3240,39 @@
       "date": 1771957801,
       "key": "95252",
       "leek_names": "L33kSkywalker, moon1338, xceekx, Fulify"
+    },
+    {
+      "fight_id": 51667314,
+      "fight_type": 1,
+      "farmer_name": "Ozymandias",
+      "farmer_id": 99583,
+      "leeks": [
+        {
+          "id": 105346,
+          "name": "Tr\u00e8fleFou",
+          "level": 301
+        },
+        {
+          "id": 105418,
+          "name": "Tr\u00e8fleFilou",
+          "level": 301
+        },
+        {
+          "id": 105590,
+          "name": "Tr\u00e8fleF\u00e9lon",
+          "level": 301
+        },
+        {
+          "id": 105828,
+          "name": "Tr\u00e8fleFlou",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 9,
+      "date": 1772572594,
+      "key": "99583",
+      "leek_names": "Tr\u00e8fleFou, Tr\u00e8fleFilou, Tr\u00e8fleF\u00e9lon, Tr\u00e8fleFlou"
     },
     {
       "fight_id": 51581298,
@@ -3315,6 +3438,39 @@
       "date": 1772040615,
       "key": "34958",
       "leek_names": "Lamastico, KyoShinZamurato, SweetDude, hardleeker"
+    },
+    {
+      "fight_id": 51667382,
+      "fight_type": 1,
+      "farmer_name": "Lmare",
+      "farmer_id": 48992,
+      "leeks": [
+        {
+          "id": 53372,
+          "name": "Polymetalleek",
+          "level": 301
+        },
+        {
+          "id": 54106,
+          "name": "Leeekidateur",
+          "level": 301
+        },
+        {
+          "id": 54412,
+          "name": "Roleekstone",
+          "level": 301
+        },
+        {
+          "id": 54897,
+          "name": "Basileeek",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 11,
+      "date": 1772572804,
+      "key": "48992",
+      "leek_names": "Polymetalleek, Leeekidateur, Roleekstone, Basileeek"
     },
     {
       "fight_id": 51630244,
@@ -4214,6 +4370,44 @@
   },
   "team_ranking": [
     {
+      "fight_id": 51666945,
+      "fight_type": 2,
+      "farmer_name": "Unbreakable",
+      "farmer_id": 73454,
+      "leeks": [
+        {
+          "id": 81322,
+          "name": "Superior",
+          "level": 301
+        },
+        {
+          "id": 78427,
+          "name": "Survivor",
+          "level": 301
+        },
+        {
+          "id": 80705,
+          "name": "Successor",
+          "level": 301
+        },
+        {
+          "id": 89996,
+          "name": "NumberOneTYBW",
+          "level": 199
+        },
+        {
+          "id": 93281,
+          "name": "Fantosynth\u00e8se",
+          "level": 95
+        }
+      ],
+      "total_level": 1197,
+      "turns": 7,
+      "date": 1772571664,
+      "key": "73454",
+      "leek_names": "Superior, Survivor, Successor, NumberOneTYBW, Fantosynth\u00e8se"
+    },
+    {
       "fight_id": 51486801,
       "fight_type": 2,
       "farmer_name": "FdHP3",
@@ -4280,6 +4474,39 @@
       "leek_names": "AntiSlash, ContreOblique, BarreObliqueInvers\u00e9e, BackSIash"
     },
     {
+      "fight_id": 51667235,
+      "fight_type": 2,
+      "farmer_name": "ToOnS",
+      "farmer_id": 1609,
+      "leeks": [
+        {
+          "id": 1890,
+          "name": "Poireu",
+          "level": 301
+        },
+        {
+          "id": 9785,
+          "name": "poireuu",
+          "level": 301
+        },
+        {
+          "id": 129788,
+          "name": "Poireu3",
+          "level": 301
+        },
+        {
+          "id": 129976,
+          "name": "poireu4",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 5,
+      "date": 1772572441,
+      "key": "1609",
+      "leek_names": "Poireu, poireuu, Poireu3, poireu4"
+    },
+    {
       "fight_id": 51528370,
       "fight_type": 2,
       "farmer_name": "darjac",
@@ -4344,6 +4571,39 @@
       "date": 1772310613,
       "key": "48358",
       "leek_names": "HappyNewYear, HappyHour, HappyTreeFriend, HappyHalloween"
+    },
+    {
+      "fight_id": 51666700,
+      "fight_type": 2,
+      "farmer_name": "KavaliovSexies",
+      "farmer_id": 62050,
+      "leeks": [
+        {
+          "id": 67230,
+          "name": "Kava",
+          "level": 301
+        },
+        {
+          "id": 67070,
+          "name": "KavaEtreMarrant",
+          "level": 301
+        },
+        {
+          "id": 66677,
+          "name": "Kavalriz",
+          "level": 301
+        },
+        {
+          "id": 66998,
+          "name": "KavaLeMagnifique",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 8,
+      "date": 1772569879,
+      "key": "62050",
+      "leek_names": "Kava, KavaEtreMarrant, Kavalriz, KavaLeMagnifique"
     },
     {
       "fight_id": 51652578,
