@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T06:35:53.200559+00:00",
+  "last_updated": "2026-03-04T12:35:48.343172+00:00",
   "daltons": {
     "46733": [
       {
@@ -456,6 +456,25 @@
         "date": 1771859721,
         "key": "76772",
         "leek_name": "Kraneur",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51676029,
+        "fight_type": 0,
+        "farmer_name": "EF369",
+        "farmer_id": 122869,
+        "leeks": [
+          {
+            "id": 129212,
+            "name": "EF369A",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 15,
+        "date": 1772623820,
+        "key": "122869",
+        "leek_name": "EF369A",
         "leek_level": 301
       },
       {
@@ -1145,6 +1164,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51676553,
+        "fight_type": 0,
+        "farmer_name": "Joalien",
+        "farmer_id": 32858,
+        "leeks": [
+          {
+            "id": 57902,
+            "name": "LeeckyLuck",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 23,
+        "date": 1772625603,
+        "key": "32858",
+        "leek_name": "LeeckyLuck",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51633420,
         "fight_type": 0,
         "farmer_name": "tagadaveniradieux",
@@ -1353,6 +1391,25 @@
         "date": 1772320691,
         "key": "87673",
         "leek_name": "Friteur",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51674209,
+        "fight_type": 0,
+        "farmer_name": "thaddee",
+        "farmer_id": 86242,
+        "leeks": [
+          {
+            "id": 91532,
+            "name": "Fl\u00e2teur",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 3,
+        "date": 1772618083,
+        "key": "86242",
+        "leek_name": "Fl\u00e2teur",
         "leek_level": 301
       },
       {
@@ -2362,6 +2419,25 @@
         "date": 1771859782,
         "key": "76772",
         "leek_name": "Kraneur",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51675691,
+        "fight_type": 0,
+        "farmer_name": "EF369",
+        "farmer_id": 122869,
+        "leeks": [
+          {
+            "id": 129212,
+            "name": "EF369A",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 15,
+        "date": 1772622408,
+        "key": "122869",
+        "leek_name": "EF369A",
         "leek_level": 301
       },
       {
