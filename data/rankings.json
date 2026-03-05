@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T06:38:49.155455+00:00",
+  "last_updated": "2026-03-05T12:38:58.457103+00:00",
   "daltons": {
     "46733": [
       {
@@ -686,6 +686,25 @@
         "date": 1772321846,
         "key": "106937",
         "leek_name": "Hald",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51690452,
+        "fight_type": 0,
+        "farmer_name": "tagadalone",
+        "farmer_id": 50168,
+        "leeks": [
+          {
+            "id": 54510,
+            "name": "twogether",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 5,
+        "date": 1772712017,
+        "key": "50168",
+        "leek_name": "twogether",
         "leek_level": 301
       },
       {
@@ -1828,6 +1847,25 @@
         "date": 1772490249,
         "key": "124565",
         "leek_name": "koe",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51690259,
+        "fight_type": 0,
+        "farmer_name": "FdHP2",
+        "farmer_id": 8746,
+        "leeks": [
+          {
+            "id": 94649,
+            "name": "RoseTyler",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 9,
+        "date": 1772710214,
+        "key": "8746",
+        "leek_name": "RoseTyler",
         "leek_level": 301
       },
       {
