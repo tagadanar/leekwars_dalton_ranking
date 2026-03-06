@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T19:11:20.301670+00:00",
+  "last_updated": "2026-03-06T01:18:54.989636+00:00",
   "daltons": {
     "46733": [
       {
@@ -5476,6 +5476,44 @@
       "date": 1771304388,
       "key": "22470",
       "leek_names": "Yami, jarnac, naja, Keyhno, asp1c"
+    },
+    {
+      "fight_id": 51696264,
+      "fight_type": 2,
+      "farmer_name": "Dynamex",
+      "farmer_id": 58615,
+      "leeks": [
+        {
+          "id": 63343,
+          "name": "Dynamex",
+          "level": 301
+        },
+        {
+          "id": 81645,
+          "name": "SushiAlwaysHere",
+          "level": 301
+        },
+        {
+          "id": 57011,
+          "name": "LeeKolonel",
+          "level": 301
+        },
+        {
+          "id": 101381,
+          "name": "Dynaleak",
+          "level": 301
+        },
+        {
+          "id": 98475,
+          "name": "PoOtato",
+          "level": 301
+        }
+      ],
+      "total_level": 1505,
+      "turns": 23,
+      "date": 1772742700,
+      "key": "58615",
+      "leek_names": "Dynamex, SushiAlwaysHere, LeeKolonel, Dynaleak, PoOtato"
     },
     {
       "fight_id": 51586068,
