@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T06:36:22.347615+00:00",
+  "last_updated": "2026-03-06T12:34:30.098942+00:00",
   "daltons": {
     "46733": [
       {
@@ -133,6 +133,25 @@
         "date": 1772717374,
         "key": "124210",
         "leek_name": "CapitaineMamene",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51704042,
+        "fight_type": 0,
+        "farmer_name": "tagadanar",
+        "farmer_id": 34958,
+        "leeks": [
+          {
+            "id": 38413,
+            "name": "hardleeker",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 4,
+        "date": 1772798408,
+        "key": "34958",
+        "leek_name": "hardleeker",
         "leek_level": 301
       },
       {
@@ -418,25 +437,6 @@
         "date": 1772320183,
         "key": "75627",
         "leek_name": "ChevalDeCourse",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51594575,
-        "fight_type": 0,
-        "farmer_name": "tagadanar",
-        "farmer_id": 34958,
-        "leeks": [
-          {
-            "id": 38413,
-            "name": "hardleeker",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 13,
-        "date": 1772022606,
-        "key": "34958",
-        "leek_name": "hardleeker",
         "leek_level": 301
       },
       {
@@ -2325,6 +2325,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51703719,
+        "fight_type": 0,
+        "farmer_name": "LaLongueTerre",
+        "farmer_id": 123921,
+        "leeks": [
+          {
+            "id": 130355,
+            "name": "Josu\u00e9Valient\u00e9",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 18,
+        "date": 1772794923,
+        "key": "123921",
+        "leek_name": "Josu\u00e9Valient\u00e9",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51562307,
         "fight_type": 0,
         "farmer_name": "tagadaveniradieux",
@@ -2669,6 +2688,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51703548,
+        "fight_type": 0,
+        "farmer_name": "Kraspen",
+        "farmer_id": 76772,
+        "leeks": [
+          {
+            "id": 81638,
+            "name": "Kraton",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 10,
+        "date": 1772794858,
+        "key": "76772",
+        "leek_name": "Kraton",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51634248,
         "fight_type": 0,
         "farmer_name": "Necta01",
@@ -2704,25 +2742,6 @@
         "date": 1772034674,
         "key": "71485",
         "leek_name": "ChaussetteBleue",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51570193,
-        "fight_type": 0,
-        "farmer_name": "Kraspen",
-        "farmer_id": 76772,
-        "leeks": [
-          {
-            "id": 82518,
-            "name": "Kraneur",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 14,
-        "date": 1771859782,
-        "key": "76772",
-        "leek_name": "Kraneur",
         "leek_level": 301
       },
       {
@@ -3917,6 +3936,39 @@
       "date": 1772384401,
       "key": "76155",
       "leek_names": "MagnusPym, GeorgeSmiley, JerryWesterby, AlecLeamas"
+    },
+    {
+      "fight_id": 51703123,
+      "fight_type": 1,
+      "farmer_name": "FdHP",
+      "farmer_id": 8414,
+      "leeks": [
+        {
+          "id": 8549,
+          "name": "Grub",
+          "level": 301
+        },
+        {
+          "id": 91529,
+          "name": "MarcoDorigo",
+          "level": 301
+        },
+        {
+          "id": 91864,
+          "name": "HainePaixComplet",
+          "level": 301
+        },
+        {
+          "id": 96861,
+          "name": "Zigotos",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 12,
+      "date": 1772794291,
+      "key": "8414",
+      "leek_names": "Grub, MarcoDorigo, HainePaixComplet, Zigotos"
     },
     {
       "fight_id": 51581614,
