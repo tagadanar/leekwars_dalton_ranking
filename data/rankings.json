@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T01:10:54.369499+00:00",
+  "last_updated": "2026-03-07T06:28:21.754597+00:00",
   "daltons": {
     "46733": [
       {
@@ -5556,6 +5556,44 @@
       "date": 1772055001,
       "key": "73149",
       "leek_names": "KavaSpeed, KavaRider, kavalcade, Seiya, KavaSpeed2"
+    },
+    {
+      "fight_id": 51709478,
+      "fight_type": 2,
+      "farmer_name": "SushiRush",
+      "farmer_id": 97541,
+      "leeks": [
+        {
+          "id": 103143,
+          "name": "MangueBleut\u00e9e",
+          "level": 301
+        },
+        {
+          "id": 103102,
+          "name": "CyranodeBergerac",
+          "level": 301
+        },
+        {
+          "id": 103455,
+          "name": "Samota",
+          "level": 301
+        },
+        {
+          "id": 103615,
+          "name": "DorDine",
+          "level": 301
+        },
+        {
+          "id": 103746,
+          "name": "Ogib",
+          "level": 301
+        }
+      ],
+      "total_level": 1505,
+      "turns": 12,
+      "date": 1772859754,
+      "key": "97541",
+      "leek_names": "MangueBleut\u00e9e, CyranodeBergerac, Samota, DorDine, Ogib"
     },
     {
       "fight_id": 51501575,
