@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T12:28:03.508901+00:00",
+  "last_updated": "2026-03-07T18:22:09.130634+00:00",
   "daltons": {
     "46733": [
       {
@@ -2287,6 +2287,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51714007,
+        "fight_type": 0,
+        "farmer_name": "tagadai",
+        "farmer_id": 122557,
+        "leeks": [
+          {
+            "id": 128883,
+            "name": "Claudius",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 11,
+        "date": 1772888402,
+        "key": "122557",
+        "leek_name": "Claudius",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51596693,
         "fight_type": 0,
         "farmer_name": "Dynamix",
@@ -2631,6 +2650,25 @@
         "leek_level": 291
       },
       {
+        "fight_id": 51716230,
+        "fight_type": 0,
+        "farmer_name": "KavaliovAdvent2020",
+        "farmer_id": 73149,
+        "leeks": [
+          {
+            "id": 78112,
+            "name": "KavaSpeed",
+            "level": 300
+          }
+        ],
+        "total_level": 300,
+        "turns": 19,
+        "date": 1772904504,
+        "key": "73149",
+        "leek_name": "KavaSpeed",
+        "leek_level": 300
+      },
+      {
         "fight_id": 51633523,
         "fight_type": 0,
         "farmer_name": "Kava3001",
@@ -2707,6 +2745,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51716042,
+        "fight_type": 0,
+        "farmer_name": "fantonico",
+        "farmer_id": 34434,
+        "leeks": [
+          {
+            "id": 37886,
+            "name": "Carnivore",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 7,
+        "date": 1772903208,
+        "key": "34434",
+        "leek_name": "Carnivore",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51596062,
         "fight_type": 0,
         "farmer_name": "IdeesNoires",
@@ -2764,6 +2821,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51715810,
+        "fight_type": 0,
+        "farmer_name": "ihsusikamet",
+        "farmer_id": 76695,
+        "leeks": [
+          {
+            "id": 83389,
+            "name": "NotTemakisushi",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 11,
+        "date": 1772901769,
+        "key": "76695",
+        "leek_name": "NotTemakisushi",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51596089,
         "fight_type": 0,
         "farmer_name": "BrocoliCosmique",
@@ -2799,6 +2875,25 @@
         "date": 1772622408,
         "key": "122869",
         "leek_name": "EF369A",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51716063,
+        "fight_type": 0,
+        "farmer_name": "TemaPasLeTemps",
+        "farmer_id": 59153,
+        "leeks": [
+          {
+            "id": 63879,
+            "name": "sushi233",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 15,
+        "date": 1772903382,
+        "key": "59153",
+        "leek_name": "sushi233",
         "leek_level": 301
       },
       {
@@ -2935,6 +3030,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51716213,
+        "fight_type": 0,
+        "farmer_name": "Galilee",
+        "farmer_id": 73151,
+        "leeks": [
+          {
+            "id": 78324,
+            "name": "PendulePesant",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 25,
+        "date": 1772904317,
+        "key": "73151",
+        "leek_name": "PendulePesant",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51596085,
         "fight_type": 0,
         "farmer_name": "CleekSurMoi",
@@ -2951,6 +3065,44 @@
         "date": 1772034667,
         "key": "61931",
         "leek_name": "DoubleCleekGauche",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51715308,
+        "fight_type": 0,
+        "farmer_name": "Tigers",
+        "farmer_id": 94150,
+        "leeks": [
+          {
+            "id": 108063,
+            "name": "TigerYellow",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 27,
+        "date": 1772898398,
+        "key": "94150",
+        "leek_name": "TigerYellow",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51716189,
+        "fight_type": 0,
+        "farmer_name": "LaLongueTerre",
+        "farmer_id": 123921,
+        "leeks": [
+          {
+            "id": 130419,
+            "name": "Lobsang",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 34,
+        "date": 1772904048,
+        "key": "123921",
+        "leek_name": "Lobsang",
         "leek_level": 301
       },
       {
@@ -3046,6 +3198,25 @@
         "date": 1772319069,
         "key": "97030",
         "leek_name": "dalph",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51715893,
+        "fight_type": 0,
+        "farmer_name": "NMM44",
+        "farmer_id": 76394,
+        "leeks": [
+          {
+            "id": 81321,
+            "name": "operationJubilee",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 43,
+        "date": 1772902587,
+        "key": "76394",
+        "leek_name": "operationJubilee",
         "leek_level": 301
       },
       {
@@ -3160,6 +3331,25 @@
         "date": 1771858074,
         "key": "92936",
         "leek_name": "NEWCOMB",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51715842,
+        "fight_type": 0,
+        "farmer_name": "galactichitchleeker",
+        "farmer_id": 76473,
+        "leeks": [
+          {
+            "id": 81329,
+            "name": "arthurdent",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 62,
+        "date": 1772902026,
+        "key": "76473",
+        "leek_name": "arthurdent",
         "leek_level": 301
       }
     ]
