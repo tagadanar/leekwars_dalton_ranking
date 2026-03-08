@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T18:22:09.130634+00:00",
+  "last_updated": "2026-03-08T01:16:17.886207+00:00",
   "daltons": {
     "46733": [
       {
@@ -2916,6 +2916,44 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51720238,
+        "fight_type": 0,
+        "farmer_name": "Leekspin2",
+        "farmer_id": 75975,
+        "leeks": [
+          {
+            "id": 80871,
+            "name": "Armor2",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 16,
+        "date": 1772928548,
+        "key": "75975",
+        "leek_name": "Armor2",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51716669,
+        "fight_type": 0,
+        "farmer_name": "Grimgar",
+        "farmer_id": 77466,
+        "leeks": [
+          {
+            "id": 82606,
+            "name": "Shihoru",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 17,
+        "date": 1772907675,
+        "key": "77466",
+        "leek_name": "Shihoru",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51633862,
         "fight_type": 0,
         "farmer_name": "Unstoppable",
@@ -5822,6 +5860,44 @@
       "date": 1771358158,
       "key": "42329",
       "leek_names": "gelbaz4, poario, mamax49poireau, SosoPoireau, Vorberg"
+    },
+    {
+      "fight_id": 51718733,
+      "fight_type": 2,
+      "farmer_name": "BlackSlash",
+      "farmer_id": 19932,
+      "leeks": [
+        {
+          "id": 26338,
+          "name": "RedSlash",
+          "level": 301
+        },
+        {
+          "id": 78123,
+          "name": "TroisPetitsChats",
+          "level": 301
+        },
+        {
+          "id": 76472,
+          "name": "Fierceness",
+          "level": 301
+        },
+        {
+          "id": 65888,
+          "name": "Impetuous",
+          "level": 301
+        },
+        {
+          "id": 76035,
+          "name": "Enfer",
+          "level": 301
+        }
+      ],
+      "total_level": 1505,
+      "turns": 21,
+      "date": 1772919001,
+      "key": "19932",
+      "leek_names": "RedSlash, TroisPetitsChats, Fierceness, Impetuous, Enfer"
     },
     {
       "fight_id": 51495166,
