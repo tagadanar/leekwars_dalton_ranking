@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T06:31:52.450409+00:00",
+  "last_updated": "2026-03-08T12:28:43.244022+00:00",
   "daltons": {
     "46733": [
       {
@@ -2322,6 +2322,25 @@
         "date": 1772039354,
         "key": "96571",
         "leek_name": "Ximeranyd",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51725222,
+        "fight_type": 0,
+        "farmer_name": "KavaliovSepties",
+        "farmer_id": 70281,
+        "leeks": [
+          {
+            "id": 75101,
+            "name": "Kavavite",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 13,
+        "date": 1772967658,
+        "key": "70281",
+        "leek_name": "Kavavite",
         "leek_level": 301
       },
       {
