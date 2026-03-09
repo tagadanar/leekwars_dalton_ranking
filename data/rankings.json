@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T12:39:17.321297+00:00",
+  "last_updated": "2026-03-09T18:39:39.891378+00:00",
   "daltons": {
     "46733": [
       {
@@ -554,6 +554,25 @@
         "key": "74906",
         "leek_name": "Seiya",
         "leek_level": 291
+      },
+      {
+        "fight_id": 51741829,
+        "fight_type": 0,
+        "farmer_name": "Scotty22",
+        "farmer_id": 124179,
+        "leeks": [
+          {
+            "id": 130627,
+            "name": "Scotty1",
+            "level": 298
+          }
+        ],
+        "total_level": 298,
+        "turns": 10,
+        "date": 1773065365,
+        "key": "124179",
+        "leek_name": "Scotty1",
+        "leek_level": 298
       },
       {
         "fight_id": 51633474,
@@ -2553,6 +2572,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51741332,
+        "fight_type": 0,
+        "farmer_name": "Joalien",
+        "farmer_id": 32858,
+        "leeks": [
+          {
+            "id": 57902,
+            "name": "LeeckyLuck",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 24,
+        "date": 1773061207,
+        "key": "32858",
+        "leek_name": "LeeckyLuck",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51592756,
         "fight_type": 0,
         "farmer_name": "ToOnS",
@@ -2761,6 +2799,25 @@
         "date": 1772319557,
         "key": "99667",
         "leek_name": "Kava30014",
+        "leek_level": 300
+      },
+      {
+        "fight_id": 51742676,
+        "fight_type": 0,
+        "farmer_name": "ArthourCuillere",
+        "farmer_id": 124865,
+        "leeks": [
+          {
+            "id": 131493,
+            "name": "PercevalLeGallois",
+            "level": 300
+          }
+        ],
+        "total_level": 300,
+        "turns": 26,
+        "date": 1773071577,
+        "key": "124865",
+        "leek_name": "PercevalLeGallois",
         "leek_level": 300
       },
       {
@@ -4575,6 +4632,39 @@
       "date": 1771943994,
       "key": "56766",
       "leek_names": "KavaTank, Kavamage, KavaPretre, KavaDruide"
+    },
+    {
+      "fight_id": 51745002,
+      "fight_type": 1,
+      "farmer_name": "fujiwar",
+      "farmer_id": 58321,
+      "leeks": [
+        {
+          "id": 63029,
+          "name": "Peuwareau",
+          "level": 301
+        },
+        {
+          "id": 63124,
+          "name": "Peuwaroh",
+          "level": 301
+        },
+        {
+          "id": 64231,
+          "name": "Peuwahreau",
+          "level": 301
+        },
+        {
+          "id": 63514,
+          "name": "Peuhwaro",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 15,
+      "date": 1773081001,
+      "key": "58321",
+      "leek_names": "Peuwareau, Peuwaroh, Peuwahreau, Peuhwaro"
     },
     {
       "fight_id": 51569936,
