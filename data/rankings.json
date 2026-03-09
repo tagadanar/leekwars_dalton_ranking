@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T01:16:32.076626+00:00",
+  "last_updated": "2026-03-09T06:51:17.640785+00:00",
   "daltons": {
     "46733": [
       {
@@ -7024,6 +7024,49 @@
       "date": 1772669245,
       "key": "67334",
       "leek_names": "MevanwiLeGrosBoudin, LaDameDuLac, ArkandrBieva, AstievVelasei, C4DI114C, MCSalo"
+    },
+    {
+      "fight_id": 51736000,
+      "fight_type": 2,
+      "farmer_name": "huld",
+      "farmer_id": 106937,
+      "leeks": [
+        {
+          "id": 127298,
+          "name": "Hald",
+          "level": 301
+        },
+        {
+          "id": 127874,
+          "name": "dulph3",
+          "level": 301
+        },
+        {
+          "id": 128198,
+          "name": "dolph3",
+          "level": 301
+        },
+        {
+          "id": 20443,
+          "name": "AdaLovelace",
+          "level": 301
+        },
+        {
+          "id": 128455,
+          "name": "dilph3",
+          "level": 301
+        },
+        {
+          "id": 105175,
+          "name": "Gueriaigle",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 9,
+      "date": 1773038978,
+      "key": "106937",
+      "leek_names": "Hald, dulph3, dolph3, AdaLovelace, dilph3, Gueriaigle"
     },
     {
       "fight_id": 51501822,
