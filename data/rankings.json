@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T18:21:44.183342+00:00",
+  "last_updated": "2026-03-09T01:16:32.076626+00:00",
   "daltons": {
     "46733": [
       {
@@ -670,6 +670,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51731829,
+        "fight_type": 0,
+        "farmer_name": "Argent",
+        "farmer_id": 87673,
+        "leeks": [
+          {
+            "id": 92864,
+            "name": "Friteur",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 3,
+        "date": 1773004951,
+        "key": "87673",
+        "leek_name": "Friteur",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51690805,
         "fight_type": 0,
         "farmer_name": "CultureBio",
@@ -895,6 +914,25 @@
         "date": 1772717137,
         "key": "8414",
         "leek_name": "HainePaixComplet",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51731697,
+        "fight_type": 0,
+        "farmer_name": "WhiteSlash",
+        "farmer_id": 512,
+        "leeks": [
+          {
+            "id": 599,
+            "name": "Zombizou",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 8,
+        "date": 1773004340,
+        "key": "512",
+        "leek_name": "Zombizou",
         "leek_level": 301
       },
       {
@@ -1218,6 +1256,25 @@
         "date": 1772717210,
         "key": "119060",
         "leek_name": "Sapeur",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51731817,
+        "fight_type": 0,
+        "farmer_name": "geLaGratte",
+        "farmer_id": 46717,
+        "leeks": [
+          {
+            "id": 50944,
+            "name": "butchCassiLeek",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 12,
+        "date": 1773004762,
+        "key": "46717",
+        "leek_name": "butchCassiLeek",
         "leek_level": 301
       },
       {
@@ -2916,6 +2973,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51733166,
+        "fight_type": 0,
+        "farmer_name": "Leekspin2",
+        "farmer_id": 75975,
+        "leeks": [
+          {
+            "id": 80871,
+            "name": "Armor2",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 15,
+        "date": 1773014820,
+        "key": "75975",
+        "leek_name": "Armor2",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51634245,
         "fight_type": 0,
         "farmer_name": "mort",
@@ -2932,25 +3008,6 @@
         "date": 1772320761,
         "key": "88167",
         "leek_name": "Manggeur",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51720238,
-        "fight_type": 0,
-        "farmer_name": "Leekspin2",
-        "farmer_id": 75975,
-        "leeks": [
-          {
-            "id": 80871,
-            "name": "Armor2",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 16,
-        "date": 1772928548,
-        "key": "75975",
-        "leek_name": "Armor2",
         "leek_level": 301
       },
       {
@@ -5015,6 +5072,39 @@
       "leek_names": "Katarn, Yrrage, Atomas, Bigo"
     },
     {
+      "fight_id": 51729295,
+      "fight_type": 1,
+      "farmer_name": "tagadai",
+      "farmer_id": 122557,
+      "leeks": [
+        {
+          "id": 131380,
+          "name": "Claudies",
+          "level": 301
+        },
+        {
+          "id": 131326,
+          "name": "Claudios",
+          "level": 301
+        },
+        {
+          "id": 128883,
+          "name": "Claudius",
+          "level": 301
+        },
+        {
+          "id": 131291,
+          "name": "Claudias",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 25,
+      "date": 1772994601,
+      "key": "122557",
+      "leek_names": "Claudies, Claudios, Claudius, Claudias"
+    },
+    {
       "fight_id": 51569914,
       "fight_type": 1,
       "farmer_name": "geekdageek",
@@ -5257,6 +5347,39 @@
       "leek_names": "AntiSlash, ContreOblique, BarreObliqueInvers\u00e9e, BackSIash"
     },
     {
+      "fight_id": 51731223,
+      "fight_type": 2,
+      "farmer_name": "KavaliovSexies",
+      "farmer_id": 62050,
+      "leeks": [
+        {
+          "id": 67230,
+          "name": "Kava",
+          "level": 301
+        },
+        {
+          "id": 67070,
+          "name": "KavaEtreMarrant",
+          "level": 301
+        },
+        {
+          "id": 66677,
+          "name": "Kavalriz",
+          "level": 301
+        },
+        {
+          "id": 66998,
+          "name": "KavaLeMagnifique",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 4,
+      "date": 1773000798,
+      "key": "62050",
+      "leek_names": "Kava, KavaEtreMarrant, Kavalriz, KavaLeMagnifique"
+    },
+    {
       "fight_id": 51667235,
       "fight_type": 2,
       "farmer_name": "ToOnS",
@@ -5354,39 +5477,6 @@
       "date": 1772310613,
       "key": "48358",
       "leek_names": "HappyNewYear, HappyHour, HappyTreeFriend, HappyHalloween"
-    },
-    {
-      "fight_id": 51666700,
-      "fight_type": 2,
-      "farmer_name": "KavaliovSexies",
-      "farmer_id": 62050,
-      "leeks": [
-        {
-          "id": 67230,
-          "name": "Kava",
-          "level": 301
-        },
-        {
-          "id": 67070,
-          "name": "KavaEtreMarrant",
-          "level": 301
-        },
-        {
-          "id": 66677,
-          "name": "Kavalriz",
-          "level": 301
-        },
-        {
-          "id": 66998,
-          "name": "KavaLeMagnifique",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 8,
-      "date": 1772569879,
-      "key": "62050",
-      "leek_names": "Kava, KavaEtreMarrant, Kavalriz, KavaLeMagnifique"
     },
     {
       "fight_id": 51652578,
@@ -5881,6 +5971,44 @@
       "leek_names": "gelbaz4, poario, mamax49poireau, SosoPoireau, Vorberg"
     },
     {
+      "fight_id": 51732030,
+      "fight_type": 2,
+      "farmer_name": "galactichitchleeker",
+      "farmer_id": 76473,
+      "leeks": [
+        {
+          "id": 103726,
+          "name": "vogonjeltz",
+          "level": 301
+        },
+        {
+          "id": 81646,
+          "name": "MegaSushi2",
+          "level": 301
+        },
+        {
+          "id": 101790,
+          "name": "L33kSkywalker",
+          "level": 301
+        },
+        {
+          "id": 81552,
+          "name": "SushiActive",
+          "level": 301
+        },
+        {
+          "id": 81580,
+          "name": "NotASoloSushi",
+          "level": 301
+        }
+      ],
+      "total_level": 1505,
+      "turns": 17,
+      "date": 1773007203,
+      "key": "76473",
+      "leek_names": "vogonjeltz, MegaSushi2, L33kSkywalker, SushiActive, NotASoloSushi"
+    },
+    {
       "fight_id": 51718733,
       "fight_type": 2,
       "farmer_name": "BlackSlash",
@@ -5993,44 +6121,6 @@
       "date": 1772742700,
       "key": "58615",
       "leek_names": "Dynamex, SushiAlwaysHere, LeeKolonel, Dynaleak, PoOtato"
-    },
-    {
-      "fight_id": 51708172,
-      "fight_type": 2,
-      "farmer_name": "galactichitchleeker",
-      "farmer_id": 76473,
-      "leeks": [
-        {
-          "id": 103726,
-          "name": "vogonjeltz",
-          "level": 301
-        },
-        {
-          "id": 81646,
-          "name": "MegaSushi2",
-          "level": 301
-        },
-        {
-          "id": 101790,
-          "name": "L33kSkywalker",
-          "level": 301
-        },
-        {
-          "id": 81552,
-          "name": "SushiActive",
-          "level": 301
-        },
-        {
-          "id": 81580,
-          "name": "NotASoloSushi",
-          "level": 301
-        }
-      ],
-      "total_level": 1505,
-      "turns": 27,
-      "date": 1772834402,
-      "key": "76473",
-      "leek_names": "vogonjeltz, MegaSushi2, L33kSkywalker, SushiActive, NotASoloSushi"
     },
     {
       "fight_id": 51586068,
