@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T12:39:03.439512+00:00",
+  "last_updated": "2026-03-10T18:36:31.356549+00:00",
   "daltons": {
     "46733": [
       {
@@ -288,6 +288,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51756237,
+        "fight_type": 0,
+        "farmer_name": "KavaliovSexies",
+        "farmer_id": 62050,
+        "leeks": [
+          {
+            "id": 67070,
+            "name": "KavaEtreMarrant",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 7,
+        "date": 1773147602,
+        "key": "62050",
+        "leek_name": "KavaEtreMarrant",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51596606,
         "fight_type": 0,
         "farmer_name": "Magestik25",
@@ -304,25 +323,6 @@
         "date": 1772038911,
         "key": "66407",
         "leek_name": "MimiOmega",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51606307,
-        "fight_type": 0,
-        "farmer_name": "KavaliovSexies",
-        "farmer_id": 62050,
-        "leeks": [
-          {
-            "id": 67070,
-            "name": "KavaEtreMarrant",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 8,
-        "date": 1772107208,
-        "key": "62050",
-        "leek_name": "KavaEtreMarrant",
         "leek_level": 301
       },
       {
@@ -4290,6 +4290,39 @@
       "leek_names": "Polymetalleek, Leeekidateur, Roleekstone, Basileeek"
     },
     {
+      "fight_id": 51759250,
+      "fight_type": 1,
+      "farmer_name": "Agade",
+      "farmer_id": 44975,
+      "leeks": [
+        {
+          "id": 49046,
+          "name": "AgadeLeek",
+          "level": 301
+        },
+        {
+          "id": 49331,
+          "name": "AgadeLeek2",
+          "level": 301
+        },
+        {
+          "id": 49742,
+          "name": "AgadeLeek3",
+          "level": 301
+        },
+        {
+          "id": 50070,
+          "name": "AgadeLeek4",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 11,
+      "date": 1773161664,
+      "key": "44975",
+      "leek_names": "AgadeLeek, AgadeLeek2, AgadeLeek3, AgadeLeek4"
+    },
+    {
       "fight_id": 51630244,
       "fight_type": 1,
       "farmer_name": "PilowAvent",
@@ -4387,6 +4420,39 @@
       "date": 1772794291,
       "key": "8414",
       "leek_names": "Grub, MarcoDorigo, HainePaixComplet, Zigotos"
+    },
+    {
+      "fight_id": 51759605,
+      "fight_type": 1,
+      "farmer_name": "Greener",
+      "farmer_id": 73979,
+      "leeks": [
+        {
+          "id": 78870,
+          "name": "RageRanger",
+          "level": 301
+        },
+        {
+          "id": 80543,
+          "name": "HappyRanger",
+          "level": 301
+        },
+        {
+          "id": 79762,
+          "name": "BoomerRanger",
+          "level": 301
+        },
+        {
+          "id": 79020,
+          "name": "CoolRanger",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 12,
+      "date": 1773163842,
+      "key": "73979",
+      "leek_names": "RageRanger, HappyRanger, BoomerRanger, CoolRanger"
     },
     {
       "fight_id": 51581614,
@@ -5245,6 +5311,39 @@
       "date": 1771857721,
       "key": "100010",
       "leek_names": "geekdageek, geekdaleek, geekmaleek, geekmageek"
+    },
+    {
+      "fight_id": 51759168,
+      "fight_type": 1,
+      "farmer_name": "Gandhictature",
+      "farmer_id": 78250,
+      "leeks": [
+        {
+          "id": 83163,
+          "name": "JeanJeanMoulin",
+          "level": 301
+        },
+        {
+          "id": 83243,
+          "name": "FifiPetain",
+          "level": 301
+        },
+        {
+          "id": 83517,
+          "name": "BobbyVian",
+          "level": 301
+        },
+        {
+          "id": 83788,
+          "name": "CharlieDeGaulle",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 31,
+      "date": 1773161257,
+      "key": "78250",
+      "leek_names": "JeanJeanMoulin, FifiPetain, BobbyVian, CharlieDeGaulle"
     },
     {
       "fight_id": 51569723,
