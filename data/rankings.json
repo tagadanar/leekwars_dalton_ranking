@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T18:39:39.891378+00:00",
+  "last_updated": "2026-03-10T01:10:42.637351+00:00",
   "daltons": {
     "46733": [
       {
@@ -5569,6 +5569,39 @@
       "leek_names": "HappyNewYear, HappyHour, HappyTreeFriend, HappyHalloween"
     },
     {
+      "fight_id": 51749827,
+      "fight_type": 2,
+      "farmer_name": "Magestik25",
+      "farmer_id": 66407,
+      "leeks": [
+        {
+          "id": 76121,
+          "name": "MimiPsi",
+          "level": 301
+        },
+        {
+          "id": 75910,
+          "name": "MimiKhi",
+          "level": 301
+        },
+        {
+          "id": 76485,
+          "name": "MimiOmega",
+          "level": 301
+        },
+        {
+          "id": 75918,
+          "name": "MimiRho",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 9,
+      "date": 1773104264,
+      "key": "66407",
+      "leek_names": "MimiPsi, MimiKhi, MimiOmega, MimiRho"
+    },
+    {
       "fight_id": 51652578,
       "fight_type": 2,
       "farmer_name": "MrNakai",
@@ -6514,6 +6547,49 @@
       "leek_names": "AuTomate, Engrais, rupert, rupert2, rupert3, PoiristeGalois"
     },
     {
+      "fight_id": 51749831,
+      "fight_type": 2,
+      "farmer_name": "SlightlySmartLeekStem",
+      "farmer_id": 99628,
+      "leeks": [
+        {
+          "id": 105390,
+          "name": "earendel",
+          "level": 301
+        },
+        {
+          "id": 93272,
+          "name": "graal",
+          "level": 301
+        },
+        {
+          "id": 107460,
+          "name": "FeleeksKlein",
+          "level": 301
+        },
+        {
+          "id": 93072,
+          "name": "hypesnave",
+          "level": 301
+        },
+        {
+          "id": 94139,
+          "name": "RootOfUnity",
+          "level": 301
+        },
+        {
+          "id": 107610,
+          "name": "poirol\u00e9taire",
+          "level": 300
+        }
+      ],
+      "total_level": 1805,
+      "turns": 10,
+      "date": 1773104276,
+      "key": "99628",
+      "leek_names": "earendel, graal, FeleeksKlein, hypesnave, RootOfUnity, poirol\u00e9taire"
+    },
+    {
       "fight_id": 51709080,
       "fight_type": 2,
       "farmer_name": "Garcymore008",
@@ -6727,6 +6803,49 @@
       "date": 1772382420,
       "key": "74485",
       "leek_names": "FrankWeapon, gazpacho, mozarella, saucissonalail, knarr1, ReneWeapon"
+    },
+    {
+      "fight_id": 51749828,
+      "fight_type": 2,
+      "farmer_name": "GoldSaint2626",
+      "farmer_id": 49223,
+      "leeks": [
+        {
+          "id": 54909,
+          "name": "Dokho",
+          "level": 301
+        },
+        {
+          "id": 55077,
+          "name": "Snoow",
+          "level": 301
+        },
+        {
+          "id": 53131,
+          "name": "comette",
+          "level": 301
+        },
+        {
+          "id": 59247,
+          "name": "Rirri",
+          "level": 301
+        },
+        {
+          "id": 45115,
+          "name": "Globox",
+          "level": 301
+        },
+        {
+          "id": 41781,
+          "name": "Raymane",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 6,
+      "date": 1773104266,
+      "key": "49223",
+      "leek_names": "Dokho, Snoow, comette, Rirri, Globox, Raymane"
     },
     {
       "fight_id": 51558599,
@@ -7501,6 +7620,49 @@
       "date": 1771358812,
       "key": "76142",
       "leek_names": "Basket, CriCriPoir, Brisket, mickey49poireau, LittleSoar, milow"
+    },
+    {
+      "fight_id": 51749829,
+      "fight_type": 2,
+      "farmer_name": "Eautaku",
+      "farmer_id": 50580,
+      "leeks": [
+        {
+          "id": 54910,
+          "name": "BokuWa",
+          "level": 301
+        },
+        {
+          "id": 55610,
+          "name": "KimeGao",
+          "level": 301
+        },
+        {
+          "id": 34341,
+          "name": "Varju",
+          "level": 301
+        },
+        {
+          "id": 21631,
+          "name": "Saphyre",
+          "level": 301
+        },
+        {
+          "id": 23245,
+          "name": "Rexy",
+          "level": 301
+        },
+        {
+          "id": 38241,
+          "name": "Astera",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 30,
+      "date": 1773104269,
+      "key": "50580",
+      "leek_names": "BokuWa, KimeGao, Varju, Saphyre, Rexy, Astera"
     }
   ],
   "team_config": {
