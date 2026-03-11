@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T18:36:31.356549+00:00",
+  "last_updated": "2026-03-11T01:11:56.044028+00:00",
   "daltons": {
     "46733": [
       {
@@ -1964,6 +1964,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51764597,
+        "fight_type": 0,
+        "farmer_name": "koe",
+        "farmer_id": 124565,
+        "leeks": [
+          {
+            "id": 131032,
+            "name": "koe",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 6,
+        "date": 1773188407,
+        "key": "124565",
+        "leek_name": "koe",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51570189,
         "fight_type": 0,
         "farmer_name": "Kraspen",
@@ -2208,25 +2227,6 @@
         "date": 1772319028,
         "key": "28258",
         "leek_name": "Kawail",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51657589,
-        "fight_type": 0,
-        "farmer_name": "koe",
-        "farmer_id": 124565,
-        "leeks": [
-          {
-            "id": 131032,
-            "name": "koe",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 9,
-        "date": 1772490249,
-        "key": "124565",
-        "leek_name": "koe",
         "leek_level": 301
       },
       {
@@ -4092,6 +4092,39 @@
       "leek_names": "Tr\u00e8fleFou, Tr\u00e8fleFilou, Tr\u00e8fleF\u00e9lon, Tr\u00e8fleFlou"
     },
     {
+      "fight_id": 51764083,
+      "fight_type": 1,
+      "farmer_name": "Agade",
+      "farmer_id": 44975,
+      "leeks": [
+        {
+          "id": 49046,
+          "name": "AgadeLeek",
+          "level": 301
+        },
+        {
+          "id": 49331,
+          "name": "AgadeLeek2",
+          "level": 301
+        },
+        {
+          "id": 49742,
+          "name": "AgadeLeek3",
+          "level": 301
+        },
+        {
+          "id": 50070,
+          "name": "AgadeLeek4",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 9,
+      "date": 1773187622,
+      "key": "44975",
+      "leek_names": "AgadeLeek, AgadeLeek2, AgadeLeek3, AgadeLeek4"
+    },
+    {
       "fight_id": 51581298,
       "fight_type": 1,
       "farmer_name": "LaCOGIP",
@@ -4290,39 +4323,6 @@
       "leek_names": "Polymetalleek, Leeekidateur, Roleekstone, Basileeek"
     },
     {
-      "fight_id": 51759250,
-      "fight_type": 1,
-      "farmer_name": "Agade",
-      "farmer_id": 44975,
-      "leeks": [
-        {
-          "id": 49046,
-          "name": "AgadeLeek",
-          "level": 301
-        },
-        {
-          "id": 49331,
-          "name": "AgadeLeek2",
-          "level": 301
-        },
-        {
-          "id": 49742,
-          "name": "AgadeLeek3",
-          "level": 301
-        },
-        {
-          "id": 50070,
-          "name": "AgadeLeek4",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 11,
-      "date": 1773161664,
-      "key": "44975",
-      "leek_names": "AgadeLeek, AgadeLeek2, AgadeLeek3, AgadeLeek4"
-    },
-    {
       "fight_id": 51630244,
       "fight_type": 1,
       "farmer_name": "PilowAvent",
@@ -4453,6 +4453,39 @@
       "date": 1773163842,
       "key": "73979",
       "leek_names": "RageRanger, HappyRanger, BoomerRanger, CoolRanger"
+    },
+    {
+      "fight_id": 51764170,
+      "fight_type": 1,
+      "farmer_name": "BeatrixPotter",
+      "farmer_id": 76431,
+      "leeks": [
+        {
+          "id": 81279,
+          "name": "PeterRabbit",
+          "level": 301
+        },
+        {
+          "id": 81662,
+          "name": "BenjaminBunny",
+          "level": 301
+        },
+        {
+          "id": 82186,
+          "name": "SamuelWhiskers",
+          "level": 301
+        },
+        {
+          "id": 82607,
+          "name": "TimmyTiptoes",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 12,
+      "date": 1773187820,
+      "key": "76431",
+      "leek_names": "PeterRabbit, BenjaminBunny, SamuelWhiskers, TimmyTiptoes"
     },
     {
       "fight_id": 51581614,
@@ -5280,6 +5313,39 @@
       "leek_names": "Claudies, Claudios, Claudius, Claudias"
     },
     {
+      "fight_id": 51764144,
+      "fight_type": 1,
+      "farmer_name": "ihsusikamet",
+      "farmer_id": 76695,
+      "leeks": [
+        {
+          "id": 81551,
+          "name": "ReverseTemakisushi",
+          "level": 301
+        },
+        {
+          "id": 81632,
+          "name": "InversedTemakisushi",
+          "level": 301
+        },
+        {
+          "id": 83389,
+          "name": "NotTemakisushi",
+          "level": 301
+        },
+        {
+          "id": 93011,
+          "name": "Knokker2",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 25,
+      "date": 1773187765,
+      "key": "76695",
+      "leek_names": "ReverseTemakisushi, InversedTemakisushi, NotTemakisushi, Knokker2"
+    },
+    {
       "fight_id": 51569914,
       "fight_type": 1,
       "farmer_name": "geekdageek",
@@ -5443,6 +5509,39 @@
       "date": 1771864017,
       "key": "19612",
       "leek_names": "TripleP, BatP, AquaP, SangoP"
+    },
+    {
+      "fight_id": 51764267,
+      "fight_type": 1,
+      "farmer_name": "Joalien",
+      "farmer_id": 32858,
+      "leeks": [
+        {
+          "id": 36264,
+          "name": "leekattak",
+          "level": 301
+        },
+        {
+          "id": 36966,
+          "name": "LeekyMinaj",
+          "level": 301
+        },
+        {
+          "id": 57902,
+          "name": "LeeckyLuck",
+          "level": 301
+        },
+        {
+          "id": 58180,
+          "name": "Leekidatore",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 38,
+      "date": 1773188007,
+      "key": "32858",
+      "leek_names": "leekattak, LeekyMinaj, LeeckyLuck, Leekidatore"
     }
   ],
   "farmer_config": {
@@ -6620,6 +6719,49 @@
       "date": 1771617664,
       "key": "124210",
       "leek_names": "CapitaineMamene, GeneralMamene, CaradocDeVannes, ColonelMamene, Scotty2, chibrhook"
+    },
+    {
+      "fight_id": 51762876,
+      "fight_type": 2,
+      "farmer_name": "Bux420",
+      "farmer_id": 94042,
+      "leeks": [
+        {
+          "id": 99341,
+          "name": "Bux420",
+          "level": 301
+        },
+        {
+          "id": 127341,
+          "name": "Bux1",
+          "level": 301
+        },
+        {
+          "id": 128155,
+          "name": "Bux3",
+          "level": 301
+        },
+        {
+          "id": 127615,
+          "name": "Bux2",
+          "level": 301
+        },
+        {
+          "id": 130975,
+          "name": "Bux43",
+          "level": 300
+        },
+        {
+          "id": 65746,
+          "name": "Bux42",
+          "level": 300
+        }
+      ],
+      "total_level": 1804,
+      "turns": 16,
+      "date": 1773178107,
+      "key": "94042",
+      "leek_names": "Bux420, Bux1, Bux3, Bux2, Bux43, Bux42"
     },
     {
       "fight_id": 51641008,
