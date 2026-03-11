@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T12:38:38.511549+00:00",
+  "last_updated": "2026-03-11T18:43:32.601573+00:00",
   "daltons": {
     "46733": [
       {
@@ -3894,6 +3894,39 @@
       "leek_names": "Saphyre, Rexy, Varju, Astera"
     },
     {
+      "fight_id": 51770040,
+      "fight_type": 1,
+      "farmer_name": "fujiwar",
+      "farmer_id": 58321,
+      "leeks": [
+        {
+          "id": 63029,
+          "name": "Peuwareau",
+          "level": 301
+        },
+        {
+          "id": 63124,
+          "name": "Peuwaroh",
+          "level": 301
+        },
+        {
+          "id": 63514,
+          "name": "Peuhwaro",
+          "level": 301
+        },
+        {
+          "id": 64231,
+          "name": "Peuwahreau",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 6,
+      "date": 1773234075,
+      "key": "58321",
+      "leek_names": "Peuwareau, Peuwaroh, Peuhwaro, Peuwahreau"
+    },
+    {
       "fight_id": 51610011,
       "fight_type": 1,
       "farmer_name": "Ref",
@@ -4026,6 +4059,39 @@
       "leek_names": "PeaceKeeper, ForestKeeper, BeeKeeper, ZooKeeper"
     },
     {
+      "fight_id": 51772064,
+      "fight_type": 1,
+      "farmer_name": "CultureBio",
+      "farmer_id": 55280,
+      "leeks": [
+        {
+          "id": 59993,
+          "name": "PoirBio",
+          "level": 301
+        },
+        {
+          "id": 60518,
+          "name": "PommeBio",
+          "level": 301
+        },
+        {
+          "id": 61447,
+          "name": "PecheBio",
+          "level": 301
+        },
+        {
+          "id": 61805,
+          "name": "PimentBio",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 8,
+      "date": 1773246949,
+      "key": "55280",
+      "leek_names": "PoirBio, PommeBio, PecheBio, PimentBio"
+    },
+    {
       "fight_id": 51584255,
       "fight_type": 1,
       "farmer_name": "Fulify",
@@ -4123,6 +4189,39 @@
       "date": 1773187622,
       "key": "44975",
       "leek_names": "AgadeLeek, AgadeLeek2, AgadeLeek3, AgadeLeek4"
+    },
+    {
+      "fight_id": 51772316,
+      "fight_type": 1,
+      "farmer_name": "AppleTree",
+      "farmer_id": 66566,
+      "leeks": [
+        {
+          "id": 71563,
+          "name": "GrannySmith",
+          "level": 301
+        },
+        {
+          "id": 74057,
+          "name": "PinkPearl",
+          "level": 301
+        },
+        {
+          "id": 75503,
+          "name": "ArkansasBlack",
+          "level": 301
+        },
+        {
+          "id": 76295,
+          "name": "PacificRose",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 9,
+      "date": 1773248175,
+      "key": "66566",
+      "leek_names": "GrannySmith, PinkPearl, ArkansasBlack, PacificRose"
     },
     {
       "fight_id": 51581298,
@@ -4323,6 +4422,39 @@
       "leek_names": "Polymetalleek, Leeekidateur, Roleekstone, Basileeek"
     },
     {
+      "fight_id": 51772053,
+      "fight_type": 1,
+      "farmer_name": "Magestik25",
+      "farmer_id": 66407,
+      "leeks": [
+        {
+          "id": 71416,
+          "name": "MimiPhi",
+          "level": 301
+        },
+        {
+          "id": 75910,
+          "name": "MimiKhi",
+          "level": 301
+        },
+        {
+          "id": 76121,
+          "name": "MimiPsi",
+          "level": 301
+        },
+        {
+          "id": 76485,
+          "name": "MimiOmega",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 11,
+      "date": 1773246905,
+      "key": "66407",
+      "leek_names": "MimiPhi, MimiKhi, MimiPsi, MimiOmega"
+    },
+    {
       "fight_id": 51630244,
       "fight_type": 1,
       "farmer_name": "PilowAvent",
@@ -4486,6 +4618,39 @@
       "date": 1773187820,
       "key": "76431",
       "leek_names": "PeterRabbit, BenjaminBunny, SamuelWhiskers, TimmyTiptoes"
+    },
+    {
+      "fight_id": 51772058,
+      "fight_type": 1,
+      "farmer_name": "galactichitchleeker",
+      "farmer_id": 76473,
+      "leeks": [
+        {
+          "id": 81329,
+          "name": "arthurdent",
+          "level": 301
+        },
+        {
+          "id": 103286,
+          "name": "zaphodb",
+          "level": 301
+        },
+        {
+          "id": 103560,
+          "name": "androidmarvin",
+          "level": 301
+        },
+        {
+          "id": 103726,
+          "name": "vogonjeltz",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 12,
+      "date": 1773246927,
+      "key": "76473",
+      "leek_names": "arthurdent, zaphodb, androidmarvin, vogonjeltz"
     },
     {
       "fight_id": 51581614,
@@ -4783,39 +4948,6 @@
       "date": 1771943994,
       "key": "56766",
       "leek_names": "KavaTank, Kavamage, KavaPretre, KavaDruide"
-    },
-    {
-      "fight_id": 51745002,
-      "fight_type": 1,
-      "farmer_name": "fujiwar",
-      "farmer_id": 58321,
-      "leeks": [
-        {
-          "id": 63029,
-          "name": "Peuwareau",
-          "level": 301
-        },
-        {
-          "id": 63124,
-          "name": "Peuwaroh",
-          "level": 301
-        },
-        {
-          "id": 64231,
-          "name": "Peuwahreau",
-          "level": 301
-        },
-        {
-          "id": 63514,
-          "name": "Peuhwaro",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 15,
-      "date": 1773081001,
-      "key": "58321",
-      "leek_names": "Peuwareau, Peuwaroh, Peuwahreau, Peuhwaro"
     },
     {
       "fight_id": 51569936,
@@ -5377,6 +5509,39 @@
       "date": 1771857721,
       "key": "100010",
       "leek_names": "geekdageek, geekdaleek, geekmaleek, geekmageek"
+    },
+    {
+      "fight_id": 51772056,
+      "fight_type": 1,
+      "farmer_name": "Marcellus",
+      "farmer_id": 99783,
+      "leeks": [
+        {
+          "id": 105564,
+          "name": "Edmond90",
+          "level": 301
+        },
+        {
+          "id": 105861,
+          "name": "Lisou90",
+          "level": 301
+        },
+        {
+          "id": 106498,
+          "name": "Winston90",
+          "level": 301
+        },
+        {
+          "id": 107203,
+          "name": "TheDude90",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 30,
+      "date": 1773246922,
+      "key": "99783",
+      "leek_names": "Edmond90, Lisou90, Winston90, TheDude90"
     },
     {
       "fight_id": 51759168,
@@ -6721,7 +6886,7 @@
       "leek_names": "CapitaineMamene, GeneralMamene, CaradocDeVannes, ColonelMamene, Scotty2, chibrhook"
     },
     {
-      "fight_id": 51762876,
+      "fight_id": 51770726,
       "fight_type": 2,
       "farmer_name": "Bux420",
       "farmer_id": 94042,
@@ -6758,8 +6923,8 @@
         }
       ],
       "total_level": 1804,
-      "turns": 16,
-      "date": 1773178107,
+      "turns": 11,
+      "date": 1773239419,
       "key": "94042",
       "leek_names": "Bux420, Bux1, Bux3, Bux2, Bux43, Bux42"
     },
