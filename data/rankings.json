@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T12:39:12.005486+00:00",
+  "last_updated": "2026-03-12T18:40:49.494109+00:00",
   "daltons": {
     "46733": [
       {
@@ -4050,6 +4050,39 @@
       "leek_names": "Peuwareau, Peuwaroh, Peuhwaro, Peuwahreau"
     },
     {
+      "fight_id": 51785048,
+      "fight_type": 1,
+      "farmer_name": "AppleTree",
+      "farmer_id": 66566,
+      "leeks": [
+        {
+          "id": 71563,
+          "name": "GrannySmith",
+          "level": 301
+        },
+        {
+          "id": 74057,
+          "name": "PinkPearl",
+          "level": 301
+        },
+        {
+          "id": 75503,
+          "name": "ArkansasBlack",
+          "level": 301
+        },
+        {
+          "id": 76295,
+          "name": "PacificRose",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 6,
+      "date": 1773325856,
+      "key": "66566",
+      "leek_names": "GrannySmith, PinkPearl, ArkansasBlack, PacificRose"
+    },
+    {
       "fight_id": 51569946,
       "fight_type": 1,
       "farmer_name": "Bux420",
@@ -4248,37 +4281,37 @@
       "leek_names": "AgadeLeek, AgadeLeek2, AgadeLeek3, AgadeLeek4"
     },
     {
-      "fight_id": 51772316,
+      "fight_id": 51787535,
       "fight_type": 1,
-      "farmer_name": "AppleTree",
-      "farmer_id": 66566,
+      "farmer_name": "Hyunew",
+      "farmer_id": 76418,
       "leeks": [
         {
-          "id": 71563,
-          "name": "GrannySmith",
+          "id": 81475,
+          "name": "Binryong",
           "level": 301
         },
         {
-          "id": 74057,
-          "name": "PinkPearl",
+          "id": 82074,
+          "name": "Kohaku",
           "level": 301
         },
         {
-          "id": 75503,
-          "name": "ArkansasBlack",
+          "id": 81267,
+          "name": "Raon",
           "level": 301
         },
         {
-          "id": 76295,
-          "name": "PacificRose",
+          "id": 81915,
+          "name": "Yongyong",
           "level": 301
         }
       ],
       "total_level": 1204,
       "turns": 9,
-      "date": 1773248175,
-      "key": "66566",
-      "leek_names": "GrannySmith, PinkPearl, ArkansasBlack, PacificRose"
+      "date": 1773340201,
+      "key": "76418",
+      "leek_names": "Binryong, Kohaku, Raon, Yongyong"
     },
     {
       "fight_id": 51581298,
