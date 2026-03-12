@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T18:43:32.601573+00:00",
+  "last_updated": "2026-03-12T01:08:53.650127+00:00",
   "daltons": {
     "46733": [
       {
@@ -3729,6 +3729,39 @@
       "leek_names": "MimiEpsilon, MimiZeta, MimiEta, MimiTheta"
     },
     {
+      "fight_id": 51774492,
+      "fight_type": 1,
+      "farmer_name": "CultureBio",
+      "farmer_id": 55280,
+      "leeks": [
+        {
+          "id": 59993,
+          "name": "PoirBio",
+          "level": 301
+        },
+        {
+          "id": 60518,
+          "name": "PommeBio",
+          "level": 301
+        },
+        {
+          "id": 61447,
+          "name": "PecheBio",
+          "level": 301
+        },
+        {
+          "id": 61805,
+          "name": "PimentBio",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 4,
+      "date": 1773256042,
+      "key": "55280",
+      "leek_names": "PoirBio, PommeBio, PecheBio, PimentBio"
+    },
+    {
       "fight_id": 51572495,
       "fight_type": 1,
       "farmer_name": "BrocoliCosmique",
@@ -4057,39 +4090,6 @@
       "date": 1772572695,
       "key": "91992",
       "leek_names": "PeaceKeeper, ForestKeeper, BeeKeeper, ZooKeeper"
-    },
-    {
-      "fight_id": 51772064,
-      "fight_type": 1,
-      "farmer_name": "CultureBio",
-      "farmer_id": 55280,
-      "leeks": [
-        {
-          "id": 59993,
-          "name": "PoirBio",
-          "level": 301
-        },
-        {
-          "id": 60518,
-          "name": "PommeBio",
-          "level": 301
-        },
-        {
-          "id": 61447,
-          "name": "PecheBio",
-          "level": 301
-        },
-        {
-          "id": 61805,
-          "name": "PimentBio",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 8,
-      "date": 1773246949,
-      "key": "55280",
-      "leek_names": "PoirBio, PommeBio, PecheBio, PimentBio"
     },
     {
       "fight_id": 51584255,
@@ -6755,6 +6755,49 @@
       "date": 1771735728,
       "key": "97566",
       "leek_names": "LeekideARecurer, BretzelLeekide, Luron, Chlo\u00e9, pakbot, DiDonc"
+    },
+    {
+      "fight_id": 51776690,
+      "fight_type": 2,
+      "farmer_name": "pakatatrak",
+      "farmer_id": 97542,
+      "leeks": [
+        {
+          "id": 103182,
+          "name": "pakachu",
+          "level": 201
+        },
+        {
+          "id": 103158,
+          "name": "Lucr\u00e8ceBorgia",
+          "level": 301
+        },
+        {
+          "id": 103156,
+          "name": "Dreamcatcher",
+          "level": 301
+        },
+        {
+          "id": 103176,
+          "name": "Arcom",
+          "level": 301
+        },
+        {
+          "id": 103128,
+          "name": "Gnarlightful",
+          "level": 301
+        },
+        {
+          "id": 103524,
+          "name": "Propulseur",
+          "level": 301
+        }
+      ],
+      "total_level": 1706,
+      "turns": 20,
+      "date": 1773259295,
+      "key": "97542",
+      "leek_names": "pakachu, Lucr\u00e8ceBorgia, Dreamcatcher, Arcom, Gnarlightful, Propulseur"
     },
     {
       "fight_id": 51683531,
