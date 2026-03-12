@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T01:08:53.650127+00:00",
+  "last_updated": "2026-03-12T12:39:12.005486+00:00",
   "daltons": {
     "46733": [
       {
@@ -342,6 +342,25 @@
         "date": 1772320263,
         "key": "43276",
         "leek_name": "TomateTransg\u00e9nique",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51784596,
+        "fight_type": 0,
+        "farmer_name": "tagadalton",
+        "farmer_id": 42851,
+        "leeks": [
+          {
+            "id": 46733,
+            "name": "JoeDalton",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 8,
+        "date": 1773318611,
+        "key": "42851",
+        "leek_name": "JoeDalton",
         "leek_level": 301
       },
       {
@@ -952,6 +971,25 @@
         "date": 1773004340,
         "key": "512",
         "leek_name": "Zombizou",
+        "leek_level": 301
+      },
+      {
+        "fight_id": 51784596,
+        "fight_type": 0,
+        "farmer_name": "tagadalton",
+        "farmer_id": 42851,
+        "leeks": [
+          {
+            "id": 46733,
+            "name": "JoeDalton",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 8,
+        "date": 1773318611,
+        "key": "42851",
+        "leek_name": "JoeDalton",
         "leek_level": 301
       },
       {
@@ -3182,6 +3220,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51779723,
+        "fight_type": 0,
+        "farmer_name": "SkyWJ",
+        "farmer_id": 97579,
+        "leeks": [
+          {
+            "id": 105053,
+            "name": "Sky4",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 21,
+        "date": 1773286565,
+        "key": "97579",
+        "leek_name": "Sky4",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51633495,
         "fight_type": 0,
         "farmer_name": "3F369",
@@ -3729,6 +3786,39 @@
       "leek_names": "MimiEpsilon, MimiZeta, MimiEta, MimiTheta"
     },
     {
+      "fight_id": 51783273,
+      "fight_type": 1,
+      "farmer_name": "Ref",
+      "farmer_id": 43276,
+      "leeks": [
+        {
+          "id": 47183,
+          "name": "Jeez",
+          "level": 301
+        },
+        {
+          "id": 47546,
+          "name": "Astheopyrosphamidum",
+          "level": 301
+        },
+        {
+          "id": 47943,
+          "name": "TomateTransg\u00e9nique",
+          "level": 301
+        },
+        {
+          "id": 48427,
+          "name": "JeVoulais\u00catreUnPapillon",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 3,
+      "date": 1773308506,
+      "key": "43276",
+      "leek_names": "Jeez, Astheopyrosphamidum, TomateTransg\u00e9nique, JeVoulais\u00catreUnPapillon"
+    },
+    {
       "fight_id": 51774492,
       "fight_type": 1,
       "farmer_name": "CultureBio",
@@ -3958,39 +4048,6 @@
       "date": 1773234075,
       "key": "58321",
       "leek_names": "Peuwareau, Peuwaroh, Peuhwaro, Peuwahreau"
-    },
-    {
-      "fight_id": 51610011,
-      "fight_type": 1,
-      "farmer_name": "Ref",
-      "farmer_id": 43276,
-      "leeks": [
-        {
-          "id": 47943,
-          "name": "TomateTransg\u00e9nique",
-          "level": 301
-        },
-        {
-          "id": 47546,
-          "name": "Astheopyrosphamidum",
-          "level": 301
-        },
-        {
-          "id": 48427,
-          "name": "JeVoulais\u00catreUnPapillon",
-          "level": 301
-        },
-        {
-          "id": 47183,
-          "name": "Jeez",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 7,
-      "date": 1772128812,
-      "key": "43276",
-      "leek_names": "TomateTransg\u00e9nique, Astheopyrosphamidum, JeVoulais\u00catreUnPapillon, Jeez"
     },
     {
       "fight_id": 51569946,
@@ -7830,6 +7887,49 @@
       "date": 1772844749,
       "key": "99173",
       "leek_names": "Oignonpluspatate, leekmageek, geekmaleek, feedmafeed, leekmaleek, feeddageek"
+    },
+    {
+      "fight_id": 51781917,
+      "fight_type": 2,
+      "farmer_name": "MimItems",
+      "farmer_id": 97544,
+      "leeks": [
+        {
+          "id": 103546,
+          "name": "MimiGlagoli",
+          "level": 301
+        },
+        {
+          "id": 103526,
+          "name": "Pied\u00c0Terre",
+          "level": 301
+        },
+        {
+          "id": 103529,
+          "name": "Cornaline",
+          "level": 301
+        },
+        {
+          "id": 103485,
+          "name": "Exquiw",
+          "level": 301
+        },
+        {
+          "id": 103108,
+          "name": "LeekideDeFreins",
+          "level": 301
+        },
+        {
+          "id": 103328,
+          "name": "BabyKrapule",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 13,
+      "date": 1773303381,
+      "key": "97544",
+      "leek_names": "MimiGlagoli, Pied\u00c0Terre, Cornaline, Exquiw, LeekideDeFreins, BabyKrapule"
     },
     {
       "fight_id": 51513868,
