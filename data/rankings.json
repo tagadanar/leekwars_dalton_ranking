@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T18:40:49.494109+00:00",
+  "last_updated": "2026-03-13T01:14:36.805475+00:00",
   "daltons": {
     "46733": [
       {
@@ -4380,6 +4380,39 @@
       "leek_names": "Garcymore007, Mandryke, Copperfyld, Hydini"
     },
     {
+      "fight_id": 51789946,
+      "fight_type": 1,
+      "farmer_name": "Kraspen",
+      "farmer_id": 76772,
+      "leeks": [
+        {
+          "id": 81638,
+          "name": "Kraton",
+          "level": 301
+        },
+        {
+          "id": 81733,
+          "name": "Krasseux",
+          "level": 301
+        },
+        {
+          "id": 82210,
+          "name": "Krapule",
+          "level": 301
+        },
+        {
+          "id": 82518,
+          "name": "Kraneur",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 10,
+      "date": 1773350032,
+      "key": "76772",
+      "leek_names": "Kraton, Krasseux, Krapule, Kraneur"
+    },
+    {
       "fight_id": 51569963,
       "fight_type": 1,
       "farmer_name": "feeddafeed",
@@ -4906,39 +4939,6 @@
       "date": 1771856011,
       "key": "73454",
       "leek_names": "Survivor, Savior, Successor, Superior"
-    },
-    {
-      "fight_id": 51570168,
-      "fight_type": 1,
-      "farmer_name": "Kraspen",
-      "farmer_id": 76772,
-      "leeks": [
-        {
-          "id": 81638,
-          "name": "Kraton",
-          "level": 301
-        },
-        {
-          "id": 81733,
-          "name": "Krasseux",
-          "level": 301
-        },
-        {
-          "id": 82210,
-          "name": "Krapule",
-          "level": 301
-        },
-        {
-          "id": 82518,
-          "name": "Kraneur",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 14,
-      "date": 1771859694,
-      "key": "76772",
-      "leek_names": "Kraton, Krasseux, Krapule, Kraneur"
     },
     {
       "fight_id": 51570036,
