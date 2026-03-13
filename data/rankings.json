@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T06:40:01.412347+00:00",
+  "last_updated": "2026-03-13T12:36:59.251889+00:00",
   "daltons": {
     "46733": [
       {
@@ -1392,6 +1392,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51796739,
+        "fight_type": 0,
+        "farmer_name": "dulph3",
+        "farmer_id": 121612,
+        "leeks": [
+          {
+            "id": 128745,
+            "name": "dalph3",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 14,
+        "date": 1773399606,
+        "key": "121612",
+        "leek_name": "dalph3",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51634851,
         "fight_type": 0,
         "farmer_name": "Bluer",
@@ -2097,6 +2116,25 @@
         "leek_level": 301
       },
       {
+        "fight_id": 51796732,
+        "fight_type": 0,
+        "farmer_name": "KavaliovSepties",
+        "farmer_id": 70281,
+        "leeks": [
+          {
+            "id": 75529,
+            "name": "KavaCouper",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 7,
+        "date": 1773399604,
+        "key": "70281",
+        "leek_name": "KavaCouper",
+        "leek_level": 301
+      },
+      {
         "fight_id": 51630876,
         "fight_type": 0,
         "farmer_name": "EF369",
@@ -2436,25 +2474,6 @@
         "date": 1772039354,
         "key": "96571",
         "leek_name": "Ximeranyd",
-        "leek_level": 301
-      },
-      {
-        "fight_id": 51725222,
-        "fight_type": 0,
-        "farmer_name": "KavaliovSepties",
-        "farmer_id": 70281,
-        "leeks": [
-          {
-            "id": 75101,
-            "name": "Kavavite",
-            "level": 301
-          }
-        ],
-        "total_level": 301,
-        "turns": 13,
-        "date": 1772967658,
-        "key": "70281",
-        "leek_name": "Kavavite",
         "leek_level": 301
       },
       {
