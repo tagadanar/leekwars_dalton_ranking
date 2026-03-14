@@ -1174,6 +1174,18 @@ footer a:hover {
     animation-delay: 0.24s;
 }
 
+/* Jack also tips his hat */
+@keyframes tip-hat {
+    0%   { transform: translateX(-50%) translateY(0) rotate(0); }
+    30%  { transform: translateX(-50%) translateY(-14px) rotate(-15deg); }
+    60%  { transform: translateX(-50%) translateY(-10px) rotate(-12deg); }
+    100% { transform: translateX(-50%) translateY(0) rotate(0); }
+}
+
+.egg-summon .leek-hat {
+    animation: tip-hat 0.6s ease;
+}
+
 
 
 /* Wobble: the whole leek shakes angrily */
