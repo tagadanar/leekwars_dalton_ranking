@@ -54,6 +54,91 @@ function renderLeekWithHat(leekId, wrapClass) {
     return html;
 }
 
+function buildChampions(daltons, farmerRanking, teamRanking, config) {
+    // Collect per farmer: which sections they beat, best level in each
+    const farmers = {}; // farmer_id -> { name, sections: [{name, level, turns}] }
+
+    // Solo sections
+    for (const dalton of config) {
+        const entries = daltons[String(dalton.leek_id)] || [];
+        for (const e of entries) {
+            const fid = e.farmer_id;
+            if (!fid) continue;
+            if (!farmers[fid]) farmers[fid] = { name: e.farmer_name, id: fid, sections: [] };
+            farmers[fid].sections.push({
+                name: dalton.name,
+                level: e.leek_level || e.total_level,
+                turns: e.turns || 0,
+            });
+        }
+    }
+
+    // Farmer fights
+    for (const e of farmerRanking) {
+        const fid = e.farmer_id;
+        if (!fid) continue;
+        if (!farmers[fid]) farmers[fid] = { name: e.farmer_name, id: fid, sections: [] };
+        farmers[fid].sections.push({ name: "Farmer", level: e.total_level, turns: e.turns || 0 });
+    }
+
+    // Team fights
+    for (const e of teamRanking) {
+        const fid = e.farmer_id;
+        if (!fid) continue;
+        if (!farmers[fid]) farmers[fid] = { name: e.farmer_name, id: fid, sections: [] };
+        farmers[fid].sections.push({ name: "Team", level: e.total_level, turns: e.turns || 0 });
+    }
+
+    // Only include farmers who beat at least 2 sections
+    const result = Object.values(farmers)
+        .filter(f => f.sections.length >= 2)
+        .map(f => ({
+            farmer_name: f.name,
+            farmer_id: f.id,
+            beaten: f.sections.length,
+            total_level: f.sections.reduce((s, x) => s + x.level, 0),
+            total_turns: f.sections.reduce((s, x) => s + x.turns, 0),
+            sections: f.sections,
+        }))
+        .sort((a, b) => b.beaten - a.beaten || a.total_level - b.total_level || a.total_turns - b.total_turns);
+
+    return result;
+}
+
+function renderChampionTable(champions) {
+    let html = '<div class="table-scroll"><table class="ranking-table"><thead><tr>';
+    html += '<th style="text-align:center">#</th>';
+    html += '<th>Farmer</th>';
+    html += '<th style="text-align:center">Beaten</th>';
+    html += '<th style="text-align:center">Total Level</th>';
+    html += '<th style="text-align:center">Total Turns</th>';
+    html += '<th>Sections</th>';
+    html += '</tr></thead><tbody>';
+
+    champions.forEach((c, i) => {
+        const rank = i + 1;
+        const cls = rank <= 3 ? `rank-${rank}` : "";
+        const rankHtml = MEDAL[rank]
+            ? `<img src="${MEDAL[rank]}" class="rank-medal" alt="#${rank}">`
+            : rank;
+        const avatarImg = `<img src="https://leekwars.com/avatar/${c.farmer_id}.png" class="farmer-mini-avatar" alt="">`;
+        const farmerLink = `${avatarImg}<a href="https://leekwars.com/farmer/${c.farmer_id}" target="_blank">${esc(c.farmer_name)}</a>`;
+        const sectionList = c.sections.map(s => esc(s.name)).join(", ");
+
+        html += `<tr class="${cls}">`;
+        html += `<td class="rank-cell">${rankHtml}</td>`;
+        html += `<td class="farmer-cell">${farmerLink}</td>`;
+        html += `<td class="level-cell">${c.beaten}</td>`;
+        html += `<td class="level-cell">${c.total_level}</td>`;
+        html += `<td class="turns-cell">${c.total_turns}</td>`;
+        html += `<td class="leek-cell">${sectionList}</td>`;
+        html += `</tr>`;
+    });
+
+    html += '</tbody></table></div>';
+    return html;
+}
+
 function render(data) {
     if (data.last_updated) {
         const d = new Date(data.last_updated);
@@ -73,6 +158,27 @@ function render(data) {
     let html = "";
     let navHtml = "";
     let sectionIndex = 0;
+
+    // Grand Champion — aggregate across all sections
+    const champions = buildChampions(daltons, farmerRanking, teamRanking, config);
+    if (champions.length > 0) {
+        navHtml += `<a href="#champions" class="nav-btn nav-btn-champion">` +
+            `<img src="${IMG}/weapon/magnum.png" alt="">` +
+            `Grand Champions</a>`;
+
+        html += `<div class="dalton-section champion-section" id="champions">`;
+        html += `<div class="section-header champion-header">`;
+        html += `<img src="${IMG}/weapon/magnum.png" class="champion-icon" alt="">`;
+        html += `<div class="section-info">`;
+        html += `<h2>Grand Champions</h2>`;
+        html += `<span class="badge badge-champion">All Daltons combined</span>`;
+        html += `</div>`;
+        html += `<div class="section-stats"><span class="count">${champions.length}</span>champions</div>`;
+        html += `</div>`;
+        html += renderChampionTable(champions);
+        html += `</div>`;
+        sectionIndex++;
+    }
 
     // Farmer ranking
     if (farmerConfig) {
