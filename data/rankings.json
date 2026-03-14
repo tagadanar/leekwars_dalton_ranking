@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T21:18:19.419981+00:00",
+  "last_updated": "2026-03-14T22:17:19.128705+00:00",
   "daltons": {
     "46733": [],
     "51098": [],
@@ -7,6 +7,54 @@
     "51613": []
   },
   "farmer_ranking": [
+    {
+      "fight_id": 51815887,
+      "fight_type": 1,
+      "farmer_name": "Smartiz",
+      "farmer_id": 98186,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 103828,
+          "name": "A\u00efeGarleek",
+          "level": 301
+        },
+        {
+          "id": 103951,
+          "name": "LeekWareau",
+          "level": 301
+        },
+        {
+          "id": 104242,
+          "name": "ReauBotcode",
+          "level": 301
+        },
+        {
+          "id": 104943,
+          "name": "CotteDemaille",
+          "level": 300
+        }
+      ],
+      "total_level": 1203,
+      "turns": 2,
+      "date": 1773525365,
+      "key": "98186",
+      "leek_names": "A\u00efeGarleek, LeekWareau, ReauBotcode, CotteDemaille",
+      "history": [
+        {
+          "fight_id": 51815887,
+          "total_level": 1203,
+          "turns": 2,
+          "date": 1773525365
+        },
+        {
+          "fight_id": 51815867,
+          "total_level": 1203,
+          "turns": 3,
+          "date": 1773525197
+        }
+      ]
+    },
     {
       "fight_id": 51814226,
       "fight_type": 1,
@@ -47,6 +95,12 @@
           "date": 1773509151
         },
         {
+          "fight_id": 51815769,
+          "total_level": 1204,
+          "turns": 7,
+          "date": 1773523719
+        },
+        {
           "fight_id": 51814228,
           "total_level": 1204,
           "turns": 9,
@@ -57,14 +111,39 @@
           "total_level": 1204,
           "turns": 9,
           "date": 1773509080
+        },
+        {
+          "fight_id": 51815817,
+          "total_level": 1204,
+          "turns": 10,
+          "date": 1773524666
+        },
+        {
+          "fight_id": 51815827,
+          "total_level": 1204,
+          "turns": 13,
+          "date": 1773524752
+        },
+        {
+          "fight_id": 51815779,
+          "total_level": 1204,
+          "turns": 15,
+          "date": 1773523792
+        },
+        {
+          "fight_id": 51815866,
+          "total_level": 1204,
+          "turns": 24,
+          "date": 1773525195
         }
       ]
     },
     {
-      "fight_id": 51814233,
+      "fight_id": 51815835,
       "fight_type": 1,
       "farmer_name": "fujiwar",
       "farmer_id": 58321,
+      "team_name": null,
       "leeks": [
         {
           "id": 63029,
@@ -88,11 +167,17 @@
         }
       ],
       "total_level": 1204,
-      "turns": 9,
-      "date": 1773509157,
+      "turns": 8,
+      "date": 1773524813,
       "key": "58321",
       "leek_names": "Peuwareau, Peuwaroh, Peuhwaro, Peuwahreau",
       "history": [
+        {
+          "fight_id": 51815835,
+          "total_level": 1204,
+          "turns": 8,
+          "date": 1773524813
+        },
         {
           "fight_id": 51814233,
           "total_level": 1204,
@@ -106,10 +191,28 @@
           "date": 1773508989
         },
         {
+          "fight_id": 51815873,
+          "total_level": 1204,
+          "turns": 9,
+          "date": 1773525231
+        },
+        {
+          "fight_id": 51815768,
+          "total_level": 1204,
+          "turns": 13,
+          "date": 1773523717
+        },
+        {
           "fight_id": 51814181,
           "total_level": 1204,
           "turns": 14,
           "date": 1773509085
+        },
+        {
+          "fight_id": 51815834,
+          "total_level": 1204,
+          "turns": 17,
+          "date": 1773524811
         },
         {
           "fight_id": 51814159,
@@ -122,6 +225,12 @@
           "total_level": 1204,
           "turns": 24,
           "date": 1773509149
+        },
+        {
+          "fight_id": 51815865,
+          "total_level": 1204,
+          "turns": 25,
+          "date": 1773525192
         }
       ]
     },
@@ -165,6 +274,12 @@
           "date": 1773509089
         },
         {
+          "fight_id": 51815836,
+          "total_level": 1204,
+          "turns": 11,
+          "date": 1773524815
+        },
+        {
           "fight_id": 51815752,
           "total_level": 1204,
           "turns": 21,
@@ -179,14 +294,15 @@
       ]
     },
     {
-      "fight_id": 51814508,
+      "fight_id": 51815869,
       "fight_type": 1,
       "farmer_name": "Pilow",
       "farmer_id": 1,
+      "team_name": null,
       "leeks": [
         {
-          "id": 192,
-          "name": "AlcooLeek",
+          "id": 1,
+          "name": "Gorglucks",
           "level": 301
         },
         {
@@ -195,27 +311,129 @@
           "level": 301
         },
         {
-          "id": 1,
-          "name": "Gorglucks",
+          "id": 132,
+          "name": "Wolip",
           "level": 301
         },
         {
-          "id": 132,
-          "name": "Wolip",
+          "id": 192,
+          "name": "AlcooLeek",
           "level": 301
         }
       ],
       "total_level": 1204,
-      "turns": 13,
-      "date": 1773511205,
+      "turns": 10,
+      "date": 1773525202,
       "key": "1",
-      "leek_names": "AlcooLeek, SkullGrog, Gorglucks, Wolip",
+      "leek_names": "Gorglucks, SkullGrog, Wolip, AlcooLeek",
       "history": [
+        {
+          "fight_id": 51815869,
+          "total_level": 1204,
+          "turns": 10,
+          "date": 1773525202
+        },
+        {
+          "fight_id": 51815868,
+          "total_level": 1204,
+          "turns": 10,
+          "date": 1773525199
+        },
+        {
+          "fight_id": 51815822,
+          "total_level": 1204,
+          "turns": 10,
+          "date": 1773524729
+        },
         {
           "fight_id": 51814508,
           "total_level": 1204,
           "turns": 13,
           "date": 1773511205
+        }
+      ]
+    },
+    {
+      "fight_id": 51815773,
+      "fight_type": 1,
+      "farmer_name": "Kraspen",
+      "farmer_id": 76772,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 81638,
+          "name": "Kraton",
+          "level": 301
+        },
+        {
+          "id": 81733,
+          "name": "Krasseux",
+          "level": 301
+        },
+        {
+          "id": 82210,
+          "name": "Krapule",
+          "level": 301
+        },
+        {
+          "id": 82518,
+          "name": "Kraneur",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 10,
+      "date": 1773523731,
+      "key": "76772",
+      "leek_names": "Kraton, Krasseux, Krapule, Kraneur",
+      "history": [
+        {
+          "fight_id": 51815773,
+          "total_level": 1204,
+          "turns": 10,
+          "date": 1773523731
+        },
+        {
+          "fight_id": 51815870,
+          "total_level": 1204,
+          "turns": 12,
+          "date": 1773525204
+        },
+        {
+          "fight_id": 51814141,
+          "total_level": 1204,
+          "turns": 17,
+          "date": 1773508971
+        },
+        {
+          "fight_id": 51815830,
+          "total_level": 1204,
+          "turns": 18,
+          "date": 1773524801
+        },
+        {
+          "fight_id": 51815854,
+          "total_level": 1204,
+          "turns": 19,
+          "date": 1773525170
+        },
+        {
+          "fight_id": 51815855,
+          "total_level": 1204,
+          "turns": 23,
+          "date": 1773525172
+        },
+        {
+          "fight_id": 51815833,
+          "total_level": 1204,
+          "turns": 25,
+          "date": 1773524807
+        },
+        {
+          "fight_id": 51815832,
+          "total_level": 1204,
+          "turns": 25,
+          "date": 1773524805
         }
       ]
     },
@@ -257,6 +475,18 @@
           "total_level": 1204,
           "turns": 13,
           "date": 1773509204
+        },
+        {
+          "fight_id": 51815875,
+          "total_level": 1204,
+          "turns": 13,
+          "date": 1773525236
+        },
+        {
+          "fight_id": 51815765,
+          "total_level": 1204,
+          "turns": 13,
+          "date": 1773523700
         }
       ]
     },
@@ -310,47 +540,12 @@
           "total_level": 1204,
           "turns": 22,
           "date": 1773509109
-        }
-      ]
-    },
-    {
-      "fight_id": 51814141,
-      "fight_type": 1,
-      "farmer_name": "Kraspen",
-      "farmer_id": 76772,
-      "leeks": [
-        {
-          "id": 81638,
-          "name": "Kraton",
-          "level": 301
         },
         {
-          "id": 81733,
-          "name": "Krasseux",
-          "level": 301
-        },
-        {
-          "id": 82210,
-          "name": "Krapule",
-          "level": 301
-        },
-        {
-          "id": 82518,
-          "name": "Kraneur",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 17,
-      "date": 1773508971,
-      "key": "76772",
-      "leek_names": "Kraton, Krasseux, Krapule, Kraneur",
-      "history": [
-        {
-          "fight_id": 51814141,
+          "fight_id": 51815862,
           "total_level": 1204,
-          "turns": 17,
-          "date": 1773508971
+          "turns": 28,
+          "date": 1773525184
         }
       ]
     },
@@ -394,6 +589,18 @@
           "date": 1773508992
         },
         {
+          "fight_id": 51815851,
+          "total_level": 1204,
+          "turns": 18,
+          "date": 1773525128
+        },
+        {
+          "fight_id": 51815844,
+          "total_level": 1204,
+          "turns": 18,
+          "date": 1773525111
+        },
+        {
           "fight_id": 51814251,
           "total_level": 1204,
           "turns": 27,
@@ -404,6 +611,78 @@
           "total_level": 1204,
           "turns": 27,
           "date": 1773509171
+        }
+      ]
+    },
+    {
+      "fight_id": 51815824,
+      "fight_type": 1,
+      "farmer_name": "ihsusikamet",
+      "farmer_id": 76695,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 81551,
+          "name": "ReverseTemakisushi",
+          "level": 301
+        },
+        {
+          "id": 81632,
+          "name": "InversedTemakisushi",
+          "level": 301
+        },
+        {
+          "id": 83389,
+          "name": "NotTemakisushi",
+          "level": 301
+        },
+        {
+          "id": 93011,
+          "name": "Knokker2",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 18,
+      "date": 1773524744,
+      "key": "76695",
+      "leek_names": "ReverseTemakisushi, InversedTemakisushi, NotTemakisushi, Knokker2",
+      "history": [
+        {
+          "fight_id": 51815824,
+          "total_level": 1204,
+          "turns": 18,
+          "date": 1773524744
+        },
+        {
+          "fight_id": 51815771,
+          "total_level": 1204,
+          "turns": 20,
+          "date": 1773523724
+        },
+        {
+          "fight_id": 51815761,
+          "total_level": 1204,
+          "turns": 24,
+          "date": 1773523616
+        },
+        {
+          "fight_id": 51815825,
+          "total_level": 1204,
+          "turns": 30,
+          "date": 1773524747
+        },
+        {
+          "fight_id": 51815767,
+          "total_level": 1204,
+          "turns": 30,
+          "date": 1773523715
+        },
+        {
+          "fight_id": 51815826,
+          "total_level": 1204,
+          "turns": 39,
+          "date": 1773524749
         }
       ]
     },
@@ -445,6 +724,48 @@
           "total_level": 1204,
           "turns": 26,
           "date": 1773509198
+        }
+      ]
+    },
+    {
+      "fight_id": 51815843,
+      "fight_type": 1,
+      "farmer_name": "Marcellus",
+      "farmer_id": 99783,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 105564,
+          "name": "Edmond90",
+          "level": 301
+        },
+        {
+          "id": 105861,
+          "name": "Lisou90",
+          "level": 301
+        },
+        {
+          "id": 106498,
+          "name": "Winston90",
+          "level": 301
+        },
+        {
+          "id": 107203,
+          "name": "TheDude90",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 28,
+      "date": 1773525108,
+      "key": "99783",
+      "leek_names": "Edmond90, Lisou90, Winston90, TheDude90",
+      "history": [
+        {
+          "fight_id": 51815843,
+          "total_level": 1204,
+          "turns": 28,
+          "date": 1773525108
         }
       ]
     }
@@ -494,6 +815,53 @@
           "total_level": 1204,
           "turns": 10,
           "date": 1773521441
+        }
+      ]
+    },
+    {
+      "fight_id": 51815791,
+      "fight_type": 2,
+      "farmer_name": "galactichitchleeker",
+      "farmer_id": 76473,
+      "team_name": "[Bataillon d'exploration]",
+      "leeks": [
+        {
+          "id": 103726,
+          "name": "vogonjeltz",
+          "level": 301
+        },
+        {
+          "id": 81646,
+          "name": "MegaSushi2",
+          "level": 301
+        },
+        {
+          "id": 101790,
+          "name": "L33kSkywalker",
+          "level": 301
+        },
+        {
+          "id": 81552,
+          "name": "SushiActive",
+          "level": 301
+        },
+        {
+          "id": 81580,
+          "name": "NotASoloSushi",
+          "level": 301
+        }
+      ],
+      "total_level": 1505,
+      "turns": 17,
+      "date": 1773523806,
+      "key": "76473",
+      "leek_names": "vogonjeltz, MegaSushi2, L33kSkywalker, SushiActive, NotASoloSushi",
+      "history": [
+        {
+          "fight_id": 51815791,
+          "total_level": 1505,
+          "turns": 17,
+          "date": 1773523806
         }
       ]
     },
