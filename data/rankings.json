@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T06:35:05.758713+00:00",
+  "last_updated": "2026-03-14T12:30:38.559794+00:00",
   "daltons": {
     "46733": [
       {
@@ -459,7 +459,7 @@
         "leek_level": 301
       },
       {
-        "fight_id": 51570176,
+        "fight_id": 51812609,
         "fight_type": 0,
         "farmer_name": "Kraspen",
         "farmer_id": 76772,
@@ -471,8 +471,8 @@
           }
         ],
         "total_level": 301,
-        "turns": 15,
-        "date": 1771859721,
+        "turns": 12,
+        "date": 1773487802,
         "key": "76772",
         "leek_name": "Kraneur",
         "leek_level": 301
