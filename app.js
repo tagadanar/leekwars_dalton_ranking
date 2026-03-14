@@ -85,7 +85,7 @@ function render(data) {
         html += `<div class="section-header">`;
         html += `<img src="${FARMER_AVATAR}" class="farmer-avatar" alt="${esc(farmerConfig.name)}">`;
         html += `<div class="section-info">`;
-        html += `<h2><a href="https://leekwars.com/farmer/${farmerConfig.farmer_id}" target="_blank" class="section-link">${esc(farmerConfig.name)}</a></h2>`;
+        html += `<h2><a href="https://leekwars.com/garden/challenge/farmer/${farmerConfig.farmer_id}" target="_blank" class="section-link">${esc(farmerConfig.name)}</a></h2>`;
         html += `<span class="badge badge-farmer">Farmer fight</span>`;
         html += `</div>`;
         html += `<div class="section-stats"><span class="count">${count}</span>challengers</div>`;
@@ -110,7 +110,7 @@ function render(data) {
         html += `<div class="section-header">`;
         html += `<img src="${TEAM_EMBLEM}" class="farmer-avatar" alt="${esc(teamConfig.name)}">`;
         html += `<div class="section-info">`;
-        html += `<h2><a href="https://leekwars.com/team/${teamConfig.team_id}" target="_blank" class="section-link">${esc(teamConfig.name)}</a></h2>`;
+        html += `<h2><a href="https://leekwars.com/garden/challenge/team/${teamConfig.team_id}" target="_blank" class="section-link">${esc(teamConfig.name)}</a></h2>`;
         html += `<span class="badge badge-team">Team fight</span>`;
         html += `</div>`;
         html += `<div class="section-stats"><span class="count">${count}</span>challengers</div>`;
@@ -139,7 +139,7 @@ function render(data) {
         html += `<div class="section-header">`;
         html += renderLeekWithHat(id, "section-leek-wrap");
         html += `<div class="section-info">`;
-        html += `<h2><a href="https://leekwars.com/leek/${id}" target="_blank" class="section-link">${esc(dalton.name)}</a></h2>`;
+        html += `<h2><a href="https://leekwars.com/garden/challenge/leek/${id}" target="_blank" class="section-link">${esc(dalton.name)}</a></h2>`;
         html += `<span class="badge badge-solo">Solo fight</span>`;
         html += `</div>`;
         html += `<div class="section-stats"><span class="count">${count}</span>challengers</div>`;
