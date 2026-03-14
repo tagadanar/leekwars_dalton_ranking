@@ -302,15 +302,15 @@ body::before {
 }
 
 .most-wanted-avatar {
-    width: 48px;
-    height: 48px;
+    width: 72px;
+    height: 72px;
     border-radius: 50%;
-    border: 2px solid var(--gold);
+    border: 3px solid var(--gold);
     object-fit: cover;
     flex-shrink: 0;
     box-shadow:
         0 0 0 1px rgba(0,0,0,0.3),
-        0 0 12px rgba(255,215,0,0.2);
+        0 0 16px rgba(255,215,0,0.2);
 }
 
 .most-wanted-name {
@@ -666,6 +666,7 @@ main {
 }
 
 .champion-header {
+    padding: 1.1rem 1.25rem;
     background:
         linear-gradient(135deg, rgba(255,215,0,0.08) 0%, transparent 60%),
         repeating-linear-gradient(90deg, transparent, transparent 120px, rgba(107,58,31,0.04) 120px, rgba(107,58,31,0.04) 121px);
