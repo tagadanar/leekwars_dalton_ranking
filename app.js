@@ -211,8 +211,10 @@ function renderTable(entries, type) {
         const leekName = type === "solo" ? (e.leek_name || "?") : (e.leek_names || "?");
         html += `<tr class="${cls}" data-level="${level}" data-turns="${e.turns || 0}" data-date="${e.date || 0}" data-farmer="${(e.farmer_name || "").toLowerCase()}" data-leek="${leekName.toLowerCase()}">`;
         const newBadge = isNew ? `<span class="new-badge">NEW</span>` : "";
+        const hist = e.history || [];
+        const winsBadge = hist.length > 1 ? `<span class="wins-badge" title="${hist.length} wins">${hist.length}x</span>` : "";
         html += `<td class="rank-cell">${rankHtml}</td>`;
-        html += `<td class="farmer-cell">${farmerLink}${newBadge}</td>`;
+        html += `<td class="farmer-cell">${farmerLink}${newBadge}${winsBadge}</td>`;
         html += `<td class="leek-cell">${leekCol}</td>`;
         html += `<td class="level-cell">${level}</td>`;
         html += `<td class="turns-cell">${e.turns || "?"}</td>`;

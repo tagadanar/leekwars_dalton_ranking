@@ -611,6 +611,19 @@ main {
     background: rgba(255,183,0,0.03);
 }
 
+.wins-badge {
+    display: inline-block;
+    font-size: 0.55rem;
+    font-weight: 600;
+    padding: 0.06rem 0.3rem;
+    margin-left: 0.35rem;
+    border-radius: 3px;
+    color: var(--text-dim);
+    background: rgba(138,123,104,0.12);
+    border: 1px solid rgba(138,123,104,0.2);
+    vertical-align: middle;
+}
+
 /* Sortable headers */
 
 .sortable {

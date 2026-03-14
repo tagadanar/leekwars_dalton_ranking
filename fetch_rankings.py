@@ -176,24 +176,61 @@ def ranking_key(entry):
 
 
 def merge_rankings(existing, new_entries):
-    """Merge new entries, keeping best per unique key.
+    """Merge new entries, keeping best per unique key with full history.
 
+    Each entry in the output keeps a 'history' list of all wins by that farmer,
+    sorted best-first. The entry itself is always the best.
     Also migrates old composite keys (e.g. "53189_71600") to farmer-only
     keys ("53189"), deduplicating by best score.
     """
-    by_key = {}
+    # Collect all history per key
+    history_by_key = {}
     for e in existing:
-        # Migrate old "farmerId_leekId" keys to farmer-only
         key = e["key"]
         if "_" in key and "farmer_id" in e:
             key = str(e["farmer_id"])
             e["key"] = key
-        if key not in by_key or ranking_key(e) < ranking_key(by_key[key]):
-            by_key[key] = e
+        history_by_key.setdefault(key, [])
+        # Add existing history entries if present
+        for h in e.pop("history", []):
+            history_by_key[key].append(h)
+        # Add the entry itself
+        history_by_key[key].append({
+            "fight_id": e.get("fight_id"),
+            "total_level": e.get("total_level"),
+            "turns": e.get("turns"),
+            "date": e.get("date"),
+        })
+
     for entry in new_entries:
         key = entry["key"]
-        if key not in by_key or ranking_key(entry) < ranking_key(by_key[key]):
-            by_key[key] = entry
+        history_by_key.setdefault(key, [])
+        history_by_key[key].append({
+            "fight_id": entry.get("fight_id"),
+            "total_level": entry.get("total_level"),
+            "turns": entry.get("turns"),
+            "date": entry.get("date"),
+        })
+
+    # Deduplicate history by fight_id, pick best entry per key
+    by_key = {}
+    for e in existing + new_entries:
+        key = e["key"]
+        e.pop("history", None)
+        if key not in by_key or ranking_key(e) < ranking_key(by_key[key]):
+            by_key[key] = e
+
+    # Attach deduplicated, sorted history
+    for key, entry in by_key.items():
+        seen_ids = set()
+        deduped = []
+        for h in sorted(history_by_key.get(key, []), key=lambda h: (h["total_level"], h["turns"])):
+            fid = h.get("fight_id")
+            if fid and fid not in seen_ids:
+                seen_ids.add(fid)
+                deduped.append(h)
+        entry["history"] = deduped
+
     return sorted(by_key.values(), key=ranking_key)
 
 
