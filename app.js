@@ -216,3 +216,21 @@ function esc(str) {
     div.textContent = str;
     return div.innerHTML;
 }
+
+// Live countdown to next hourly update
+function updateCountdown() {
+    const el = document.getElementById("next-update");
+    if (!el) return;
+    const now = new Date();
+    const min = 59 - now.getMinutes();
+    const sec = 60 - now.getSeconds();
+    const adjustedMin = sec === 60 ? min : min;
+    const adjustedSec = sec === 60 ? 0 : sec;
+    if (adjustedMin === 0 && adjustedSec < 5) {
+        el.textContent = "Updating now...";
+    } else {
+        el.textContent = `Next update in ${adjustedMin}m ${String(adjustedSec).padStart(2, "0")}s`;
+    }
+}
+updateCountdown();
+setInterval(updateCountdown, 1000);
