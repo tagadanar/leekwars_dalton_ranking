@@ -535,6 +535,7 @@ const eggSounds = {
     wobble: new Audio(`${LW_SND}/gazor.mp3`),
     "tip-hat": new Audio(`${LW_SND}/bulb.mp3`),
     bounce: new Audio(`${LW_SND}/move.mp3`),
+    bounce2: new Audio(`${LW_SND}/move.mp3`),
 };
 Object.values(eggSounds).forEach(s => { s.volume = 0.4; });
 
@@ -550,6 +551,12 @@ document.querySelectorAll(".dalton-mugshot[data-egg]").forEach(mugshot => {
         if (snd) {
             snd.currentTime = 0;
             snd.play().catch(() => {});
+        }
+        if (egg === "bounce") {
+            setTimeout(() => {
+                eggSounds.bounce2.currentTime = 0;
+                eggSounds.bounce2.play().catch(() => {});
+            }, 250);
         }
 
         // Wait for the longest animation to finish
