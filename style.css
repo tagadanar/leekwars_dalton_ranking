@@ -692,17 +692,17 @@ main {
     border-color: rgba(255,215,0,0.3) !important;
 }
 
-/* Stat items in section header */
+/* Stat line in section header */
 
-.stat-item {
-    display: inline-block;
-    font-size: 0.65rem;
+.stat-line {
+    display: block;
+    font-size: 0.62rem;
     color: var(--text-dim);
-    margin-top: 0.15rem;
-    margin-right: 0.6rem;
+    margin-top: 0.3rem;
+    letter-spacing: 0.02em;
 }
 
-.stat-item strong {
+.stat-line strong {
     color: var(--sand);
     font-weight: 700;
 }

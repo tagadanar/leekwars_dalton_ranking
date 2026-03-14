@@ -282,8 +282,7 @@ function renderStatsHtml(entries, type) {
     const sorted = [...levels].sort((a, b) => a - b);
     const mid = Math.floor(sorted.length / 2);
     const median = sorted.length % 2 ? sorted[mid] : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
-    return `<span class="stat-item">Avg <strong>${avg}</strong></span>` +
-        `<span class="stat-item">Med <strong>${median}</strong></span>`;
+    return `<span class="stat-line">avg lv.<strong>${avg}</strong> · median lv.<strong>${median}</strong></span>`;
 }
 
 function renderTable(entries, type) {
