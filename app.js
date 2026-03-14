@@ -180,9 +180,13 @@ function renderTable(entries, type) {
     html += '<th></th>';
     html += '</tr></thead><tbody>';
 
+    const now = Date.now() / 1000;
+    const RECENT = 48 * 3600;
+
     entries.forEach((e, i) => {
         const rank = i + 1;
-        const cls = rank <= 3 ? ` rank-${rank}` : "";
+        const isNew = e.date && (now - e.date) < RECENT;
+        const cls = (rank <= 3 ? ` rank-${rank}` : "") + (isNew ? " row-new" : "");
         const dateStr = e.date ? new Date(e.date * 1000).toLocaleDateString() : "?";
         const leekCol = type === "solo"
             ? esc(e.leek_name || "?")
@@ -206,8 +210,9 @@ function renderTable(entries, type) {
 
         const leekName = type === "solo" ? (e.leek_name || "?") : (e.leek_names || "?");
         html += `<tr class="${cls}" data-level="${level}" data-turns="${e.turns || 0}" data-date="${e.date || 0}" data-farmer="${(e.farmer_name || "").toLowerCase()}" data-leek="${leekName.toLowerCase()}">`;
+        const newBadge = isNew ? `<span class="new-badge">NEW</span>` : "";
         html += `<td class="rank-cell">${rankHtml}</td>`;
-        html += `<td class="farmer-cell">${farmerLink}</td>`;
+        html += `<td class="farmer-cell">${farmerLink}${newBadge}</td>`;
         html += `<td class="leek-cell">${leekCol}</td>`;
         html += `<td class="level-cell">${level}</td>`;
         html += `<td class="turns-cell">${e.turns || "?"}</td>`;
