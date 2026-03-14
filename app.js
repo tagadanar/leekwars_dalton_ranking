@@ -533,7 +533,7 @@ const LW_SND = "https://raw.githubusercontent.com/leek-wars/leek-wars/master/pub
 const eggSounds = {
     shoot:  new Audio(`${LW_SND}/double_gun.mp3`),
     wobble: new Audio(`${LW_SND}/gazor.mp3`),
-    "tip-hat": new Audio(`${LW_SND}/bulb.mp3`),
+    summon: new Audio(`${LW_SND}/bulb.mp3`),
     bounce: new Audio(`${LW_SND}/move.mp3`),
     bounce2: new Audio(`${LW_SND}/move.mp3`),
 };
