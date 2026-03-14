@@ -11,9 +11,9 @@ const DALTON_IMGS = {
 
 // Hat images per leek (null = no hat)
 const DALTON_HATS = {
-    46733: { src: `${LW}/hat/panama.png`, cls: "hat-panama" },
+    46733: { src: `${LW}/hat/fedora.png`, cls: "hat-fedora" },
     51098: null,
-    51257: { src: `${LW}/hat/gold_fedora.png`, cls: "hat-fedora" },
+    51257: { src: `${LW}/hat/panama.png`, cls: "hat-panama" },
     51613: { src: `${LW}/hat/sombrero.png`, cls: "hat-sombrero" },
 };
 
