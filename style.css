@@ -592,6 +592,17 @@ main {
 
 .farmer-cell { font-weight: 600; }
 
+.farmer-mini-avatar {
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 0.4rem;
+    border: 1px solid var(--leather);
+    opacity: 0.85;
+}
+
 .farmer-cell a {
     color: var(--text);
     text-decoration: none;

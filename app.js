@@ -181,8 +181,11 @@ function renderTable(entries, type) {
         }
 
         const farmerId = e.farmer_id || "";
+        const avatarImg = farmerId
+            ? `<img src="https://leekwars.com/avatar/${farmerId}.png" class="farmer-mini-avatar" alt="">`
+            : "";
         const farmerLink = farmerId
-            ? `<a href="https://leekwars.com/farmer/${farmerId}" target="_blank">${esc(e.farmer_name || "?")}</a>`
+            ? `${avatarImg}<a href="https://leekwars.com/farmer/${farmerId}" target="_blank">${esc(e.farmer_name || "?")}</a>`
             : esc(e.farmer_name || "?");
 
         html += `<tr class="${cls}">`;
