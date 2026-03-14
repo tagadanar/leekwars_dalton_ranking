@@ -555,6 +555,23 @@ main {
     border-bottom: none;
 }
 
+/* Stats banner */
+
+.stats-banner {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.45rem 1rem;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    background: rgba(61,43,26,0.15);
+    border-bottom: 1px solid rgba(107,58,31,0.12);
+}
+
+.stats-banner strong {
+    color: var(--sand);
+    font-weight: 700;
+}
+
 /* Sortable headers */
 
 .sortable {

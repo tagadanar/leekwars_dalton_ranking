@@ -153,8 +153,22 @@ function render(data) {
     main.innerHTML = html || '<p class="loading">No rankings data yet.</p>';
 }
 
+function renderStats(entries, type) {
+    const levels = entries.map(e => type === "solo" ? (e.leek_level || e.total_level) : e.total_level);
+    if (levels.length === 0) return "";
+    const avg = Math.round(levels.reduce((a, b) => a + b, 0) / levels.length);
+    const sorted = [...levels].sort((a, b) => a - b);
+    const mid = Math.floor(sorted.length / 2);
+    const median = sorted.length % 2 ? sorted[mid] : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
+    return `<div class="stats-banner">` +
+        `<span>Avg level: <strong>${avg}</strong></span>` +
+        `<span>Median level: <strong>${median}</strong></span>` +
+        `</div>`;
+}
+
 function renderTable(entries, type) {
-    let html = '<div class="table-scroll"><table class="ranking-table"><thead><tr>';
+    let html = renderStats(entries, type);
+    html += '<div class="table-scroll"><table class="ranking-table"><thead><tr>';
     html += '<th style="text-align:center">#</th>';
     html += '<th class="sortable" data-sort="farmer">Farmer</th>';
     html += type === "solo"
