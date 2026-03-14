@@ -1139,16 +1139,16 @@ footer a:hover {
     z-index: 2;
 }
 
-.bulb-1 { left: -4px; }
+.bulb-1 { left: 12px; transform: rotate(-15deg); }
 .bulb-2 { left: 50%; transform: translateX(-50%); }
-.bulb-3 { right: -4px; }
+.bulb-3 { right: 12px; transform: rotate(15deg); }
 
-@keyframes bulb-pop {
-    0%   { opacity: 0; transform: scale(0) translateY(8px); }
-    30%  { opacity: 1; transform: scale(1.2) translateY(-4px); }
-    50%  { transform: scale(1) translateY(0); }
-    80%  { opacity: 1; transform: scale(1) translateY(0); }
-    100% { opacity: 0; transform: scale(0.8) translateY(4px); }
+@keyframes bulb-pop-left {
+    0%   { opacity: 0; transform: rotate(-15deg) scale(0) translateY(8px); }
+    30%  { opacity: 1; transform: rotate(-15deg) scale(1.2) translateY(-4px); }
+    50%  { transform: rotate(-15deg) scale(1) translateY(0); }
+    80%  { opacity: 1; transform: rotate(-15deg) scale(1) translateY(0); }
+    100% { opacity: 0; transform: rotate(-15deg) scale(0.8) translateY(4px); }
 }
 
 @keyframes bulb-pop-center {
@@ -1159,8 +1159,16 @@ footer a:hover {
     100% { opacity: 0; transform: translateX(-50%) scale(0.8) translateY(4px); }
 }
 
+@keyframes bulb-pop-right {
+    0%   { opacity: 0; transform: rotate(15deg) scale(0) translateY(8px); }
+    30%  { opacity: 1; transform: rotate(15deg) scale(1.2) translateY(-4px); }
+    50%  { transform: rotate(15deg) scale(1) translateY(0); }
+    80%  { opacity: 1; transform: rotate(15deg) scale(1) translateY(0); }
+    100% { opacity: 0; transform: rotate(15deg) scale(0.8) translateY(4px); }
+}
+
 .egg-summon .bulb-1 {
-    animation: bulb-pop 0.7s ease both;
+    animation: bulb-pop-left 0.7s ease both;
     animation-delay: 0s;
 }
 
@@ -1170,7 +1178,7 @@ footer a:hover {
 }
 
 .egg-summon .bulb-3 {
-    animation: bulb-pop 0.7s ease both;
+    animation: bulb-pop-right 0.7s ease both;
     animation-delay: 0.24s;
 }
 
