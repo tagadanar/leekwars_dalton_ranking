@@ -1,6 +1,38 @@
 {
-  "last_updated": null,
-  "daltons": {},
+  "last_updated": "2026-03-14T16:18:34.364805+00:00",
+  "daltons": {
+    "46733": [],
+    "51098": [],
+    "51257": [],
+    "51613": []
+  },
   "farmer_ranking": [],
-  "team_ranking": []
+  "team_ranking": [],
+  "daltons_config": [
+    {
+      "leek_id": 46733,
+      "name": "JoeDalton"
+    },
+    {
+      "leek_id": 51098,
+      "name": "WilliamDalton"
+    },
+    {
+      "leek_id": 51257,
+      "name": "JackDalton"
+    },
+    {
+      "leek_id": 51613,
+      "name": "AvereIIDalton"
+    }
+  ],
+  "farmer_config": {
+    "farmer_id": 42851,
+    "name": "tagadalton"
+  },
+  "team_config": {
+    "team_id": 10151,
+    "farmer_id": 42851,
+    "name": "The Daltons"
+  }
 }
