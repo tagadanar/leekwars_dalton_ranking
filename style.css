@@ -555,6 +555,36 @@ main {
     border-bottom: none;
 }
 
+/* Sortable headers */
+
+.sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.15s;
+}
+
+.sortable::after {
+    content: " \25B8";
+    font-size: 0.55rem;
+    opacity: 0.3;
+}
+
+.sortable:hover {
+    color: var(--sand);
+}
+
+.sortable.sort-active::after {
+    opacity: 0.8;
+}
+
+.sortable.sort-asc::after {
+    content: " \25B4";
+}
+
+.sortable.sort-desc::after {
+    content: " \25BE";
+}
+
 /* Rank column */
 
 .rank-cell {

@@ -156,11 +156,13 @@ function render(data) {
 function renderTable(entries, type) {
     let html = '<div class="table-scroll"><table class="ranking-table"><thead><tr>';
     html += '<th style="text-align:center">#</th>';
-    html += '<th>Farmer</th>';
-    html += type === "solo" ? '<th>Leek</th>' : '<th>Leeks</th>';
-    html += '<th style="text-align:center">Level</th>';
-    html += '<th style="text-align:center">Turns</th>';
-    html += '<th>Date</th>';
+    html += '<th class="sortable" data-sort="farmer">Farmer</th>';
+    html += type === "solo"
+        ? '<th class="sortable" data-sort="leek">Leek</th>'
+        : '<th class="sortable" data-sort="leek">Leeks</th>';
+    html += '<th class="sortable sort-active sort-asc" data-sort="level" style="text-align:center">Level</th>';
+    html += '<th class="sortable" data-sort="turns" style="text-align:center">Turns</th>';
+    html += '<th class="sortable" data-sort="date">Date</th>';
     html += '<th></th>';
     html += '</tr></thead><tbody>';
 
@@ -188,7 +190,8 @@ function renderTable(entries, type) {
             ? `${avatarImg}<a href="https://leekwars.com/farmer/${farmerId}" target="_blank">${esc(e.farmer_name || "?")}</a>`
             : esc(e.farmer_name || "?");
 
-        html += `<tr class="${cls}">`;
+        const leekName = type === "solo" ? (e.leek_name || "?") : (e.leek_names || "?");
+        html += `<tr class="${cls}" data-level="${level}" data-turns="${e.turns || 0}" data-date="${e.date || 0}" data-farmer="${(e.farmer_name || "").toLowerCase()}" data-leek="${leekName.toLowerCase()}">`;
         html += `<td class="rank-cell">${rankHtml}</td>`;
         html += `<td class="farmer-cell">${farmerLink}</td>`;
         html += `<td class="leek-cell">${leekCol}</td>`;
@@ -234,3 +237,43 @@ function updateCountdown() {
 }
 updateCountdown();
 setInterval(updateCountdown, 1000);
+
+// Sortable table columns
+document.addEventListener("click", (ev) => {
+    const th = ev.target.closest(".sortable");
+    if (!th) return;
+    const table = th.closest("table");
+    const tbody = table.querySelector("tbody");
+    const rows = Array.from(tbody.rows);
+    const key = th.dataset.sort;
+    const isNumeric = key === "level" || key === "turns" || key === "date";
+
+    // Toggle direction
+    const wasAsc = th.classList.contains("sort-asc");
+    const asc = !wasAsc;
+
+    // Clear sort state from sibling headers
+    th.closest("tr").querySelectorAll(".sortable").forEach(h => {
+        h.classList.remove("sort-active", "sort-asc", "sort-desc");
+    });
+    th.classList.add("sort-active", asc ? "sort-asc" : "sort-desc");
+
+    rows.sort((a, b) => {
+        let va = a.dataset[key], vb = b.dataset[key];
+        if (isNumeric) { va = Number(va); vb = Number(vb); }
+        if (va < vb) return asc ? -1 : 1;
+        if (va > vb) return asc ? 1 : -1;
+        return 0;
+    });
+
+    // Re-insert rows + update rank column
+    rows.forEach((row, i) => {
+        const rank = i + 1;
+        row.className = rank <= 3 ? `rank-${rank}` : "";
+        const cell = row.querySelector(".rank-cell");
+        cell.innerHTML = MEDAL[rank]
+            ? `<img src="${MEDAL[rank]}" class="rank-medal" alt="#${rank}">`
+            : rank;
+        tbody.appendChild(row);
+    });
+});
