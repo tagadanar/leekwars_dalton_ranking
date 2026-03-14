@@ -161,6 +161,20 @@ function render(data) {
 
     // Grand Champion — aggregate across all sections
     const champions = buildChampions(daltons, farmerRanking, teamRanking, config);
+
+    // Most Wanted — show #1 champion in hero poster
+    const mw = document.getElementById("most-wanted");
+    if (mw && champions.length > 0) {
+        const top = champions[0];
+        mw.innerHTML = `<div class="most-wanted-inner">` +
+            `<p class="most-wanted-label">MOST WANTED</p>` +
+            `<img src="https://leekwars.com/avatar/${top.farmer_id}.png" class="most-wanted-avatar" alt="${esc(top.farmer_name)}">` +
+            `<p class="most-wanted-name"><a href="https://leekwars.com/farmer/${top.farmer_id}" target="_blank">${esc(top.farmer_name)}</a></p>` +
+            `<p class="most-wanted-stats">${top.beaten} Daltons beaten &middot; Total Lv.${top.total_level}</p>` +
+            `</div>`;
+        mw.style.display = "";
+    }
+
     if (champions.length > 0) {
         navHtml += `<a href="#champions" class="nav-btn nav-btn-champion">` +
             `<img src="${IMG}/weapon/magnum.png" alt="">` +

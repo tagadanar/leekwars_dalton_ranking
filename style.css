@@ -278,6 +278,60 @@ body::before {
     letter-spacing: 0.06em;
 }
 
+/* Most Wanted in hero */
+
+.most-wanted {
+    margin: 1rem 0 0.6rem;
+}
+
+.most-wanted-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.most-wanted-label {
+    font-family: "Rye", serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    color: var(--terracotta);
+    text-transform: uppercase;
+}
+
+.most-wanted-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 3px solid var(--gold);
+    object-fit: cover;
+    box-shadow:
+        0 0 0 1px rgba(0,0,0,0.3),
+        0 0 20px rgba(255,215,0,0.2),
+        0 0 40px rgba(255,215,0,0.08);
+}
+
+.most-wanted-name {
+    font-family: "Rye", serif;
+    font-size: 1rem;
+    color: var(--gold);
+}
+
+.most-wanted-name a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.most-wanted-name a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.most-wanted-stats {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+}
+
 .reward {
     font-family: "Rye", serif;
     font-size: 0.75rem;
