@@ -692,19 +692,17 @@ main {
     border-color: rgba(255,215,0,0.3) !important;
 }
 
-/* Stats banner */
+/* Stat items in section header */
 
-.stats-banner {
-    display: flex;
-    gap: 1.5rem;
-    padding: 0.45rem 1rem;
-    font-size: 0.75rem;
+.stat-item {
+    display: inline-block;
+    font-size: 0.65rem;
     color: var(--text-dim);
-    background: rgba(61,43,26,0.15);
-    border-bottom: 1px solid rgba(107,58,31,0.12);
+    margin-top: 0.15rem;
+    margin-right: 0.6rem;
 }
 
-.stats-banner strong {
+.stat-item strong {
     color: var(--sand);
     font-weight: 700;
 }
