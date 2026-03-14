@@ -319,9 +319,11 @@ function renderTable(entries, type) {
             : esc(e.farmer_name || "?");
 
         const leekName = type === "solo" ? (e.leek_name || "?") : (e.leek_names || "?");
-        html += `<tr class="${cls}" data-level="${level}" data-turns="${e.turns || 0}" data-date="${e.date || 0}" data-farmer="${(e.farmer_name || "").toLowerCase()}" data-leek="${leekName.toLowerCase()}">`;
-        const newBadge = isNew ? `<span class="new-badge">NEW</span>` : "";
         const hist = e.history || [];
+        const histAttr = hist.length > 1 ? ` data-history='${JSON.stringify(hist).replace(/'/g, "&#39;")}'` : "";
+        const expandable = hist.length > 1 ? " expandable" : "";
+        html += `<tr class="${cls}${expandable}" data-level="${level}" data-turns="${e.turns || 0}" data-date="${e.date || 0}" data-farmer="${(e.farmer_name || "").toLowerCase()}" data-leek="${leekName.toLowerCase()}"${histAttr}>`;
+        const newBadge = isNew ? `<span class="new-badge">NEW</span>` : "";
         const winsBadge = hist.length > 1 ? `<span class="wins-badge" title="${hist.length} wins">${hist.length}x</span>` : "";
         html += `<td class="rank-cell">${rankHtml}</td>`;
         html += `<td class="farmer-cell">${farmerLink}${newBadge}${winsBadge}</td>`;
@@ -420,4 +422,43 @@ document.addEventListener("input", (ev) => {
             row.style.display = (!query || farmer.includes(query)) ? "" : "none";
         });
     });
+});
+
+// Expand row to show history
+document.addEventListener("click", (ev) => {
+    // Don't trigger on link/button clicks
+    if (ev.target.closest("a, button")) return;
+    const row = ev.target.closest("tr.expandable");
+    if (!row) return;
+
+    // Toggle: remove existing history rows for this row
+    const existing = row.nextElementSibling;
+    if (existing && existing.classList.contains("history-row")) {
+        existing.remove();
+        row.classList.remove("expanded");
+        return;
+    }
+
+    const hist = JSON.parse(row.dataset.history || "[]");
+    if (hist.length < 2) return;
+
+    const colCount = row.cells.length;
+    const histRow = document.createElement("tr");
+    histRow.className = "history-row";
+    const td = document.createElement("td");
+    td.colSpan = colCount;
+    td.className = "history-cell";
+
+    let inner = '<div class="history-list"><span class="history-label">History:</span>';
+    hist.forEach((h, i) => {
+        const dateStr = h.date ? new Date(h.date * 1000).toLocaleDateString() : "?";
+        const best = i === 0 ? ' class="history-best"' : "";
+        inner += `<a href="https://leekwars.com/fight/${h.fight_id}" target="_blank"${best}>` +
+            `Lv.${h.total_level} in ${h.turns}t <small>(${dateStr})</small></a>`;
+    });
+    inner += "</div>";
+    td.innerHTML = inner;
+    histRow.appendChild(td);
+    row.after(histRow);
+    row.classList.add("expanded");
 });

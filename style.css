@@ -675,6 +675,72 @@ main {
     background: rgba(255,183,0,0.03);
 }
 
+/* Expandable rows */
+
+tr.expandable {
+    cursor: pointer;
+}
+
+tr.expandable .wins-badge::after {
+    content: " \25BE";
+    font-size: 0.5rem;
+}
+
+tr.expanded .wins-badge::after {
+    content: " \25B4";
+}
+
+.history-row td {
+    padding: 0 !important;
+    border-bottom: 1px solid rgba(107,58,31,0.12);
+}
+
+.history-cell {
+    background: rgba(0,0,0,0.15);
+}
+
+.history-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0.75rem;
+    font-size: 0.75rem;
+}
+
+.history-label {
+    color: var(--text-dim);
+    font-weight: 600;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.history-list a {
+    color: var(--text-dim);
+    text-decoration: none;
+    padding: 0.15rem 0.45rem;
+    border-radius: 3px;
+    border: 1px solid rgba(107,58,31,0.15);
+    transition: all 0.15s;
+}
+
+.history-list a:hover {
+    color: var(--sand);
+    border-color: var(--sand-dim);
+    background: var(--sand-glow);
+}
+
+.history-list a.history-best {
+    color: var(--sand);
+    border-color: rgba(212,168,75,0.25);
+}
+
+.history-list a small {
+    color: var(--text-dim);
+    opacity: 0.7;
+}
+
 .wins-badge {
     display: inline-block;
     font-size: 0.55rem;
