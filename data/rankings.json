@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T20:16:28.751563+00:00",
+  "last_updated": "2026-03-14T21:18:19.419981+00:00",
   "daltons": {
     "46733": [],
     "51098": [],
@@ -165,6 +165,12 @@
           "date": 1773509089
         },
         {
+          "fight_id": 51815752,
+          "total_level": 1204,
+          "turns": 21,
+          "date": 1773522207
+        },
+        {
           "fight_id": 51814192,
           "total_level": 1204,
           "turns": 25,
@@ -292,6 +298,12 @@
           "total_level": 1204,
           "turns": 14,
           "date": 1773509161
+        },
+        {
+          "fight_id": 51815749,
+          "total_level": 1204,
+          "turns": 21,
+          "date": 1773522151
         },
         {
           "fight_id": 51814203,
@@ -437,7 +449,157 @@
       ]
     }
   ],
-  "team_ranking": [],
+  "team_ranking": [
+    {
+      "fight_id": 51815657,
+      "fight_type": 2,
+      "farmer_name": "Agade2",
+      "farmer_id": 101978,
+      "leeks": [
+        {
+          "id": 108185,
+          "name": "AgadeLeek8",
+          "level": 301
+        },
+        {
+          "id": 108080,
+          "name": "AgadeLeek7",
+          "level": 301
+        },
+        {
+          "id": 107959,
+          "name": "AgadeLeek5",
+          "level": 301
+        },
+        {
+          "id": 107990,
+          "name": "AgadeLeek6",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 10,
+      "date": 1773521454,
+      "key": "101978",
+      "leek_names": "AgadeLeek8, AgadeLeek7, AgadeLeek5, AgadeLeek6",
+      "history": [
+        {
+          "fight_id": 51815657,
+          "total_level": 1204,
+          "turns": 10,
+          "date": 1773521454
+        },
+        {
+          "fight_id": 51815644,
+          "total_level": 1204,
+          "turns": 10,
+          "date": 1773521441
+        }
+      ]
+    },
+    {
+      "fight_id": 51815649,
+      "fight_type": 2,
+      "farmer_name": "Bux420",
+      "farmer_id": 94042,
+      "leeks": [
+        {
+          "id": 99341,
+          "name": "Bux420",
+          "level": 301
+        },
+        {
+          "id": 127341,
+          "name": "Bux1",
+          "level": 301
+        },
+        {
+          "id": 128155,
+          "name": "Bux3",
+          "level": 301
+        },
+        {
+          "id": 127615,
+          "name": "Bux2",
+          "level": 301
+        },
+        {
+          "id": 130975,
+          "name": "Bux43",
+          "level": 300
+        },
+        {
+          "id": 65746,
+          "name": "Bux42",
+          "level": 300
+        }
+      ],
+      "total_level": 1804,
+      "turns": 7,
+      "date": 1773521448,
+      "key": "94042",
+      "leek_names": "Bux420, Bux1, Bux3, Bux2, Bux43, Bux42",
+      "history": [
+        {
+          "fight_id": 51815649,
+          "total_level": 1804,
+          "turns": 7,
+          "date": 1773521448
+        }
+      ]
+    },
+    {
+      "fight_id": 51815645,
+      "fight_type": 2,
+      "farmer_name": "thaddee",
+      "farmer_id": 86242,
+      "leeks": [
+        {
+          "id": 91532,
+          "name": "Fl\u00e2teur",
+          "level": 301
+        },
+        {
+          "id": 92779,
+          "name": "Canardeur",
+          "level": 301
+        },
+        {
+          "id": 108333,
+          "name": "Ecouteur",
+          "level": 301
+        },
+        {
+          "id": 125259,
+          "name": "Entroupeur",
+          "level": 301
+        },
+        {
+          "id": 92131,
+          "name": "Zeldalink",
+          "level": 301
+        },
+        {
+          "id": 91285,
+          "name": "rotulet",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 13,
+      "date": 1773521442,
+      "key": "86242",
+      "leek_names": "Fl\u00e2teur, Canardeur, Ecouteur, Entroupeur, Zeldalink, rotulet",
+      "history": [
+        {
+          "fight_id": 51815645,
+          "total_level": 1806,
+          "turns": 13,
+          "date": 1773521442
+        }
+      ]
+    }
+  ],
   "daltons_config": [
     {
       "leek_id": 46733,
