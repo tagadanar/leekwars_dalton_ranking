@@ -261,6 +261,9 @@ function render(data) {
     // Show search bar
     const searchBar = document.getElementById("search-bar");
     if (searchBar) searchBar.style.display = "";
+
+    // Re-apply "my farmer" highlight
+    highlightMyFarmer(localStorage.getItem("dalton_my_farmer") || "");
 }
 
 function renderStats(entries, type) {
@@ -484,3 +487,29 @@ window.addEventListener("scroll", () => {
     const btn = document.getElementById("back-to-top");
     if (btn) btn.classList.toggle("visible", window.scrollY > 400);
 }, { passive: true });
+
+// "My farmer" highlight — persisted to localStorage
+function highlightMyFarmer(name) {
+    const query = (name || "").toLowerCase().trim();
+    document.querySelectorAll(".ranking-table tbody tr").forEach(row => {
+        if (row.classList.contains("history-row")) return;
+        const farmer = row.dataset.farmer || "";
+        row.classList.toggle("my-row", query && farmer === query);
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const input = document.getElementById("my-farmer");
+    if (!input) return;
+    const saved = localStorage.getItem("dalton_my_farmer") || "";
+    if (saved) {
+        input.value = saved;
+        // Delay to run after render
+        setTimeout(() => highlightMyFarmer(saved), 100);
+    }
+    input.addEventListener("input", () => {
+        const val = input.value;
+        localStorage.setItem("dalton_my_farmer", val);
+        highlightMyFarmer(val);
+    });
+});
