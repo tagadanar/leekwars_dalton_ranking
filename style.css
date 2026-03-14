@@ -347,6 +347,37 @@ body::before {
     object-fit: contain;
 }
 
+/* ---------- SEARCH ---------- */
+
+.search-bar {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0.7rem 1rem 0;
+}
+
+.search-bar input {
+    width: 100%;
+    max-width: 280px;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.8rem;
+    font-family: inherit;
+    color: var(--text);
+    background: var(--bg-card);
+    border: 1px solid var(--leather);
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+.search-bar input::placeholder {
+    color: var(--text-dim);
+}
+
+.search-bar input:focus {
+    border-color: var(--sand-dim);
+    box-shadow: 0 0 6px rgba(212,168,75,0.1);
+}
+
 /* ---------- MAIN ---------- */
 
 main {

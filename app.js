@@ -257,6 +257,10 @@ function render(data) {
 
     nav.innerHTML = navHtml;
     main.innerHTML = html || '<p class="loading">No rankings data yet.</p>';
+
+    // Show search bar
+    const searchBar = document.getElementById("search-bar");
+    if (searchBar) searchBar.style.display = "";
 }
 
 function renderStats(entries, type) {
@@ -402,5 +406,18 @@ document.addEventListener("click", (ev) => {
             ? `<img src="${MEDAL[rank]}" class="rank-medal" alt="#${rank}">`
             : rank;
         tbody.appendChild(row);
+    });
+});
+
+// Farmer search filter
+document.addEventListener("input", (ev) => {
+    if (ev.target.id !== "farmer-search") return;
+    const query = ev.target.value.toLowerCase().trim();
+    document.querySelectorAll(".ranking-table tbody").forEach(tbody => {
+        Array.from(tbody.rows).forEach(row => {
+            if (row.classList.contains("history-row")) return;
+            const farmer = row.dataset.farmer || "";
+            row.style.display = (!query || farmer.includes(query)) ? "" : "none";
+        });
     });
 });
