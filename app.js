@@ -529,8 +529,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Easter eggs on hero Daltons
-const pistolSound = new Audio("https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound/double_gun.mp3");
-pistolSound.volume = 0.4;
+const LW_SND = "https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound";
+const eggSounds = {
+    shoot:  new Audio(`${LW_SND}/double_gun.mp3`),
+    wobble: new Audio(`${LW_SND}/gazor.mp3`),
+    "tip-hat": new Audio(`${LW_SND}/bulb.mp3`),
+    bounce: new Audio(`${LW_SND}/move.mp3`),
+};
+Object.values(eggSounds).forEach(s => { s.volume = 0.4; });
 
 document.querySelectorAll(".dalton-mugshot[data-egg]").forEach(mugshot => {
     mugshot.addEventListener("click", () => {
@@ -540,9 +546,10 @@ document.querySelectorAll(".dalton-mugshot[data-egg]").forEach(mugshot => {
         if (!wrap || wrap.classList.contains(cls)) return;
         wrap.classList.add(cls);
 
-        if (egg === "shoot") {
-            pistolSound.currentTime = 0;
-            pistolSound.play().catch(() => {});
+        const snd = eggSounds[egg];
+        if (snd) {
+            snd.currentTime = 0;
+            snd.play().catch(() => {});
         }
 
         // Wait for the longest animation to finish
