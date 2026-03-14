@@ -478,3 +478,9 @@ document.addEventListener("click", (ev) => {
         setTimeout(() => { btn.innerHTML = "&#128266;"; }, 1500);
     });
 });
+
+// Back to top button
+window.addEventListener("scroll", () => {
+    const btn = document.getElementById("back-to-top");
+    if (btn) btn.classList.toggle("visible", window.scrollY > 400);
+}, { passive: true });
