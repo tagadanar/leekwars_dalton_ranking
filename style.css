@@ -1126,6 +1126,18 @@ footer a:hover {
     animation: shoot-recoil 0.4s ease;
 }
 
+@keyframes hat-jump {
+    0%   { transform: translateX(-50%) translateY(0); }
+    20%  { transform: translateX(-50%) translateY(-6px) rotate(-5deg); }
+    50%  { transform: translateX(-50%) translateY(-3px) rotate(-2deg); }
+    100% { transform: translateX(-50%) translateY(0) rotate(0); }
+}
+
+.egg-shoot .leek-hat {
+    animation: hat-jump 0.4s ease;
+    animation-delay: 0.1s;
+}
+
 /* Jack's bulbs — hidden by default */
 .jack-bulb {
     position: absolute;
