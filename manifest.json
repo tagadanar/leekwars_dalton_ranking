@@ -1,0 +1,16 @@
+{
+  "name": "Dalton Ranking - LeekWars",
+  "short_name": "Dalton Ranking",
+  "description": "Beat them at the lowest level possible. LeekWars challenge ranking.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#261c12",
+  "theme_color": "#261c12",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/image/favicon.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
