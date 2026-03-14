@@ -555,10 +555,6 @@ document.querySelectorAll(".dalton-mugshot[data-egg]").forEach(mugshot => {
                 eggSounds.bounce2.currentTime = 0;
                 eggSounds.bounce2.play().catch(() => {});
             }, 200);
-            setTimeout(() => {
-                eggSounds.bounce3.currentTime = 0;
-                eggSounds.bounce3.play().catch(() => {});
-            }, 400);
         } else {
             const snd = eggSounds[egg];
             if (snd) {
