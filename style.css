@@ -1269,11 +1269,11 @@ footer a:hover {
 }
 
 .egg-bounce .leek-body {
-    animation: bounce 0.7s ease;
+    animation: bounce 0.7s ease 0.1s both;
 }
 
 .egg-bounce .leek-hat {
-    animation: bounce-hat 0.7s ease;
+    animation: bounce-hat 0.7s ease 0.1s both;
 }
 
 /* ---------- ANIMATIONS ---------- */
