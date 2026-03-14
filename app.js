@@ -527,3 +527,17 @@ document.addEventListener("DOMContentLoaded", () => {
         highlightMyFarmer(val);
     });
 });
+
+// Easter eggs on hero Daltons
+document.querySelectorAll(".dalton-mugshot[data-egg]").forEach(mugshot => {
+    mugshot.addEventListener("click", () => {
+        const egg = mugshot.dataset.egg;
+        const cls = `egg-${egg}`;
+        const wrap = mugshot.querySelector(".leek-with-hat");
+        if (!wrap || wrap.classList.contains(cls)) return;
+        wrap.classList.add(cls);
+        wrap.addEventListener("animationend", () => {
+            wrap.classList.remove(cls);
+        }, { once: true });
+    });
+});

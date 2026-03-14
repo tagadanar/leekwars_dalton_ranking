@@ -1083,6 +1083,65 @@ footer a:hover {
     border-color: var(--sand-dim);
 }
 
+/* ---------- EASTER EGGS ---------- */
+
+.dalton-mugshot[data-egg] {
+    cursor: pointer;
+}
+
+/* Hat tip: hat lifts up and rotates, then comes back */
+@keyframes tip-hat {
+    0%   { transform: translateX(-50%) translateY(0) rotate(0); }
+    30%  { transform: translateX(-50%) translateY(-14px) rotate(-15deg); }
+    60%  { transform: translateX(-50%) translateY(-10px) rotate(-12deg); }
+    100% { transform: translateX(-50%) translateY(0) rotate(0); }
+}
+
+.egg-tip-hat .leek-hat {
+    animation: tip-hat 0.6s ease;
+}
+
+/* Wobble: the whole leek shakes angrily */
+@keyframes wobble {
+    0%, 100% { transform: translateX(-50%) rotate(0); }
+    15%      { transform: translateX(-50%) rotate(-8deg); }
+    30%      { transform: translateX(-50%) rotate(7deg); }
+    45%      { transform: translateX(-50%) rotate(-6deg); }
+    60%      { transform: translateX(-50%) rotate(4deg); }
+    75%      { transform: translateX(-50%) rotate(-2deg); }
+}
+
+.egg-wobble .leek-body {
+    animation: wobble 0.5s ease;
+}
+
+/* Bounce: happy Averell bounces */
+@keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    20%      { transform: translateX(-50%) translateY(-16px); }
+    40%      { transform: translateX(-50%) translateY(0); }
+    55%      { transform: translateX(-50%) translateY(-8px); }
+    70%      { transform: translateX(-50%) translateY(0); }
+    80%      { transform: translateX(-50%) translateY(-3px); }
+}
+
+@keyframes bounce-hat {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    20%      { transform: translateX(-50%) translateY(-18px) rotate(5deg); }
+    40%      { transform: translateX(-50%) translateY(0); }
+    55%      { transform: translateX(-50%) translateY(-10px) rotate(-3deg); }
+    70%      { transform: translateX(-50%) translateY(0); }
+    80%      { transform: translateX(-50%) translateY(-4px); }
+}
+
+.egg-bounce .leek-body {
+    animation: bounce 0.7s ease;
+}
+
+.egg-bounce .leek-hat {
+    animation: bounce-hat 0.7s ease;
+}
+
 /* ---------- ANIMATIONS ---------- */
 
 @keyframes fade-up {
