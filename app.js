@@ -529,6 +529,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Easter eggs on hero Daltons
+const pistolSound = new Audio("https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound/double_gun.mp3");
+pistolSound.volume = 0.4;
+
 document.querySelectorAll(".dalton-mugshot[data-egg]").forEach(mugshot => {
     mugshot.addEventListener("click", () => {
         const egg = mugshot.dataset.egg;
@@ -536,8 +539,20 @@ document.querySelectorAll(".dalton-mugshot[data-egg]").forEach(mugshot => {
         const wrap = mugshot.querySelector(".leek-with-hat");
         if (!wrap || wrap.classList.contains(cls)) return;
         wrap.classList.add(cls);
-        wrap.addEventListener("animationend", () => {
-            wrap.classList.remove(cls);
-        }, { once: true });
+
+        if (egg === "shoot") {
+            pistolSound.currentTime = 0;
+            pistolSound.play().catch(() => {});
+        }
+
+        // Wait for the longest animation to finish
+        const animations = wrap.getAnimations();
+        if (animations.length > 0) {
+            Promise.all(animations.map(a => a.finished)).then(() => {
+                wrap.classList.remove(cls);
+            });
+        } else {
+            setTimeout(() => wrap.classList.remove(cls), 700);
+        }
     });
 });
