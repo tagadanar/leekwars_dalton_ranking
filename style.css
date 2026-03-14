@@ -660,17 +660,108 @@ main {
     border-bottom: none;
 }
 
-/* Champion section */
+/* Champion section — gold ornate border */
 
 .champion-section {
-    border-color: var(--sand-dim);
+    border: 3px solid var(--gold);
+    box-shadow:
+        inset 0 0 0 1px rgba(255,215,0,0.15),
+        0 0 0 2px rgba(0,0,0,0.3),
+        0 0 0 4px rgba(255,215,0,0.2),
+        0 0 0 5px rgba(0,0,0,0.15),
+        0 0 30px rgba(255,215,0,0.08),
+        0 4px 16px rgba(0,0,0,0.4);
+}
+
+.champion-section::before {
+    inset: 4px;
+    border: 1px solid rgba(255,215,0,0.25);
+}
+
+.champion-section::after {
+    content: "★ GRAND CHAMPION ★";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Rye", serif;
+    font-size: 0.5rem;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    background: var(--bg-card);
+    padding: 0 0.8rem;
+    z-index: 2;
 }
 
 .champion-header {
     padding: 1.1rem 1.25rem;
     background:
-        linear-gradient(135deg, rgba(255,215,0,0.08) 0%, transparent 60%),
+        linear-gradient(135deg, rgba(255,215,0,0.1) 0%, rgba(255,215,0,0.02) 40%, transparent 70%),
+        linear-gradient(180deg, rgba(255,215,0,0.04) 0%, transparent 100%),
         repeating-linear-gradient(90deg, transparent, transparent 120px, rgba(107,58,31,0.04) 120px, rgba(107,58,31,0.04) 121px);
+}
+
+/* Farmer section — terracotta wanted poster */
+
+#farmer {
+    border-color: var(--terracotta);
+    box-shadow:
+        inset 0 0 0 1px rgba(196,90,60,0.1),
+        0 0 0 1px rgba(0,0,0,0.25),
+        0 0 0 3px rgba(196,90,60,0.15),
+        0 0 0 4px rgba(0,0,0,0.1),
+        0 3px 12px rgba(0,0,0,0.35);
+}
+
+#farmer::before {
+    border-color: rgba(196,90,60,0.2);
+}
+
+/* Team section — green accented */
+
+#team {
+    border-color: #4a7a56;
+    box-shadow:
+        inset 0 0 0 1px rgba(140,212,160,0.08),
+        0 0 0 1px rgba(0,0,0,0.25),
+        0 0 0 3px rgba(140,212,160,0.12),
+        0 0 0 4px rgba(0,0,0,0.1),
+        0 3px 12px rgba(0,0,0,0.35);
+}
+
+#team::before {
+    border-color: rgba(140,212,160,0.15);
+}
+
+/* Solo leek sections — wanted poster style */
+
+[id^="leek-"] {
+    border-color: var(--sand-dim);
+    box-shadow:
+        inset 0 0 0 1px rgba(212,168,75,0.1),
+        0 0 0 1px rgba(0,0,0,0.3),
+        0 0 0 3px rgba(61,43,26,0.4),
+        0 0 0 4px rgba(107,58,31,0.25),
+        0 3px 12px rgba(0,0,0,0.35);
+}
+
+[id^="leek-"]::before {
+    border-color: rgba(212,168,75,0.2);
+}
+
+[id^="leek-"]::after {
+    content: "WANTED";
+    position: absolute;
+    top: -8px;
+    right: 1.2rem;
+    font-family: "Rye", serif;
+    font-size: 0.45rem;
+    letter-spacing: 0.15em;
+    color: var(--terracotta);
+    background: var(--bg-card);
+    padding: 0 0.5rem;
+    z-index: 2;
+    opacity: 0.7;
 }
 
 .champion-icon {
