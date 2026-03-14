@@ -1094,7 +1094,7 @@ footer a:hover {
     position: absolute;
     width: 32px;
     right: -8px;
-    top: 40%;
+    top: 60%;
     transform: rotate(-25deg);
     opacity: 0;
     pointer-events: none;
