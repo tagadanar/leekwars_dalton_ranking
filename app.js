@@ -331,8 +331,12 @@ function renderTable(entries, type) {
         html += `<td class="level-cell">${level}</td>`;
         html += `<td class="turns-cell">${e.turns || "?"}</td>`;
         html += `<td class="date-cell">${dateStr}</td>`;
-        html += `<td><a class="fight-link" href="https://leekwars.com/fight/${e.fight_id}" target="_blank">` +
-            `<img src="${IMG}/weapon/pistol.png" alt="">fight</a></td>`;
+        const shareText = `I beat the Daltons at Lv.${level} in ${e.turns || "?"}t! #DaltonRanking`;
+        html += `<td class="action-cell">` +
+            `<a class="fight-link" href="https://leekwars.com/fight/${e.fight_id}" target="_blank">` +
+            `<img src="${IMG}/weapon/pistol.png" alt="">fight</a>` +
+            `<button class="share-btn" data-share="${esc(shareText)}" title="Copy to clipboard">&#128266;</button>` +
+            `</td>`;
         html += `</tr>`;
     });
 
@@ -461,4 +465,16 @@ document.addEventListener("click", (ev) => {
     histRow.appendChild(td);
     row.after(histRow);
     row.classList.add("expanded");
+});
+
+// Share button
+document.addEventListener("click", (ev) => {
+    const btn = ev.target.closest(".share-btn");
+    if (!btn) return;
+    ev.stopPropagation();
+    const text = btn.dataset.share;
+    navigator.clipboard.writeText(text).then(() => {
+        btn.textContent = "\u2713";
+        setTimeout(() => { btn.innerHTML = "&#128266;"; }, 1500);
+    });
 });

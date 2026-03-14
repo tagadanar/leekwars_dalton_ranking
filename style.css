@@ -885,6 +885,29 @@ tr.expanded .wins-badge::after {
     opacity: 0.5;
 }
 
+.action-cell {
+    white-space: nowrap;
+}
+
+.share-btn {
+    background: none;
+    border: 1px solid transparent;
+    color: var(--text-dim);
+    font-size: 0.7rem;
+    cursor: pointer;
+    padding: 0.2rem 0.3rem;
+    border-radius: 3px;
+    margin-left: 0.2rem;
+    transition: all 0.15s;
+    vertical-align: middle;
+}
+
+.share-btn:hover {
+    color: var(--sand);
+    border-color: var(--sand-dim);
+    background: var(--sand-glow);
+}
+
 /* Empty state — compact */
 
 .empty-state {
