@@ -158,11 +158,18 @@ def extract_challenger_info(fight, dalton_leek_ids):
                 farmer_name = fdata.get("name", "?") if isinstance(fdata, dict) else "?"
                 break
 
+    # Extract team info for team fights
+    team_name = None
+    if fight_type == 2:
+        challenger_side = 2 if dalton_team == 1 else 1
+        team_name = fight.get(f"team{challenger_side}_name")
+
     return {
         "fight_id": fight.get("id"),
         "fight_type": fight_type,
         "farmer_name": farmer_name or "?",
         "farmer_id": farmer_id,
+        "team_name": team_name,
         "leeks": challenger_leeks,
         "total_level": sum(l["level"] for l in challenger_leeks),
         "turns": count_turns(fight),
@@ -334,6 +341,8 @@ def process_team(session, team_config, dalton_leek_ids, cache, rankings):
     for e in entries:
         e["key"] = str(e["farmer_id"])
         e["leek_names"] = ", ".join(l["name"] for l in e["leeks"])
+        if not e.get("team_name"):
+            e["team_name"] = e["farmer_name"]
 
     existing = rankings.get("team_ranking", [])
     updated = merge_rankings(existing, entries)

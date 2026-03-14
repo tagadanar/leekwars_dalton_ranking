@@ -297,10 +297,12 @@ function renderTable(entries, type) {
     let html = renderStats(entries, type);
     html += '<div class="table-scroll"><table class="ranking-table"><thead><tr>';
     html += '<th style="text-align:center">#</th>';
-    html += '<th class="sortable" data-sort="farmer">Farmer</th>';
+    html += type === "team"
+        ? '<th class="sortable" data-sort="farmer">Team</th>'
+        : '<th class="sortable" data-sort="farmer">Farmer</th>';
     html += type === "solo"
         ? '<th class="sortable" data-sort="leek">Leek</th>'
-        : '<th class="sortable" data-sort="leek">Leeks</th>';
+        : '<th class="sortable" data-sort="leek">' + (type === "team" ? "Composition" : "Leeks") + '</th>';
     html += '<th class="sortable sort-active sort-asc" data-sort="level" style="text-align:center">Level</th>';
     html += '<th class="sortable" data-sort="turns" style="text-align:center">Turns</th>';
     html += '<th class="sortable" data-sort="date">Date</th>';
@@ -331,15 +333,16 @@ function renderTable(entries, type) {
         const avatarImg = farmerId
             ? `<img src="https://leekwars.com/avatar/${farmerId}.png" class="farmer-mini-avatar" alt="">`
             : "";
+        const displayName = type === "team" ? (e.team_name || e.farmer_name || "?") : (e.farmer_name || "?");
         const farmerLink = farmerId
-            ? `${avatarImg}<a href="https://leekwars.com/farmer/${farmerId}" target="_blank">${esc(e.farmer_name || "?")}</a>`
-            : esc(e.farmer_name || "?");
+            ? `${avatarImg}<a href="https://leekwars.com/farmer/${farmerId}" target="_blank">${esc(displayName)}</a>`
+            : esc(displayName);
 
         const leekName = type === "solo" ? (e.leek_name || "?") : (e.leek_names || "?");
         const hist = e.history || [];
         const histAttr = hist.length > 1 ? ` data-history='${JSON.stringify(hist).replace(/'/g, "&#39;")}'` : "";
         const expandable = hist.length > 1 ? " expandable" : "";
-        html += `<tr class="${cls}${expandable}" data-level="${level}" data-turns="${e.turns || 0}" data-date="${e.date || 0}" data-farmer="${(e.farmer_name || "").toLowerCase()}" data-leek="${leekName.toLowerCase()}"${histAttr}>`;
+        html += `<tr class="${cls}${expandable}" data-level="${level}" data-turns="${e.turns || 0}" data-date="${e.date || 0}" data-farmer="${displayName.toLowerCase()}" data-leek="${leekName.toLowerCase()}"${histAttr}>`;
         const newBadge = isNew ? `<span class="new-badge">NEW</span>` : "";
         const winsBadge = hist.length > 1 ? `<span class="wins-badge" title="${hist.length} wins">${hist.length}x</span>` : "";
         html += `<td class="rank-cell">${rankHtml}</td>`;
