@@ -536,6 +536,7 @@ const eggSounds = {
     summon: new Audio(`${LW_SND}/bulb.mp3`),
     bounce: new Audio(`${LW_SND}/move.mp3`),
     bounce2: new Audio(`${LW_SND}/move.mp3`),
+    bounce3: new Audio(`${LW_SND}/move.mp3`),
 };
 Object.values(eggSounds).forEach(s => { s.volume = 0.4; });
 
@@ -547,16 +548,23 @@ document.querySelectorAll(".dalton-mugshot[data-egg]").forEach(mugshot => {
         if (!wrap || wrap.classList.contains(cls)) return;
         wrap.classList.add(cls);
 
-        const snd = eggSounds[egg];
-        if (snd) {
-            snd.currentTime = 0;
-            snd.play().catch(() => {});
-        }
         if (egg === "bounce") {
+            eggSounds.bounce.currentTime = 0;
+            eggSounds.bounce.play().catch(() => {});
             setTimeout(() => {
                 eggSounds.bounce2.currentTime = 0;
                 eggSounds.bounce2.play().catch(() => {});
-            }, 250);
+            }, 200);
+            setTimeout(() => {
+                eggSounds.bounce3.currentTime = 0;
+                eggSounds.bounce3.play().catch(() => {});
+            }, 400);
+        } else {
+            const snd = eggSounds[egg];
+            if (snd) {
+                snd.currentTime = 0;
+                snd.play().catch(() => {});
+            }
         }
 
         // Wait for the longest animation to finish
