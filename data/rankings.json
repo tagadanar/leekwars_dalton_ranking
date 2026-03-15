@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T22:17:36.766133+00:00",
+  "last_updated": "2026-03-15T23:19:40.567482+00:00",
   "daltons": {
     "46733": [
       {
@@ -866,6 +866,12 @@
           "date": 1773523715
         },
         {
+          "fight_id": 51825357,
+          "total_level": 1204,
+          "turns": 34,
+          "date": 1773614208
+        },
+        {
           "fight_id": 51815826,
           "total_level": 1204,
           "turns": 39,
@@ -953,6 +959,18 @@
           "total_level": 1204,
           "turns": 28,
           "date": 1773525108
+        },
+        {
+          "fight_id": 51825352,
+          "total_level": 1204,
+          "turns": 34,
+          "date": 1773613744
+        },
+        {
+          "fight_id": 51825356,
+          "total_level": 1204,
+          "turns": 50,
+          "date": 1773614193
         }
       ]
     }
@@ -1319,6 +1337,58 @@
           "total_level": 1806,
           "turns": 21,
           "date": 1773609944
+        }
+      ]
+    },
+    {
+      "fight_id": 51826075,
+      "fight_type": 2,
+      "farmer_name": "Poliw",
+      "farmer_id": 97547,
+      "team_name": "[ComponentRush]",
+      "leeks": [
+        {
+          "id": 103141,
+          "name": "Gentiw",
+          "level": 301
+        },
+        {
+          "id": 103157,
+          "name": "BabyKrasseux",
+          "level": 301
+        },
+        {
+          "id": 103131,
+          "name": "AigueMarine",
+          "level": 301
+        },
+        {
+          "id": 103144,
+          "name": "ChevalDeCourse",
+          "level": 301
+        },
+        {
+          "id": 103132,
+          "name": "MimiBouki",
+          "level": 301
+        },
+        {
+          "id": 106242,
+          "name": "Polynomial",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 34,
+      "date": 1773616532,
+      "key": "97547",
+      "leek_names": "Gentiw, BabyKrasseux, AigueMarine, ChevalDeCourse, MimiBouki, Polynomial",
+      "history": [
+        {
+          "fight_id": 51826075,
+          "total_level": 1806,
+          "turns": 34,
+          "date": 1773616532
         }
       ]
     }
