@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T20:17:49.176331+00:00",
+  "last_updated": "2026-03-15T21:19:07.329073+00:00",
   "daltons": {
     "46733": [
       {
@@ -1049,6 +1049,12 @@
           "total_level": 1505,
           "turns": 17,
           "date": 1773523806
+        },
+        {
+          "fight_id": 51824896,
+          "total_level": 1505,
+          "turns": 39,
+          "date": 1773608401
         }
       ]
     },
@@ -1157,6 +1163,58 @@
           "total_level": 1806,
           "turns": 28,
           "date": 1773566280
+        }
+      ]
+    },
+    {
+      "fight_id": 51824938,
+      "fight_type": 2,
+      "farmer_name": "chrisss",
+      "farmer_id": 120993,
+      "team_name": "[eustache]",
+      "leeks": [
+        {
+          "id": 127228,
+          "name": "makebomonpoivro",
+          "level": 301
+        },
+        {
+          "id": 127500,
+          "name": "soutiendupoireau",
+          "level": 301
+        },
+        {
+          "id": 128308,
+          "name": "WizzPoireau",
+          "level": 301
+        },
+        {
+          "id": 128929,
+          "name": "HealPoireau",
+          "level": 301
+        },
+        {
+          "id": 129530,
+          "name": "InvocationDuPoivro",
+          "level": 301
+        },
+        {
+          "id": 129852,
+          "name": "ExperienceDuPoivro",
+          "level": 301
+        }
+      ],
+      "total_level": 1806,
+      "turns": 16,
+      "date": 1773609346,
+      "key": "120993",
+      "leek_names": "makebomonpoivro, soutiendupoireau, WizzPoireau, HealPoireau, InvocationDuPoivro, ExperienceDuPoivro",
+      "history": [
+        {
+          "fight_id": 51824938,
+          "total_level": 1806,
+          "turns": 16,
+          "date": 1773609346
         }
       ]
     }
