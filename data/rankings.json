@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T12:30:06.854198+00:00",
+  "last_updated": "2026-03-15T13:40:02.718331+00:00",
   "daltons": {
     "46733": [
       {
@@ -59,7 +59,36 @@
         ]
       }
     ],
-    "51098": [],
+    "51098": [
+      {
+        "fight_id": 51822283,
+        "fight_type": 0,
+        "farmer_name": "Pilow",
+        "farmer_id": 1,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 132,
+            "name": "Wolip",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 5,
+        "date": 1773577801,
+        "key": "1",
+        "leek_name": "Wolip",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51822283,
+            "total_level": 301,
+            "turns": 5,
+            "date": 1773577801
+          }
+        ]
+      }
+    ],
     "51257": [],
     "51613": [
       {
