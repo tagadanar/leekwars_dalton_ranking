@@ -1,7 +1,36 @@
 {
-  "last_updated": "2026-03-14T23:17:46.490103+00:00",
+  "last_updated": "2026-03-15T01:19:41.837410+00:00",
   "daltons": {
-    "46733": [],
+    "46733": [
+      {
+        "fight_id": 51818110,
+        "fight_type": 0,
+        "farmer_name": "koe",
+        "farmer_id": 124565,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 131032,
+            "name": "koe",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 11,
+        "date": 1773533761,
+        "key": "124565",
+        "leek_name": "koe",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51818110,
+            "total_level": 301,
+            "turns": 11,
+            "date": 1773533761
+          }
+        ]
+      }
+    ],
     "51098": [],
     "51257": [],
     "51613": []
