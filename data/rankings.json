@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T11:17:50.873669+00:00",
+  "last_updated": "2026-03-15T12:30:06.854198+00:00",
   "daltons": {
     "46733": [
       {
@@ -27,6 +27,34 @@
             "total_level": 301,
             "turns": 11,
             "date": 1773533761
+          }
+        ]
+      },
+      {
+        "fight_id": 51822187,
+        "fight_type": 0,
+        "farmer_name": "tagadai",
+        "farmer_id": 122557,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 131291,
+            "name": "Claudias",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 18,
+        "date": 1773576008,
+        "key": "122557",
+        "leek_name": "Claudias",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51822187,
+            "total_level": 301,
+            "turns": 18,
+            "date": 1773576008
           }
         ]
       }
