@@ -283,8 +283,9 @@ body::before {
 .most-wanted {
     display: flex;
     align-items: center;
-    gap: 0.7rem;
+    gap: 1.2rem;
     flex-shrink: 0;
+    margin-right: 0.5rem;
 }
 
 .most-wanted-info {
