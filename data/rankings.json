@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T07:01:15.380878+00:00",
+  "last_updated": "2026-03-15T08:25:47.302375+00:00",
   "daltons": {
     "46733": [
       {
@@ -124,6 +124,24 @@
           "date": 1773509151
         },
         {
+          "fight_id": 51818809,
+          "total_level": 1204,
+          "turns": 4,
+          "date": 1773560748
+        },
+        {
+          "fight_id": 51818801,
+          "total_level": 1204,
+          "turns": 4,
+          "date": 1773560690
+        },
+        {
+          "fight_id": 51818782,
+          "total_level": 1204,
+          "turns": 5,
+          "date": 1773560587
+        },
+        {
           "fight_id": 51815769,
           "total_level": 1204,
           "turns": 7,
@@ -152,6 +170,12 @@
           "total_level": 1204,
           "turns": 13,
           "date": 1773524752
+        },
+        {
+          "fight_id": 51818794,
+          "total_level": 1204,
+          "turns": 13,
+          "date": 1773560652
         },
         {
           "fight_id": 51815779,
