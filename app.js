@@ -171,7 +171,11 @@ function render(data) {
         html += `<div class="dalton-section champion-section" id="champions">`;
         html += `<div class="section-header champion-header">`;
         html += `<div class="most-wanted">`;
+        html += `<div class="most-wanted-avatar-wrap">`;
         html += `<img src="https://leekwars.com/avatar/${top.farmer_id}.png" class="most-wanted-avatar" alt="${esc(top.farmer_name)}">`;
+        html += `<span class="corner-stud tl"></span><span class="corner-stud tr"></span>`;
+        html += `<span class="corner-stud bl"></span><span class="corner-stud br"></span>`;
+        html += `</div>`;
         html += `<div class="most-wanted-info">`;
         html += `<p class="most-wanted-label">MOST WANTED</p>`;
         html += `<p class="most-wanted-name"><a href="https://leekwars.com/farmer/${top.farmer_id}" target="_blank">${esc(top.farmer_name)}</a></p>`;
