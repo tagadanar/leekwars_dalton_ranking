@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T10:19:52.135360+00:00",
+  "last_updated": "2026-03-15T11:17:50.873669+00:00",
   "daltons": {
     "46733": [
       {
@@ -33,7 +33,36 @@
     ],
     "51098": [],
     "51257": [],
-    "51613": []
+    "51613": [
+      {
+        "fight_id": 51821616,
+        "fight_type": 0,
+        "farmer_name": "tagadaveniradieux",
+        "farmer_id": 73155,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 78118,
+            "name": "WhatAWonderfulWorld",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 55,
+        "date": 1773572416,
+        "key": "73155",
+        "leek_name": "WhatAWonderfulWorld",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51821616,
+            "total_level": 301,
+            "turns": 55,
+            "date": 1773572416
+          }
+        ]
+      }
+    ]
   },
   "farmer_ranking": [
     {
