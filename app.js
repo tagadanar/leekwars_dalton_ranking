@@ -893,23 +893,53 @@ document.addEventListener("mouseleave", (ev) => {
     }
 }, true);
 
-// Ghost Dalton — secret section trigger
-const ghostTrigger = document.getElementById("ghost-trigger");
-if (ghostTrigger) {
-    ghostTrigger.addEventListener("click", () => {
+// Lucky Clover — secret section trigger
+const cloverEl = document.getElementById("lucky-clover");
+if (cloverEl) {
+    cloverEl.addEventListener("click", () => {
         const haunted = document.getElementById("haunted");
         if (!haunted) return;
-        // Reveal & remember
         haunted.style.display = "";
         localStorage.setItem("dalton_secret_unlocked", "1");
-        ghostTrigger.classList.add("ghost-found");
-        // Spooky sound
-        const ghostSnd = new Audio(`https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound/heal.mp3`);
-        ghostSnd.volume = 0.3;
-        ghostSnd.play().catch(() => {});
-        // Scroll to it
+        cloverEl.classList.remove("drifting");
+        cloverEl.style.opacity = "0";
+        const snd = new Audio(`https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound/heal.mp3`);
+        snd.volume = 0.3;
+        snd.play().catch(() => {});
         setTimeout(() => haunted.scrollIntoView({ behavior: "smooth", block: "start" }), 300);
     });
+
+    function launchClover() {
+        if (cloverEl.classList.contains("drifting")) return;
+        const vw = window.innerWidth;
+        const vh = window.innerHeight;
+        const side = Math.random();
+        let x0, y0, x1, y1, duration;
+        if (side < 0.5) {
+            x0 = Math.random() * vw * 0.8 + vw * 0.1;
+            y0 = -30;
+            x1 = x0 + (Math.random() - 0.5) * vw * 0.4;
+            y1 = vh + 30;
+            duration = 15 + Math.random() * 10;
+        } else {
+            const fromLeft = Math.random() < 0.5;
+            x0 = fromLeft ? -30 : vw + 30;
+            y0 = Math.random() * vh * 0.6 + vh * 0.1;
+            x1 = fromLeft ? vw + 30 : -30;
+            y1 = y0 + (Math.random() - 0.3) * vh * 0.3;
+            duration = 18 + Math.random() * 12;
+        }
+        cloverEl.style.setProperty("--drift-x0", x0 + "px");
+        cloverEl.style.setProperty("--drift-y0", y0 + "px");
+        cloverEl.style.setProperty("--drift-x1", x1 + "px");
+        cloverEl.style.setProperty("--drift-y1", y1 + "px");
+        cloverEl.style.setProperty("--drift-duration", duration + "s");
+        cloverEl.classList.add("drifting");
+        setTimeout(() => { cloverEl.classList.remove("drifting"); }, duration * 1000);
+    }
+
+    setTimeout(launchClover, (8 + Math.random() * 7) * 1000);
+    setInterval(launchClover, (25 + Math.random() * 25) * 1000);
 }
 
 // Easter eggs on hero Daltons
