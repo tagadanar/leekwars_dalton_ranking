@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T12:31:55.726500+00:00",
+  "last_updated": "2026-03-16T12:44:04.258346+00:00",
   "daltons": {
     "46733": [
       {
@@ -1657,7 +1657,7 @@
           "id": 90,
           "name": "SkullGrog",
           "level": 301,
-          "talent": 2346,
+          "talent": 2372,
           "life": 2815,
           "tp": 28,
           "mp": 7,
@@ -1720,7 +1720,7 @@
           "id": 103828,
           "name": "A\u00efeGarleek",
           "level": 301,
-          "talent": 2979,
+          "talent": 2978,
           "life": 1530,
           "tp": 30,
           "mp": 6,
@@ -1878,7 +1878,7 @@
           "id": 47183,
           "name": "Jeez",
           "level": 301,
-          "talent": 3124,
+          "talent": 3126,
           "life": 2965,
           "tp": 27,
           "mp": 6,
@@ -1910,7 +1910,7 @@
           "id": 47943,
           "name": "TomateTransg\u00e9nique",
           "level": 301,
-          "talent": 2939,
+          "talent": 2940,
           "life": 2965,
           "tp": 27,
           "mp": 6,
@@ -2005,7 +2005,7 @@
           "id": 40322,
           "name": "KyoShinZamurato",
           "level": 301,
-          "talent": 3260,
+          "talent": 3256,
           "life": 2720,
           "tp": 26,
           "mp": 7,
@@ -2115,7 +2115,7 @@
           "id": 131032,
           "name": "koe",
           "level": 301,
-          "talent": 2874,
+          "talent": 2876,
           "life": 3475,
           "tp": 24,
           "mp": 7,
@@ -2305,7 +2305,7 @@
           "id": 128308,
           "name": "WizzPoireau",
           "level": 301,
-          "talent": 2590,
+          "talent": 2578,
           "life": 2560,
           "tp": 26,
           "mp": 6,
@@ -2479,7 +2479,7 @@
           "id": 107610,
           "name": "poirol\u00e9taire",
           "level": 300,
-          "talent": 2328,
+          "talent": 2330,
           "life": 3247,
           "tp": 26,
           "mp": 6,
@@ -2668,7 +2668,7 @@
           "id": 128883,
           "name": "Claudius",
           "level": 301,
-          "talent": 3336,
+          "talent": 3337,
           "life": 2610,
           "tp": 26,
           "mp": 5,
@@ -2684,7 +2684,7 @@
           "id": 131291,
           "name": "Claudias",
           "level": 301,
-          "talent": 2854,
+          "talent": 2873,
           "life": 2850,
           "tp": 27,
           "mp": 6,
@@ -2842,7 +2842,7 @@
           "id": 106498,
           "name": "Winston90",
           "level": 301,
-          "talent": 2912,
+          "talent": 2910,
           "life": 2355,
           "tp": 29,
           "mp": 8,
@@ -2905,7 +2905,7 @@
           "id": 63124,
           "name": "Peuwaroh",
           "level": 301,
-          "talent": 3054,
+          "talent": 3059,
           "life": 3130,
           "tp": 28,
           "mp": 7,
@@ -2921,7 +2921,7 @@
           "id": 63514,
           "name": "Peuhwaro",
           "level": 301,
-          "talent": 3484,
+          "talent": 3485,
           "life": 1880,
           "tp": 30,
           "mp": 8,
@@ -2937,7 +2937,7 @@
           "id": 64231,
           "name": "Peuwahreau",
           "level": 301,
-          "talent": 3008,
+          "talent": 3003,
           "life": 2890,
           "tp": 27,
           "mp": 7,
@@ -3000,7 +3000,7 @@
           "id": 57902,
           "name": "LeeckyLuck",
           "level": 301,
-          "talent": 3361,
+          "talent": 3366,
           "life": 3520,
           "tp": 26,
           "mp": 7,
@@ -3284,7 +3284,7 @@
           "id": 81638,
           "name": "Kraton",
           "level": 301,
-          "talent": 3420,
+          "talent": 3421,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -3300,7 +3300,7 @@
           "id": 81733,
           "name": "Krasseux",
           "level": 301,
-          "talent": 3377,
+          "talent": 3378,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -3332,7 +3332,7 @@
           "id": 82518,
           "name": "Kraneur",
           "level": 301,
-          "talent": 3727,
+          "talent": 3728,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -3521,7 +3521,7 @@
           "id": 106898,
           "name": "AntiSlash",
           "level": 301,
-          "talent": 2972,
+          "talent": 2953,
           "life": 3265,
           "tp": 28,
           "mp": 7,
@@ -3569,7 +3569,7 @@
           "id": 126952,
           "name": "BackSIash",
           "level": 301,
-          "talent": 3029,
+          "talent": 3009,
           "life": 2950,
           "tp": 28,
           "mp": 6,
@@ -3687,13 +3687,40 @@
       "farmer": {
         "id": 1,
         "name": "Pilow"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "wall",
+        "knowledge",
+        "shield",
+        "solidification",
+        "stalactite",
+        "liberation",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy",
+        "plasma"
+      ]
     },
     "106498": {
       "id": 106498,
       "name": "Winston90",
       "level": 301,
-      "talent": 2912,
+      "talent": 2910,
       "ranking": 52,
       "life": 2355,
       "tp": 29,
@@ -3708,7 +3735,35 @@
       "farmer": {
         "id": 99783,
         "name": "Marcellus"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "ferocity",
+        "antidote",
+        "regeneration",
+        "iced_bulb",
+        "steroid",
+        "inversion",
+        "remission",
+        "devil_strike",
+        "fire_bulb",
+        "reflexes",
+        "serum",
+        "seven_league_boots",
+        "fertilizer",
+        "desintegration",
+        "rage",
+        "elevation",
+        "metallic_bulb",
+        "bark",
+        "mirror",
+        "transmutation",
+        "plasma"
+      ]
     },
     "61447": {
       "id": 61447,
@@ -3729,7 +3784,35 @@
       "farmer": {
         "id": 55280,
         "name": "CultureBio"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "rockfall",
+        "prism",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "bramble",
+        "resurrection"
+      ]
     },
     "127500": {
       "id": 127500,
@@ -3750,7 +3833,33 @@
       "farmer": {
         "id": 120993,
         "name": "chrisss"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "vaccine",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "wizard_bulb",
+        "desintegration",
+        "rage",
+        "elevation",
+        "transmutation"
+      ]
     },
     "38413": {
       "id": 38413,
@@ -3771,7 +3880,41 @@
       "farmer": {
         "id": 34958,
         "name": "tagadanar"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "mutation",
+        "iceberg",
+        "loam",
+        "antidote",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "inversion",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "lightning",
+        "reflexes",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "elevation",
+        "metallic_bulb",
+        "mirror",
+        "transmutation",
+        "therapy",
+        "bramble",
+        "resurrection"
+      ]
     },
     "99341": {
       "id": 99341,
@@ -3792,14 +3935,36 @@
       "farmer": {
         "id": 94042,
         "name": "Bux420"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "bandage",
+        "protein",
+        "wall",
+        "cure",
+        "leather_boots",
+        "flash",
+        "stalactite",
+        "drip",
+        "liberation",
+        "armor",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "remission",
+        "lightning",
+        "fortress",
+        "serum",
+        "dome",
+        "therapy"
+      ]
     },
     "103951": {
       "id": 103951,
       "name": "LeekWareau",
       "level": 301,
       "talent": 2898,
-      "ranking": 57,
+      "ranking": 58,
       "life": 1540,
       "tp": 30,
       "mp": 6,
@@ -3813,7 +3978,30 @@
       "farmer": {
         "id": 98186,
         "name": "Smartiz"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "liberation",
+        "prism",
+        "antidote",
+        "regeneration",
+        "warm_up",
+        "steroid",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "reflexes",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "mirror",
+        "transmutation",
+        "bramble"
+      ]
     },
     "63514": {
       "id": 63514,
@@ -3834,7 +4022,32 @@
       "farmer": {
         "id": 58321,
         "name": "fujiwar"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "leather_boots",
+        "stalactite",
+        "liberation",
+        "jump",
+        "mutation",
+        "prism",
+        "iceberg",
+        "warm_up",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "reflexes",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "metallic_bulb",
+        "bark",
+        "transmutation",
+        "resurrection"
+      ]
     },
     "38948": {
       "id": 38948,
@@ -3855,7 +4068,37 @@
       "farmer": {
         "id": 34958,
         "name": "tagadanar"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "carapace",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy",
+        "bramble",
+        "resurrection"
+      ]
     },
     "34341": {
       "id": 34341,
@@ -3876,7 +4119,30 @@
       "farmer": {
         "id": 19070,
         "name": "Amal"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "shield",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "inversion",
+        "devil_strike",
+        "lightning",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy"
+      ]
     },
     "57902": {
       "id": 57902,
@@ -3897,7 +4163,38 @@
       "farmer": {
         "id": 32858,
         "name": "Joalien"
-      }
+      },
+      "weapons": [
+        "scythe"
+      ],
+      "chips": [
+        "motivation",
+        "wall",
+        "knowledge",
+        "shield",
+        "venom",
+        "liberation",
+        "tranquilizer",
+        "armoring",
+        "armor",
+        "vaccine",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "soporific",
+        "manumission",
+        "wizardry",
+        "fortress",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "fracture",
+        "savant_bulb",
+        "brainwashing",
+        "bramble",
+        "arsenic"
+      ]
     },
     "108080": {
       "id": 108080,
@@ -3918,7 +4215,31 @@
       "farmer": {
         "id": 101978,
         "name": "Agade2"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "rockfall",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "devil_strike",
+        "lightning",
+        "serum",
+        "burning",
+        "elevation",
+        "metallic_bulb",
+        "savant_bulb",
+        "resurrection"
+      ]
     },
     "81460": {
       "id": 81460,
@@ -3939,7 +4260,35 @@
       "farmer": {
         "id": 76604,
         "name": "nytope"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "shield",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "mutation",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "fortress",
+        "teleportation",
+        "wizard_bulb",
+        "desintegration",
+        "dome",
+        "transmutation",
+        "resurrection"
+      ]
     },
     "63029": {
       "id": 63029,
@@ -3960,14 +4309,42 @@
       "farmer": {
         "id": 58321,
         "name": "fujiwar"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "rockfall",
+        "prism",
+        "iceberg",
+        "antidote",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "healer_bulb",
+        "serum",
+        "teleportation",
+        "elevation",
+        "metallic_bulb",
+        "savant_bulb",
+        "plasma",
+        "resurrection"
+      ]
     },
     "76366": {
       "id": 76366,
       "name": "ChaussetteBleue",
       "level": 301,
       "talent": 2364,
-      "ranking": 323,
+      "ranking": 324,
       "life": 1680,
       "tp": 26,
       "mp": 6,
@@ -3981,7 +4358,30 @@
       "farmer": {
         "id": 71485,
         "name": "BrocoliCosmique"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "iceberg",
+        "antidote",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "lightning",
+        "fortress",
+        "serum",
+        "elevation",
+        "therapy"
+      ]
     },
     "47183": {
       "id": 47183,
@@ -4002,7 +4402,33 @@
       "farmer": {
         "id": 43276,
         "name": "Ref"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "leather_boots",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "rockfall",
+        "prism",
+        "iceberg",
+        "loam",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "remission",
+        "serum",
+        "teleportation",
+        "elevation",
+        "metallic_bulb",
+        "therapy",
+        "plasma",
+        "resurrection"
+      ]
     },
     "82518": {
       "id": 82518,
@@ -4023,7 +4449,35 @@
       "farmer": {
         "id": 76772,
         "name": "Kraspen"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "venom",
+        "liberation",
+        "armoring",
+        "jump",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "soporific",
+        "punishment",
+        "manumission",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "serum",
+        "teleportation",
+        "burning",
+        "plague",
+        "elevation",
+        "metallic_bulb",
+        "fracture",
+        "savant_bulb",
+        "bramble",
+        "arsenic"
+      ]
     },
     "59993": {
       "id": 59993,
@@ -4044,14 +4498,42 @@
       "farmer": {
         "id": 55280,
         "name": "CultureBio"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "wall",
+        "cure",
+        "leather_boots",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "rockfall",
+        "vaccine",
+        "prism",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "bramble",
+        "resurrection"
+      ]
     },
     "90": {
       "id": 90,
       "name": "SkullGrog",
       "level": 301,
       "talent": 2372,
-      "ranking": 336,
+      "ranking": 311,
       "life": 2815,
       "tp": 28,
       "mp": 7,
@@ -4065,7 +4547,36 @@
       "farmer": {
         "id": 1,
         "name": "Pilow"
-      }
+      },
+      "weapons": [
+        "excalibur"
+      ],
+      "chips": [
+        "wall",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "lightning",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy",
+        "plasma"
+      ]
     },
     "105564": {
       "id": 105564,
@@ -4086,14 +4597,42 @@
       "farmer": {
         "id": 99783,
         "name": "Marcellus"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "armor",
+        "antidote",
+        "regeneration",
+        "warm_up",
+        "soporific",
+        "inversion",
+        "remission",
+        "healer_bulb",
+        "fortress",
+        "serum",
+        "teleportation",
+        "burning",
+        "plague",
+        "covid",
+        "elevation",
+        "dome",
+        "mirror",
+        "bramble",
+        "arsenic",
+        "resurrection"
+      ]
     },
     "60518": {
       "id": 60518,
       "name": "PommeBio",
       "level": 301,
       "talent": 2369,
-      "ranking": 312,
+      "ranking": 313,
       "life": 2145,
       "tp": 24,
       "mp": 5,
@@ -4107,7 +4646,35 @@
       "farmer": {
         "id": 55280,
         "name": "CultureBio"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "leather_boots",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "mutation",
+        "prism",
+        "antidote",
+        "regeneration",
+        "warm_up",
+        "thorn",
+        "steroid",
+        "adrenaline",
+        "remission",
+        "reflexes",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "elevation",
+        "mirror",
+        "transmutation",
+        "bramble",
+        "resurrection"
+      ]
     },
     "36966": {
       "id": 36966,
@@ -4128,7 +4695,36 @@
       "farmer": {
         "id": 32858,
         "name": "Joalien"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "knowledge",
+        "shield",
+        "solidification",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "armor",
+        "vaccine",
+        "antidote",
+        "regeneration",
+        "warm_up",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "lightning",
+        "fortress",
+        "reflexes",
+        "serum",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "elevation",
+        "savant_bulb",
+        "bramble"
+      ]
     },
     "92779": {
       "id": 92779,
@@ -4149,7 +4745,41 @@
       "farmer": {
         "id": 86242,
         "name": "thaddee"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "alteration",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "prism",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "covetousness",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "reflexes",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "desintegration",
+        "rage",
+        "elevation",
+        "dome",
+        "transmutation",
+        "therapy",
+        "resurrection"
+      ]
     },
     "127615": {
       "id": 127615,
@@ -4170,7 +4800,31 @@
       "farmer": {
         "id": 94042,
         "name": "Bux420"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "bandage",
+        "protein",
+        "helmet",
+        "motivation",
+        "wall",
+        "cure",
+        "leather_boots",
+        "flash",
+        "shield",
+        "drip",
+        "liberation",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "lightning",
+        "fortress"
+      ]
     },
     "21631": {
       "id": 21631,
@@ -4191,14 +4845,40 @@
       "farmer": {
         "id": 19070,
         "name": "Amal"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "wall",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "inversion",
+        "remission",
+        "devil_strike",
+        "lightning",
+        "fortress",
+        "reflexes",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "elevation",
+        "dome",
+        "therapy"
+      ]
     },
     "132": {
       "id": 132,
       "name": "Wolip",
       "level": 301,
       "talent": 2641,
-      "ranking": 157,
+      "ranking": 156,
       "life": 2815,
       "tp": 28,
       "mp": 7,
@@ -4212,7 +4892,34 @@
       "farmer": {
         "id": 1,
         "name": "Pilow"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "iceberg",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy",
+        "plasma"
+      ]
     },
     "75910": {
       "id": 75910,
@@ -4233,7 +4940,30 @@
       "farmer": {
         "id": 66407,
         "name": "Magestik25"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "cure",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "metallic_bulb",
+        "resurrection"
+      ]
     },
     "103560": {
       "id": 103560,
@@ -4254,14 +4984,42 @@
       "farmer": {
         "id": 76473,
         "name": "galactichitchleeker"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "liberation",
+        "armoring",
+        "vaccine",
+        "mutation",
+        "prism",
+        "antidote",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "reflexes",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "elevation",
+        "transmutation",
+        "therapy",
+        "resurrection"
+      ]
     },
     "81551": {
       "id": 81551,
       "name": "ReverseTemakisushi",
       "level": 301,
       "talent": 2368,
-      "ranking": 316,
+      "ranking": 317,
       "life": 3535,
       "tp": 25,
       "mp": 6,
@@ -4275,7 +5033,33 @@
       "farmer": {
         "id": 76695,
         "name": "ihsusikamet"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "jump",
+        "loam",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "punishment",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "devil_strike",
+        "lightning",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy",
+        "resurrection"
+      ]
     },
     "81552": {
       "id": 81552,
@@ -4296,14 +5080,42 @@
       "farmer": {
         "id": 76696,
         "name": "ActiveSushi"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "knowledge",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "jump",
+        "rockfall",
+        "prism",
+        "iceberg",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "boxing_glove",
+        "punishment",
+        "inversion",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "lightning",
+        "serum",
+        "teleportation",
+        "elevation",
+        "therapy",
+        "bramble"
+      ]
     },
     "63124": {
       "id": 63124,
       "name": "Peuwaroh",
       "level": 301,
       "talent": 3059,
-      "ranking": 31,
+      "ranking": 30,
       "life": 3130,
       "tp": 28,
       "mp": 7,
@@ -4317,7 +5129,34 @@
       "farmer": {
         "id": 58321,
         "name": "fujiwar"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "rockfall",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "plasma",
+        "resurrection"
+      ]
     },
     "91285": {
       "id": 91285,
@@ -4338,14 +5177,43 @@
       "farmer": {
         "id": 86242,
         "name": "thaddee"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "wall",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "prism",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "carapace",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "resurrection"
+      ]
     },
     "108185": {
       "id": 108185,
       "name": "AgadeLeek8",
       "level": 301,
       "talent": 2742,
-      "ranking": 88,
+      "ranking": 87,
       "life": 3035,
       "tp": 26,
       "mp": 7,
@@ -4359,7 +5227,31 @@
       "farmer": {
         "id": 101978,
         "name": "Agade2"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "rockfall",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "devil_strike",
+        "healer_bulb",
+        "lightning",
+        "serum",
+        "burning",
+        "elevation",
+        "savant_bulb",
+        "resurrection"
+      ]
     },
     "89754": {
       "id": 89754,
@@ -4380,7 +5272,32 @@
       "farmer": {
         "id": 84466,
         "name": "LaCOGIP"
-      }
+      },
+      "weapons": [
+        "excalibur"
+      ],
+      "chips": [
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "armoring",
+        "jump",
+        "armor",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "winged_boots",
+        "fortress",
+        "teleportation",
+        "seven_league_boots",
+        "rage",
+        "elevation"
+      ]
     },
     "128155": {
       "id": 128155,
@@ -4401,14 +5318,38 @@
       "farmer": {
         "id": 94042,
         "name": "Bux420"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "bandage",
+        "helmet",
+        "wall",
+        "cure",
+        "flash",
+        "shield",
+        "alteration",
+        "drip",
+        "liberation",
+        "armor",
+        "mutation",
+        "antidote",
+        "regeneration",
+        "remission",
+        "fortress",
+        "seven_league_boots",
+        "doping",
+        "desintegration",
+        "rage",
+        "elevation",
+        "transmutation"
+      ]
     },
     "25769": {
       "id": 25769,
       "name": "Pyrogoyf",
       "level": 301,
       "talent": 2300,
-      "ranking": 380,
+      "ranking": 379,
       "life": 2615,
       "tp": 23,
       "mp": 6,
@@ -4422,7 +5363,34 @@
       "farmer": {
         "id": 22189,
         "name": "TyTy03"
-      }
+      },
+      "weapons": [
+        "scythe"
+      ],
+      "chips": [
+        "leather_boots",
+        "knowledge",
+        "venom",
+        "liberation",
+        "armoring",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "healer_bulb",
+        "serum",
+        "burning",
+        "plague",
+        "covid",
+        "elevation",
+        "metallic_bulb",
+        "savant_bulb",
+        "therapy",
+        "bramble",
+        "arsenic"
+      ]
     },
     "81580": {
       "id": 81580,
@@ -4443,7 +5411,35 @@
       "farmer": {
         "id": 76326,
         "name": "SoloSushi"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "venom",
+        "liberation",
+        "armoring",
+        "vaccine",
+        "prism",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "soporific",
+        "punishment",
+        "manumission",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "healer_bulb",
+        "ball_and_chain",
+        "serum",
+        "teleportation",
+        "plague",
+        "covid",
+        "elevation",
+        "fracture",
+        "savant_bulb",
+        "arsenic"
+      ]
     },
     "82607": {
       "id": 82607,
@@ -4464,7 +5460,36 @@
       "farmer": {
         "id": 76431,
         "name": "BeatrixPotter"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "wall",
+        "spark",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "inversion",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "winged_boots",
+        "fortress",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "elevation",
+        "therapy"
+      ]
     },
     "192": {
       "id": 192,
@@ -4485,7 +5510,36 @@
       "farmer": {
         "id": 1,
         "name": "Pilow"
-      }
+      },
+      "weapons": [
+        "excalibur"
+      ],
+      "chips": [
+        "knowledge",
+        "alteration",
+        "liberation",
+        "armoring",
+        "jump",
+        "mutation",
+        "antidote",
+        "regeneration",
+        "covetousness",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "reflexes",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "desintegration",
+        "rage",
+        "elevation",
+        "transmutation",
+        "therapy"
+      ]
     },
     "107203": {
       "id": 107203,
@@ -4506,7 +5560,35 @@
       "farmer": {
         "id": 99783,
         "name": "Marcellus"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "regeneration",
+        "warm_up",
+        "soporific",
+        "punishment",
+        "manumission",
+        "inversion",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "fracture",
+        "mirror",
+        "bramble",
+        "arsenic"
+      ]
     },
     "76485": {
       "id": 76485,
@@ -4527,7 +5609,30 @@
       "farmer": {
         "id": 66407,
         "name": "Magestik25"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "cure",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "teleportation",
+        "wizard_bulb",
+        "elevation",
+        "resurrection"
+      ]
     },
     "23245": {
       "id": 23245,
@@ -4548,7 +5653,30 @@
       "farmer": {
         "id": 19070,
         "name": "Amal"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "shield",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "inversion",
+        "devil_strike",
+        "lightning",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy"
+      ]
     },
     "65746": {
       "id": 65746,
@@ -4569,14 +5697,33 @@
       "farmer": {
         "id": 60894,
         "name": "Bux42"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "bandage",
+        "protein",
+        "motivation",
+        "wall",
+        "leather_boots",
+        "shield",
+        "drip",
+        "liberation",
+        "armor",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "remission",
+        "lightning",
+        "serum",
+        "dome"
+      ]
     },
     "131291": {
       "id": 131291,
       "name": "Claudias",
       "level": 301,
       "talent": 2873,
-      "ranking": 64,
+      "ranking": 61,
       "life": 2850,
       "tp": 27,
       "mp": 6,
@@ -4590,7 +5737,35 @@
       "farmer": {
         "id": 122557,
         "name": "tagadai"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "armoring",
+        "jump",
+        "armor",
+        "slow_down",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "toxin",
+        "carapace",
+        "soporific",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "fortress",
+        "teleportation",
+        "plague",
+        "elevation",
+        "dome",
+        "bramble",
+        "arsenic",
+        "resurrection"
+      ]
     },
     "83163": {
       "id": 83163,
@@ -4611,7 +5786,32 @@
       "farmer": {
         "id": 78250,
         "name": "Gandhictature"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "loam",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "adrenaline",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "mirror",
+        "therapy",
+        "bramble",
+        "resurrection"
+      ]
     },
     "103131": {
       "id": 103131,
@@ -4632,7 +5832,38 @@
       "farmer": {
         "id": 97543,
         "name": "NewSlash"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "jump",
+        "armor",
+        "vaccine",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "toxin",
+        "boxing_glove",
+        "carapace",
+        "soporific",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "wizardry",
+        "ball_and_chain",
+        "fortress",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "dome",
+        "arsenic",
+        "resurrection"
+      ]
     },
     "103132": {
       "id": 103132,
@@ -4653,7 +5884,30 @@
       "farmer": {
         "id": 97544,
         "name": "MimItems"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "bandage",
+        "protein",
+        "motivation",
+        "knowledge",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "vaccine",
+        "prism",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "remission",
+        "serum",
+        "teleportation",
+        "wizard_bulb",
+        "elevation"
+      ]
     },
     "81632": {
       "id": 81632,
@@ -4674,7 +5928,33 @@
       "farmer": {
         "id": 76695,
         "name": "ihsusikamet"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "wall",
+        "knowledge",
+        "shield",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "jump",
+        "mutation",
+        "iceberg",
+        "loam",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "punishment",
+        "inversion",
+        "adrenaline",
+        "lightning",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "transmutation",
+        "therapy"
+      ]
     },
     "103141": {
       "id": 103141,
@@ -4695,7 +5975,30 @@
       "farmer": {
         "id": 97547,
         "name": "Poliw"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "punishment",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "elevation",
+        "dome",
+        "plasma"
+      ]
     },
     "81638": {
       "id": 81638,
@@ -4716,7 +6019,35 @@
       "farmer": {
         "id": 76772,
         "name": "Kraspen"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "venom",
+        "liberation",
+        "armoring",
+        "jump",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "soporific",
+        "punishment",
+        "manumission",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "serum",
+        "teleportation",
+        "burning",
+        "plague",
+        "elevation",
+        "metallic_bulb",
+        "fracture",
+        "savant_bulb",
+        "bramble",
+        "arsenic"
+      ]
     },
     "64231": {
       "id": 64231,
@@ -4737,14 +6068,41 @@
       "farmer": {
         "id": 58321,
         "name": "fujiwar"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "rockfall",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "carapace",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "plasma",
+        "resurrection"
+      ]
     },
     "103144": {
       "id": 103144,
       "name": "ChevalDeCourse",
       "level": 301,
       "talent": 2762,
-      "ranking": 82,
+      "ranking": 81,
       "life": 3555,
       "tp": 26,
       "mp": 5,
@@ -4758,14 +6116,38 @@
       "farmer": {
         "id": 75627,
         "name": "Efr"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "leather_boots",
+        "knowledge",
+        "liberation",
+        "jump",
+        "prism",
+        "slow_down",
+        "antidote",
+        "regeneration",
+        "soporific",
+        "manumission",
+        "wizardry",
+        "ball_and_chain",
+        "serum",
+        "teleportation",
+        "covid",
+        "elevation",
+        "fracture",
+        "therapy",
+        "arsenic",
+        "resurrection"
+      ]
     },
     "81646": {
       "id": 81646,
       "name": "MegaSushi2",
       "level": 301,
       "talent": 2385,
-      "ranking": 281,
+      "ranking": 282,
       "life": 3795,
       "tp": 26,
       "mp": 5,
@@ -4779,7 +6161,33 @@
       "farmer": {
         "id": 76694,
         "name": "MegaSushi"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "loam",
+        "rampart",
+        "regeneration",
+        "carapace",
+        "punishment",
+        "inversion",
+        "adrenaline",
+        "devil_strike",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "savant_bulb",
+        "therapy"
+      ]
     },
     "103157": {
       "id": 103157,
@@ -4800,7 +6208,35 @@
       "farmer": {
         "id": 97545,
         "name": "BabyKraspen"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "toxin",
+        "carapace",
+        "soporific",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "fortress",
+        "serum",
+        "teleportation",
+        "plague",
+        "elevation",
+        "dome",
+        "arsenic"
+      ]
     },
     "71416": {
       "id": 71416,
@@ -4821,7 +6257,30 @@
       "farmer": {
         "id": 66407,
         "name": "Magestik25"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "cure",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "metallic_bulb",
+        "resurrection"
+      ]
     },
     "127228": {
       "id": 127228,
@@ -4842,7 +6301,31 @@
       "farmer": {
         "id": 120993,
         "name": "chrisss"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "vaccine",
+        "antidote",
+        "regeneration",
+        "warm_up",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "elevation",
+        "mirror",
+        "savant_bulb"
+      ]
     },
     "81662": {
       "id": 81662,
@@ -4863,7 +6346,35 @@
       "farmer": {
         "id": 76431,
         "name": "BeatrixPotter"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "wall",
+        "spark",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "inversion",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "winged_boots",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "mirror",
+        "therapy"
+      ]
     },
     "106242": {
       "id": 106242,
@@ -4884,7 +6395,33 @@
       "farmer": {
         "id": 97569,
         "name": "FdHP5"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "alteration",
+        "liberation",
+        "armoring",
+        "antidote",
+        "regeneration",
+        "warm_up",
+        "thorn",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "reflexes",
+        "serum",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "elevation",
+        "mirror",
+        "transmutation",
+        "bramble",
+        "resurrection"
+      ]
     },
     "82186": {
       "id": 82186,
@@ -4905,7 +6442,37 @@
       "farmer": {
         "id": 76431,
         "name": "BeatrixPotter"
-      }
+      },
+      "weapons": [
+        "excalibur"
+      ],
+      "chips": [
+        "wall",
+        "spark",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "winged_boots",
+        "fortress",
+        "teleportation",
+        "seven_league_boots",
+        "elevation",
+        "therapy",
+        "bramble"
+      ]
     },
     "82210": {
       "id": 82210,
@@ -4926,7 +6493,35 @@
       "farmer": {
         "id": 76772,
         "name": "Kraspen"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "venom",
+        "liberation",
+        "armoring",
+        "jump",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "soporific",
+        "punishment",
+        "manumission",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "serum",
+        "teleportation",
+        "burning",
+        "plague",
+        "elevation",
+        "metallic_bulb",
+        "fracture",
+        "savant_bulb",
+        "bramble",
+        "arsenic"
+      ]
     },
     "78118": {
       "id": 78118,
@@ -4947,7 +6542,30 @@
       "farmer": {
         "id": 73155,
         "name": "tagadaveniradieux"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "armoring",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "iced_bulb",
+        "covetousness",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "healer_bulb",
+        "teleportation",
+        "fertilizer",
+        "burning",
+        "plague",
+        "elevation",
+        "metallic_bulb",
+        "fracture",
+        "lightning_bulb",
+        "arsenic"
+      ]
     },
     "48427": {
       "id": 48427,
@@ -4968,7 +6586,38 @@
       "farmer": {
         "id": 43276,
         "name": "Ref"
-      }
+      },
+      "weapons": [
+        "excalibur"
+      ],
+      "chips": [
+        "protein",
+        "liberation",
+        "jump",
+        "mutation",
+        "prism",
+        "ferocity",
+        "whip",
+        "regeneration",
+        "thorn",
+        "steroid",
+        "acceleration",
+        "manumission",
+        "adrenaline",
+        "healer_bulb",
+        "collar",
+        "reflexes",
+        "seven_league_boots",
+        "doping",
+        "wizard_bulb",
+        "desintegration",
+        "rage",
+        "mirror",
+        "transmutation",
+        "bramble",
+        "lightning_bulb",
+        "resurrection"
+      ]
     },
     "108333": {
       "id": 108333,
@@ -4989,7 +6638,38 @@
       "farmer": {
         "id": 102191,
         "name": "Winner"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "knowledge",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "prism",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "reflexes",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "rage",
+        "elevation",
+        "transmutation",
+        "resurrection"
+      ]
     },
     "103726": {
       "id": 103726,
@@ -5010,7 +6690,30 @@
       "farmer": {
         "id": 76473,
         "name": "galactichitchleeker"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "liberation",
+        "armoring",
+        "armor",
+        "rockfall",
+        "iceberg",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "carapace",
+        "punishment",
+        "adrenaline",
+        "lightning",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy",
+        "plasma"
+      ]
     },
     "104242": {
       "id": 104242,
@@ -5031,7 +6734,29 @@
       "farmer": {
         "id": 98186,
         "name": "Smartiz"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "liberation",
+        "jump",
+        "rockfall",
+        "mutation",
+        "prism",
+        "iceberg",
+        "steroid",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "lightning",
+        "reflexes",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "bramble"
+      ]
     },
     "40755": {
       "id": 40755,
@@ -5052,7 +6777,35 @@
       "farmer": {
         "id": 34434,
         "name": "fantonico"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "stretching",
+        "leather_boots",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "mutation",
+        "antidote",
+        "regeneration",
+        "warm_up",
+        "steroid",
+        "covetousness",
+        "punishment",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "reflexes",
+        "serum",
+        "doping",
+        "rage",
+        "elevation",
+        "mirror",
+        "savant_bulb",
+        "bramble"
+      ]
     },
     "128308": {
       "id": 128308,
@@ -5073,7 +6826,35 @@
       "farmer": {
         "id": 120993,
         "name": "chrisss"
-      }
+      },
+      "weapons": [
+        "scythe"
+      ],
+      "chips": [
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "venom",
+        "armoring",
+        "slow_down",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "soporific",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "healer_bulb",
+        "fortress",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "therapy",
+        "brainwashing",
+        "arsenic"
+      ]
     },
     "89402": {
       "id": 89402,
@@ -5094,7 +6875,37 @@
       "farmer": {
         "id": 84466,
         "name": "LaCOGIP"
-      }
+      },
+      "weapons": [
+        "excalibur"
+      ],
+      "chips": [
+        "wall",
+        "spark",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "devil_strike",
+        "winged_boots",
+        "fortress",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "elevation",
+        "bramble"
+      ]
     },
     "129852": {
       "id": 129852,
@@ -5115,7 +6926,31 @@
       "farmer": {
         "id": 123143,
         "name": "ReBroll"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "fortress",
+        "serum",
+        "rage",
+        "elevation",
+        "therapy"
+      ]
     },
     "58180": {
       "id": 58180,
@@ -5136,7 +6971,35 @@
       "farmer": {
         "id": 32858,
         "name": "Joalien"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "armor",
+        "vaccine",
+        "ferocity",
+        "loam",
+        "antidote",
+        "rampart",
+        "whip",
+        "regeneration",
+        "carapace",
+        "manumission",
+        "adrenaline",
+        "remission",
+        "fire_bulb",
+        "fortress",
+        "serum",
+        "seven_league_boots",
+        "fertilizer",
+        "rage",
+        "elevation",
+        "savant_bulb",
+        "lightning_bulb"
+      ]
     },
     "81733": {
       "id": 81733,
@@ -5157,7 +7020,35 @@
       "farmer": {
         "id": 76772,
         "name": "Kraspen"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "venom",
+        "liberation",
+        "armoring",
+        "jump",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "soporific",
+        "punishment",
+        "manumission",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "serum",
+        "teleportation",
+        "burning",
+        "plague",
+        "elevation",
+        "metallic_bulb",
+        "fracture",
+        "savant_bulb",
+        "bramble",
+        "arsenic"
+      ]
     },
     "47943": {
       "id": 47943,
@@ -5178,7 +7069,33 @@
       "farmer": {
         "id": 43276,
         "name": "Ref"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "leather_boots",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "rockfall",
+        "prism",
+        "iceberg",
+        "loam",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "remission",
+        "serum",
+        "teleportation",
+        "elevation",
+        "therapy",
+        "bramble",
+        "plasma",
+        "resurrection"
+      ]
     },
     "125259": {
       "id": 125259,
@@ -5199,7 +7116,39 @@
       "farmer": {
         "id": 102191,
         "name": "Winner"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "wall",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "iceberg",
+        "loam",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "carapace",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "lightning",
+        "precipitation",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "resurrection"
+      ]
     },
     "93011": {
       "id": 93011,
@@ -5220,7 +7169,33 @@
       "farmer": {
         "id": 76695,
         "name": "ihsusikamet"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "knowledge",
+        "shield",
+        "solidification",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "armor",
+        "iceberg",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "carapace",
+        "punishment",
+        "adrenaline",
+        "lightning",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy"
+      ]
     },
     "76121": {
       "id": 76121,
@@ -5241,7 +7216,30 @@
       "farmer": {
         "id": 66407,
         "name": "Magestik25"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "cure",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "teleportation",
+        "wizard_bulb",
+        "elevation",
+        "resurrection"
+      ]
     },
     "31578": {
       "id": 31578,
@@ -5262,7 +7260,30 @@
       "farmer": {
         "id": 28258,
         "name": "baali"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "leather_boots",
+        "drip",
+        "liberation",
+        "armoring",
+        "jump",
+        "mutation",
+        "prism",
+        "antidote",
+        "steroid",
+        "adrenaline",
+        "remission",
+        "serum",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "elevation",
+        "transmutation",
+        "therapy",
+        "resurrection"
+      ]
     },
     "38241": {
       "id": 38241,
@@ -5283,7 +7304,34 @@
       "farmer": {
         "id": 19070,
         "name": "Amal"
-      }
+      },
+      "weapons": [
+        "excalibur"
+      ],
+      "chips": [
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "mutation",
+        "antidote",
+        "regeneration",
+        "warm_up",
+        "thorn",
+        "steroid",
+        "inversion",
+        "remission",
+        "reflexes",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "desintegration",
+        "rage",
+        "elevation",
+        "mirror",
+        "transmutation",
+        "therapy"
+      ]
     },
     "61805": {
       "id": 61805,
@@ -5304,7 +7352,35 @@
       "farmer": {
         "id": 55280,
         "name": "CultureBio"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "prism",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "resurrection"
+      ]
     },
     "127341": {
       "id": 127341,
@@ -5325,7 +7401,23 @@
       "farmer": {
         "id": 94042,
         "name": "Bux420"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "bandage",
+        "protein",
+        "motivation",
+        "wall",
+        "leather_boots",
+        "flash",
+        "shield",
+        "drip",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "remission",
+        "fortress"
+      ]
     },
     "103286": {
       "id": 103286,
@@ -5346,7 +7438,34 @@
       "farmer": {
         "id": 76473,
         "name": "galactichitchleeker"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "shield",
+        "solidification",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "iceberg",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "punishment",
+        "adrenaline",
+        "remission",
+        "lightning",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy"
+      ]
     },
     "81279": {
       "id": 81279,
@@ -5367,7 +7486,39 @@
       "farmer": {
         "id": 76431,
         "name": "BeatrixPotter"
-      }
+      },
+      "weapons": [
+        "excalibur"
+      ],
+      "chips": [
+        "wall",
+        "spark",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "thorn",
+        "steroid",
+        "carapace",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "winged_boots",
+        "fortress",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "elevation",
+        "mirror",
+        "bramble"
+      ]
     },
     "40322": {
       "id": 40322,
@@ -5388,7 +7539,37 @@
       "farmer": {
         "id": 34958,
         "name": "tagadanar"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "carapace",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy",
+        "bramble",
+        "resurrection"
+      ]
     },
     "105861": {
       "id": 105861,
@@ -5409,7 +7590,35 @@
       "farmer": {
         "id": 99783,
         "name": "Marcellus"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "iceberg",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "warm_up",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "healer_bulb",
+        "lightning",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "mirror",
+        "bramble"
+      ]
     },
     "39820": {
       "id": 39820,
@@ -5430,7 +7639,37 @@
       "farmer": {
         "id": 34958,
         "name": "tagadanar"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "carapace",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy",
+        "bramble",
+        "resurrection"
+      ]
     },
     "91532": {
       "id": 91532,
@@ -5451,7 +7690,35 @@
       "farmer": {
         "id": 86242,
         "name": "thaddee"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "burning",
+        "elevation",
+        "resurrection"
+      ]
     },
     "103828": {
       "id": 103828,
@@ -5472,14 +7739,37 @@
       "farmer": {
         "id": 98186,
         "name": "Smartiz"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "liberation",
+        "jump",
+        "mutation",
+        "prism",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "reflexes",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "mirror",
+        "bramble"
+      ]
     },
     "101790": {
       "id": 101790,
       "name": "L33kSkywalker",
       "level": 301,
       "talent": 1487,
-      "ranking": 1519,
+      "ranking": 1517,
       "life": 3215,
       "tp": 25,
       "mp": 6,
@@ -5493,7 +7783,30 @@
       "farmer": {
         "id": 95252,
         "name": "Fulify"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "leather_boots",
+        "knowledge",
+        "jump",
+        "mutation",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "adrenaline",
+        "winged_boots",
+        "reflexes",
+        "serum",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "elevation",
+        "transmutation",
+        "therapy",
+        "resurrection"
+      ]
     },
     "130975": {
       "id": 130975,
@@ -5514,7 +7827,25 @@
       "farmer": {
         "id": 60894,
         "name": "Bux42"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "bandage",
+        "protein",
+        "motivation",
+        "wall",
+        "leather_boots",
+        "shield",
+        "drip",
+        "liberation",
+        "armor",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "remission",
+        "lightning",
+        "dome"
+      ]
     },
     "128929": {
       "id": 128929,
@@ -5535,7 +7866,31 @@
       "farmer": {
         "id": 120993,
         "name": "chrisss"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "vaccine",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "elevation",
+        "mirror",
+        "lightning_bulb"
+      ]
     },
     "36264": {
       "id": 36264,
@@ -5556,7 +7911,32 @@
       "farmer": {
         "id": 32858,
         "name": "Joalien"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "armor",
+        "vaccine",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "adrenaline",
+        "remission",
+        "lightning",
+        "fortress",
+        "serum",
+        "elevation",
+        "dome",
+        "savant_bulb",
+        "bramble"
+      ]
     },
     "81329": {
       "id": 81329,
@@ -5577,7 +7957,30 @@
       "farmer": {
         "id": 76473,
         "name": "galactichitchleeker"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "wall",
+        "solidification",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "armor",
+        "iceberg",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "punishment",
+        "adrenaline",
+        "lightning",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy"
+      ]
     },
     "107959": {
       "id": 107959,
@@ -5598,7 +8001,31 @@
       "farmer": {
         "id": 101978,
         "name": "Agade2"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "rockfall",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "devil_strike",
+        "healer_bulb",
+        "lightning",
+        "serum",
+        "burning",
+        "elevation",
+        "metallic_bulb",
+        "resurrection"
+      ]
     },
     "47546": {
       "id": 47546,
@@ -5619,7 +8046,33 @@
       "farmer": {
         "id": 43276,
         "name": "Ref"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "leather_boots",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "rockfall",
+        "prism",
+        "iceberg",
+        "loam",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "remission",
+        "serum",
+        "teleportation",
+        "elevation",
+        "savant_bulb",
+        "therapy",
+        "plasma",
+        "resurrection"
+      ]
     },
     "83389": {
       "id": 83389,
@@ -5640,7 +8093,33 @@
       "farmer": {
         "id": 76695,
         "name": "ihsusikamet"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "armor",
+        "iceberg",
+        "loam",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "boxing_glove",
+        "punishment",
+        "adrenaline",
+        "lightning",
+        "fortress",
+        "teleportation",
+        "burning",
+        "elevation",
+        "dome",
+        "therapy"
+      ]
     },
     "107460": {
       "id": 107460,
@@ -5661,7 +8140,28 @@
       "farmer": {
         "id": 99628,
         "name": "SlightlySmartLeekStem"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "knowledge",
+        "shield",
+        "solidification",
+        "armoring",
+        "jump",
+        "armor",
+        "vaccine",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "inversion",
+        "adrenaline",
+        "wizardry",
+        "fortress",
+        "plague",
+        "covid",
+        "arsenic",
+        "resurrection"
+      ]
     },
     "107990": {
       "id": 107990,
@@ -5682,7 +8182,31 @@
       "farmer": {
         "id": 101978,
         "name": "Agade2"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "rockfall",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "devil_strike",
+        "lightning",
+        "serum",
+        "burning",
+        "elevation",
+        "metallic_bulb",
+        "savant_bulb",
+        "resurrection"
+      ]
     },
     "131032": {
       "id": 131032,
@@ -5703,7 +8227,33 @@
       "farmer": {
         "id": 124565,
         "name": "koe"
-      }
+      },
+      "weapons": [
+        "scythe"
+      ],
+      "chips": [
+        "cure",
+        "leather_boots",
+        "knowledge",
+        "venom",
+        "liberation",
+        "armoring",
+        "slow_down",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "manumission",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "serum",
+        "burning",
+        "plague",
+        "elevation",
+        "brainwashing",
+        "arsenic"
+      ]
     },
     "92131": {
       "id": 92131,
@@ -5724,7 +8274,37 @@
       "farmer": {
         "id": 86242,
         "name": "thaddee"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "prism",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "carapace",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "resurrection"
+      ]
     },
     "126952": {
       "id": 126952,
@@ -5745,7 +8325,36 @@
       "farmer": {
         "id": 100982,
         "name": "AntiSlash"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "loam",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "repotting",
+        "fortress",
+        "elevation",
+        "dome",
+        "savant_bulb",
+        "therapy",
+        "resurrection"
+      ]
     },
     "104943": {
       "id": 104943,
@@ -5766,7 +8375,30 @@
       "farmer": {
         "id": 98186,
         "name": "Smartiz"
-      }
+      },
+      "weapons": [],
+      "chips": [
+        "protein",
+        "motivation",
+        "liberation",
+        "jump",
+        "prism",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "reflexes",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "mirror",
+        "transmutation",
+        "bramble"
+      ]
     },
     "129530": {
       "id": 129530,
@@ -5787,7 +8419,34 @@
       "farmer": {
         "id": 123143,
         "name": "ReBroll"
-      }
+      },
+      "weapons": [
+        "scythe"
+      ],
+      "chips": [
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "venom",
+        "armoring",
+        "slow_down",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "fortress",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "therapy",
+        "brainwashing",
+        "arsenic"
+      ]
     }
   }
 }
