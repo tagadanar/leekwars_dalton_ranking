@@ -391,7 +391,7 @@ def _strip_farmer(data):
     return result
 
 
-def _strip_leek(data):
+def _strip_leek(data, weapon_names=None, chip_names=None, component_names=None):
     """Keep only fields needed for the leek tooltip."""
     result = {
         "id": data.get("id"),
@@ -404,11 +404,64 @@ def _strip_leek(data):
     farmer = data.get("farmer")
     if farmer:
         result["farmer"] = {"id": farmer.get("id"), "name": farmer.get("name")}
+
+    # Resolve equipment template IDs to names for image rendering
+    if weapon_names:
+        result["weapons"] = [
+            weapon_names[w["template"]]
+            for w in data.get("weapons", [])
+            if w.get("template") in weapon_names
+        ]
+    if chip_names:
+        result["chips"] = [
+            chip_names[c["template"]]
+            for c in data.get("chips", [])
+            if c.get("template") in chip_names
+        ]
+    if component_names:
+        result["components"] = [
+            component_names[c["template"]]
+            for c in data.get("components", [])
+            if c.get("template") in component_names
+        ]
     return result
+
+
+def _fetch_item_templates(session):
+    """Fetch weapon, chip, and component template names."""
+    weapon_names = {}
+    chip_names = {}
+    component_names = {}
+
+    print("\nFetching item templates...")
+    data = api_request(session, "weapon/get-all")
+    if isinstance(data, dict):
+        for w in data.values():
+            weapon_names[w["id"]] = w.get("name", "")
+    print(f"  Weapons: {len(weapon_names)} templates")
+
+    data = api_request(session, "chip/get-all")
+    if isinstance(data, dict):
+        for c in data.values():
+            chip_names[c["id"]] = c.get("name", "")
+    print(f"  Chips: {len(chip_names)} templates")
+
+    data = api_request(session, "component/get-all")
+    if isinstance(data, dict):
+        for c in data.values():
+            component_names[c["id"]] = c.get("name", "")
+    elif isinstance(data, list):
+        for c in data:
+            component_names[c["id"]] = c.get("name", "")
+    print(f"  Components: {len(component_names)} templates")
+
+    return weapon_names, chip_names, component_names
 
 
 def fetch_tooltip_data(session, rankings):
     """Fetch rich tooltip data for all farmers and leeks in rankings."""
+    weapon_names, chip_names, component_names = _fetch_item_templates(session)
+
     farmer_ids = set()
     leek_ids = set()
 
@@ -441,7 +494,9 @@ def fetch_tooltip_data(session, rankings):
     for lid in leek_ids:
         data = api_request(session, f"leek/rich-tooltip/{lid}")
         if data and "id" in data:
-            tooltip_leeks[str(lid)] = _strip_leek(data)
+            tooltip_leeks[str(lid)] = _strip_leek(
+                data, weapon_names, chip_names, component_names
+            )
 
     print(f"  Got {len(tooltip_farmers)} farmers, {len(tooltip_leeks)} leeks")
     return tooltip_farmers, tooltip_leeks

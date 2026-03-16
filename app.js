@@ -213,7 +213,7 @@ function render(data) {
         html += `</div>`;
         html += `<div class="section-stats"><span class="count">${count}</span>challengers${renderStatsHtml(farmerRanking, "farmer")}</div>`;
         html += `</div>`;
-        html += count > 0 ? renderTable(farmerRanking, "farmer") : renderEmpty();
+        html += count > 0 ? renderTable(farmerRanking, "farmer", farmerConfig.name) : renderEmpty();
         html += `</div>`;
         sectionIndex++;
     }
@@ -238,7 +238,7 @@ function render(data) {
         html += `</div>`;
         html += `<div class="section-stats"><span class="count">${count}</span>challengers${renderStatsHtml(teamRanking, "team")}</div>`;
         html += `</div>`;
-        html += count > 0 ? renderTable(teamRanking, "team") : renderEmpty();
+        html += count > 0 ? renderTable(teamRanking, "team", teamConfig.name) : renderEmpty();
         html += `</div>`;
         sectionIndex++;
     }
@@ -267,7 +267,7 @@ function render(data) {
         html += `</div>`;
         html += `<div class="section-stats"><span class="count">${count}</span>challengers${renderStatsHtml(rankings, "solo")}</div>`;
         html += `</div>`;
-        html += count > 0 ? renderTable(rankings, "solo") : renderEmpty();
+        html += count > 0 ? renderTable(rankings, "solo", dalton.name) : renderEmpty();
         html += `</div>`;
         sectionIndex++;
     }
@@ -293,7 +293,7 @@ function renderStatsHtml(entries, type) {
     return `<span class="stat-line">avg lv.<strong>${avg}</strong> · median lv.<strong>${median}</strong></span>`;
 }
 
-function renderTable(entries, type) {
+function renderTable(entries, type, sectionName) {
     let html = '<div class="table-scroll"><table class="ranking-table"><thead><tr>';
     html += '<th style="text-align:center">#</th>';
     html += type === "team"
@@ -356,7 +356,7 @@ function renderTable(entries, type) {
         html += `<td class="turns-cell">${e.turns || "?"}</td>`;
         html += `<td class="date-cell">${dateStr}</td>`;
         const fightUrl = `https://leekwars.com/fight/${safeInt(e.fight_id)}`;
-        const shareText = `I beat the Daltons at Lv.${level} in ${e.turns || "?"}t! ${fightUrl}`;
+        const shareText = `I beat ${sectionName} at Lv.${level} in ${e.turns || "?"}t! ${fightUrl}`;
         html += `<td class="action-cell">` +
             `<a class="fight-link" href="${fightUrl}" target="_blank">` +
             `<img src="${IMG}/weapon/pistol.png" alt="">fight</a>` +
@@ -673,6 +673,19 @@ function renderFarmerTooltip(farmer) {
     return html;
 }
 
+function renderEquipSection(label, items, imgBase) {
+    if (!items || items.length === 0) return "";
+    let html = `<div class="equip-section">`;
+    html += `<span class="equip-label">${label}</span>`;
+    html += `<div class="equip-icons">`;
+    for (const name of items) {
+        const safeName = esc(name);
+        html += `<img src="${imgBase}/${safeName}.png" class="equip-icon" alt="${safeName}" title="${safeName}">`;
+    }
+    html += `</div></div>`;
+    return html;
+}
+
 function renderLeekTooltip(leek) {
     const lid = safeInt(leek.id);
     let html = '<div class="rich-tooltip-header">';
@@ -694,6 +707,12 @@ function renderLeekTooltip(leek) {
     }
     html += '</div></div>';
     html += renderStatGrid(leek);
+
+    // Equipment
+    html += renderEquipSection("Weapons", leek.weapons, `${LW}/weapon`);
+    html += renderEquipSection("Chips", leek.chips, `${LW}/chip`);
+    html += renderEquipSection("Components", leek.components, `${LW}/component`);
+
     return html;
 }
 
