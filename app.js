@@ -675,16 +675,12 @@ function renderFarmerTooltip(farmer) {
     return html;
 }
 
-function renderEquipSection(label, items, imgBase) {
-    if (!items || items.length === 0) return "";
-    let html = `<div class="equip-section">`;
-    html += `<span class="equip-label">${label}</span>`;
-    html += `<div class="equip-icons">`;
+function renderEquipIcons(items, imgBase) {
+    let html = "";
     for (const name of items) {
         const safeName = esc(name);
         html += `<img src="${imgBase}/${safeName}.png" class="equip-icon" alt="${safeName}" title="${safeName}">`;
     }
-    html += `</div></div>`;
     return html;
 }
 
@@ -710,10 +706,21 @@ function renderLeekTooltip(leek) {
     html += '</div></div>';
     html += renderStatGrid(leek);
 
-    // Equipment
-    html += renderEquipSection("Weapons", leek.weapons, `${LW}/weapon`);
-    html += renderEquipSection("Chips", leek.chips, `${LW}/chip`);
-    html += renderEquipSection("Components", leek.components, `${LW}/component`);
+    // Equipment — weapons, separator, chips
+    const hasWeapons = leek.weapons && leek.weapons.length > 0;
+    const hasChips = leek.chips && leek.chips.length > 0;
+    const hasComponents = leek.components && leek.components.length > 0;
+    if (hasWeapons || hasChips || hasComponents) {
+        html += '<div class="equip-section"><div class="equip-icons">';
+        if (hasWeapons) html += renderEquipIcons(leek.weapons, `${LW}/weapon`);
+        if (hasWeapons && (hasChips || hasComponents)) html += '<span class="equip-sep"></span>';
+        if (hasChips) html += renderEquipIcons(leek.chips, `${LW}/chip`);
+        if (hasComponents) {
+            if (hasChips) html += '<span class="equip-sep"></span>';
+            html += renderEquipIcons(leek.components, `${LW}/component`);
+        }
+        html += '</div></div>';
+    }
 
     return html;
 }

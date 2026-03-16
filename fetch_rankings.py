@@ -438,8 +438,9 @@ def _fetch_item_templates(session):
     if isinstance(data, dict):
         items = data.get("weapons", data)
         for w in items.values():
-            if isinstance(w, dict) and "id" in w:
-                weapon_names[w["id"]] = w.get("name", "")
+            if isinstance(w, dict) and "item" in w:
+                # Leek weapon template = weapon item ID
+                weapon_names[w["item"]] = w.get("name", "")
     print(f"  Weapons: {len(weapon_names)} templates")
 
     data = api_request(session, "chip/get-all")
@@ -447,6 +448,7 @@ def _fetch_item_templates(session):
         items = data.get("chips", data)
         for c in items.values():
             if isinstance(c, dict) and "id" in c:
+                # Leek chip template = chip ID
                 chip_names[c["id"]] = c.get("name", "")
     print(f"  Chips: {len(chip_names)} templates")
 

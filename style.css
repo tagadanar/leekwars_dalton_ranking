@@ -1637,29 +1637,22 @@ footer a:hover {
     opacity: 0.85;
 }
 
-/* Equipment sections */
+/* Equipment section */
 .equip-section {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
     padding: 0.3rem 0.75rem;
     border-top: 1px solid rgba(107,58,31,0.12);
-}
-
-.equip-label {
-    font-size: 0.6rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: var(--text-dim);
-    flex-shrink: 0;
-    width: 70px;
 }
 
 .equip-icons {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.2rem;
+    gap: 3px;
+    max-width: calc(10 * (22px + 3px));
+}
+
+.equip-sep {
+    width: 6px;
+    flex-shrink: 0;
 }
 
 .equip-icon {
