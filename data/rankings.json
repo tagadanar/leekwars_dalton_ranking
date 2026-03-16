@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T23:19:40.567482+00:00",
+  "last_updated": "2026-03-16T01:19:28.764589+00:00",
   "daltons": {
     "46733": [
       {
@@ -91,6 +91,62 @@
     ],
     "51257": [],
     "51613": [
+      {
+        "fight_id": 51826772,
+        "fight_type": 0,
+        "farmer_name": "TyTy03",
+        "farmer_id": 22189,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 25769,
+            "name": "Pyrogoyf",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 12,
+        "date": 1773618539,
+        "key": "22189",
+        "leek_name": "Pyrogoyf",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51826772,
+            "total_level": 301,
+            "turns": 12,
+            "date": 1773618539
+          }
+        ]
+      },
+      {
+        "fight_id": 51827088,
+        "fight_type": 0,
+        "farmer_name": "SlightlySmartLeekStem",
+        "farmer_id": 99628,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 107460,
+            "name": "FeleeksKlein",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 24,
+        "date": 1773620970,
+        "key": "99628",
+        "leek_name": "FeleeksKlein",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51827088,
+            "total_level": 301,
+            "turns": 24,
+            "date": 1773620970
+          }
+        ]
+      },
       {
         "fight_id": 51821616,
         "fight_type": 0,
@@ -1124,6 +1180,12 @@
           "total_level": 1804,
           "turns": 7,
           "date": 1773521448
+        },
+        {
+          "fight_id": 51826563,
+          "total_level": 1804,
+          "turns": 7,
+          "date": 1773617138
         }
       ]
     },
@@ -1176,6 +1238,12 @@
           "total_level": 1806,
           "turns": 8,
           "date": 1773609800
+        },
+        {
+          "fight_id": 51826742,
+          "total_level": 1806,
+          "turns": 17,
+          "date": 1773618058
         }
       ]
     },
