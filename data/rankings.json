@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T11:39:31.511562+00:00",
+  "last_updated": "2026-03-16T12:15:13.212779+00:00",
   "daltons": {
     "46733": [
       {
@@ -67,6 +67,34 @@
             "total_level": 301,
             "turns": 18,
             "date": 1773576008
+          }
+        ]
+      },
+      {
+        "fight_id": 51831734,
+        "fight_type": 0,
+        "farmer_name": "AntiSlash",
+        "farmer_id": 100982,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 126952,
+            "name": "BackSIash",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 37,
+        "date": 1773662413,
+        "key": "100982",
+        "leek_name": "BackSIash",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51831734,
+            "total_level": 301,
+            "turns": 37,
+            "date": 1773662413
           }
         ]
       }
@@ -1598,5 +1626,1164 @@
     "team_id": 10151,
     "farmer_id": 42851,
     "name": "The Daltons"
+  },
+  "tooltip_farmers": {
+    "1": {
+      "id": 1,
+      "name": "Pilow",
+      "talent": 6818,
+      "ranking": 8,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 307,
+      "leeks": {
+        "1": {
+          "id": 1,
+          "name": "Gorglucks",
+          "level": 301,
+          "talent": 2515
+        },
+        "90": {
+          "id": 90,
+          "name": "SkullGrog",
+          "level": 301,
+          "talent": 2346
+        },
+        "132": {
+          "id": 132,
+          "name": "Wolip",
+          "level": 301,
+          "talent": 2641
+        },
+        "192": {
+          "id": 192,
+          "name": "AlcooLeek",
+          "level": 301,
+          "talent": 1646
+        }
+      },
+      "team": {
+        "id": 1,
+        "name": "DoT"
+      }
+    },
+    "98186": {
+      "id": 98186,
+      "name": "Smartiz",
+      "talent": 6796,
+      "ranking": 9,
+      "country": "si",
+      "total_level": 1203,
+      "trophies": 325,
+      "leeks": {
+        "103828": {
+          "id": 103828,
+          "name": "A\u00efeGarleek",
+          "level": 301,
+          "talent": 2979
+        },
+        "103951": {
+          "id": 103951,
+          "name": "LeekWareau",
+          "level": 301,
+          "talent": 2898
+        },
+        "104242": {
+          "id": 104242,
+          "name": "ReauBotcode",
+          "level": 301,
+          "talent": 2934
+        },
+        "104943": {
+          "id": 104943,
+          "name": "CotteDemaille",
+          "level": 300,
+          "talent": 2929
+        }
+      },
+      "team": {
+        "id": 9951,
+        "name": "Senjougahara"
+      }
+    },
+    "97547": {
+      "id": 97547,
+      "name": "Poliw",
+      "talent": 3847,
+      "ranking": 67,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 248,
+      "leeks": {
+        "103086": {
+          "id": 103086,
+          "name": "Poliw",
+          "level": 301,
+          "talent": 2028
+        },
+        "103141": {
+          "id": 103141,
+          "name": "Gentiw",
+          "level": 301,
+          "talent": 2051
+        },
+        "103278": {
+          "id": 103278,
+          "name": "\u00c9rudiw",
+          "level": 301,
+          "talent": 1731
+        },
+        "103485": {
+          "id": 103485,
+          "name": "Exquiw",
+          "level": 301,
+          "talent": 1220
+        }
+      },
+      "team": {
+        "id": 9480,
+        "name": "ComponentRush"
+      }
+    },
+    "43276": {
+      "id": 43276,
+      "name": "Ref",
+      "talent": 6708,
+      "ranking": 12,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 329,
+      "leeks": {
+        "47183": {
+          "id": 47183,
+          "name": "Jeez",
+          "level": 301,
+          "talent": 3124
+        },
+        "47546": {
+          "id": 47546,
+          "name": "Astheopyrosphamidum",
+          "level": 301,
+          "talent": 2953
+        },
+        "47943": {
+          "id": 47943,
+          "name": "TomateTransg\u00e9nique",
+          "level": 301,
+          "talent": 2939
+        },
+        "48427": {
+          "id": 48427,
+          "name": "JeVoulais\u00catreUnPapillon",
+          "level": 301,
+          "talent": 2385
+        }
+      },
+      "team": {
+        "id": 8078,
+        "name": "Hanekawa"
+      }
+    },
+    "34958": {
+      "id": 34958,
+      "name": "tagadanar",
+      "talent": 6572,
+      "ranking": 14,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 266,
+      "leeks": {
+        "38413": {
+          "id": 38413,
+          "name": "hardleeker",
+          "level": 301,
+          "talent": 3545
+        },
+        "38948": {
+          "id": 38948,
+          "name": "SweetDude",
+          "level": 301,
+          "talent": 3192
+        },
+        "39820": {
+          "id": 39820,
+          "name": "Lamastico",
+          "level": 301,
+          "talent": 3096
+        },
+        "40322": {
+          "id": 40322,
+          "name": "KyoShinZamurato",
+          "level": 301,
+          "talent": 3260
+        }
+      },
+      "team": {
+        "id": 6507,
+        "name": "Tagadarmy"
+      }
+    },
+    "76431": {
+      "id": 76431,
+      "name": "BeatrixPotter",
+      "talent": 6118,
+      "ranking": 25,
+      "country": "gb",
+      "total_level": 1204,
+      "trophies": 244,
+      "leeks": {
+        "81279": {
+          "id": 81279,
+          "name": "PeterRabbit",
+          "level": 301,
+          "talent": 2318
+        },
+        "81662": {
+          "id": 81662,
+          "name": "BenjaminBunny",
+          "level": 301,
+          "talent": 2318
+        },
+        "82186": {
+          "id": 82186,
+          "name": "SamuelWhiskers",
+          "level": 301,
+          "talent": 2329
+        },
+        "82607": {
+          "id": 82607,
+          "name": "TimmyTiptoes",
+          "level": 301,
+          "talent": 2163
+        }
+      },
+      "team": {
+        "id": 8669,
+        "name": "Flopsy Bunnies"
+      }
+    },
+    "124565": {
+      "id": 124565,
+      "name": "koe",
+      "talent": 1868,
+      "ranking": 269,
+      "country": "us",
+      "total_level": 600,
+      "trophies": 228,
+      "leeks": {
+        "131032": {
+          "id": 131032,
+          "name": "koe",
+          "level": 301,
+          "talent": 2874
+        },
+        "131255": {
+          "id": 131255,
+          "name": "koe2",
+          "level": 150,
+          "talent": 1543
+        },
+        "131863": {
+          "id": 131863,
+          "name": "koe3",
+          "level": 99,
+          "talent": 1203
+        },
+        "131870": {
+          "id": 131870,
+          "name": "koe4",
+          "level": 50,
+          "talent": 1051
+        }
+      },
+      "team": {
+        "id": 10097,
+        "name": "Pentacontagonoids"
+      }
+    },
+    "76695": {
+      "id": 76695,
+      "name": "ihsusikamet",
+      "talent": 6440,
+      "ranking": 17,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 256,
+      "leeks": {
+        "81551": {
+          "id": 81551,
+          "name": "ReverseTemakisushi",
+          "level": 301,
+          "talent": 2368
+        },
+        "81632": {
+          "id": 81632,
+          "name": "InversedTemakisushi",
+          "level": 301,
+          "talent": 3651
+        },
+        "83389": {
+          "id": 83389,
+          "name": "NotTemakisushi",
+          "level": 301,
+          "talent": 2376
+        },
+        "93011": {
+          "id": 93011,
+          "name": "Knokker2",
+          "level": 301,
+          "talent": 1257
+        }
+      },
+      "team": {
+        "id": 7709,
+        "name": "Bataillon d'exploration"
+      }
+    },
+    "120993": {
+      "id": 120993,
+      "name": "chrisss",
+      "talent": 3904,
+      "ranking": null,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 257,
+      "leeks": {
+        "127228": {
+          "id": 127228,
+          "name": "makebomonpoivro",
+          "level": 301,
+          "talent": 2353
+        },
+        "127500": {
+          "id": 127500,
+          "name": "soutiendupoireau",
+          "level": 301,
+          "talent": 2422
+        },
+        "128308": {
+          "id": 128308,
+          "name": "WizzPoireau",
+          "level": 301,
+          "talent": 2590
+        },
+        "128929": {
+          "id": 128929,
+          "name": "HealPoireau",
+          "level": 301,
+          "talent": 2363
+        }
+      },
+      "team": {
+        "id": 9888,
+        "name": "eustache"
+      }
+    },
+    "78250": {
+      "id": 78250,
+      "name": "Gandhictature",
+      "talent": 6105,
+      "ranking": 27,
+      "country": "in",
+      "total_level": 1204,
+      "trophies": 323,
+      "leeks": {
+        "83163": {
+          "id": 83163,
+          "name": "JeanJeanMoulin",
+          "level": 301,
+          "talent": 2281
+        },
+        "83243": {
+          "id": 83243,
+          "name": "FifiPetain",
+          "level": 301,
+          "talent": 2341
+        },
+        "83517": {
+          "id": 83517,
+          "name": "BobbyVian",
+          "level": 301,
+          "talent": 1252
+        },
+        "83788": {
+          "id": 83788,
+          "name": "CharlieDeGaulle",
+          "level": 301,
+          "talent": 2193
+        }
+      },
+      "team": {
+        "id": 8078,
+        "name": "Hanekawa"
+      }
+    },
+    "99628": {
+      "id": 99628,
+      "name": "SlightlySmartLeekStem",
+      "talent": 3839,
+      "ranking": 71,
+      "country": "ps",
+      "total_level": 1203,
+      "trophies": 294,
+      "leeks": {
+        "105390": {
+          "id": 105390,
+          "name": "earendel",
+          "level": 301,
+          "talent": 2352
+        },
+        "107375": {
+          "id": 107375,
+          "name": "kumquaternion",
+          "level": 301,
+          "talent": 2267
+        },
+        "107460": {
+          "id": 107460,
+          "name": "FeleeksKlein",
+          "level": 301,
+          "talent": 2361
+        },
+        "107610": {
+          "id": 107610,
+          "name": "poirol\u00e9taire",
+          "level": 300,
+          "talent": 2328
+        }
+      },
+      "team": {
+        "id": 9436,
+        "name": "Deleekatessen"
+      }
+    },
+    "22189": {
+      "id": 22189,
+      "name": "TyTy03",
+      "talent": 2966,
+      "ranking": 127,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 210,
+      "leeks": {
+        "25769": {
+          "id": 25769,
+          "name": "Pyrogoyf",
+          "level": 301,
+          "talent": 2300
+        },
+        "26394": {
+          "id": 26394,
+          "name": "Barrowgoyf",
+          "level": 301,
+          "talent": 2027
+        },
+        "28185": {
+          "id": 28185,
+          "name": "Nethergoyf",
+          "level": 301,
+          "talent": 2192
+        },
+        "30425": {
+          "id": 30425,
+          "name": "Cosmogoyf",
+          "level": 301,
+          "talent": 1857
+        }
+      },
+      "team": {
+        "id": 10085,
+        "name": "DrozaLeek"
+      }
+    },
+    "76473": {
+      "id": 76473,
+      "name": "galactichitchleeker",
+      "talent": 6292,
+      "ranking": 22,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 269,
+      "leeks": {
+        "81329": {
+          "id": 81329,
+          "name": "arthurdent",
+          "level": 301,
+          "talent": 2377
+        },
+        "103286": {
+          "id": 103286,
+          "name": "zaphodb",
+          "level": 301,
+          "talent": 2316
+        },
+        "103560": {
+          "id": 103560,
+          "name": "androidmarvin",
+          "level": 301,
+          "talent": 2038
+        },
+        "103726": {
+          "id": 103726,
+          "name": "vogonjeltz",
+          "level": 301,
+          "talent": 2319
+        }
+      },
+      "team": {
+        "id": 7709,
+        "name": "Bataillon d'exploration"
+      }
+    },
+    "122557": {
+      "id": 122557,
+      "name": "tagadai",
+      "talent": 7892,
+      "ranking": 1,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 266,
+      "leeks": {
+        "128883": {
+          "id": 128883,
+          "name": "Claudius",
+          "level": 301,
+          "talent": 3336
+        },
+        "131291": {
+          "id": 131291,
+          "name": "Claudias",
+          "level": 301,
+          "talent": 2854
+        },
+        "131326": {
+          "id": 131326,
+          "name": "Claudios",
+          "level": 301,
+          "talent": 3618
+        },
+        "131380": {
+          "id": 131380,
+          "name": "Claudies",
+          "level": 301,
+          "talent": 2804
+        }
+      },
+      "team": {
+        "id": 10089,
+        "name": "Synthetic Harvest"
+      }
+    },
+    "73155": {
+      "id": 73155,
+      "name": "tagadaveniradieux",
+      "talent": 1980,
+      "ranking": 259,
+      "country": null,
+      "total_level": 903,
+      "trophies": 207,
+      "leeks": {
+        "78118": {
+          "id": 78118,
+          "name": "WhatAWonderfulWorld",
+          "level": 301,
+          "talent": 2139
+        },
+        "78203": {
+          "id": 78203,
+          "name": "DecoDeNoel",
+          "level": 301,
+          "talent": 1479
+        },
+        "78346": {
+          "id": 78346,
+          "name": "BouleDeNoel",
+          "level": 301,
+          "talent": 1423
+        }
+      },
+      "team": {
+        "id": 8273,
+        "name": "Rush 301"
+      }
+    },
+    "99783": {
+      "id": 99783,
+      "name": "Marcellus",
+      "talent": 6529,
+      "ranking": 15,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 301,
+      "leeks": {
+        "105564": {
+          "id": 105564,
+          "name": "Edmond90",
+          "level": 301,
+          "talent": 3033
+        },
+        "105861": {
+          "id": 105861,
+          "name": "Lisou90",
+          "level": 301,
+          "talent": 2570
+        },
+        "106498": {
+          "id": 106498,
+          "name": "Winston90",
+          "level": 301,
+          "talent": 2912
+        },
+        "107203": {
+          "id": 107203,
+          "name": "TheDude90",
+          "level": 301,
+          "talent": 3046
+        }
+      },
+      "team": {
+        "id": 9562,
+        "name": "TEAM Emile"
+      }
+    },
+    "58321": {
+      "id": 58321,
+      "name": "fujiwar",
+      "talent": 6409,
+      "ranking": 18,
+      "country": "pe",
+      "total_level": 1204,
+      "trophies": 324,
+      "leeks": {
+        "63029": {
+          "id": 63029,
+          "name": "Peuwareau",
+          "level": 301,
+          "talent": 3280
+        },
+        "63124": {
+          "id": 63124,
+          "name": "Peuwaroh",
+          "level": 301,
+          "talent": 3054
+        },
+        "63514": {
+          "id": 63514,
+          "name": "Peuhwaro",
+          "level": 301,
+          "talent": 3484
+        },
+        "64231": {
+          "id": 64231,
+          "name": "Peuwahreau",
+          "level": 301,
+          "talent": 3008
+        }
+      },
+      "team": {
+        "id": 8078,
+        "name": "Hanekawa"
+      }
+    },
+    "32858": {
+      "id": 32858,
+      "name": "Joalien",
+      "talent": 6159,
+      "ranking": 24,
+      "country": "ps",
+      "total_level": 1204,
+      "trophies": 280,
+      "leeks": {
+        "36264": {
+          "id": 36264,
+          "name": "leekattak",
+          "level": 301,
+          "talent": 3182
+        },
+        "36966": {
+          "id": 36966,
+          "name": "LeekyMinaj",
+          "level": 301,
+          "talent": 3303
+        },
+        "57902": {
+          "id": 57902,
+          "name": "LeeckyLuck",
+          "level": 301,
+          "talent": 3361
+        },
+        "58180": {
+          "id": 58180,
+          "name": "Leekidatore",
+          "level": 301,
+          "talent": 2908
+        }
+      },
+      "team": {
+        "id": 6465,
+        "name": "Canartichaud"
+      }
+    },
+    "101978": {
+      "id": 101978,
+      "name": "Agade2",
+      "talent": 5986,
+      "ranking": null,
+      "country": "ch",
+      "total_level": 1204,
+      "trophies": 230,
+      "leeks": {
+        "107959": {
+          "id": 107959,
+          "name": "AgadeLeek5",
+          "level": 301,
+          "talent": 2746
+        },
+        "107990": {
+          "id": 107990,
+          "name": "AgadeLeek6",
+          "level": 301,
+          "talent": 2767
+        },
+        "108080": {
+          "id": 108080,
+          "name": "AgadeLeek7",
+          "level": 301,
+          "talent": 2790
+        },
+        "108185": {
+          "id": 108185,
+          "name": "AgadeLeek8",
+          "level": 301,
+          "talent": 2742
+        }
+      },
+      "team": {
+        "id": 9675,
+        "name": "AgadeTeam"
+      }
+    },
+    "94042": {
+      "id": 94042,
+      "name": "Bux420",
+      "talent": 4573,
+      "ranking": 54,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 218,
+      "leeks": {
+        "99341": {
+          "id": 99341,
+          "name": "Bux420",
+          "level": 301,
+          "talent": 1735
+        },
+        "127341": {
+          "id": 127341,
+          "name": "Bux1",
+          "level": 301,
+          "talent": 2028
+        },
+        "127615": {
+          "id": 127615,
+          "name": "Bux2",
+          "level": 301,
+          "talent": 2013
+        },
+        "128155": {
+          "id": 128155,
+          "name": "Bux3",
+          "level": 301,
+          "talent": 1858
+        }
+      },
+      "team": {
+        "id": 10096,
+        "name": "DeepMind"
+      }
+    },
+    "86242": {
+      "id": 86242,
+      "name": "thaddee",
+      "talent": 3837,
+      "ranking": 72,
+      "country": "ps",
+      "total_level": 1204,
+      "trophies": 299,
+      "leeks": {
+        "91285": {
+          "id": 91285,
+          "name": "rotulet",
+          "level": 301,
+          "talent": 2174
+        },
+        "91532": {
+          "id": 91532,
+          "name": "Fl\u00e2teur",
+          "level": 301,
+          "talent": 2924
+        },
+        "92131": {
+          "id": 92131,
+          "name": "Zeldalink",
+          "level": 301,
+          "talent": 2865
+        },
+        "92779": {
+          "id": 92779,
+          "name": "Canardeur",
+          "level": 301,
+          "talent": 2027
+        }
+      },
+      "team": {
+        "id": 4586,
+        "name": "LFS"
+      }
+    },
+    "76772": {
+      "id": 76772,
+      "name": "Kraspen",
+      "talent": 6380,
+      "ranking": 19,
+      "country": "cv",
+      "total_level": 1204,
+      "trophies": 322,
+      "leeks": {
+        "81638": {
+          "id": 81638,
+          "name": "Kraton",
+          "level": 301,
+          "talent": 3420
+        },
+        "81733": {
+          "id": 81733,
+          "name": "Krasseux",
+          "level": 301,
+          "talent": 3377
+        },
+        "82210": {
+          "id": 82210,
+          "name": "Krapule",
+          "level": 301,
+          "talent": 3369
+        },
+        "82518": {
+          "id": 82518,
+          "name": "Kraneur",
+          "level": 301,
+          "talent": 3727
+        }
+      },
+      "team": {
+        "id": 8078,
+        "name": "Hanekawa"
+      }
+    },
+    "66407": {
+      "id": 66407,
+      "name": "Magestik25",
+      "talent": 6339,
+      "ranking": 21,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 328,
+      "leeks": {
+        "71416": {
+          "id": 71416,
+          "name": "MimiPhi",
+          "level": 301,
+          "talent": 2407
+        },
+        "75910": {
+          "id": 75910,
+          "name": "MimiKhi",
+          "level": 301,
+          "talent": 2438
+        },
+        "76121": {
+          "id": 76121,
+          "name": "MimiPsi",
+          "level": 301,
+          "talent": 2529
+        },
+        "76485": {
+          "id": 76485,
+          "name": "MimiOmega",
+          "level": 301,
+          "talent": 2446
+        }
+      },
+      "team": {
+        "id": 8068,
+        "name": "Frettey"
+      }
+    },
+    "55280": {
+      "id": 55280,
+      "name": "CultureBio",
+      "talent": 6497,
+      "ranking": 16,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 275,
+      "leeks": {
+        "59993": {
+          "id": 59993,
+          "name": "PoirBio",
+          "level": 301,
+          "talent": 2652
+        },
+        "60518": {
+          "id": 60518,
+          "name": "PommeBio",
+          "level": 301,
+          "talent": 2369
+        },
+        "61447": {
+          "id": 61447,
+          "name": "PecheBio",
+          "level": 301,
+          "talent": 2549
+        },
+        "61805": {
+          "id": 61805,
+          "name": "PimentBio",
+          "level": 301,
+          "talent": 2635
+        }
+      },
+      "team": {
+        "id": 9951,
+        "name": "Senjougahara"
+      }
+    },
+    "100982": {
+      "id": 100982,
+      "name": "AntiSlash",
+      "talent": 6720,
+      "ranking": 11,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 267,
+      "leeks": {
+        "106898": {
+          "id": 106898,
+          "name": "AntiSlash",
+          "level": 301,
+          "talent": 2972
+        },
+        "126754": {
+          "id": 126754,
+          "name": "ContreOblique",
+          "level": 301,
+          "talent": 3064
+        },
+        "126841": {
+          "id": 126841,
+          "name": "BarreObliqueInvers\u00e9e",
+          "level": 301,
+          "talent": 3030
+        },
+        "126952": {
+          "id": 126952,
+          "name": "BackSIash",
+          "level": 301,
+          "talent": 3029
+        }
+      },
+      "team": {
+        "id": 8734,
+        "name": "GeckoPower"
+      }
+    },
+    "19070": {
+      "id": 19070,
+      "name": "Amal",
+      "talent": 6249,
+      "ranking": 23,
+      "country": "jp",
+      "total_level": 1204,
+      "trophies": 301,
+      "leeks": {
+        "21631": {
+          "id": 21631,
+          "name": "Saphyre",
+          "level": 301,
+          "talent": 1873
+        },
+        "23245": {
+          "id": 23245,
+          "name": "Rexy",
+          "level": 301,
+          "talent": 2072
+        },
+        "34341": {
+          "id": 34341,
+          "name": "Varju",
+          "level": 301,
+          "talent": 2161
+        },
+        "38241": {
+          "id": 38241,
+          "name": "Astera",
+          "level": 301,
+          "talent": 2092
+        }
+      },
+      "team": {
+        "id": 6485,
+        "name": "Dreamers"
+      }
+    }
+  },
+  "tooltip_leeks": {
+    "132": {
+      "id": 132,
+      "name": "Wolip",
+      "level": 301,
+      "talent": 2641,
+      "ranking": 157,
+      "life": 2165,
+      "tp": 20,
+      "mp": 5,
+      "strength": 400,
+      "agility": 200,
+      "wisdom": 230,
+      "resistance": 300,
+      "science": 0,
+      "magic": 0,
+      "frequency": 100,
+      "farmer": {
+        "id": 1,
+        "name": "Pilow"
+      }
+    },
+    "107460": {
+      "id": 107460,
+      "name": "FeleeksKlein",
+      "level": 301,
+      "talent": 2361,
+      "ranking": 327,
+      "life": 2000,
+      "tp": 19,
+      "mp": 5,
+      "strength": 0,
+      "agility": 200,
+      "wisdom": 400,
+      "resistance": 400,
+      "science": 0,
+      "magic": 400,
+      "frequency": 100,
+      "farmer": {
+        "id": 99628,
+        "name": "SlightlySmartLeekStem"
+      }
+    },
+    "78118": {
+      "id": 78118,
+      "name": "WhatAWonderfulWorld",
+      "level": 301,
+      "talent": 2139,
+      "ranking": 494,
+      "life": 2000,
+      "tp": 19,
+      "mp": 6,
+      "strength": 400,
+      "agility": 200,
+      "wisdom": 360,
+      "resistance": 0,
+      "science": 0,
+      "magic": 400,
+      "frequency": 100,
+      "farmer": {
+        "id": 73155,
+        "name": "tagadaveniradieux"
+      }
+    },
+    "126952": {
+      "id": 126952,
+      "name": "BackSIash",
+      "level": 301,
+      "talent": 3029,
+      "ranking": 37,
+      "life": 2000,
+      "tp": 22,
+      "mp": 4,
+      "strength": 420,
+      "agility": 150,
+      "wisdom": 190,
+      "resistance": 320,
+      "science": 0,
+      "magic": 0,
+      "frequency": 100,
+      "farmer": {
+        "id": 100982,
+        "name": "AntiSlash"
+      }
+    },
+    "25769": {
+      "id": 25769,
+      "name": "Pyrogoyf",
+      "level": 301,
+      "talent": 2300,
+      "ranking": 380,
+      "life": 2105,
+      "tp": 20,
+      "mp": 6,
+      "strength": 0,
+      "agility": 100,
+      "wisdom": 400,
+      "resistance": 0,
+      "science": 0,
+      "magic": 500,
+      "frequency": 100,
+      "farmer": {
+        "id": 22189,
+        "name": "TyTy03"
+      }
+    },
+    "131032": {
+      "id": 131032,
+      "name": "koe",
+      "level": 301,
+      "talent": 2874,
+      "ranking": 60,
+      "life": 2225,
+      "tp": 20,
+      "mp": 6,
+      "strength": 0,
+      "agility": 200,
+      "wisdom": 260,
+      "resistance": 0,
+      "science": 0,
+      "magic": 500,
+      "frequency": 100,
+      "farmer": {
+        "id": 124565,
+        "name": "koe"
+      }
+    },
+    "131291": {
+      "id": 131291,
+      "name": "Claudias",
+      "level": 301,
+      "talent": 2854,
+      "ranking": 64,
+      "life": 2000,
+      "tp": 20,
+      "mp": 5,
+      "strength": 0,
+      "agility": 200,
+      "wisdom": 215,
+      "resistance": 400,
+      "science": 0,
+      "magic": 440,
+      "frequency": 100,
+      "farmer": {
+        "id": 122557,
+        "name": "tagadai"
+      }
+    }
   }
 }
