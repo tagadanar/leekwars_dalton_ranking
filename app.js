@@ -355,11 +355,12 @@ function renderTable(entries, type) {
         html += `<td class="level-cell">${level}</td>`;
         html += `<td class="turns-cell">${e.turns || "?"}</td>`;
         html += `<td class="date-cell">${dateStr}</td>`;
-        const shareText = `I beat the Daltons at Lv.${level} in ${e.turns || "?"}t! #DaltonRanking`;
+        const fightUrl = `https://leekwars.com/fight/${safeInt(e.fight_id)}`;
+        const shareText = `I beat the Daltons at Lv.${level} in ${e.turns || "?"}t! ${fightUrl}`;
         html += `<td class="action-cell">` +
-            `<a class="fight-link" href="https://leekwars.com/fight/${safeInt(e.fight_id)}" target="_blank">` +
+            `<a class="fight-link" href="${fightUrl}" target="_blank">` +
             `<img src="${IMG}/weapon/pistol.png" alt="">fight</a>` +
-            `<button class="share-btn" data-share="${esc(shareText)}" title="Copy to clipboard">&#128266;</button>` +
+            `<button class="share-btn" data-share="${esc(shareText)}" title="Copy to clipboard">&#128203;</button>` +
             `</td>`;
         html += `</tr>`;
     });
@@ -503,7 +504,7 @@ document.addEventListener("click", (ev) => {
     const text = btn.dataset.share;
     navigator.clipboard.writeText(text).then(() => {
         btn.textContent = "\u2713";
-        setTimeout(() => { btn.innerHTML = "&#128266;"; }, 1500);
+        setTimeout(() => { btn.innerHTML = "&#128203;"; }, 1500);
     });
 });
 
@@ -590,6 +591,49 @@ function hideTooltip() {
     tooltipCurrentTarget = null;
 }
 
+// Stat icon definitions
+const STAT_DEFS = [
+    { key: "life",       icon: `${IMG}/charac/life.png` },
+    { key: "tp",         icon: `${IMG}/charac/tp.png` },
+    { key: "mp",         icon: `${IMG}/charac/mp.png` },
+    { key: "strength",   icon: `${IMG}/charac/strength.png` },
+    { key: "agility",    icon: `${IMG}/charac/agility.png` },
+    { key: "wisdom",     icon: `${IMG}/charac/wisdom.png` },
+    { key: "resistance", icon: `${IMG}/charac/resistance.png` },
+    { key: "science",    icon: `${IMG}/charac/science.png` },
+    { key: "magic",      icon: `${IMG}/charac/magic.png` },
+    { key: "frequency",  icon: `${IMG}/charac/frequency.png` },
+];
+
+function renderStatGrid(stats) {
+    let html = '<div class="stat-grid">';
+    for (const { key, icon } of STAT_DEFS) {
+        const val = stats[key];
+        if (val === undefined || val === null) continue;
+        html += `<span class="stat-item"><img src="${icon}" class="stat-icon" alt="${key}">${safeInt(val)}</span>`;
+    }
+    html += '</div>';
+    return html;
+}
+
+function renderLeekRow(leek, showLink) {
+    let html = '<div class="rich-tooltip-leek">';
+    html += '<div class="rich-tooltip-leek-header">';
+    if (showLink) {
+        html += `<span class="rich-tooltip-leek-name"><a href="https://leekwars.com/leek/${safeInt(leek.id)}" target="_blank">${esc(leek.name || "?")}</a></span>`;
+    } else {
+        html += `<span class="rich-tooltip-leek-name">${esc(leek.name || "?")}</span>`;
+    }
+    html += `<span class="rich-tooltip-leek-level">Lv.${safeInt(leek.level)}</span>`;
+    if (leek.talent) {
+        html += `<span class="rich-tooltip-leek-talent">${safeInt(leek.talent)}</span>`;
+    }
+    html += '</div>';
+    html += renderStatGrid(leek);
+    html += '</div>';
+    return html;
+}
+
 function renderFarmerTooltip(farmer) {
     const fid = safeInt(farmer.id);
     let html = '<div class="rich-tooltip-header">';
@@ -608,37 +652,20 @@ function renderFarmerTooltip(farmer) {
     const details = [];
     if (farmer.ranking) details.push(`#${safeInt(farmer.ranking)}`);
     if (farmer.country) details.push(esc(farmer.country).toUpperCase());
+    if (farmer.total_level) details.push(`Total Lv.${safeInt(farmer.total_level)}`);
+    if (farmer.trophies) details.push(`${safeInt(farmer.trophies)} trophies`);
     if (details.length) {
         html += `<div class="rich-tooltip-sub">${details.join(" · ")}</div>`;
     }
     html += '</div></div>';
 
-    // Leeks
+    // Leeks with full stats
     const leeks = farmer.leeks ? Object.values(farmer.leeks) : [];
     if (leeks.length > 0) {
-        // Sort by level descending
         leeks.sort((a, b) => (b.level || 0) - (a.level || 0));
         html += '<div class="rich-tooltip-leeks">';
         for (const leek of leeks) {
-            html += '<div class="rich-tooltip-leek">';
-            html += `<span class="rich-tooltip-leek-name"><a href="https://leekwars.com/leek/${safeInt(leek.id)}" target="_blank">${esc(leek.name || "?")}</a></span>`;
-            html += `<span class="rich-tooltip-leek-level">Lv.${safeInt(leek.level)}</span>`;
-            if (leek.talent) {
-                html += `<span class="rich-tooltip-leek-talent">${safeInt(leek.talent)}</span>`;
-            }
-            html += '</div>';
-        }
-        html += '</div>';
-    }
-
-    // Summary stats
-    const stats = [];
-    if (farmer.total_level) stats.push(`Total Lv.${safeInt(farmer.total_level)}`);
-    if (farmer.trophies) stats.push(`${safeInt(farmer.trophies)} trophies`);
-    if (stats.length) {
-        html += '<div class="rich-tooltip-stats">';
-        for (const s of stats) {
-            html += `<span class="rich-tooltip-stat">${s}</span>`;
+            html += renderLeekRow(leek, true);
         }
         html += '</div>';
     }
@@ -649,7 +676,6 @@ function renderFarmerTooltip(farmer) {
 function renderLeekTooltip(leek) {
     const lid = safeInt(leek.id);
     let html = '<div class="rich-tooltip-header">';
-    // Use farmer avatar as proxy since leek icon URLs need skin name mapping
     if (leek.farmer && leek.farmer.id) {
         html += `<img src="https://leekwars.com/avatar/${safeInt(leek.farmer.id)}.png" class="rich-tooltip-avatar" alt="">`;
     }
@@ -667,25 +693,23 @@ function renderLeekTooltip(leek) {
         html += `<div class="rich-tooltip-sub">Ranking: #${safeInt(leek.ranking)}</div>`;
     }
     html += '</div></div>';
+    html += renderStatGrid(leek);
+    return html;
+}
 
-    // Stats
-    const stats = [
-        ["Life", leek.life], ["TP", leek.tp], ["MP", leek.mp],
-        ["Str", leek.strength], ["Agi", leek.agility], ["Wis", leek.wisdom],
-        ["Res", leek.resistance], ["Sci", leek.science], ["Mag", leek.magic],
-        ["Freq", leek.frequency],
-    ];
-    const hasStats = stats.some(([, v]) => v !== undefined && v !== null);
-    if (hasStats) {
-        html += '<div class="rich-tooltip-stats">';
-        for (const [label, val] of stats) {
-            if (val !== undefined && val !== null) {
-                html += `<span class="rich-tooltip-stat">${label}: <b>${safeInt(val)}</b></span>`;
-            }
+function renderCompositionTooltip(leekIds) {
+    let html = '<div class="rich-tooltip-header">';
+    html += `<div><div class="rich-tooltip-name">Composition</div>`;
+    html += `<div class="rich-tooltip-sub">${leekIds.length} leeks</div>`;
+    html += '</div></div>';
+    html += '<div class="rich-tooltip-leeks">';
+    for (const id of leekIds) {
+        const leek = getTooltipData("leek", id);
+        if (leek) {
+            html += renderLeekRow(leek, true);
         }
-        html += '</div>';
     }
-
+    html += '</div>';
     return html;
 }
 
@@ -706,12 +730,11 @@ function getTooltipData(type, id) {
 
 // Event delegation for tooltip triggers
 document.addEventListener("mouseenter", (ev) => {
-    // Farmer name links with data-farmer-id
     const farmerLink = ev.target.closest("a[data-farmer-id]");
-    // Leek name spans with data-leek-id
     const leekSpan = ev.target.closest("[data-leek-id]");
+    const compSpan = ev.target.closest("[data-leek-ids]");
 
-    const anchor = farmerLink || leekSpan;
+    const anchor = farmerLink || leekSpan || compSpan;
     if (!anchor) return;
 
     // Cancel pending hide
@@ -733,6 +756,9 @@ document.addEventListener("mouseenter", (ev) => {
         } else if (leekSpan) {
             const data = getTooltipData("leek", leekSpan.dataset.leekId);
             html = data ? renderLeekTooltip(data) : null;
+        } else if (compSpan) {
+            const ids = JSON.parse(compSpan.dataset.leekIds || "[]");
+            if (ids.length > 0) html = renderCompositionTooltip(ids);
         }
 
         if (html) showTooltip(anchor, html);
@@ -740,7 +766,7 @@ document.addEventListener("mouseenter", (ev) => {
 }, true);
 
 document.addEventListener("mouseleave", (ev) => {
-    const anchor = ev.target.closest("a[data-farmer-id], [data-leek-id]");
+    const anchor = ev.target.closest("a[data-farmer-id], [data-leek-id], [data-leek-ids]");
     if (!anchor) return;
 
     clearTimeout(tooltipTimer);
