@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T16:56:57.455400+00:00",
+  "last_updated": "2026-03-16T17:56:05.154704+00:00",
   "daltons": {
     "46733": [
       {
@@ -1796,7 +1796,7 @@
     "98186": {
       "id": 98186,
       "name": "Smartiz",
-      "talent": 6833,
+      "talent": 6861,
       "ranking": 8,
       "country": "si",
       "total_level": 1203,
@@ -1970,8 +1970,8 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6660,
-      "ranking": 13,
+      "talent": 6637,
+      "ranking": 14,
       "country": "fr",
       "total_level": 1204,
       "trophies": 329,
@@ -2058,7 +2058,7 @@
       "id": 34958,
       "name": "tagadanar",
       "talent": 6640,
-      "ranking": 14,
+      "ranking": 13,
       "country": null,
       "total_level": 1204,
       "trophies": 266,
@@ -2231,8 +2231,8 @@
     "124565": {
       "id": 124565,
       "name": "koe",
-      "talent": 1868,
-      "ranking": 269,
+      "talent": 1882,
+      "ranking": 268,
       "country": "us",
       "total_level": 600,
       "trophies": 228,
@@ -2405,7 +2405,7 @@
     "120993": {
       "id": 120993,
       "name": "chrisss",
-      "talent": 3904,
+      "talent": 3912,
       "ranking": null,
       "country": "fr",
       "total_level": 1204,
@@ -2927,7 +2927,7 @@
     "73155": {
       "id": 73155,
       "name": "tagadaveniradieux",
-      "talent": 1980,
+      "talent": 1979,
       "ranking": 259,
       "country": null,
       "total_level": 903,
@@ -3170,7 +3170,7 @@
     "32858": {
       "id": 32858,
       "name": "Joalien",
-      "talent": 6162,
+      "talent": 6185,
       "ranking": 24,
       "country": "ps",
       "total_level": 1204,
@@ -3344,8 +3344,8 @@
     "94042": {
       "id": 94042,
       "name": "Bux420",
-      "talent": 4573,
-      "ranking": 54,
+      "talent": 4603,
+      "ranking": 53,
       "country": "fr",
       "total_level": 1204,
       "trophies": 218,
