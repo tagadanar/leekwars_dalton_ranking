@@ -63,6 +63,15 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 });
 
+// Extra elements per Dalton leek (pistol, covid, bulbs)
+const DALTON_EXTRAS = {
+    46733: `<img src="${IMG}/weapon/pistol.png" alt="" class="joe-pistol">`,
+    51098: `<img src="${IMG}/chip/covid.png" alt="" class="william-covid">`,
+    51257: `<img src="${IMG}/bulb/lightning_bulb_front.png" alt="" class="jack-bulb bulb-1">` +
+           `<img src="${IMG}/bulb/healer_bulb_front.png" alt="" class="jack-bulb bulb-2">` +
+           `<img src="${IMG}/bulb/puny_bulb_front.png" alt="" class="jack-bulb bulb-3">`,
+};
+
 function renderLeekWithHat(leekId, wrapClass) {
     const img = DALTON_IMGS[leekId];
     const hat = DALTON_HATS[leekId];
@@ -70,6 +79,9 @@ function renderLeekWithHat(leekId, wrapClass) {
     html += `<img src="${img}" class="leek-body" alt="">`;
     if (hat) {
         html += `<img src="${hat.src}" class="leek-hat ${hat.cls}" alt="">`;
+    }
+    if (DALTON_EXTRAS[leekId]) {
+        html += DALTON_EXTRAS[leekId];
     }
     html += `</div>`;
     return html;
