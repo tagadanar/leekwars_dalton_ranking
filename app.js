@@ -41,10 +41,12 @@ function computeCapital(level) {
     return total;
 }
 
-// Star medals for top 3 (gold / silver / bronze)
-const STAR = '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/>';
+// Sheriff star medals for top 3 (gold / silver / bronze)
+// 6-pointed sheriff badge star
+const SHERIFF_STAR = '<polygon points="12,0 14.5,8 22,8 16,13 18.5,21 12,16.5 5.5,21 8,13 2,8 9.5,8" /><circle cx="12" cy="12" r="3.5" />';
 function starMedal(color) {
-    return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="${color}">${STAR}</svg>`)}`;
+    const darkColor = color === "#ffd700" ? "#b8960a" : color === "#b8c0cc" ? "#8a909a" : "#8b5a1a";
+    return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12,0 14.5,8 22,8 16,13 18.5,21 12,16.5 5.5,21 8,13 2,8 9.5,8" fill="${color}" stroke="${darkColor}" stroke-width="0.7"/><circle cx="12" cy="12" r="3" fill="${darkColor}" opacity="0.3"/></svg>`)}`;
 }
 const MEDAL = {
     1: starMedal("#ffd700"),
@@ -197,7 +199,7 @@ function render(data) {
         html += `</div>`;
         html += `<div class="most-wanted-info">`;
         html += `<p class="most-wanted-label">NEW SHERIFF IN TOWN</p>`;
-        html += `<p class="most-wanted-name"><a href="https://leekwars.com/farmer/${topFid}" target="_blank">${esc(top.farmer_name)}</a></p>`;
+        html += `<p class="most-wanted-name"><img src="${starMedal('#ffd700')}" class="sheriff-badge" alt=""><a href="https://leekwars.com/farmer/${topFid}" target="_blank">${esc(top.farmer_name)}</a></p>`;
         html += `<p class="most-wanted-stats">${top.beaten} Daltons beaten &middot; Total Lv.${top.total_level}</p>`;
         html += `</div>`;
         html += `</div>`;
