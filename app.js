@@ -169,6 +169,8 @@ function render(data) {
         html += `<div class="section-header champion-header">`;
         html += `<div class="most-wanted">`;
         html += `<div class="most-wanted-avatar-wrap">`;
+        html += `<span class="laurel laurel-left"></span>`;
+        html += `<span class="laurel laurel-right"></span>`;
         html += `<img src="https://leekwars.com/avatar/${topFid}.png" class="most-wanted-avatar" alt="${esc(top.farmer_name)}">`;
         html += `<span class="corner-stud tl"></span><span class="corner-stud tr"></span>`;
         html += `<span class="corner-stud bl"></span><span class="corner-stud br"></span>`;
