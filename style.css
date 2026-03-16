@@ -451,6 +451,8 @@ body::before {
 .most-wanted-name {
     font-family: "Rye", serif;
     font-size: 1.15rem;
+    display: flex;
+    align-items: center;
     color: var(--gold);
 }
 
