@@ -837,6 +837,14 @@ main {
     z-index: 2;
 }
 
+.champion-header .section-info h2 {
+    font-size: 1.5rem;
+}
+
+.champion-header .badge {
+    font-size: 0.7rem;
+}
+
 .champion-header {
     padding: 1.1rem 1.25rem;
     background:
