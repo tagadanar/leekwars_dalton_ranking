@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T12:56:12.622535+00:00",
+  "last_updated": "2026-03-16T13:51:39.882453+00:00",
   "daltons": {
     "46733": [
       {
@@ -176,6 +176,34 @@
       }
     ],
     "51257": [
+      {
+        "fight_id": 51832820,
+        "fight_type": 0,
+        "farmer_name": "tagadanar",
+        "farmer_id": 34958,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 38413,
+            "name": "hardleeker",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 5,
+        "date": 1773666812,
+        "key": "34958",
+        "leek_name": "hardleeker",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51832820,
+            "total_level": 301,
+            "turns": 5,
+            "date": 1773666812
+          }
+        ]
+      },
       {
         "fight_id": 51827282,
         "fight_type": 0,
@@ -1902,7 +1930,7 @@
           "id": 47183,
           "name": "Jeez",
           "level": 301,
-          "talent": 3126,
+          "talent": 3112,
           "life": 2965,
           "tp": 27,
           "mp": 6,
@@ -1938,7 +1966,7 @@
           "id": 47943,
           "name": "TomateTransg\u00e9nique",
           "level": 301,
-          "talent": 2940,
+          "talent": 2938,
           "life": 2965,
           "tp": 27,
           "mp": 6,
@@ -1989,7 +2017,7 @@
           "id": 38413,
           "name": "hardleeker",
           "level": 301,
-          "talent": 3545,
+          "talent": 3547,
           "life": 2250,
           "tp": 28,
           "mp": 5,
@@ -2163,7 +2191,7 @@
           "id": 131032,
           "name": "koe",
           "level": 301,
-          "talent": 2876,
+          "talent": 2867,
           "life": 3475,
           "tp": 24,
           "mp": 7,
@@ -2565,7 +2593,7 @@
           "id": 107610,
           "name": "poirol\u00e9taire",
           "level": 300,
-          "talent": 2330,
+          "talent": 2328,
           "life": 3247,
           "tp": 26,
           "mp": 6,
@@ -2772,7 +2800,7 @@
           "id": 128883,
           "name": "Claudius",
           "level": 301,
-          "talent": 3337,
+          "talent": 3339,
           "life": 2610,
           "tp": 26,
           "mp": 5,
@@ -2790,7 +2818,7 @@
           "id": 131291,
           "name": "Claudias",
           "level": 301,
-          "talent": 2873,
+          "talent": 2871,
           "life": 2850,
           "tp": 27,
           "mp": 6,
@@ -3033,7 +3061,7 @@
           "id": 63124,
           "name": "Peuwaroh",
           "level": 301,
-          "talent": 3059,
+          "talent": 3068,
           "life": 3130,
           "tp": 28,
           "mp": 7,
@@ -3051,7 +3079,7 @@
           "id": 63514,
           "name": "Peuhwaro",
           "level": 301,
-          "talent": 3485,
+          "talent": 3487,
           "life": 1880,
           "tp": 30,
           "mp": 8,
@@ -3102,7 +3130,7 @@
           "id": 36264,
           "name": "leekattak",
           "level": 301,
-          "talent": 3182,
+          "talent": 3194,
           "life": 3050,
           "tp": 25,
           "mp": 9,
@@ -3138,7 +3166,7 @@
           "id": 57902,
           "name": "LeeckyLuck",
           "level": 301,
-          "talent": 3366,
+          "talent": 3337,
           "life": 3520,
           "tp": 26,
           "mp": 7,
@@ -3330,7 +3358,7 @@
           "id": 128155,
           "name": "Bux3",
           "level": 301,
-          "talent": 1858,
+          "talent": 1871,
           "life": 3384,
           "tp": 20,
           "mp": 5,
@@ -3450,7 +3478,7 @@
           "id": 81638,
           "name": "Kraton",
           "level": 301,
-          "talent": 3421,
+          "talent": 3423,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -3468,7 +3496,7 @@
           "id": 81733,
           "name": "Krasseux",
           "level": 301,
-          "talent": 3378,
+          "talent": 3379,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -3486,7 +3514,7 @@
           "id": 82210,
           "name": "Krapule",
           "level": 301,
-          "talent": 3369,
+          "talent": 3388,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -3879,7 +3907,7 @@
       "name": "Gorglucks",
       "level": 301,
       "talent": 2515,
-      "ranking": 209,
+      "ranking": 210,
       "life": 2755,
       "tp": 28,
       "mp": 7,
@@ -3896,7 +3924,12 @@
         "id": 1,
         "name": "Pilow"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "enhanced_lightninger",
+        "quantum_rifle",
+        "heavy_sword"
+      ],
       "chips": [
         "wall",
         "knowledge",
@@ -3946,7 +3979,12 @@
         "id": 99783,
         "name": "Marcellus"
       },
-      "weapons": [],
+      "weapons": [
+        "bazooka",
+        "mysterious_electrisor",
+        "lightninger",
+        "quantum_rifle"
+      ],
       "chips": [
         "knowledge",
         "liberation",
@@ -3997,7 +4035,12 @@
         "id": 55280,
         "name": "CultureBio"
       },
-      "weapons": [],
+      "weapons": [
+        "mysterious_electrisor",
+        "lightninger",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -4048,7 +4091,12 @@
         "id": 120993,
         "name": "chrisss"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "mysterious_electrisor",
+        "quantum_rifle",
+        "heavy_sword"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -4079,7 +4127,7 @@
       "id": 38413,
       "name": "hardleeker",
       "level": 301,
-      "talent": 3545,
+      "talent": 3547,
       "ranking": 3,
       "life": 2250,
       "tp": 28,
@@ -4097,7 +4145,12 @@
         "id": 34958,
         "name": "tagadanar"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "mysterious_electrisor",
+        "quantum_rifle",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "knowledge",
@@ -4154,7 +4207,12 @@
         "id": 94042,
         "name": "Bux420"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "quantum_rifle",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "bandage",
         "protein",
@@ -4199,7 +4257,12 @@
         "id": 98186,
         "name": "Smartiz"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "katana",
+        "quantum_rifle",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -4227,8 +4290,8 @@
       "id": 63514,
       "name": "Peuhwaro",
       "level": 301,
-      "talent": 3485,
-      "ranking": 5,
+      "talent": 3487,
+      "ranking": 4,
       "life": 1880,
       "tp": 30,
       "mp": 8,
@@ -4245,7 +4308,12 @@
         "id": 58321,
         "name": "fujiwar"
       },
-      "weapons": [],
+      "weapons": [
+        "unstable_destroyer",
+        "rhino",
+        "lightninger",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -4276,7 +4344,7 @@
       "name": "SweetDude",
       "level": 301,
       "talent": 3192,
-      "ranking": 15,
+      "ranking": 16,
       "life": 2600,
       "tp": 25,
       "mp": 8,
@@ -4293,7 +4361,12 @@
         "id": 34958,
         "name": "tagadanar"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "quantum_rifle",
+        "heavy_sword",
+        "revoked_m_laser"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -4346,7 +4419,12 @@
         "id": 19070,
         "name": "Amal"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "enhanced_lightninger",
+        "rifle",
+        "heavy_sword"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -4374,8 +4452,8 @@
       "id": 57902,
       "name": "LeeckyLuck",
       "level": 301,
-      "talent": 3366,
-      "ranking": 9,
+      "talent": 3337,
+      "ranking": 10,
       "life": 3520,
       "tp": 26,
       "mp": 7,
@@ -4393,7 +4471,10 @@
         "name": "Joalien"
       },
       "weapons": [
-        "scythe"
+        "double_gun",
+        "flame_thrower",
+        "gazor",
+        "revoked_m_laser"
       ],
       "chips": [
         "motivation",
@@ -4446,7 +4527,12 @@
         "id": 101978,
         "name": "Agade2"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "lightninger",
+        "unbridled_gazor",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "knowledge",
@@ -4493,7 +4579,12 @@
         "id": 76604,
         "name": "nytope"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "mysterious_electrisor",
+        "katana",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -4544,7 +4635,12 @@
         "id": 58321,
         "name": "fujiwar"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "mysterious_electrisor",
+        "lightninger",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "knowledge",
@@ -4595,7 +4691,12 @@
         "id": 71485,
         "name": "BrocoliCosmique"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "mysterious_electrisor",
+        "lightninger",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -4623,7 +4724,7 @@
       "id": 47183,
       "name": "Jeez",
       "level": 301,
-      "talent": 3126,
+      "talent": 3112,
       "ranking": 21,
       "life": 2965,
       "tp": 27,
@@ -4641,7 +4742,12 @@
         "id": 43276,
         "name": "Ref"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "mysterious_electrisor",
+        "lightninger",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "leather_boots",
@@ -4690,7 +4796,12 @@
         "id": 76772,
         "name": "Kraspen"
       },
-      "weapons": [],
+      "weapons": [
+        "sword",
+        "flame_thrower",
+        "gazor",
+        "unbridled_gazor"
+      ],
       "chips": [
         "knowledge",
         "venom",
@@ -4741,7 +4852,12 @@
         "id": 55280,
         "name": "CultureBio"
       },
-      "weapons": [],
+      "weapons": [
+        "lightninger",
+        "enhanced_lightninger",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "wall",
@@ -4793,7 +4909,10 @@
         "name": "Pilow"
       },
       "weapons": [
-        "excalibur"
+        "machine_gun",
+        "electrisor",
+        "rifle",
+        "heavy_sword"
       ],
       "chips": [
         "wall",
@@ -4844,7 +4963,12 @@
         "id": 99783,
         "name": "Marcellus"
       },
-      "weapons": [],
+      "weapons": [
+        "bazooka",
+        "lightninger",
+        "katana",
+        "revoked_m_laser"
+      ],
       "chips": [
         "knowledge",
         "shield",
@@ -4895,7 +5019,12 @@
         "id": 55280,
         "name": "CultureBio"
       },
-      "weapons": [],
+      "weapons": [
+        "unstable_destroyer",
+        "lightninger",
+        "quantum_rifle",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -4946,7 +5075,12 @@
         "id": 32858,
         "name": "Joalien"
       },
-      "weapons": [],
+      "weapons": [
+        "illicit_grenade_launcher",
+        "bazooka",
+        "quantum_rifle",
+        "heavy_sword"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -4998,7 +5132,12 @@
         "id": 86242,
         "name": "thaddee"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "illicit_grenade_launcher",
+        "j_laser",
+        "quantum_rifle"
+      ],
       "chips": [
         "wall",
         "knowledge",
@@ -5038,7 +5177,7 @@
       "name": "Bux2",
       "level": 301,
       "talent": 2013,
-      "ranking": 633,
+      "ranking": 635,
       "life": 3654,
       "tp": 20,
       "mp": 5,
@@ -5055,7 +5194,12 @@
         "id": 94042,
         "name": "Bux420"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "rhino",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "bandage",
         "protein",
@@ -5085,7 +5229,7 @@
       "name": "Saphyre",
       "level": 301,
       "talent": 1873,
-      "ranking": 733,
+      "ranking": 741,
       "life": 2480,
       "tp": 28,
       "mp": 5,
@@ -5102,7 +5246,12 @@
         "id": 19070,
         "name": "Amal"
       },
-      "weapons": [],
+      "weapons": [
+        "lightninger",
+        "rifle",
+        "explorer_rifle",
+        "heavy_sword"
+      ],
       "chips": [
         "wall",
         "solidification",
@@ -5134,7 +5283,7 @@
       "name": "Wolip",
       "level": 301,
       "talent": 2641,
-      "ranking": 156,
+      "ranking": 157,
       "life": 2815,
       "tp": 28,
       "mp": 7,
@@ -5151,7 +5300,12 @@
         "id": 1,
         "name": "Pilow"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "heavy_sword",
+        "m_laser",
+        "revoked_m_laser"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -5201,7 +5355,12 @@
         "id": 66407,
         "name": "Magestik25"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "dark_katana",
+        "rifle",
+        "m_laser"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -5247,7 +5406,12 @@
         "id": 76473,
         "name": "galactichitchleeker"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "sword",
+        "b_laser",
+        "illicit_grenade_launcher"
+      ],
       "chips": [
         "knowledge",
         "liberation",
@@ -5298,7 +5462,12 @@
         "id": 76695,
         "name": "ihsusikamet"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "enhanced_lightninger",
+        "katana",
+        "heavy_sword"
+      ],
       "chips": [
         "knowledge",
         "shield",
@@ -5347,7 +5516,12 @@
         "id": 76696,
         "name": "ActiveSushi"
       },
-      "weapons": [],
+      "weapons": [
+        "sword",
+        "lightninger",
+        "heavy_sword",
+        "revoked_m_laser"
+      ],
       "chips": [
         "protein",
         "knowledge",
@@ -5380,8 +5554,8 @@
       "id": 63124,
       "name": "Peuwaroh",
       "level": 301,
-      "talent": 3059,
-      "ranking": 30,
+      "talent": 3068,
+      "ranking": 28,
       "life": 3130,
       "tp": 28,
       "mp": 7,
@@ -5398,7 +5572,12 @@
         "id": 58321,
         "name": "fujiwar"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "lightninger",
+        "enhanced_lightninger",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "knowledge",
@@ -5448,7 +5627,12 @@
         "id": 86242,
         "name": "thaddee"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "heavy_sword",
+        "m_laser",
+        "revoked_m_laser"
+      ],
       "chips": [
         "protein",
         "wall",
@@ -5483,7 +5667,7 @@
       "name": "AgadeLeek8",
       "level": 301,
       "talent": 2742,
-      "ranking": 87,
+      "ranking": 88,
       "life": 3035,
       "tp": 26,
       "mp": 7,
@@ -5500,7 +5684,12 @@
         "id": 101978,
         "name": "Agade2"
       },
-      "weapons": [],
+      "weapons": [
+        "bazooka",
+        "rhino",
+        "lightninger",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "knowledge",
@@ -5530,7 +5719,7 @@
       "name": "JeanMichelDeLaCompta",
       "level": 301,
       "talent": 1868,
-      "ranking": 759,
+      "ranking": 770,
       "life": 2712,
       "tp": 28,
       "mp": 13,
@@ -5548,7 +5737,10 @@
         "name": "LaCOGIP"
       },
       "weapons": [
-        "excalibur"
+        "machine_gun",
+        "neutrino",
+        "mysterious_electrisor",
+        "katana"
       ],
       "chips": [
         "wall",
@@ -5577,8 +5769,8 @@
       "id": 128155,
       "name": "Bux3",
       "level": 301,
-      "talent": 1858,
-      "ranking": 820,
+      "talent": 1871,
+      "ranking": 753,
       "life": 3384,
       "tp": 20,
       "mp": 5,
@@ -5595,7 +5787,12 @@
         "id": 94042,
         "name": "Bux420"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "mysterious_electrisor",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "bandage",
         "helmet",
@@ -5643,7 +5840,10 @@
         "name": "TyTy03"
       },
       "weapons": [
-        "scythe"
+        "double_gun",
+        "flame_thrower",
+        "mysterious_electrisor",
+        "gazor"
       ],
       "chips": [
         "leather_boots",
@@ -5692,7 +5892,12 @@
         "id": 76326,
         "name": "SoloSushi"
       },
-      "weapons": [],
+      "weapons": [
+        "sword",
+        "flame_thrower",
+        "dark_katana",
+        "gazor"
+      ],
       "chips": [
         "knowledge",
         "venom",
@@ -5743,7 +5948,12 @@
         "id": 76431,
         "name": "BeatrixPotter"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "illicit_grenade_launcher",
+        "electrisor",
+        "heavy_sword"
+      ],
       "chips": [
         "wall",
         "spark",
@@ -5796,7 +6006,10 @@
         "name": "Pilow"
       },
       "weapons": [
-        "excalibur"
+        "machine_gun",
+        "b_laser",
+        "mysterious_electrisor",
+        "quantum_rifle"
       ],
       "chips": [
         "knowledge",
@@ -5847,7 +6060,12 @@
         "id": 99783,
         "name": "Marcellus"
       },
-      "weapons": [],
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "explorer_rifle",
+        "gazor"
+      ],
       "chips": [
         "knowledge",
         "shield",
@@ -5898,7 +6116,12 @@
         "id": 66407,
         "name": "Magestik25"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "enhanced_lightninger",
+        "rifle",
+        "m_laser"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -5944,7 +6167,12 @@
         "id": 19070,
         "name": "Amal"
       },
-      "weapons": [],
+      "weapons": [
+        "rifle",
+        "heavy_sword",
+        "m_laser",
+        "revoked_m_laser"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -5973,7 +6201,7 @@
       "name": "Bux42",
       "level": 300,
       "talent": 1360,
-      "ranking": 1943,
+      "ranking": 1944,
       "life": 3599,
       "tp": 23,
       "mp": 5,
@@ -5990,7 +6218,12 @@
         "id": 60894,
         "name": "Bux42"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "electrisor",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "bandage",
         "protein",
@@ -6014,8 +6247,8 @@
       "id": 131291,
       "name": "Claudias",
       "level": 301,
-      "talent": 2873,
-      "ranking": 61,
+      "talent": 2871,
+      "ranking": 60,
       "life": 2850,
       "tp": 27,
       "mp": 6,
@@ -6032,7 +6265,12 @@
         "id": 122557,
         "name": "tagadai"
       },
-      "weapons": [],
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "gazor",
+        "revoked_m_laser"
+      ],
       "chips": [
         "wall",
         "knowledge",
@@ -6083,7 +6321,12 @@
         "id": 78250,
         "name": "Gandhictature"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "rhino",
+        "lightninger",
+        "revoked_m_laser"
+      ],
       "chips": [
         "protein",
         "wall",
@@ -6131,7 +6374,12 @@
         "id": 97543,
         "name": "NewSlash"
       },
-      "weapons": [],
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "enhanced_lightninger",
+        "gazor"
+      ],
       "chips": [
         "wall",
         "knowledge",
@@ -6167,8 +6415,8 @@
       "id": 103132,
       "name": "MimiBouki",
       "level": 301,
-      "talent": 2498,
-      "ranking": 217,
+      "talent": 2513,
+      "ranking": 211,
       "life": 2900,
       "tp": 27,
       "mp": 6,
@@ -6185,7 +6433,12 @@
         "id": 97544,
         "name": "MimItems"
       },
-      "weapons": [],
+      "weapons": [
+        "bazooka",
+        "rhino",
+        "enhanced_lightninger",
+        "katana"
+      ],
       "chips": [
         "bandage",
         "protein",
@@ -6231,7 +6484,12 @@
         "id": 76695,
         "name": "ihsusikamet"
       },
-      "weapons": [],
+      "weapons": [
+        "lightninger",
+        "katana",
+        "heavy_sword",
+        "unbridled_gazor"
+      ],
       "chips": [
         "wall",
         "knowledge",
@@ -6280,7 +6538,12 @@
         "id": 97547,
         "name": "Poliw"
       },
-      "weapons": [],
+      "weapons": [
+        "bazooka",
+        "mysterious_electrisor",
+        "rifle",
+        "heavy_sword"
+      ],
       "chips": [
         "knowledge",
         "shield",
@@ -6308,7 +6571,7 @@
       "id": 81638,
       "name": "Kraton",
       "level": 301,
-      "talent": 3421,
+      "talent": 3423,
       "ranking": 6,
       "life": 3465,
       "tp": 27,
@@ -6326,7 +6589,12 @@
         "id": 76772,
         "name": "Kraspen"
       },
-      "weapons": [],
+      "weapons": [
+        "sword",
+        "flame_thrower",
+        "gazor",
+        "revoked_m_laser"
+      ],
       "chips": [
         "knowledge",
         "venom",
@@ -6377,7 +6645,12 @@
         "id": 58321,
         "name": "fujiwar"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "lightninger",
+        "heavy_sword",
+        "revoked_m_laser"
+      ],
       "chips": [
         "protein",
         "knowledge",
@@ -6427,7 +6700,12 @@
         "id": 75627,
         "name": "Efr"
       },
-      "weapons": [],
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "gazor",
+        "unbridled_gazor"
+      ],
       "chips": [
         "motivation",
         "leather_boots",
@@ -6474,7 +6752,12 @@
         "id": 76694,
         "name": "MegaSushi"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "katana",
+        "heavy_sword",
+        "revoked_m_laser"
+      ],
       "chips": [
         "protein",
         "wall",
@@ -6506,7 +6789,7 @@
       "name": "BabyKrasseux",
       "level": 301,
       "talent": 2389,
-      "ranking": 268,
+      "ranking": 269,
       "life": 3054,
       "tp": 27,
       "mp": 6,
@@ -6523,7 +6806,12 @@
         "id": 97545,
         "name": "BabyKraspen"
       },
-      "weapons": [],
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "mysterious_electrisor",
+        "gazor"
+      ],
       "chips": [
         "wall",
         "knowledge",
@@ -6574,7 +6862,12 @@
         "id": 66407,
         "name": "Magestik25"
       },
-      "weapons": [],
+      "weapons": [
+        "unstable_destroyer",
+        "rhino",
+        "rifle",
+        "m_laser"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -6620,7 +6913,12 @@
         "id": 120993,
         "name": "chrisss"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "enhanced_lightninger",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -6667,7 +6965,12 @@
         "id": 76431,
         "name": "BeatrixPotter"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "shotgun",
+        "enhanced_lightninger",
+        "heavy_sword"
+      ],
       "chips": [
         "wall",
         "spark",
@@ -6701,7 +7004,7 @@
       "name": "Polynomial",
       "level": 301,
       "talent": 2014,
-      "ranking": 628,
+      "ranking": 630,
       "life": 3128,
       "tp": 25,
       "mp": 6,
@@ -6718,7 +7021,12 @@
         "id": 97569,
         "name": "FdHP5"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "sword",
+        "illicit_grenade_launcher",
+        "j_laser"
+      ],
       "chips": [
         "knowledge",
         "alteration",
@@ -6750,7 +7058,7 @@
       "name": "SamuelWhiskers",
       "level": 301,
       "talent": 2329,
-      "ranking": 350,
+      "ranking": 349,
       "life": 2720,
       "tp": 26,
       "mp": 8,
@@ -6768,7 +7076,10 @@
         "name": "BeatrixPotter"
       },
       "weapons": [
-        "excalibur"
+        "machine_gun",
+        "shotgun",
+        "heavy_sword",
+        "revoked_m_laser"
       ],
       "chips": [
         "wall",
@@ -6802,8 +7113,8 @@
       "id": 82210,
       "name": "Krapule",
       "level": 301,
-      "talent": 3369,
-      "ranking": 8,
+      "talent": 3388,
+      "ranking": 7,
       "life": 3465,
       "tp": 27,
       "mp": 7,
@@ -6820,7 +7131,12 @@
         "id": 76772,
         "name": "Kraspen"
       },
-      "weapons": [],
+      "weapons": [
+        "sword",
+        "unstable_destroyer",
+        "flame_thrower",
+        "gazor"
+      ],
       "chips": [
         "knowledge",
         "venom",
@@ -6871,7 +7187,12 @@
         "id": 73155,
         "name": "tagadaveniradieux"
       },
-      "weapons": [],
+      "weapons": [
+        "flame_thrower",
+        "rhino",
+        "mysterious_electrisor",
+        "gazor"
+      ],
       "chips": [
         "motivation",
         "armoring",
@@ -6918,7 +7239,10 @@
         "name": "Ref"
       },
       "weapons": [
-        "excalibur"
+        "machine_gun",
+        "unstable_destroyer",
+        "j_laser",
+        "quantum_rifle"
       ],
       "chips": [
         "protein",
@@ -6971,7 +7295,12 @@
         "id": 102191,
         "name": "Winner"
       },
-      "weapons": [],
+      "weapons": [
+        "illicit_grenade_launcher",
+        "rhino",
+        "lightninger",
+        "katana"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -7025,7 +7354,12 @@
         "id": 76473,
         "name": "galactichitchleeker"
       },
-      "weapons": [],
+      "weapons": [
+        "enhanced_lightninger",
+        "rifle",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "liberation",
         "armoring",
@@ -7071,7 +7405,12 @@
         "id": 98186,
         "name": "Smartiz"
       },
-      "weapons": [],
+      "weapons": [
+        "unstable_destroyer",
+        "rhino",
+        "katana",
+        "quantum_rifle"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -7116,7 +7455,12 @@
         "id": 34434,
         "name": "fantonico"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "rhino",
+        "mysterious_electrisor",
+        "lightninger"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -7168,7 +7512,10 @@
         "name": "chrisss"
       },
       "weapons": [
-        "scythe"
+        "double_gun",
+        "flame_thrower",
+        "gazor",
+        "unbridled_gazor"
       ],
       "chips": [
         "motivation",
@@ -7219,7 +7566,10 @@
         "name": "LaCOGIP"
       },
       "weapons": [
-        "excalibur"
+        "machine_gun",
+        "neutrino",
+        "enhanced_lightninger",
+        "katana"
       ],
       "chips": [
         "wall",
@@ -7271,7 +7621,12 @@
         "id": 123143,
         "name": "ReBroll"
       },
-      "weapons": [],
+      "weapons": [
+        "sword",
+        "rhino",
+        "mysterious_electrisor",
+        "quantum_rifle"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -7301,7 +7656,7 @@
       "name": "Leekidatore",
       "level": 301,
       "talent": 2908,
-      "ranking": 53,
+      "ranking": 54,
       "life": 2985,
       "tp": 28,
       "mp": 7,
@@ -7318,7 +7673,12 @@
         "id": 32858,
         "name": "Joalien"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "j_laser",
+        "mysterious_electrisor",
+        "quantum_rifle"
+      ],
       "chips": [
         "knowledge",
         "solidification",
@@ -7351,8 +7711,8 @@
       "id": 81733,
       "name": "Krasseux",
       "level": 301,
-      "talent": 3378,
-      "ranking": 7,
+      "talent": 3379,
+      "ranking": 8,
       "life": 3465,
       "tp": 27,
       "mp": 7,
@@ -7369,7 +7729,12 @@
         "id": 76772,
         "name": "Kraspen"
       },
-      "weapons": [],
+      "weapons": [
+        "sword",
+        "flame_thrower",
+        "mysterious_electrisor",
+        "gazor"
+      ],
       "chips": [
         "knowledge",
         "venom",
@@ -7402,7 +7767,7 @@
       "id": 47943,
       "name": "TomateTransg\u00e9nique",
       "level": 301,
-      "talent": 2940,
+      "talent": 2938,
       "ranking": 47,
       "life": 2965,
       "tp": 27,
@@ -7420,7 +7785,12 @@
         "id": 43276,
         "name": "Ref"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "lightninger",
+        "enhanced_lightninger",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "leather_boots",
@@ -7469,7 +7839,12 @@
         "id": 102191,
         "name": "Winner"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "lightninger",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "wall",
@@ -7524,7 +7899,12 @@
         "id": 76695,
         "name": "ihsusikamet"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "mysterious_electrisor",
+        "katana",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "knowledge",
@@ -7573,7 +7953,12 @@
         "id": 66407,
         "name": "Magestik25"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "mysterious_electrisor",
+        "rifle",
+        "m_laser"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -7602,7 +7987,7 @@
       "name": "Baalail",
       "level": 301,
       "talent": 1786,
-      "ranking": 875,
+      "ranking": 869,
       "life": 1970,
       "tp": 28,
       "mp": 5,
@@ -7619,7 +8004,9 @@
         "id": 28258,
         "name": "baali"
       },
-      "weapons": [],
+      "weapons": [
+        "mysterious_electrisor"
+      ],
       "chips": [
         "motivation",
         "leather_boots",
@@ -7666,7 +8053,10 @@
         "name": "Amal"
       },
       "weapons": [
-        "excalibur"
+        "machine_gun",
+        "neutrino",
+        "mysterious_electrisor",
+        "quantum_rifle"
       ],
       "chips": [
         "solidification",
@@ -7715,7 +8105,12 @@
         "id": 55280,
         "name": "CultureBio"
       },
-      "weapons": [],
+      "weapons": [
+        "lightninger",
+        "heavy_sword",
+        "m_laser",
+        "revoked_m_laser"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -7766,7 +8161,12 @@
         "id": 94042,
         "name": "Bux420"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "rhino",
+        "enhanced_lightninger",
+        "heavy_sword"
+      ],
       "chips": [
         "bandage",
         "protein",
@@ -7805,7 +8205,12 @@
         "id": 76473,
         "name": "galactichitchleeker"
       },
-      "weapons": [],
+      "weapons": [
+        "lightninger",
+        "heavy_sword",
+        "m_laser",
+        "revoked_m_laser"
+      ],
       "chips": [
         "protein",
         "shield",
@@ -7856,7 +8261,10 @@
         "name": "BeatrixPotter"
       },
       "weapons": [
-        "excalibur"
+        "machine_gun",
+        "neutrino",
+        "mysterious_electrisor",
+        "heavy_sword"
       ],
       "chips": [
         "wall",
@@ -7910,7 +8318,12 @@
         "id": 34958,
         "name": "tagadanar"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "enhanced_lightninger",
+        "quantum_rifle",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "wall",
@@ -7963,7 +8376,12 @@
         "id": 99783,
         "name": "Marcellus"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "bazooka",
+        "enhanced_lightninger",
+        "heavy_sword"
+      ],
       "chips": [
         "knowledge",
         "shield",
@@ -7997,7 +8415,7 @@
       "name": "Lamastico",
       "level": 301,
       "talent": 3096,
-      "ranking": 24,
+      "ranking": 23,
       "life": 2600,
       "tp": 25,
       "mp": 8,
@@ -8014,7 +8432,12 @@
         "id": 34958,
         "name": "tagadanar"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "explorer_rifle",
+        "quantum_rifle",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -8067,7 +8490,12 @@
         "id": 86242,
         "name": "thaddee"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "mysterious_electrisor",
+        "lightninger",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "wall",
@@ -8118,7 +8546,12 @@
         "id": 98186,
         "name": "Smartiz"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "katana",
+        "quantum_rifle",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -8147,7 +8580,7 @@
       "name": "L33kSkywalker",
       "level": 301,
       "talent": 1487,
-      "ranking": 1507,
+      "ranking": 1511,
       "life": 3215,
       "tp": 25,
       "mp": 6,
@@ -8164,7 +8597,12 @@
         "id": 95252,
         "name": "Fulify"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "illicit_grenade_launcher",
+        "katana",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -8192,8 +8630,8 @@
       "id": 130975,
       "name": "Bux43",
       "level": 300,
-      "talent": 1123,
-      "ranking": 2720,
+      "talent": 1138,
+      "ranking": 2703,
       "life": 3749,
       "tp": 22,
       "mp": 5,
@@ -8210,7 +8648,12 @@
         "id": 60894,
         "name": "Bux42"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "enhanced_lightninger",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "bandage",
         "protein",
@@ -8251,7 +8694,12 @@
         "id": 120993,
         "name": "chrisss"
       },
-      "weapons": [],
+      "weapons": [
+        "j_laser",
+        "rhino",
+        "lightninger",
+        "explorer_rifle"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -8280,8 +8728,8 @@
       "id": 36264,
       "name": "leekattak",
       "level": 301,
-      "talent": 3182,
-      "ranking": 16,
+      "talent": 3194,
+      "ranking": 15,
       "life": 3050,
       "tp": 25,
       "mp": 9,
@@ -8298,7 +8746,12 @@
         "id": 32858,
         "name": "Joalien"
       },
-      "weapons": [],
+      "weapons": [
+        "bazooka",
+        "rhino",
+        "enhanced_lightninger",
+        "heavy_sword"
+      ],
       "chips": [
         "motivation",
         "wall",
@@ -8346,7 +8799,12 @@
         "id": 76473,
         "name": "galactichitchleeker"
       },
-      "weapons": [],
+      "weapons": [
+        "bazooka",
+        "mysterious_electrisor",
+        "lightninger",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "wall",
@@ -8375,7 +8833,7 @@
       "name": "AgadeLeek5",
       "level": 301,
       "talent": 2746,
-      "ranking": 84,
+      "ranking": 85,
       "life": 3035,
       "tp": 26,
       "mp": 7,
@@ -8392,7 +8850,12 @@
         "id": 101978,
         "name": "Agade2"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "lightninger",
+        "m_laser",
+        "revoked_m_laser"
+      ],
       "chips": [
         "protein",
         "knowledge",
@@ -8439,7 +8902,12 @@
         "id": 43276,
         "name": "Ref"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "lightninger",
+        "m_laser",
+        "revoked_m_laser"
+      ],
       "chips": [
         "protein",
         "leather_boots",
@@ -8488,7 +8956,12 @@
         "id": 76695,
         "name": "ihsusikamet"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "katana",
+        "heavy_sword",
+        "revoked_m_laser"
+      ],
       "chips": [
         "wall",
         "knowledge",
@@ -8537,7 +9010,12 @@
         "id": 99628,
         "name": "SlightlySmartLeekStem"
       },
-      "weapons": [],
+      "weapons": [
+        "b_laser",
+        "katana",
+        "explorer_rifle",
+        "gazor"
+      ],
       "chips": [
         "knowledge",
         "shield",
@@ -8581,7 +9059,12 @@
         "id": 101978,
         "name": "Agade2"
       },
-      "weapons": [],
+      "weapons": [
+        "bazooka",
+        "rhino",
+        "enhanced_lightninger",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "knowledge",
@@ -8610,8 +9093,8 @@
       "id": 131032,
       "name": "koe",
       "level": 301,
-      "talent": 2876,
-      "ranking": 60,
+      "talent": 2867,
+      "ranking": 61,
       "life": 3475,
       "tp": 24,
       "mp": 7,
@@ -8629,7 +9112,10 @@
         "name": "koe"
       },
       "weapons": [
-        "scythe"
+        "double_gun",
+        "flame_thrower",
+        "gazor",
+        "unbridled_gazor"
       ],
       "chips": [
         "cure",
@@ -8677,7 +9163,12 @@
         "id": 86242,
         "name": "thaddee"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "enhanced_lightninger",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -8730,7 +9221,12 @@
         "id": 100982,
         "name": "AntiSlash"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "rhino",
+        "lightninger",
+        "heavy_sword"
+      ],
       "chips": [
         "protein",
         "wall",
@@ -8782,7 +9278,12 @@
         "id": 98186,
         "name": "Smartiz"
       },
-      "weapons": [],
+      "weapons": [
+        "rhino",
+        "mysterious_electrisor",
+        "katana",
+        "m_laser"
+      ],
       "chips": [
         "protein",
         "motivation",
@@ -8829,7 +9330,10 @@
         "name": "ReBroll"
       },
       "weapons": [
-        "scythe"
+        "double_gun",
+        "flame_thrower",
+        "gazor",
+        "revoked_m_laser"
       ],
       "chips": [
         "motivation",
