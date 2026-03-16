@@ -54,7 +54,7 @@ function renderLeekWithHat(leekId, wrapClass) {
     return html;
 }
 
-function buildChampions(daltons, farmerRanking, teamRanking, config) {
+function buildChampions(daltons, config) {
     // Collect per farmer: which sections they beat, best level in each
     const farmers = {}; // farmer_id -> { name, sections: [{name, level, turns}] }
 
@@ -73,23 +73,7 @@ function buildChampions(daltons, farmerRanking, teamRanking, config) {
         }
     }
 
-    // Farmer fights
-    for (const e of farmerRanking) {
-        const fid = e.farmer_id;
-        if (!fid) continue;
-        if (!farmers[fid]) farmers[fid] = { name: e.farmer_name, id: fid, sections: [] };
-        farmers[fid].sections.push({ name: "Farmer", level: e.total_level, turns: e.turns || 0 });
-    }
-
-    // Team fights
-    for (const e of teamRanking) {
-        const fid = e.farmer_id;
-        if (!fid) continue;
-        if (!farmers[fid]) farmers[fid] = { name: e.farmer_name, id: fid, sections: [] };
-        farmers[fid].sections.push({ name: "Team", level: e.total_level, turns: e.turns || 0 });
-    }
-
-    // Only include farmers who beat at least 2 sections
+    // Only include farmers who beat at least 2 solo sections
     const result = Object.values(farmers)
         .filter(f => f.sections.length >= 2)
         .map(f => ({
@@ -153,17 +137,13 @@ function render(data) {
     const nav = document.getElementById("section-nav");
     const config = data.daltons_config || [];
     const daltons = data.daltons || {};
-    const farmerRanking = data.farmer_ranking || [];
-    const farmerConfig = data.farmer_config;
-    const teamRanking = data.team_ranking || [];
-    const teamConfig = data.team_config;
 
     let html = "";
     let navHtml = "";
     let sectionIndex = 0;
 
     // Grand Champion — aggregate across all sections
-    const champions = buildChampions(daltons, farmerRanking, teamRanking, config);
+    const champions = buildChampions(daltons, config);
 
     if (champions.length > 0) {
         const top = champions[0];
@@ -193,52 +173,6 @@ function render(data) {
         html += `<div class="section-stats"><span class="count">${champions.length}</span>champions</div>`;
         html += `</div>`;
         html += renderChampionTable(champions);
-        html += `</div>`;
-        sectionIndex++;
-    }
-
-    // Farmer ranking
-    if (farmerConfig) {
-        const count = farmerRanking.length;
-        navHtml += `<a href="#farmer" class="nav-btn">` +
-            `<img src="${FARMER_AVATAR}" alt="">` +
-            `${esc(farmerConfig.name)}</a>`;
-
-        html += `<div class="dalton-section" id="farmer">`;
-        html += `<div class="section-header">`;
-        html += `<img src="${FARMER_AVATAR}" class="farmer-avatar" alt="${esc(farmerConfig.name)}">`;
-        html += `<div class="section-info">`;
-        html += `<h2><a href="https://leekwars.com/garden/challenge/farmer/${safeInt(farmerConfig.farmer_id)}" target="_blank" class="section-link">${esc(farmerConfig.name)}</a></h2>`;
-        html += `<span class="badge badge-farmer">Farmer fight</span>`;
-        html += `</div>`;
-        html += `<div class="section-stats"><span class="count">${count}</span>challengers${renderStatsHtml(farmerRanking, "farmer")}</div>`;
-        html += `</div>`;
-        html += count > 0 ? renderTable(farmerRanking, "farmer", farmerConfig.name) : renderEmpty();
-        html += `</div>`;
-        sectionIndex++;
-    }
-
-    // Team ranking
-    if (teamConfig) {
-        const count = teamRanking.length;
-        navHtml += `<a href="#team" class="nav-btn">` +
-            `<img src="${TEAM_EMBLEM}" alt="">` +
-            `${esc(teamConfig.name)}</a>`;
-
-        if (sectionIndex > 0) {
-            html += `<div class="section-divider"><span>&#9733;</span></div>`;
-        }
-
-        html += `<div class="dalton-section" id="team">`;
-        html += `<div class="section-header">`;
-        html += `<img src="${TEAM_EMBLEM}" class="farmer-avatar" alt="${esc(teamConfig.name)}">`;
-        html += `<div class="section-info">`;
-        html += `<h2><a href="https://leekwars.com/garden/challenge/team/${safeInt(teamConfig.team_id)}" target="_blank" class="section-link">${esc(teamConfig.name)}</a></h2>`;
-        html += `<span class="badge badge-team">Team fight</span>`;
-        html += `</div>`;
-        html += `<div class="section-stats"><span class="count">${count}</span>challengers${renderStatsHtml(teamRanking, "team")}</div>`;
-        html += `</div>`;
-        html += count > 0 ? renderTable(teamRanking, "team", teamConfig.name) : renderEmpty();
         html += `</div>`;
         sectionIndex++;
     }
