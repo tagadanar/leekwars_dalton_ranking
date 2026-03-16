@@ -1751,3 +1751,181 @@ footer a:hover {
 .comp-farmer-name:hover {
     color: var(--sand);
 }
+
+/* =========================================
+   Ghost Dalton — Secret Trigger
+   ========================================= */
+
+.ghost-dalton {
+    opacity: 0.06;
+    filter: grayscale(1) brightness(1.5);
+    transition: opacity 0.8s ease, filter 0.8s ease;
+    cursor: pointer;
+}
+
+.ghost-dalton:hover {
+    opacity: 0.35;
+    filter: grayscale(0.6) brightness(1.2) drop-shadow(0 0 12px rgba(130, 200, 160, 0.4));
+}
+
+.ghost-dalton.ghost-found {
+    opacity: 0.5;
+    filter: grayscale(0.3) brightness(1.1) drop-shadow(0 0 16px rgba(130, 200, 160, 0.6));
+}
+
+.ghost-dalton span {
+    color: rgba(130, 200, 160, 0.5) !important;
+}
+
+/* =========================================
+   Haunted Section — Abandoned Saloon Theme
+   ========================================= */
+
+.haunted-section {
+    margin-top: 2rem;
+}
+
+.haunted-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.haunted-divider::before,
+.haunted-divider::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    max-width: 140px;
+}
+
+.haunted-divider::before {
+    background: linear-gradient(90deg, transparent, #4a5568);
+}
+
+.haunted-divider::after {
+    background: linear-gradient(90deg, #4a5568, transparent);
+}
+
+.haunted-divider span {
+    font-size: 1.3rem;
+    line-height: 1;
+    filter: grayscale(0.3);
+    text-shadow: 0 0 10px rgba(130, 200, 160, 0.3);
+}
+
+/* Condemned section card */
+.condemned-section {
+    border-color: #3a4a3a !important;
+    background: #1a1e1a !important;
+    box-shadow:
+        inset 0 0 0 1px rgba(130, 200, 160, 0.06),
+        0 0 0 1px rgba(0,0,0,0.4),
+        0 0 0 3px rgba(60, 80, 60, 0.2),
+        0 0 0 4px rgba(0,0,0,0.15),
+        0 0 30px rgba(130, 200, 160, 0.04),
+        0 4px 16px rgba(0,0,0,0.5) !important;
+}
+
+.condemned-section::before {
+    border-color: rgba(130, 200, 160, 0.1) !important;
+}
+
+.condemned-section::after {
+    content: "\2620  CONDEMNED \2620" !important;
+    color: #6b8a6b !important;
+    background: #1a1e1a !important;
+    font-family: "Rye", serif;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.5rem;
+    letter-spacing: 0.2em;
+    padding: 0 0.8rem;
+    z-index: 2;
+}
+
+.condemned-header {
+    background:
+        linear-gradient(135deg, rgba(130, 200, 160, 0.04) 0%, transparent 60%),
+        repeating-linear-gradient(90deg, transparent, transparent 120px, rgba(60,80,60,0.04) 120px, rgba(60,80,60,0.04) 121px) !important;
+    border-bottom-color: #3a4a3a !important;
+}
+
+.condemned-avatar {
+    border-color: #3a4a3a !important;
+    filter: brightness(0.85) saturate(0.7);
+    box-shadow:
+        0 0 8px rgba(130, 200, 160, 0.1),
+        0 0 0 1px rgba(130, 200, 160, 0.08) !important;
+}
+
+.condemned-title {
+    color: #6b8a6b !important;
+}
+
+.condemned-title a {
+    color: inherit !important;
+}
+
+.condemned-title a:hover {
+    color: #8ab88a !important;
+}
+
+.condemned-stats .count {
+    color: #6b8a6b !important;
+}
+
+.badge-condemned {
+    color: #8ab88a;
+    background: rgba(130, 200, 160, 0.06);
+    border: 1px solid rgba(130, 200, 160, 0.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Condemned table overrides */
+.condemned-table th {
+    background:
+        linear-gradient(180deg, rgba(40,50,40,0.5) 0%, #1a1e1a 100%) !important;
+    border-bottom-color: #3a4a3a !important;
+}
+
+.condemned-table td {
+    border-bottom-color: rgba(60,80,60,0.12) !important;
+}
+
+.condemned-table tbody tr:hover td {
+    background: rgba(130, 200, 160, 0.04) !important;
+}
+
+/* Cobweb decorations on condemned section */
+.condemned-section .section-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background:
+        radial-gradient(ellipse at 0% 0%, rgba(180,180,180,0.06) 0%, transparent 70%),
+        linear-gradient(135deg, rgba(180,180,180,0.05) 0%, transparent 30%);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.condemned-section .section-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background:
+        radial-gradient(ellipse at 100% 0%, rgba(180,180,180,0.06) 0%, transparent 70%),
+        linear-gradient(225deg, rgba(180,180,180,0.05) 0%, transparent 30%);
+    pointer-events: none;
+    z-index: 2;
+}

@@ -19,6 +19,19 @@ const DALTON_HATS = {
 
 const FARMER_AVATAR = "https://leekwars.com/avatar/42851.png";
 const TEAM_EMBLEM = "luckyleek.png";
+const SECRET_AVATAR = "https://leekwars.com/avatar/50168.png";
+
+// Capital formula: 50 base + 5/level, +50 at 100/200/300, +100 at 301
+function computeCapital(level) {
+    if (level < 1) return 0;
+    let total = 50;
+    for (let lv = 2; lv <= level; lv++) {
+        if (lv === 301) total += 100;
+        else if (lv % 100 === 0) total += 50;
+        else total += 5;
+    }
+    return total;
+}
 
 // Star medals for top 3 (gold / silver / bronze)
 const STAR = '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/>';
@@ -206,6 +219,27 @@ function render(data) {
         sectionIndex++;
     }
 
+    // Secret section — hidden by default, revealed by ghost click
+    const secretRanking = data.secret_ranking || [];
+    const secretConfig = data.secret_config;
+    if (secretConfig && secretRanking.length > 0) {
+        const count = secretRanking.length;
+        html += `<div class="haunted-section" id="haunted" style="display:none">`;
+        html += `<div class="haunted-divider"><span>&#128128;</span></div>`;
+        html += `<div class="dalton-section condemned-section">`;
+        html += `<div class="section-header condemned-header">`;
+        html += `<img src="${SECRET_AVATAR}" class="farmer-avatar condemned-avatar" alt="${esc(secretConfig.name)}">`;
+        html += `<div class="section-info">`;
+        html += `<h2 class="condemned-title"><a href="https://leekwars.com/garden/challenge/farmer/${safeInt(secretConfig.farmer_id)}" target="_blank" class="section-link">${esc(secretConfig.name)}</a></h2>`;
+        html += `<span class="badge badge-condemned">Ghost fight</span>`;
+        html += `</div>`;
+        html += `<div class="section-stats condemned-stats"><span class="count">${count}</span>brave souls</div>`;
+        html += `</div>`;
+        html += count > 0 ? renderSecretTable(secretRanking, secretConfig.name) : renderEmpty();
+        html += `</div>`;
+        html += `</div>`;
+    }
+
     nav.innerHTML = navHtml;
     main.innerHTML = html || '<p class="loading">No rankings data yet.</p>';
 
@@ -215,6 +249,12 @@ function render(data) {
 
     // Re-apply "my farmer" highlight
     highlightMyFarmer(localStorage.getItem("dalton_my_farmer") || "");
+
+    // Restore secret visibility if previously unlocked
+    if (localStorage.getItem("dalton_secret_unlocked")) {
+        const haunted = document.getElementById("haunted");
+        if (haunted) haunted.style.display = "";
+    }
 }
 
 function renderStatsHtml(entries, type) {
@@ -307,6 +347,80 @@ function renderTable(entries, type, sectionName) {
     return html;
 }
 
+function renderSecretTable(entries, sectionName) {
+    let html = '<div class="table-scroll"><table class="ranking-table condemned-table"><thead><tr>';
+    html += '<th style="text-align:center">#</th>';
+    html += '<th class="sortable" data-sort="farmer">Farmer</th>';
+    html += '<th class="sortable" data-sort="leek">Leeks</th>';
+    html += '<th class="sortable sort-active sort-asc" data-sort="capital" style="text-align:center">Capital</th>';
+    html += '<th class="sortable" data-sort="level" style="text-align:center">Level</th>';
+    html += '<th class="sortable" data-sort="turns" style="text-align:center">Turns</th>';
+    html += '<th class="sortable" data-sort="date">Date</th>';
+    html += '<th></th>';
+    html += '</tr></thead><tbody>';
+
+    const now = Date.now() / 1000;
+    const RECENT = 48 * 3600;
+
+    entries.forEach((e, i) => {
+        const rank = i + 1;
+        const isNew = e.date && (now - e.date) < RECENT;
+        const cls = (rank <= 3 ? ` rank-${rank}` : "") + (isNew ? " row-new" : "");
+        const dateStr = e.date ? new Date(e.date * 1000).toLocaleDateString() : "?";
+        const leekIds = (e.leeks || []).map(l => safeInt(l.id)).filter(Boolean);
+        const compData = leekIds.length > 0
+            ? (e.leeks || []).map(l => ({ id: safeInt(l.id), f: safeInt(l.farmer), fn: l.farmer_name || "" }))
+            : null;
+        const leekCol = compData
+            ? `<span data-comp='${JSON.stringify(compData).replace(/'/g, "&#39;")}'>${esc(e.leek_names || "?")}</span>`
+            : esc(e.leek_names || "?");
+        const capital = e.total_capital || 0;
+        const level = e.total_level;
+
+        let rankHtml;
+        if (MEDAL[rank]) {
+            rankHtml = `<img src="${MEDAL[rank]}" class="rank-medal" alt="#${rank}">`;
+        } else {
+            rankHtml = rank;
+        }
+
+        const farmerId = safeInt(e.farmer_id);
+        const avatarImg = farmerId
+            ? `<img src="https://leekwars.com/avatar/${farmerId}.png" class="farmer-mini-avatar" alt="">`
+            : "";
+        const displayName = e.farmer_name || "?";
+        const farmerLink = farmerId
+            ? `${avatarImg}<a href="https://leekwars.com/farmer/${farmerId}" target="_blank" data-farmer-id="${farmerId}">${esc(displayName)}</a>`
+            : esc(displayName);
+
+        const leekName = e.leek_names || "?";
+        const hist = e.history || [];
+        const histAttr = hist.length > 1 ? ` data-history='${JSON.stringify(hist).replace(/'/g, "&#39;")}'` : "";
+        const expandable = hist.length > 1 ? " expandable" : "";
+        html += `<tr class="${cls}${expandable}" data-capital="${capital}" data-level="${level}" data-turns="${e.turns || 0}" data-date="${e.date || 0}" data-farmer="${safeAttr(displayName.toLowerCase())}" data-leek="${safeAttr(leekName.toLowerCase())}"${histAttr}>`;
+        const newBadge = isNew ? `<span class="new-badge">NEW</span>` : "";
+        const winsBadge = hist.length > 1 ? `<span class="wins-badge" title="${hist.length} wins">${hist.length}x</span>` : "";
+        html += `<td class="rank-cell">${rankHtml}</td>`;
+        html += `<td class="farmer-cell">${farmerLink}${newBadge}${winsBadge}</td>`;
+        html += `<td class="leek-cell">${leekCol}</td>`;
+        html += `<td class="level-cell">${capital}</td>`;
+        html += `<td class="level-cell">${level}</td>`;
+        html += `<td class="turns-cell">${e.turns || "?"}</td>`;
+        html += `<td class="date-cell">${dateStr}</td>`;
+        const fightUrl = `https://leekwars.com/fight/${safeInt(e.fight_id)}`;
+        const shareText = `I beat ${sectionName} at ${capital} capital in ${e.turns || "?"}t! ${fightUrl}`;
+        html += `<td class="action-cell">` +
+            `<a class="fight-link" href="${fightUrl}" target="_blank">` +
+            `<img src="${IMG}/weapon/pistol.png" alt="">fight</a>` +
+            `<button class="share-btn" data-share="${esc(shareText)}" title="Copy to clipboard">&#128203;</button>` +
+            `</td>`;
+        html += `</tr>`;
+    });
+
+    html += '</tbody></table></div>';
+    return html;
+}
+
 function renderEmpty() {
     return `<div class="empty-state">` +
         `<img src="${IMG}/weapon/magnum.png" alt="">` +
@@ -350,7 +464,7 @@ document.addEventListener("click", (ev) => {
     const tbody = table.querySelector("tbody");
     const rows = Array.from(tbody.rows);
     const key = th.dataset.sort;
-    const isNumeric = key === "level" || key === "turns" || key === "date";
+    const isNumeric = key === "level" || key === "turns" || key === "date" || key === "capital";
 
     // Toggle direction
     const wasAsc = th.classList.contains("sort-asc");
@@ -778,6 +892,25 @@ document.addEventListener("mouseleave", (ev) => {
         }, 150);
     }
 }, true);
+
+// Ghost Dalton — secret section trigger
+const ghostTrigger = document.getElementById("ghost-trigger");
+if (ghostTrigger) {
+    ghostTrigger.addEventListener("click", () => {
+        const haunted = document.getElementById("haunted");
+        if (!haunted) return;
+        // Reveal & remember
+        haunted.style.display = "";
+        localStorage.setItem("dalton_secret_unlocked", "1");
+        ghostTrigger.classList.add("ghost-found");
+        // Spooky sound
+        const ghostSnd = new Audio(`https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound/heal.mp3`);
+        ghostSnd.volume = 0.3;
+        ghostSnd.play().catch(() => {});
+        // Scroll to it
+        setTimeout(() => haunted.scrollIntoView({ behavior: "smooth", block: "start" }), 300);
+    });
+}
 
 // Easter eggs on hero Daltons
 const LW_SND = "https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound";

@@ -181,12 +181,32 @@ def extract_challenger_info(fight, dalton_leek_ids):
     }
 
 
+def compute_capital(level):
+    """Compute total capital points for a given level."""
+    if level < 1:
+        return 0
+    total = 50  # Level 1 base
+    for lv in range(2, level + 1):
+        if lv == 301:
+            total += 100
+        elif lv % 100 == 0:  # 100, 200, 300
+            total += 50
+        else:
+            total += 5
+    return total
+
+
 def ranking_key(entry):
     """Sort key: level ASC, then turns ASC."""
     return (entry["total_level"], entry["turns"])
 
 
-def merge_rankings(existing, new_entries):
+def ranking_key_capital(entry):
+    """Sort key for secret ranking: capital ASC, then turns ASC."""
+    return (entry.get("total_capital", 0), entry["turns"])
+
+
+def merge_rankings(existing, new_entries, key_fn=None):
     """Merge new entries, keeping best per unique key with full history.
 
     Each entry in the output keeps a 'history' list of all wins by that farmer,
@@ -194,6 +214,9 @@ def merge_rankings(existing, new_entries):
     Also migrates old composite keys (e.g. "53189_71600") to farmer-only
     keys ("53189"), deduplicating by best score.
     """
+    if key_fn is None:
+        key_fn = ranking_key
+
     # Collect all history per key
     history_by_key = {}
     for e in existing:
@@ -209,6 +232,7 @@ def merge_rankings(existing, new_entries):
         history_by_key[key].append({
             "fight_id": e.get("fight_id"),
             "total_level": e.get("total_level"),
+            "total_capital": e.get("total_capital"),
             "turns": e.get("turns"),
             "date": e.get("date"),
         })
@@ -219,6 +243,7 @@ def merge_rankings(existing, new_entries):
         history_by_key[key].append({
             "fight_id": entry.get("fight_id"),
             "total_level": entry.get("total_level"),
+            "total_capital": entry.get("total_capital"),
             "turns": entry.get("turns"),
             "date": entry.get("date"),
         })
@@ -228,21 +253,21 @@ def merge_rankings(existing, new_entries):
     for e in existing + new_entries:
         key = e["key"]
         e.pop("history", None)
-        if key not in by_key or ranking_key(e) < ranking_key(by_key[key]):
+        if key not in by_key or key_fn(e) < key_fn(by_key[key]):
             by_key[key] = e
 
     # Attach deduplicated, sorted history
     for key, entry in by_key.items():
         seen_ids = set()
         deduped = []
-        for h in sorted(history_by_key.get(key, []), key=lambda h: (h["total_level"], h["turns"])):
+        for h in sorted(history_by_key.get(key, []), key=lambda h: (h.get("total_capital", h.get("total_level", 0)), h["turns"])):
             fid = h.get("fight_id")
             if fid and fid not in seen_ids:
                 seen_ids.add(fid)
                 deduped.append(h)
         entry["history"] = deduped
 
-    return sorted(by_key.values(), key=ranking_key)
+    return sorted(by_key.values(), key=key_fn)
 
 
 def fetch_and_process_history(session, endpoint, cache_key, dalton_leek_ids, cache, type_filter=None):
@@ -328,6 +353,49 @@ def process_farmer(session, farmer_config, dalton_leek_ids, cache, rankings):
     updated = merge_rankings(existing, entries)
     rankings["farmer_ranking"] = updated
     print(f"  Farmer rankings: {len(updated)} entries")
+
+
+def process_secret(session, secret_config, cache, rankings):
+    """Process farmer fight history for the secret farmer (tagadalone)."""
+    farmer_id = secret_config["farmer_id"]
+    name = secret_config["name"]
+    print(f"\nProcessing secret {name} (ID: {farmer_id}) — farmer fights...")
+
+    # Secret farmer's leek IDs are the "dalton" side for this ranking
+    secret_leek_ids = set()
+    resp = api_request(session, f"farmer/get/{farmer_id}")
+    if resp and "farmer" in resp:
+        for lid in resp["farmer"].get("leeks", {}):
+            secret_leek_ids.add(int(lid))
+    elif resp and "leeks" in resp:
+        for lid in resp.get("leeks", {}):
+            secret_leek_ids.add(int(lid))
+    print(f"  Secret farmer leek IDs: {secret_leek_ids}")
+
+    entries = fetch_and_process_history(
+        session, f"history/get-farmer-history/{farmer_id}",
+        f"secret_{farmer_id}", secret_leek_ids, cache, type_filter=1
+    )
+
+    # Key by farmer_id, compute capital for each entry
+    for e in entries:
+        e["key"] = str(e["farmer_id"])
+        e["leek_names"] = ", ".join(l["name"] for l in e["leeks"])
+        e["total_capital"] = sum(compute_capital(l["level"]) for l in e["leeks"])
+
+    existing = rankings.get("secret_ranking", [])
+    # Ensure existing entries have total_capital computed
+    for e in existing:
+        if "total_capital" not in e:
+            e["total_capital"] = sum(compute_capital(l["level"]) for l in e.get("leeks", []))
+
+    updated = merge_rankings(existing, entries, key_fn=ranking_key_capital)
+    # Ensure capital on all merged entries
+    for e in updated:
+        if "total_capital" not in e:
+            e["total_capital"] = sum(compute_capital(l["level"]) for l in e.get("leeks", []))
+    rankings["secret_ranking"] = updated
+    print(f"  Secret rankings: {len(updated)} entries")
 
 
 def process_team(session, team_config, dalton_leek_ids, cache, rankings):
@@ -483,7 +551,7 @@ def fetch_tooltip_data(session, rankings):
                 if leek.get("id"):
                     leek_ids.add(leek["id"])
 
-    for e in rankings.get("farmer_ranking", []) + rankings.get("team_ranking", []):
+    for e in rankings.get("farmer_ranking", []) + rankings.get("team_ranking", []) + rankings.get("secret_ranking", []):
         if e.get("farmer_id"):
             farmer_ids.add(e["farmer_id"])
         for leek in e.get("leeks", []):
@@ -533,6 +601,9 @@ def main():
     if "team" in config:
         process_team(session, config["team"], dalton_leek_ids, cache, rankings)
 
+    if "secret" in config:
+        process_secret(session, config["secret"], cache, rankings)
+
     # Fetch tooltip data for all farmers and leeks in rankings
     tooltip_farmers, tooltip_leeks = fetch_tooltip_data(session, rankings)
     rankings["tooltip_farmers"] = tooltip_farmers
@@ -542,6 +613,7 @@ def main():
     rankings["daltons_config"] = config["daltons"]
     rankings["farmer_config"] = config.get("farmer")
     rankings["team_config"] = config.get("team")
+    rankings["secret_config"] = config.get("secret")
 
     save_cache(cache)
     save_rankings(rankings)
