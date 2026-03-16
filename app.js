@@ -41,12 +41,17 @@ function computeCapital(level) {
     return total;
 }
 
-// Sheriff star medals for top 3 (gold / silver / bronze)
-// 6-pointed sheriff badge star
-const SHERIFF_STAR = '<polygon points="12,0 14.5,8 22,8 16,13 18.5,21 12,16.5 5.5,21 8,13 2,8 9.5,8" /><circle cx="12" cy="12" r="3.5" />';
+// Sheriff badge medals for top 3 (gold / silver / bronze)
+// 6-pointed star with concave indents — classic western sheriff badge
 function starMedal(color) {
-    const darkColor = color === "#ffd700" ? "#b8960a" : color === "#b8c0cc" ? "#8a909a" : "#8b5a1a";
-    return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12,0 14.5,8 22,8 16,13 18.5,21 12,16.5 5.5,21 8,13 2,8 9.5,8" fill="${color}" stroke="${darkColor}" stroke-width="0.7"/><circle cx="12" cy="12" r="3" fill="${darkColor}" opacity="0.3"/></svg>`)}`;
+    const dark = color === "#ffd700" ? "#b8960a" : color === "#b8c0cc" ? "#8a909a" : "#8b5a1a";
+    const pts = "12,1 15,6.8 21.5,6.5 18,12 21.5,17.5 15,17.2 12,23 9,17.2 2.5,17.5 6,12 2.5,6.5 9,6.8";
+    return `data:image/svg+xml,${encodeURIComponent(
+        `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">` +
+        `<polygon points="${pts}" fill="${color}" stroke="${dark}" stroke-width="0.6" stroke-linejoin="round"/>` +
+        `<circle cx="12" cy="12" r="3.5" fill="none" stroke="${dark}" stroke-width="0.5" opacity="0.4"/>` +
+        `</svg>`
+    )}`;
 }
 const MEDAL = {
     1: starMedal("#ffd700"),
