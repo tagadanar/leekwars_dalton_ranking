@@ -196,7 +196,7 @@ function render(data) {
         html += `<span class="corner-stud bl"></span><span class="corner-stud br"></span>`;
         html += `</div>`;
         html += `<div class="most-wanted-info">`;
-        html += `<p class="most-wanted-label">MOST WANTED</p>`;
+        html += `<p class="most-wanted-label">NEW SHERIFF IN TOWN</p>`;
         html += `<p class="most-wanted-name"><a href="https://leekwars.com/farmer/${topFid}" target="_blank">${esc(top.farmer_name)}</a></p>`;
         html += `<p class="most-wanted-stats">${top.beaten} Daltons beaten &middot; Total Lv.${top.total_level}</p>`;
         html += `</div>`;
