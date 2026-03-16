@@ -436,23 +436,26 @@ def _fetch_item_templates(session):
     print("\nFetching item templates...")
     data = api_request(session, "weapon/get-all")
     if isinstance(data, dict):
-        for w in data.values():
-            weapon_names[w["id"]] = w.get("name", "")
+        items = data.get("weapons", data)
+        for w in items.values():
+            if isinstance(w, dict) and "id" in w:
+                weapon_names[w["id"]] = w.get("name", "")
     print(f"  Weapons: {len(weapon_names)} templates")
 
     data = api_request(session, "chip/get-all")
     if isinstance(data, dict):
-        for c in data.values():
-            chip_names[c["id"]] = c.get("name", "")
+        items = data.get("chips", data)
+        for c in items.values():
+            if isinstance(c, dict) and "id" in c:
+                chip_names[c["id"]] = c.get("name", "")
     print(f"  Chips: {len(chip_names)} templates")
 
     data = api_request(session, "component/get-all")
     if isinstance(data, dict):
-        for c in data.values():
-            component_names[c["id"]] = c.get("name", "")
-    elif isinstance(data, list):
-        for c in data:
-            component_names[c["id"]] = c.get("name", "")
+        items = data.get("components", data)
+        for c in items.values():
+            if isinstance(c, dict) and "id" in c:
+                component_names[c["id"]] = c.get("name", "")
     print(f"  Components: {len(component_names)} templates")
 
     return weapon_names, chip_names, component_names
