@@ -1499,7 +1499,7 @@ footer a:hover {
 .rich-tooltip {
     position: fixed;
     z-index: 100;
-    max-width: 380px;
+    max-width: 560px;
     background: var(--bg-card);
     border: 2px solid var(--leather);
     border-radius: 6px;
@@ -1612,13 +1612,13 @@ footer a:hover {
     flex-shrink: 0;
 }
 
-/* Stat grid with icons — 3 columns */
+/* Stat line with icons — single row */
 .stat-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.05rem 0.3rem;
-    font-size: 0.68rem;
-    padding: 0.15rem 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.35rem;
+    font-size: 0.65rem;
+    padding: 0.1rem 0;
 }
 
 .stat-item {
@@ -1631,8 +1631,8 @@ footer a:hover {
 }
 
 .stat-icon {
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
     object-fit: contain;
     opacity: 0.85;
 }
