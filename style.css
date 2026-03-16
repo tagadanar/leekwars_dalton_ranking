@@ -336,7 +336,7 @@ body::before {
 
 .most-wanted-label {
     font-family: "Rye", serif;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     letter-spacing: 0.18em;
     color: var(--terracotta);
     text-transform: uppercase;
@@ -450,16 +450,16 @@ body::before {
 
 .most-wanted-name {
     font-family: "Rye", serif;
-    font-size: 0.85rem;
+    font-size: 1.15rem;
     color: var(--gold);
 }
 
 .sheriff-badge {
-    width: 18px;
-    height: 18px;
+    width: 32px;
+    height: 32px;
     vertical-align: middle;
-    margin-right: 0.3rem;
-    filter: drop-shadow(0 1px 3px rgba(255,215,0,0.3));
+    margin-right: 0.4rem;
+    filter: drop-shadow(0 1px 4px rgba(255,215,0,0.4));
 }
 
 .most-wanted-name a {
@@ -473,7 +473,7 @@ body::before {
 }
 
 .most-wanted-stats {
-    font-size: 0.72rem;
+    font-size: 0.85rem;
     color: var(--text-dim);
 }
 
