@@ -603,6 +603,8 @@ const STAT_DEFS = [
     { key: "science",    icon: `${IMG}/charac/science.png` },
     { key: "magic",      icon: `${IMG}/charac/magic.png` },
     { key: "frequency",  icon: `${IMG}/charac/frequency.png` },
+    { key: "cores",      icon: `${IMG}/charac/cores.png` },
+    { key: "ram",        icon: `${IMG}/charac/ram.png` },
 ];
 
 function renderStatGrid(stats) {

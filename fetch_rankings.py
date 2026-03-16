@@ -352,7 +352,7 @@ def process_team(session, team_config, dalton_leek_ids, cache, rankings):
 
 _LEEK_STATS = [
     "life", "tp", "mp", "strength", "agility", "wisdom",
-    "resistance", "science", "magic", "frequency",
+    "resistance", "science", "magic", "frequency", "cores", "ram",
 ]
 
 
