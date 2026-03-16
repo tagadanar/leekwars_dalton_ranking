@@ -394,7 +394,7 @@ body::before {
     width: 44px;
     height: 110px;
     transform: translateY(-50%);
-    z-index: 4;
+    z-index: -1;
     pointer-events: none;
 }
 
