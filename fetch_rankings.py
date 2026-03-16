@@ -350,6 +350,94 @@ def process_team(session, team_config, dalton_leek_ids, cache, rankings):
     print(f"  Team rankings: {len(updated)} entries")
 
 
+def _strip_farmer(data):
+    """Keep only fields needed for the farmer tooltip."""
+    leeks = {}
+    for lid, leek in (data.get("leeks") or {}).items():
+        leeks[lid] = {
+            "id": leek.get("id"),
+            "name": leek.get("name"),
+            "level": leek.get("level"),
+            "talent": leek.get("talent"),
+        }
+    result = {
+        "id": data.get("id"),
+        "name": data.get("name"),
+        "talent": data.get("talent"),
+        "ranking": data.get("ranking"),
+        "country": data.get("country"),
+        "total_level": data.get("total_level"),
+        "trophies": data.get("trophies"),
+        "leeks": leeks,
+    }
+    team = data.get("team")
+    if team:
+        result["team"] = {"id": team.get("id"), "name": team.get("name")}
+    return result
+
+
+def _strip_leek(data):
+    """Keep only fields needed for the leek tooltip."""
+    result = {
+        "id": data.get("id"),
+        "name": data.get("name"),
+        "level": data.get("level"),
+        "talent": data.get("talent"),
+        "ranking": data.get("ranking"),
+        "life": data.get("life"),
+        "tp": data.get("tp"),
+        "mp": data.get("mp"),
+        "strength": data.get("strength"),
+        "agility": data.get("agility"),
+        "wisdom": data.get("wisdom"),
+        "resistance": data.get("resistance"),
+        "science": data.get("science"),
+        "magic": data.get("magic"),
+        "frequency": data.get("frequency"),
+    }
+    farmer = data.get("farmer")
+    if farmer:
+        result["farmer"] = {"id": farmer.get("id"), "name": farmer.get("name")}
+    return result
+
+
+def fetch_tooltip_data(session, rankings):
+    """Fetch rich tooltip data for all farmers and leeks in rankings."""
+    farmer_ids = set()
+    solo_leek_ids = set()
+
+    # Collect all farmer IDs from all ranking sections
+    for leek_entries in rankings.get("daltons", {}).values():
+        for e in leek_entries:
+            if e.get("farmer_id"):
+                farmer_ids.add(e["farmer_id"])
+            for leek in e.get("leeks", []):
+                if leek.get("id"):
+                    solo_leek_ids.add(leek["id"])
+
+    for e in rankings.get("farmer_ranking", []) + rankings.get("team_ranking", []):
+        if e.get("farmer_id"):
+            farmer_ids.add(e["farmer_id"])
+
+    tooltip_farmers = {}
+    tooltip_leeks = {}
+
+    print(f"\nFetching tooltip data for {len(farmer_ids)} farmers, {len(solo_leek_ids)} leeks...")
+
+    for fid in farmer_ids:
+        data = api_request(session, f"farmer/rich-tooltip/{fid}")
+        if data and "id" in data:
+            tooltip_farmers[str(fid)] = _strip_farmer(data)
+
+    for lid in solo_leek_ids:
+        data = api_request(session, f"leek/rich-tooltip/{lid}")
+        if data and "id" in data:
+            tooltip_leeks[str(lid)] = _strip_leek(data)
+
+    print(f"  Got {len(tooltip_farmers)} farmers, {len(tooltip_leeks)} leeks")
+    return tooltip_farmers, tooltip_leeks
+
+
 def main():
     config = load_config()
     cache = load_cache()
@@ -368,6 +456,11 @@ def main():
 
     if "team" in config:
         process_team(session, config["team"], dalton_leek_ids, cache, rankings)
+
+    # Fetch tooltip data for all farmers and leeks in rankings
+    tooltip_farmers, tooltip_leeks = fetch_tooltip_data(session, rankings)
+    rankings["tooltip_farmers"] = tooltip_farmers
+    rankings["tooltip_leeks"] = tooltip_leeks
 
     rankings["last_updated"] = datetime.now(timezone.utc).isoformat()
     rankings["daltons_config"] = config["daltons"]

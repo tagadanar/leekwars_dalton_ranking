@@ -121,8 +121,9 @@ function renderChampionTable(champions) {
         const rankHtml = MEDAL[rank]
             ? `<img src="${MEDAL[rank]}" class="rank-medal" alt="#${rank}">`
             : rank;
-        const avatarImg = `<img src="https://leekwars.com/avatar/${c.farmer_id}.png" class="farmer-mini-avatar" alt="">`;
-        const farmerLink = `${avatarImg}<a href="https://leekwars.com/farmer/${c.farmer_id}" target="_blank">${esc(c.farmer_name)}</a>`;
+        const fid = safeInt(c.farmer_id);
+        const avatarImg = `<img src="https://leekwars.com/avatar/${fid}.png" class="farmer-mini-avatar" alt="">`;
+        const farmerLink = `${avatarImg}<a href="https://leekwars.com/farmer/${fid}" target="_blank" data-farmer-id="${fid}">${esc(c.farmer_name)}</a>`;
         const sectionList = c.sections.map(s => esc(s.name)).join(", ");
 
         html += `<tr class="${cls}">`;
@@ -140,6 +141,8 @@ function renderChampionTable(champions) {
 }
 
 function render(data) {
+    initTooltipData(data);
+
     if (data.last_updated) {
         const d = new Date(data.last_updated);
         document.getElementById("last-updated").textContent =
@@ -164,6 +167,7 @@ function render(data) {
 
     if (champions.length > 0) {
         const top = champions[0];
+        const topFid = safeInt(top.farmer_id);
         navHtml += `<a href="#champions" class="nav-btn nav-btn-champion">` +
             `<img src="${IMG}/weapon/magnum.png" alt="">` +
             `Grand Champions</a>`;
@@ -172,13 +176,13 @@ function render(data) {
         html += `<div class="section-header champion-header">`;
         html += `<div class="most-wanted">`;
         html += `<div class="most-wanted-avatar-wrap">`;
-        html += `<img src="https://leekwars.com/avatar/${top.farmer_id}.png" class="most-wanted-avatar" alt="${esc(top.farmer_name)}">`;
+        html += `<img src="https://leekwars.com/avatar/${topFid}.png" class="most-wanted-avatar" alt="${esc(top.farmer_name)}">`;
         html += `<span class="corner-stud tl"></span><span class="corner-stud tr"></span>`;
         html += `<span class="corner-stud bl"></span><span class="corner-stud br"></span>`;
         html += `</div>`;
         html += `<div class="most-wanted-info">`;
         html += `<p class="most-wanted-label">MOST WANTED</p>`;
-        html += `<p class="most-wanted-name"><a href="https://leekwars.com/farmer/${top.farmer_id}" target="_blank">${esc(top.farmer_name)}</a></p>`;
+        html += `<p class="most-wanted-name"><a href="https://leekwars.com/farmer/${topFid}" target="_blank">${esc(top.farmer_name)}</a></p>`;
         html += `<p class="most-wanted-stats">${top.beaten} Daltons beaten &middot; Total Lv.${top.total_level}</p>`;
         html += `</div>`;
         html += `</div>`;
@@ -204,7 +208,7 @@ function render(data) {
         html += `<div class="section-header">`;
         html += `<img src="${FARMER_AVATAR}" class="farmer-avatar" alt="${esc(farmerConfig.name)}">`;
         html += `<div class="section-info">`;
-        html += `<h2><a href="https://leekwars.com/garden/challenge/farmer/${farmerConfig.farmer_id}" target="_blank" class="section-link">${esc(farmerConfig.name)}</a></h2>`;
+        html += `<h2><a href="https://leekwars.com/garden/challenge/farmer/${safeInt(farmerConfig.farmer_id)}" target="_blank" class="section-link">${esc(farmerConfig.name)}</a></h2>`;
         html += `<span class="badge badge-farmer">Farmer fight</span>`;
         html += `</div>`;
         html += `<div class="section-stats"><span class="count">${count}</span>challengers${renderStatsHtml(farmerRanking, "farmer")}</div>`;
@@ -229,7 +233,7 @@ function render(data) {
         html += `<div class="section-header">`;
         html += `<img src="${TEAM_EMBLEM}" class="farmer-avatar" alt="${esc(teamConfig.name)}">`;
         html += `<div class="section-info">`;
-        html += `<h2><a href="https://leekwars.com/garden/challenge/team/${teamConfig.team_id}" target="_blank" class="section-link">${esc(teamConfig.name)}</a></h2>`;
+        html += `<h2><a href="https://leekwars.com/garden/challenge/team/${safeInt(teamConfig.team_id)}" target="_blank" class="section-link">${esc(teamConfig.name)}</a></h2>`;
         html += `<span class="badge badge-team">Team fight</span>`;
         html += `</div>`;
         html += `<div class="section-stats"><span class="count">${count}</span>challengers${renderStatsHtml(teamRanking, "team")}</div>`;
@@ -312,9 +316,14 @@ function renderTable(entries, type) {
         const isNew = e.date && (now - e.date) < RECENT;
         const cls = (rank <= 3 ? ` rank-${rank}` : "") + (isNew ? " row-new" : "");
         const dateStr = e.date ? new Date(e.date * 1000).toLocaleDateString() : "?";
+        const leekIds = (e.leeks || []).map(l => safeInt(l.id)).filter(Boolean);
         const leekCol = type === "solo"
-            ? esc(e.leek_name || "?")
-            : esc(e.leek_names || "?");
+            ? (leekIds.length === 1
+                ? `<span data-leek-id="${leekIds[0]}">${esc(e.leek_name || "?")}</span>`
+                : esc(e.leek_name || "?"))
+            : (leekIds.length > 0
+                ? `<span data-leek-ids='${JSON.stringify(leekIds)}'>${esc(e.leek_names || "?")}</span>`
+                : esc(e.leek_names || "?"));
         const level = type === "solo" ? (e.leek_level || e.total_level) : e.total_level;
 
         let rankHtml;
@@ -324,20 +333,20 @@ function renderTable(entries, type) {
             rankHtml = rank;
         }
 
-        const farmerId = e.farmer_id || "";
+        const farmerId = safeInt(e.farmer_id);
         const avatarImg = farmerId
             ? `<img src="https://leekwars.com/avatar/${farmerId}.png" class="farmer-mini-avatar" alt="">`
             : "";
         const displayName = type === "team" ? (e.team_name || e.farmer_name || "?") : (e.farmer_name || "?");
         const farmerLink = farmerId
-            ? `${avatarImg}<a href="https://leekwars.com/farmer/${farmerId}" target="_blank">${esc(displayName)}</a>`
+            ? `${avatarImg}<a href="https://leekwars.com/farmer/${farmerId}" target="_blank" data-farmer-id="${farmerId}">${esc(displayName)}</a>`
             : esc(displayName);
 
         const leekName = type === "solo" ? (e.leek_name || "?") : (e.leek_names || "?");
         const hist = e.history || [];
         const histAttr = hist.length > 1 ? ` data-history='${JSON.stringify(hist).replace(/'/g, "&#39;")}'` : "";
         const expandable = hist.length > 1 ? " expandable" : "";
-        html += `<tr class="${cls}${expandable}" data-level="${level}" data-turns="${e.turns || 0}" data-date="${e.date || 0}" data-farmer="${displayName.toLowerCase()}" data-leek="${leekName.toLowerCase()}"${histAttr}>`;
+        html += `<tr class="${cls}${expandable}" data-level="${level}" data-turns="${e.turns || 0}" data-date="${e.date || 0}" data-farmer="${safeAttr(displayName.toLowerCase())}" data-leek="${safeAttr(leekName.toLowerCase())}"${histAttr}>`;
         const newBadge = isNew ? `<span class="new-badge">NEW</span>` : "";
         const winsBadge = hist.length > 1 ? `<span class="wins-badge" title="${hist.length} wins">${hist.length}x</span>` : "";
         html += `<td class="rank-cell">${rankHtml}</td>`;
@@ -348,7 +357,7 @@ function renderTable(entries, type) {
         html += `<td class="date-cell">${dateStr}</td>`;
         const shareText = `I beat the Daltons at Lv.${level} in ${e.turns || "?"}t! #DaltonRanking`;
         html += `<td class="action-cell">` +
-            `<a class="fight-link" href="https://leekwars.com/fight/${e.fight_id}" target="_blank">` +
+            `<a class="fight-link" href="https://leekwars.com/fight/${safeInt(e.fight_id)}" target="_blank">` +
             `<img src="${IMG}/weapon/pistol.png" alt="">fight</a>` +
             `<button class="share-btn" data-share="${esc(shareText)}" title="Copy to clipboard">&#128266;</button>` +
             `</td>`;
@@ -371,6 +380,10 @@ function esc(str) {
     div.textContent = str;
     return div.innerHTML;
 }
+
+// Sanitize values used in HTML attributes (IDs, etc.)
+function safeInt(v) { return parseInt(v, 10) || 0; }
+function safeAttr(v) { return esc(String(v)); }
 
 // Live countdown to next hourly update
 function updateCountdown() {
@@ -472,8 +485,8 @@ document.addEventListener("click", (ev) => {
     hist.forEach((h, i) => {
         const dateStr = h.date ? new Date(h.date * 1000).toLocaleDateString() : "?";
         const best = i === 0 ? ' class="history-best"' : "";
-        inner += `<a href="https://leekwars.com/fight/${h.fight_id}" target="_blank"${best}>` +
-            `Lv.${h.total_level} in ${h.turns}t <small>(${dateStr})</small></a>`;
+        inner += `<a href="https://leekwars.com/fight/${safeInt(h.fight_id)}" target="_blank"${best}>` +
+            `Lv.${safeInt(h.total_level)} in ${safeInt(h.turns)}t <small>(${dateStr})</small></a>`;
     });
     inner += "</div>";
     td.innerHTML = inner;
@@ -525,6 +538,231 @@ document.addEventListener("DOMContentLoaded", () => {
         highlightMyFarmer(val);
     });
 });
+
+// ---------- Rich Tooltip ----------
+
+const tooltipCache = {};
+let tooltipTimer = null;
+let tooltipHideTimer = null;
+let tooltipEl = null;
+let tooltipCurrentTarget = null;
+
+function getTooltipEl() {
+    if (!tooltipEl) tooltipEl = document.getElementById("rich-tooltip");
+    return tooltipEl;
+}
+
+function positionTooltip(anchor) {
+    const tt = getTooltipEl();
+    const rect = anchor.getBoundingClientRect();
+    const ttRect = tt.getBoundingClientRect();
+    const pad = 8;
+
+    // Prefer below the element
+    let top = rect.bottom + pad;
+    let left = rect.left + rect.width / 2 - ttRect.width / 2;
+
+    // Flip above if it would overflow bottom
+    if (top + ttRect.height > window.innerHeight - pad) {
+        top = rect.top - ttRect.height - pad;
+    }
+
+    // Clamp horizontally
+    left = Math.max(pad, Math.min(left, window.innerWidth - ttRect.width - pad));
+    // Clamp vertically
+    top = Math.max(pad, top);
+
+    tt.style.left = left + "px";
+    tt.style.top = top + "px";
+}
+
+function showTooltip(anchor, html) {
+    const tt = getTooltipEl();
+    tt.innerHTML = html;
+    tt.classList.add("visible");
+    // Position after render so dimensions are known
+    requestAnimationFrame(() => positionTooltip(anchor));
+}
+
+function hideTooltip() {
+    const tt = getTooltipEl();
+    tt.classList.remove("visible");
+    tooltipCurrentTarget = null;
+}
+
+function renderFarmerTooltip(farmer) {
+    const fid = safeInt(farmer.id);
+    let html = '<div class="rich-tooltip-header">';
+    html += `<img src="https://leekwars.com/avatar/${fid}.png" class="rich-tooltip-avatar" alt="">`;
+    html += '<div>';
+    html += `<div class="rich-tooltip-name"><a href="https://leekwars.com/farmer/${fid}" target="_blank">${esc(farmer.name || "?")}</a>`;
+    if (farmer.talent) {
+        html += `<span class="rich-tooltip-talent-badge">${safeInt(farmer.talent)}</span>`;
+    }
+    html += '</div>';
+    if (farmer.team) {
+        html += `<div class="rich-tooltip-team">`;
+        html += `<img src="https://leekwars.com/emblem/${safeInt(farmer.team.id)}.png" alt="">`;
+        html += `${esc(farmer.team.name || "")}</div>`;
+    }
+    const details = [];
+    if (farmer.ranking) details.push(`#${safeInt(farmer.ranking)}`);
+    if (farmer.country) details.push(esc(farmer.country).toUpperCase());
+    if (details.length) {
+        html += `<div class="rich-tooltip-sub">${details.join(" · ")}</div>`;
+    }
+    html += '</div></div>';
+
+    // Leeks
+    const leeks = farmer.leeks ? Object.values(farmer.leeks) : [];
+    if (leeks.length > 0) {
+        // Sort by level descending
+        leeks.sort((a, b) => (b.level || 0) - (a.level || 0));
+        html += '<div class="rich-tooltip-leeks">';
+        for (const leek of leeks) {
+            html += '<div class="rich-tooltip-leek">';
+            html += `<span class="rich-tooltip-leek-name"><a href="https://leekwars.com/leek/${safeInt(leek.id)}" target="_blank">${esc(leek.name || "?")}</a></span>`;
+            html += `<span class="rich-tooltip-leek-level">Lv.${safeInt(leek.level)}</span>`;
+            if (leek.talent) {
+                html += `<span class="rich-tooltip-leek-talent">${safeInt(leek.talent)}</span>`;
+            }
+            html += '</div>';
+        }
+        html += '</div>';
+    }
+
+    // Summary stats
+    const stats = [];
+    if (farmer.total_level) stats.push(`Total Lv.${safeInt(farmer.total_level)}`);
+    if (farmer.trophies) stats.push(`${safeInt(farmer.trophies)} trophies`);
+    if (stats.length) {
+        html += '<div class="rich-tooltip-stats">';
+        for (const s of stats) {
+            html += `<span class="rich-tooltip-stat">${s}</span>`;
+        }
+        html += '</div>';
+    }
+
+    return html;
+}
+
+function renderLeekTooltip(leek) {
+    const lid = safeInt(leek.id);
+    let html = '<div class="rich-tooltip-header">';
+    // Use farmer avatar as proxy since leek icon URLs need skin name mapping
+    if (leek.farmer && leek.farmer.id) {
+        html += `<img src="https://leekwars.com/avatar/${safeInt(leek.farmer.id)}.png" class="rich-tooltip-avatar" alt="">`;
+    }
+    html += '<div>';
+    html += `<div class="rich-tooltip-name"><a href="https://leekwars.com/leek/${lid}" target="_blank">${esc(leek.name || "?")}</a>`;
+    html += `<span class="rich-tooltip-leek-level" style="margin-left:0.4rem">Lv.${safeInt(leek.level)}</span>`;
+    if (leek.talent) {
+        html += `<span class="rich-tooltip-talent-badge">${safeInt(leek.talent)}</span>`;
+    }
+    html += '</div>';
+    if (leek.farmer && leek.farmer.name) {
+        html += `<div class="rich-tooltip-sub">Farmer: ${esc(leek.farmer.name)}</div>`;
+    }
+    if (leek.ranking) {
+        html += `<div class="rich-tooltip-sub">Ranking: #${safeInt(leek.ranking)}</div>`;
+    }
+    html += '</div></div>';
+
+    // Stats
+    const stats = [
+        ["Life", leek.life], ["TP", leek.tp], ["MP", leek.mp],
+        ["Str", leek.strength], ["Agi", leek.agility], ["Wis", leek.wisdom],
+        ["Res", leek.resistance], ["Sci", leek.science], ["Mag", leek.magic],
+        ["Freq", leek.frequency],
+    ];
+    const hasStats = stats.some(([, v]) => v !== undefined && v !== null);
+    if (hasStats) {
+        html += '<div class="rich-tooltip-stats">';
+        for (const [label, val] of stats) {
+            if (val !== undefined && val !== null) {
+                html += `<span class="rich-tooltip-stat">${label}: <b>${safeInt(val)}</b></span>`;
+            }
+        }
+        html += '</div>';
+    }
+
+    return html;
+}
+
+// Tooltip data is pre-fetched and stored in rankings.json
+let tooltipFarmers = {};
+let tooltipLeeks = {};
+
+function initTooltipData(data) {
+    tooltipFarmers = data.tooltip_farmers || {};
+    tooltipLeeks = data.tooltip_leeks || {};
+}
+
+function getTooltipData(type, id) {
+    if (type === "farmer") return tooltipFarmers[String(id)] || null;
+    if (type === "leek") return tooltipLeeks[String(id)] || null;
+    return null;
+}
+
+// Event delegation for tooltip triggers
+document.addEventListener("mouseenter", (ev) => {
+    // Farmer name links with data-farmer-id
+    const farmerLink = ev.target.closest("a[data-farmer-id]");
+    // Leek name spans with data-leek-id
+    const leekSpan = ev.target.closest("[data-leek-id]");
+
+    const anchor = farmerLink || leekSpan;
+    if (!anchor) return;
+
+    // Cancel pending hide
+    clearTimeout(tooltipHideTimer);
+
+    // Don't re-trigger for same target
+    if (tooltipCurrentTarget === anchor) return;
+
+    // Clear any pending show
+    clearTimeout(tooltipTimer);
+
+    tooltipTimer = setTimeout(() => {
+        tooltipCurrentTarget = anchor;
+
+        let html;
+        if (farmerLink) {
+            const data = getTooltipData("farmer", farmerLink.dataset.farmerId);
+            html = data ? renderFarmerTooltip(data) : null;
+        } else if (leekSpan) {
+            const data = getTooltipData("leek", leekSpan.dataset.leekId);
+            html = data ? renderLeekTooltip(data) : null;
+        }
+
+        if (html) showTooltip(anchor, html);
+    }, 400);
+}, true);
+
+document.addEventListener("mouseleave", (ev) => {
+    const anchor = ev.target.closest("a[data-farmer-id], [data-leek-id]");
+    if (!anchor) return;
+
+    clearTimeout(tooltipTimer);
+    tooltipHideTimer = setTimeout(() => {
+        hideTooltip();
+    }, 200);
+}, true);
+
+// Keep tooltip open when hovering over it
+document.addEventListener("mouseenter", (ev) => {
+    if (ev.target.closest(".rich-tooltip")) {
+        clearTimeout(tooltipHideTimer);
+    }
+}, true);
+
+document.addEventListener("mouseleave", (ev) => {
+    if (ev.target.closest(".rich-tooltip")) {
+        tooltipHideTimer = setTimeout(() => {
+            hideTooltip();
+        }, 150);
+    }
+}, true);
 
 // Easter eggs on hero Daltons
 const LW_SND = "https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound";

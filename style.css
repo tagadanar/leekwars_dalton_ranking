@@ -1489,4 +1489,183 @@ footer a:hover {
 
     .nav-btn { padding: 0.3rem 0.55rem; font-size: 0.68rem; }
     .nav-btn img { width: 16px; height: 16px; }
+    .rich-tooltip { max-width: 280px; }
+}
+
+/* ---------- RICH TOOLTIP ---------- */
+
+.rich-tooltip {
+    position: fixed;
+    z-index: 100;
+    max-width: 340px;
+    background: var(--bg-card);
+    border: 2px solid var(--leather);
+    border-radius: 6px;
+    box-shadow:
+        inset 0 0 0 1px rgba(212,168,75,0.1),
+        0 4px 20px rgba(0,0,0,0.5),
+        0 0 0 1px rgba(0,0,0,0.3);
+    padding: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    overflow: hidden;
+}
+
+.rich-tooltip.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.rich-tooltip-header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.6rem 0.75rem;
+    background:
+        linear-gradient(135deg, rgba(212,168,75,0.06) 0%, transparent 60%);
+    border-bottom: 1px solid rgba(107,58,31,0.2);
+}
+
+.rich-tooltip-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    object-fit: cover;
+    border: 1px solid var(--leather);
+    flex-shrink: 0;
+}
+
+.rich-tooltip-name {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--sand);
+}
+
+.rich-tooltip-name a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.rich-tooltip-name a:hover {
+    text-decoration: underline;
+}
+
+.rich-tooltip-sub {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    margin-top: 0.1rem;
+}
+
+.rich-tooltip-leeks {
+    padding: 0.4rem 0;
+}
+
+.rich-tooltip-leek {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.78rem;
+    transition: background 0.1s;
+}
+
+.rich-tooltip-leek:hover {
+    background: var(--row-hover);
+}
+
+.rich-tooltip-leek-name {
+    color: var(--text);
+    font-weight: 600;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.rich-tooltip-leek-name a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.rich-tooltip-leek-name a:hover {
+    color: var(--sand);
+}
+
+.rich-tooltip-leek-level {
+    color: var(--sand);
+    font-weight: 700;
+    font-size: 0.72rem;
+    flex-shrink: 0;
+}
+
+.rich-tooltip-leek-talent {
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    flex-shrink: 0;
+}
+
+.rich-tooltip-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.6rem;
+    padding: 0.5rem 0.75rem;
+    border-top: 1px solid rgba(107,58,31,0.15);
+    font-size: 0.7rem;
+}
+
+.rich-tooltip-stat {
+    color: var(--text-dim);
+}
+
+.rich-tooltip-stat b {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.rich-tooltip-loading {
+    padding: 0.8rem 1rem;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.78rem;
+    font-style: italic;
+}
+
+.rich-tooltip-error {
+    padding: 0.6rem 0.75rem;
+    color: var(--terracotta);
+    font-size: 0.72rem;
+    text-align: center;
+}
+
+.rich-tooltip-talent-badge {
+    display: inline-block;
+    font-size: 0.6rem;
+    padding: 0.05rem 0.3rem;
+    border-radius: 3px;
+    color: var(--sand);
+    background: rgba(212,168,75,0.1);
+    border: 1px solid rgba(212,168,75,0.2);
+    margin-left: 0.3rem;
+    vertical-align: middle;
+}
+
+.rich-tooltip-team {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+}
+
+.rich-tooltip-team img {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 0.2rem;
+    border-radius: 2px;
+}
+
+/* Hoverable leek names */
+[data-leek-id] {
+    cursor: help;
+    border-bottom: 1px dotted rgba(168,152,128,0.3);
 }
