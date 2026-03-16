@@ -98,6 +98,7 @@ body::before {
 }
 
 .hero-content {
+    display: inline-block;
     position: relative;
 }
 
@@ -1757,12 +1758,10 @@ footer a:hover {
    ========================================= */
 
 .lucky-clover {
-    display: flex;
-    align-items: flex-end;
-    align-self: flex-end;
+    position: absolute;
+    right: -52px;
+    bottom: 1.5rem;
     cursor: pointer;
-    margin-left: -0.5rem;
-    margin-bottom: 0.3rem;
 }
 
 .lucky-clover img {
