@@ -17,6 +17,14 @@ const DALTON_HATS = {
     51613: { src: `${LW}/hat/sombrero.png`, cls: "hat-sombrero" },
 };
 
+// Easter egg type per Dalton leek
+const DALTON_EGGS = {
+    46733: "shoot",    // JoeDalton
+    51098: "wobble",   // WilliamDalton
+    51257: "summon",   // JackDalton
+    51613: "bounce",   // AvereIIDalton
+};
+
 const FARMER_AVATAR = "https://leekwars.com/avatar/42851.png";
 const TEAM_EMBLEM = "luckyleek.png";
 const SECRET_AVATAR = "https://leekwars.com/avatar/50168.png";
@@ -209,7 +217,10 @@ function render(data) {
 
         html += `<div class="dalton-section" id="leek-${id}">`;
         html += `<div class="section-header">`;
+        html += `<div class="section-mugshot" data-egg="${DALTON_EGGS[id] || ""}">`;
+        html += `<span class="section-wanted-label">WANTED</span>`;
         html += renderLeekWithHat(id, "section-leek-wrap");
+        html += `</div>`;
         html += `<div class="section-info">`;
         html += `<h2><a href="https://leekwars.com/garden/challenge/leek/${id}" target="_blank" class="section-link">${esc(dalton.name)}</a></h2>`;
         html += `<span class="badge badge-solo">Solo fight</span>`;
@@ -936,37 +947,37 @@ const eggSounds = {
 };
 Object.values(eggSounds).forEach(s => { s.volume = 0.4; });
 
-document.querySelectorAll(".dalton-mugshot[data-egg]").forEach(mugshot => {
-    mugshot.addEventListener("click", () => {
-        const egg = mugshot.dataset.egg;
-        const cls = `egg-${egg}`;
-        const wrap = mugshot.querySelector(".leek-with-hat");
-        if (!wrap || wrap.classList.contains(cls)) return;
-        wrap.classList.add(cls);
+document.addEventListener("click", (ev) => {
+    const mugshot = ev.target.closest("[data-egg]");
+    if (!mugshot) return;
+    const egg = mugshot.dataset.egg;
+    if (!egg) return;
+    const cls = `egg-${egg}`;
+    const wrap = mugshot.querySelector(".leek-with-hat") || mugshot.querySelector(".section-leek-wrap");
+    if (!wrap || wrap.classList.contains(cls)) return;
+    wrap.classList.add(cls);
 
-        if (egg === "bounce") {
-            eggSounds.bounce.currentTime = 0;
-            eggSounds.bounce.play().catch(() => {});
-            setTimeout(() => {
-                eggSounds.bounce2.currentTime = 0;
-                eggSounds.bounce2.play().catch(() => {});
-            }, 200);
-        } else {
-            const snd = eggSounds[egg];
-            if (snd) {
-                snd.currentTime = 0;
-                snd.play().catch(() => {});
-            }
+    if (egg === "bounce") {
+        eggSounds.bounce.currentTime = 0;
+        eggSounds.bounce.play().catch(() => {});
+        setTimeout(() => {
+            eggSounds.bounce2.currentTime = 0;
+            eggSounds.bounce2.play().catch(() => {});
+        }, 200);
+    } else {
+        const snd = eggSounds[egg];
+        if (snd) {
+            snd.currentTime = 0;
+            snd.play().catch(() => {});
         }
+    }
 
-        // Wait for the longest animation to finish
-        const animations = wrap.getAnimations();
-        if (animations.length > 0) {
-            Promise.all(animations.map(a => a.finished)).then(() => {
-                wrap.classList.remove(cls);
-            });
-        } else {
-            setTimeout(() => wrap.classList.remove(cls), 700);
-        }
-    });
+    const animations = wrap.getAnimations();
+    if (animations.length > 0) {
+        Promise.all(animations.map(a => a.finished)).then(() => {
+            wrap.classList.remove(cls);
+        });
+    } else {
+        setTimeout(() => wrap.classList.remove(cls), 700);
+    }
 });

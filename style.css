@@ -225,12 +225,46 @@ body::before {
     filter: drop-shadow(0 3px 10px rgba(0,0,0,0.6)) brightness(1.08);
 }
 
-/* Section header leek composite */
+/* Section header mugshot — WANTED overlay + easter egg */
+
+.section-mugshot {
+    position: relative;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.section-wanted-label {
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Rye", serif;
+    font-size: 0.4rem;
+    letter-spacing: 0.15em;
+    color: var(--terracotta);
+    text-transform: uppercase;
+    opacity: 0.8;
+    white-space: nowrap;
+    z-index: 2;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.section-mugshot:hover .section-wanted-label {
+    opacity: 1;
+    color: var(--sand);
+}
+
+.section-mugshot:hover .leek-body,
+.section-mugshot:hover .leek-hat {
+    filter: drop-shadow(0 3px 8px rgba(0,0,0,0.6)) brightness(1.1);
+}
+
+/* Section header leek — same size as hero */
 
 .section-leek-wrap {
     position: relative;
-    width: 56px;
-    height: 64px;
+    width: 84px;
+    height: 96px;
     flex-shrink: 0;
 }
 
@@ -239,10 +273,10 @@ body::before {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 56px;
-    height: 56px;
+    width: 84px;
+    height: 84px;
     object-fit: contain;
-    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 3px 8px rgba(0,0,0,0.6));
 }
 
 .section-leek-wrap .leek-hat {
@@ -250,13 +284,13 @@ body::before {
     left: 50%;
     transform: translateX(-50%);
     object-fit: contain;
-    filter: drop-shadow(0 1px 3px rgba(0,0,0,0.4));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.5));
     z-index: 1;
 }
 
-.section-leek-wrap .hat-panama  { width: 40px; top: 4px; }
-.section-leek-wrap .hat-fedora  { width: 40px; top: 5px; }
-.section-leek-wrap .hat-sombrero { width: 43px; top: 2px; }
+.section-leek-wrap .hat-panama  { width: 58px; top: 6px; }
+.section-leek-wrap .hat-fedora  { width: 58px; top: 7px; }
+.section-leek-wrap .hat-sombrero { width: 64px; top: 3px; }
 
 /* Farmer avatar */
 
