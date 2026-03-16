@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T06:13:51.856479+00:00",
+  "last_updated": "2026-03-16T08:02:05.547198+00:00",
   "daltons": {
     "46733": [
       {
@@ -421,6 +421,60 @@
       ]
     },
     {
+      "fight_id": 51828525,
+      "fight_type": 1,
+      "farmer_name": "Ref",
+      "farmer_id": 43276,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 47183,
+          "name": "Jeez",
+          "level": 301
+        },
+        {
+          "id": 47546,
+          "name": "Astheopyrosphamidum",
+          "level": 301
+        },
+        {
+          "id": 47943,
+          "name": "TomateTransg\u00e9nique",
+          "level": 301
+        },
+        {
+          "id": 48427,
+          "name": "JeVoulais\u00catreUnPapillon",
+          "level": 301
+        }
+      ],
+      "total_level": 1204,
+      "turns": 4,
+      "date": 1773647497,
+      "key": "43276",
+      "leek_names": "Jeez, Astheopyrosphamidum, TomateTransg\u00e9nique, JeVoulais\u00catreUnPapillon",
+      "history": [
+        {
+          "fight_id": 51828525,
+          "total_level": 1204,
+          "turns": 4,
+          "date": 1773647497
+        },
+        {
+          "fight_id": 51828516,
+          "total_level": 1204,
+          "turns": 11,
+          "date": 1773647450
+        },
+        {
+          "fight_id": 51823730,
+          "total_level": 1204,
+          "turns": 12,
+          "date": 1773597608
+        }
+      ]
+    },
+    {
       "fight_id": 51815835,
       "fight_type": 1,
       "farmer_name": "fujiwar",
@@ -716,48 +770,6 @@
           "total_level": 1204,
           "turns": 25,
           "date": 1773524805
-        }
-      ]
-    },
-    {
-      "fight_id": 51823730,
-      "fight_type": 1,
-      "farmer_name": "Ref",
-      "farmer_id": 43276,
-      "team_name": null,
-      "leeks": [
-        {
-          "id": 47943,
-          "name": "TomateTransg\u00e9nique",
-          "level": 301
-        },
-        {
-          "id": 47546,
-          "name": "Astheopyrosphamidum",
-          "level": 301
-        },
-        {
-          "id": 48427,
-          "name": "JeVoulais\u00catreUnPapillon",
-          "level": 301
-        },
-        {
-          "id": 47183,
-          "name": "Jeez",
-          "level": 301
-        }
-      ],
-      "total_level": 1204,
-      "turns": 12,
-      "date": 1773597608,
-      "key": "43276",
-      "leek_names": "TomateTransg\u00e9nique, Astheopyrosphamidum, JeVoulais\u00catreUnPapillon, Jeez",
-      "history": [
-        {
-          "fight_id": 51823730,
-          "total_level": 1204,
-          "turns": 12,
-          "date": 1773597608
         }
       ]
     },
