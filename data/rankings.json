@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T14:35:28.928974+00:00",
+  "last_updated": "2026-03-16T15:58:40.046231+00:00",
   "daltons": {
     "46733": [
       {
@@ -537,7 +537,7 @@
       ]
     },
     {
-      "fight_id": 51815835,
+      "fight_id": 51834456,
       "fight_type": 1,
       "farmer_name": "fujiwar",
       "farmer_id": 58321,
@@ -546,35 +546,55 @@
         {
           "id": 63029,
           "name": "Peuwareau",
-          "level": 301
+          "level": 301,
+          "farmer": 58321,
+          "farmer_name": "fujiwar"
         },
         {
           "id": 63124,
           "name": "Peuwaroh",
-          "level": 301
+          "level": 301,
+          "farmer": 58321,
+          "farmer_name": "fujiwar"
         },
         {
           "id": 63514,
           "name": "Peuhwaro",
-          "level": 301
+          "level": 301,
+          "farmer": 58321,
+          "farmer_name": "fujiwar"
         },
         {
           "id": 64231,
           "name": "Peuwahreau",
-          "level": 301
+          "level": 301,
+          "farmer": 58321,
+          "farmer_name": "fujiwar"
         }
       ],
       "total_level": 1204,
-      "turns": 8,
-      "date": 1773524813,
+      "turns": 5,
+      "date": 1773675137,
       "key": "58321",
       "leek_names": "Peuwareau, Peuwaroh, Peuhwaro, Peuwahreau",
       "history": [
+        {
+          "fight_id": 51834456,
+          "total_level": 1204,
+          "turns": 5,
+          "date": 1773675137
+        },
         {
           "fight_id": 51815835,
           "total_level": 1204,
           "turns": 8,
           "date": 1773524813
+        },
+        {
+          "fight_id": 51834420,
+          "total_level": 1204,
+          "turns": 8,
+          "date": 1773675057
         },
         {
           "fight_id": 51814233,
@@ -595,6 +615,18 @@
           "date": 1773525231
         },
         {
+          "fight_id": 51834428,
+          "total_level": 1204,
+          "turns": 10,
+          "date": 1773675076
+        },
+        {
+          "fight_id": 51834409,
+          "total_level": 1204,
+          "turns": 11,
+          "date": 1773675037
+        },
+        {
           "fight_id": 51815768,
           "total_level": 1204,
           "turns": 13,
@@ -613,6 +645,12 @@
           "date": 1773524811
         },
         {
+          "fight_id": 51834395,
+          "total_level": 1204,
+          "turns": 17,
+          "date": 1773675012
+        },
+        {
           "fight_id": 51814159,
           "total_level": 1204,
           "turns": 21,
@@ -629,6 +667,12 @@
           "total_level": 1204,
           "turns": 25,
           "date": 1773525192
+        },
+        {
+          "fight_id": 51834469,
+          "total_level": 1204,
+          "turns": 33,
+          "date": 1773675162
         }
       ]
     },
@@ -1659,8 +1703,8 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6800,
-      "ranking": 9,
+      "talent": 6806,
+      "ranking": 10,
       "country": "fr",
       "total_level": 1204,
       "trophies": 307,
@@ -1746,7 +1790,7 @@
     "98186": {
       "id": 98186,
       "name": "Smartiz",
-      "talent": 6827,
+      "talent": 6818,
       "ranking": 8,
       "country": "si",
       "total_level": 1203,
@@ -1920,8 +1964,8 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6690,
-      "ranking": 12,
+      "talent": 6660,
+      "ranking": 13,
       "country": "fr",
       "total_level": 1204,
       "trophies": 329,
@@ -2007,7 +2051,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 6623,
+      "talent": 6640,
       "ranking": 14,
       "country": null,
       "total_level": 1204,
@@ -2140,7 +2184,7 @@
           "id": 82186,
           "name": "SamuelWhiskers",
           "level": 301,
-          "talent": 2329,
+          "talent": 2344,
           "life": 2720,
           "tp": 26,
           "mp": 8,
@@ -2158,7 +2202,7 @@
           "id": 82607,
           "name": "TimmyTiptoes",
           "level": 301,
-          "talent": 2163,
+          "talent": 2178,
           "life": 2660,
           "tp": 26,
           "mp": 10,
@@ -2268,8 +2312,8 @@
     "76695": {
       "id": 76695,
       "name": "ihsusikamet",
-      "talent": 6440,
-      "ranking": 17,
+      "talent": 6491,
+      "ranking": 16,
       "country": null,
       "total_level": 1204,
       "trophies": 256,
@@ -2662,7 +2706,7 @@
           "id": 28185,
           "name": "Nethergoyf",
           "level": 301,
-          "talent": 2192,
+          "talent": 2177,
           "life": 2260,
           "tp": 24,
           "mp": 5,
@@ -2703,8 +2747,8 @@
     "76473": {
       "id": 76473,
       "name": "galactichitchleeker",
-      "talent": 6292,
-      "ranking": 22,
+      "talent": 6284,
+      "ranking": 23,
       "country": null,
       "total_level": 1204,
       "trophies": 269,
@@ -2946,7 +2990,7 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6516,
+      "talent": 6502,
       "ranking": 15,
       "country": null,
       "total_level": 1204,
@@ -3033,8 +3077,8 @@
     "58321": {
       "id": 58321,
       "name": "fujiwar",
-      "talent": 6409,
-      "ranking": 18,
+      "talent": 6407,
+      "ranking": 17,
       "country": "pe",
       "total_level": 1204,
       "trophies": 324,
@@ -3391,7 +3435,7 @@
           "id": 91285,
           "name": "rotulet",
           "level": 301,
-          "talent": 2174,
+          "talent": 2159,
           "life": 3040,
           "tp": 28,
           "mp": 4,
@@ -3468,8 +3512,8 @@
     "76772": {
       "id": 76772,
       "name": "Kraspen",
-      "talent": 6380,
-      "ranking": 19,
+      "talent": 6306,
+      "ranking": 21,
       "country": "cv",
       "total_level": 1204,
       "trophies": 322,
@@ -3555,8 +3599,8 @@
     "66407": {
       "id": 66407,
       "name": "Magestik25",
-      "talent": 6339,
-      "ranking": 21,
+      "talent": 6403,
+      "ranking": 19,
       "country": null,
       "total_level": 1204,
       "trophies": 328,
@@ -3642,8 +3686,8 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6497,
-      "ranking": 16,
+      "talent": 6404,
+      "ranking": 18,
       "country": "fr",
       "total_level": 1204,
       "trophies": 275,
@@ -3729,7 +3773,7 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6720,
+      "talent": 6739,
       "ranking": 11,
       "country": null,
       "total_level": 1204,
@@ -3816,8 +3860,8 @@
     "19070": {
       "id": 19070,
       "name": "Amal",
-      "talent": 6249,
-      "ranking": 23,
+      "talent": 6304,
+      "ranking": 22,
       "country": "jp",
       "total_level": 1204,
       "trophies": 301,
@@ -5609,8 +5653,8 @@
       "id": 91285,
       "name": "rotulet",
       "level": 301,
-      "talent": 2174,
-      "ranking": 455,
+      "talent": 2159,
+      "ranking": 483,
       "life": 3040,
       "tp": 28,
       "mp": 4,
@@ -5930,8 +5974,8 @@
       "id": 82607,
       "name": "TimmyTiptoes",
       "level": 301,
-      "talent": 2163,
-      "ranking": 477,
+      "talent": 2178,
+      "ranking": 445,
       "life": 2660,
       "tp": 26,
       "mp": 10,
@@ -6201,7 +6245,7 @@
       "name": "Bux42",
       "level": 300,
       "talent": 1360,
-      "ranking": 1944,
+      "ranking": 1939,
       "life": 3599,
       "tp": 23,
       "mp": 5,
@@ -7057,8 +7101,8 @@
       "id": 82186,
       "name": "SamuelWhiskers",
       "level": 301,
-      "talent": 2329,
-      "ranking": 349,
+      "talent": 2344,
+      "ranking": 337,
       "life": 2720,
       "tp": 26,
       "mp": 8,
