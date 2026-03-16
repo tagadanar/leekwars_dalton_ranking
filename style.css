@@ -336,8 +336,8 @@ body::before {
 
 .most-wanted-label {
     font-family: "Rye", serif;
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
+    font-size: 0.85rem;
+    letter-spacing: 0.18em;
     color: var(--terracotta);
     text-transform: uppercase;
 }
