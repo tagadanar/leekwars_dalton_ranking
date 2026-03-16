@@ -893,23 +893,37 @@ document.addEventListener("mouseleave", (ev) => {
     }
 }, true);
 
+const LW_SND = "https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound";
+
 // Lucky Clover — secret section trigger
 const cloverEl = document.getElementById("lucky-clover");
 if (cloverEl) {
+    const cloverSnd = new Audio(`${LW_SND}/move.mp3`);
+    cloverSnd.volume = 0.4;
+    let cloverSndPlayed = false;
+
+    cloverEl.addEventListener("mouseenter", () => {
+        if (!cloverSndPlayed) {
+            cloverSnd.currentTime = 0;
+            cloverSnd.play().catch(() => {});
+            cloverSndPlayed = true;
+        }
+    });
+
+    cloverEl.addEventListener("mouseleave", () => {
+        cloverSndPlayed = false;
+    });
+
     cloverEl.addEventListener("click", () => {
         const haunted = document.getElementById("haunted");
         if (!haunted) return;
         haunted.style.display = "";
         localStorage.setItem("dalton_secret_unlocked", "1");
-        const snd = new Audio(`https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound/heal.mp3`);
-        snd.volume = 0.3;
-        snd.play().catch(() => {});
         setTimeout(() => haunted.scrollIntoView({ behavior: "smooth", block: "start" }), 300);
     });
 }
 
 // Easter eggs on hero Daltons
-const LW_SND = "https://raw.githubusercontent.com/leek-wars/leek-wars/master/public/sound";
 const eggSounds = {
     shoot:  new Audio(`${LW_SND}/double_gun.mp3`),
     wobble: new Audio(`${LW_SND}/gazor.mp3`),
