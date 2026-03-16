@@ -198,12 +198,12 @@ def compute_capital(level):
 
 def ranking_key(entry):
     """Sort key: level ASC, then turns ASC."""
-    return (entry["total_level"], entry["turns"])
+    return (entry.get("total_level") or 0, entry.get("turns") or 0)
 
 
 def ranking_key_capital(entry):
     """Sort key for secret ranking: capital ASC, then turns ASC."""
-    return (entry.get("total_capital", 0), entry["turns"])
+    return (entry.get("total_capital") or 0, entry.get("turns") or 0)
 
 
 def merge_rankings(existing, new_entries, key_fn=None):
@@ -260,7 +260,7 @@ def merge_rankings(existing, new_entries, key_fn=None):
     for key, entry in by_key.items():
         seen_ids = set()
         deduped = []
-        for h in sorted(history_by_key.get(key, []), key=lambda h: (h.get("total_capital", h.get("total_level", 0)), h["turns"])):
+        for h in sorted(history_by_key.get(key, []), key=lambda h: (h.get("total_capital") or h.get("total_level") or 0, h.get("turns") or 0)):
             fid = h.get("fight_id")
             if fid and fid not in seen_ids:
                 seen_ids.add(fid)
