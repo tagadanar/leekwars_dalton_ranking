@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T01:19:28.764589+00:00",
+  "last_updated": "2026-03-16T04:31:36.030188+00:00",
   "daltons": {
     "46733": [
       {
@@ -27,6 +27,18 @@
             "total_level": 301,
             "turns": 11,
             "date": 1773533761
+          },
+          {
+            "fight_id": 51827264,
+            "total_level": 301,
+            "turns": 12,
+            "date": 1773625423
+          },
+          {
+            "fight_id": 51827274,
+            "total_level": 301,
+            "turns": 21,
+            "date": 1773625464
           }
         ]
       },
@@ -87,9 +99,84 @@
             "date": 1773577801
           }
         ]
+      },
+      {
+        "fight_id": 51827285,
+        "fight_type": 0,
+        "farmer_name": "koe",
+        "farmer_id": 124565,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 131032,
+            "name": "koe",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 18,
+        "date": 1773625500,
+        "key": "124565",
+        "leek_name": "koe",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51827285,
+            "total_level": 301,
+            "turns": 18,
+            "date": 1773625500
+          },
+          {
+            "fight_id": 51827281,
+            "total_level": 301,
+            "turns": 25,
+            "date": 1773625487
+          },
+          {
+            "fight_id": 51827259,
+            "total_level": 301,
+            "turns": 41,
+            "date": 1773625384
+          }
+        ]
       }
     ],
-    "51257": [],
+    "51257": [
+      {
+        "fight_id": 51827282,
+        "fight_type": 0,
+        "farmer_name": "koe",
+        "farmer_id": 124565,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 131032,
+            "name": "koe",
+            "level": 301
+          }
+        ],
+        "total_level": 301,
+        "turns": 9,
+        "date": 1773625490,
+        "key": "124565",
+        "leek_name": "koe",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51827282,
+            "total_level": 301,
+            "turns": 9,
+            "date": 1773625490
+          },
+          {
+            "fight_id": 51827246,
+            "total_level": 301,
+            "turns": 11,
+            "date": 1773625338
+          }
+        ]
+      }
+    ],
     "51613": [
       {
         "fight_id": 51826772,
