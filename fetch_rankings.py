@@ -132,31 +132,35 @@ def extract_challenger_info(fight, dalton_leek_ids):
     challenger_leeks_raw = leeks2 if dalton_team == 1 else leeks1
     fight_type = fight.get("type", 0)  # 0=solo, 1=farmer, 2=team
 
+    # Build farmer name lookup from farmersN dict
+    challenger_side = 2 if dalton_team == 1 else 1
+    farmers_dict = fight.get(f"farmers{challenger_side}", {})
+    farmer_name_map = {}
+    if isinstance(farmers_dict, dict):
+        for fid_str, fdata in farmers_dict.items():
+            fid_int = int(fid_str)
+            fname = fdata.get("name", "?") if isinstance(fdata, dict) else "?"
+            farmer_name_map[fid_int] = fname
+
     challenger_leeks = []
     farmer_name = None
     farmer_id = None
     for leek in challenger_leeks_raw:
+        leek_farmer_id = leek.get("farmer")
+        leek_farmer_name = leek.get("farmer_name") or farmer_name_map.get(leek_farmer_id, "?")
         challenger_leeks.append({
             "id": leek.get("id"),
             "name": leek.get("name", "?"),
             "level": leek.get("level", 0),
+            "farmer": leek_farmer_id,
+            "farmer_name": leek_farmer_name,
         })
         if farmer_name is None:
-            farmer_name = leek.get("farmer_name")
-            farmer_id = leek.get("farmer")
+            farmer_name = leek_farmer_name
+            farmer_id = leek_farmer_id
 
     if not challenger_leeks:
         return None
-
-    # farmer_name may not be in leeks1/2 — we'll fill it from report if needed
-    if farmer_name is None:
-        # Check farmers1/farmers2
-        farmers = fight.get("farmers1", {}) if dalton_team == 2 else fight.get("farmers2", {})
-        if isinstance(farmers, dict):
-            for fid, fdata in farmers.items():
-                farmer_id = int(fid)
-                farmer_name = fdata.get("name", "?") if isinstance(fdata, dict) else "?"
-                break
 
     # Extract team info for team fights
     team_name = None
@@ -485,6 +489,9 @@ def fetch_tooltip_data(session, rankings):
         for leek in e.get("leeks", []):
             if leek.get("id"):
                 leek_ids.add(leek["id"])
+            # Multi-farmer teams: each leek may belong to a different farmer
+            if leek.get("farmer"):
+                farmer_ids.add(leek["farmer"])
 
     tooltip_farmers = {}
     tooltip_leeks = {}

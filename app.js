@@ -317,12 +317,16 @@ function renderTable(entries, type, sectionName) {
         const cls = (rank <= 3 ? ` rank-${rank}` : "") + (isNew ? " row-new" : "");
         const dateStr = e.date ? new Date(e.date * 1000).toLocaleDateString() : "?";
         const leekIds = (e.leeks || []).map(l => safeInt(l.id)).filter(Boolean);
+        // For team/farmer: store compact leek info with farmer for grouping
+        const compData = (type !== "solo" && leekIds.length > 0)
+            ? (e.leeks || []).map(l => ({ id: safeInt(l.id), f: safeInt(l.farmer), fn: l.farmer_name || "" }))
+            : null;
         const leekCol = type === "solo"
             ? (leekIds.length === 1
                 ? `<span data-leek-id="${leekIds[0]}">${esc(e.leek_name || "?")}</span>`
                 : esc(e.leek_name || "?"))
-            : (leekIds.length > 0
-                ? `<span data-leek-ids='${JSON.stringify(leekIds)}'>${esc(e.leek_names || "?")}</span>`
+            : (compData
+                ? `<span data-comp='${JSON.stringify(compData).replace(/'/g, "&#39;")}'>${esc(e.leek_names || "?")}</span>`
                 : esc(e.leek_names || "?"));
         const level = type === "solo" ? (e.leek_level || e.total_level) : e.total_level;
 
@@ -725,19 +729,42 @@ function renderLeekTooltip(leek) {
     return html;
 }
 
-function renderCompositionTooltip(leekIds) {
-    let html = '<div class="rich-tooltip-header">';
-    html += `<div><div class="rich-tooltip-name">Composition</div>`;
-    html += `<div class="rich-tooltip-sub">${leekIds.length} leeks</div>`;
-    html += '</div></div>';
-    html += '<div class="rich-tooltip-leeks">';
-    for (const id of leekIds) {
-        const leek = getTooltipData("leek", id);
-        if (leek) {
-            html += renderLeekRow(leek, true);
+function renderCompositionTooltip(compData) {
+    // Group leeks by farmer
+    const groups = [];
+    const seen = {};
+    for (const entry of compData) {
+        const fid = entry.f || 0;
+        if (!seen[fid]) {
+            seen[fid] = { id: fid, name: entry.fn || "?", leeks: [] };
+            groups.push(seen[fid]);
         }
+        seen[fid].leeks.push(entry.id);
     }
-    html += '</div>';
+
+    let html = '';
+    for (const group of groups) {
+        // Farmer header
+        const fid = safeInt(group.id);
+        html += '<div class="comp-farmer-group">';
+        html += '<div class="comp-farmer-header">';
+        if (fid) html += `<img src="https://leekwars.com/avatar/${fid}.png" class="comp-farmer-avatar" alt="">`;
+        html += `<a href="https://leekwars.com/farmer/${fid}" target="_blank" class="comp-farmer-name" data-farmer-id="${fid}">${esc(group.name)}</a>`;
+        // Show farmer talent if we have tooltip data
+        const farmerData = getTooltipData("farmer", fid);
+        if (farmerData && farmerData.talent) {
+            html += `<span class="rich-tooltip-talent-badge">${safeInt(farmerData.talent)}</span>`;
+        }
+        html += '</div>';
+        // Leeks
+        for (const lid of group.leeks) {
+            const leek = getTooltipData("leek", lid);
+            if (leek) {
+                html += renderLeekRow(leek, true);
+            }
+        }
+        html += '</div>';
+    }
     return html;
 }
 
@@ -760,7 +787,7 @@ function getTooltipData(type, id) {
 document.addEventListener("mouseenter", (ev) => {
     const farmerLink = ev.target.closest("a[data-farmer-id]");
     const leekSpan = ev.target.closest("[data-leek-id]");
-    const compSpan = ev.target.closest("[data-leek-ids]");
+    const compSpan = ev.target.closest("[data-comp]");
 
     const anchor = farmerLink || leekSpan || compSpan;
     if (!anchor) return;
@@ -785,8 +812,8 @@ document.addEventListener("mouseenter", (ev) => {
             const data = getTooltipData("leek", leekSpan.dataset.leekId);
             html = data ? renderLeekTooltip(data) : null;
         } else if (compSpan) {
-            const ids = JSON.parse(compSpan.dataset.leekIds || "[]");
-            if (ids.length > 0) html = renderCompositionTooltip(ids);
+            const comp = JSON.parse(compSpan.dataset.comp || "[]");
+            if (comp.length > 0) html = renderCompositionTooltip(comp);
         }
 
         if (html) showTooltip(anchor, html);
@@ -794,7 +821,7 @@ document.addEventListener("mouseenter", (ev) => {
 }, true);
 
 document.addEventListener("mouseleave", (ev) => {
-    const anchor = ev.target.closest("a[data-farmer-id], [data-leek-id], [data-leek-ids]");
+    const anchor = ev.target.closest("a[data-farmer-id], [data-leek-id], [data-comp]");
     if (!anchor) return;
 
     clearTimeout(tooltipTimer);

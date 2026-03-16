@@ -1712,7 +1712,42 @@ footer a:hover {
 
 /* Hoverable leek names */
 [data-leek-id],
-[data-leek-ids] {
+[data-comp] {
     cursor: help;
     border-bottom: 1px dotted rgba(168,152,128,0.3);
+}
+
+/* Composition tooltip — farmer groups */
+.comp-farmer-group {
+    border-bottom: 1px solid rgba(107,58,31,0.15);
+}
+
+.comp-farmer-group:last-child {
+    border-bottom: none;
+}
+
+.comp-farmer-header {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.75rem 0.1rem;
+}
+
+.comp-farmer-avatar {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    object-fit: cover;
+    border: 1px solid var(--leather);
+}
+
+.comp-farmer-name {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.comp-farmer-name:hover {
+    color: var(--sand);
 }
