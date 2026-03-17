@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T01:18:15.040781+00:00",
+  "last_updated": "2026-03-17T04:15:48.407037+00:00",
   "daltons": {
     "46733": [
       {
@@ -3906,7 +3906,7 @@
       "ranking": 14,
       "country": null,
       "total_level": 1204,
-      "trophies": 266,
+      "trophies": 267,
       "leeks": {
         "38413": {
           "id": 38413,
@@ -4776,7 +4776,7 @@
       "ranking": 1,
       "country": null,
       "total_level": 1204,
-      "trophies": 266,
+      "trophies": 267,
       "leeks": {
         "128883": {
           "id": 128883,
@@ -5033,8 +5033,8 @@
     "86242": {
       "id": 86242,
       "name": "thaddee",
-      "talent": 3810,
-      "ranking": 76,
+      "talent": 3825,
+      "ranking": 72,
       "country": "ps",
       "total_level": 1204,
       "trophies": 299,
@@ -5428,8 +5428,8 @@
     "97547": {
       "id": 97547,
       "name": "Poliw",
-      "talent": 3796,
-      "ranking": 79,
+      "talent": 3809,
+      "ranking": 77,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -6088,8 +6088,8 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 3805,
-      "ranking": 77,
+      "talent": 3820,
+      "ranking": 75,
       "country": "ps",
       "total_level": 1203,
       "trophies": 294,
@@ -8503,8 +8503,8 @@
     "53189": {
       "id": 53189,
       "name": "tagadamasio",
-      "talent": 2276,
-      "ranking": 210,
+      "talent": 2292,
+      "ranking": 209,
       "country": null,
       "total_level": 1204,
       "trophies": 198,
@@ -11050,7 +11050,7 @@
       "name": "80CHIPREMISSION",
       "level": 174,
       "talent": 506,
-      "ranking": 6184,
+      "ranking": 6185,
       "life": 1597,
       "tp": 15,
       "mp": 6,
@@ -14477,7 +14477,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 408,
-      "ranking": 7862,
+      "ranking": 7863,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -17732,7 +17732,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 422,
-      "ranking": 7571,
+      "ranking": 7573,
       "life": 1418,
       "tp": 18,
       "mp": 6,
