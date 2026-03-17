@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T19:56:13.545263+00:00",
+  "last_updated": "2026-03-17T20:37:19.650841+00:00",
   "daltons": {
     "46733": [
       {
@@ -2091,6 +2091,214 @@
       ]
     },
     {
+      "fight_id": 51851587,
+      "fight_type": 2,
+      "farmer_name": "Poliw",
+      "farmer_id": 97547,
+      "team_name": "[ComponentRush]",
+      "leeks": [
+        {
+          "id": 103086,
+          "name": "Poliw",
+          "level": 301,
+          "farmer": 97547,
+          "farmer_name": "Poliw"
+        },
+        {
+          "id": 103082,
+          "name": "NewSlash",
+          "level": 301,
+          "farmer": 97543,
+          "farmer_name": "NewSlash"
+        },
+        {
+          "id": 103080,
+          "name": "SushiRush",
+          "level": 301,
+          "farmer": 97541,
+          "farmer_name": "SushiRush"
+        },
+        {
+          "id": 103084,
+          "name": "BabyKraton",
+          "level": 301,
+          "farmer": 97545,
+          "farmer_name": "BabyKraspen"
+        },
+        {
+          "id": 80481,
+          "name": "SelleDeCheval",
+          "level": 301,
+          "farmer": 75627,
+          "farmer_name": "Efr"
+        },
+        {
+          "id": 103083,
+          "name": "MimiAz",
+          "level": 301,
+          "farmer": 97544,
+          "farmer_name": "MimItems"
+        }
+      ],
+      "total_level": 1806,
+      "turns": 11,
+      "date": 1773778062,
+      "key": "97547",
+      "leek_names": "Poliw, NewSlash, SushiRush, BabyKraton, SelleDeCheval, MimiAz",
+      "history": [
+        {
+          "fight_id": 51851587,
+          "total_level": 1806,
+          "total_capital": null,
+          "turns": 11,
+          "date": 1773778062
+        },
+        {
+          "fight_id": 51826075,
+          "total_level": 1806,
+          "turns": 34,
+          "date": 1773616532
+        }
+      ]
+    },
+    {
+      "fight_id": 51851602,
+      "fight_type": 2,
+      "farmer_name": "fabou",
+      "farmer_id": 76155,
+      "team_name": "[Hanekawa]",
+      "leeks": [
+        {
+          "id": 81439,
+          "name": "MagnusPym",
+          "level": 301,
+          "farmer": 76155,
+          "farmer_name": "fabou"
+        },
+        {
+          "id": 78870,
+          "name": "RageRanger",
+          "level": 301,
+          "farmer": 73979,
+          "farmer_name": "Greener"
+        },
+        {
+          "id": 48427,
+          "name": "JeVoulais\u00catreUnPapillon",
+          "level": 301,
+          "farmer": 43276,
+          "farmer_name": "Ref"
+        },
+        {
+          "id": 42790,
+          "name": "Bulletproof",
+          "level": 301,
+          "farmer": 34434,
+          "farmer_name": "fantonico"
+        },
+        {
+          "id": 83517,
+          "name": "BobbyVian",
+          "level": 301,
+          "farmer": 78250,
+          "farmer_name": "Gandhictature"
+        },
+        {
+          "id": 99452,
+          "name": "TigerRed",
+          "level": 301,
+          "farmer": 94150,
+          "farmer_name": "Tigers"
+        }
+      ],
+      "total_level": 1806,
+      "turns": 12,
+      "date": 1773778408,
+      "key": "76155",
+      "leek_names": "MagnusPym, RageRanger, JeVoulais\u00catreUnPapillon, Bulletproof, BobbyVian, TigerRed",
+      "history": [
+        {
+          "fight_id": 51851602,
+          "total_level": 1806,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1773778408
+        },
+        {
+          "fight_id": 51851586,
+          "total_level": 1806,
+          "total_capital": null,
+          "turns": 16,
+          "date": 1773778060
+        }
+      ]
+    },
+    {
+      "fight_id": 51851584,
+      "fight_type": 2,
+      "farmer_name": "Madnicow",
+      "farmer_id": 44568,
+      "team_name": "[Hanekawa]",
+      "leeks": [
+        {
+          "id": 50691,
+          "name": "VoltaDeMonsanto",
+          "level": 301,
+          "farmer": 44568,
+          "farmer_name": "Madnicow"
+        },
+        {
+          "id": 64231,
+          "name": "Peuwahreau",
+          "level": 301,
+          "farmer": 58321,
+          "farmer_name": "fujiwar"
+        },
+        {
+          "id": 83243,
+          "name": "FifiPetain",
+          "level": 301,
+          "farmer": 78250,
+          "farmer_name": "Gandhictature"
+        },
+        {
+          "id": 78288,
+          "name": "RussianRafia",
+          "level": 301,
+          "farmer": 71485,
+          "farmer_name": "BrocoliCosmique"
+        },
+        {
+          "id": 81733,
+          "name": "Krasseux",
+          "level": 301,
+          "farmer": 76772,
+          "farmer_name": "Kraspen"
+        },
+        {
+          "id": 91864,
+          "name": "HainePaixComplet",
+          "level": 301,
+          "farmer": 8414,
+          "farmer_name": "FdHP"
+        }
+      ],
+      "total_level": 1806,
+      "turns": 12,
+      "date": 1773778056,
+      "key": "44568",
+      "leek_names": "VoltaDeMonsanto, Peuwahreau, FifiPetain, RussianRafia, Krasseux, HainePaixComplet",
+      "history": [
+        {
+          "fight_id": 51851584,
+          "total_level": 1806,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1773778056
+        }
+      ]
+    },
+    {
       "fight_id": 51815645,
       "fight_type": 2,
       "farmer_name": "thaddee",
@@ -2252,54 +2460,67 @@
       ]
     },
     {
-      "fight_id": 51826075,
+      "fight_id": 51851601,
       "fight_type": 2,
-      "farmer_name": "Poliw",
-      "farmer_id": 97547,
-      "team_name": "[ComponentRush]",
+      "farmer_name": "Kavaliov",
+      "farmer_id": 56160,
+      "team_name": "[DevBlanche]",
       "leeks": [
         {
-          "id": 103141,
-          "name": "Gentiw",
-          "level": 301
+          "id": 61778,
+          "name": "KavaBulbe",
+          "level": 301,
+          "farmer": 56160,
+          "farmer_name": "Kavaliov"
         },
         {
-          "id": 103157,
-          "name": "BabyKrasseux",
-          "level": 301
+          "id": 62444,
+          "name": "KavaDruide",
+          "level": 301,
+          "farmer": 56766,
+          "farmer_name": "KavaliovBis"
         },
         {
-          "id": 103131,
-          "name": "AigueMarine",
-          "level": 301
+          "id": 61547,
+          "name": "KavaTank",
+          "level": 301,
+          "farmer": 56766,
+          "farmer_name": "KavaliovBis"
         },
         {
-          "id": 103144,
-          "name": "ChevalDeCourse",
-          "level": 301
+          "id": 77929,
+          "name": "Kavasutra",
+          "level": 301,
+          "farmer": 72990,
+          "farmer_name": "KavaliovOcties"
         },
         {
-          "id": 103132,
-          "name": "MimiBouki",
-          "level": 301
+          "id": 66611,
+          "name": "Kavadesoi",
+          "level": 301,
+          "farmer": 61491,
+          "farmer_name": "KavaliovQuater"
         },
         {
-          "id": 106242,
-          "name": "Polynomial",
-          "level": 301
+          "id": 78006,
+          "name": "Kavakavient",
+          "level": 301,
+          "farmer": 72990,
+          "farmer_name": "KavaliovOcties"
         }
       ],
       "total_level": 1806,
-      "turns": 34,
-      "date": 1773616532,
-      "key": "97547",
-      "leek_names": "Gentiw, BabyKrasseux, AigueMarine, ChevalDeCourse, MimiBouki, Polynomial",
+      "turns": 30,
+      "date": 1773778370,
+      "key": "56160",
+      "leek_names": "KavaBulbe, KavaDruide, KavaTank, Kavasutra, Kavadesoi, Kavakavient",
       "history": [
         {
-          "fight_id": 51826075,
+          "fight_id": 51851601,
           "total_level": 1806,
-          "turns": 34,
-          "date": 1773616532
+          "total_capital": null,
+          "turns": 30,
+          "date": 1773778370
         }
       ]
     }
@@ -2335,7 +2556,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6735,
+      "talent": 6721,
       "ranking": 13,
       "country": "fr",
       "total_level": 1204,
@@ -2422,7 +2643,7 @@
     "66566": {
       "id": 66566,
       "name": "AppleTree",
-      "talent": 6750,
+      "talent": 6764,
       "ranking": 11,
       "country": "va",
       "total_level": 1204,
@@ -2749,6 +2970,93 @@
         "name": "Bataillon d'exploration"
       }
     },
+    "44568": {
+      "id": 44568,
+      "name": "Madnicow",
+      "talent": 5359,
+      "ranking": 44,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 291,
+      "leeks": {
+        "48617": {
+          "id": 48617,
+          "name": "MalabareDeMonsanto",
+          "level": 301,
+          "talent": 2648,
+          "life": 1920,
+          "tp": 29,
+          "mp": 6,
+          "strength": 0,
+          "agility": 150,
+          "wisdom": 550,
+          "resistance": 0,
+          "science": 720,
+          "magic": 0,
+          "frequency": 220,
+          "cores": 18,
+          "ram": 25
+        },
+        "49733": {
+          "id": 49733,
+          "name": "LucretiusDeMonsanto",
+          "level": 301,
+          "talent": 2276,
+          "life": 2510,
+          "tp": 25,
+          "mp": 5,
+          "strength": 580,
+          "agility": 80,
+          "wisdom": 350,
+          "resistance": 430,
+          "science": 110,
+          "magic": 50,
+          "frequency": 170,
+          "cores": 20,
+          "ram": 23
+        },
+        "50368": {
+          "id": 50368,
+          "name": "CopernicusDeMonsanto",
+          "level": 301,
+          "talent": 2525,
+          "life": 2310,
+          "tp": 25,
+          "mp": 6,
+          "strength": 610,
+          "agility": 290,
+          "wisdom": 440,
+          "resistance": 50,
+          "science": 140,
+          "magic": 50,
+          "frequency": 170,
+          "cores": 20,
+          "ram": 25
+        },
+        "50691": {
+          "id": 50691,
+          "name": "VoltaDeMonsanto",
+          "level": 301,
+          "talent": 2615,
+          "life": 2920,
+          "tp": 23,
+          "mp": 6,
+          "strength": 50,
+          "agility": 280,
+          "wisdom": 340,
+          "resistance": 400,
+          "science": 90,
+          "magic": 670,
+          "frequency": 170,
+          "cores": 20,
+          "ram": 23
+        }
+      },
+      "team": {
+        "id": 8078,
+        "name": "Hanekawa"
+      }
+    },
     "100912": {
       "id": 100912,
       "name": "EstebanC3",
@@ -2834,6 +3142,93 @@
       "team": {
         "id": 8078,
         "name": "Hanekawa"
+      }
+    },
+    "61491": {
+      "id": 61491,
+      "name": "KavaliovQuater",
+      "talent": 4137,
+      "ranking": 61,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 223,
+      "leeks": {
+        "66394": {
+          "id": 66394,
+          "name": "Kavalquad",
+          "level": 301,
+          "talent": 2733,
+          "life": 2960,
+          "tp": 25,
+          "mp": 6,
+          "strength": 0,
+          "agility": 470,
+          "wisdom": 520,
+          "resistance": 230,
+          "science": 90,
+          "magic": 580,
+          "frequency": 170,
+          "cores": 11,
+          "ram": 22
+        },
+        "66478": {
+          "id": 66478,
+          "name": "Kavafort",
+          "level": 301,
+          "talent": 2697,
+          "life": 2960,
+          "tp": 25,
+          "mp": 6,
+          "strength": 0,
+          "agility": 435,
+          "wisdom": 485,
+          "resistance": 300,
+          "science": 90,
+          "magic": 580,
+          "frequency": 170,
+          "cores": 11,
+          "ram": 22
+        },
+        "66611": {
+          "id": 66611,
+          "name": "Kavadesoi",
+          "level": 301,
+          "talent": 2727,
+          "life": 3160,
+          "tp": 24,
+          "mp": 6,
+          "strength": 0,
+          "agility": 400,
+          "wisdom": 420,
+          "resistance": 200,
+          "science": 60,
+          "magic": 680,
+          "frequency": 150,
+          "cores": 11,
+          "ram": 22
+        },
+        "67069": {
+          "id": 67069,
+          "name": "Kavasaigner",
+          "level": 301,
+          "talent": 2678,
+          "life": 3160,
+          "tp": 24,
+          "mp": 6,
+          "strength": 0,
+          "agility": 470,
+          "wisdom": 520,
+          "resistance": 200,
+          "science": 60,
+          "magic": 595,
+          "frequency": 150,
+          "cores": 11,
+          "ram": 22
+        }
+      },
+      "team": {
+        "id": 6737,
+        "name": "DevBlanche"
       }
     },
     "7740": {
@@ -3994,7 +4389,7 @@
           "id": 81915,
           "name": "Yongyong",
           "level": 301,
-          "talent": 2245,
+          "talent": 2230,
           "life": 3065,
           "tp": 25,
           "mp": 4,
@@ -4025,6 +4420,93 @@
           "frequency": 210,
           "cores": 16,
           "ram": 23
+        }
+      },
+      "team": {
+        "id": 8078,
+        "name": "Hanekawa"
+      }
+    },
+    "34434": {
+      "id": 34434,
+      "name": "fantonico",
+      "talent": 3705,
+      "ranking": 86,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 282,
+      "leeks": {
+        "37886": {
+          "id": 37886,
+          "name": "Carnivore",
+          "level": 301,
+          "talent": 2399,
+          "life": 2920,
+          "tp": 28,
+          "mp": 5,
+          "strength": 450,
+          "agility": 425,
+          "wisdom": 370,
+          "resistance": 50,
+          "science": 620,
+          "magic": 170,
+          "frequency": 190,
+          "cores": 8,
+          "ram": 19
+        },
+        "39262": {
+          "id": 39262,
+          "name": "HitTheFloor",
+          "level": 301,
+          "talent": 2308,
+          "life": 3040,
+          "tp": 28,
+          "mp": 6,
+          "strength": 500,
+          "agility": 345,
+          "wisdom": 520,
+          "resistance": 350,
+          "science": 140,
+          "magic": 170,
+          "frequency": 180,
+          "cores": 4,
+          "ram": 19
+        },
+        "40755": {
+          "id": 40755,
+          "name": "Monster",
+          "level": 301,
+          "talent": 2407,
+          "life": 2700,
+          "tp": 27,
+          "mp": 5,
+          "strength": 450,
+          "agility": 395,
+          "wisdom": 370,
+          "resistance": 50,
+          "science": 640,
+          "magic": 90,
+          "frequency": 190,
+          "cores": 8,
+          "ram": 25
+        },
+        "42790": {
+          "id": 42790,
+          "name": "Bulletproof",
+          "level": 301,
+          "talent": 2410,
+          "life": 3040,
+          "tp": 27,
+          "mp": 6,
+          "strength": 500,
+          "agility": 280,
+          "wisdom": 620,
+          "resistance": 395,
+          "science": 140,
+          "magic": 170,
+          "frequency": 180,
+          "cores": 4,
+          "ram": 19
         }
       },
       "team": {
@@ -4557,7 +5039,7 @@
     "19612": {
       "id": 19612,
       "name": "SalomonSanto",
-      "talent": 4361,
+      "talent": 4344,
       "ranking": 57,
       "country": "vc",
       "total_level": 1204,
@@ -5250,6 +5732,93 @@
         "name": "Hanekawa"
       }
     },
+    "8414": {
+      "id": 8414,
+      "name": "FdHP",
+      "talent": 5832,
+      "ranking": 38,
+      "country": "is",
+      "total_level": 1204,
+      "trophies": 316,
+      "leeks": {
+        "8549": {
+          "id": 8549,
+          "name": "Grub",
+          "level": 301,
+          "talent": 2318,
+          "life": 3055,
+          "tp": 25,
+          "mp": 6,
+          "strength": 500,
+          "agility": 300,
+          "wisdom": 400,
+          "resistance": 400,
+          "science": 180,
+          "magic": 50,
+          "frequency": 200,
+          "cores": 20,
+          "ram": 21
+        },
+        "91529": {
+          "id": 91529,
+          "name": "MarcoDorigo",
+          "level": 301,
+          "talent": 2007,
+          "life": 3134,
+          "tp": 25,
+          "mp": 6,
+          "strength": 50,
+          "agility": 440,
+          "wisdom": 500,
+          "resistance": 50,
+          "science": 500,
+          "magic": 50,
+          "frequency": 230,
+          "cores": 20,
+          "ram": 23
+        },
+        "91864": {
+          "id": 91864,
+          "name": "HainePaixComplet",
+          "level": 301,
+          "talent": 2700,
+          "life": 3120,
+          "tp": 28,
+          "mp": 5,
+          "strength": 50,
+          "agility": 400,
+          "wisdom": 480,
+          "resistance": 50,
+          "science": 180,
+          "magic": 570,
+          "frequency": 180,
+          "cores": 18,
+          "ram": 21
+        },
+        "96861": {
+          "id": 96861,
+          "name": "Zigotos",
+          "level": 301,
+          "talent": 2376,
+          "life": 2683,
+          "tp": 25,
+          "mp": 6,
+          "strength": 572,
+          "agility": 300,
+          "wisdom": 500,
+          "resistance": 400,
+          "science": 180,
+          "magic": 50,
+          "frequency": 200,
+          "cores": 18,
+          "ram": 19
+        }
+      },
+      "team": {
+        "id": 8078,
+        "name": "Hanekawa"
+      }
+    },
     "60639": {
       "id": 60639,
       "name": "SaltyCrusader",
@@ -5340,8 +5909,8 @@
     "86242": {
       "id": 86242,
       "name": "thaddee",
-      "talent": 3796,
-      "ranking": 78,
+      "talent": 3781,
+      "ranking": 80,
       "country": "ps",
       "total_level": 1204,
       "trophies": 299,
@@ -5745,7 +6314,7 @@
           "id": 78870,
           "name": "RageRanger",
           "level": 301,
-          "talent": 2667,
+          "talent": 2652,
           "life": 2610,
           "tp": 30,
           "mp": 6,
@@ -5817,6 +6386,354 @@
       "team": {
         "id": 8078,
         "name": "Hanekawa"
+      }
+    },
+    "97541": {
+      "id": 97541,
+      "name": "SushiRush",
+      "talent": 3875,
+      "ranking": 69,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 246,
+      "leeks": {
+        "103080": {
+          "id": 103080,
+          "name": "SushiRush",
+          "level": 301,
+          "talent": 2387,
+          "life": 3105,
+          "tp": 26,
+          "mp": 4,
+          "strength": 660,
+          "agility": 60,
+          "wisdom": 430,
+          "resistance": 0,
+          "science": 100,
+          "magic": 80,
+          "frequency": 170,
+          "cores": 14,
+          "ram": 17
+        },
+        "103143": {
+          "id": 103143,
+          "name": "MangueBleut\u00e9e",
+          "level": 301,
+          "talent": 2321,
+          "life": 2878,
+          "tp": 23,
+          "mp": 6,
+          "strength": 512,
+          "agility": 160,
+          "wisdom": 400,
+          "resistance": 390,
+          "science": 130,
+          "magic": 80,
+          "frequency": 190,
+          "cores": 16,
+          "ram": 15
+        },
+        "103444": {
+          "id": 103444,
+          "name": "QuiPourUnNasu",
+          "level": 301,
+          "talent": 2179,
+          "life": 3330,
+          "tp": 23,
+          "mp": 5,
+          "strength": 540,
+          "agility": 260,
+          "wisdom": 310,
+          "resistance": 300,
+          "science": 110,
+          "magic": 80,
+          "frequency": 180,
+          "cores": 16,
+          "ram": 17
+        },
+        "103832": {
+          "id": 103832,
+          "name": "PruneBleut\u00e9e",
+          "level": 301,
+          "talent": 1881,
+          "life": 3427,
+          "tp": 21,
+          "mp": 5,
+          "strength": 530,
+          "agility": 210,
+          "wisdom": 266,
+          "resistance": 505,
+          "science": 60,
+          "magic": 80,
+          "frequency": 150,
+          "cores": 14,
+          "ram": 15
+        }
+      },
+      "team": {
+        "id": 9480,
+        "name": "ComponentRush"
+      }
+    },
+    "97543": {
+      "id": 97543,
+      "name": "NewSlash",
+      "talent": 7707,
+      "ranking": null,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 265,
+      "leeks": {
+        "103082": {
+          "id": 103082,
+          "name": "NewSlash",
+          "level": 301,
+          "talent": 2638,
+          "life": 3370,
+          "tp": 27,
+          "mp": 6,
+          "strength": 0,
+          "agility": 30,
+          "wisdom": 400,
+          "resistance": 400,
+          "science": 90,
+          "magic": 600,
+          "frequency": 160,
+          "cores": 15,
+          "ram": 28
+        },
+        "103131": {
+          "id": 103131,
+          "name": "AigueMarine",
+          "level": 301,
+          "talent": 2630,
+          "life": 3370,
+          "tp": 27,
+          "mp": 6,
+          "strength": 0,
+          "agility": 30,
+          "wisdom": 400,
+          "resistance": 400,
+          "science": 90,
+          "magic": 600,
+          "frequency": 160,
+          "cores": 15,
+          "ram": 28
+        },
+        "103303": {
+          "id": 103303,
+          "name": "P\u00e9piteDOr",
+          "level": 301,
+          "talent": 2697,
+          "life": 3370,
+          "tp": 27,
+          "mp": 6,
+          "strength": 0,
+          "agility": 30,
+          "wisdom": 400,
+          "resistance": 400,
+          "science": 90,
+          "magic": 600,
+          "frequency": 160,
+          "cores": 15,
+          "ram": 28
+        },
+        "103529": {
+          "id": 103529,
+          "name": "Cornaline",
+          "level": 301,
+          "talent": 1957,
+          "life": 3275,
+          "tp": 24,
+          "mp": 6,
+          "strength": 50,
+          "agility": 450,
+          "wisdom": 600,
+          "resistance": 50,
+          "science": 800,
+          "magic": 90,
+          "frequency": 200,
+          "cores": 9,
+          "ram": 20
+        }
+      },
+      "team": {
+        "id": 9480,
+        "name": "ComponentRush"
+      }
+    },
+    "97544": {
+      "id": 97544,
+      "name": "MimItems",
+      "talent": 5512,
+      "ranking": 43,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 262,
+      "leeks": {
+        "103083": {
+          "id": 103083,
+          "name": "MimiAz",
+          "level": 301,
+          "talent": 2497,
+          "life": 2900,
+          "tp": 26,
+          "mp": 6,
+          "strength": 551,
+          "agility": 290,
+          "wisdom": 570,
+          "resistance": 290,
+          "science": 110,
+          "magic": 106,
+          "frequency": 180,
+          "cores": 4,
+          "ram": 20
+        },
+        "103132": {
+          "id": 103132,
+          "name": "MimiBouki",
+          "level": 301,
+          "talent": 2498,
+          "life": 2900,
+          "tp": 27,
+          "mp": 6,
+          "strength": 551,
+          "agility": 400,
+          "wisdom": 570,
+          "resistance": 0,
+          "science": 110,
+          "magic": 106,
+          "frequency": 180,
+          "cores": 4,
+          "ram": 20
+        },
+        "103350": {
+          "id": 103350,
+          "name": "MimiVedi",
+          "level": 301,
+          "talent": 2420,
+          "life": 2900,
+          "tp": 27,
+          "mp": 6,
+          "strength": 556,
+          "agility": 390,
+          "wisdom": 570,
+          "resistance": 0,
+          "science": 110,
+          "magic": 106,
+          "frequency": 180,
+          "cores": 4,
+          "ram": 20
+        },
+        "103546": {
+          "id": 103546,
+          "name": "MimiGlagoli",
+          "level": 301,
+          "talent": 2498,
+          "life": 2900,
+          "tp": 27,
+          "mp": 6,
+          "strength": 550,
+          "agility": 405,
+          "wisdom": 570,
+          "resistance": 0,
+          "science": 110,
+          "magic": 100,
+          "frequency": 180,
+          "cores": 4,
+          "ram": 20
+        }
+      },
+      "team": {
+        "id": 9480,
+        "name": "ComponentRush"
+      }
+    },
+    "97545": {
+      "id": 97545,
+      "name": "BabyKraspen",
+      "talent": 6127,
+      "ranking": 27,
+      "country": "jp",
+      "total_level": 1204,
+      "trophies": 276,
+      "leeks": {
+        "103084": {
+          "id": 103084,
+          "name": "BabyKraton",
+          "level": 301,
+          "talent": 2386,
+          "life": 3070,
+          "tp": 27,
+          "mp": 6,
+          "strength": 0,
+          "agility": 300,
+          "wisdom": 500,
+          "resistance": 400,
+          "science": 90,
+          "magic": 550,
+          "frequency": 180,
+          "cores": 18,
+          "ram": 25
+        },
+        "103157": {
+          "id": 103157,
+          "name": "BabyKrasseux",
+          "level": 301,
+          "talent": 2389,
+          "life": 3054,
+          "tp": 27,
+          "mp": 6,
+          "strength": 0,
+          "agility": 280,
+          "wisdom": 500,
+          "resistance": 440,
+          "science": 90,
+          "magic": 542,
+          "frequency": 180,
+          "cores": 18,
+          "ram": 25
+        },
+        "103328": {
+          "id": 103328,
+          "name": "BabyKrapule",
+          "level": 301,
+          "talent": 2381,
+          "life": 3054,
+          "tp": 27,
+          "mp": 7,
+          "strength": 0,
+          "agility": 280,
+          "wisdom": 500,
+          "resistance": 400,
+          "science": 90,
+          "magic": 532,
+          "frequency": 180,
+          "cores": 18,
+          "ram": 25
+        },
+        "103559": {
+          "id": 103559,
+          "name": "BabyKraneur",
+          "level": 301,
+          "talent": 2418,
+          "life": 3054,
+          "tp": 27,
+          "mp": 7,
+          "strength": 0,
+          "agility": 280,
+          "wisdom": 500,
+          "resistance": 400,
+          "science": 90,
+          "magic": 532,
+          "frequency": 180,
+          "cores": 18,
+          "ram": 25
+        }
+      },
+      "team": {
+        "id": 9480,
+        "name": "ComponentRush"
       }
     },
     "97547": {
@@ -6410,6 +7327,93 @@
         "name": "LeeksTeam"
       }
     },
+    "72990": {
+      "id": 72990,
+      "name": "KavaliovOcties",
+      "talent": 4505,
+      "ranking": 55,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 269,
+      "leeks": {
+        "77929": {
+          "id": 77929,
+          "name": "Kavasutra",
+          "level": 301,
+          "talent": 2708,
+          "life": 2880,
+          "tp": 26,
+          "mp": 6,
+          "strength": 0,
+          "agility": 400,
+          "wisdom": 340,
+          "resistance": 200,
+          "science": 70,
+          "magic": 680,
+          "frequency": 190,
+          "cores": 11,
+          "ram": 20
+        },
+        "78006": {
+          "id": 78006,
+          "name": "Kavakavient",
+          "level": 301,
+          "talent": 2682,
+          "life": 2880,
+          "tp": 26,
+          "mp": 6,
+          "strength": 0,
+          "agility": 400,
+          "wisdom": 340,
+          "resistance": 200,
+          "science": 70,
+          "magic": 680,
+          "frequency": 190,
+          "cores": 11,
+          "ram": 20
+        },
+        "78110": {
+          "id": 78110,
+          "name": "Kavaplus",
+          "level": 301,
+          "talent": 2708,
+          "life": 2880,
+          "tp": 26,
+          "mp": 6,
+          "strength": 0,
+          "agility": 400,
+          "wisdom": 340,
+          "resistance": 200,
+          "science": 70,
+          "magic": 680,
+          "frequency": 190,
+          "cores": 11,
+          "ram": 20
+        },
+        "78222": {
+          "id": 78222,
+          "name": "Kavatroloin",
+          "level": 301,
+          "talent": 2741,
+          "life": 2880,
+          "tp": 26,
+          "mp": 6,
+          "strength": 0,
+          "agility": 400,
+          "wisdom": 340,
+          "resistance": 200,
+          "science": 70,
+          "magic": 680,
+          "frequency": 190,
+          "cores": 11,
+          "ram": 20
+        }
+      },
+      "team": {
+        "id": 6737,
+        "name": "DevBlanche"
+      }
+    },
     "87850": {
       "id": 87850,
       "name": "Cosmos1",
@@ -6482,7 +7486,7 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 3836,
+      "talent": 3850,
       "ranking": 72,
       "country": "ps",
       "total_level": 1203,
@@ -7032,6 +8036,93 @@
       "team": {
         "id": 9355,
         "name": "PRACTICE\ud83c\udf64"
+      }
+    },
+    "71485": {
+      "id": 71485,
+      "name": "BrocoliCosmique",
+      "talent": 6030,
+      "ranking": 30,
+      "country": "ps",
+      "total_level": 1204,
+      "trophies": 284,
+      "leeks": {
+        "76366": {
+          "id": 76366,
+          "name": "ChaussetteBleue",
+          "level": 301,
+          "talent": 2390,
+          "life": 1680,
+          "tp": 26,
+          "mp": 6,
+          "strength": 550,
+          "agility": 50,
+          "wisdom": 365,
+          "resistance": 380,
+          "science": 250,
+          "magic": 50,
+          "frequency": 260,
+          "cores": 26,
+          "ram": 20
+        },
+        "78017": {
+          "id": 78017,
+          "name": "ChoucrouteMelba",
+          "level": 301,
+          "talent": 2172,
+          "life": 2475,
+          "tp": 26,
+          "mp": 6,
+          "strength": 490,
+          "agility": 80,
+          "wisdom": 330,
+          "resistance": 380,
+          "science": 180,
+          "magic": 130,
+          "frequency": 180,
+          "cores": 24,
+          "ram": 22
+        },
+        "78288": {
+          "id": 78288,
+          "name": "RussianRafia",
+          "level": 301,
+          "talent": 2344,
+          "life": 2560,
+          "tp": 26,
+          "mp": 6,
+          "strength": 0,
+          "agility": 70,
+          "wisdom": 400,
+          "resistance": 210,
+          "science": 70,
+          "magic": 640,
+          "frequency": 170,
+          "cores": 20,
+          "ram": 25
+        },
+        "79069": {
+          "id": 79069,
+          "name": "LentilleLunaire",
+          "level": 301,
+          "talent": 2536,
+          "life": 2725,
+          "tp": 26,
+          "mp": 5,
+          "strength": 560,
+          "agility": 330,
+          "wisdom": 340,
+          "resistance": 0,
+          "science": 160,
+          "magic": 40,
+          "frequency": 220,
+          "cores": 21,
+          "ram": 20
+        }
+      },
+      "team": {
+        "id": 8078,
+        "name": "Hanekawa"
       }
     },
     "124738": {
@@ -7610,7 +8701,7 @@
     "94042": {
       "id": 94042,
       "name": "Bux420",
-      "talent": 4561,
+      "talent": 4594,
       "ranking": 54,
       "country": "fr",
       "total_level": 1204,
@@ -7692,6 +8783,93 @@
       "team": {
         "id": 10096,
         "name": "DeepMind"
+      }
+    },
+    "56160": {
+      "id": 56160,
+      "name": "Kavaliov",
+      "talent": 5552,
+      "ranking": 41,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 248,
+      "leeks": {
+        "60897": {
+          "id": 60897,
+          "name": "Kavaliov",
+          "level": 301,
+          "talent": 2713,
+          "life": 2960,
+          "tp": 27,
+          "mp": 6,
+          "strength": 0,
+          "agility": 270,
+          "wisdom": 320,
+          "resistance": 285,
+          "science": 90,
+          "magic": 680,
+          "frequency": 170,
+          "cores": 11,
+          "ram": 22
+        },
+        "61024": {
+          "id": 61024,
+          "name": "Kavasoin",
+          "level": 301,
+          "talent": 2694,
+          "life": 2960,
+          "tp": 28,
+          "mp": 6,
+          "strength": 0,
+          "agility": 270,
+          "wisdom": 320,
+          "resistance": 205,
+          "science": 90,
+          "magic": 680,
+          "frequency": 170,
+          "cores": 11,
+          "ram": 22
+        },
+        "61373": {
+          "id": 61373,
+          "name": "Kavaboost",
+          "level": 301,
+          "talent": 2655,
+          "life": 2960,
+          "tp": 27,
+          "mp": 6,
+          "strength": 0,
+          "agility": 355,
+          "wisdom": 420,
+          "resistance": 300,
+          "science": 90,
+          "magic": 580,
+          "frequency": 170,
+          "cores": 11,
+          "ram": 22
+        },
+        "61778": {
+          "id": 61778,
+          "name": "KavaBulbe",
+          "level": 301,
+          "talent": 2633,
+          "life": 2975,
+          "tp": 27,
+          "mp": 7,
+          "strength": 0,
+          "agility": 70,
+          "wisdom": 520,
+          "resistance": 0,
+          "science": 90,
+          "magic": 680,
+          "frequency": 170,
+          "cores": 11,
+          "ram": 22
+        }
+      },
+      "team": {
+        "id": 6737,
+        "name": "DevBlanche"
       }
     },
     "66407": {
@@ -7781,6 +8959,93 @@
         "name": "Frettey"
       }
     },
+    "75627": {
+      "id": 75627,
+      "name": "Efr",
+      "talent": 6358,
+      "ranking": null,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 271,
+      "leeks": {
+        "80481": {
+          "id": 80481,
+          "name": "SelleDeCheval",
+          "level": 301,
+          "talent": 2730,
+          "life": 3525,
+          "tp": 26,
+          "mp": 5,
+          "strength": 0,
+          "agility": 170,
+          "wisdom": 500,
+          "resistance": 40,
+          "science": 70,
+          "magic": 775,
+          "frequency": 160,
+          "cores": 15,
+          "ram": 21
+        },
+        "103144": {
+          "id": 103144,
+          "name": "ChevalDeCourse",
+          "level": 301,
+          "talent": 2750,
+          "life": 3555,
+          "tp": 26,
+          "mp": 5,
+          "strength": 0,
+          "agility": 200,
+          "wisdom": 500,
+          "resistance": 110,
+          "science": 70,
+          "magic": 775,
+          "frequency": 160,
+          "cores": 15,
+          "ram": 21
+        },
+        "103273": {
+          "id": 103273,
+          "name": "Course\u00c0Pied",
+          "level": 301,
+          "talent": 2815,
+          "life": 3275,
+          "tp": 26,
+          "mp": 5,
+          "strength": 50,
+          "agility": 240,
+          "wisdom": 230,
+          "resistance": 120,
+          "science": 90,
+          "magic": 900,
+          "frequency": 160,
+          "cores": 15,
+          "ram": 18
+        },
+        "103526": {
+          "id": 103526,
+          "name": "Pied\u00c0Terre",
+          "level": 301,
+          "talent": 2709,
+          "life": 3525,
+          "tp": 26,
+          "mp": 5,
+          "strength": 0,
+          "agility": 170,
+          "wisdom": 500,
+          "resistance": 40,
+          "science": 70,
+          "magic": 775,
+          "frequency": 160,
+          "cores": 15,
+          "ram": 21
+        }
+      },
+      "team": {
+        "id": 9480,
+        "name": "ComponentRush"
+      }
+    },
     "98164": {
       "id": 98164,
       "name": "DrKouignamann",
@@ -7866,6 +9131,93 @@
       "team": {
         "id": 9517,
         "name": "Les exp\u00e9riences du Docteur Kouignamann"
+      }
+    },
+    "76155": {
+      "id": 76155,
+      "name": "fabou",
+      "talent": 7082,
+      "ranking": 4,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 322,
+      "leeks": {
+        "80980": {
+          "id": 80980,
+          "name": "GeorgeSmiley",
+          "level": 301,
+          "talent": 2515,
+          "life": 3165,
+          "tp": 30,
+          "mp": 5,
+          "strength": 550,
+          "agility": 200,
+          "wisdom": 450,
+          "resistance": 450,
+          "science": 150,
+          "magic": 90,
+          "frequency": 190,
+          "cores": 8,
+          "ram": 21
+        },
+        "81109": {
+          "id": 81109,
+          "name": "AlecLeamas",
+          "level": 301,
+          "talent": 1896,
+          "life": 2575,
+          "tp": 28,
+          "mp": 5,
+          "strength": 0,
+          "agility": 200,
+          "wisdom": 400,
+          "resistance": 450,
+          "science": 730,
+          "magic": 0,
+          "frequency": 220,
+          "cores": 12,
+          "ram": 23
+        },
+        "81266": {
+          "id": 81266,
+          "name": "JerryWesterby",
+          "level": 301,
+          "talent": 2370,
+          "life": 3230,
+          "tp": 30,
+          "mp": 5,
+          "strength": 550,
+          "agility": 0,
+          "wisdom": 400,
+          "resistance": 450,
+          "science": 90,
+          "magic": 40,
+          "frequency": 170,
+          "cores": 10,
+          "ram": 23
+        },
+        "81439": {
+          "id": 81439,
+          "name": "MagnusPym",
+          "level": 301,
+          "talent": 2372,
+          "life": 3180,
+          "tp": 28,
+          "mp": 5,
+          "strength": 500,
+          "agility": 50,
+          "wisdom": 400,
+          "resistance": 400,
+          "science": 400,
+          "magic": 40,
+          "frequency": 150,
+          "cores": 10,
+          "ram": 26
+        }
+      },
+      "team": {
+        "id": 8078,
+        "name": "Hanekawa"
       }
     },
     "98186": {
@@ -8651,6 +10003,93 @@
         "name": "The Very Little Leeks"
       }
     },
+    "56766": {
+      "id": 56766,
+      "name": "KavaliovBis",
+      "talent": 3975,
+      "ranking": 62,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 212,
+      "leeks": {
+        "61547": {
+          "id": 61547,
+          "name": "KavaTank",
+          "level": 301,
+          "talent": 2735,
+          "life": 2960,
+          "tp": 28,
+          "mp": 6,
+          "strength": 0,
+          "agility": 270,
+          "wisdom": 320,
+          "resistance": 205,
+          "science": 90,
+          "magic": 680,
+          "frequency": 170,
+          "cores": 11,
+          "ram": 22
+        },
+        "61654": {
+          "id": 61654,
+          "name": "Kavamage",
+          "level": 301,
+          "talent": 2671,
+          "life": 2960,
+          "tp": 28,
+          "mp": 6,
+          "strength": 0,
+          "agility": 270,
+          "wisdom": 320,
+          "resistance": 205,
+          "science": 90,
+          "magic": 680,
+          "frequency": 170,
+          "cores": 11,
+          "ram": 22
+        },
+        "62052": {
+          "id": 62052,
+          "name": "KavaPretre",
+          "level": 301,
+          "talent": 2665,
+          "life": 2960,
+          "tp": 28,
+          "mp": 6,
+          "strength": 0,
+          "agility": 270,
+          "wisdom": 320,
+          "resistance": 205,
+          "science": 90,
+          "magic": 680,
+          "frequency": 170,
+          "cores": 11,
+          "ram": 22
+        },
+        "62444": {
+          "id": 62444,
+          "name": "KavaDruide",
+          "level": 301,
+          "talent": 2665,
+          "life": 2960,
+          "tp": 28,
+          "mp": 6,
+          "strength": 0,
+          "agility": 270,
+          "wisdom": 320,
+          "resistance": 205,
+          "science": 90,
+          "magic": 680,
+          "frequency": 170,
+          "cores": 11,
+          "ram": 22
+        }
+      },
+      "team": {
+        "id": 6737,
+        "name": "DevBlanche"
+      }
+    },
     "79295": {
       "id": 79295,
       "name": "TPE1",
@@ -9068,6 +10507,93 @@
         "name": "La Volte"
       }
     },
+    "94150": {
+      "id": 94150,
+      "name": "Tigers",
+      "talent": 3940,
+      "ranking": null,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 270,
+      "leeks": {
+        "99452": {
+          "id": 99452,
+          "name": "TigerRed",
+          "level": 301,
+          "talent": 2360,
+          "life": 2820,
+          "tp": 24,
+          "mp": 6,
+          "strength": 0,
+          "agility": 80,
+          "wisdom": 700,
+          "resistance": 0,
+          "science": 110,
+          "magic": 600,
+          "frequency": 140,
+          "cores": 4,
+          "ram": 25
+        },
+        "107941": {
+          "id": 107941,
+          "name": "TigerBlue",
+          "level": 301,
+          "talent": 2426,
+          "life": 2420,
+          "tp": 24,
+          "mp": 5,
+          "strength": 50,
+          "agility": 80,
+          "wisdom": 780,
+          "resistance": 50,
+          "science": 130,
+          "magic": 630,
+          "frequency": 140,
+          "cores": 4,
+          "ram": 25
+        },
+        "108063": {
+          "id": 108063,
+          "name": "TigerYellow",
+          "level": 301,
+          "talent": 2734,
+          "life": 3240,
+          "tp": 24,
+          "mp": 5,
+          "strength": 50,
+          "agility": 80,
+          "wisdom": 720,
+          "resistance": 50,
+          "science": 120,
+          "magic": 670,
+          "frequency": 120,
+          "cores": 4,
+          "ram": 25
+        },
+        "108354": {
+          "id": 108354,
+          "name": "TigerOrange",
+          "level": 301,
+          "talent": 2149,
+          "life": 2390,
+          "tp": 27,
+          "mp": 5,
+          "strength": 610,
+          "agility": 80,
+          "wisdom": 380,
+          "resistance": 350,
+          "science": 150,
+          "magic": 50,
+          "frequency": 140,
+          "cores": 4,
+          "ram": 27
+        }
+      },
+      "team": {
+        "id": 8078,
+        "name": "Hanekawa"
+      }
+    },
     "99783": {
       "id": 99783,
       "name": "Marcellus",
@@ -9245,8 +10771,8 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3562,
-      "ranking": 93,
+      "talent": 3526,
+      "ranking": 97,
       "country": "fr",
       "total_level": 1200,
       "trophies": 170,
@@ -9465,7 +10991,7 @@
           "id": 47107,
           "name": "LeekNsjtt",
           "level": 301,
-          "talent": 2237,
+          "talent": 2222,
           "life": 2065,
           "tp": 21,
           "mp": 6,
@@ -9707,8 +11233,8 @@
       "id": 47107,
       "name": "LeekNsjtt",
       "level": 301,
-      "talent": 2237,
-      "ranking": 410,
+      "talent": 2222,
+      "ranking": 415,
       "life": 2065,
       "tp": 21,
       "mp": 6,
@@ -10405,6 +11931,110 @@
         "bramble"
       ]
     },
+    "77929": {
+      "id": 77929,
+      "name": "Kavasutra",
+      "level": 301,
+      "talent": 2708,
+      "ranking": 106,
+      "life": 2880,
+      "tp": 26,
+      "mp": 6,
+      "strength": 0,
+      "agility": 400,
+      "wisdom": 340,
+      "resistance": 200,
+      "science": 70,
+      "magic": 680,
+      "frequency": 190,
+      "cores": 11,
+      "ram": 20,
+      "farmer": {
+        "id": 72990,
+        "name": "KavaliovOcties"
+      },
+      "weapons": [
+        "flame_thrower",
+        "mysterious_electrisor",
+        "katana",
+        "gazor"
+      ],
+      "chips": [
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "solidification",
+        "venom",
+        "armoring",
+        "armor",
+        "prism",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "plague",
+        "elevation",
+        "arsenic"
+      ]
+    },
+    "61547": {
+      "id": 61547,
+      "name": "KavaTank",
+      "level": 301,
+      "talent": 2735,
+      "ranking": 90,
+      "life": 2960,
+      "tp": 28,
+      "mp": 6,
+      "strength": 0,
+      "agility": 270,
+      "wisdom": 320,
+      "resistance": 205,
+      "science": 90,
+      "magic": 680,
+      "frequency": 170,
+      "cores": 11,
+      "ram": 22,
+      "farmer": {
+        "id": 56766,
+        "name": "KavaliovBis"
+      },
+      "weapons": [
+        "flame_thrower",
+        "mysterious_electrisor",
+        "katana",
+        "gazor"
+      ],
+      "chips": [
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "solidification",
+        "venom",
+        "armoring",
+        "jump",
+        "armor",
+        "prism",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "plague",
+        "elevation",
+        "fracture",
+        "arsenic"
+      ]
+    },
     "88179": {
       "id": 88179,
       "name": "Vakarian",
@@ -10970,7 +12600,7 @@
       "name": "Lordaeron",
       "level": 255,
       "talent": 2232,
-      "ranking": 413,
+      "ranking": 411,
       "life": 2852,
       "tp": 22,
       "mp": 6,
@@ -11071,7 +12701,7 @@
       "name": "PoOtato",
       "level": 301,
       "talent": 2231,
-      "ranking": 414,
+      "ranking": 412,
       "life": 2865,
       "tp": 27,
       "mp": 5,
@@ -11165,6 +12795,57 @@
         "serum",
         "elevation",
         "dome"
+      ]
+    },
+    "78006": {
+      "id": 78006,
+      "name": "Kavakavient",
+      "level": 301,
+      "talent": 2682,
+      "ranking": 126,
+      "life": 2880,
+      "tp": 26,
+      "mp": 6,
+      "strength": 0,
+      "agility": 400,
+      "wisdom": 340,
+      "resistance": 200,
+      "science": 70,
+      "magic": 680,
+      "frequency": 190,
+      "cores": 11,
+      "ram": 20,
+      "farmer": {
+        "id": 72990,
+        "name": "KavaliovOcties"
+      },
+      "weapons": [
+        "double_gun",
+        "flame_thrower",
+        "gazor",
+        "unbridled_gazor"
+      ],
+      "chips": [
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "solidification",
+        "venom",
+        "armoring",
+        "armor",
+        "prism",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "plague",
+        "elevation",
+        "arsenic"
       ]
     },
     "131255": {
@@ -13048,6 +14729,59 @@
         "elevation"
       ]
     },
+    "61778": {
+      "id": 61778,
+      "name": "KavaBulbe",
+      "level": 301,
+      "talent": 2633,
+      "ranking": 176,
+      "life": 2975,
+      "tp": 27,
+      "mp": 7,
+      "strength": 0,
+      "agility": 70,
+      "wisdom": 520,
+      "resistance": 0,
+      "science": 90,
+      "magic": 680,
+      "frequency": 170,
+      "cores": 11,
+      "ram": 22,
+      "farmer": {
+        "id": 56160,
+        "name": "Kavaliov"
+      },
+      "weapons": [
+        "flame_thrower",
+        "katana",
+        "gazor",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "motivation",
+        "leather_boots",
+        "knowledge",
+        "solidification",
+        "venom",
+        "armoring",
+        "vaccine",
+        "prism",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "soporific",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "fracture",
+        "arsenic"
+      ]
+    },
     "76121": {
       "id": 76121,
       "name": "MimiPsi",
@@ -14046,6 +15780,100 @@
         "arsenic"
       ]
     },
+    "78288": {
+      "id": 78288,
+      "name": "RussianRafia",
+      "level": 301,
+      "talent": 2344,
+      "ranking": 337,
+      "life": 2560,
+      "tp": 26,
+      "mp": 6,
+      "strength": 0,
+      "agility": 70,
+      "wisdom": 400,
+      "resistance": 210,
+      "science": 70,
+      "magic": 640,
+      "frequency": 170,
+      "cores": 20,
+      "ram": 25,
+      "farmer": {
+        "id": 71485,
+        "name": "BrocoliCosmique"
+      },
+      "weapons": [
+        "destroyer",
+        "flame_thrower",
+        "explorer_rifle",
+        "gazor"
+      ],
+      "chips": [
+        "helmet",
+        "wall",
+        "shield",
+        "solidification",
+        "venom",
+        "drip",
+        "armoring",
+        "jump",
+        "armor",
+        "vaccine",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "toxin",
+        "manumission",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "plague",
+        "dome",
+        "transmutation",
+        "therapy",
+        "arsenic"
+      ]
+    },
+    "127441": {
+      "id": 127441,
+      "name": "Almost",
+      "level": 118,
+      "talent": 567,
+      "ranking": 5224,
+      "life": 1421,
+      "tp": 17,
+      "mp": 7,
+      "strength": 220,
+      "agility": 210,
+      "wisdom": 140,
+      "resistance": 40,
+      "science": 20,
+      "magic": 40,
+      "frequency": 130,
+      "cores": 4,
+      "ram": 9,
+      "farmer": {
+        "id": 121160,
+        "name": "Presque"
+      },
+      "weapons": [
+        "shotgun",
+        "magnum",
+        "unstable_destroyer"
+      ],
+      "chips": [
+        "bandage",
+        "spark",
+        "cure",
+        "puny_bulb",
+        "liberation",
+        "armoring",
+        "jump",
+        "prism"
+      ]
+    },
     "80336": {
       "id": 80336,
       "name": "SepiNailleur",
@@ -14095,44 +15923,6 @@
         "fortress",
         "serum",
         "elevation"
-      ]
-    },
-    "127441": {
-      "id": 127441,
-      "name": "Almost",
-      "level": 118,
-      "talent": 567,
-      "ranking": 5224,
-      "life": 1421,
-      "tp": 17,
-      "mp": 7,
-      "strength": 220,
-      "agility": 210,
-      "wisdom": 140,
-      "resistance": 40,
-      "science": 20,
-      "magic": 40,
-      "frequency": 130,
-      "cores": 4,
-      "ram": 9,
-      "farmer": {
-        "id": 121160,
-        "name": "Presque"
-      },
-      "weapons": [
-        "shotgun",
-        "magnum",
-        "unstable_destroyer"
-      ],
-      "chips": [
-        "bandage",
-        "spark",
-        "cure",
-        "puny_bulb",
-        "liberation",
-        "armoring",
-        "jump",
-        "prism"
       ]
     },
     "82384": {
@@ -15364,6 +17154,58 @@
         "arsenic"
       ]
     },
+    "80481": {
+      "id": 80481,
+      "name": "SelleDeCheval",
+      "level": 301,
+      "talent": 2730,
+      "ranking": 95,
+      "life": 3525,
+      "tp": 26,
+      "mp": 5,
+      "strength": 0,
+      "agility": 170,
+      "wisdom": 500,
+      "resistance": 40,
+      "science": 70,
+      "magic": 775,
+      "frequency": 160,
+      "cores": 15,
+      "ram": 21,
+      "farmer": {
+        "id": 75627,
+        "name": "Efr"
+      },
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "enhanced_lightninger",
+        "gazor"
+      ],
+      "chips": [
+        "motivation",
+        "leather_boots",
+        "knowledge",
+        "liberation",
+        "jump",
+        "prism",
+        "slow_down",
+        "antidote",
+        "regeneration",
+        "soporific",
+        "manumission",
+        "wizardry",
+        "ball_and_chain",
+        "serum",
+        "teleportation",
+        "covid",
+        "elevation",
+        "fracture",
+        "therapy",
+        "arsenic",
+        "resurrection"
+      ]
+    },
     "92779": {
       "id": 92779,
       "name": "Canardeur",
@@ -15782,6 +17624,54 @@
         "resurrection"
       ]
     },
+    "103080": {
+      "id": 103080,
+      "name": "SushiRush",
+      "level": 301,
+      "talent": 2387,
+      "ranking": 281,
+      "life": 3105,
+      "tp": 26,
+      "mp": 4,
+      "strength": 660,
+      "agility": 60,
+      "wisdom": 430,
+      "resistance": 0,
+      "science": 100,
+      "magic": 80,
+      "frequency": 170,
+      "cores": 14,
+      "ram": 17,
+      "farmer": {
+        "id": 97541,
+        "name": "SushiRush"
+      },
+      "weapons": [
+        "rhino",
+        "mysterious_electrisor",
+        "heavy_sword",
+        "m_laser"
+      ],
+      "chips": [
+        "protein",
+        "stalactite",
+        "liberation",
+        "rockfall",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "punishment",
+        "adrenaline",
+        "remission",
+        "devil_strike",
+        "lightning",
+        "serum",
+        "teleportation",
+        "elevation",
+        "bramble"
+      ]
+    },
     "101033": {
       "id": 101033,
       "name": "moon1338",
@@ -15831,6 +17721,223 @@
         "dome",
         "therapy",
         "resurrection"
+      ]
+    },
+    "103082": {
+      "id": 103082,
+      "name": "NewSlash",
+      "level": 301,
+      "talent": 2638,
+      "ranking": 168,
+      "life": 3370,
+      "tp": 27,
+      "mp": 6,
+      "strength": 0,
+      "agility": 30,
+      "wisdom": 400,
+      "resistance": 400,
+      "science": 90,
+      "magic": 600,
+      "frequency": 160,
+      "cores": 15,
+      "ram": 28,
+      "farmer": {
+        "id": 97543,
+        "name": "NewSlash"
+      },
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "gazor",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "jump",
+        "armor",
+        "vaccine",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "toxin",
+        "boxing_glove",
+        "carapace",
+        "soporific",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "wizardry",
+        "ball_and_chain",
+        "fortress",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "dome",
+        "arsenic",
+        "resurrection"
+      ]
+    },
+    "103083": {
+      "id": 103083,
+      "name": "MimiAz",
+      "level": 301,
+      "talent": 2497,
+      "ranking": 215,
+      "life": 2900,
+      "tp": 26,
+      "mp": 6,
+      "strength": 551,
+      "agility": 290,
+      "wisdom": 570,
+      "resistance": 290,
+      "science": 110,
+      "magic": 106,
+      "frequency": 180,
+      "cores": 4,
+      "ram": 20,
+      "farmer": {
+        "id": 97544,
+        "name": "MimItems"
+      },
+      "weapons": [
+        "bazooka",
+        "rhino",
+        "katana",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "bandage",
+        "protein",
+        "motivation",
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "armor",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "wizard_bulb",
+        "elevation"
+      ]
+    },
+    "103084": {
+      "id": 103084,
+      "name": "BabyKraton",
+      "level": 301,
+      "talent": 2386,
+      "ranking": 282,
+      "life": 3070,
+      "tp": 27,
+      "mp": 6,
+      "strength": 0,
+      "agility": 300,
+      "wisdom": 500,
+      "resistance": 400,
+      "science": 90,
+      "magic": 550,
+      "frequency": 180,
+      "cores": 18,
+      "ram": 25,
+      "farmer": {
+        "id": 97545,
+        "name": "BabyKraspen"
+      },
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "gazor",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "toxin",
+        "carapace",
+        "soporific",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "fortress",
+        "serum",
+        "teleportation",
+        "plague",
+        "elevation",
+        "dome",
+        "arsenic"
+      ]
+    },
+    "103086": {
+      "id": 103086,
+      "name": "Poliw",
+      "level": 301,
+      "talent": 2030,
+      "ranking": 569,
+      "life": 3455,
+      "tp": 22,
+      "mp": 5,
+      "strength": 460,
+      "agility": 330,
+      "wisdom": 430,
+      "resistance": 300,
+      "science": 80,
+      "magic": 0,
+      "frequency": 170,
+      "cores": 19,
+      "ram": 20,
+      "farmer": {
+        "id": 97547,
+        "name": "Poliw"
+      },
+      "weapons": [
+        "katana",
+        "rifle",
+        "heavy_sword",
+        "m_laser"
+      ],
+      "chips": [
+        "motivation",
+        "cure",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "punishment",
+        "inversion",
+        "remission",
+        "fortress",
+        "elevation",
+        "dome",
+        "plasma"
       ]
     },
     "82607": {
@@ -16198,6 +18305,53 @@
         "therapy"
       ]
     },
+    "70359": {
+      "id": 70359,
+      "name": "Caracole",
+      "level": 301,
+      "talent": 1579,
+      "ranking": 1270,
+      "life": 1700,
+      "tp": 21,
+      "mp": 7,
+      "strength": 550,
+      "agility": 0,
+      "wisdom": 200,
+      "resistance": 200,
+      "science": 0,
+      "magic": 0,
+      "frequency": 100,
+      "cores": 20,
+      "ram": 20,
+      "farmer": {
+        "id": 53189,
+        "name": "tagadamasio"
+      },
+      "weapons": [
+        "grenade_launcher",
+        "electrisor",
+        "katana",
+        "m_laser"
+      ],
+      "chips": [
+        "wall",
+        "shield",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "covetousness",
+        "carapace",
+        "inversion",
+        "remission",
+        "fortress",
+        "teleportation",
+        "resurrection"
+      ]
+    },
     "105175": {
       "id": 105175,
       "name": "Gueriaigle",
@@ -16253,53 +18407,6 @@
         "serum",
         "teleportation",
         "elevation",
-        "resurrection"
-      ]
-    },
-    "70359": {
-      "id": 70359,
-      "name": "Caracole",
-      "level": 301,
-      "talent": 1579,
-      "ranking": 1270,
-      "life": 1700,
-      "tp": 21,
-      "mp": 7,
-      "strength": 550,
-      "agility": 0,
-      "wisdom": 200,
-      "resistance": 200,
-      "science": 0,
-      "magic": 0,
-      "frequency": 100,
-      "cores": 20,
-      "ram": 20,
-      "farmer": {
-        "id": 53189,
-        "name": "tagadamasio"
-      },
-      "weapons": [
-        "grenade_launcher",
-        "electrisor",
-        "katana",
-        "m_laser"
-      ],
-      "chips": [
-        "wall",
-        "shield",
-        "stalactite",
-        "liberation",
-        "armoring",
-        "armor",
-        "antidote",
-        "rampart",
-        "regeneration",
-        "covetousness",
-        "carapace",
-        "inversion",
-        "remission",
-        "fortress",
-        "teleportation",
         "resurrection"
       ]
     },
@@ -16405,116 +18512,6 @@
         "arsenic"
       ]
     },
-    "103131": {
-      "id": 103131,
-      "name": "AigueMarine",
-      "level": 301,
-      "talent": 2630,
-      "ranking": 183,
-      "life": 3370,
-      "tp": 27,
-      "mp": 6,
-      "strength": 0,
-      "agility": 30,
-      "wisdom": 400,
-      "resistance": 400,
-      "science": 90,
-      "magic": 600,
-      "frequency": 160,
-      "cores": 15,
-      "ram": 28,
-      "farmer": {
-        "id": 97543,
-        "name": "NewSlash"
-      },
-      "weapons": [
-        "flame_thrower",
-        "b_laser",
-        "enhanced_lightninger",
-        "gazor"
-      ],
-      "chips": [
-        "wall",
-        "knowledge",
-        "solidification",
-        "jump",
-        "armor",
-        "vaccine",
-        "antidote",
-        "rampart",
-        "grapple",
-        "regeneration",
-        "toxin",
-        "boxing_glove",
-        "carapace",
-        "soporific",
-        "punishment",
-        "manumission",
-        "inversion",
-        "adrenaline",
-        "wizardry",
-        "ball_and_chain",
-        "fortress",
-        "serum",
-        "plague",
-        "covid",
-        "elevation",
-        "dome",
-        "arsenic",
-        "resurrection"
-      ]
-    },
-    "103132": {
-      "id": 103132,
-      "name": "MimiBouki",
-      "level": 301,
-      "talent": 2498,
-      "ranking": 213,
-      "life": 2900,
-      "tp": 27,
-      "mp": 6,
-      "strength": 551,
-      "agility": 400,
-      "wisdom": 570,
-      "resistance": 0,
-      "science": 110,
-      "magic": 106,
-      "frequency": 180,
-      "cores": 4,
-      "ram": 20,
-      "farmer": {
-        "id": 97544,
-        "name": "MimItems"
-      },
-      "weapons": [
-        "bazooka",
-        "rhino",
-        "enhanced_lightninger",
-        "katana"
-      ],
-      "chips": [
-        "bandage",
-        "protein",
-        "motivation",
-        "knowledge",
-        "stalactite",
-        "liberation",
-        "armoring",
-        "vaccine",
-        "prism",
-        "iceberg",
-        "antidote",
-        "regeneration",
-        "steroid",
-        "manumission",
-        "adrenaline",
-        "remission",
-        "serum",
-        "teleportation",
-        "wizard_bulb",
-        "elevation"
-      ]
-    },
     "76510": {
       "id": 76510,
       "name": "djokavex2",
@@ -16564,57 +18561,6 @@
         "remission",
         "lightning",
         "fortress"
-      ]
-    },
-    "103141": {
-      "id": 103141,
-      "name": "Gentiw",
-      "level": 301,
-      "talent": 2007,
-      "ranking": 604,
-      "life": 3200,
-      "tp": 20,
-      "mp": 5,
-      "strength": 460,
-      "agility": 350,
-      "wisdom": 380,
-      "resistance": 270,
-      "science": 80,
-      "magic": 0,
-      "frequency": 160,
-      "cores": 14,
-      "ram": 20,
-      "farmer": {
-        "id": 97547,
-        "name": "Poliw"
-      },
-      "weapons": [
-        "bazooka",
-        "mysterious_electrisor",
-        "rifle",
-        "heavy_sword"
-      ],
-      "chips": [
-        "knowledge",
-        "shield",
-        "solidification",
-        "liberation",
-        "armoring",
-        "jump",
-        "armor",
-        "antidote",
-        "rampart",
-        "regeneration",
-        "steroid",
-        "covetousness",
-        "punishment",
-        "inversion",
-        "adrenaline",
-        "remission",
-        "fortress",
-        "elevation",
-        "dome",
-        "plasma"
       ]
     },
     "64231": {
@@ -16672,58 +18618,6 @@
         "resurrection"
       ]
     },
-    "103144": {
-      "id": 103144,
-      "name": "ChevalDeCourse",
-      "level": 301,
-      "talent": 2750,
-      "ranking": 82,
-      "life": 3555,
-      "tp": 26,
-      "mp": 5,
-      "strength": 0,
-      "agility": 200,
-      "wisdom": 500,
-      "resistance": 110,
-      "science": 70,
-      "magic": 775,
-      "frequency": 160,
-      "cores": 15,
-      "ram": 21,
-      "farmer": {
-        "id": 75627,
-        "name": "Efr"
-      },
-      "weapons": [
-        "flame_thrower",
-        "b_laser",
-        "gazor",
-        "unbridled_gazor"
-      ],
-      "chips": [
-        "motivation",
-        "leather_boots",
-        "knowledge",
-        "liberation",
-        "jump",
-        "prism",
-        "slow_down",
-        "antidote",
-        "regeneration",
-        "soporific",
-        "manumission",
-        "wizardry",
-        "ball_and_chain",
-        "serum",
-        "teleportation",
-        "covid",
-        "elevation",
-        "fracture",
-        "therapy",
-        "arsenic",
-        "resurrection"
-      ]
-    },
     "21233": {
       "id": 21233,
       "name": "MagicienSombre",
@@ -16775,68 +18669,12 @@
         "arsenic"
       ]
     },
-    "103157": {
-      "id": 103157,
-      "name": "BabyKrasseux",
-      "level": 301,
-      "talent": 2389,
-      "ranking": 275,
-      "life": 3054,
-      "tp": 27,
-      "mp": 6,
-      "strength": 0,
-      "agility": 280,
-      "wisdom": 500,
-      "resistance": 440,
-      "science": 90,
-      "magic": 542,
-      "frequency": 180,
-      "cores": 18,
-      "ram": 25,
-      "farmer": {
-        "id": 97545,
-        "name": "BabyKraspen"
-      },
-      "weapons": [
-        "flame_thrower",
-        "b_laser",
-        "mysterious_electrisor",
-        "gazor"
-      ],
-      "chips": [
-        "wall",
-        "knowledge",
-        "solidification",
-        "liberation",
-        "armoring",
-        "jump",
-        "armor",
-        "antidote",
-        "rampart",
-        "grapple",
-        "regeneration",
-        "toxin",
-        "carapace",
-        "soporific",
-        "adrenaline",
-        "wizardry",
-        "remission",
-        "ball_and_chain",
-        "fortress",
-        "serum",
-        "teleportation",
-        "plague",
-        "elevation",
-        "dome",
-        "arsenic"
-      ]
-    },
     "68352": {
       "id": 68352,
       "name": "PancaEwen",
       "level": 301,
       "talent": 2655,
-      "ranking": 149,
+      "ranking": 147,
       "life": 3020,
       "tp": 28,
       "mp": 6,
@@ -18357,6 +20195,59 @@
         "prism"
       ]
     },
+    "62444": {
+      "id": 62444,
+      "name": "KavaDruide",
+      "level": 301,
+      "talent": 2665,
+      "ranking": 144,
+      "life": 2960,
+      "tp": 28,
+      "mp": 6,
+      "strength": 0,
+      "agility": 270,
+      "wisdom": 320,
+      "resistance": 205,
+      "science": 90,
+      "magic": 680,
+      "frequency": 170,
+      "cores": 11,
+      "ram": 22,
+      "farmer": {
+        "id": 56766,
+        "name": "KavaliovBis"
+      },
+      "weapons": [
+        "flame_thrower",
+        "enhanced_lightninger",
+        "katana",
+        "gazor"
+      ],
+      "chips": [
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "solidification",
+        "venom",
+        "armoring",
+        "jump",
+        "armor",
+        "prism",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "plague",
+        "elevation",
+        "fracture",
+        "arsenic"
+      ]
+    },
     "46072": {
       "id": 46072,
       "name": "LeDouxMunsterDeSophie",
@@ -18518,8 +20409,8 @@
       "id": 78870,
       "name": "RageRanger",
       "level": 301,
-      "talent": 2667,
-      "ranking": 141,
+      "talent": 2652,
+      "ranking": 150,
       "life": 2610,
       "tp": 30,
       "mp": 6,
@@ -18668,6 +20559,59 @@
         "teleportation",
         "elevation",
         "dome"
+      ]
+    },
+    "66611": {
+      "id": 66611,
+      "name": "Kavadesoi",
+      "level": 301,
+      "talent": 2727,
+      "ranking": 96,
+      "life": 3160,
+      "tp": 24,
+      "mp": 6,
+      "strength": 0,
+      "agility": 400,
+      "wisdom": 420,
+      "resistance": 200,
+      "science": 60,
+      "magic": 680,
+      "frequency": 150,
+      "cores": 11,
+      "ram": 22,
+      "farmer": {
+        "id": 61491,
+        "name": "KavaliovQuater"
+      },
+      "weapons": [
+        "flame_thrower",
+        "katana",
+        "gazor",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "solidification",
+        "venom",
+        "armoring",
+        "armor",
+        "vaccine",
+        "prism",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "adrenaline",
+        "wizardry",
+        "fortress",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "fracture",
+        "arsenic"
       ]
     },
     "58419": {
@@ -19027,6 +20971,62 @@
         "mirror",
         "transmutation",
         "bramble",
+        "resurrection"
+      ]
+    },
+    "99452": {
+      "id": 99452,
+      "name": "TigerRed",
+      "level": 301,
+      "talent": 2360,
+      "ranking": null,
+      "life": 2820,
+      "tp": 24,
+      "mp": 6,
+      "strength": 0,
+      "agility": 80,
+      "wisdom": 700,
+      "resistance": 0,
+      "science": 110,
+      "magic": 600,
+      "frequency": 140,
+      "cores": 4,
+      "ram": 25,
+      "farmer": {
+        "id": 94150,
+        "name": "Tigers"
+      },
+      "weapons": [
+        "sword",
+        "destroyer",
+        "flame_thrower",
+        "gazor"
+      ],
+      "chips": [
+        "protein",
+        "knowledge",
+        "solidification",
+        "venom",
+        "tranquilizer",
+        "armoring",
+        "jump",
+        "prism",
+        "slow_down",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "steroid",
+        "covetousness",
+        "soporific",
+        "manumission",
+        "adrenaline",
+        "remission",
+        "serum",
+        "teleportation",
+        "plague",
+        "covid",
+        "elevation",
+        "arsenic",
         "resurrection"
       ]
     },
@@ -19523,7 +21523,7 @@
       "name": "Pyrogoyf",
       "level": 301,
       "talent": 2284,
-      "ranking": 391,
+      "ranking": 392,
       "life": 2615,
       "tp": 23,
       "mp": 6,
@@ -19934,7 +21934,7 @@
       "name": "LeekHouzza",
       "level": 301,
       "talent": 2253,
-      "ranking": 404,
+      "ranking": 405,
       "life": 2575,
       "tp": 21,
       "mp": 7,
@@ -20605,6 +22605,59 @@
         "transmutation",
         "bramble",
         "lightning_bulb",
+        "resurrection"
+      ]
+    },
+    "83243": {
+      "id": 83243,
+      "name": "FifiPetain",
+      "level": 301,
+      "talent": 2326,
+      "ranking": 349,
+      "life": 3170,
+      "tp": 27,
+      "mp": 6,
+      "strength": 600,
+      "agility": 250,
+      "wisdom": 480,
+      "resistance": 510,
+      "science": 110,
+      "magic": 50,
+      "frequency": 170,
+      "cores": 8,
+      "ram": 22,
+      "farmer": {
+        "id": 78250,
+        "name": "Gandhictature"
+      },
+      "weapons": [
+        "neutrino",
+        "rhino",
+        "enhanced_lightninger",
+        "heavy_sword"
+      ],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "iceberg",
+        "loam",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "adrenaline",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "therapy",
+        "bramble",
         "resurrection"
       ]
     },
@@ -22207,6 +24260,60 @@
         "arsenic"
       ]
     },
+    "50691": {
+      "id": 50691,
+      "name": "VoltaDeMonsanto",
+      "level": 301,
+      "talent": 2615,
+      "ranking": 190,
+      "life": 2920,
+      "tp": 23,
+      "mp": 6,
+      "strength": 50,
+      "agility": 280,
+      "wisdom": 340,
+      "resistance": 400,
+      "science": 90,
+      "magic": 670,
+      "frequency": 170,
+      "cores": 20,
+      "ram": 23,
+      "farmer": {
+        "id": 44568,
+        "name": "Madnicow"
+      },
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "mysterious_electrisor",
+        "gazor"
+      ],
+      "chips": [
+        "wall",
+        "solidification",
+        "venom",
+        "liberation",
+        "armoring",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "covetousness",
+        "carapace",
+        "punishment",
+        "inversion",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "healer_bulb",
+        "fortress",
+        "teleportation",
+        "burning",
+        "plague",
+        "covid",
+        "arsenic",
+        "resurrection"
+      ]
+    },
     "89606": {
       "id": 89606,
       "name": "Kinshasa",
@@ -22623,6 +24730,63 @@
         "serum"
       ]
     },
+    "81439": {
+      "id": 81439,
+      "name": "MagnusPym",
+      "level": 301,
+      "talent": 2372,
+      "ranking": 316,
+      "life": 3180,
+      "tp": 28,
+      "mp": 5,
+      "strength": 500,
+      "agility": 50,
+      "wisdom": 400,
+      "resistance": 400,
+      "science": 400,
+      "magic": 40,
+      "frequency": 150,
+      "cores": 10,
+      "ram": 26,
+      "farmer": {
+        "id": 76155,
+        "name": "fabou"
+      },
+      "weapons": [
+        "neutrino",
+        "enhanced_lightninger",
+        "quantum_rifle",
+        "heavy_sword"
+      ],
+      "chips": [
+        "wall",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "mutation",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "carapace",
+        "punishment",
+        "manumission",
+        "remission",
+        "fortress",
+        "reflexes",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "desintegration",
+        "rage",
+        "elevation",
+        "dome",
+        "transmutation",
+        "therapy",
+        "plasma"
+      ]
+    },
     "34341": {
       "id": 34341,
       "name": "Varju",
@@ -22885,6 +25049,61 @@
         "metallic_bulb",
         "savant_bulb",
         "plasma",
+        "resurrection"
+      ]
+    },
+    "83517": {
+      "id": 83517,
+      "name": "BobbyVian",
+      "level": 301,
+      "talent": 1252,
+      "ranking": 2195,
+      "life": 2735,
+      "tp": 26,
+      "mp": 6,
+      "strength": 50,
+      "agility": 300,
+      "wisdom": 460,
+      "resistance": 390,
+      "science": 800,
+      "magic": 50,
+      "frequency": 180,
+      "cores": 12,
+      "ram": 24,
+      "farmer": {
+        "id": 78250,
+        "name": "Gandhictature"
+      },
+      "weapons": [
+        "neutrino",
+        "illicit_grenade_launcher",
+        "rhino",
+        "lightninger"
+      ],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "mutation",
+        "loam",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "adrenaline",
+        "fortress",
+        "reflexes",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "wizard_bulb",
+        "rage",
+        "elevation",
+        "transmutation",
+        "bramble",
         "resurrection"
       ]
     },
@@ -23916,6 +26135,58 @@
         "resurrection"
       ]
     },
+    "91864": {
+      "id": 91864,
+      "name": "HainePaixComplet",
+      "level": 301,
+      "talent": 2700,
+      "ranking": 113,
+      "life": 3120,
+      "tp": 28,
+      "mp": 5,
+      "strength": 50,
+      "agility": 400,
+      "wisdom": 480,
+      "resistance": 50,
+      "science": 180,
+      "magic": 570,
+      "frequency": 180,
+      "cores": 18,
+      "ram": 21,
+      "farmer": {
+        "id": 8414,
+        "name": "FdHP"
+      },
+      "weapons": [
+        "double_gun",
+        "sword",
+        "flame_thrower",
+        "mysterious_electrisor"
+      ],
+      "chips": [
+        "motivation",
+        "knowledge",
+        "venom",
+        "liberation",
+        "armoring",
+        "slow_down",
+        "antidote",
+        "regeneration",
+        "thorn",
+        "manumission",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "mirror",
+        "brainwashing",
+        "bramble",
+        "arsenic"
+      ]
+    },
     "93913": {
       "id": 93913,
       "name": "Teleautomaton",
@@ -24351,60 +26622,6 @@
         "savant_bulb"
       ]
     },
-    "106242": {
-      "id": 106242,
-      "name": "Polynomial",
-      "level": 301,
-      "talent": 2064,
-      "ranking": 540,
-      "life": 3128,
-      "tp": 25,
-      "mp": 6,
-      "strength": 50,
-      "agility": 443,
-      "wisdom": 500,
-      "resistance": 50,
-      "science": 500,
-      "magic": 50,
-      "frequency": 230,
-      "cores": 20,
-      "ram": 23,
-      "farmer": {
-        "id": 97569,
-        "name": "FdHP5"
-      },
-      "weapons": [
-        "neutrino",
-        "sword",
-        "illicit_grenade_launcher",
-        "j_laser"
-      ],
-      "chips": [
-        "knowledge",
-        "alteration",
-        "liberation",
-        "armoring",
-        "antidote",
-        "regeneration",
-        "warm_up",
-        "thorn",
-        "punishment",
-        "manumission",
-        "inversion",
-        "adrenaline",
-        "remission",
-        "reflexes",
-        "serum",
-        "seven_league_boots",
-        "doping",
-        "rage",
-        "elevation",
-        "mirror",
-        "transmutation",
-        "bramble",
-        "resurrection"
-      ]
-    },
     "26394": {
       "id": 26394,
       "name": "Barrowgoyf",
@@ -24456,6 +26673,56 @@
         "elevation",
         "dome",
         "therapy"
+      ]
+    },
+    "42790": {
+      "id": 42790,
+      "name": "Bulletproof",
+      "level": 301,
+      "talent": 2410,
+      "ranking": 250,
+      "life": 3040,
+      "tp": 27,
+      "mp": 6,
+      "strength": 500,
+      "agility": 280,
+      "wisdom": 620,
+      "resistance": 395,
+      "science": 140,
+      "magic": 170,
+      "frequency": 180,
+      "cores": 4,
+      "ram": 19,
+      "farmer": {
+        "id": 34434,
+        "name": "fantonico"
+      },
+      "weapons": [
+        "bazooka",
+        "rhino",
+        "m_laser",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "protein",
+        "motivation",
+        "stretching",
+        "wall",
+        "shield",
+        "liberation",
+        "armoring",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "elevation",
+        "bramble"
       ]
     },
     "61225": {
@@ -26009,8 +28276,8 @@
       "id": 81915,
       "name": "Yongyong",
       "level": 301,
-      "talent": 2245,
-      "ranking": 408,
+      "talent": 2230,
+      "ranking": 413,
       "life": 3065,
       "tp": 25,
       "mp": 4,
