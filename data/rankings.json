@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T21:36:15.807166+00:00",
+  "last_updated": "2026-03-17T22:31:49.691501+00:00",
   "daltons": {
     "46733": [
       {
@@ -1167,6 +1167,13 @@
           "date": 1773523731
         },
         {
+          "fight_id": 51852148,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 11,
+          "date": 1773783422
+        },
+        {
           "fight_id": 51815870,
           "total_level": 1204,
           "turns": 12,
@@ -1193,6 +1200,13 @@
           "date": 1773508971
         },
         {
+          "fight_id": 51852143,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 17,
+          "date": 1773783414
+        },
+        {
           "fight_id": 51815830,
           "total_level": 1204,
           "turns": 18,
@@ -1203,6 +1217,13 @@
           "total_level": 1204,
           "turns": 19,
           "date": 1773525170
+        },
+        {
+          "fight_id": 51852142,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 20,
+          "date": 1773783413
         },
         {
           "fight_id": 51829617,
@@ -1900,6 +1921,13 @@
           "total_level": 1505,
           "turns": 39,
           "date": 1773608401
+        },
+        {
+          "fight_id": 51852207,
+          "total_level": 1505,
+          "total_capital": null,
+          "turns": 46,
+          "date": 1773784801
         }
       ]
     },
@@ -2563,7 +2591,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6721,
+      "talent": 6737,
       "ranking": 13,
       "country": "fr",
       "total_level": 1204,
@@ -2650,7 +2678,7 @@
     "66566": {
       "id": 66566,
       "name": "AppleTree",
-      "talent": 6764,
+      "talent": 6748,
       "ranking": 11,
       "country": "va",
       "total_level": 1204,
@@ -3658,7 +3686,7 @@
     "32858": {
       "id": 32858,
       "name": "Joalien",
-      "talent": 6176,
+      "talent": 6196,
       "ranking": 24,
       "country": "ps",
       "total_level": 1204,
@@ -4176,7 +4204,7 @@
     "19070": {
       "id": 19070,
       "name": "Amal",
-      "talent": 6282,
+      "talent": 6256,
       "ranking": 23,
       "country": "jp",
       "total_level": 1204,
@@ -5394,8 +5422,8 @@
     "76473": {
       "id": 76473,
       "name": "galactichitchleeker",
-      "talent": 6336,
-      "ranking": 21,
+      "talent": 6395,
+      "ranking": 18,
       "country": null,
       "total_level": 1204,
       "trophies": 269,
@@ -6322,18 +6350,18 @@
           "name": "RageRanger",
           "level": 301,
           "talent": 2652,
-          "life": 2610,
-          "tp": 30,
+          "life": 2670,
+          "tp": 29,
           "mp": 6,
           "strength": 510,
-          "agility": 400,
-          "wisdom": 395,
-          "resistance": 500,
+          "agility": 480,
+          "wisdom": 460,
+          "resistance": 400,
           "science": 130,
           "magic": 0,
           "frequency": 190,
           "cores": 8,
-          "ram": 23
+          "ram": 24
         },
         "79020": {
           "id": 79020,
@@ -6660,7 +6688,7 @@
       "id": 97545,
       "name": "BabyKraspen",
       "talent": 6127,
-      "ranking": 27,
+      "ranking": 26,
       "country": "jp",
       "total_level": 1204,
       "trophies": 276,
@@ -7365,7 +7393,7 @@
           "id": 78006,
           "name": "Kavakavient",
           "level": 301,
-          "talent": 2682,
+          "talent": 2697,
           "life": 2880,
           "tp": 26,
           "mp": 6,
@@ -8319,7 +8347,7 @@
           "id": 127441,
           "name": "Almost",
           "level": 118,
-          "talent": 567,
+          "talent": 553,
           "life": 1421,
           "tp": 17,
           "mp": 7,
@@ -9404,8 +9432,8 @@
     "76695": {
       "id": 76695,
       "name": "ihsusikamet",
-      "talent": 6433,
-      "ranking": 16,
+      "talent": 6445,
+      "ranking": 15,
       "country": null,
       "total_level": 1204,
       "trophies": 256,
@@ -9665,8 +9693,8 @@
     "78250": {
       "id": 78250,
       "name": "Gandhictature",
-      "talent": 6134,
-      "ranking": 25,
+      "talent": 6125,
+      "ranking": 27,
       "country": "in",
       "total_level": 1204,
       "trophies": 323,
@@ -9753,7 +9781,7 @@
       "id": 44975,
       "name": "Agade",
       "talent": 6133,
-      "ranking": 26,
+      "ranking": 25,
       "country": "ch",
       "total_level": 1204,
       "trophies": 252,
@@ -10059,7 +10087,7 @@
           "id": 62052,
           "name": "KavaPretre",
           "level": 301,
-          "talent": 2665,
+          "talent": 2680,
           "life": 2960,
           "tp": 28,
           "mp": 6,
@@ -10604,7 +10632,7 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6303,
+      "talent": 6290,
       "ranking": 22,
       "country": null,
       "total_level": 1204,
@@ -10691,8 +10719,8 @@
     "58321": {
       "id": 58321,
       "name": "fujiwar",
-      "talent": 6399,
-      "ranking": 18,
+      "talent": 6434,
+      "ranking": 16,
       "country": "pe",
       "total_level": 1204,
       "trophies": 324,
@@ -10865,8 +10893,8 @@
     "76772": {
       "id": 76772,
       "name": "Kraspen",
-      "talent": 6362,
-      "ranking": 19,
+      "talent": 6346,
+      "ranking": 21,
       "country": "cv",
       "total_level": 1204,
       "trophies": 322,
@@ -11039,8 +11067,8 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6436,
-      "ranking": 15,
+      "talent": 6428,
+      "ranking": 17,
       "country": "fr",
       "total_level": 1204,
       "trophies": 275,
@@ -12198,7 +12226,7 @@
       "name": "Wolip",
       "level": 301,
       "talent": 2645,
-      "ranking": 157,
+      "ranking": 153,
       "life": 2815,
       "tp": 28,
       "mp": 7,
@@ -12808,8 +12836,8 @@
       "id": 78006,
       "name": "Kavakavient",
       "level": 301,
-      "talent": 2682,
-      "ranking": 126,
+      "talent": 2697,
+      "ranking": 116,
       "life": 2880,
       "tp": 26,
       "mp": 6,
@@ -13219,7 +13247,7 @@
       "name": "80CHIPREMISSION",
       "level": 174,
       "talent": 506,
-      "ranking": 6181,
+      "ranking": 6175,
       "life": 1597,
       "tp": 15,
       "mp": 6,
@@ -15047,7 +15075,7 @@
       "name": "PimentBio",
       "level": 301,
       "talent": 2635,
-      "ranking": 172,
+      "ranking": 169,
       "life": 2820,
       "tp": 26,
       "mp": 6,
@@ -15847,8 +15875,8 @@
       "id": 127441,
       "name": "Almost",
       "level": 118,
-      "talent": 567,
-      "ranking": 5224,
+      "talent": 553,
+      "ranking": 5413,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -17735,7 +17763,7 @@
       "name": "NewSlash",
       "level": 301,
       "talent": 2638,
-      "ranking": 167,
+      "ranking": 163,
       "life": 3370,
       "tp": 27,
       "mp": 6,
@@ -18681,7 +18709,7 @@
       "name": "PancaEwen",
       "level": 301,
       "talent": 2655,
-      "ranking": 147,
+      "ranking": 146,
       "life": 3020,
       "tp": 28,
       "mp": 6,
@@ -20207,7 +20235,7 @@
       "name": "KavaDruide",
       "level": 301,
       "talent": 2680,
-      "ranking": 128,
+      "ranking": 131,
       "life": 2960,
       "tp": 28,
       "mp": 6,
@@ -20418,18 +20446,18 @@
       "level": 301,
       "talent": 2652,
       "ranking": 149,
-      "life": 2610,
-      "tp": 30,
+      "life": 2670,
+      "tp": 29,
       "mp": 6,
       "strength": 510,
-      "agility": 400,
-      "wisdom": 395,
-      "resistance": 500,
+      "agility": 480,
+      "wisdom": 460,
+      "resistance": 400,
       "science": 130,
       "magic": 0,
       "frequency": 190,
       "cores": 8,
-      "ram": 23,
+      "ram": 24,
       "farmer": {
         "id": 73979,
         "name": "Greener"
@@ -20437,10 +20465,11 @@
       "weapons": [
         "neutrino",
         "unstable_destroyer",
-        "quantum_rifle",
+        "bazooka",
         "heavy_sword"
       ],
       "chips": [
+        "motivation",
         "wall",
         "knowledge",
         "shield",
@@ -20453,13 +20482,13 @@
         "rampart",
         "regeneration",
         "steroid",
+        "carapace",
         "punishment",
         "manumission",
         "inversion",
         "adrenaline",
         "remission",
         "fortress",
-        "serum",
         "teleportation",
         "elevation",
         "dome",
@@ -20839,7 +20868,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 503,
-      "ranking": 6254,
+      "ranking": 6252,
       "life": 1072,
       "tp": 12,
       "mp": 4,
@@ -21625,11 +21654,11 @@
         "adrenaline",
         "remission",
         "fortress",
-        "serum",
         "teleportation",
         "elevation",
         "dome",
-        "bramble"
+        "bramble",
+        "resurrection"
       ]
     },
     "101548": {
@@ -23079,7 +23108,7 @@
       "name": "Raon",
       "level": 301,
       "talent": 2637,
-      "ranking": 169,
+      "ranking": 165,
       "life": 2780,
       "tp": 28,
       "mp": 5,
@@ -27559,11 +27588,11 @@
         "adrenaline",
         "remission",
         "fortress",
-        "serum",
         "teleportation",
         "elevation",
         "dome",
-        "bramble"
+        "bramble",
+        "resurrection"
       ]
     },
     "49046": {
