@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T15:27:01.243869+00:00",
+  "last_updated": "2026-03-21T16:27:27.124696+00:00",
   "daltons": {
     "46733": [
       {
@@ -4093,7 +4093,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7730,
+      "talent": 7736,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -6315,7 +6315,7 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3673,
+      "talent": 3686,
       "ranking": 85,
       "country": "fr",
       "total_level": 1204,
@@ -6663,7 +6663,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7247,
+      "talent": 7259,
       "ranking": 4,
       "country": null,
       "total_level": 1204,
@@ -8166,7 +8166,7 @@
           "id": 97390,
           "name": "PistonHydroleek",
           "level": 301,
-          "talent": 586,
+          "talent": 585,
           "life": 3090,
           "tp": 25,
           "mp": 8,
@@ -8620,7 +8620,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7425,
+      "talent": 7390,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -10357,7 +10357,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7077,
+      "talent": 7080,
       "ranking": 6,
       "country": "fr",
       "total_level": 1204,
@@ -11974,7 +11974,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7154,
+      "talent": 7147,
       "ranking": 5,
       "country": null,
       "total_level": 1204,
@@ -18219,7 +18219,7 @@
       "name": "Huld",
       "level": 301,
       "talent": 1713,
-      "ranking": 1084,
+      "ranking": 1085,
       "life": 2678,
       "tp": 19,
       "mp": 5,
@@ -18649,7 +18649,7 @@
       "name": "LeekHebus",
       "level": 301,
       "talent": 1653,
-      "ranking": 1129,
+      "ranking": 1128,
       "life": 2115,
       "tp": 20,
       "mp": 8,
@@ -21984,8 +21984,8 @@
       },
       "weapons": [
         "neutrino",
+        "lightninger",
         "enhanced_lightninger",
-        "quantum_rifle",
         "heavy_sword"
       ],
       "chips": [
@@ -26069,7 +26069,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 558,
-      "ranking": 5346,
+      "ranking": 5348,
       "life": 1072,
       "tp": 12,
       "mp": 4,
@@ -26215,8 +26215,8 @@
       "id": 97390,
       "name": "PistonHydroleek",
       "level": 301,
-      "talent": 586,
-      "ranking": 4961,
+      "talent": 585,
+      "ranking": 4973,
       "life": 3090,
       "tp": 25,
       "mp": 8,
@@ -27121,7 +27121,7 @@
       "name": "enf1",
       "level": 301,
       "talent": 1710,
-      "ranking": 1086,
+      "ranking": 1087,
       "life": 2195,
       "tp": 22,
       "mp": 6,
@@ -34310,7 +34310,7 @@
       "name": "DeathShadow",
       "level": 256,
       "talent": 1710,
-      "ranking": 1087,
+      "ranking": 1088,
       "life": 2215,
       "tp": 25,
       "mp": 6,
