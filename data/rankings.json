@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T01:15:30.986032+00:00",
+  "last_updated": "2026-03-21T04:06:51.384852+00:00",
   "daltons": {
     "46733": [
       {
@@ -4695,7 +4695,7 @@
       "id": 71231,
       "name": "djokavex2",
       "talent": 2374,
-      "ranking": 197,
+      "ranking": 199,
       "country": null,
       "total_level": 1204,
       "trophies": 171,
@@ -4781,8 +4781,8 @@
     "87622": {
       "id": 87622,
       "name": "CompleteDisappointment",
-      "talent": 3032,
-      "ranking": 122,
+      "talent": 3097,
+      "ranking": 120,
       "country": null,
       "total_level": 902,
       "trophies": 214,
@@ -6325,7 +6325,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7199,
+      "talent": 7189,
       "ranking": 4,
       "country": null,
       "total_level": 1204,
@@ -7782,7 +7782,7 @@
     "59622": {
       "id": 59622,
       "name": "fujiwar2",
-      "talent": 3262,
+      "talent": 3276,
       "ranking": 114,
       "country": null,
       "total_level": 1204,
@@ -7860,6 +7860,93 @@
           "cores": 10,
           "ram": 17
         }
+      }
+    },
+    "31464": {
+      "id": 31464,
+      "name": "Necta01",
+      "talent": 3200,
+      "ranking": 115,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 271,
+      "leeks": {
+        "35078": {
+          "id": 35078,
+          "name": "Menthe",
+          "level": 301,
+          "talent": 2291,
+          "life": 2515,
+          "tp": 25,
+          "mp": 7,
+          "strength": 600,
+          "agility": 500,
+          "wisdom": 500,
+          "resistance": -40,
+          "science": 60,
+          "magic": 0,
+          "frequency": 140,
+          "cores": 1,
+          "ram": 17
+        },
+        "36561": {
+          "id": 36561,
+          "name": "Extremice",
+          "level": 301,
+          "talent": 1848,
+          "life": 3000,
+          "tp": 25,
+          "mp": 6,
+          "strength": 50,
+          "agility": 500,
+          "wisdom": 540,
+          "resistance": 50,
+          "science": 600,
+          "magic": 50,
+          "frequency": 190,
+          "cores": 8,
+          "ram": 20
+        },
+        "57369": {
+          "id": 57369,
+          "name": "Auraede",
+          "level": 301,
+          "talent": 1982,
+          "life": 2840,
+          "tp": 24,
+          "mp": 7,
+          "strength": 500,
+          "agility": 150,
+          "wisdom": 480,
+          "resistance": -30,
+          "science": 30,
+          "magic": 600,
+          "frequency": 160,
+          "cores": 4,
+          "ram": 11
+        },
+        "63686": {
+          "id": 63686,
+          "name": "Ceacleye",
+          "level": 301,
+          "talent": 2404,
+          "life": 3235,
+          "tp": 23,
+          "mp": 7,
+          "strength": 20,
+          "agility": 500,
+          "wisdom": 400,
+          "resistance": 200,
+          "science": 60,
+          "magic": 600,
+          "frequency": 140,
+          "cores": 4,
+          "ram": 19
+        }
+      },
+      "team": {
+        "id": 5981,
+        "name": "Wolf leek"
       }
     },
     "120043": {
@@ -7949,11 +8036,98 @@
         "name": "Tests en \u00e9quipe"
       }
     },
+    "73454": {
+      "id": 73454,
+      "name": "Unbreakable",
+      "talent": 3144,
+      "ranking": 117,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 229,
+      "leeks": {
+        "78427": {
+          "id": 78427,
+          "name": "Survivor",
+          "level": 301,
+          "talent": 2499,
+          "life": 3280,
+          "tp": 24,
+          "mp": 5,
+          "strength": 110,
+          "agility": 420,
+          "wisdom": 470,
+          "resistance": 345,
+          "science": 40,
+          "magic": 690,
+          "frequency": 120,
+          "cores": 6,
+          "ram": 19
+        },
+        "78605": {
+          "id": 78605,
+          "name": "Savior",
+          "level": 301,
+          "talent": 2493,
+          "life": 3020,
+          "tp": 28,
+          "mp": 5,
+          "strength": 0,
+          "agility": 465,
+          "wisdom": 520,
+          "resistance": 0,
+          "science": 90,
+          "magic": 580,
+          "frequency": 190,
+          "cores": 14,
+          "ram": 21
+        },
+        "80705": {
+          "id": 80705,
+          "name": "Successor",
+          "level": 301,
+          "talent": 2247,
+          "life": 3140,
+          "tp": 25,
+          "mp": 6,
+          "strength": 60,
+          "agility": 270,
+          "wisdom": 440,
+          "resistance": 230,
+          "science": -20,
+          "magic": 640,
+          "frequency": 150,
+          "cores": 14,
+          "ram": 23
+        },
+        "81322": {
+          "id": 81322,
+          "name": "Superior",
+          "level": 301,
+          "talent": 2477,
+          "life": 3180,
+          "tp": 25,
+          "mp": 6,
+          "strength": 50,
+          "agility": 520,
+          "wisdom": 295,
+          "resistance": 250,
+          "science": 90,
+          "magic": 630,
+          "frequency": 150,
+          "cores": 14,
+          "ram": 23
+        }
+      },
+      "team": {
+        "id": 8734,
+        "name": "GeckoPower"
+      }
+    },
     "50927": {
       "id": 50927,
       "name": "MrAnislider",
       "talent": 2377,
-      "ranking": 196,
+      "ranking": 197,
       "country": "co",
       "total_level": 1204,
       "trophies": 235,
@@ -8108,7 +8282,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7361,
+      "talent": 7371,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -8544,7 +8718,7 @@
       "id": 97547,
       "name": "Poliw",
       "talent": 3841,
-      "ranking": 72,
+      "ranking": 73,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -8892,7 +9066,7 @@
       "id": 71957,
       "name": "Nmnnm",
       "talent": 2368,
-      "ranking": 200,
+      "ranking": 201,
       "country": null,
       "total_level": 1204,
       "trophies": 222,
@@ -8979,7 +9153,7 @@
       "id": 101146,
       "name": "theonesolox",
       "talent": 2359,
-      "ranking": 204,
+      "ranking": 203,
       "country": "fr",
       "total_level": 1202,
       "trophies": 224,
@@ -9065,8 +9239,8 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3119,
-      "ranking": 119,
+      "talent": 3049,
+      "ranking": 121,
       "country": "fr",
       "total_level": 903,
       "trophies": 270,
@@ -9291,7 +9465,7 @@
       "id": 99628,
       "name": "SlightlySmartLeekStem",
       "talent": 3794,
-      "ranking": 76,
+      "ranking": 78,
       "country": "ps",
       "total_level": 1203,
       "trophies": 294,
@@ -10020,7 +10194,7 @@
       "id": 54597,
       "name": "Caneton",
       "talent": 2359,
-      "ranking": 204,
+      "ranking": 203,
       "country": "fr",
       "total_level": 903,
       "trophies": 235,
@@ -10089,7 +10263,7 @@
       "id": 121160,
       "name": "Presque",
       "talent": 816,
-      "ranking": 1018,
+      "ranking": 1019,
       "country": null,
       "total_level": 650,
       "trophies": 162,
@@ -10175,7 +10349,7 @@
     "63305": {
       "id": 63305,
       "name": "Panca",
-      "talent": 2838,
+      "talent": 2832,
       "ranking": 139,
       "country": "fr",
       "total_level": 835,
@@ -10332,7 +10506,7 @@
       "id": 45397,
       "name": "JediMasters",
       "talent": 2339,
-      "ranking": 207,
+      "ranking": 208,
       "country": "gb",
       "total_level": 1204,
       "trophies": 194,
@@ -10679,8 +10853,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3779,
-      "ranking": 79,
+      "talent": 3706,
+      "ranking": 82,
       "country": "fr",
       "total_level": 1204,
       "trophies": 300,
@@ -10766,7 +10940,7 @@
     "123738": {
       "id": 123738,
       "name": "Dworkyn",
-      "talent": 3300,
+      "talent": 3312,
       "ranking": 113,
       "country": null,
       "total_level": 1203,
@@ -11202,7 +11376,7 @@
       "id": 76155,
       "name": "fabou",
       "talent": 7189,
-      "ranking": 5,
+      "ranking": 4,
       "country": null,
       "total_level": 1204,
       "trophies": 322,
@@ -12594,7 +12768,7 @@
       "id": 73154,
       "name": "Hyupy",
       "talent": 3038,
-      "ranking": 121,
+      "ranking": 122,
       "country": null,
       "total_level": 1204,
       "trophies": 225,
@@ -12726,7 +12900,7 @@
           "id": 78346,
           "name": "BouleDeNoel",
           "level": 301,
-          "talent": 1460,
+          "talent": 1415,
           "life": 2165,
           "tp": 16,
           "mp": 6,
@@ -12749,8 +12923,8 @@
     "53189": {
       "id": 53189,
       "name": "tagadamasio",
-      "talent": 2363,
-      "ranking": 201,
+      "talent": 2347,
+      "ranking": 207,
       "country": null,
       "total_level": 1204,
       "trophies": 198,
@@ -12759,7 +12933,7 @@
           "id": 57742,
           "name": "Captp",
           "level": 301,
-          "talent": 1544,
+          "talent": 1560,
           "life": 1700,
           "tp": 21,
           "mp": 7,
@@ -12795,7 +12969,7 @@
           "id": 70359,
           "name": "Caracole",
           "level": 301,
-          "talent": 1529,
+          "talent": 1542,
           "life": 1700,
           "tp": 21,
           "mp": 7,
@@ -12813,7 +12987,7 @@
           "id": 71600,
           "name": "Lorca",
           "level": 301,
-          "talent": 1562,
+          "talent": 1548,
           "life": 1700,
           "tp": 21,
           "mp": 7,
@@ -13271,8 +13445,8 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3469,
-      "ranking": 101,
+      "talent": 3441,
+      "ranking": 103,
       "country": "fr",
       "total_level": 1200,
       "trophies": 170,
@@ -13619,8 +13793,8 @@
     "50168": {
       "id": 50168,
       "name": "tagadalone",
-      "talent": 3194,
-      "ranking": 115,
+      "talent": 3169,
+      "ranking": 116,
       "country": null,
       "total_level": 302,
       "trophies": 252,
@@ -13891,6 +14065,48 @@
         "resurrection"
       ]
     },
+    "57369": {
+      "id": 57369,
+      "name": "Auraede",
+      "level": 301,
+      "talent": 1982,
+      "ranking": 650,
+      "life": 2840,
+      "tp": 24,
+      "mp": 7,
+      "strength": 500,
+      "agility": 150,
+      "wisdom": 480,
+      "resistance": -30,
+      "science": 30,
+      "magic": 600,
+      "frequency": 160,
+      "cores": 4,
+      "ram": 11,
+      "farmer": {
+        "id": 31464,
+        "name": "Necta01"
+      },
+      "weapons": [
+        "destroyer",
+        "flame_thrower",
+        "axe",
+        "enhanced_lightninger"
+      ],
+      "chips": [
+        "knowledge",
+        "venom",
+        "tranquilizer",
+        "slow_down",
+        "antidote",
+        "regeneration",
+        "remission",
+        "serum",
+        "elevation",
+        "fracture",
+        "brainwashing"
+      ]
+    },
     "63514": {
       "id": 63514,
       "name": "Peuhwaro",
@@ -14109,7 +14325,7 @@
       "name": "StreetWraith",
       "level": 259,
       "talent": 1424,
-      "ranking": 1795,
+      "ranking": 1794,
       "life": 1864,
       "tp": 23,
       "mp": 6,
@@ -15601,12 +15817,60 @@
         "resurrection"
       ]
     },
+    "63686": {
+      "id": 63686,
+      "name": "Ceacleye",
+      "level": 301,
+      "talent": 2404,
+      "ranking": 249,
+      "life": 3235,
+      "tp": 23,
+      "mp": 7,
+      "strength": 20,
+      "agility": 500,
+      "wisdom": 400,
+      "resistance": 200,
+      "science": 60,
+      "magic": 600,
+      "frequency": 140,
+      "cores": 4,
+      "ram": 19,
+      "farmer": {
+        "id": 31464,
+        "name": "Necta01"
+      },
+      "weapons": [
+        "destroyer",
+        "unbridled_gazor"
+      ],
+      "chips": [
+        "wall",
+        "knowledge",
+        "venom",
+        "liberation",
+        "tranquilizer",
+        "armoring",
+        "armor",
+        "vaccine",
+        "slow_down",
+        "antidote",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "covid",
+        "elevation",
+        "fracture",
+        "brainwashing",
+        "arsenic"
+      ]
+    },
     "65746": {
       "id": 65746,
       "name": "Bux42",
       "level": 300,
       "talent": 1420,
-      "ranking": 1797,
+      "ranking": 1796,
       "life": 3599,
       "tp": 23,
       "mp": 5,
@@ -15706,7 +15970,7 @@
       "name": "Malleur",
       "level": 249,
       "talent": 1429,
-      "ranking": 1779,
+      "ranking": 1778,
       "life": 2439,
       "tp": 20,
       "mp": 4,
@@ -16345,6 +16609,54 @@
         "dome"
       ]
     },
+    "35078": {
+      "id": 35078,
+      "name": "Menthe",
+      "level": 301,
+      "talent": 2291,
+      "ranking": 387,
+      "life": 2515,
+      "tp": 25,
+      "mp": 7,
+      "strength": 600,
+      "agility": 500,
+      "wisdom": 500,
+      "resistance": -40,
+      "science": 60,
+      "magic": 0,
+      "frequency": 140,
+      "cores": 1,
+      "ram": 17,
+      "farmer": {
+        "id": 31464,
+        "name": "Necta01"
+      },
+      "weapons": [
+        "sword",
+        "rhino",
+        "mysterious_electrisor",
+        "rifle"
+      ],
+      "chips": [
+        "protein",
+        "spark",
+        "knowledge",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "inversion",
+        "meteorite",
+        "remission",
+        "serum",
+        "burning",
+        "elevation",
+        "mirror"
+      ]
+    },
     "82186": {
       "id": 82186,
       "name": "SamuelWhiskers",
@@ -16965,7 +17277,7 @@
       "name": "Outland",
       "level": 250,
       "talent": 1531,
-      "ranking": 1288,
+      "ranking": 1287,
       "life": 1937,
       "tp": 23,
       "mp": 6,
@@ -18051,8 +18363,8 @@
       "id": 57742,
       "name": "Captp",
       "level": 301,
-      "talent": 1544,
-      "ranking": 1285,
+      "talent": 1560,
+      "ranking": 1279,
       "life": 1700,
       "tp": 21,
       "mp": 7,
@@ -18436,57 +18748,6 @@
         "dome"
       ]
     },
-    "78280": {
-      "id": 78280,
-      "name": "Pyramide",
-      "level": 301,
-      "talent": 1791,
-      "ranking": 867,
-      "life": 2000,
-      "tp": 20,
-      "mp": 5,
-      "strength": 400,
-      "agility": 472,
-      "wisdom": 0,
-      "resistance": 0,
-      "science": 0,
-      "magic": 300,
-      "frequency": 100,
-      "cores": 20,
-      "ram": 20,
-      "farmer": {
-        "id": 73154,
-        "name": "Hyupy"
-      },
-      "weapons": [
-        "destroyer",
-        "unstable_destroyer",
-        "axe",
-        "katana"
-      ],
-      "chips": [
-        "protein",
-        "motivation",
-        "stretching",
-        "liberation",
-        "jump",
-        "prism",
-        "antidote",
-        "regeneration",
-        "toxin",
-        "warm_up",
-        "thorn",
-        "steroid",
-        "inversion",
-        "adrenaline",
-        "wizardry",
-        "teleportation",
-        "plague",
-        "mirror",
-        "bramble",
-        "arsenic"
-      ]
-    },
     "96712": {
       "id": 96712,
       "name": "PeintureAcryleek",
@@ -18537,6 +18798,57 @@
         "fracture",
         "therapy",
         "brainwashing",
+        "arsenic"
+      ]
+    },
+    "78280": {
+      "id": 78280,
+      "name": "Pyramide",
+      "level": 301,
+      "talent": 1791,
+      "ranking": 867,
+      "life": 2000,
+      "tp": 20,
+      "mp": 5,
+      "strength": 400,
+      "agility": 472,
+      "wisdom": 0,
+      "resistance": 0,
+      "science": 0,
+      "magic": 300,
+      "frequency": 100,
+      "cores": 20,
+      "ram": 20,
+      "farmer": {
+        "id": 73154,
+        "name": "Hyupy"
+      },
+      "weapons": [
+        "destroyer",
+        "unstable_destroyer",
+        "axe",
+        "katana"
+      ],
+      "chips": [
+        "protein",
+        "motivation",
+        "stretching",
+        "liberation",
+        "jump",
+        "prism",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "warm_up",
+        "thorn",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "wizardry",
+        "teleportation",
+        "plague",
+        "mirror",
+        "bramble",
         "arsenic"
       ]
     },
@@ -20025,6 +20337,54 @@
         "therapy"
       ]
     },
+    "78427": {
+      "id": 78427,
+      "name": "Survivor",
+      "level": 301,
+      "talent": 2499,
+      "ranking": 208,
+      "life": 3280,
+      "tp": 24,
+      "mp": 5,
+      "strength": 110,
+      "agility": 420,
+      "wisdom": 470,
+      "resistance": 345,
+      "science": 40,
+      "magic": 690,
+      "frequency": 120,
+      "cores": 6,
+      "ram": 19,
+      "farmer": {
+        "id": 73454,
+        "name": "Unbreakable"
+      },
+      "weapons": [
+        "flame_thrower",
+        "unbridled_gazor"
+      ],
+      "chips": [
+        "leather_boots",
+        "venom",
+        "armoring",
+        "armor",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "covetousness",
+        "soporific",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "plague",
+        "elevation",
+        "fracture",
+        "mirror",
+        "savant_bulb",
+        "arsenic"
+      ]
+    },
     "59996": {
       "id": 59996,
       "name": "Galaxie",
@@ -21497,8 +21857,8 @@
       "id": 70359,
       "name": "Caracole",
       "level": 301,
-      "talent": 1529,
-      "ranking": 1289,
+      "talent": 1542,
+      "ranking": 1285,
       "life": 1700,
       "tp": 21,
       "mp": 7,
@@ -21849,6 +22209,57 @@
         "arsenic"
       ]
     },
+    "78605": {
+      "id": 78605,
+      "name": "Savior",
+      "level": 301,
+      "talent": 2493,
+      "ranking": 210,
+      "life": 3020,
+      "tp": 28,
+      "mp": 5,
+      "strength": 0,
+      "agility": 465,
+      "wisdom": 520,
+      "resistance": 0,
+      "science": 90,
+      "magic": 580,
+      "frequency": 190,
+      "cores": 14,
+      "ram": 21,
+      "farmer": {
+        "id": 73454,
+        "name": "Unbreakable"
+      },
+      "weapons": [
+        "flame_thrower",
+        "mysterious_electrisor",
+        "heavy_sword"
+      ],
+      "chips": [
+        "motivation",
+        "stretching",
+        "leather_boots",
+        "venom",
+        "armoring",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "warm_up",
+        "covetousness",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "serum",
+        "plague",
+        "elevation",
+        "fracture",
+        "mirror",
+        "savant_bulb",
+        "bramble",
+        "arsenic"
+      ]
+    },
     "131863": {
       "id": 131863,
       "name": "koe3",
@@ -22088,6 +22499,60 @@
         "rage",
         "elevation",
         "therapy"
+      ]
+    },
+    "80705": {
+      "id": 80705,
+      "name": "Successor",
+      "level": 301,
+      "talent": 2247,
+      "ranking": 402,
+      "life": 3140,
+      "tp": 25,
+      "mp": 6,
+      "strength": 60,
+      "agility": 270,
+      "wisdom": 440,
+      "resistance": 230,
+      "science": -20,
+      "magic": 640,
+      "frequency": 150,
+      "cores": 14,
+      "ram": 23,
+      "farmer": {
+        "id": 73454,
+        "name": "Unbreakable"
+      },
+      "weapons": [
+        "sword",
+        "flame_thrower",
+        "lightninger",
+        "enhanced_lightninger"
+      ],
+      "chips": [
+        "motivation",
+        "stretching",
+        "knowledge",
+        "venom",
+        "armoring",
+        "armor",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "warm_up",
+        "iced_bulb",
+        "covetousness",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "burning",
+        "plague",
+        "elevation",
+        "mirror",
+        "savant_bulb",
+        "arsenic"
       ]
     },
     "23362": {
@@ -24687,7 +25152,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 586,
-      "ranking": 4960,
+      "ranking": 4959,
       "life": 3090,
       "tp": 25,
       "mp": 8,
@@ -26922,7 +27387,7 @@
       "name": "Coot",
       "level": 250,
       "talent": 1468,
-      "ranking": 1655,
+      "ranking": 1656,
       "life": 2107,
       "tp": 21,
       "mp": 6,
@@ -27229,7 +27694,7 @@
       "name": "Laborantin",
       "level": 301,
       "talent": 1419,
-      "ranking": 1798,
+      "ranking": 1797,
       "life": 2775,
       "tp": 26,
       "mp": 5,
@@ -28027,6 +28492,60 @@
         "bramble"
       ]
     },
+    "81322": {
+      "id": 81322,
+      "name": "Superior",
+      "level": 301,
+      "talent": 2477,
+      "ranking": 212,
+      "life": 3180,
+      "tp": 25,
+      "mp": 6,
+      "strength": 50,
+      "agility": 520,
+      "wisdom": 295,
+      "resistance": 250,
+      "science": 90,
+      "magic": 630,
+      "frequency": 150,
+      "cores": 14,
+      "ram": 23,
+      "farmer": {
+        "id": 73454,
+        "name": "Unbreakable"
+      },
+      "weapons": [
+        "neutrino",
+        "double_gun",
+        "unstable_destroyer",
+        "flame_thrower"
+      ],
+      "chips": [
+        "motivation",
+        "stretching",
+        "venom",
+        "armoring",
+        "armor",
+        "prism",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "warm_up",
+        "covetousness",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "plague",
+        "elevation",
+        "fracture",
+        "mirror",
+        "savant_bulb",
+        "bramble",
+        "arsenic"
+      ]
+    },
     "81329": {
       "id": 81329,
       "name": "arthurdent",
@@ -28289,7 +28808,7 @@
       "name": "Technicien",
       "level": 301,
       "talent": 1416,
-      "ranking": 1804,
+      "ranking": 1803,
       "life": 2775,
       "tp": 26,
       "mp": 5,
@@ -30578,6 +31097,57 @@
         "elevation"
       ]
     },
+    "36561": {
+      "id": 36561,
+      "name": "Extremice",
+      "level": 301,
+      "talent": 1848,
+      "ranking": null,
+      "life": 3000,
+      "tp": 25,
+      "mp": 6,
+      "strength": 50,
+      "agility": 500,
+      "wisdom": 540,
+      "resistance": 50,
+      "science": 600,
+      "magic": 50,
+      "frequency": 190,
+      "cores": 8,
+      "ram": 20,
+      "farmer": {
+        "id": 31464,
+        "name": "Necta01"
+      },
+      "weapons": [
+        "neutrino",
+        "b_laser",
+        "j_laser",
+        "explorer_rifle"
+      ],
+      "chips": [
+        "cure",
+        "knowledge",
+        "alteration",
+        "liberation",
+        "armoring",
+        "mutation",
+        "antidote",
+        "regeneration",
+        "inversion",
+        "remission",
+        "vampirization",
+        "reflexes",
+        "serum",
+        "seven_league_boots",
+        "desintegration",
+        "rage",
+        "elevation",
+        "mirror",
+        "transmutation",
+        "therapy"
+      ]
+    },
     "46805": {
       "id": 46805,
       "name": "LeeKitLikeThat",
@@ -31707,7 +32277,7 @@
       "name": "Ouagadougou",
       "level": 301,
       "talent": 1419,
-      "ranking": 1800,
+      "ranking": 1799,
       "life": 2430,
       "tp": 19,
       "mp": 6,
@@ -32371,8 +32941,8 @@
       "id": 71600,
       "name": "Lorca",
       "level": 301,
-      "talent": 1562,
-      "ranking": 1278,
+      "talent": 1548,
+      "ranking": 1282,
       "life": 1700,
       "tp": 21,
       "mp": 7,
@@ -33549,11 +34119,46 @@
           "date": 1773357410
         },
         {
+          "fight_id": 51892537,
+          "total_level": 902,
+          "total_capital": 5240,
+          "turns": 11,
+          "date": 1774056320
+        },
+        {
+          "fight_id": 51892536,
+          "total_level": 902,
+          "total_capital": 5240,
+          "turns": 11,
+          "date": 1774056319
+        },
+        {
+          "fight_id": 51892502,
+          "total_level": 902,
+          "total_capital": 5240,
+          "turns": 11,
+          "date": 1774055765
+        },
+        {
+          "fight_id": 51892535,
+          "total_level": 902,
+          "total_capital": 5240,
+          "turns": 15,
+          "date": 1774056317
+        },
+        {
           "fight_id": 51790894,
           "total_level": 902,
           "total_capital": 5240,
           "turns": 16,
           "date": 1773359218
+        },
+        {
+          "fight_id": 51892495,
+          "total_level": 902,
+          "total_capital": 5240,
+          "turns": 43,
+          "date": 1774055459
         }
       ]
     },
@@ -35036,6 +35641,65 @@
       ]
     },
     {
+      "fight_id": 51892528,
+      "fight_type": 1,
+      "farmer_name": "Dworkyn",
+      "farmer_id": 123738,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 130159,
+          "name": "Dworkyn",
+          "level": 301,
+          "farmer": 123738,
+          "farmer_name": "Dworkyn"
+        },
+        {
+          "id": 130244,
+          "name": "Corwyn",
+          "level": 301,
+          "farmer": 123738,
+          "farmer_name": "Dworkyn"
+        },
+        {
+          "id": 130374,
+          "name": "Fyona",
+          "level": 301,
+          "farmer": 123738,
+          "farmer_name": "Dworkyn"
+        },
+        {
+          "id": 130464,
+          "name": "Deyrdre",
+          "level": 300,
+          "farmer": 123738,
+          "farmer_name": "Dworkyn"
+        }
+      ],
+      "total_level": 1203,
+      "turns": 3,
+      "date": 1774056215,
+      "key": "123738",
+      "leek_names": "Dworkyn, Corwyn, Fyona, Deyrdre",
+      "total_capital": 7020,
+      "history": [
+        {
+          "fight_id": 51892528,
+          "total_level": 1203,
+          "total_capital": 7020,
+          "turns": 3,
+          "date": 1774056215
+        },
+        {
+          "fight_id": 51892477,
+          "total_level": 1203,
+          "total_capital": 7020,
+          "turns": 6,
+          "date": 1774054929
+        }
+      ]
+    },
+    {
       "fight_id": 51716134,
       "fight_type": 1,
       "farmer_name": "Arcannos",
@@ -35084,58 +35748,6 @@
           "total_capital": 7020,
           "turns": 5,
           "date": 1772903698
-        }
-      ]
-    },
-    {
-      "fight_id": 51892477,
-      "fight_type": 1,
-      "farmer_name": "Dworkyn",
-      "farmer_id": 123738,
-      "team_name": null,
-      "leeks": [
-        {
-          "id": 130159,
-          "name": "Dworkyn",
-          "level": 301,
-          "farmer": 123738,
-          "farmer_name": "Dworkyn"
-        },
-        {
-          "id": 130244,
-          "name": "Corwyn",
-          "level": 301,
-          "farmer": 123738,
-          "farmer_name": "Dworkyn"
-        },
-        {
-          "id": 130374,
-          "name": "Fyona",
-          "level": 301,
-          "farmer": 123738,
-          "farmer_name": "Dworkyn"
-        },
-        {
-          "id": 130464,
-          "name": "Deyrdre",
-          "level": 300,
-          "farmer": 123738,
-          "farmer_name": "Dworkyn"
-        }
-      ],
-      "total_level": 1203,
-      "turns": 6,
-      "date": 1774054929,
-      "key": "123738",
-      "leek_names": "Dworkyn, Corwyn, Fyona, Deyrdre",
-      "total_capital": 7020,
-      "history": [
-        {
-          "fight_id": 51892477,
-          "total_level": 1203,
-          "total_capital": 7020,
-          "turns": 6,
-          "date": 1774054929
         }
       ]
     },
@@ -35421,6 +36033,65 @@
       ]
     },
     {
+      "fight_id": 51892483,
+      "fight_type": 1,
+      "farmer_name": "Unbreakable",
+      "farmer_id": 73454,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 78427,
+          "name": "Survivor",
+          "level": 301,
+          "farmer": 73454,
+          "farmer_name": "Unbreakable"
+        },
+        {
+          "id": 78605,
+          "name": "Savior",
+          "level": 301,
+          "farmer": 73454,
+          "farmer_name": "Unbreakable"
+        },
+        {
+          "id": 80705,
+          "name": "Successor",
+          "level": 301,
+          "farmer": 73454,
+          "farmer_name": "Unbreakable"
+        },
+        {
+          "id": 81322,
+          "name": "Superior",
+          "level": 301,
+          "farmer": 73454,
+          "farmer_name": "Unbreakable"
+        }
+      ],
+      "total_level": 1204,
+      "turns": 7,
+      "date": 1774055201,
+      "key": "73454",
+      "leek_names": "Survivor, Savior, Successor, Superior",
+      "total_capital": 7120,
+      "history": [
+        {
+          "fight_id": 51892483,
+          "total_level": 1204,
+          "total_capital": 7120,
+          "turns": 7,
+          "date": 1774055201
+        },
+        {
+          "fight_id": 51892489,
+          "total_level": 1204,
+          "total_capital": 7120,
+          "turns": 24,
+          "date": 1774055290
+        }
+      ]
+    },
+    {
       "fight_id": 51665287,
       "fight_type": 1,
       "farmer_name": "MrAnislider",
@@ -35476,6 +36147,72 @@
           "total_capital": 7120,
           "turns": 12,
           "date": 1772555985
+        }
+      ]
+    },
+    {
+      "fight_id": 51892525,
+      "fight_type": 1,
+      "farmer_name": "fujiwar2",
+      "farmer_id": 59622,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 64335,
+          "name": "Leek1805181242",
+          "level": 301,
+          "farmer": 59622,
+          "farmer_name": "fujiwar2"
+        },
+        {
+          "id": 96712,
+          "name": "PeintureAcryleek",
+          "level": 301,
+          "farmer": 59622,
+          "farmer_name": "fujiwar2"
+        },
+        {
+          "id": 97390,
+          "name": "PistonHydroleek",
+          "level": 301,
+          "farmer": 59622,
+          "farmer_name": "fujiwar2"
+        },
+        {
+          "id": 97698,
+          "name": "Po\u00e9sieBucoleek",
+          "level": 301,
+          "farmer": 59622,
+          "farmer_name": "fujiwar2"
+        }
+      ],
+      "total_level": 1204,
+      "turns": 8,
+      "date": 1774056158,
+      "key": "59622",
+      "leek_names": "Leek1805181242, PeintureAcryleek, PistonHydroleek, Po\u00e9sieBucoleek",
+      "total_capital": 7120,
+      "history": [
+        {
+          "fight_id": 51892525,
+          "total_level": 1204,
+          "total_capital": 7120,
+          "turns": 8,
+          "date": 1774056158
+        },
+        {
+          "fight_id": 51892482,
+          "total_level": 1204,
+          "total_capital": 7120,
+          "turns": 14,
+          "date": 1774055152
+        },
+        {
+          "fight_id": 51892478,
+          "total_level": 1204,
+          "total_capital": 7120,
+          "turns": 33,
+          "date": 1774054978
         }
       ]
     },
@@ -35712,6 +36449,86 @@
           "total_capital": 7120,
           "turns": 9,
           "date": 1772403485
+        }
+      ]
+    },
+    {
+      "fight_id": 51892530,
+      "fight_type": 1,
+      "farmer_name": "Necta01",
+      "farmer_id": 31464,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 35078,
+          "name": "Menthe",
+          "level": 301,
+          "farmer": 31464,
+          "farmer_name": "Necta01"
+        },
+        {
+          "id": 36561,
+          "name": "Extremice",
+          "level": 301,
+          "farmer": 31464,
+          "farmer_name": "Necta01"
+        },
+        {
+          "id": 57369,
+          "name": "Auraede",
+          "level": 301,
+          "farmer": 31464,
+          "farmer_name": "Necta01"
+        },
+        {
+          "id": 63686,
+          "name": "Ceacleye",
+          "level": 301,
+          "farmer": 31464,
+          "farmer_name": "Necta01"
+        }
+      ],
+      "total_level": 1204,
+      "turns": 9,
+      "date": 1774056244,
+      "key": "31464",
+      "leek_names": "Menthe, Extremice, Auraede, Ceacleye",
+      "total_capital": 7120,
+      "history": [
+        {
+          "fight_id": 51892530,
+          "total_level": 1204,
+          "total_capital": 7120,
+          "turns": 9,
+          "date": 1774056244
+        },
+        {
+          "fight_id": 51892510,
+          "total_level": 1204,
+          "total_capital": 7120,
+          "turns": 10,
+          "date": 1774055908
+        },
+        {
+          "fight_id": 51892531,
+          "total_level": 1204,
+          "total_capital": 7120,
+          "turns": 11,
+          "date": 1774056278
+        },
+        {
+          "fight_id": 51892533,
+          "total_level": 1204,
+          "total_capital": 7120,
+          "turns": 16,
+          "date": 1774056297
+        },
+        {
+          "fight_id": 51892508,
+          "total_level": 1204,
+          "total_capital": 7120,
+          "turns": 18,
+          "date": 1774055823
         }
       ]
     },
@@ -36045,65 +36862,6 @@
           "total_capital": 7120,
           "turns": 12,
           "date": 1772502101
-        }
-      ]
-    },
-    {
-      "fight_id": 51892482,
-      "fight_type": 1,
-      "farmer_name": "fujiwar2",
-      "farmer_id": 59622,
-      "team_name": null,
-      "leeks": [
-        {
-          "id": 64335,
-          "name": "Leek1805181242",
-          "level": 301,
-          "farmer": 59622,
-          "farmer_name": "fujiwar2"
-        },
-        {
-          "id": 96712,
-          "name": "PeintureAcryleek",
-          "level": 301,
-          "farmer": 59622,
-          "farmer_name": "fujiwar2"
-        },
-        {
-          "id": 97390,
-          "name": "PistonHydroleek",
-          "level": 301,
-          "farmer": 59622,
-          "farmer_name": "fujiwar2"
-        },
-        {
-          "id": 97698,
-          "name": "Po\u00e9sieBucoleek",
-          "level": 301,
-          "farmer": 59622,
-          "farmer_name": "fujiwar2"
-        }
-      ],
-      "total_level": 1204,
-      "turns": 14,
-      "date": 1774055152,
-      "key": "59622",
-      "leek_names": "Leek1805181242, PeintureAcryleek, PistonHydroleek, Po\u00e9sieBucoleek",
-      "total_capital": 7120,
-      "history": [
-        {
-          "fight_id": 51892482,
-          "total_level": 1204,
-          "total_capital": 7120,
-          "turns": 14,
-          "date": 1774055152
-        },
-        {
-          "fight_id": 51892478,
-          "total_level": 1204,
-          "total_capital": 7120,
-          "turns": 33,
-          "date": 1774054978
         }
       ]
     },
