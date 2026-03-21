@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T19:26:26.395432+00:00",
+  "last_updated": "2026-03-21T20:24:55.216167+00:00",
   "daltons": {
     "46733": [
       {
@@ -3195,6 +3195,71 @@
           "total_capital": null,
           "turns": 18,
           "date": 1773694333
+        }
+      ]
+    },
+    {
+      "fight_id": 51900167,
+      "fight_type": 2,
+      "farmer_name": "Hope",
+      "farmer_id": 123856,
+      "team_name": "[Synthetic Harvest]",
+      "leeks": [
+        {
+          "id": 130288,
+          "name": "Mistral",
+          "level": 301,
+          "farmer": 123856,
+          "farmer_name": "Hope"
+        },
+        {
+          "id": 128883,
+          "name": "Claudius",
+          "level": 301,
+          "farmer": 122557,
+          "farmer_name": "tagadai"
+        },
+        {
+          "id": 131290,
+          "name": "DeepSeek",
+          "level": 301,
+          "farmer": 123856,
+          "farmer_name": "Hope"
+        },
+        {
+          "id": 131291,
+          "name": "Claudias",
+          "level": 301,
+          "farmer": 122557,
+          "farmer_name": "tagadai"
+        },
+        {
+          "id": 131318,
+          "name": "Anthropic",
+          "level": 300,
+          "farmer": 123856,
+          "farmer_name": "Hope"
+        },
+        {
+          "id": 131326,
+          "name": "Claudios",
+          "level": 301,
+          "farmer": 122557,
+          "farmer_name": "tagadai"
+        }
+      ],
+      "total_level": 1805,
+      "turns": 6,
+      "date": 1774123319,
+      "key": "123856",
+      "leek_names": "Mistral, Claudius, DeepSeek, Claudias, Anthropic, Claudios",
+      "history": [
+        {
+          "fight_id": 51900167,
+          "total_level": 1805,
+          "total_capital": null,
+          "turns": 6,
+          "date": 1774123319
         }
       ]
     },
@@ -13905,6 +13970,93 @@
         "name": "Hanekawa"
       }
     },
+    "123856": {
+      "id": 123856,
+      "name": "Hope",
+      "talent": 4119,
+      "ranking": 61,
+      "country": "fr",
+      "total_level": 1202,
+      "trophies": 222,
+      "leeks": {
+        "130288": {
+          "id": 130288,
+          "name": "Mistral",
+          "level": 301,
+          "talent": 2642,
+          "life": 2825,
+          "tp": 25,
+          "mp": 6,
+          "strength": 400,
+          "agility": 0,
+          "wisdom": 430,
+          "resistance": 400,
+          "science": 200,
+          "magic": 0,
+          "frequency": 200,
+          "cores": 16,
+          "ram": 19
+        },
+        "131290": {
+          "id": 131290,
+          "name": "DeepSeek",
+          "level": 301,
+          "talent": 2177,
+          "life": 2605,
+          "tp": 25,
+          "mp": 6,
+          "strength": 400,
+          "agility": 30,
+          "wisdom": 300,
+          "resistance": 400,
+          "science": 190,
+          "magic": 0,
+          "frequency": 200,
+          "cores": 16,
+          "ram": 17
+        },
+        "131318": {
+          "id": 131318,
+          "name": "Anthropic",
+          "level": 300,
+          "talent": 1867,
+          "life": 2322,
+          "tp": 25,
+          "mp": 6,
+          "strength": 400,
+          "agility": 90,
+          "wisdom": 200,
+          "resistance": 410,
+          "science": 310,
+          "magic": 0,
+          "frequency": 160,
+          "cores": 10,
+          "ram": 17
+        },
+        "131330": {
+          "id": 131330,
+          "name": "Grok",
+          "level": 300,
+          "talent": 1854,
+          "life": 1877,
+          "tp": 25,
+          "mp": 6,
+          "strength": 460,
+          "agility": 30,
+          "wisdom": 200,
+          "resistance": 410,
+          "science": 310,
+          "magic": 0,
+          "frequency": 180,
+          "cores": 16,
+          "ram": 17
+        }
+      },
+      "team": {
+        "id": 10089,
+        "name": "Synthetic Harvest"
+      }
+    },
     "58321": {
       "id": 58321,
       "name": "fujiwar",
@@ -16745,6 +16897,110 @@
         "arsenic"
       ]
     },
+    "131290": {
+      "id": 131290,
+      "name": "DeepSeek",
+      "level": 301,
+      "talent": 2177,
+      "ranking": 454,
+      "life": 2605,
+      "tp": 25,
+      "mp": 6,
+      "strength": 400,
+      "agility": 30,
+      "wisdom": 300,
+      "resistance": 400,
+      "science": 190,
+      "magic": 0,
+      "frequency": 200,
+      "cores": 16,
+      "ram": 17,
+      "farmer": {
+        "id": 123856,
+        "name": "Hope"
+      },
+      "weapons": [
+        "enhanced_lightninger",
+        "quantum_rifle",
+        "heavy_sword",
+        "m_laser"
+      ],
+      "chips": [
+        "motivation",
+        "liberation",
+        "armoring",
+        "jump",
+        "antidote",
+        "rampart",
+        "steroid",
+        "inversion",
+        "remission",
+        "healer_bulb",
+        "fortress",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "elevation",
+        "dome",
+        "therapy"
+      ]
+    },
+    "131291": {
+      "id": 131291,
+      "name": "Claudias",
+      "level": 301,
+      "talent": 2724,
+      "ranking": 92,
+      "life": 2850,
+      "tp": 27,
+      "mp": 6,
+      "strength": 50,
+      "agility": 280,
+      "wisdom": 425,
+      "resistance": 490,
+      "science": 140,
+      "magic": 570,
+      "frequency": 180,
+      "cores": 18,
+      "ram": 25,
+      "farmer": {
+        "id": 122557,
+        "name": "tagadai"
+      },
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "gazor",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "armoring",
+        "jump",
+        "armor",
+        "slow_down",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "toxin",
+        "carapace",
+        "soporific",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "fortress",
+        "teleportation",
+        "plague",
+        "elevation",
+        "dome",
+        "bramble",
+        "arsenic",
+        "resurrection"
+      ]
+    },
     "104671": {
       "id": 104671,
       "name": "Malleur",
@@ -16802,7 +17058,7 @@
       "name": "80CHIPREMISSION",
       "level": 174,
       "talent": 506,
-      "ranking": 6186,
+      "ranking": 6187,
       "life": 1597,
       "tp": 15,
       "mp": 6,
@@ -17122,6 +17378,54 @@
         "elevation",
         "lightning_bulb",
         "resurrection"
+      ]
+    },
+    "131318": {
+      "id": 131318,
+      "name": "Anthropic",
+      "level": 300,
+      "talent": 1867,
+      "ranking": 797,
+      "life": 2322,
+      "tp": 25,
+      "mp": 6,
+      "strength": 400,
+      "agility": 90,
+      "wisdom": 200,
+      "resistance": 410,
+      "science": 310,
+      "magic": 0,
+      "frequency": 160,
+      "cores": 10,
+      "ram": 17,
+      "farmer": {
+        "id": 123856,
+        "name": "Hope"
+      },
+      "weapons": [
+        "bazooka",
+        "heavy_sword",
+        "unbridled_gazor",
+        "m_laser"
+      ],
+      "chips": [
+        "motivation",
+        "leather_boots",
+        "liberation",
+        "armoring",
+        "jump",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "inversion",
+        "remission",
+        "healer_bulb",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy"
       ]
     },
     "131319": {
@@ -19796,7 +20100,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 537,
-      "ranking": 5651,
+      "ranking": 5652,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -22787,6 +23091,53 @@
         "therapy"
       ]
     },
+    "70359": {
+      "id": 70359,
+      "name": "Caracole",
+      "level": 301,
+      "talent": 1557,
+      "ranking": 1282,
+      "life": 1700,
+      "tp": 21,
+      "mp": 7,
+      "strength": 550,
+      "agility": 0,
+      "wisdom": 200,
+      "resistance": 200,
+      "science": 0,
+      "magic": 0,
+      "frequency": 100,
+      "cores": 20,
+      "ram": 20,
+      "farmer": {
+        "id": 53189,
+        "name": "tagadamasio"
+      },
+      "weapons": [
+        "grenade_launcher",
+        "electrisor",
+        "katana",
+        "m_laser"
+      ],
+      "chips": [
+        "wall",
+        "shield",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "covetousness",
+        "carapace",
+        "inversion",
+        "remission",
+        "fortress",
+        "teleportation",
+        "resurrection"
+      ]
+    },
     "105175": {
       "id": 105175,
       "name": "Gueriaigle",
@@ -22842,53 +23193,6 @@
         "serum",
         "teleportation",
         "elevation",
-        "resurrection"
-      ]
-    },
-    "70359": {
-      "id": 70359,
-      "name": "Caracole",
-      "level": 301,
-      "talent": 1557,
-      "ranking": 1282,
-      "life": 1700,
-      "tp": 21,
-      "mp": 7,
-      "strength": 550,
-      "agility": 0,
-      "wisdom": 200,
-      "resistance": 200,
-      "science": 0,
-      "magic": 0,
-      "frequency": 100,
-      "cores": 20,
-      "ram": 20,
-      "farmer": {
-        "id": 53189,
-        "name": "tagadamasio"
-      },
-      "weapons": [
-        "grenade_launcher",
-        "electrisor",
-        "katana",
-        "m_laser"
-      ],
-      "chips": [
-        "wall",
-        "shield",
-        "stalactite",
-        "liberation",
-        "armoring",
-        "armor",
-        "antidote",
-        "rampart",
-        "regeneration",
-        "covetousness",
-        "carapace",
-        "inversion",
-        "remission",
-        "fortress",
-        "teleportation",
         "resurrection"
       ]
     },
@@ -26107,7 +26411,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 558,
-      "ranking": 5346,
+      "ranking": 5345,
       "life": 1072,
       "tp": 12,
       "mp": 4,
@@ -26254,7 +26558,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 585,
-      "ranking": 4972,
+      "ranking": 4971,
       "life": 3090,
       "tp": 25,
       "mp": 8,
@@ -27608,6 +27912,56 @@
         "metallic_bulb",
         "transmutation",
         "bramble"
+      ]
+    },
+    "130288": {
+      "id": 130288,
+      "name": "Mistral",
+      "level": 301,
+      "talent": 2642,
+      "ranking": 171,
+      "life": 2825,
+      "tp": 25,
+      "mp": 6,
+      "strength": 400,
+      "agility": 0,
+      "wisdom": 430,
+      "resistance": 400,
+      "science": 200,
+      "magic": 0,
+      "frequency": 200,
+      "cores": 16,
+      "ram": 19,
+      "farmer": {
+        "id": 123856,
+        "name": "Hope"
+      },
+      "weapons": [
+        "bazooka",
+        "quantum_rifle",
+        "heavy_sword",
+        "m_laser"
+      ],
+      "chips": [
+        "motivation",
+        "leather_boots",
+        "armoring",
+        "jump",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "inversion",
+        "remission",
+        "healer_bulb",
+        "fortress",
+        "teleportation",
+        "seven_league_boots",
+        "rage",
+        "elevation",
+        "dome",
+        "therapy",
+        "resurrection"
       ]
     },
     "89334": {
@@ -33741,6 +34095,65 @@
         "fracture",
         "bramble",
         "arsenic"
+      ]
+    },
+    "128883": {
+      "id": 128883,
+      "name": "Claudius",
+      "level": 301,
+      "talent": 3468,
+      "ranking": 6,
+      "life": 2610,
+      "tp": 26,
+      "mp": 5,
+      "strength": 50,
+      "agility": 280,
+      "wisdom": 465,
+      "resistance": 50,
+      "science": 620,
+      "magic": 530,
+      "frequency": 190,
+      "cores": 19,
+      "ram": 28,
+      "farmer": {
+        "id": 122557,
+        "name": "tagadai"
+      },
+      "weapons": [
+        "sword",
+        "flame_thrower",
+        "illicit_grenade_launcher",
+        "gazor"
+      ],
+      "chips": [
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "mutation",
+        "slow_down",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "thorn",
+        "soporific",
+        "manumission",
+        "wizardry",
+        "remission",
+        "ball_and_chain",
+        "reflexes",
+        "serum",
+        "teleportation",
+        "seven_league_boots",
+        "plague",
+        "rage",
+        "elevation",
+        "mirror",
+        "transmutation",
+        "therapy",
+        "bramble",
+        "arsenic",
+        "resurrection"
       ]
     },
     "130943": {
