@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T07:36:25.795889+00:00",
+  "last_updated": "2026-03-21T08:30:15.293939+00:00",
   "daltons": {
     "46733": [
       {
@@ -5142,7 +5142,7 @@
           "id": 36264,
           "name": "leekattak",
           "level": 301,
-          "talent": 3107,
+          "talent": 3122,
           "life": 3050,
           "tp": 25,
           "mp": 9,
@@ -6392,7 +6392,7 @@
           "id": 39820,
           "name": "Lamastico",
           "level": 301,
-          "talent": 3082,
+          "talent": 3097,
           "life": 2710,
           "tp": 26,
           "mp": 8,
@@ -7477,8 +7477,8 @@
     "8414": {
       "id": 8414,
       "name": "FdHP",
-      "talent": 5766,
-      "ranking": 37,
+      "talent": 5758,
+      "ranking": 38,
       "country": "is",
       "total_level": 1204,
       "trophies": 316,
@@ -8564,8 +8564,8 @@
     "97544": {
       "id": 97544,
       "name": "MimItems",
-      "talent": 5558,
-      "ranking": 42,
+      "talent": 5586,
+      "ranking": 41,
       "country": null,
       "total_level": 1204,
       "trophies": 262,
@@ -12701,8 +12701,8 @@
     "124865": {
       "id": 124865,
       "name": "ArthourCuillere",
-      "talent": 5748,
-      "ranking": 38,
+      "talent": 5785,
+      "ranking": 37,
       "country": null,
       "total_level": 1203,
       "trophies": 229,
@@ -13118,7 +13118,7 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6424,
+      "talent": 6447,
       "ranking": 17,
       "country": null,
       "total_level": 1204,
@@ -13727,7 +13727,7 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6523,
+      "talent": 6472,
       "ranking": 15,
       "country": "fr",
       "total_level": 1204,
