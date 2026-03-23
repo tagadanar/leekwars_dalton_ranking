@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T21:36:52.151258+00:00",
+  "last_updated": "2026-03-23T22:31:09.383998+00:00",
   "daltons": {
     "46733": [
       {
@@ -6662,7 +6662,7 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3667,
+      "talent": 3703,
       "ranking": 84,
       "country": "fr",
       "total_level": 1204,
@@ -8141,8 +8141,8 @@
     "8414": {
       "id": 8414,
       "name": "FdHP",
-      "talent": 5799,
-      "ranking": 38,
+      "talent": 5815,
+      "ranking": 37,
       "country": "is",
       "total_level": 1204,
       "trophies": 316,
@@ -9402,8 +9402,8 @@
     "97544": {
       "id": 97544,
       "name": "MimItems",
-      "talent": 5607,
-      "ranking": 41,
+      "talent": 5517,
+      "ranking": 42,
       "country": null,
       "total_level": 1204,
       "trophies": 262,
@@ -11538,8 +11538,8 @@
     "99671": {
       "id": 99671,
       "name": "Kava3005",
-      "talent": 5359,
-      "ranking": 45,
+      "talent": 5430,
+      "ranking": 44,
       "country": null,
       "total_level": 1201,
       "trophies": 206,
@@ -11712,8 +11712,8 @@
     "94042": {
       "id": 94042,
       "name": "Bux420",
-      "talent": 5562,
-      "ranking": 42,
+      "talent": 5598,
+      "ranking": 41,
       "country": "fr",
       "total_level": 1204,
       "trophies": 218,
@@ -11800,7 +11800,7 @@
       "id": 16731,
       "name": "Tabarius",
       "talent": 3776,
-      "ranking": 80,
+      "ranking": 81,
       "country": "fr",
       "total_level": 1204,
       "trophies": 300,
@@ -11973,7 +11973,7 @@
     "48992": {
       "id": 48992,
       "name": "Lmare",
-      "talent": 5857,
+      "talent": 5865,
       "ranking": 34,
       "country": "fr",
       "total_level": 1204,
@@ -12060,8 +12060,8 @@
     "56160": {
       "id": 56160,
       "name": "Kavaliov",
-      "talent": 5460,
-      "ranking": 44,
+      "talent": 5405,
+      "ranking": 45,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -12930,8 +12930,8 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3628,
-      "ranking": 87,
+      "talent": 3641,
+      "ranking": 88,
       "country": "fr",
       "total_level": 1204,
       "trophies": 243,
@@ -13713,7 +13713,7 @@
     "124865": {
       "id": 124865,
       "name": "ArthourCuillere",
-      "talent": 5846,
+      "talent": 5854,
       "ranking": 35,
       "country": null,
       "total_level": 1203,
@@ -14565,8 +14565,8 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3591,
-      "ranking": 91,
+      "talent": 3534,
+      "ranking": 94,
       "country": "fr",
       "total_level": 1202,
       "trophies": 173,
@@ -14913,8 +14913,8 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3745,
-      "ranking": 83,
+      "talent": 3770,
+      "ranking": 82,
       "country": "fr",
       "total_level": 1204,
       "trophies": 232,
@@ -22338,7 +22338,7 @@
       "name": "Bux45",
       "level": 300,
       "talent": 1156,
-      "ranking": 2699,
+      "ranking": 2698,
       "life": 3669,
       "tp": 22,
       "mp": 5,
