@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T04:34:48.453143+00:00",
+  "last_updated": "2026-03-26T06:16:36.259116+00:00",
   "daltons": {
     "46733": [
       {
@@ -7629,8 +7629,8 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3720,
-      "ranking": 81,
+      "talent": 3672,
+      "ranking": 83,
       "country": "fr",
       "total_level": 1204,
       "trophies": 282,
@@ -9282,7 +9282,7 @@
     "86242": {
       "id": 86242,
       "name": "thaddee",
-      "talent": 3762,
+      "talent": 3775,
       "ranking": 78,
       "country": "ps",
       "total_level": 1204,
@@ -10021,8 +10021,8 @@
     "97541": {
       "id": 97541,
       "name": "SushiRush",
-      "talent": 3765,
-      "ranking": 77,
+      "talent": 3792,
+      "ranking": 76,
       "country": "fr",
       "total_level": 1204,
       "trophies": 246,
@@ -11291,7 +11291,7 @@
       "id": 99628,
       "name": "SlightlySmartLeekStem",
       "talent": 3788,
-      "ranking": 76,
+      "ranking": 77,
       "country": "ps",
       "total_level": 1203,
       "trophies": 294,
@@ -12853,8 +12853,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3690,
-      "ranking": 84,
+      "talent": 3729,
+      "ranking": 79,
       "country": "fr",
       "total_level": 1204,
       "trophies": 300,
@@ -15880,8 +15880,8 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3744,
-      "ranking": 80,
+      "talent": 3729,
+      "ranking": 79,
       "country": "fr",
       "total_level": 1204,
       "trophies": 232,
@@ -15967,8 +15967,8 @@
     "122869": {
       "id": 122869,
       "name": "EF369",
-      "talent": 3631,
-      "ranking": 87,
+      "talent": 3665,
+      "ranking": 84,
       "country": "fr",
       "total_level": 1204,
       "trophies": 229,
@@ -25876,7 +25876,7 @@
       "name": "Ptiplouf",
       "level": 301,
       "talent": 1155,
-      "ranking": 2700,
+      "ranking": 2699,
       "life": 2495,
       "tp": 25,
       "mp": 5,
@@ -28412,7 +28412,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 584,
-      "ranking": 4953,
+      "ranking": 4951,
       "life": 3090,
       "tp": 25,
       "mp": 8,
