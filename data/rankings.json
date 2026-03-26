@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T20:00:14.576504+00:00",
+  "last_updated": "2026-03-26T20:37:27.866227+00:00",
   "daltons": {
     "46733": [
       {
@@ -4679,6 +4679,13 @@
           "total_capital": null,
           "turns": 5,
           "date": 1774537918
+        },
+        {
+          "fight_id": 51949540,
+          "total_level": 1806,
+          "total_capital": null,
+          "turns": 5,
+          "date": 1774555227
         },
         {
           "fight_id": 51937948,
@@ -10207,7 +10214,7 @@
       "id": 97541,
       "name": "SushiRush",
       "talent": 3792,
-      "ranking": 77,
+      "ranking": 76,
       "country": "fr",
       "total_level": 1204,
       "trophies": 246,
@@ -10642,7 +10649,7 @@
       "id": 97547,
       "name": "Poliw",
       "talent": 3815,
-      "ranking": 73,
+      "ranking": 74,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -11475,8 +11482,8 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 3801,
-      "ranking": 76,
+      "talent": 3816,
+      "ranking": 73,
       "country": "ps",
       "total_level": 1203,
       "trophies": 294,
@@ -13038,7 +13045,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3791,
+      "talent": 3776,
       "ranking": 78,
       "country": "fr",
       "total_level": 1204,
@@ -28319,7 +28326,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 584,
-      "ranking": 4951,
+      "ranking": 4949,
       "life": 3090,
       "tp": 25,
       "mp": 8,
