@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T18:53:11.680203+00:00",
+  "last_updated": "2026-03-27T19:45:20.869716+00:00",
   "daltons": {
     "46733": [
       {
@@ -2525,6 +2525,13 @@
           "total_capital": null,
           "turns": 12,
           "date": 1773839013
+        },
+        {
+          "fight_id": 51956906,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1774638001
         },
         {
           "fight_id": 51815768,
@@ -6107,7 +6114,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7791,
+      "talent": 7792,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -6698,8 +6705,8 @@
     "48": {
       "id": 48,
       "name": "Skouarniek",
-      "talent": 1887,
-      "ranking": 267,
+      "talent": 1847,
+      "ranking": 275,
       "country": "mt",
       "total_level": 1204,
       "trophies": 200,
@@ -6786,7 +6793,7 @@
       "id": 100912,
       "name": "EstebanC3",
       "talent": 2188,
-      "ranking": 226,
+      "ranking": 225,
       "country": "fr",
       "total_level": 932,
       "trophies": 209,
@@ -7376,8 +7383,8 @@
     "66643": {
       "id": 66643,
       "name": "WRNYK",
-      "talent": 2464,
-      "ranking": 180,
+      "talent": 2463,
+      "ranking": 181,
       "country": "fr",
       "total_level": 941,
       "trophies": 181,
@@ -8939,7 +8946,7 @@
       "id": 124565,
       "name": "koe",
       "talent": 1957,
-      "ranking": 260,
+      "ranking": 262,
       "country": "us",
       "total_level": 600,
       "trophies": 232,
@@ -9982,8 +9989,8 @@
     "86242": {
       "id": 86242,
       "name": "thaddee",
-      "talent": 3804,
-      "ranking": 76,
+      "talent": 3819,
+      "ranking": 72,
       "country": "ps",
       "total_level": 1204,
       "trophies": 299,
@@ -10722,7 +10729,7 @@
       "id": 97541,
       "name": "SushiRush",
       "talent": 3806,
-      "ranking": 75,
+      "ranking": 76,
       "country": "fr",
       "total_level": 1204,
       "trophies": 246,
@@ -11157,7 +11164,7 @@
       "id": 97547,
       "name": "Poliw",
       "talent": 3815,
-      "ranking": 74,
+      "ranking": 75,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -11244,7 +11251,7 @@
       "id": 43276,
       "name": "Ref",
       "talent": 6659,
-      "ranking": 13,
+      "ranking": 12,
       "country": "fr",
       "total_level": 1204,
       "trophies": 329,
@@ -11591,8 +11598,8 @@
     "71957": {
       "id": 71957,
       "name": "Nmnnm",
-      "talent": 2287,
-      "ranking": 213,
+      "talent": 2260,
+      "ranking": 215,
       "country": null,
       "total_level": 1204,
       "trophies": 222,
@@ -11678,8 +11685,8 @@
     "101146": {
       "id": 101146,
       "name": "theonesolox",
-      "talent": 2343,
-      "ranking": 203,
+      "talent": 2342,
+      "ranking": 205,
       "country": "fr",
       "total_level": 1202,
       "trophies": 224,
@@ -11765,8 +11772,8 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3260,
-      "ranking": 116,
+      "talent": 3266,
+      "ranking": 115,
       "country": "fr",
       "total_level": 903,
       "trophies": 270,
@@ -11990,8 +11997,8 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 3816,
-      "ranking": 73,
+      "talent": 3818,
+      "ranking": 74,
       "country": "ps",
       "total_level": 1203,
       "trophies": 294,
@@ -12894,7 +12901,7 @@
       "id": 54597,
       "name": "Caneton",
       "talent": 2327,
-      "ranking": 206,
+      "ranking": 207,
       "country": "fr",
       "total_level": 903,
       "trophies": 235,
@@ -13379,7 +13386,7 @@
     "124760": {
       "id": 124760,
       "name": "Kleekteek",
-      "talent": 2942,
+      "talent": 2936,
       "ranking": 129,
       "country": null,
       "total_level": 1020,
@@ -15467,8 +15474,8 @@
     "73155": {
       "id": 73155,
       "name": "tagadaveniradieux",
-      "talent": 1927,
-      "ranking": 264,
+      "talent": 1912,
+      "ranking": 265,
       "country": null,
       "total_level": 903,
       "trophies": 207,
@@ -15536,8 +15543,8 @@
     "53189": {
       "id": 53189,
       "name": "tagadamasio",
-      "talent": 2322,
-      "ranking": 207,
+      "talent": 2337,
+      "ranking": 206,
       "country": null,
       "total_level": 1204,
       "trophies": 198,
@@ -15884,7 +15891,7 @@
     "58321": {
       "id": 58321,
       "name": "fujiwar",
-      "talent": 6336,
+      "talent": 6361,
       "ranking": 19,
       "country": "pe",
       "total_level": 1204,
@@ -16580,11 +16587,11 @@
     "50168": {
       "id": 50168,
       "name": "tagadalone",
-      "talent": 3115,
+      "talent": 3116,
       "ranking": 120,
       "country": null,
       "total_level": 302,
-      "trophies": 252,
+      "trophies": 253,
       "leeks": {
         "54510": {
           "id": 54510,
@@ -19333,7 +19340,7 @@
       "name": "80CHIPREMISSION",
       "level": 174,
       "talent": 506,
-      "ranking": 6168,
+      "ranking": 6166,
       "life": 1597,
       "tp": 15,
       "mp": 6,
@@ -28834,7 +28841,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 584,
-      "ranking": 4946,
+      "ranking": 4947,
       "life": 3090,
       "tp": 25,
       "mp": 8,
