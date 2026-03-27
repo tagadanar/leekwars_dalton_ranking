@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T15:53:14.248785+00:00",
+  "last_updated": "2026-03-27T16:52:09.498246+00:00",
   "daltons": {
     "46733": [
       {
@@ -8329,8 +8329,8 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3619,
-      "ranking": 89,
+      "talent": 3607,
+      "ranking": 91,
       "country": "fr",
       "total_level": 1204,
       "trophies": 282,
@@ -16058,8 +16058,8 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3536,
-      "ranking": 96,
+      "talent": 3461,
+      "ranking": 99,
       "country": "fr",
       "total_level": 1202,
       "trophies": 176,
@@ -16493,8 +16493,8 @@
     "122869": {
       "id": 122869,
       "name": "EF369",
-      "talent": 3646,
-      "ranking": 86,
+      "talent": 3656,
+      "ranking": 87,
       "country": "fr",
       "total_level": 1204,
       "trophies": 229,
@@ -22024,7 +22024,7 @@
       "name": "CloseEnough",
       "level": 298,
       "talent": 888,
-      "ranking": 3440,
+      "ranking": 3442,
       "life": 2961,
       "tp": 25,
       "mp": 8,
@@ -28834,7 +28834,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 584,
-      "ranking": 4943,
+      "ranking": 4946,
       "life": 3090,
       "tp": 25,
       "mp": 8,
