@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T17:32:38.660224+00:00",
+  "last_updated": "2026-03-29T18:37:59.273050+00:00",
   "daltons": {
     "46733": [
       {
@@ -2267,6 +2267,13 @@
           "total_level": 1204,
           "turns": 4,
           "date": 1773647497
+        },
+        {
+          "fight_id": 51980247,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 4,
+          "date": 1774807201
         },
         {
           "fight_id": 51908406,
@@ -6454,7 +6461,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6898,
+      "talent": 6889,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -6697,7 +6704,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7085,
+      "talent": 7095,
       "ranking": 6,
       "country": "fr",
       "total_level": 1204,
@@ -7636,7 +7643,7 @@
     "66643": {
       "id": 66643,
       "name": "WRNYK",
-      "talent": 2483,
+      "talent": 2482,
       "ranking": 178,
       "country": "fr",
       "total_level": 941,
@@ -10981,7 +10988,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7179,
+      "talent": 7173,
       "ranking": 4,
       "country": "dj",
       "total_level": 1204,
@@ -11590,7 +11597,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6743,
+      "talent": 6754,
       "ranking": 11,
       "country": "fr",
       "total_level": 1204,
@@ -12145,7 +12152,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3193,
+      "talent": 3202,
       "ranking": 117,
       "country": "fr",
       "total_level": 903,
@@ -13759,7 +13766,7 @@
     "124760": {
       "id": 124760,
       "name": "Kleekteek",
-      "talent": 3026,
+      "talent": 3016,
       "ranking": 122,
       "country": null,
       "total_level": 1020,
@@ -14542,7 +14549,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7047,
+      "talent": 7036,
       "ranking": 7,
       "country": null,
       "total_level": 1204,
@@ -15065,7 +15072,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1539,
-      "ranking": 447,
+      "ranking": 446,
       "country": null,
       "total_level": 925,
       "trophies": 150,
@@ -15238,7 +15245,7 @@
     "44975": {
       "id": 44975,
       "name": "Agade",
-      "talent": 6190,
+      "talent": 6183,
       "ranking": 23,
       "country": "ch",
       "total_level": 1204,
@@ -16699,7 +16706,7 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6430,
+      "talent": 6436,
       "ranking": 18,
       "country": "fr",
       "total_level": 1204,
@@ -16960,7 +16967,7 @@
     "50168": {
       "id": 50168,
       "name": "tagadalone",
-      "talent": 3123,
+      "talent": 3124,
       "ranking": 119,
       "country": null,
       "total_level": 302,
@@ -19717,7 +19724,7 @@
       "name": "80CHIPREMISSION",
       "level": 174,
       "talent": 506,
-      "ranking": 6171,
+      "ranking": 6172,
       "life": 1597,
       "tp": 15,
       "mp": 6,
@@ -22916,7 +22923,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 488,
-      "ranking": 6480,
+      "ranking": 6481,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -23934,7 +23941,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 423,
-      "ranking": 7582,
+      "ranking": 7575,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -28353,7 +28360,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 430,
-      "ranking": 7393,
+      "ranking": 7387,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -37812,7 +37819,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 212,
       "talent": 344,
-      "ranking": 9212,
+      "ranking": 9211,
       "life": 1995,
       "tp": 17,
       "mp": 6,
