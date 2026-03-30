@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T19:57:43.729576+00:00",
+  "last_updated": "2026-03-30T20:44:53.799679+00:00",
   "daltons": {
     "46733": [
       {
@@ -5568,6 +5568,13 @@
           "total_capital": null,
           "turns": 2,
           "date": 1774733401
+        },
+        {
+          "fight_id": 51989988,
+          "total_level": 1805,
+          "total_capital": null,
+          "turns": 2,
+          "date": 1774900813
         }
       ]
     },
@@ -6761,7 +6768,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6824,
+      "talent": 6809,
       "ranking": 10,
       "country": "fr",
       "total_level": 1204,
@@ -7004,7 +7011,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7112,
+      "talent": 7104,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -11288,8 +11295,8 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7045,
-      "ranking": 6,
+      "talent": 7077,
+      "ranking": 7,
       "country": "dj",
       "total_level": 1204,
       "trophies": 292,
@@ -13232,7 +13239,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 6962,
+      "talent": 6916,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -14849,8 +14856,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7017,
-      "ranking": 7,
+      "talent": 7079,
+      "ranking": 6,
       "country": null,
       "total_level": 1204,
       "trophies": 322,
@@ -14936,7 +14943,7 @@
     "98186": {
       "id": 98186,
       "name": "Smartiz",
-      "talent": 6847,
+      "talent": 6822,
       "ranking": 9,
       "country": "si",
       "total_level": 1203,
