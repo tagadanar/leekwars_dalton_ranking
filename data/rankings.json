@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T17:06:22.966345+00:00",
+  "last_updated": "2026-03-31T18:00:21.955939+00:00",
   "daltons": {
     "46733": [
       {
@@ -6775,7 +6775,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7698,
+      "talent": 7670,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -8563,7 +8563,7 @@
       "id": 100982,
       "name": "AntiSlash",
       "talent": 6600,
-      "ranking": 14,
+      "ranking": 15,
       "country": null,
       "total_level": 1204,
       "trophies": 267,
@@ -8910,7 +8910,7 @@
     "76418": {
       "id": 76418,
       "name": "Hyunew",
-      "talent": 6780,
+      "talent": 6759,
       "ranking": 10,
       "country": null,
       "total_level": 1204,
@@ -9345,7 +9345,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7361,
+      "talent": 7364,
       "ranking": 3,
       "country": null,
       "total_level": 1204,
@@ -10476,7 +10476,7 @@
     "8414": {
       "id": 8414,
       "name": "FdHP",
-      "talent": 5645,
+      "talent": 5644,
       "ranking": 39,
       "country": "is",
       "total_level": 1204,
@@ -11389,8 +11389,8 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7158,
-      "ranking": 5,
+      "talent": 7186,
+      "ranking": 4,
       "country": "dj",
       "total_level": 1204,
       "trophies": 292,
@@ -11998,7 +11998,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6851,
+      "talent": 6848,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -12553,7 +12553,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3175,
+      "talent": 3172,
       "ranking": 118,
       "country": "fr",
       "total_level": 903,
@@ -13420,7 +13420,7 @@
     "71485": {
       "id": 71485,
       "name": "BrocoliCosmique",
-      "talent": 6064,
+      "talent": 6086,
       "ranking": 29,
       "country": "ps",
       "total_level": 1204,
@@ -14080,7 +14080,7 @@
     "99671": {
       "id": 99671,
       "name": "Kava3005",
-      "talent": 5354,
+      "talent": 5324,
       "ranking": 48,
       "country": null,
       "total_level": 1201,
@@ -14602,7 +14602,7 @@
     "56160": {
       "id": 56160,
       "name": "Kavaliov",
-      "talent": 5483,
+      "talent": 5482,
       "ranking": 45,
       "country": "fr",
       "total_level": 1204,
@@ -14689,7 +14689,7 @@
     "66407": {
       "id": 66407,
       "name": "Magestik25",
-      "talent": 6299,
+      "talent": 6278,
       "ranking": 19,
       "country": null,
       "total_level": 1204,
@@ -15037,7 +15037,7 @@
     "98186": {
       "id": 98186,
       "name": "Smartiz",
-      "talent": 6638,
+      "talent": 6636,
       "ranking": 13,
       "country": "si",
       "total_level": 1203,
@@ -16498,7 +16498,7 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6247,
+      "talent": 6248,
       "ranking": 22,
       "country": null,
       "total_level": 1204,
@@ -16846,7 +16846,7 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3680,
+      "talent": 3683,
       "ranking": 86,
       "country": "fr",
       "total_level": 1202,
@@ -16933,7 +16933,7 @@
     "76772": {
       "id": 76772,
       "name": "Kraspen",
-      "talent": 6141,
+      "talent": 6138,
       "ranking": 26,
       "country": "cv",
       "total_level": 1204,
@@ -18164,7 +18164,7 @@
       "name": "Rakdos",
       "level": 257,
       "talent": 1905,
-      "ranking": 680,
+      "ranking": 679,
       "life": 2068,
       "tp": 25,
       "mp": 6,
@@ -18639,7 +18639,7 @@
       "name": "dolph2",
       "level": 301,
       "talent": 1952,
-      "ranking": 668,
+      "ranking": 669,
       "life": 2640,
       "tp": 22,
       "mp": 6,
