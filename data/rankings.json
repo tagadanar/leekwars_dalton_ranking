@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T22:32:56.350212+00:00",
+  "last_updated": "2026-04-02T23:35:16.406340+00:00",
   "daltons": {
     "46733": [
       {
@@ -3449,6 +3449,13 @@
           "total_capital": null,
           "turns": 6,
           "date": 1775044100
+        },
+        {
+          "fight_id": 52023431,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 6,
+          "date": 1775170644
         },
         {
           "fight_id": 51939603,
@@ -7632,7 +7639,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6892,
+      "talent": 6844,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -7719,7 +7726,7 @@
     "66566": {
       "id": 66566,
       "name": "AppleTree",
-      "talent": 6773,
+      "talent": 6792,
       "ranking": 10,
       "country": "va",
       "total_level": 1204,
@@ -7875,7 +7882,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7080,
+      "talent": 7088,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -9333,7 +9340,7 @@
       "id": 100982,
       "name": "AntiSlash",
       "talent": 6685,
-      "ranking": 12,
+      "ranking": 13,
       "country": null,
       "total_level": 1204,
       "trophies": 268,
@@ -12855,8 +12862,8 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6721,
-      "ranking": 11,
+      "talent": 6690,
+      "ranking": 12,
       "country": "fr",
       "total_level": 1204,
       "trophies": 340,
@@ -14190,7 +14197,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 6978,
+      "talent": 6989,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -15807,7 +15814,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7026,
+      "talent": 7037,
       "ranking": 7,
       "country": null,
       "total_level": 1204,
@@ -15981,8 +15988,8 @@
     "98186": {
       "id": 98186,
       "name": "Smartiz",
-      "talent": 6678,
-      "ranking": 13,
+      "talent": 6701,
+      "ranking": 11,
       "country": "si",
       "total_level": 1203,
       "trophies": 329,
@@ -39927,7 +39934,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 212,
       "talent": 344,
-      "ranking": 9205,
+      "ranking": 9203,
       "life": 1995,
       "tp": 17,
       "mp": 6,
