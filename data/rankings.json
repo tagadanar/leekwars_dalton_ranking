@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T20:36:09.925513+00:00",
+  "last_updated": "2026-04-02T22:32:56.350212+00:00",
   "daltons": {
     "46733": [
       {
@@ -7549,7 +7549,7 @@
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 336,
+      "trophies": 337,
       "leeks": {
         "599": {
           "id": 599,
@@ -7632,11 +7632,11 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6889,
+      "talent": 6892,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 312,
+      "trophies": 313,
       "leeks": {
         "1": {
           "id": 1,
@@ -7810,7 +7810,7 @@
       "ranking": 153,
       "country": "fr",
       "total_level": 903,
-      "trophies": 226,
+      "trophies": 227,
       "leeks": {
         "76035": {
           "id": 76035,
@@ -7875,11 +7875,11 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7121,
+      "talent": 7080,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 330,
+      "trophies": 331,
       "leeks": {
         "100625": {
           "id": 100625,
@@ -7966,7 +7966,7 @@
       "ranking": 47,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 291,
+      "trophies": 292,
       "leeks": {
         "48617": {
           "id": 48617,
@@ -8314,7 +8314,7 @@
       "ranking": 62,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 225,
+      "trophies": 226,
       "leeks": {
         "66394": {
           "id": 66394,
@@ -8644,7 +8644,7 @@
       "ranking": 61,
       "country": null,
       "total_level": 1204,
-      "trophies": 217,
+      "trophies": 218,
       "leeks": {
         "66417": {
           "id": 66417,
@@ -8731,7 +8731,7 @@
       "ranking": 179,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 244,
+      "trophies": 245,
       "leeks": {
         "57903": {
           "id": 57903,
@@ -9336,7 +9336,7 @@
       "ranking": 12,
       "country": null,
       "total_level": 1204,
-      "trophies": 267,
+      "trophies": 268,
       "leeks": {
         "106898": {
           "id": 106898,
@@ -9423,7 +9423,7 @@
       "ranking": null,
       "country": "bz",
       "total_level": 1203,
-      "trophies": 282,
+      "trophies": 283,
       "leeks": {
         "92791": {
           "id": 92791,
@@ -9506,11 +9506,11 @@
     "19070": {
       "id": 19070,
       "name": "Amal",
-      "talent": 6216,
-      "ranking": 22,
+      "talent": 6202,
+      "ranking": 24,
       "country": "jp",
       "total_level": 1204,
-      "trophies": 302,
+      "trophies": 303,
       "leeks": {
         "21631": {
           "id": 21631,
@@ -9684,7 +9684,7 @@
       "ranking": 15,
       "country": null,
       "total_level": 1204,
-      "trophies": 280,
+      "trophies": 281,
       "leeks": {
         "81267": {
           "id": 81267,
@@ -9771,7 +9771,7 @@
       "ranking": 85,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 284,
+      "trophies": 285,
       "leeks": {
         "37886": {
           "id": 37886,
@@ -9858,7 +9858,7 @@
       "ranking": 63,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 223,
+      "trophies": 224,
       "leeks": {
         "61753": {
           "id": 61753,
@@ -9882,7 +9882,7 @@
           "id": 61857,
           "name": "KavaBarder",
           "level": 301,
-          "talent": 2726,
+          "talent": 2741,
           "life": 2960,
           "tp": 28,
           "mp": 6,
@@ -9945,7 +9945,7 @@
       "ranking": 57,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 231,
+      "trophies": 232,
       "leeks": {
         "75101": {
           "id": 75101,
@@ -10032,7 +10032,7 @@
       "ranking": 171,
       "country": "dk",
       "total_level": 1204,
-      "trophies": 265,
+      "trophies": 266,
       "leeks": {
         "43724": {
           "id": 43724,
@@ -10115,11 +10115,11 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7288,
+      "talent": 7320,
       "ranking": 3,
       "country": null,
       "total_level": 1204,
-      "trophies": 269,
+      "trophies": 270,
       "leeks": {
         "38413": {
           "id": 38413,
@@ -10202,7 +10202,7 @@
     "76431": {
       "id": 76431,
       "name": "BeatrixPotter",
-      "talent": 6143,
+      "talent": 6148,
       "ranking": 25,
       "country": "gb",
       "total_level": 1204,
@@ -10293,7 +10293,7 @@
       "ranking": null,
       "country": "fr",
       "total_level": 1201,
-      "trophies": 215,
+      "trophies": 216,
       "leeks": {
         "130499": {
           "id": 130499,
@@ -10380,7 +10380,7 @@
       "ranking": 265,
       "country": "us",
       "total_level": 600,
-      "trophies": 231,
+      "trophies": 232,
       "leeks": {
         "131032": {
           "id": 131032,
@@ -10554,7 +10554,7 @@
       "ranking": 59,
       "country": "vc",
       "total_level": 1204,
-      "trophies": 269,
+      "trophies": 270,
       "leeks": {
         "22327": {
           "id": 22327,
@@ -10902,7 +10902,7 @@
       "ranking": 17,
       "country": null,
       "total_level": 1204,
-      "trophies": 269,
+      "trophies": 270,
       "leeks": {
         "81329": {
           "id": 81329,
@@ -10989,7 +10989,7 @@
       "ranking": 233,
       "country": null,
       "total_level": 895,
-      "trophies": 199,
+      "trophies": 200,
       "leeks": {
         "89619": {
           "id": 89619,
@@ -11076,7 +11076,7 @@
       "ranking": 2,
       "country": null,
       "total_level": 1204,
-      "trophies": 270,
+      "trophies": 271,
       "leeks": {
         "128883": {
           "id": 128883,
@@ -11250,7 +11250,7 @@
       "ranking": 37,
       "country": "is",
       "total_level": 1204,
-      "trophies": 318,
+      "trophies": 319,
       "leeks": {
         "8549": {
           "id": 8549,
@@ -11424,7 +11424,7 @@
       "ranking": 78,
       "country": "ps",
       "total_level": 1204,
-      "trophies": 301,
+      "trophies": 302,
       "leeks": {
         "91285": {
           "id": 91285,
@@ -11576,7 +11576,7 @@
       "ranking": 119,
       "country": null,
       "total_level": 1204,
-      "trophies": 244,
+      "trophies": 245,
       "leeks": {
         "64335": {
           "id": 64335,
@@ -11746,7 +11746,7 @@
       "ranking": 167,
       "country": null,
       "total_level": 1121,
-      "trophies": 224,
+      "trophies": 225,
       "leeks": {
         "126240": {
           "id": 126240,
@@ -11833,7 +11833,7 @@
       "ranking": null,
       "country": "ps",
       "total_level": 1204,
-      "trophies": 322,
+      "trophies": 323,
       "leeks": {
         "102502": {
           "id": 102502,
@@ -11920,7 +11920,7 @@
       "ranking": 120,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 230,
+      "trophies": 231,
       "leeks": {
         "78427": {
           "id": 78427,
@@ -12007,7 +12007,7 @@
       "ranking": 180,
       "country": "co",
       "total_level": 1204,
-      "trophies": 240,
+      "trophies": 241,
       "leeks": {
         "55271": {
           "id": 55271,
@@ -12159,17 +12159,17 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7254,
+      "talent": 7169,
       "ranking": 4,
       "country": "dj",
       "total_level": 1204,
-      "trophies": 295,
+      "trophies": 296,
       "leeks": {
         "78870": {
           "id": 78870,
           "name": "RageRanger",
           "level": 301,
-          "talent": 2723,
+          "talent": 2693,
           "life": 2610,
           "tp": 30,
           "mp": 6,
@@ -12337,7 +12337,7 @@
       "ranking": 92,
       "country": null,
       "total_level": 1204,
-      "trophies": 301,
+      "trophies": 302,
       "leeks": {
         "102527": {
           "id": 102527,
@@ -12424,7 +12424,7 @@
       "ranking": null,
       "country": null,
       "total_level": 1204,
-      "trophies": 265,
+      "trophies": 266,
       "leeks": {
         "103082": {
           "id": 103082,
@@ -12511,7 +12511,7 @@
       "ranking": null,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 311,
+      "trophies": 312,
       "leeks": {
         "98205": {
           "id": 98205,
@@ -12859,7 +12859,7 @@
       "ranking": 11,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 338,
+      "trophies": 340,
       "leeks": {
         "47183": {
           "id": 47183,
@@ -12946,7 +12946,7 @@
       "ranking": null,
       "country": "fr",
       "total_level": 1200,
-      "trophies": 218,
+      "trophies": 219,
       "leeks": {
         "130627": {
           "id": 130627,
@@ -13033,7 +13033,7 @@
       "ranking": 145,
       "country": "fr",
       "total_level": 1012,
-      "trophies": 199,
+      "trophies": 200,
       "leeks": {
         "131154": {
           "id": 131154,
@@ -13294,7 +13294,7 @@
       "ranking": 200,
       "country": "fr",
       "total_level": 1202,
-      "trophies": 225,
+      "trophies": 226,
       "leeks": {
         "107080": {
           "id": 107080,
@@ -13381,7 +13381,7 @@
       "ranking": 23703,
       "country": "fr",
       "total_level": 301,
-      "trophies": 215,
+      "trophies": 216,
       "leeks": {
         "78477": {
           "id": 78477,
@@ -13414,7 +13414,7 @@
       "ranking": 117,
       "country": "fr",
       "total_level": 903,
-      "trophies": 270,
+      "trophies": 271,
       "leeks": {
         "21233": {
           "id": 21233,
@@ -13483,7 +13483,7 @@
       "ranking": 56,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 270,
+      "trophies": 271,
       "leeks": {
         "77929": {
           "id": 77929,
@@ -13726,7 +13726,7 @@
       "ranking": 124,
       "country": "fr",
       "total_level": 903,
-      "trophies": 240,
+      "trophies": 241,
       "leeks": {
         "108186": {
           "id": 108186,
@@ -13792,10 +13792,10 @@
       "id": 124210,
       "name": "SachaBougPalette",
       "talent": 6133,
-      "ranking": 27,
+      "ranking": 26,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 253,
+      "trophies": 254,
       "leeks": {
         "130660": {
           "id": 130660,
@@ -14190,7 +14190,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 6919,
+      "talent": 6978,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -14281,7 +14281,7 @@
       "ranking": 30,
       "country": "ps",
       "total_level": 1204,
-      "trophies": 288,
+      "trophies": 289,
       "leeks": {
         "76366": {
           "id": 76366,
@@ -14698,7 +14698,7 @@
       "ranking": 160,
       "country": "fr",
       "total_level": 835,
-      "trophies": 229,
+      "trophies": 230,
       "leeks": {
         "68352": {
           "id": 68352,
@@ -14941,7 +14941,7 @@
       "ranking": 45,
       "country": null,
       "total_level": 1201,
-      "trophies": 207,
+      "trophies": 208,
       "leeks": {
         "105439": {
           "id": 105439,
@@ -15115,7 +15115,7 @@
       "ranking": 38,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 222,
+      "trophies": 223,
       "leeks": {
         "99341": {
           "id": 99341,
@@ -15202,7 +15202,7 @@
       "ranking": 81,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 302,
+      "trophies": 303,
       "leeks": {
         "18884": {
           "id": 18884,
@@ -15376,7 +15376,7 @@
       "ranking": 46,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 250,
+      "trophies": 251,
       "leeks": {
         "60897": {
           "id": 60897,
@@ -15418,7 +15418,7 @@
           "id": 61373,
           "name": "Kavaboost",
           "level": 301,
-          "talent": 2709,
+          "talent": 2724,
           "life": 2960,
           "tp": 27,
           "mp": 6,
@@ -15546,11 +15546,11 @@
     "66407": {
       "id": 66407,
       "name": "Magestik25",
-      "talent": 6234,
+      "talent": 6261,
       "ranking": 21,
       "country": null,
       "total_level": 1204,
-      "trophies": 329,
+      "trophies": 330,
       "leeks": {
         "71416": {
           "id": 71416,
@@ -15807,11 +15807,11 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7023,
+      "talent": 7026,
       "ranking": 7,
       "country": null,
       "total_level": 1204,
-      "trophies": 324,
+      "trophies": 326,
       "leeks": {
         "80980": {
           "id": 80980,
@@ -15898,7 +15898,7 @@
       "ranking": 74,
       "country": "ps",
       "total_level": 1204,
-      "trophies": 297,
+      "trophies": 298,
       "leeks": {
         "93072": {
           "id": 93072,
@@ -15985,7 +15985,7 @@
       "ranking": 13,
       "country": "si",
       "total_level": 1203,
-      "trophies": 328,
+      "trophies": 329,
       "leeks": {
         "103828": {
           "id": 103828,
@@ -16333,7 +16333,7 @@
       "ranking": 90,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 244,
+      "trophies": 245,
       "leeks": {
         "65686": {
           "id": 65686,
@@ -16590,8 +16590,8 @@
     "78250": {
       "id": 78250,
       "name": "Gandhictature",
-      "talent": 6135,
-      "ranking": 26,
+      "talent": 6109,
+      "ranking": 27,
       "country": "in",
       "total_level": 1204,
       "trophies": 322,
@@ -16677,11 +16677,11 @@
     "44975": {
       "id": 44975,
       "name": "Agade",
-      "talent": 6118,
+      "talent": 6106,
       "ranking": 28,
       "country": "ch",
       "total_level": 1204,
-      "trophies": 252,
+      "trophies": 253,
       "leeks": {
         "49046": {
           "id": 49046,
@@ -16855,7 +16855,7 @@
       "ranking": 135,
       "country": null,
       "total_level": 1204,
-      "trophies": 254,
+      "trophies": 255,
       "leeks": {
         "112965": {
           "id": 112965,
@@ -16942,7 +16942,7 @@
       "ranking": 65,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 213,
+      "trophies": 214,
       "leeks": {
         "61547": {
           "id": 61547,
@@ -17116,7 +17116,7 @@
       "ranking": 31,
       "country": null,
       "total_level": 1203,
-      "trophies": 232,
+      "trophies": 233,
       "leeks": {
         "131360": {
           "id": 131360,
@@ -17290,7 +17290,7 @@
       "ranking": 271,
       "country": null,
       "total_level": 903,
-      "trophies": 208,
+      "trophies": 209,
       "leeks": {
         "78118": {
           "id": 78118,
@@ -17359,7 +17359,7 @@
       "ranking": 196,
       "country": null,
       "total_level": 1204,
-      "trophies": 198,
+      "trophies": 199,
       "leeks": {
         "57742": {
           "id": 57742,
@@ -17446,7 +17446,7 @@
       "ranking": null,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 273,
+      "trophies": 274,
       "leeks": {
         "99452": {
           "id": 99452,
@@ -17529,8 +17529,8 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6195,
-      "ranking": 24,
+      "talent": 6211,
+      "ranking": 23,
       "country": null,
       "total_level": 1204,
       "trophies": 302,
@@ -17794,7 +17794,7 @@
       "ranking": 18,
       "country": "pe",
       "total_level": 1204,
-      "trophies": 326,
+      "trophies": 327,
       "leeks": {
         "63029": {
           "id": 63029,
@@ -17881,7 +17881,7 @@
       "ranking": null,
       "country": "gb",
       "total_level": 1204,
-      "trophies": 271,
+      "trophies": 272,
       "leeks": {
         "22825": {
           "id": 22825,
@@ -17968,7 +17968,7 @@
       "ranking": 88,
       "country": "fr",
       "total_level": 1202,
-      "trophies": 184,
+      "trophies": 185,
       "leeks": {
         "65746": {
           "id": 65746,
@@ -18051,11 +18051,11 @@
     "76772": {
       "id": 76772,
       "name": "Kraspen",
-      "talent": 6208,
-      "ranking": 23,
+      "talent": 6223,
+      "ranking": 22,
       "country": "cv",
       "total_level": 1204,
-      "trophies": 324,
+      "trophies": 326,
       "leeks": {
         "81638": {
           "id": 81638,
@@ -18229,7 +18229,7 @@
       "ranking": 20,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 276,
+      "trophies": 277,
       "leeks": {
         "59993": {
           "id": 59993,
@@ -18403,7 +18403,7 @@
       "ranking": 95,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 231,
+      "trophies": 232,
       "leeks": {
         "129212": {
           "id": 129212,
@@ -18490,7 +18490,7 @@
       "ranking": 118,
       "country": null,
       "total_level": 302,
-      "trophies": 253,
+      "trophies": 254,
       "leeks": {
         "54510": {
           "id": 54510,
@@ -19069,7 +19069,7 @@
       "name": "Skouarniek",
       "level": 301,
       "talent": 1531,
-      "ranking": 1307,
+      "ranking": 1308,
       "life": 1870,
       "tp": 20,
       "mp": 6,
@@ -19253,7 +19253,7 @@
       ],
       "chips": [
         "shock",
-        "protein",
+        "spark",
         "leather_boots",
         "knowledge",
         "liberation",
@@ -19598,7 +19598,7 @@
       "name": "KavaTank",
       "level": 301,
       "talent": 2732,
-      "ranking": 93,
+      "ranking": 94,
       "life": 2960,
       "tp": 28,
       "mp": 6,
@@ -19651,7 +19651,7 @@
       "name": "Fondeuse",
       "level": 301,
       "talent": 2733,
-      "ranking": 91,
+      "ranking": 92,
       "life": 2820,
       "tp": 30,
       "mp": 5,
@@ -20581,7 +20581,7 @@
       "name": "Kavakavient",
       "level": 301,
       "talent": 2699,
-      "ranking": 121,
+      "ranking": 120,
       "life": 2880,
       "tp": 26,
       "mp": 6,
@@ -22548,7 +22548,7 @@
       "name": "Outland",
       "level": 250,
       "talent": 1518,
-      "ranking": 1333,
+      "ranking": 1332,
       "life": 1937,
       "tp": 23,
       "mp": 6,
@@ -22857,7 +22857,7 @@
       "name": "PinkPearl",
       "level": 301,
       "talent": 2740,
-      "ranking": 88,
+      "ranking": 89,
       "life": 2680,
       "tp": 28,
       "mp": 6,
@@ -23637,7 +23637,7 @@
       "name": "Kavatroloin",
       "level": 301,
       "talent": 2697,
-      "ranking": 122,
+      "ranking": 121,
       "life": 2880,
       "tp": 26,
       "mp": 6,
@@ -25519,7 +25519,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 423,
-      "ranking": 7585,
+      "ranking": 7593,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -25768,7 +25768,7 @@
       "name": "PoirBio",
       "level": 301,
       "talent": 2726,
-      "ranking": 98,
+      "ranking": 99,
       "life": 2400,
       "tp": 27,
       "mp": 7,
@@ -26076,7 +26076,7 @@
       "name": "KavaPretre",
       "level": 301,
       "talent": 2728,
-      "ranking": 97,
+      "ranking": 98,
       "life": 2960,
       "tp": 28,
       "mp": 6,
@@ -30389,8 +30389,8 @@
       "id": 78870,
       "name": "RageRanger",
       "level": 301,
-      "talent": 2723,
-      "ranking": 103,
+      "talent": 2693,
+      "ranking": 124,
       "life": 2610,
       "tp": 30,
       "mp": 6,
@@ -30964,7 +30964,7 @@
       "name": "Edmond90",
       "level": 301,
       "talent": 2724,
-      "ranking": 102,
+      "ranking": 103,
       "life": 2500,
       "tp": 27,
       "mp": 6,
@@ -37607,7 +37607,7 @@
       "name": "HainePaixComplet",
       "level": 301,
       "talent": 2711,
-      "ranking": 111,
+      "ranking": 112,
       "life": 3120,
       "tp": 28,
       "mp": 5,
@@ -39927,7 +39927,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 212,
       "talent": 344,
-      "ranking": 9208,
+      "ranking": 9205,
       "life": 1995,
       "tp": 17,
       "mp": 6,
