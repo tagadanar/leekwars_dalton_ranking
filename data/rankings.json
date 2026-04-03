@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03T06:16:36.463114+00:00",
+  "last_updated": "2026-04-03T08:06:36.081548+00:00",
   "daltons": {
     "46733": [
       {
@@ -2794,6 +2794,13 @@
           "date": 1775113322
         },
         {
+          "fight_id": 52025233,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 8,
+          "date": 1775202603
+        },
+        {
           "fight_id": 51844032,
           "total_level": 1204,
           "total_capital": null,
@@ -2995,6 +3002,13 @@
           "date": 1773733062
         },
         {
+          "fight_id": 52025230,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 17,
+          "date": 1775202588
+        },
+        {
           "fight_id": 51840268,
           "total_level": 1204,
           "total_capital": null,
@@ -3037,6 +3051,13 @@
           "date": 1774622642
         },
         {
+          "fight_id": 52025167,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 27,
+          "date": 1775202295
+        },
+        {
           "fight_id": 51926957,
           "total_level": 1204,
           "total_capital": null,
@@ -3070,6 +3091,13 @@
           "total_capital": null,
           "turns": 40,
           "date": 1774511743
+        },
+        {
+          "fight_id": 52025229,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 40,
+          "date": 1775202571
         },
         {
           "fight_id": 51943712,
@@ -3773,6 +3801,13 @@
           "date": 1775065009
         },
         {
+          "fight_id": 52024956,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 8,
+          "date": 1775200800
+        },
+        {
           "fight_id": 51840270,
           "total_level": 1204,
           "total_capital": null,
@@ -3843,6 +3878,13 @@
           "date": 1775043997
         },
         {
+          "fight_id": 52024965,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 11,
+          "date": 1775200891
+        },
+        {
           "fight_id": 51899758,
           "total_level": 1204,
           "total_capital": null,
@@ -3883,6 +3925,13 @@
           "total_capital": null,
           "turns": 12,
           "date": 1775065445
+        },
+        {
+          "fight_id": 52024958,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1775200818
         },
         {
           "fight_id": 51943514,
@@ -3990,6 +4039,13 @@
           "date": 1775044011
         },
         {
+          "fight_id": 52024977,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 19,
+          "date": 1775200980
+        },
+        {
           "fight_id": 52004737,
           "total_level": 1204,
           "total_capital": null,
@@ -4072,6 +4128,13 @@
           "total_capital": null,
           "turns": 34,
           "date": 1775113805
+        },
+        {
+          "fight_id": 52024962,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 41,
+          "date": 1775200852
         }
       ]
     },
@@ -7639,7 +7702,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6844,
+      "talent": 6824,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -7726,8 +7789,8 @@
     "66566": {
       "id": 66566,
       "name": "AppleTree",
-      "talent": 6792,
-      "ranking": 10,
+      "talent": 6725,
+      "ranking": 12,
       "country": "va",
       "total_level": 1204,
       "trophies": 291,
@@ -7882,7 +7945,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7079,
+      "talent": 7086,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -8651,7 +8714,7 @@
       "ranking": 61,
       "country": null,
       "total_level": 1204,
-      "trophies": 218,
+      "trophies": 219,
       "leeks": {
         "66417": {
           "id": 66417,
@@ -8908,7 +8971,7 @@
     "32858": {
       "id": 32858,
       "name": "Joalien",
-      "talent": 6378,
+      "talent": 6361,
       "ranking": 19,
       "country": "ps",
       "total_level": 1204,
@@ -9339,7 +9402,7 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6685,
+      "talent": 6696,
       "ranking": 13,
       "country": null,
       "total_level": 1204,
@@ -9687,7 +9750,7 @@
     "76418": {
       "id": 76418,
       "name": "Hyunew",
-      "talent": 6575,
+      "talent": 6603,
       "ranking": 15,
       "country": null,
       "total_level": 1204,
@@ -9865,7 +9928,7 @@
       "ranking": 63,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 224,
+      "trophies": 225,
       "leeks": {
         "61753": {
           "id": 61753,
@@ -10039,7 +10102,7 @@
       "ranking": 171,
       "country": "dk",
       "total_level": 1204,
-      "trophies": 266,
+      "trophies": 267,
       "leeks": {
         "43724": {
           "id": 43724,
@@ -10905,8 +10968,8 @@
     "76473": {
       "id": 76473,
       "name": "galactichitchleeker",
-      "talent": 6418,
-      "ranking": 17,
+      "talent": 6375,
+      "ranking": 18,
       "country": null,
       "total_level": 1204,
       "trophies": 270,
@@ -12014,7 +12077,7 @@
       "ranking": 180,
       "country": "co",
       "total_level": 1204,
-      "trophies": 241,
+      "trophies": 242,
       "leeks": {
         "55271": {
           "id": 55271,
@@ -12525,17 +12588,17 @@
           "name": "\u00c9variste",
           "level": 301,
           "talent": 2298,
-          "life": 3220,
-          "tp": 28,
-          "mp": 6,
-          "strength": 610,
+          "life": 3100,
+          "tp": 29,
+          "mp": 5,
+          "strength": 560,
           "agility": 30,
-          "wisdom": 550,
+          "wisdom": 500,
           "resistance": 400,
           "science": 90,
           "magic": 0,
-          "frequency": 150,
-          "cores": 7,
+          "frequency": 160,
+          "cores": 17,
           "ram": 20
         },
         "98358": {
@@ -12862,8 +12925,8 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6690,
-      "ranking": 12,
+      "talent": 6758,
+      "ranking": 10,
       "country": "fr",
       "total_level": 1204,
       "trophies": 340,
@@ -13385,7 +13448,7 @@
       "id": 73500,
       "name": "Monarch",
       "talent": 100,
-      "ranking": 23705,
+      "ranking": 23706,
       "country": "fr",
       "total_level": 301,
       "trophies": 216,
@@ -14197,7 +14260,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7030,
+      "talent": 7022,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -14948,7 +15011,7 @@
       "ranking": 45,
       "country": null,
       "total_level": 1201,
-      "trophies": 208,
+      "trophies": 210,
       "leeks": {
         "105439": {
           "id": 105439,
@@ -15209,7 +15272,7 @@
       "ranking": 84,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 303,
+      "trophies": 304,
       "leeks": {
         "18884": {
           "id": 18884,
@@ -15728,7 +15791,7 @@
       "id": 98164,
       "name": "DrKouignamann",
       "talent": 1099,
-      "ranking": 681,
+      "ranking": 682,
       "country": null,
       "total_level": 1204,
       "trophies": 220,
@@ -15814,7 +15877,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7037,
+      "talent": 7059,
       "ranking": 7,
       "country": null,
       "total_level": 1204,
@@ -15988,7 +16051,7 @@
     "98186": {
       "id": 98186,
       "name": "Smartiz",
-      "talent": 6701,
+      "talent": 6746,
       "ranking": 11,
       "country": "si",
       "total_level": 1203,
@@ -16162,7 +16225,7 @@
     "76695": {
       "id": 76695,
       "name": "ihsusikamet",
-      "talent": 6529,
+      "talent": 6525,
       "ranking": 16,
       "country": null,
       "total_level": 1204,
@@ -16511,7 +16574,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1474,
-      "ranking": 477,
+      "ranking": 478,
       "country": null,
       "total_level": 925,
       "trophies": 150,
@@ -17540,7 +17603,7 @@
       "ranking": 23,
       "country": null,
       "total_level": 1204,
-      "trophies": 302,
+      "trophies": 303,
       "leeks": {
         "105564": {
           "id": 105564,
@@ -17797,8 +17860,8 @@
     "58321": {
       "id": 58321,
       "name": "fujiwar",
-      "talent": 6415,
-      "ranking": 18,
+      "talent": 6404,
+      "ranking": 17,
       "country": "pe",
       "total_level": 1204,
       "trophies": 327,
@@ -19259,8 +19322,6 @@
         "m_laser"
       ],
       "chips": [
-        "shock",
-        "spark",
         "leather_boots",
         "knowledge",
         "liberation",
@@ -19274,14 +19335,16 @@
         "steroid",
         "manumission",
         "adrenaline",
+        "meteorite",
         "remission",
+        "devil_strike",
+        "lightning",
         "serum",
         "teleportation",
         "elevation",
         "metallic_bulb",
         "therapy",
-        "plasma",
-        "resurrection"
+        "plasma"
       ]
     },
     "131154": {
@@ -21253,7 +21316,7 @@
       "name": "80CHIPREMISSION",
       "level": 174,
       "talent": 506,
-      "ranking": 6187,
+      "ranking": 6186,
       "life": 1597,
       "tp": 15,
       "mp": 6,
@@ -24400,7 +24463,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 507,
-      "ranking": 6178,
+      "ranking": 6177,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -31027,7 +31090,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 459,
-      "ranking": 6885,
+      "ranking": 6884,
       "life": 1072,
       "tp": 12,
       "mp": 4,
@@ -39526,17 +39589,17 @@
       "level": 301,
       "talent": 2298,
       "ranking": 378,
-      "life": 3220,
-      "tp": 28,
-      "mp": 6,
-      "strength": 610,
+      "life": 3100,
+      "tp": 29,
+      "mp": 5,
+      "strength": 560,
       "agility": 30,
-      "wisdom": 550,
+      "wisdom": 500,
       "resistance": 400,
       "science": 90,
       "magic": 0,
-      "frequency": 150,
-      "cores": 7,
+      "frequency": 160,
+      "cores": 17,
       "ram": 20,
       "farmer": {
         "id": 92936,
@@ -39546,28 +39609,26 @@
         "machine_gun",
         "rifle",
         "heavy_sword",
-        "revoked_m_laser"
+        "m_laser"
       ],
       "chips": [
-        "motivation",
+        "shock",
+        "pebble",
+        "ice",
+        "rock",
         "wall",
-        "solidification",
+        "spark",
+        "flame",
+        "stalactite",
         "liberation",
         "armoring",
+        "iceberg",
         "antidote",
-        "rampart",
-        "regeneration",
-        "steroid",
-        "manumission",
         "inversion",
-        "adrenaline",
         "remission",
-        "lightning",
+        "devil_strike",
         "fortress",
         "serum",
-        "elevation",
-        "metallic_bulb",
-        "dome",
         "plasma"
       ]
     },
@@ -39934,7 +39995,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 212,
       "talent": 344,
-      "ranking": 9202,
+      "ranking": 9204,
       "life": 1995,
       "tp": 17,
       "mp": 6,
