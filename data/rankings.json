@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T15:32:55.976144+00:00",
+  "last_updated": "2026-04-04T16:33:50.309510+00:00",
   "daltons": {
     "46733": [
       {
@@ -2958,6 +2958,13 @@
           "total_capital": null,
           "turns": 6,
           "date": 1774622494
+        },
+        {
+          "fight_id": 52038672,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 6,
+          "date": 1775318403
         },
         {
           "fight_id": 51954989,
@@ -8410,7 +8417,7 @@
     "44568": {
       "id": 44568,
       "name": "Madnicow",
-      "talent": 5374,
+      "talent": 5373,
       "ranking": 46,
       "country": "fr",
       "total_level": 1204,
@@ -8758,8 +8765,8 @@
     "61491": {
       "id": 61491,
       "name": "KavaliovQuater",
-      "talent": 4168,
-      "ranking": 61,
+      "talent": 4156,
+      "ranking": 62,
       "country": "fr",
       "total_level": 1204,
       "trophies": 226,
@@ -8933,7 +8940,7 @@
       "id": 71231,
       "name": "djokavex2",
       "talent": 2421,
-      "ranking": 192,
+      "ranking": 190,
       "country": null,
       "total_level": 1204,
       "trophies": 171,
@@ -9088,7 +9095,7 @@
     "61513": {
       "id": 61513,
       "name": "KavaliovQuinquies",
-      "talent": 4243,
+      "talent": 4255,
       "ranking": 60,
       "country": null,
       "total_level": 1204,
@@ -9175,8 +9182,8 @@
     "53323": {
       "id": 53323,
       "name": "EplucheLegumes",
-      "talent": 2437,
-      "ranking": 186,
+      "talent": 2419,
+      "ranking": 191,
       "country": "fr",
       "total_level": 1204,
       "trophies": 245,
@@ -9263,7 +9270,7 @@
       "id": 66643,
       "name": "WRNYK",
       "talent": 2436,
-      "ranking": 187,
+      "ranking": 186,
       "country": "fr",
       "total_level": 941,
       "trophies": 183,
@@ -9436,7 +9443,7 @@
     "101978": {
       "id": 101978,
       "name": "Agade2",
-      "talent": 6028,
+      "talent": 6029,
       "ranking": null,
       "country": "ch",
       "total_level": 1204,
@@ -10302,8 +10309,8 @@
     "56968": {
       "id": 56968,
       "name": "KavaliovTer",
-      "talent": 4162,
-      "ranking": 62,
+      "talent": 4159,
+      "ranking": 61,
       "country": "fr",
       "total_level": 1204,
       "trophies": 225,
@@ -10389,7 +10396,7 @@
     "70281": {
       "id": 70281,
       "name": "KavaliovSepties",
-      "talent": 4636,
+      "talent": 4639,
       "ranking": 56,
       "country": "fr",
       "total_level": 1204,
@@ -10476,7 +10483,7 @@
     "40076": {
       "id": 40076,
       "name": "bibimission",
-      "talent": 2565,
+      "talent": 2557,
       "ranking": 170,
       "country": "dk",
       "total_level": 1204,
@@ -10563,7 +10570,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7315,
+      "talent": 7322,
       "ranking": 3,
       "country": null,
       "total_level": 1204,
@@ -10737,8 +10744,8 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7047,
-      "ranking": 7,
+      "talent": 7040,
+      "ranking": 8,
       "country": "fr",
       "total_level": 1204,
       "trophies": 325,
@@ -11520,7 +11527,7 @@
     "84666": {
       "id": 84666,
       "name": "FantoCrevette",
-      "talent": 2130,
+      "talent": 2137,
       "ranking": 237,
       "country": null,
       "total_level": 895,
@@ -12451,7 +12458,7 @@
     "73454": {
       "id": 73454,
       "name": "Unbreakable",
-      "talent": 3278,
+      "talent": 3280,
       "ranking": 112,
       "country": "fr",
       "total_level": 1204,
@@ -12868,8 +12875,8 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3559,
-      "ranking": 89,
+      "talent": 3546,
+      "ranking": 90,
       "country": null,
       "total_level": 1204,
       "trophies": 303,
@@ -13390,7 +13397,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6748,
+      "talent": 6758,
       "ranking": 11,
       "country": "fr",
       "total_level": 1204,
@@ -14032,7 +14039,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3186,
+      "talent": 3192,
       "ranking": 115,
       "country": "fr",
       "total_level": 903,
@@ -14813,7 +14820,7 @@
       "id": 76604,
       "name": "nytope",
       "talent": 7041,
-      "ranking": 8,
+      "ranking": 7,
       "country": "fr",
       "total_level": 1204,
       "trophies": 322,
@@ -15386,7 +15393,7 @@
       "id": 53583,
       "name": "Tarama",
       "talent": 2419,
-      "ranking": 193,
+      "ranking": 191,
       "country": null,
       "total_level": 1204,
       "trophies": 218,
@@ -15473,7 +15480,7 @@
       "id": 45397,
       "name": "JediMasters",
       "talent": 2419,
-      "ranking": 193,
+      "ranking": 191,
       "country": "gb",
       "total_level": 1204,
       "trophies": 194,
@@ -16603,7 +16610,7 @@
     "98186": {
       "id": 98186,
       "name": "Smartiz",
-      "talent": 6662,
+      "talent": 6663,
       "ranking": null,
       "country": "si",
       "total_level": 1203,
@@ -16951,7 +16958,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3648,
+      "talent": 3649,
       "ranking": 86,
       "country": "fr",
       "total_level": 1204,
@@ -17908,8 +17915,8 @@
     "73155": {
       "id": 73155,
       "name": "tagadaveniradieux",
-      "talent": 1923,
-      "ranking": 267,
+      "talent": 1920,
+      "ranking": 268,
       "country": null,
       "total_level": 903,
       "trophies": 209,
@@ -17978,7 +17985,7 @@
       "id": 53189,
       "name": "tagadamasio",
       "talent": 2380,
-      "ranking": 199,
+      "ranking": 200,
       "country": null,
       "total_level": 1204,
       "trophies": 199,
@@ -18326,7 +18333,7 @@
       "id": 123856,
       "name": "Hope",
       "talent": 5229,
-      "ranking": 49,
+      "ranking": 48,
       "country": "fr",
       "total_level": 1203,
       "trophies": 223,
@@ -19022,7 +19029,7 @@
       "id": 122869,
       "name": "EF369",
       "talent": 3500,
-      "ranking": 97,
+      "ranking": 96,
       "country": "fr",
       "total_level": 1204,
       "trophies": 233,
@@ -25069,7 +25076,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 576,
-      "ranking": 5075,
+      "ranking": 5081,
       "life": 1421,
       "tp": 17,
       "mp": 7,
