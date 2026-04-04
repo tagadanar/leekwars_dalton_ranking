@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T21:32:19.775383+00:00",
+  "last_updated": "2026-04-04T22:28:56.392801+00:00",
   "daltons": {
     "46733": [
       {
@@ -8056,7 +8056,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7732,
+      "talent": 7696,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -8386,7 +8386,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7103,
+      "talent": 7082,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -9757,7 +9757,7 @@
       "id": 23154,
       "name": "Bouss72",
       "talent": 2477,
-      "ranking": 179,
+      "ranking": 178,
       "country": null,
       "total_level": 1204,
       "trophies": 223,
@@ -10539,7 +10539,7 @@
     "40076": {
       "id": 40076,
       "name": "bibimission",
-      "talent": 2557,
+      "talent": 2570,
       "ranking": 170,
       "country": "dk",
       "total_level": 1204,
@@ -10626,7 +10626,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7371,
+      "talent": 7377,
       "ranking": 3,
       "country": null,
       "total_level": 1204,
@@ -11062,7 +11062,7 @@
       "id": 41108,
       "name": "Jace",
       "talent": 2856,
-      "ranking": 144,
+      "ranking": 145,
       "country": null,
       "total_level": 1204,
       "trophies": 208,
@@ -11670,7 +11670,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7765,
+      "talent": 7771,
       "ranking": 1,
       "country": null,
       "total_level": 1204,
@@ -11931,8 +11931,8 @@
     "60639": {
       "id": 60639,
       "name": "SaltyCrusader",
-      "talent": 2811,
-      "ranking": 151,
+      "talent": 2813,
+      "ranking": 149,
       "country": "fr",
       "total_level": 1204,
       "trophies": 257,
@@ -12601,8 +12601,8 @@
     "50927": {
       "id": 50927,
       "name": "MrAnislider",
-      "talent": 2480,
-      "ranking": 178,
+      "talent": 2468,
+      "ranking": 179,
       "country": "co",
       "total_level": 1204,
       "trophies": 244,
@@ -12757,7 +12757,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7237,
+      "talent": 7282,
       "ranking": 4,
       "country": "dj",
       "total_level": 1204,
@@ -17710,8 +17710,8 @@
     "79295": {
       "id": 79295,
       "name": "TPE1",
-      "talent": 2815,
-      "ranking": 149,
+      "talent": 2785,
+      "ranking": 153,
       "country": "fr",
       "total_level": 1202,
       "trophies": 235,
@@ -18824,7 +18824,7 @@
       "id": 42473,
       "name": "Nsjtt",
       "talent": 2829,
-      "ranking": 147,
+      "ranking": 148,
       "country": "fr",
       "total_level": 1204,
       "trophies": 196,
@@ -26258,7 +26258,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 448,
-      "ranking": 7068,
+      "ranking": 7067,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -31000,7 +31000,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 450,
-      "ranking": 7022,
+      "ranking": 7021,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -31876,7 +31876,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 450,
-      "ranking": 7023,
+      "ranking": 7022,
       "life": 1072,
       "tp": 12,
       "mp": 4,
