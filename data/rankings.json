@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T22:28:56.392801+00:00",
+  "last_updated": "2026-04-04T23:31:57.327940+00:00",
   "daltons": {
     "46733": [
       {
@@ -8056,7 +8056,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7696,
+      "talent": 7700,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -8231,7 +8231,7 @@
       "id": 66566,
       "name": "AppleTree",
       "talent": 6714,
-      "ranking": 12,
+      "ranking": 11,
       "country": "va",
       "total_level": 1204,
       "trophies": 291,
@@ -8386,7 +8386,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7082,
+      "talent": 7175,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -9673,8 +9673,8 @@
     "71271": {
       "id": 71271,
       "name": "Kaesorus",
-      "talent": 2546,
-      "ranking": 172,
+      "talent": 2604,
+      "ranking": 170,
       "country": "fr",
       "total_level": 1204,
       "trophies": 243,
@@ -9756,8 +9756,8 @@
     "23154": {
       "id": 23154,
       "name": "Bouss72",
-      "talent": 2477,
-      "ranking": 178,
+      "talent": 2470,
+      "ranking": 177,
       "country": null,
       "total_level": 1204,
       "trophies": 223,
@@ -9843,8 +9843,8 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6716,
-      "ranking": 11,
+      "talent": 6713,
+      "ranking": 12,
       "country": null,
       "total_level": 1204,
       "trophies": 269,
@@ -10105,7 +10105,7 @@
       "id": 48768,
       "name": "leekstorm",
       "talent": 2603,
-      "ranking": 169,
+      "ranking": 171,
       "country": "fr",
       "total_level": 1204,
       "trophies": 194,
@@ -10539,8 +10539,8 @@
     "40076": {
       "id": 40076,
       "name": "bibimission",
-      "talent": 2570,
-      "ranking": 170,
+      "talent": 2631,
+      "ranking": 169,
       "country": "dk",
       "total_level": 1204,
       "trophies": 267,
@@ -10626,7 +10626,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7377,
+      "talent": 7369,
       "ranking": 3,
       "country": null,
       "total_level": 1204,
@@ -10800,7 +10800,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 6980,
+      "talent": 6991,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -11235,7 +11235,7 @@
     "97950": {
       "id": 97950,
       "name": "Arcannos",
-      "talent": 2695,
+      "talent": 2723,
       "ranking": 161,
       "country": "fr",
       "total_level": 1203,
@@ -11670,7 +11670,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7771,
+      "talent": 7777,
       "ranking": 1,
       "country": null,
       "total_level": 1204,
@@ -11757,8 +11757,8 @@
     "75471": {
       "id": 75471,
       "name": "sjrd",
-      "talent": 2772,
-      "ranking": 156,
+      "talent": 2788,
+      "ranking": 152,
       "country": "ch",
       "total_level": 1204,
       "trophies": 249,
@@ -12601,8 +12601,8 @@
     "50927": {
       "id": 50927,
       "name": "MrAnislider",
-      "talent": 2468,
-      "ranking": 179,
+      "talent": 2456,
+      "ranking": 180,
       "country": "co",
       "total_level": 1204,
       "trophies": 244,
@@ -12757,7 +12757,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7282,
+      "talent": 7183,
       "ranking": 4,
       "country": "dj",
       "total_level": 1204,
@@ -13453,7 +13453,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6786,
+      "talent": 6783,
       "ranking": 10,
       "country": "fr",
       "total_level": 1204,
@@ -14563,7 +14563,7 @@
     "67893": {
       "id": 67893,
       "name": "LePetitPatatoseur",
-      "talent": 2899,
+      "talent": 2912,
       "ranking": 138,
       "country": null,
       "total_level": 1204,
@@ -14788,8 +14788,8 @@
     "30010": {
       "id": 30010,
       "name": "Azimel",
-      "talent": 2465,
-      "ranking": 180,
+      "talent": 2442,
+      "ranking": 181,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -14875,7 +14875,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 6990,
+      "talent": 6999,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -15137,7 +15137,7 @@
       "id": 124738,
       "name": "DeKleek",
       "talent": 2763,
-      "ranking": 157,
+      "ranking": 156,
       "country": null,
       "total_level": 1013,
       "trophies": 188,
@@ -15380,7 +15380,7 @@
       "id": 63305,
       "name": "Panca",
       "talent": 2739,
-      "ranking": 160,
+      "ranking": 159,
       "country": "fr",
       "total_level": 835,
       "trophies": 230,
@@ -16492,7 +16492,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7029,
+      "talent": 7019,
       "ranking": 6,
       "country": null,
       "total_level": 1204,
@@ -17101,8 +17101,8 @@
     "42915": {
       "id": 42915,
       "name": "LeeKidder",
-      "talent": 2438,
-      "ranking": 185,
+      "talent": 2427,
+      "ranking": 187,
       "country": "fr",
       "total_level": 1204,
       "trophies": 252,
@@ -17536,7 +17536,7 @@
     "106937": {
       "id": 106937,
       "name": "huld",
-      "talent": 2894,
+      "talent": 2908,
       "ranking": 139,
       "country": null,
       "total_level": 1204,
@@ -17710,8 +17710,8 @@
     "79295": {
       "id": 79295,
       "name": "TPE1",
-      "talent": 2785,
-      "ranking": 153,
+      "talent": 2770,
+      "ranking": 155,
       "country": "fr",
       "total_level": 1202,
       "trophies": 235,
@@ -18823,8 +18823,8 @@
     "42473": {
       "id": 42473,
       "name": "Nsjtt",
-      "talent": 2829,
-      "ranking": 148,
+      "talent": 2843,
+      "ranking": 147,
       "country": "fr",
       "total_level": 1204,
       "trophies": 196,
@@ -40999,7 +40999,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 212,
       "talent": 344,
-      "ranking": 9203,
+      "ranking": 9201,
       "life": 1995,
       "tp": 17,
       "mp": 6,
