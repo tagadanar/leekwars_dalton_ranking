@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T06:19:43.830551+00:00",
+  "last_updated": "2026-04-05T08:00:32.343518+00:00",
   "daltons": {
     "46733": [
       {
@@ -2308,6 +2308,13 @@
           "date": 1775061272
         },
         {
+          "fight_id": 52042285,
+          "total_level": 1203,
+          "total_capital": null,
+          "turns": 2,
+          "date": 1775373135
+        },
+        {
           "fight_id": 51815867,
           "total_level": 1203,
           "turns": 3,
@@ -2340,6 +2347,13 @@
           "total_capital": null,
           "turns": 3,
           "date": 1775061211
+        },
+        {
+          "fight_id": 52042287,
+          "total_level": 1203,
+          "total_capital": null,
+          "turns": 3,
+          "date": 1775373146
         }
       ]
     },
@@ -8231,7 +8245,7 @@
       "id": 66566,
       "name": "AppleTree",
       "talent": 6714,
-      "ranking": 11,
+      "ranking": 12,
       "country": "va",
       "total_level": 1204,
       "trophies": 291,
@@ -9503,7 +9517,7 @@
       "ranking": null,
       "country": "ch",
       "total_level": 1204,
-      "trophies": 231,
+      "trophies": 232,
       "leeks": {
         "107959": {
           "id": 107959,
@@ -9843,8 +9857,8 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6713,
-      "ranking": 12,
+      "talent": 6726,
+      "ranking": 11,
       "country": null,
       "total_level": 1204,
       "trophies": 269,
@@ -10191,7 +10205,7 @@
     "76418": {
       "id": 76418,
       "name": "Hyunew",
-      "talent": 6671,
+      "talent": 6642,
       "ranking": 13,
       "country": null,
       "total_level": 1204,
@@ -10804,7 +10818,7 @@
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 325,
+      "trophies": 326,
       "leeks": {
         "57967": {
           "id": 57967,
@@ -12018,7 +12032,7 @@
     "86242": {
       "id": 86242,
       "name": "thaddee",
-      "talent": 3966,
+      "talent": 3979,
       "ranking": 67,
       "country": "ps",
       "total_level": 1204,
@@ -13196,7 +13210,7 @@
       "ranking": 39,
       "country": "jp",
       "total_level": 1204,
-      "trophies": 277,
+      "trophies": 278,
       "leeks": {
         "103084": {
           "id": 103084,
@@ -13367,7 +13381,7 @@
       "id": 97547,
       "name": "Poliw",
       "talent": 3909,
-      "ranking": 69,
+      "ranking": 68,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -13453,7 +13467,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6783,
+      "talent": 6794,
       "ranking": 10,
       "country": "fr",
       "total_level": 1204,
@@ -14063,7 +14077,7 @@
       "id": 73500,
       "name": "Monarch",
       "talent": 100,
-      "ranking": 23704,
+      "ranking": 23705,
       "country": "fr",
       "total_level": 301,
       "trophies": 216,
@@ -15383,7 +15397,7 @@
       "ranking": 159,
       "country": "fr",
       "total_level": 835,
-      "trophies": 230,
+      "trophies": 231,
       "leeks": {
         "68352": {
           "id": 68352,
@@ -16666,7 +16680,7 @@
     "98186": {
       "id": 98186,
       "name": "Smartiz",
-      "talent": 6640,
+      "talent": 6625,
       "ranking": null,
       "country": "si",
       "total_level": 1203,
@@ -17189,7 +17203,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1474,
-      "ranking": 473,
+      "ranking": 475,
       "country": null,
       "total_level": 925,
       "trophies": 150,
@@ -17975,7 +17989,7 @@
       "ranking": 272,
       "country": null,
       "total_level": 903,
-      "trophies": 209,
+      "trophies": 210,
       "leeks": {
         "78118": {
           "id": 78118,
@@ -18914,7 +18928,7 @@
       "ranking": 18,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 278,
+      "trophies": 279,
       "leeks": {
         "59993": {
           "id": 59993,
@@ -25527,7 +25541,7 @@
       "name": "CotteDemaille",
       "level": 300,
       "talent": 2987,
-      "ranking": 43,
+      "ranking": 45,
       "life": 1417,
       "tp": 30,
       "mp": 5,
@@ -27450,7 +27464,7 @@
       "name": "HappyRanger",
       "level": 301,
       "talent": 2971,
-      "ranking": 51,
+      "ranking": 50,
       "life": 2610,
       "tp": 30,
       "mp": 6,
@@ -35329,7 +35343,7 @@
       "name": "A\u00efeGarleek",
       "level": 301,
       "talent": 2997,
-      "ranking": 40,
+      "ranking": 41,
       "life": 1530,
       "tp": 30,
       "mp": 6,
@@ -37820,8 +37834,8 @@
       "id": 63124,
       "name": "Peuwaroh",
       "level": 301,
-      "talent": 2983,
-      "ranking": 45,
+      "talent": 2998,
+      "ranking": 40,
       "life": 3130,
       "tp": 28,
       "mp": 7,
@@ -38146,7 +38160,7 @@
       "name": "Veggy",
       "level": 301,
       "talent": 2981,
-      "ranking": 46,
+      "ranking": 47,
       "life": 2930,
       "tp": 29,
       "mp": 7,
@@ -39482,7 +39496,7 @@
       "name": "ReauBotcode",
       "level": 301,
       "talent": 2991,
-      "ranking": 41,
+      "ranking": 43,
       "life": 1470,
       "tp": 30,
       "mp": 6,
@@ -40168,7 +40182,7 @@
       "name": "ColonelMamene",
       "level": 301,
       "talent": 2973,
-      "ranking": 50,
+      "ranking": 49,
       "life": 1370,
       "tp": 30,
       "mp": 6,
@@ -41088,7 +41102,7 @@
       "id": 131032,
       "name": "koe",
       "level": 301,
-      "talent": 2948,
+      "talent": 2933,
       "ranking": 54,
       "life": 3505,
       "tp": 25,
