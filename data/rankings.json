@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T16:36:03.609856+00:00",
+  "last_updated": "2026-04-05T17:33:02.264558+00:00",
   "daltons": {
     "46733": [
       {
@@ -5600,6 +5600,57 @@
       ]
     },
     {
+      "fight_id": 52047411,
+      "fight_type": 1,
+      "farmer_name": "temakisushi",
+      "farmer_id": 53392,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 57967,
+          "name": "Izana",
+          "level": 301,
+          "farmer": 53392,
+          "farmer_name": "temakisushi"
+        },
+        {
+          "id": 58550,
+          "name": "Inupi",
+          "level": 301,
+          "farmer": 53392,
+          "farmer_name": "temakisushi"
+        },
+        {
+          "id": 58106,
+          "name": "Kazutora",
+          "level": 301,
+          "farmer": 53392,
+          "farmer_name": "temakisushi"
+        },
+        {
+          "id": 60715,
+          "name": "Kokonoi",
+          "level": 301,
+          "farmer": 53392,
+          "farmer_name": "temakisushi"
+        }
+      ],
+      "total_level": 1204,
+      "turns": 16,
+      "date": 1775408401,
+      "key": "53392",
+      "leek_names": "Izana, Inupi, Kazutora, Kokonoi",
+      "history": [
+        {
+          "fight_id": 52047411,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 16,
+          "date": 1775408401
+        }
+      ]
+    },
+    {
       "fight_id": 51815824,
       "fight_type": 1,
       "farmer_name": "ihsusikamet",
@@ -8251,7 +8302,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6833,
+      "talent": 6834,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -9520,7 +9571,7 @@
     "101978": {
       "id": 101978,
       "name": "Agade2",
-      "talent": 6022,
+      "talent": 6021,
       "ranking": null,
       "country": "ch",
       "total_level": 1204,
@@ -9607,7 +9658,7 @@
     "32858": {
       "id": 32858,
       "name": "Joalien",
-      "talent": 6327,
+      "talent": 6326,
       "ranking": 19,
       "country": "ps",
       "total_level": 1204,
@@ -9951,7 +10002,7 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6791,
+      "talent": 6783,
       "ranking": 10,
       "country": null,
       "total_level": 1204,
@@ -10908,7 +10959,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 6996,
+      "talent": 7008,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -11256,8 +11307,8 @@
     "19612": {
       "id": 19612,
       "name": "SalomonSanto",
-      "talent": 4320,
-      "ranking": 58,
+      "talent": 4291,
+      "ranking": 59,
       "country": "vc",
       "total_level": 1204,
       "trophies": 270,
@@ -11518,7 +11569,7 @@
       "id": 22189,
       "name": "TyTy03",
       "talent": 2980,
-      "ranking": 127,
+      "ranking": 128,
       "country": "fr",
       "total_level": 1204,
       "trophies": 213,
@@ -11691,7 +11742,7 @@
     "84666": {
       "id": 84666,
       "name": "FantoCrevette",
-      "talent": 2111,
+      "talent": 2114,
       "ranking": 240,
       "country": null,
       "total_level": 895,
@@ -11952,7 +12003,7 @@
     "8414": {
       "id": 8414,
       "name": "FdHP",
-      "talent": 5724,
+      "talent": 5718,
       "ranking": 37,
       "country": "is",
       "total_level": 1204,
@@ -12448,7 +12499,7 @@
     "120043": {
       "id": 120043,
       "name": "dulph2",
-      "talent": 2658,
+      "talent": 2649,
       "ranking": 167,
       "country": null,
       "total_level": 1121,
@@ -13039,8 +13090,8 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3617,
-      "ranking": 86,
+      "talent": 3608,
+      "ranking": 87,
       "country": null,
       "total_level": 1204,
       "trophies": 303,
@@ -13300,11 +13351,11 @@
     "97545": {
       "id": 97545,
       "name": "BabyKraspen",
-      "talent": 5654,
-      "ranking": 39,
+      "talent": 5662,
+      "ranking": 38,
       "country": "jp",
       "total_level": 1204,
-      "trophies": 278,
+      "trophies": 279,
       "leeks": {
         "103084": {
           "id": 103084,
@@ -13822,8 +13873,8 @@
     "124692": {
       "id": 124692,
       "name": "LeekMyTyTy",
-      "talent": 2970,
-      "ranking": 129,
+      "talent": 2971,
+      "ranking": 130,
       "country": "fr",
       "total_level": 1012,
       "trophies": 206,
@@ -14203,7 +14254,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3187,
+      "talent": 3216,
       "ranking": 114,
       "country": "fr",
       "total_level": 903,
@@ -14584,7 +14635,7 @@
     "124210": {
       "id": 124210,
       "name": "SachaBougPalette",
-      "talent": 6106,
+      "talent": 6097,
       "ranking": 26,
       "country": "fr",
       "total_level": 1204,
@@ -15070,7 +15121,7 @@
     "71485": {
       "id": 71485,
       "name": "BrocoliCosmique",
-      "talent": 6043,
+      "talent": 6049,
       "ranking": 29,
       "country": "ps",
       "total_level": 1204,
@@ -15817,7 +15868,7 @@
     "124760": {
       "id": 124760,
       "name": "Kleekteek",
-      "talent": 3020,
+      "talent": 3021,
       "ranking": 124,
       "country": null,
       "total_level": 1020,
@@ -15904,7 +15955,7 @@
     "94042": {
       "id": 94042,
       "name": "Bux420",
-      "talent": 5764,
+      "talent": 5763,
       "ranking": 36,
       "country": "fr",
       "total_level": 1204,
@@ -15991,8 +16042,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3816,
-      "ranking": 76,
+      "talent": 3825,
+      "ranking": 74,
       "country": "fr",
       "total_level": 1204,
       "trophies": 305,
@@ -16165,7 +16216,7 @@
     "56160": {
       "id": 56160,
       "name": "Kavaliov",
-      "talent": 5423,
+      "talent": 5415,
       "ranking": 44,
       "country": "fr",
       "total_level": 1204,
@@ -16339,7 +16390,7 @@
     "66407": {
       "id": 66407,
       "name": "Magestik25",
-      "talent": 6307,
+      "talent": 6316,
       "ranking": 20,
       "country": null,
       "total_level": 1204,
@@ -16600,7 +16651,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7019,
+      "talent": 7020,
       "ranking": 6,
       "country": null,
       "total_level": 1204,
@@ -16688,7 +16739,7 @@
       "id": 87938,
       "name": "hypernavet",
       "talent": 3824,
-      "ranking": 74,
+      "ranking": 75,
       "country": "ps",
       "total_level": 1204,
       "trophies": 299,
@@ -17905,7 +17956,7 @@
     "124865": {
       "id": 124865,
       "name": "ArthourCuillere",
-      "talent": 6024,
+      "talent": 5994,
       "ranking": 30,
       "country": null,
       "total_level": 1203,
@@ -18326,7 +18377,7 @@
       "ranking": 23,
       "country": null,
       "total_level": 1204,
-      "trophies": 304,
+      "trophies": 305,
       "leeks": {
         "105564": {
           "id": 105564,
@@ -18757,8 +18808,8 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3596,
-      "ranking": 87,
+      "talent": 3626,
+      "ranking": 86,
       "country": "fr",
       "total_level": 1202,
       "trophies": 192,
@@ -19018,7 +19069,7 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6443,
+      "talent": 6445,
       "ranking": 16,
       "country": "fr",
       "total_level": 1204,
@@ -28765,6 +28816,57 @@
         "arsenic"
       ]
     },
+    "58106": {
+      "id": 58106,
+      "name": "Kazutora",
+      "level": 301,
+      "talent": 2457,
+      "ranking": 225,
+      "life": 3090,
+      "tp": 29,
+      "mp": 5,
+      "strength": 600,
+      "agility": 200,
+      "wisdom": 400,
+      "resistance": 450,
+      "science": 120,
+      "magic": 50,
+      "frequency": 160,
+      "cores": 15,
+      "ram": 20,
+      "farmer": {
+        "id": 53392,
+        "name": "temakisushi"
+      },
+      "weapons": [
+        "neutrino",
+        "enhanced_lightninger",
+        "katana",
+        "heavy_sword"
+      ],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "punishment",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy"
+      ]
+    },
     "68352": {
       "id": 68352,
       "name": "PancaEwen",
@@ -34220,6 +34322,57 @@
         "resurrection"
       ]
     },
+    "60715": {
+      "id": 60715,
+      "name": "Kokonoi",
+      "level": 301,
+      "talent": 2505,
+      "ranking": 207,
+      "life": 3090,
+      "tp": 29,
+      "mp": 5,
+      "strength": 600,
+      "agility": 200,
+      "wisdom": 400,
+      "resistance": 450,
+      "science": 120,
+      "magic": 50,
+      "frequency": 160,
+      "cores": 15,
+      "ram": 20,
+      "farmer": {
+        "id": 53392,
+        "name": "temakisushi"
+      },
+      "weapons": [
+        "neutrino",
+        "katana",
+        "heavy_sword",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "punishment",
+        "adrenaline",
+        "remission",
+        "lightning",
+        "fortress",
+        "teleportation",
+        "elevation",
+        "dome",
+        "therapy"
+      ]
+    },
     "83243": {
       "id": 83243,
       "name": "FifiPetain",
@@ -34271,57 +34424,6 @@
         "therapy",
         "bramble",
         "resurrection"
-      ]
-    },
-    "60715": {
-      "id": 60715,
-      "name": "Kokonoi",
-      "level": 301,
-      "talent": 2505,
-      "ranking": 207,
-      "life": 3090,
-      "tp": 29,
-      "mp": 5,
-      "strength": 600,
-      "agility": 200,
-      "wisdom": 400,
-      "resistance": 450,
-      "science": 120,
-      "magic": 50,
-      "frequency": 160,
-      "cores": 15,
-      "ram": 20,
-      "farmer": {
-        "id": 53392,
-        "name": "temakisushi"
-      },
-      "weapons": [
-        "neutrino",
-        "katana",
-        "heavy_sword",
-        "revoked_m_laser"
-      ],
-      "chips": [
-        "wall",
-        "knowledge",
-        "solidification",
-        "liberation",
-        "armoring",
-        "jump",
-        "armor",
-        "antidote",
-        "rampart",
-        "regeneration",
-        "steroid",
-        "punishment",
-        "adrenaline",
-        "remission",
-        "lightning",
-        "fortress",
-        "teleportation",
-        "elevation",
-        "dome",
-        "therapy"
       ]
     },
     "103726": {
