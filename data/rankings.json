@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T20:46:02.899688+00:00",
+  "last_updated": "2026-04-07T21:45:03.449960+00:00",
   "daltons": {
     "46733": [
       {
@@ -8633,7 +8633,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7672,
+      "talent": 7677,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -11203,7 +11203,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7215,
+      "talent": 7250,
       "ranking": 4,
       "country": null,
       "total_level": 1204,
@@ -11377,7 +11377,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7007,
+      "talent": 6995,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -13334,7 +13334,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7311,
+      "talent": 7296,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -15057,7 +15057,7 @@
       "ranking": 26,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 255,
+      "trophies": 256,
       "leeks": {
         "130660": {
           "id": 130660,
@@ -15452,8 +15452,8 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7007,
-      "ranking": 8,
+      "talent": 6994,
+      "ranking": 9,
       "country": "fr",
       "total_level": 1204,
       "trophies": 322,
@@ -18030,7 +18030,7 @@
       "ranking": 25,
       "country": "ch",
       "total_level": 1204,
-      "trophies": 255,
+      "trophies": 256,
       "leeks": {
         "49046": {
           "id": 49046,
@@ -19317,7 +19317,7 @@
       "ranking": 85,
       "country": "fr",
       "total_level": 1203,
-      "trophies": 197,
+      "trophies": 198,
       "leeks": {
         "65746": {
           "id": 65746,
@@ -19410,7 +19410,7 @@
           "id": 81638,
           "name": "Kraton",
           "level": 301,
-          "talent": 3178,
+          "talent": 3164,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -25138,8 +25138,8 @@
       "id": 106898,
       "name": "AntiSlash",
       "level": 301,
-      "talent": 3221,
-      "ranking": 16,
+      "talent": 3235,
+      "ranking": 15,
       "life": 3265,
       "tp": 28,
       "mp": 7,
@@ -32592,7 +32592,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 418,
-      "ranking": 7732,
+      "ranking": 7734,
       "life": 1072,
       "tp": 12,
       "mp": 4,
@@ -33886,7 +33886,7 @@
       "name": "L\u00e9gumesTr\u00e9sBon",
       "level": 301,
       "talent": 3235,
-      "ranking": 15,
+      "ranking": 16,
       "life": 3570,
       "tp": 25,
       "mp": 5,
@@ -39613,7 +39613,7 @@
       "id": 81638,
       "name": "Kraton",
       "level": 301,
-      "talent": 3178,
+      "talent": 3164,
       "ranking": 17,
       "life": 3465,
       "tp": 27,
@@ -41776,7 +41776,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 212,
       "talent": 344,
-      "ranking": 9216,
+      "ranking": 9217,
       "life": 1995,
       "tp": 17,
       "mp": 6,
