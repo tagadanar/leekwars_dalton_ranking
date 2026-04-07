@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T01:31:12.607765+00:00",
+  "last_updated": "2026-04-07T04:35:28.358914+00:00",
   "daltons": {
     "46733": [
       {
@@ -10656,7 +10656,7 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3694,
+      "talent": 3680,
       "ranking": 83,
       "country": "fr",
       "total_level": 1204,
@@ -13222,8 +13222,8 @@
     "97541": {
       "id": 97541,
       "name": "SushiRush",
-      "talent": 3875,
-      "ranking": 71,
+      "talent": 3901,
+      "ranking": 69,
       "country": "fr",
       "total_level": 1204,
       "trophies": 246,
@@ -13744,8 +13744,8 @@
     "97547": {
       "id": 97547,
       "name": "Poliw",
-      "talent": 3881,
-      "ranking": 69,
+      "talent": 3864,
+      "ranking": 71,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -14698,8 +14698,8 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 3786,
-      "ranking": 79,
+      "talent": 3816,
+      "ranking": 78,
       "country": "ps",
       "total_level": 1203,
       "trophies": 295,
@@ -16261,8 +16261,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3766,
-      "ranking": 80,
+      "talent": 3829,
+      "ranking": 77,
       "country": "fr",
       "total_level": 1204,
       "trophies": 306,
@@ -17044,8 +17044,8 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 3847,
-      "ranking": 73,
+      "talent": 3874,
+      "ranking": 70,
       "country": "ps",
       "total_level": 1204,
       "trophies": 300,
@@ -17479,7 +17479,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3669,
+      "talent": 3656,
       "ranking": 86,
       "country": "fr",
       "total_level": 1204,
@@ -19462,7 +19462,7 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3747,
+      "talent": 3748,
       "ranking": 82,
       "country": "fr",
       "total_level": 1204,
