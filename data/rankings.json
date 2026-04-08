@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-08T18:09:04.280009+00:00",
+  "last_updated": "2026-04-08T19:23:20.506097+00:00",
   "daltons": {
     "46733": [
       {
@@ -9086,7 +9086,7 @@
     "71182": {
       "id": 71182,
       "name": "Hell",
-      "talent": 2696,
+      "talent": 2721,
       "ranking": 159,
       "country": "fr",
       "total_level": 903,
@@ -9155,7 +9155,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7092,
+      "talent": 7091,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -10094,7 +10094,7 @@
     "66643": {
       "id": 66643,
       "name": "WRNYK",
-      "talent": 2546,
+      "talent": 2544,
       "ranking": 173,
       "country": "fr",
       "total_level": 941,
@@ -12439,7 +12439,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7776,
+      "talent": 7777,
       "ranking": 1,
       "country": null,
       "total_level": 1204,
@@ -13526,7 +13526,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7328,
+      "talent": 7331,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -14222,7 +14222,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6879,
+      "talent": 6876,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -15093,7 +15093,7 @@
       "ranking": 73,
       "country": "ps",
       "total_level": 1203,
-      "trophies": 296,
+      "trophies": 297,
       "leeks": {
         "105390": {
           "id": 105390,
@@ -27115,7 +27115,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 463,
-      "ranking": 6808,
+      "ranking": 6810,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -31908,7 +31908,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 466,
-      "ranking": 6777,
+      "ranking": 6781,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -32784,7 +32784,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 420,
-      "ranking": 7686,
+      "ranking": 7685,
       "life": 1072,
       "tp": 12,
       "mp": 4,
@@ -36498,7 +36498,7 @@
       "name": "Po\u00e9sieBucoleek",
       "level": 301,
       "talent": 765,
-      "ranking": 3679,
+      "ranking": 3678,
       "life": 3105,
       "tp": 26,
       "mp": 7,
