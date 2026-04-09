@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09T20:55:25.661324+00:00",
+  "last_updated": "2026-04-09T21:48:46.321488+00:00",
   "daltons": {
     "46733": [
       {
@@ -9376,7 +9376,7 @@
       "id": 95252,
       "name": "Fulify",
       "talent": 7098,
-      "ranking": 5,
+      "ranking": 6,
       "country": "fr",
       "total_level": 1204,
       "trophies": 335,
@@ -11615,7 +11615,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7273,
+      "talent": 7289,
       "ranking": 3,
       "country": null,
       "total_level": 1204,
@@ -11789,8 +11789,8 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7042,
-      "ranking": 8,
+      "talent": 7103,
+      "ranking": 5,
       "country": "fr",
       "total_level": 1204,
       "trophies": 329,
@@ -11967,7 +11967,7 @@
       "ranking": 265,
       "country": "us",
       "total_level": 600,
-      "trophies": 234,
+      "trophies": 235,
       "leeks": {
         "131032": {
           "id": 131032,
@@ -13746,7 +13746,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7256,
+      "talent": 7220,
       "ranking": 4,
       "country": "dj",
       "total_level": 1204,
@@ -14442,7 +14442,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6901,
+      "talent": 6895,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -15864,8 +15864,8 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7055,
-      "ranking": 7,
+      "talent": 7020,
+      "ranking": 8,
       "country": "fr",
       "total_level": 1204,
       "trophies": 322,
@@ -17485,7 +17485,7 @@
       "ranking": 676,
       "country": null,
       "total_level": 1204,
-      "trophies": 220,
+      "trophies": 221,
       "leeks": {
         "103803": {
           "id": 103803,
@@ -17569,7 +17569,7 @@
       "id": 76155,
       "name": "fabou",
       "talent": 7089,
-      "ranking": 6,
+      "ranking": 7,
       "country": null,
       "total_level": 1204,
       "trophies": 329,
@@ -32412,7 +32412,6 @@
         "steroid",
         "carapace",
         "punishment",
-        "manumission",
         "inversion",
         "adrenaline",
         "remission",
@@ -32420,6 +32419,7 @@
         "teleportation",
         "elevation",
         "dome",
+        "mirror",
         "bramble"
       ]
     },
@@ -33877,7 +33877,6 @@
         "steroid",
         "carapace",
         "punishment",
-        "manumission",
         "inversion",
         "adrenaline",
         "remission",
@@ -33885,6 +33884,7 @@
         "teleportation",
         "elevation",
         "dome",
+        "mirror",
         "bramble"
       ]
     },
@@ -38395,8 +38395,8 @@
       "id": 63029,
       "name": "Peuwareau",
       "level": 301,
-      "talent": 3505,
-      "ranking": 4,
+      "talent": 3485,
+      "ranking": 6,
       "life": 3130,
       "tp": 28,
       "mp": 8,
@@ -38671,7 +38671,7 @@
       "name": "GeneralMamene",
       "level": 301,
       "talent": 3490,
-      "ranking": 6,
+      "ranking": 5,
       "life": 3160,
       "tp": 29,
       "mp": 8,
@@ -40876,8 +40876,8 @@
       "id": 81733,
       "name": "Krasseux",
       "level": 301,
-      "talent": 3352,
-      "ranking": 12,
+      "talent": 3337,
+      "ranking": 13,
       "life": 3465,
       "tp": 27,
       "mp": 7,
@@ -41297,8 +41297,8 @@
       "id": 128883,
       "name": "Claudius",
       "level": 301,
-      "talent": 3430,
-      "ranking": 9,
+      "talent": 3443,
+      "ranking": 8,
       "life": 2610,
       "tp": 26,
       "mp": 5,
@@ -41660,7 +41660,6 @@
         "steroid",
         "carapace",
         "punishment",
-        "manumission",
         "inversion",
         "adrenaline",
         "remission",
@@ -41668,6 +41667,7 @@
         "teleportation",
         "elevation",
         "dome",
+        "mirror",
         "bramble"
       ]
     },
