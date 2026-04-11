@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T01:27:43.187058+00:00",
+  "last_updated": "2026-04-11T04:22:22.613935+00:00",
   "daltons": {
     "46733": [
       {
@@ -11449,8 +11449,8 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3704,
-      "ranking": 80,
+      "talent": 3659,
+      "ranking": 82,
       "country": "fr",
       "total_level": 1204,
       "trophies": 291,
@@ -14102,8 +14102,8 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3593,
-      "ranking": 88,
+      "talent": 3581,
+      "ranking": 87,
       "country": null,
       "total_level": 1204,
       "trophies": 311,
@@ -15492,7 +15492,7 @@
       "id": 99628,
       "name": "SlightlySmartLeekStem",
       "talent": 3834,
-      "ranking": 71,
+      "ranking": 72,
       "country": "ps",
       "total_level": 1203,
       "trophies": 298,
@@ -17054,8 +17054,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3683,
-      "ranking": 81,
+      "talent": 3700,
+      "ranking": 80,
       "country": "fr",
       "total_level": 1204,
       "trophies": 307,
@@ -17838,7 +17838,7 @@
       "id": 87938,
       "name": "hypernavet",
       "talent": 3831,
-      "ranking": 72,
+      "ranking": 73,
       "country": "ps",
       "total_level": 1204,
       "trophies": 301,
@@ -18272,7 +18272,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3580,
+      "talent": 3568,
       "ranking": 89,
       "country": "fr",
       "total_level": 1204,
@@ -18447,7 +18447,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1341,
-      "ranking": 557,
+      "ranking": 552,
       "country": null,
       "total_level": 927,
       "trophies": 150,
@@ -19907,8 +19907,8 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3613,
-      "ranking": 84,
+      "talent": 3600,
+      "ranking": 85,
       "country": "fr",
       "total_level": 1203,
       "trophies": 201,
@@ -20255,8 +20255,8 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3777,
-      "ranking": 77,
+      "talent": 3789,
+      "ranking": 76,
       "country": "fr",
       "total_level": 1204,
       "trophies": 232,
