@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T01:37:06.607774+00:00",
+  "last_updated": "2026-04-12T06:29:07.249535+00:00",
   "daltons": {
     "46733": [
       {
@@ -16621,7 +16621,7 @@
       "id": 121160,
       "name": "Presque",
       "talent": 781,
-      "ranking": 1065,
+      "ranking": 1062,
       "country": null,
       "total_level": 650,
       "trophies": 162,
@@ -17211,8 +17211,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3766,
-      "ranking": 78,
+      "talent": 3781,
+      "ranking": 77,
       "country": "fr",
       "total_level": 1204,
       "trophies": 308,
@@ -18604,7 +18604,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1421,
-      "ranking": 496,
+      "ranking": 494,
       "country": null,
       "total_level": 927,
       "trophies": 150,
@@ -20413,7 +20413,7 @@
       "id": 53234,
       "name": "Schrodinger",
       "talent": 3756,
-      "ranking": 80,
+      "ranking": 79,
       "country": "fr",
       "total_level": 1204,
       "trophies": 232,
