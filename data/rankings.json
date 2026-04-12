@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T14:44:30.681141+00:00",
+  "last_updated": "2026-04-12T15:37:52.218621+00:00",
   "daltons": {
     "46733": [
       {
@@ -9784,7 +9784,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7181,
+      "talent": 7204,
       "ranking": 4,
       "country": "fr",
       "total_level": 1204,
@@ -12198,7 +12198,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 6983,
+      "talent": 6980,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -13568,8 +13568,8 @@
     "59622": {
       "id": 59622,
       "name": "fujiwar2",
-      "talent": 3441,
-      "ranking": 100,
+      "talent": 3442,
+      "ranking": 99,
       "country": null,
       "total_level": 1204,
       "trophies": 251,
@@ -14155,7 +14155,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7450,
+      "talent": 7433,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -14507,7 +14507,7 @@
       "ranking": null,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 319,
+      "trophies": 320,
       "leeks": {
         "98205": {
           "id": 98205,
@@ -16273,7 +16273,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7005,
+      "talent": 7002,
       "ranking": 6,
       "country": "fr",
       "total_level": 1204,
@@ -16781,7 +16781,7 @@
       "ranking": 149,
       "country": "fr",
       "total_level": 835,
-      "trophies": 233,
+      "trophies": 234,
       "leeks": {
         "68352": {
           "id": 68352,
@@ -17633,7 +17633,7 @@
       "ranking": 11,
       "country": null,
       "total_level": 1204,
-      "trophies": 275,
+      "trophies": 276,
       "leeks": {
         "46733": {
           "id": 46733,
@@ -17981,7 +17981,7 @@
       "ranking": 8,
       "country": null,
       "total_level": 1204,
-      "trophies": 328,
+      "trophies": 330,
       "leeks": {
         "80980": {
           "id": 80980,
@@ -18499,8 +18499,8 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3513,
-      "ranking": 91,
+      "talent": 3498,
+      "ranking": 92,
       "country": "fr",
       "total_level": 1204,
       "trophies": 247,
@@ -19703,7 +19703,7 @@
       "ranking": 21,
       "country": null,
       "total_level": 1204,
-      "trophies": 311,
+      "trophies": 312,
       "leeks": {
         "105564": {
           "id": 105564,
@@ -20660,7 +20660,7 @@
       "ranking": 118,
       "country": null,
       "total_level": 302,
-      "trophies": 257,
+      "trophies": 258,
       "leeks": {
         "54510": {
           "id": 54510,
@@ -25653,7 +25653,7 @@
       "name": "78CHIPLIGHTNINGBULB",
       "level": 249,
       "talent": 985,
-      "ranking": 3252,
+      "ranking": 3253,
       "life": 2254,
       "tp": 18,
       "mp": 6,
@@ -26105,7 +26105,7 @@
       "name": "CloseEnough",
       "level": 298,
       "talent": 888,
-      "ranking": 3457,
+      "ranking": 3458,
       "life": 2961,
       "tp": 25,
       "mp": 8,
@@ -26199,7 +26199,7 @@
       "name": "FantoCrustac\u00e9",
       "level": 301,
       "talent": 1079,
-      "ranking": 2819,
+      "ranking": 2818,
       "life": 3250,
       "tp": 21,
       "mp": 4,
@@ -27739,7 +27739,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 449,
-      "ranking": 7022,
+      "ranking": 7021,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -33411,7 +33411,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 463,
-      "ranking": 6811,
+      "ranking": 6809,
       "life": 1072,
       "tp": 12,
       "mp": 4,
@@ -33558,7 +33558,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 585,
-      "ranking": 4917,
+      "ranking": 4920,
       "life": 3090,
       "tp": 25,
       "mp": 8,
