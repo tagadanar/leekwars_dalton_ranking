@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13T22:45:31.750750+00:00",
+  "last_updated": "2026-04-13T23:44:39.928633+00:00",
   "daltons": {
     "46733": [
       {
@@ -10817,7 +10817,7 @@
     "53323": {
       "id": 53323,
       "name": "EplucheLegumes",
-      "talent": 2451,
+      "talent": 2464,
       "ranking": 182,
       "country": "fr",
       "total_level": 1204,
@@ -11166,7 +11166,7 @@
       "id": 88167,
       "name": "mort",
       "talent": 2412,
-      "ranking": 196,
+      "ranking": 195,
       "country": "fr",
       "total_level": 1107,
       "trophies": 214,
@@ -11335,8 +11335,8 @@
     "23154": {
       "id": 23154,
       "name": "Bouss72",
-      "talent": 2436,
-      "ranking": 188,
+      "talent": 2421,
+      "ranking": 191,
       "country": null,
       "total_level": 1204,
       "trophies": 223,
@@ -14180,8 +14180,8 @@
     "50927": {
       "id": 50927,
       "name": "MrAnislider",
-      "talent": 2522,
-      "ranking": 174,
+      "talent": 2463,
+      "ranking": 183,
       "country": "co",
       "total_level": 1204,
       "trophies": 248,
@@ -15467,8 +15467,8 @@
     "71957": {
       "id": 71957,
       "name": "Nmnnm",
-      "talent": 2424,
-      "ranking": 193,
+      "talent": 2411,
+      "ranking": 196,
       "country": null,
       "total_level": 1204,
       "trophies": 222,
@@ -15554,7 +15554,7 @@
     "101146": {
       "id": 101146,
       "name": "theonesolox",
-      "talent": 2400,
+      "talent": 2382,
       "ranking": 198,
       "country": "fr",
       "total_level": 1202,
@@ -16367,8 +16367,8 @@
     "30010": {
       "id": 30010,
       "name": "Azimel",
-      "talent": 2442,
-      "ranking": 186,
+      "talent": 2424,
+      "ranking": 190,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -16541,7 +16541,7 @@
     "71485": {
       "id": 71485,
       "name": "BrocoliCosmique",
-      "talent": 6010,
+      "talent": 5996,
       "ranking": 28,
       "country": "ps",
       "total_level": 1204,
@@ -17114,7 +17114,7 @@
     "45397": {
       "id": 45397,
       "name": "JediMasters",
-      "talent": 2400,
+      "talent": 2397,
       "ranking": 198,
       "country": "gb",
       "total_level": 1204,
@@ -17723,7 +17723,7 @@
     "48992": {
       "id": 48992,
       "name": "Lmare",
-      "talent": 6007,
+      "talent": 5977,
       "ranking": 29,
       "country": "fr",
       "total_level": 1204,
@@ -18767,8 +18767,8 @@
     "42915": {
       "id": 42915,
       "name": "LeeKidder",
-      "talent": 2453,
-      "ranking": 179,
+      "talent": 2442,
+      "ranking": 185,
       "country": "fr",
       "total_level": 1204,
       "trophies": 252,
@@ -18941,7 +18941,7 @@
     "78250": {
       "id": 78250,
       "name": "Gandhictature",
-      "talent": 6013,
+      "talent": 6028,
       "ranking": 27,
       "country": "in",
       "total_level": 1204,
@@ -19115,8 +19115,8 @@
     "84405": {
       "id": 84405,
       "name": "Thidus",
-      "talent": 2428,
-      "ranking": 192,
+      "talent": 2411,
+      "ranking": 197,
       "country": "fr",
       "total_level": 1204,
       "trophies": 255,
@@ -19880,7 +19880,7 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6106,
+      "talent": 6117,
       "ranking": 26,
       "country": null,
       "total_level": 1204,
