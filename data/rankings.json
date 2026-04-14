@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T18:08:39.084960+00:00",
+  "last_updated": "2026-04-14T19:20:04.825380+00:00",
   "daltons": {
     "46733": [
       {
@@ -7070,6 +7070,20 @@
           "total_capital": null,
           "turns": 16,
           "date": 1775408401
+        },
+        {
+          "fight_id": 52134030,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 22,
+          "date": 1776189634
+        },
+        {
+          "fight_id": 52134032,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 24,
+          "date": 1776189654
         }
       ]
     },
@@ -9799,7 +9813,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7666,
+      "talent": 7690,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -9886,7 +9900,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6722,
+      "talent": 6703,
       "ranking": null,
       "country": "fr",
       "total_level": 1204,
@@ -9973,7 +9987,7 @@
     "66566": {
       "id": 66566,
       "name": "AppleTree",
-      "talent": 6606,
+      "talent": 6625,
       "ranking": 13,
       "country": "va",
       "total_level": 1204,
@@ -10826,7 +10840,7 @@
       "id": 87622,
       "name": "CompleteDisappointment",
       "talent": 2995,
-      "ranking": 127,
+      "ranking": 126,
       "country": null,
       "total_level": 902,
       "trophies": 214,
@@ -12369,7 +12383,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7228,
+      "talent": 7214,
       "ranking": 4,
       "country": null,
       "total_level": 1204,
@@ -12456,8 +12470,8 @@
     "76431": {
       "id": 76431,
       "name": "BeatrixPotter",
-      "talent": 6103,
-      "ranking": 26,
+      "talent": 6139,
+      "ranking": 24,
       "country": "gb",
       "total_level": 1204,
       "trophies": 245,
@@ -12543,8 +12557,8 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7029,
-      "ranking": 6,
+      "talent": 7013,
+      "ranking": 7,
       "country": "fr",
       "total_level": 1204,
       "trophies": 331,
@@ -13413,7 +13427,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7846,
+      "talent": 7849,
       "ranking": 1,
       "country": null,
       "total_level": 1204,
@@ -14500,7 +14514,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7347,
+      "talent": 7371,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -16394,7 +16408,7 @@
       "id": 69433,
       "name": "Twinkle",
       "talent": 2997,
-      "ranking": 126,
+      "ranking": 125,
       "country": null,
       "total_level": 903,
       "trophies": 224,
@@ -16463,7 +16477,7 @@
       "id": 69946,
       "name": "Vinsmoke",
       "talent": 2107,
-      "ranking": 241,
+      "ranking": 242,
       "country": "jp",
       "total_level": 903,
       "trophies": 158,
@@ -16618,8 +16632,8 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7023,
-      "ranking": 7,
+      "talent": 7017,
+      "ranking": 6,
       "country": "fr",
       "total_level": 1204,
       "trophies": 322,
@@ -16705,7 +16719,7 @@
     "71485": {
       "id": 71485,
       "name": "BrocoliCosmique",
-      "talent": 6009,
+      "talent": 5997,
       "ranking": 28,
       "country": "ps",
       "total_level": 1204,
@@ -16879,8 +16893,8 @@
     "124738": {
       "id": 124738,
       "name": "DeKleek",
-      "talent": 2849,
-      "ranking": 143,
+      "talent": 2869,
+      "ranking": 140,
       "country": null,
       "total_level": 1013,
       "trophies": 196,
@@ -17452,8 +17466,8 @@
     "124760": {
       "id": 124760,
       "name": "Kleekteek",
-      "talent": 3004,
-      "ranking": 125,
+      "talent": 2984,
+      "ranking": 128,
       "country": null,
       "total_level": 1020,
       "trophies": 186,
@@ -17974,7 +17988,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 6780,
+      "talent": 6765,
       "ranking": 10,
       "country": null,
       "total_level": 1204,
@@ -18061,7 +18075,7 @@
     "66407": {
       "id": 66407,
       "name": "Magestik25",
-      "talent": 6217,
+      "talent": 6199,
       "ranking": 21,
       "country": null,
       "total_level": 1204,
@@ -18322,7 +18336,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7007,
+      "talent": 7009,
       "ranking": 8,
       "country": null,
       "total_level": 1204,
@@ -18496,7 +18510,7 @@
     "98186": {
       "id": 98186,
       "name": "Smartiz",
-      "talent": 6486,
+      "talent": 6484,
       "ranking": null,
       "country": "si",
       "total_level": 1203,
@@ -18584,7 +18598,7 @@
       "id": 88468,
       "name": "NikolaTesla",
       "talent": 2987,
-      "ranking": 128,
+      "ranking": 127,
       "country": "fr",
       "total_level": 1042,
       "trophies": 221,
@@ -19541,7 +19555,7 @@
       "id": 79295,
       "name": "TPE1",
       "talent": 2849,
-      "ranking": 143,
+      "ranking": 144,
       "country": "fr",
       "total_level": 1202,
       "trophies": 235,
@@ -19715,7 +19729,7 @@
       "id": 73154,
       "name": "Hyupy",
       "talent": 2860,
-      "ranking": 140,
+      "ranking": 141,
       "country": null,
       "total_level": 1204,
       "trophies": 225,
@@ -20044,8 +20058,8 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6133,
-      "ranking": 25,
+      "talent": 6132,
+      "ranking": 26,
       "country": null,
       "total_level": 1204,
       "trophies": 313,
