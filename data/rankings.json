@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T20:15:32.530012+00:00",
+  "last_updated": "2026-04-15T21:52:13.757383+00:00",
   "daltons": {
     "46733": [
       {
@@ -8090,6 +8090,13 @@
           "total_capital": null,
           "turns": 46,
           "date": 1773784801
+        },
+        {
+          "fight_id": 52145108,
+          "total_level": 1505,
+          "total_capital": null,
+          "turns": 58,
+          "date": 1776285001
         }
       ]
     },
@@ -9936,7 +9943,7 @@
       "id": 512,
       "name": "WhiteSlash",
       "talent": 7765,
-      "ranking": 1,
+      "ranking": 2,
       "country": "fr",
       "total_level": 1204,
       "trophies": 342,
@@ -10265,7 +10272,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7026,
+      "talent": 7046,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -12505,7 +12512,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7239,
+      "talent": 7227,
       "ranking": 4,
       "country": null,
       "total_level": 1204,
@@ -12593,7 +12600,7 @@
       "id": 76431,
       "name": "BeatrixPotter",
       "talent": 6176,
-      "ranking": 24,
+      "ranking": 23,
       "country": "gb",
       "total_level": 1204,
       "trophies": 245,
@@ -12679,7 +12686,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7081,
+      "talent": 7074,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -13549,8 +13556,8 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7762,
-      "ranking": 2,
+      "talent": 7766,
+      "ranking": 1,
       "country": null,
       "total_level": 1204,
       "trophies": 277,
@@ -14636,7 +14643,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7342,
+      "talent": 7343,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -16755,7 +16762,7 @@
       "id": 76604,
       "name": "nytope",
       "talent": 7060,
-      "ranking": 7,
+      "ranking": 6,
       "country": "fr",
       "total_level": 1204,
       "trophies": 322,
@@ -17019,7 +17026,7 @@
       "ranking": 140,
       "country": null,
       "total_level": 1013,
-      "trophies": 196,
+      "trophies": 197,
       "leeks": {
         "131199": {
           "id": 131199,
@@ -18458,8 +18465,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7064,
-      "ranking": 6,
+      "talent": 7058,
+      "ranking": 7,
       "country": null,
       "total_level": 1204,
       "trophies": 331,
@@ -19155,7 +19162,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1349,
-      "ranking": 541,
+      "ranking": 542,
       "country": null,
       "total_level": 928,
       "trophies": 150,
@@ -20180,8 +20187,8 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6180,
-      "ranking": 22,
+      "talent": 6166,
+      "ranking": 24,
       "country": null,
       "total_level": 1204,
       "trophies": 313,
@@ -20702,8 +20709,8 @@
     "76772": {
       "id": 76772,
       "name": "Kraspen",
-      "talent": 6177,
-      "ranking": 23,
+      "talent": 6191,
+      "ranking": 22,
       "country": "cv",
       "total_level": 1204,
       "trophies": 327,
@@ -23948,7 +23955,7 @@
       "name": "80CHIPREMISSION",
       "level": 175,
       "talent": 506,
-      "ranking": 6195,
+      "ranking": 6196,
       "life": 1600,
       "tp": 15,
       "mp": 6,
@@ -33076,7 +33083,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 482,
-      "ranking": 6574,
+      "ranking": 6573,
       "life": 1418,
       "tp": 18,
       "mp": 6,
