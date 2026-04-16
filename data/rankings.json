@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T20:55:02.363132+00:00",
+  "last_updated": "2026-04-16T21:45:12.250892+00:00",
   "daltons": {
     "46733": [
       {
@@ -11305,7 +11305,7 @@
       "talent": 2569,
       "ranking": 169,
       "country": "fr",
-      "total_level": 953,
+      "total_level": 954,
       "trophies": 191,
       "leeks": {
         "71645": {
@@ -11365,9 +11365,9 @@
         "75440": {
           "id": 75440,
           "name": "Windgrace",
-          "level": 216,
+          "level": 217,
           "talent": 1451,
-          "life": 1675,
+          "life": 1678,
           "tp": 21,
           "mp": 5,
           "strength": 500,
@@ -12603,7 +12603,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7204,
+      "talent": 7241,
       "ranking": 4,
       "country": null,
       "total_level": 1204,
@@ -14734,7 +14734,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7323,
+      "talent": 7286,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -17777,7 +17777,7 @@
       "ranking": 41,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 234,
+      "trophies": 235,
       "leeks": {
         "99341": {
           "id": 99341,
@@ -20717,7 +20717,7 @@
       "ranking": 84,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 204,
+      "trophies": 205,
       "leeks": {
         "65746": {
           "id": 65746,
@@ -40536,10 +40536,10 @@
     "75440": {
       "id": 75440,
       "name": "Windgrace",
-      "level": 216,
+      "level": 217,
       "talent": 1451,
       "ranking": 1754,
-      "life": 1675,
+      "life": 1678,
       "tp": 21,
       "mp": 5,
       "strength": 500,
