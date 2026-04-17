@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T20:02:04.278910+00:00",
+  "last_updated": "2026-04-17T20:45:59.875523+00:00",
   "daltons": {
     "46733": [
       {
@@ -11574,8 +11574,8 @@
     "32858": {
       "id": 32858,
       "name": "Joalien",
-      "talent": 6240,
-      "ranking": 20,
+      "talent": 6250,
+      "ranking": 21,
       "country": "ps",
       "total_level": 1204,
       "trophies": 287,
@@ -12788,8 +12788,8 @@
     "76431": {
       "id": 76431,
       "name": "BeatrixPotter",
-      "talent": 6184,
-      "ranking": 23,
+      "talent": 6254,
+      "ranking": 20,
       "country": "gb",
       "total_level": 1204,
       "trophies": 246,
@@ -13571,7 +13571,7 @@
     "76473": {
       "id": 76473,
       "name": "galactichitchleeker",
-      "talent": 6310,
+      "talent": 6321,
       "ranking": 18,
       "country": null,
       "total_level": 1204,
@@ -17037,7 +17037,7 @@
     "71485": {
       "id": 71485,
       "name": "BrocoliCosmique",
-      "talent": 6081,
+      "talent": 6058,
       "ranking": 28,
       "country": "ps",
       "total_level": 1204,
@@ -17962,7 +17962,7 @@
       "ranking": 41,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 235,
+      "trophies": 236,
       "leeks": {
         "99341": {
           "id": 99341,
@@ -18481,7 +18481,7 @@
       "id": 66407,
       "name": "Magestik25",
       "talent": 6187,
-      "ranking": 22,
+      "ranking": 23,
       "country": null,
       "total_level": 1204,
       "trophies": 335,
@@ -19524,7 +19524,7 @@
     "78250": {
       "id": 78250,
       "name": "Gandhictature",
-      "talent": 6098,
+      "talent": 6092,
       "ranking": 27,
       "country": "in",
       "total_level": 1204,
@@ -19611,8 +19611,8 @@
     "44975": {
       "id": 44975,
       "name": "Agade",
-      "talent": 6124,
-      "ranking": 26,
+      "talent": 6141,
+      "ranking": 25,
       "country": "ch",
       "total_level": 1204,
       "trophies": 256,
@@ -20463,8 +20463,8 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6152,
-      "ranking": 24,
+      "talent": 6098,
+      "ranking": 26,
       "country": null,
       "total_level": 1204,
       "trophies": 313,
@@ -20985,8 +20985,8 @@
     "76772": {
       "id": 76772,
       "name": "Kraspen",
-      "talent": 6189,
-      "ranking": 21,
+      "talent": 6143,
+      "ranking": 24,
       "country": "cv",
       "total_level": 1204,
       "trophies": 328,
@@ -21421,7 +21421,7 @@
       "id": 50168,
       "name": "tagadalone",
       "talent": 3081,
-      "ranking": 117,
+      "ranking": 118,
       "country": null,
       "total_level": 302,
       "trophies": 258,
@@ -31212,7 +31212,7 @@
       "name": "Portemurmure",
       "level": 50,
       "talent": 361,
-      "ranking": 8815,
+      "ranking": 8816,
       "life": 447,
       "tp": 13,
       "mp": 5,
