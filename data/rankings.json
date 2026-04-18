@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T14:05:59.074070+00:00",
+  "last_updated": "2026-04-18T14:45:27.796651+00:00",
   "daltons": {
     "46733": [
       {
@@ -15100,8 +15100,8 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3597,
-      "ranking": 87,
+      "talent": 3579,
+      "ranking": 88,
       "country": null,
       "total_level": 1204,
       "trophies": 312,
@@ -15970,8 +15970,8 @@
     "25363": {
       "id": 25363,
       "name": "Szczypka",
-      "talent": 3042,
-      "ranking": 120,
+      "talent": 3061,
+      "ranking": 119,
       "country": "pl",
       "total_level": 1204,
       "trophies": 227,
@@ -16421,7 +16421,7 @@
       "id": 87850,
       "name": "Cosmos1",
       "talent": 3050,
-      "ranking": 119,
+      "ranking": 120,
       "country": null,
       "total_level": 852,
       "trophies": 199,
@@ -16489,7 +16489,7 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 3927,
+      "talent": 3915,
       "ranking": 70,
       "country": "ps",
       "total_level": 1203,
@@ -19357,8 +19357,8 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3519,
-      "ranking": 90,
+      "talent": 3535,
+      "ranking": 89,
       "country": "fr",
       "total_level": 1204,
       "trophies": 247,
@@ -20992,7 +20992,7 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3611,
+      "talent": 3623,
       "ranking": 84,
       "country": "fr",
       "total_level": 1204,
@@ -24325,7 +24325,7 @@
       "name": "80CHIPREMISSION",
       "level": 175,
       "talent": 506,
-      "ranking": 6178,
+      "ranking": 6175,
       "life": 1600,
       "tp": 15,
       "mp": 6,
@@ -27531,7 +27531,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 579,
-      "ranking": 5041,
+      "ranking": 5042,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -33627,7 +33627,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 482,
-      "ranking": 6566,
+      "ranking": 6565,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -34650,7 +34650,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 562,
-      "ranking": 5268,
+      "ranking": 5269,
       "life": 3090,
       "tp": 25,
       "mp": 8,
