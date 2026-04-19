@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T04:54:24.441080+00:00",
+  "last_updated": "2026-04-19T06:34:59.201999+00:00",
   "daltons": {
     "46733": [
       {
@@ -14250,7 +14250,7 @@
     "86242": {
       "id": 86242,
       "name": "thaddee",
-      "talent": 3899,
+      "talent": 3895,
       "ranking": 73,
       "country": "ps",
       "total_level": 1204,
@@ -15163,7 +15163,7 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3677,
+      "talent": 3665,
       "ranking": 82,
       "country": null,
       "total_level": 1204,
@@ -15598,8 +15598,8 @@
     "97547": {
       "id": 97547,
       "name": "Poliw",
-      "talent": 3909,
-      "ranking": 72,
+      "talent": 3921,
+      "ranking": 71,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -16552,8 +16552,8 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 3926,
-      "ranking": 70,
+      "talent": 3937,
+      "ranking": 69,
       "country": "ps",
       "total_level": 1203,
       "trophies": 300,
@@ -18202,8 +18202,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3823,
-      "ranking": 75,
+      "talent": 3790,
+      "ranking": 78,
       "country": "fr",
       "total_level": 1204,
       "trophies": 308,
@@ -18986,7 +18986,7 @@
       "id": 87938,
       "name": "hypernavet",
       "talent": 3914,
-      "ranking": 71,
+      "ranking": 72,
       "country": "ps",
       "total_level": 1204,
       "trophies": 304,
@@ -19595,7 +19595,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1393,
-      "ranking": 507,
+      "ranking": 508,
       "country": null,
       "total_level": 929,
       "trophies": 150,
