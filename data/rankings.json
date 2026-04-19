@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T14:04:22.946022+00:00",
+  "last_updated": "2026-04-19T14:44:54.386366+00:00",
   "daltons": {
     "46733": [
       {
@@ -15296,7 +15296,7 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3676,
+      "talent": 3701,
       "ranking": 83,
       "country": null,
       "total_level": 1204,
@@ -18335,7 +18335,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3790,
+      "talent": 3782,
       "ranking": 79,
       "country": "fr",
       "total_level": 1204,
@@ -21188,8 +21188,8 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3597,
-      "ranking": 88,
+      "talent": 3610,
+      "ranking": 87,
       "country": "fr",
       "total_level": 1204,
       "trophies": 205,
@@ -21623,8 +21623,8 @@
     "122869": {
       "id": 122869,
       "name": "EF369",
-      "talent": 3599,
-      "ranking": 86,
+      "talent": 3598,
+      "ranking": 88,
       "country": "fr",
       "total_level": 1204,
       "trophies": 237,
@@ -27727,7 +27727,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 579,
-      "ranking": 5055,
+      "ranking": 5057,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -28173,7 +28173,7 @@
       "name": "Portevoix",
       "level": 150,
       "talent": 616,
-      "ranking": 4540,
+      "ranking": 4541,
       "life": 1667,
       "tp": 14,
       "mp": 6,
@@ -28896,7 +28896,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 434,
-      "ranking": 7315,
+      "ranking": 7319,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -33823,7 +33823,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 452,
-      "ranking": 6956,
+      "ranking": 6957,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -34699,7 +34699,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 436,
-      "ranking": 7271,
+      "ranking": 7275,
       "life": 1072,
       "tp": 12,
       "mp": 4,
