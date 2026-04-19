@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T14:44:54.386366+00:00",
+  "last_updated": "2026-04-19T15:40:17.526311+00:00",
   "daltons": {
     "46733": [
       {
@@ -7767,6 +7767,27 @@
           "date": 1773772201
         },
         {
+          "fight_id": 52179217,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 21,
+          "date": 1776609604
+        },
+        {
+          "fight_id": 52179214,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 21,
+          "date": 1776609584
+        },
+        {
+          "fight_id": 52179216,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 28,
+          "date": 1776609601
+        },
+        {
           "fight_id": 51949099,
           "total_level": 1204,
           "total_capital": null,
@@ -10425,7 +10446,7 @@
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 343,
+      "trophies": 344,
       "leeks": {
         "599": {
           "id": 599,
@@ -15122,7 +15143,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7316,
+      "talent": 7321,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -18683,7 +18704,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7150,
+      "talent": 7145,
       "ranking": 5,
       "country": null,
       "total_level": 1204,
@@ -19553,8 +19574,8 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3504,
-      "ranking": 93,
+      "talent": 3490,
+      "ranking": 92,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -21188,7 +21209,7 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3610,
+      "talent": 3622,
       "ranking": 87,
       "country": "fr",
       "total_level": 1204,
@@ -21623,8 +21644,8 @@
     "122869": {
       "id": 122869,
       "name": "EF369",
-      "talent": 3598,
-      "ranking": 88,
+      "talent": 3581,
+      "ranking": 89,
       "country": "fr",
       "total_level": 1204,
       "trophies": 237,
@@ -27727,7 +27748,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 579,
-      "ranking": 5057,
+      "ranking": 5053,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -28173,7 +28194,7 @@
       "name": "Portevoix",
       "level": 150,
       "talent": 616,
-      "ranking": 4541,
+      "ranking": 4544,
       "life": 1667,
       "tp": 14,
       "mp": 6,
@@ -33823,7 +33844,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 452,
-      "ranking": 6957,
+      "ranking": 6956,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -34845,8 +34866,8 @@
       "id": 97390,
       "name": "PistonHydroleek",
       "level": 301,
-      "talent": 575,
-      "ranking": 5095,
+      "talent": 574,
+      "ranking": 5100,
       "life": 3090,
       "tp": 25,
       "mp": 8,
