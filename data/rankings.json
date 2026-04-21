@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T01:36:48.716752+00:00",
+  "last_updated": "2026-04-21T04:51:13.189856+00:00",
   "daltons": {
     "46733": [
       {
@@ -14122,8 +14122,8 @@
     "22189": {
       "id": 22189,
       "name": "TyTy03",
-      "talent": 3133,
-      "ranking": 116,
+      "talent": 3071,
+      "ranking": 120,
       "country": "fr",
       "total_level": 1204,
       "trophies": 222,
@@ -14966,8 +14966,8 @@
     "31464": {
       "id": 31464,
       "name": "Necta01",
-      "talent": 3090,
-      "ranking": 118,
+      "talent": 3116,
+      "ranking": 116,
       "country": "fr",
       "total_level": 1204,
       "trophies": 270,
@@ -16514,8 +16514,8 @@
     "25363": {
       "id": 25363,
       "name": "Szczypka",
-      "talent": 3125,
-      "ranking": 117,
+      "talent": 3095,
+      "ranking": 119,
       "country": "pl",
       "total_level": 1204,
       "trophies": 229,
@@ -16809,7 +16809,7 @@
       "id": 18717,
       "name": "GrimReaper666",
       "talent": 3222,
-      "ranking": 112,
+      "ranking": 114,
       "country": "fr",
       "total_level": 903,
       "trophies": 275,
@@ -18683,8 +18683,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3046,
-      "ranking": 120,
+      "talent": 3277,
+      "ranking": 108,
       "country": "fr",
       "total_level": 1204,
       "trophies": 309,
@@ -20076,7 +20076,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1360,
-      "ranking": 527,
+      "ranking": 528,
       "country": null,
       "total_level": 929,
       "trophies": 150,
@@ -41959,7 +41959,7 @@
       "name": "Teleautomaton",
       "level": 238,
       "talent": 1106,
-      "ranking": 2771,
+      "ranking": 2770,
       "life": 2086,
       "tp": 19,
       "mp": 6,
