@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T21:07:17.418318+00:00",
+  "last_updated": "2026-04-21T21:49:30.182776+00:00",
   "daltons": {
     "46733": [
       {
@@ -12300,7 +12300,7 @@
       "id": 32858,
       "name": "Joalien",
       "talent": 6306,
-      "ranking": 20,
+      "ranking": 21,
       "country": "ps",
       "total_level": 1204,
       "trophies": 287,
@@ -17276,8 +17276,8 @@
     "124210": {
       "id": 124210,
       "name": "SachaBougPalette",
-      "talent": 6221,
-      "ranking": 23,
+      "talent": 6205,
+      "ranking": 24,
       "country": "fr",
       "total_level": 1204,
       "trophies": 262,
@@ -17766,7 +17766,7 @@
       "ranking": 28,
       "country": "ps",
       "total_level": 1204,
-      "trophies": 295,
+      "trophies": 296,
       "leeks": {
         "76366": {
           "id": 76366,
@@ -19205,8 +19205,8 @@
     "66407": {
       "id": 66407,
       "name": "Magestik25",
-      "talent": 6305,
-      "ranking": 21,
+      "talent": 6317,
+      "ranking": 20,
       "country": null,
       "total_level": 1204,
       "trophies": 335,
@@ -20775,7 +20775,7 @@
       "ranking": 35,
       "country": null,
       "total_level": 1203,
-      "trophies": 245,
+      "trophies": 246,
       "leeks": {
         "131360": {
           "id": 131360,
@@ -21188,8 +21188,8 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6204,
-      "ranking": 24,
+      "talent": 6208,
+      "ranking": 23,
       "country": null,
       "total_level": 1204,
       "trophies": 313,
@@ -29331,7 +29331,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 434,
-      "ranking": 7321,
+      "ranking": 7326,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -31937,7 +31937,7 @@
       "name": "Portemurmure",
       "level": 50,
       "talent": 392,
-      "ranking": 8196,
+      "ranking": 8193,
       "life": 447,
       "tp": 13,
       "mp": 5,
@@ -44368,7 +44368,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 213,
       "talent": 344,
-      "ranking": 9192,
+      "ranking": 9191,
       "life": 1998,
       "tp": 17,
       "mp": 6,
