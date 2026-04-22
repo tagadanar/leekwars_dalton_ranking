@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-22T20:13:38.657323+00:00",
+  "last_updated": "2026-04-22T22:49:20.571149+00:00",
   "daltons": {
     "46733": [
       {
@@ -9414,6 +9414,13 @@
           "total_capital": null,
           "turns": 3,
           "date": 1774810812
+        },
+        {
+          "fight_id": 52218880,
+          "total_level": 1804,
+          "total_capital": null,
+          "turns": 3,
+          "date": 1776889801
         }
       ]
     },
@@ -11821,7 +11828,7 @@
       "id": 7740,
       "name": "nandz",
       "talent": 1745,
-      "ranking": 291,
+      "ranking": 289,
       "country": "fr",
       "total_level": 1050,
       "trophies": 222,
@@ -12150,7 +12157,7 @@
     "53323": {
       "id": 53323,
       "name": "EplucheLegumes",
-      "talent": 2460,
+      "talent": 2449,
       "ranking": 190,
       "country": "fr",
       "total_level": 1204,
@@ -12238,7 +12245,7 @@
       "id": 66643,
       "name": "WRNYK",
       "talent": 2614,
-      "ranking": 167,
+      "ranking": 168,
       "country": "fr",
       "total_level": 974,
       "trophies": 193,
@@ -12586,7 +12593,7 @@
       "id": 71271,
       "name": "Kaesorus",
       "talent": 2626,
-      "ranking": 166,
+      "ranking": 167,
       "country": "fr",
       "total_level": 1204,
       "trophies": 243,
@@ -12668,7 +12675,7 @@
     "23154": {
       "id": 23154,
       "name": "Bouss72",
-      "talent": 2465,
+      "talent": 2454,
       "ranking": 188,
       "country": null,
       "total_level": 1204,
@@ -13016,7 +13023,7 @@
     "48768": {
       "id": 48768,
       "name": "leekstorm",
-      "talent": 2806,
+      "talent": 2805,
       "ranking": 153,
       "country": "fr",
       "total_level": 1204,
@@ -13451,8 +13458,8 @@
     "40076": {
       "id": 40076,
       "name": "bibimission",
-      "talent": 2571,
-      "ranking": 171,
+      "talent": 2656,
+      "ranking": 164,
       "country": "dk",
       "total_level": 1204,
       "trophies": 269,
@@ -13974,7 +13981,7 @@
       "id": 41108,
       "name": "Jace",
       "talent": 2901,
-      "ranking": 135,
+      "ranking": 136,
       "country": null,
       "total_level": 1204,
       "trophies": 208,
@@ -14147,8 +14154,8 @@
     "97950": {
       "id": 97950,
       "name": "Arcannos",
-      "talent": 2757,
-      "ranking": 159,
+      "talent": 2742,
+      "ranking": 160,
       "country": "fr",
       "total_level": 1203,
       "trophies": 236,
@@ -14669,8 +14676,8 @@
     "75471": {
       "id": 75471,
       "name": "sjrd",
-      "talent": 2876,
-      "ranking": 142,
+      "talent": 2870,
+      "ranking": 144,
       "country": "ch",
       "total_level": 1204,
       "trophies": 249,
@@ -14844,7 +14851,7 @@
       "id": 60639,
       "name": "SaltyCrusader",
       "talent": 2925,
-      "ranking": 132,
+      "ranking": 133,
       "country": "fr",
       "total_level": 1204,
       "trophies": 257,
@@ -15252,8 +15259,8 @@
     "120043": {
       "id": 120043,
       "name": "dulph2",
-      "talent": 2784,
-      "ranking": 156,
+      "talent": 2769,
+      "ranking": 157,
       "country": null,
       "total_level": 1121,
       "trophies": 234,
@@ -15513,7 +15520,7 @@
     "50927": {
       "id": 50927,
       "name": "MrAnislider",
-      "talent": 2467,
+      "talent": 2457,
       "ranking": 187,
       "country": "co",
       "total_level": 1204,
@@ -16104,7 +16111,7 @@
     "97545": {
       "id": 97545,
       "name": "BabyKraspen",
-      "talent": 5942,
+      "talent": 5923,
       "ranking": 32,
       "country": "jp",
       "total_level": 1204,
@@ -16278,8 +16285,8 @@
     "97547": {
       "id": 97547,
       "name": "Poliw",
-      "talent": 3917,
-      "ranking": 71,
+      "talent": 3882,
+      "ranking": 73,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -17011,7 +17018,7 @@
       "ranking": 112,
       "country": "fr",
       "total_level": 903,
-      "trophies": 275,
+      "trophies": 276,
       "leeks": {
         "21233": {
           "id": 21233,
@@ -17700,8 +17707,8 @@
     "30010": {
       "id": 30010,
       "name": "Azimel",
-      "talent": 2526,
-      "ranking": 175,
+      "talent": 2513,
+      "ranking": 176,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -17874,7 +17881,7 @@
     "71485": {
       "id": 71485,
       "name": "BrocoliCosmique",
-      "talent": 6036,
+      "talent": 6045,
       "ranking": 28,
       "country": "ps",
       "total_level": 1204,
@@ -18049,7 +18056,7 @@
       "id": 124738,
       "name": "DeKleek",
       "talent": 2811,
-      "ranking": 149,
+      "ranking": 150,
       "country": null,
       "total_level": 1013,
       "trophies": 201,
@@ -19665,7 +19672,7 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 3927,
+      "talent": 3964,
       "ranking": 70,
       "country": "ps",
       "total_level": 1204,
@@ -20188,7 +20195,7 @@
       "id": 42915,
       "name": "LeeKidder",
       "talent": 2584,
-      "ranking": 170,
+      "ranking": 171,
       "country": "fr",
       "total_level": 1204,
       "trophies": 252,
@@ -20275,7 +20282,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1360,
-      "ranking": 521,
+      "ranking": 522,
       "country": null,
       "total_level": 929,
       "trophies": 150,
@@ -20361,7 +20368,7 @@
     "78250": {
       "id": 78250,
       "name": "Gandhictature",
-      "talent": 6018,
+      "talent": 6027,
       "ranking": 29,
       "country": "in",
       "total_level": 1204,
@@ -20623,7 +20630,7 @@
       "id": 106937,
       "name": "huld",
       "talent": 2876,
-      "ranking": 142,
+      "ranking": 143,
       "country": null,
       "total_level": 1204,
       "trophies": 261,
@@ -20796,8 +20803,8 @@
     "79295": {
       "id": 79295,
       "name": "TPE1",
-      "talent": 2867,
-      "ranking": 145,
+      "talent": 2880,
+      "ranking": 140,
       "country": "fr",
       "total_level": 1202,
       "trophies": 235,
@@ -21910,7 +21917,7 @@
       "id": 42473,
       "name": "Nsjtt",
       "talent": 2792,
-      "ranking": 154,
+      "ranking": 155,
       "country": "fr",
       "total_level": 1204,
       "trophies": 196,
