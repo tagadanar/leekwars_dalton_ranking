@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T20:46:20.531091+00:00",
+  "last_updated": "2026-04-24T21:49:10.462521+00:00",
   "daltons": {
     "46733": [
       {
@@ -9629,6 +9629,13 @@
           "date": 1774810812
         },
         {
+          "fight_id": 52237441,
+          "total_level": 1804,
+          "total_capital": null,
+          "turns": 2,
+          "date": 1777064401
+        },
+        {
           "fight_id": 52218880,
           "total_level": 1804,
           "total_capital": null,
@@ -13943,7 +13950,7 @@
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 332,
+      "trophies": 333,
       "leeks": {
         "57967": {
           "id": 57967,
@@ -14552,7 +14559,7 @@
       "ranking": 116,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 223,
+      "trophies": 224,
       "leeks": {
         "25769": {
           "id": 25769,
@@ -15157,8 +15164,8 @@
     "86242": {
       "id": 86242,
       "name": "thaddee",
-      "talent": 3871,
-      "ranking": 74,
+      "talent": 3832,
+      "ranking": 76,
       "country": "ps",
       "total_level": 1204,
       "trophies": 305,
@@ -15570,7 +15577,7 @@
       "ranking": null,
       "country": "ps",
       "total_level": 1204,
-      "trophies": 331,
+      "trophies": 332,
       "leeks": {
         "102502": {
           "id": 102502,
@@ -15983,7 +15990,7 @@
     "97541": {
       "id": 97541,
       "name": "SushiRush",
-      "talent": 4100,
+      "talent": 4109,
       "ranking": 68,
       "country": "fr",
       "total_level": 1204,
@@ -16505,8 +16512,8 @@
     "97547": {
       "id": 97547,
       "name": "Poliw",
-      "talent": 3867,
-      "ranking": 75,
+      "talent": 3883,
+      "ranking": 72,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -19892,8 +19899,8 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 3890,
-      "ranking": 72,
+      "talent": 3863,
+      "ranking": 74,
       "country": "ps",
       "total_level": 1204,
       "trophies": 306,
@@ -21962,8 +21969,8 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3823,
-      "ranking": 77,
+      "talent": 3879,
+      "ranking": 73,
       "country": "fr",
       "total_level": 1204,
       "trophies": 205,
@@ -22009,18 +22016,18 @@
           "name": "Bux44",
           "level": 301,
           "talent": 1350,
-          "life": 3694,
-          "tp": 24,
+          "life": 3844,
+          "tp": 25,
           "mp": 5,
           "strength": 520,
-          "agility": 110,
-          "wisdom": 345,
+          "agility": 60,
+          "wisdom": 315,
           "resistance": 365,
-          "science": 50,
+          "science": 60,
           "magic": 0,
-          "frequency": 150,
-          "cores": 14,
-          "ram": 13
+          "frequency": 180,
+          "cores": 18,
+          "ram": 17
         },
         "131710": {
           "id": 131710,
@@ -22051,7 +22058,7 @@
       "name": "Kraspen",
       "talent": 6185,
       "ranking": 24,
-      "country": "cv",
+      "country": "fm",
       "total_level": 1204,
       "trophies": 331,
       "leeks": {
@@ -25058,7 +25065,7 @@
       },
       "weapons": [
         "neutrino",
-        "electrisor",
+        "lightninger",
         "heavy_sword",
         "m_laser"
       ],
@@ -25295,7 +25302,7 @@
       "name": "80CHIPREMISSION",
       "level": 175,
       "talent": 506,
-      "ranking": 6161,
+      "ranking": 6163,
       "life": 1600,
       "tp": 15,
       "mp": 6,
@@ -25480,18 +25487,18 @@
       "level": 301,
       "talent": 1350,
       "ranking": 1903,
-      "life": 3694,
-      "tp": 24,
+      "life": 3844,
+      "tp": 25,
       "mp": 5,
       "strength": 520,
-      "agility": 110,
-      "wisdom": 345,
+      "agility": 60,
+      "wisdom": 315,
       "resistance": 365,
-      "science": 50,
+      "science": 60,
       "magic": 0,
-      "frequency": 150,
-      "cores": 14,
-      "ram": 13,
+      "frequency": 180,
+      "cores": 18,
+      "ram": 17,
       "farmer": {
         "id": 60894,
         "name": "Bux42"
@@ -25503,13 +25510,17 @@
         "m_laser"
       ],
       "chips": [
+        "helmet",
+        "motivation",
         "wall",
         "cure",
         "leather_boots",
         "shield",
         "drip",
+        "armoring",
         "jump",
         "armor",
+        "rampart",
         "regeneration",
         "inversion",
         "winged_boots",
@@ -29670,7 +29681,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 434,
-      "ranking": 7301,
+      "ranking": 7295,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -30579,6 +30590,7 @@
       "chips": [
         "bandage",
         "helmet",
+        "motivation",
         "wall",
         "cure",
         "leather_boots",
@@ -30587,6 +30599,7 @@
         "armoring",
         "jump",
         "armor",
+        "rampart",
         "grapple",
         "regeneration",
         "boxing_glove",
@@ -34646,7 +34659,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 438,
-      "ranking": 7214,
+      "ranking": 7211,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -34867,8 +34880,10 @@
       ],
       "chips": [
         "bandage",
+        "helmet",
         "wall",
         "leather_boots",
+        "shield",
         "drip",
         "jump",
         "armor",
@@ -35522,7 +35537,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 481,
-      "ranking": 6562,
+      "ranking": 6566,
       "life": 1072,
       "tp": 12,
       "mp": 4,
