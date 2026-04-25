@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T04:38:39.580976+00:00",
+  "last_updated": "2026-04-25T06:25:42.067182+00:00",
   "daltons": {
     "46733": [
       {
@@ -13424,7 +13424,7 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3675,
+      "talent": 3662,
       "ranking": 83,
       "country": "fr",
       "total_level": 1204,
@@ -15164,7 +15164,7 @@
     "86242": {
       "id": 86242,
       "name": "thaddee",
-      "talent": 3826,
+      "talent": 3838,
       "ranking": 76,
       "country": "ps",
       "total_level": 1204,
@@ -18594,8 +18594,8 @@
     "53583": {
       "id": 53583,
       "name": "Tarama",
-      "talent": 1516,
-      "ranking": 440,
+      "talent": 1500,
+      "ranking": 453,
       "country": null,
       "total_level": 1204,
       "trophies": 218,
@@ -19116,8 +19116,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3719,
-      "ranking": 80,
+      "talent": 3737,
+      "ranking": 79,
       "country": "fr",
       "total_level": 1204,
       "trophies": 309,
@@ -20334,7 +20334,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3594,
+      "talent": 3583,
       "ranking": 85,
       "country": "fr",
       "total_level": 1204,
@@ -20509,7 +20509,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1343,
-      "ranking": 534,
+      "ranking": 537,
       "country": null,
       "total_level": 929,
       "trophies": 150,
@@ -22317,7 +22317,7 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3649,
+      "talent": 3640,
       "ranking": 84,
       "country": "fr",
       "total_level": 1204,
