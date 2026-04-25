@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T06:25:42.067182+00:00",
+  "last_updated": "2026-04-25T08:10:03.591602+00:00",
   "daltons": {
     "46733": [
       {
@@ -15317,7 +15317,7 @@
       "id": 59622,
       "name": "fujiwar2",
       "talent": 3444,
-      "ranking": 99,
+      "ranking": 98,
       "country": null,
       "total_level": 1204,
       "trophies": 252,
@@ -16077,8 +16077,8 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3542,
-      "ranking": 90,
+      "talent": 3526,
+      "ranking": 91,
       "country": null,
       "total_level": 1204,
       "trophies": 313,
@@ -17470,7 +17470,7 @@
       "ranking": 71,
       "country": "ps",
       "total_level": 1203,
-      "trophies": 301,
+      "trophies": 302,
       "leeks": {
         "105390": {
           "id": 105390,
@@ -19990,7 +19990,7 @@
       "ranking": null,
       "country": "si",
       "total_level": 1203,
-      "trophies": 339,
+      "trophies": 340,
       "leeks": {
         "103828": {
           "id": 103828,
@@ -20334,7 +20334,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3583,
+      "talent": 3597,
       "ranking": 85,
       "country": "fr",
       "total_level": 1204,
@@ -20509,7 +20509,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1343,
-      "ranking": 537,
+      "ranking": 533,
       "country": null,
       "total_level": 929,
       "trophies": 150,
@@ -22404,8 +22404,8 @@
     "122869": {
       "id": 122869,
       "name": "EF369",
-      "talent": 3465,
-      "ranking": 95,
+      "talent": 3479,
+      "ranking": 93,
       "country": "fr",
       "total_level": 1204,
       "trophies": 239,
@@ -35684,7 +35684,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 584,
-      "ranking": 4964,
+      "ranking": 4962,
       "life": 3090,
       "tp": 25,
       "mp": 8,
