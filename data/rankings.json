@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T21:55:28.162084+00:00",
+  "last_updated": "2026-04-27T22:50:08.836674+00:00",
   "daltons": {
     "46733": [
       {
@@ -14527,7 +14527,7 @@
       "id": 124565,
       "name": "koe",
       "talent": 2140,
-      "ranking": 235,
+      "ranking": 234,
       "country": "us",
       "total_level": 600,
       "trophies": 239,
@@ -21175,8 +21175,8 @@
     "84405": {
       "id": 84405,
       "name": "Thidus",
-      "talent": 2159,
-      "ranking": 230,
+      "talent": 2207,
+      "ranking": 225,
       "country": "fr",
       "total_level": 1204,
       "trophies": 255,
