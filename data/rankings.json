@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T21:02:20.415833+00:00",
+  "last_updated": "2026-04-27T21:55:28.162084+00:00",
   "daltons": {
     "46733": [
       {
@@ -12547,8 +12547,8 @@
     "71231": {
       "id": 71231,
       "name": "djokavex2",
-      "talent": 2321,
-      "ranking": 214,
+      "talent": 2294,
+      "ranking": 215,
       "country": null,
       "total_level": 1204,
       "trophies": 171,
@@ -19174,8 +19174,8 @@
     "45397": {
       "id": 45397,
       "name": "JediMasters",
-      "talent": 2403,
-      "ranking": 205,
+      "talent": 2418,
+      "ranking": 204,
       "country": "gb",
       "total_level": 1204,
       "trophies": 194,
@@ -21766,8 +21766,8 @@
     "53189": {
       "id": 53189,
       "name": "tagadamasio",
-      "talent": 2356,
-      "ranking": 212,
+      "talent": 2370,
+      "ranking": 211,
       "country": null,
       "total_level": 1204,
       "trophies": 200,
@@ -22640,7 +22640,7 @@
       "ranking": 18,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 286,
+      "trophies": 287,
       "leeks": {
         "59993": {
           "id": 59993,
