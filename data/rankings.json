@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T21:02:38.098635+00:00",
+  "last_updated": "2026-04-29T22:02:11.809191+00:00",
   "daltons": {
     "46733": [
       {
@@ -10382,6 +10382,13 @@
           "total_capital": null,
           "turns": 2,
           "date": 1777235426
+        },
+        {
+          "fight_id": 52284924,
+          "total_level": 1805,
+          "total_capital": null,
+          "turns": 2,
+          "date": 1777496401
         }
       ]
     },
@@ -12488,7 +12495,7 @@
     "61491": {
       "id": 61491,
       "name": "KavaliovQuater",
-      "talent": 4367,
+      "talent": 4399,
       "ranking": 60,
       "country": "fr",
       "total_level": 1204,
@@ -12818,7 +12825,7 @@
     "61513": {
       "id": 61513,
       "name": "KavaliovQuinquies",
-      "talent": 4400,
+      "talent": 4370,
       "ranking": 59,
       "country": null,
       "total_level": 1204,
@@ -12995,7 +13002,7 @@
       "talent": 2610,
       "ranking": 169,
       "country": "fr",
-      "total_level": 1007,
+      "total_level": 1008,
       "trophies": 196,
       "leeks": {
         "71645": {
@@ -13055,9 +13062,9 @@
         "75440": {
           "id": 75440,
           "name": "Windgrace",
-          "level": 242,
+          "level": 243,
           "talent": 1413,
-          "life": 1753,
+          "life": 1756,
           "tp": 22,
           "mp": 6,
           "strength": 500,
@@ -16598,7 +16605,7 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3723,
+      "talent": 3735,
       "ranking": 82,
       "country": null,
       "total_level": 1204,
@@ -16689,7 +16696,7 @@
       "ranking": null,
       "country": null,
       "total_level": 1204,
-      "trophies": 275,
+      "trophies": 276,
       "leeks": {
         "103082": {
           "id": 103082,
@@ -20855,8 +20862,8 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3636,
-      "ranking": 84,
+      "talent": 3587,
+      "ranking": 86,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -21464,8 +21471,8 @@
     "56766": {
       "id": 56766,
       "name": "KavaliovBis",
-      "talent": 4408,
-      "ranking": 58,
+      "talent": 4437,
+      "ranking": 57,
       "country": "fr",
       "total_level": 1204,
       "trophies": 217,
@@ -22838,7 +22845,7 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3711,
+      "talent": 3723,
       "ranking": 83,
       "country": "fr",
       "total_level": 1204,
@@ -30202,7 +30209,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 434,
-      "ranking": 7295,
+      "ranking": 7294,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -32808,7 +32815,7 @@
       "name": "Portemurmure",
       "level": 50,
       "talent": 437,
-      "ranking": 7229,
+      "ranking": 7227,
       "life": 447,
       "tp": 13,
       "mp": 5,
@@ -35178,7 +35185,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 438,
-      "ranking": 7216,
+      "ranking": 7214,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -42537,10 +42544,10 @@
     "75440": {
       "id": 75440,
       "name": "Windgrace",
-      "level": 242,
+      "level": 243,
       "talent": 1413,
       "ranking": 1775,
-      "life": 1753,
+      "life": 1756,
       "tp": 22,
       "mp": 6,
       "strength": 500,
