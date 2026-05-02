@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T21:41:18.135168+00:00",
+  "last_updated": "2026-05-02T22:40:26.922749+00:00",
   "daltons": {
     "46733": [
       {
@@ -15054,7 +15054,7 @@
           "id": 131870,
           "name": "koe4",
           "level": 50,
-          "talent": 1148,
+          "talent": 1158,
           "life": 707,
           "tp": 12,
           "mp": 6,
@@ -29828,7 +29828,7 @@
       "name": "Portevoix",
       "level": 150,
       "talent": 775,
-      "ranking": 3648,
+      "ranking": 3653,
       "life": 1667,
       "tp": 14,
       "mp": 6,
@@ -33239,8 +33239,8 @@
       "id": 131870,
       "name": "koe4",
       "level": 50,
-      "talent": 1148,
-      "ranking": 2725,
+      "talent": 1158,
+      "ranking": 2720,
       "life": 707,
       "tp": 12,
       "mp": 6,
@@ -36552,7 +36552,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 619,
-      "ranking": 4531,
+      "ranking": 4525,
       "life": 3090,
       "tp": 25,
       "mp": 8,
@@ -40115,7 +40115,7 @@
       "name": "Po\u00e9sieBucoleek",
       "level": 301,
       "talent": 748,
-      "ranking": 3774,
+      "ranking": 3777,
       "life": 3105,
       "tp": 26,
       "mp": 7,
