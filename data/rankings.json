@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T19:57:27.311342+00:00",
+  "last_updated": "2026-05-02T20:41:41.841104+00:00",
   "daltons": {
     "46733": [
       {
@@ -10443,6 +10443,13 @@
           "date": 1777064401
         },
         {
+          "fight_id": 52311857,
+          "total_level": 1804,
+          "total_capital": null,
+          "turns": 2,
+          "date": 1777753801
+        },
+        {
           "fight_id": 52218880,
           "total_level": 1804,
           "total_capital": null,
@@ -13337,7 +13344,7 @@
       "talent": 2794,
       "ranking": 149,
       "country": "fr",
-      "total_level": 1024,
+      "total_level": 1025,
       "trophies": 198,
       "leeks": {
         "71645": {
@@ -13397,9 +13404,9 @@
         "75440": {
           "id": 75440,
           "name": "Windgrace",
-          "level": 251,
+          "level": 252,
           "talent": 1420,
-          "life": 1780,
+          "life": 1783,
           "tp": 22,
           "mp": 6,
           "strength": 500,
@@ -13598,7 +13605,7 @@
       "talent": 2594,
       "ranking": 170,
       "country": "fr",
-      "total_level": 1115,
+      "total_level": 1116,
       "trophies": 214,
       "leeks": {
         "93329": {
@@ -13658,9 +13665,9 @@
         "104671": {
           "id": 104671,
           "name": "Malleur",
-          "level": 264,
+          "level": 265,
           "talent": 1396,
-          "life": 2484,
+          "life": 2487,
           "tp": 20,
           "mp": 4,
           "strength": 0,
@@ -14287,7 +14294,7 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3855,
+      "talent": 3864,
       "ranking": 78,
       "country": "fr",
       "total_level": 1204,
@@ -16262,8 +16269,8 @@
     "31464": {
       "id": 31464,
       "name": "Necta01",
-      "talent": 3427,
-      "ranking": 100,
+      "talent": 3419,
+      "ranking": 101,
       "country": "fr",
       "total_level": 1204,
       "trophies": 270,
@@ -16940,8 +16947,8 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3677,
-      "ranking": 82,
+      "talent": 3673,
+      "ranking": 83,
       "country": null,
       "total_level": 1204,
       "trophies": 313,
@@ -20067,7 +20074,7 @@
       "id": 123738,
       "name": "Dworkyn",
       "talent": 3421,
-      "ranking": 101,
+      "ranking": 100,
       "country": null,
       "total_level": 1203,
       "trophies": 176,
@@ -20589,7 +20596,7 @@
       "id": 98164,
       "name": "DrKouignamann",
       "talent": 1111,
-      "ranking": 648,
+      "ranking": 646,
       "country": null,
       "total_level": 1204,
       "trophies": 224,
@@ -21197,8 +21204,8 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3666,
-      "ranking": 83,
+      "talent": 3681,
+      "ranking": 82,
       "country": "fr",
       "total_level": 1204,
       "trophies": 248,
@@ -23180,7 +23187,7 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3672,
+      "talent": 3641,
       "ranking": 84,
       "country": "fr",
       "total_level": 1204,
@@ -25456,7 +25463,7 @@
       "name": "Salamence",
       "level": 250,
       "talent": 1498,
-      "ranking": 1373,
+      "ranking": 1374,
       "life": 1997,
       "tp": 24,
       "mp": 6,
@@ -26111,10 +26118,10 @@
     "104671": {
       "id": 104671,
       "name": "Malleur",
-      "level": 264,
+      "level": 265,
       "talent": 1396,
       "ranking": 1789,
-      "life": 2484,
+      "life": 2487,
       "tp": 20,
       "mp": 4,
       "strength": 0,
@@ -26349,7 +26356,7 @@
       "name": "Bux44",
       "level": 301,
       "talent": 1502,
-      "ranking": 1352,
+      "ranking": 1353,
       "life": 3844,
       "tp": 25,
       "mp": 5,
@@ -38470,7 +38477,7 @@
       "name": "Raaul",
       "level": 301,
       "talent": 1469,
-      "ranking": 1693,
+      "ranking": 1692,
       "life": 1550,
       "tp": 20,
       "mp": 6,
@@ -42879,10 +42886,10 @@
     "75440": {
       "id": 75440,
       "name": "Windgrace",
-      "level": 251,
+      "level": 252,
       "talent": 1420,
       "ranking": 1760,
-      "life": 1780,
+      "life": 1783,
       "tp": 22,
       "mp": 6,
       "strength": 500,
