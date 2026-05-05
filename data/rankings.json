@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T21:04:09.921788+00:00",
+  "last_updated": "2026-05-05T22:03:47.692450+00:00",
   "daltons": {
     "46733": [
       {
@@ -13613,7 +13613,7 @@
       "talent": 2746,
       "ranking": 152,
       "country": "fr",
-      "total_level": 1032,
+      "total_level": 1033,
       "trophies": 201,
       "leeks": {
         "71645": {
@@ -13637,9 +13637,9 @@
         "71728": {
           "id": 71728,
           "name": "StreetWraith",
-          "level": 260,
+          "level": 261,
           "talent": 1544,
-          "life": 1997,
+          "life": 2000,
           "tp": 24,
           "mp": 6,
           "strength": 510,
@@ -21129,7 +21129,7 @@
       "ranking": 18,
       "country": "si",
       "total_level": 1203,
-      "trophies": 343,
+      "trophies": 344,
       "leeks": {
         "103828": {
           "id": 103828,
@@ -21258,7 +21258,7 @@
           "id": 93913,
           "name": "Teleautomaton",
           "level": 238,
-          "talent": 1064,
+          "talent": 1061,
           "life": 2086,
           "tp": 19,
           "mp": 6,
@@ -21825,7 +21825,7 @@
       "ranking": 28,
       "country": "ch",
       "total_level": 1204,
-      "trophies": 259,
+      "trophies": 260,
       "leeks": {
         "49046": {
           "id": 49046,
@@ -24349,10 +24349,10 @@
     "71728": {
       "id": 71728,
       "name": "StreetWraith",
-      "level": 260,
+      "level": 261,
       "talent": 1544,
       "ranking": 1309,
-      "life": 1997,
+      "life": 2000,
       "tp": 24,
       "mp": 6,
       "strength": 510,
@@ -28778,7 +28778,7 @@
       "name": "78CHIPLIGHTNINGBULB",
       "level": 250,
       "talent": 1057,
-      "ranking": 2999,
+      "ranking": 3002,
       "life": 2257,
       "tp": 18,
       "mp": 6,
@@ -30387,7 +30387,7 @@
       "name": "TheBuche",
       "level": 249,
       "talent": 1057,
-      "ranking": 3000,
+      "ranking": 3003,
       "life": 2064,
       "tp": 20,
       "mp": 5,
@@ -36276,7 +36276,7 @@
       },
       "weapons": [
         "neutrino",
-        "unstable_destroyer",
+        "lightninger",
         "quantum_rifle",
         "heavy_sword"
       ],
@@ -40645,7 +40645,7 @@
       "name": "Po\u00e9sieBucoleek",
       "level": 301,
       "talent": 736,
-      "ranking": 3904,
+      "ranking": 3900,
       "life": 3105,
       "tp": 26,
       "mp": 7,
@@ -42763,7 +42763,7 @@
       "name": "Laborantine",
       "level": 301,
       "talent": 1082,
-      "ranking": 2807,
+      "ranking": 2808,
       "life": 2635,
       "tp": 25,
       "mp": 5,
@@ -43791,8 +43791,8 @@
       "id": 93913,
       "name": "Teleautomaton",
       "level": 238,
-      "talent": 1064,
-      "ranking": 2922,
+      "talent": 1061,
+      "ranking": 2949,
       "life": 2086,
       "tp": 19,
       "mp": 6,
