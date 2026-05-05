@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T22:03:47.692450+00:00",
+  "last_updated": "2026-05-05T22:55:56.249950+00:00",
   "daltons": {
     "46733": [
       {
@@ -7504,6 +7504,13 @@
           "date": 1777197968
         },
         {
+          "fight_id": 52341275,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 27,
+          "date": 1778018553
+        },
+        {
           "fight_id": 52179216,
           "total_level": 1204,
           "total_capital": null,
@@ -7530,6 +7537,13 @@
           "total_capital": null,
           "turns": 28,
           "date": 1777820551
+        },
+        {
+          "fight_id": 52341276,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 29,
+          "date": 1778018557
         },
         {
           "fight_id": 52261161,
@@ -12341,7 +12355,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7680,
+      "talent": 7640,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -12671,7 +12685,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 6975,
+      "talent": 6955,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -13020,7 +13034,7 @@
       "id": 100912,
       "name": "EstebanC3",
       "talent": 2561,
-      "ranking": 176,
+      "ranking": 179,
       "country": "fr",
       "total_level": 932,
       "trophies": 209,
@@ -13280,8 +13294,8 @@
     "71231": {
       "id": 71231,
       "name": "djokavex2",
-      "talent": 2528,
-      "ranking": 190,
+      "talent": 2540,
+      "ranking": 186,
       "country": null,
       "total_level": 1204,
       "trophies": 171,
@@ -14041,8 +14055,8 @@
     "23154": {
       "id": 23154,
       "name": "Bouss72",
-      "talent": 2553,
-      "ranking": 177,
+      "talent": 2565,
+      "ranking": 175,
       "country": null,
       "total_level": 1204,
       "trophies": 223,
@@ -14389,8 +14403,8 @@
     "48768": {
       "id": 48768,
       "name": "leekstorm",
-      "talent": 2488,
-      "ranking": 198,
+      "talent": 2515,
+      "ranking": 196,
       "country": "fr",
       "total_level": 1204,
       "trophies": 194,
@@ -14911,7 +14925,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7177,
+      "talent": 7159,
       "ranking": 4,
       "country": null,
       "total_level": 1204,
@@ -15085,8 +15099,8 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 6986,
-      "ranking": 7,
+      "talent": 7025,
+      "ranking": 6,
       "country": "fr",
       "total_level": 1204,
       "trophies": 335,
@@ -15955,7 +15969,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7805,
+      "talent": 7808,
       "ranking": 1,
       "country": null,
       "total_level": 1204,
@@ -17042,7 +17056,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7243,
+      "talent": 7313,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -18260,8 +18274,8 @@
     "101146": {
       "id": 101146,
       "name": "theonesolox",
-      "talent": 2529,
-      "ranking": 189,
+      "talent": 2523,
+      "ranking": 191,
       "country": "fr",
       "total_level": 1202,
       "trophies": 228,
@@ -19073,8 +19087,8 @@
     "30010": {
       "id": 30010,
       "name": "Azimel",
-      "talent": 2534,
-      "ranking": 186,
+      "talent": 2546,
+      "ranking": 184,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -19160,8 +19174,8 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 6974,
-      "ranking": 9,
+      "talent": 6955,
+      "ranking": 8,
       "country": "fr",
       "total_level": 1204,
       "trophies": 322,
@@ -19907,8 +19921,8 @@
     "45397": {
       "id": 45397,
       "name": "JediMasters",
-      "talent": 2322,
-      "ranking": 207,
+      "talent": 2297,
+      "ranking": 209,
       "country": "gb",
       "total_level": 1204,
       "trophies": 194,
@@ -20603,7 +20617,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7118,
+      "talent": 7132,
       "ranking": 5,
       "country": null,
       "total_level": 1204,
@@ -20951,8 +20965,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 6992,
-      "ranking": 6,
+      "talent": 6963,
+      "ranking": 7,
       "country": null,
       "total_level": 1204,
       "trophies": 334,
@@ -21908,7 +21922,7 @@
     "84405": {
       "id": 84405,
       "name": "Thidus",
-      "talent": 2294,
+      "talent": 2282,
       "ranking": 210,
       "country": "fr",
       "total_level": 1204,
@@ -23369,8 +23383,8 @@
     "42473": {
       "id": 42473,
       "name": "Nsjtt",
-      "talent": 2490,
-      "ranking": 197,
+      "talent": 2516,
+      "ranking": 195,
       "country": "fr",
       "total_level": 1204,
       "trophies": 196,
