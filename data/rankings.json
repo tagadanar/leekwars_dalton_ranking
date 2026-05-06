@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T21:12:54.056631+00:00",
+  "last_updated": "2026-05-06T22:49:52.397115+00:00",
   "daltons": {
     "46733": [
       {
@@ -15990,7 +15990,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7734,
+      "talent": 7738,
       "ranking": 1,
       "country": null,
       "total_level": 1204,
@@ -17077,7 +17077,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7343,
+      "talent": 7339,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -17516,7 +17516,7 @@
       "ranking": 30,
       "country": "jp",
       "total_level": 1204,
-      "trophies": 284,
+      "trophies": 285,
       "leeks": {
         "103084": {
           "id": 103084,
@@ -19769,7 +19769,7 @@
       "id": 53583,
       "name": "Tarama",
       "talent": 1303,
-      "ranking": 531,
+      "ranking": 532,
       "country": null,
       "total_level": 1204,
       "trophies": 220,
@@ -20294,7 +20294,7 @@
       "ranking": 77,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 310,
+      "trophies": 311,
       "leeks": {
         "18884": {
           "id": 18884,
