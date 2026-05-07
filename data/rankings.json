@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T22:00:46.257522+00:00",
+  "last_updated": "2026-05-07T23:02:15.596212+00:00",
   "daltons": {
     "46733": [
       {
@@ -12397,7 +12397,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7583,
+      "talent": 7562,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -17098,7 +17098,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7386,
+      "talent": 7407,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -46225,7 +46225,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 214,
       "talent": 344,
-      "ranking": 9153,
+      "ranking": 9154,
       "life": 2001,
       "tp": 17,
       "mp": 6,
