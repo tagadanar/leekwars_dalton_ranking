@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T23:02:15.596212+00:00",
+  "last_updated": "2026-05-07T23:54:00.091902+00:00",
   "daltons": {
     "46733": [
       {
@@ -9091,6 +9091,197 @@
       ]
     },
     {
+      "fight_id": 52354299,
+      "fight_type": 1,
+      "farmer_name": "fabou",
+      "farmer_id": 76155,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 80980,
+          "name": "GeorgeSmiley",
+          "level": 301,
+          "farmer": 76155,
+          "farmer_name": "fabou"
+        },
+        {
+          "id": 81109,
+          "name": "AlecLeamas",
+          "level": 301,
+          "farmer": 76155,
+          "farmer_name": "fabou"
+        },
+        {
+          "id": 81266,
+          "name": "JerryWesterby",
+          "level": 301,
+          "farmer": 76155,
+          "farmer_name": "fabou"
+        },
+        {
+          "id": 81439,
+          "name": "MagnusPym",
+          "level": 301,
+          "farmer": 76155,
+          "farmer_name": "fabou"
+        }
+      ],
+      "total_level": 1204,
+      "turns": 12,
+      "date": 1778196443,
+      "key": "76155",
+      "leek_names": "GeorgeSmiley, AlecLeamas, JerryWesterby, MagnusPym",
+      "history": [
+        {
+          "fight_id": 52354299,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1778196443
+        },
+        {
+          "fight_id": 52257781,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 17,
+          "date": 1777237951
+        },
+        {
+          "fight_id": 52257770,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 18,
+          "date": 1777237938
+        },
+        {
+          "fight_id": 51867025,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 19,
+          "date": 1773877407
+        },
+        {
+          "fight_id": 52173130,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 20,
+          "date": 1776546278
+        },
+        {
+          "fight_id": 52211491,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 23,
+          "date": 1776863194
+        },
+        {
+          "fight_id": 52211476,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 23,
+          "date": 1776863167
+        },
+        {
+          "fight_id": 52257690,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 23,
+          "date": 1777237849
+        },
+        {
+          "fight_id": 52135861,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 24,
+          "date": 1776203929
+        },
+        {
+          "fight_id": 52354188,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 25,
+          "date": 1778196299
+        },
+        {
+          "fight_id": 52173213,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 26,
+          "date": 1776546472
+        },
+        {
+          "fight_id": 52257685,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 26,
+          "date": 1777237843
+        },
+        {
+          "fight_id": 52104834,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 27,
+          "date": 1775936014
+        },
+        {
+          "fight_id": 52354180,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 28,
+          "date": 1778196289
+        },
+        {
+          "fight_id": 52104858,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 29,
+          "date": 1775936107
+        },
+        {
+          "fight_id": 52195326,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 29,
+          "date": 1776726027
+        },
+        {
+          "fight_id": 51941493,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 30,
+          "date": 1774474782
+        },
+        {
+          "fight_id": 51941502,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 34,
+          "date": 1774474794
+        },
+        {
+          "fight_id": 52011434,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 39,
+          "date": 1775071504
+        },
+        {
+          "fight_id": 52011393,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 42,
+          "date": 1775071433
+        },
+        {
+          "fight_id": 52135896,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 50,
+          "date": 1776203975
+        }
+      ]
+    },
+    {
       "fight_id": 51814264,
       "fight_type": 1,
       "farmer_name": "tagadanar",
@@ -9349,176 +9540,6 @@
           "total_capital": null,
           "turns": 17,
           "date": 1774463405
-        }
-      ]
-    },
-    {
-      "fight_id": 52257781,
-      "fight_type": 1,
-      "farmer_name": "fabou",
-      "farmer_id": 76155,
-      "team_name": null,
-      "leeks": [
-        {
-          "id": 80980,
-          "name": "GeorgeSmiley",
-          "level": 301,
-          "farmer": 76155,
-          "farmer_name": "fabou"
-        },
-        {
-          "id": 81109,
-          "name": "AlecLeamas",
-          "level": 301,
-          "farmer": 76155,
-          "farmer_name": "fabou"
-        },
-        {
-          "id": 81266,
-          "name": "JerryWesterby",
-          "level": 301,
-          "farmer": 76155,
-          "farmer_name": "fabou"
-        },
-        {
-          "id": 81439,
-          "name": "MagnusPym",
-          "level": 301,
-          "farmer": 76155,
-          "farmer_name": "fabou"
-        }
-      ],
-      "total_level": 1204,
-      "turns": 17,
-      "date": 1777237951,
-      "key": "76155",
-      "leek_names": "GeorgeSmiley, AlecLeamas, JerryWesterby, MagnusPym",
-      "history": [
-        {
-          "fight_id": 52257781,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 17,
-          "date": 1777237951
-        },
-        {
-          "fight_id": 52257770,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 18,
-          "date": 1777237938
-        },
-        {
-          "fight_id": 51867025,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 19,
-          "date": 1773877407
-        },
-        {
-          "fight_id": 52173130,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 20,
-          "date": 1776546278
-        },
-        {
-          "fight_id": 52211491,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 23,
-          "date": 1776863194
-        },
-        {
-          "fight_id": 52211476,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 23,
-          "date": 1776863167
-        },
-        {
-          "fight_id": 52257690,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 23,
-          "date": 1777237849
-        },
-        {
-          "fight_id": 52135861,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 24,
-          "date": 1776203929
-        },
-        {
-          "fight_id": 52173213,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 26,
-          "date": 1776546472
-        },
-        {
-          "fight_id": 52257685,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 26,
-          "date": 1777237843
-        },
-        {
-          "fight_id": 52104834,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 27,
-          "date": 1775936014
-        },
-        {
-          "fight_id": 52104858,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 29,
-          "date": 1775936107
-        },
-        {
-          "fight_id": 52195326,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 29,
-          "date": 1776726027
-        },
-        {
-          "fight_id": 51941493,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 30,
-          "date": 1774474782
-        },
-        {
-          "fight_id": 51941502,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 34,
-          "date": 1774474794
-        },
-        {
-          "fight_id": 52011434,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 39,
-          "date": 1775071504
-        },
-        {
-          "fight_id": 52011393,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 42,
-          "date": 1775071433
-        },
-        {
-          "fight_id": 52135896,
-          "total_level": 1204,
-          "total_capital": null,
-          "turns": 50,
-          "date": 1776203975
         }
       ]
     },
@@ -12397,7 +12418,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7562,
+      "talent": 7553,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -12484,8 +12505,8 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6822,
-      "ranking": 10,
+      "talent": 6758,
+      "ranking": 11,
       "country": "fr",
       "total_level": 1204,
       "trophies": 328,
@@ -12571,7 +12592,7 @@
     "66566": {
       "id": 66566,
       "name": "AppleTree",
-      "talent": 6698,
+      "talent": 6684,
       "ranking": 12,
       "country": "va",
       "total_level": 1204,
@@ -12727,8 +12748,8 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 6954,
-      "ranking": 7,
+      "talent": 6948,
+      "ranking": 9,
       "country": "fr",
       "total_level": 1204,
       "trophies": 339,
@@ -14184,7 +14205,7 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6567,
+      "talent": 6556,
       "ranking": 16,
       "country": null,
       "total_level": 1204,
@@ -14358,8 +14379,8 @@
     "19070": {
       "id": 19070,
       "name": "Amal",
-      "talent": 6611,
-      "ranking": 14,
+      "talent": 6616,
+      "ranking": 13,
       "country": "jp",
       "total_level": 1204,
       "trophies": 303,
@@ -14532,7 +14553,7 @@
     "76418": {
       "id": 76418,
       "name": "Hyunew",
-      "talent": 6606,
+      "talent": 6585,
       "ranking": 15,
       "country": null,
       "total_level": 1204,
@@ -14967,7 +14988,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7085,
+      "talent": 7144,
       "ranking": 5,
       "country": null,
       "total_level": 1204,
@@ -15141,8 +15162,8 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7061,
-      "ranking": 6,
+      "talent": 6975,
+      "ranking": 8,
       "country": "fr",
       "total_level": 1204,
       "trophies": 335,
@@ -16011,7 +16032,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7783,
+      "talent": 7787,
       "ranking": 1,
       "country": null,
       "total_level": 1204,
@@ -17098,7 +17119,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7407,
+      "talent": 7374,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -17794,8 +17815,8 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6776,
-      "ranking": 11,
+      "talent": 6811,
+      "ranking": 10,
       "country": "fr",
       "total_level": 1204,
       "trophies": 348,
@@ -19216,7 +19237,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 6954,
+      "talent": 6991,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -20659,7 +20680,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7108,
+      "talent": 7170,
       "ranking": 4,
       "country": null,
       "total_level": 1204,
@@ -21007,8 +21028,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 6931,
-      "ranking": 9,
+      "talent": 7004,
+      "ranking": 6,
       "country": null,
       "total_level": 1204,
       "trophies": 334,
@@ -21355,8 +21376,8 @@
     "76695": {
       "id": 76695,
       "name": "ihsusikamet",
-      "talent": 6641,
-      "ranking": 13,
+      "talent": 6610,
+      "ranking": 14,
       "country": null,
       "total_level": 1204,
       "trophies": 256,
@@ -43796,7 +43817,7 @@
       "name": "HainePaixComplet",
       "level": 301,
       "talent": 2811,
-      "ranking": 65,
+      "ranking": 64,
       "life": 3120,
       "tp": 28,
       "mp": 5,
