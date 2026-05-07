@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T21:07:50.949852+00:00",
+  "last_updated": "2026-05-07T22:00:46.257522+00:00",
   "daltons": {
     "46733": [
       {
@@ -16515,7 +16515,7 @@
       "ranking": 127,
       "country": null,
       "total_level": 1204,
-      "trophies": 255,
+      "trophies": 256,
       "leeks": {
         "64335": {
           "id": 64335,
@@ -29794,7 +29794,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 475,
-      "ranking": 6637,
+      "ranking": 6639,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -46225,7 +46225,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 214,
       "talent": 344,
-      "ranking": 9154,
+      "ranking": 9153,
       "life": 2001,
       "tp": 17,
       "mp": 6,
