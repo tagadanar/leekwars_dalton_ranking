@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T17:51:43.463588+00:00",
+  "last_updated": "2026-05-07T19:35:17.125066+00:00",
   "daltons": {
     "46733": [
       {
@@ -15141,7 +15141,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7059,
+      "talent": 7061,
       "ranking": 6,
       "country": "fr",
       "total_level": 1204,
@@ -15493,7 +15493,7 @@
       "ranking": null,
       "country": "vc",
       "total_level": 1204,
-      "trophies": 275,
+      "trophies": 276,
       "leeks": {
         "22327": {
           "id": 22327,
@@ -16011,7 +16011,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7779,
+      "talent": 7783,
       "ranking": 1,
       "country": null,
       "total_level": 1204,
@@ -17098,7 +17098,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7390,
+      "talent": 7386,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -17537,7 +17537,7 @@
       "ranking": 30,
       "country": "jp",
       "total_level": 1204,
-      "trophies": 285,
+      "trophies": 286,
       "leeks": {
         "103084": {
           "id": 103084,
@@ -18404,7 +18404,7 @@
       "id": 73500,
       "name": "Monarch",
       "talent": 100,
-      "ranking": 23676,
+      "ranking": 23675,
       "country": "fr",
       "total_level": 301,
       "trophies": 217,
@@ -18436,7 +18436,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3217,
+      "talent": 3224,
       "ranking": 111,
       "country": "fr",
       "total_level": 903,
@@ -18661,8 +18661,8 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 4059,
-      "ranking": 70,
+      "talent": 4075,
+      "ranking": 69,
       "country": "ps",
       "total_level": 1203,
       "trophies": 304,
@@ -19789,8 +19789,8 @@
     "53583": {
       "id": 53583,
       "name": "Tarama",
-      "talent": 1275,
-      "ranking": 554,
+      "talent": 1272,
+      "ranking": 561,
       "country": null,
       "total_level": 1204,
       "trophies": 220,
@@ -20137,7 +20137,7 @@
     "124760": {
       "id": 124760,
       "name": "Kleekteek",
-      "talent": 2966,
+      "talent": 2959,
       "ranking": 124,
       "country": null,
       "total_level": 1020,
@@ -20920,8 +20920,8 @@
     "98164": {
       "id": 98164,
       "name": "DrKouignamann",
-      "talent": 1124,
-      "ranking": 614,
+      "talent": 1126,
+      "ranking": 611,
       "country": null,
       "total_level": 1204,
       "trophies": 225,
@@ -21094,8 +21094,8 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 4057,
-      "ranking": 71,
+      "talent": 4058,
+      "ranking": 70,
       "country": "ps",
       "total_level": 1204,
       "trophies": 308,
@@ -21790,8 +21790,8 @@
     "78250": {
       "id": 78250,
       "name": "Gandhictature",
-      "talent": 6114,
-      "ranking": 27,
+      "talent": 6130,
+      "ranking": 26,
       "country": "in",
       "total_level": 1204,
       "trophies": 325,
@@ -21877,8 +21877,8 @@
     "44975": {
       "id": 44975,
       "name": "Agade",
-      "talent": 6144,
-      "ranking": 26,
+      "talent": 6128,
+      "ranking": 27,
       "country": "ch",
       "total_level": 1204,
       "trophies": 260,
@@ -23164,11 +23164,11 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 4066,
-      "ranking": 69,
+      "talent": 4051,
+      "ranking": 72,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 214,
+      "trophies": 215,
       "leeks": {
         "65746": {
           "id": 65746,
@@ -23512,7 +23512,7 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6475,
+      "talent": 6473,
       "ranking": 17,
       "country": "fr",
       "total_level": 1204,
@@ -29286,7 +29286,7 @@
       "name": "CloseEnough",
       "level": 298,
       "talent": 911,
-      "ranking": 3448,
+      "ranking": 3449,
       "life": 2961,
       "tp": 25,
       "mp": 8,
@@ -30443,7 +30443,7 @@
       "name": "TheBuche",
       "level": 249,
       "talent": 1081,
-      "ranking": 2812,
+      "ranking": 2813,
       "life": 2064,
       "tp": 20,
       "mp": 5,
@@ -36680,7 +36680,7 @@
       "name": "MomentParfait",
       "level": 230,
       "talent": 838,
-      "ranking": 3547,
+      "ranking": 3548,
       "life": 2137,
       "tp": 20,
       "mp": 5,
@@ -37138,7 +37138,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 608,
-      "ranking": 4590,
+      "ranking": 4584,
       "life": 3090,
       "tp": 25,
       "mp": 8,
@@ -40701,7 +40701,7 @@
       "name": "Po\u00e9sieBucoleek",
       "level": 301,
       "talent": 735,
-      "ranking": 3903,
+      "ranking": 3901,
       "life": 3105,
       "tp": 26,
       "mp": 7,
