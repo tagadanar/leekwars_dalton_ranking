@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T18:14:47.440354+00:00",
+  "last_updated": "2026-05-08T20:14:26.950168+00:00",
   "daltons": {
     "46733": [
       {
@@ -598,6 +598,13 @@
             "total_capital": null,
             "turns": 10,
             "date": 1776586167
+          },
+          {
+            "fight_id": 52361195,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 10,
+            "date": 1778264448
           },
           {
             "fight_id": 52228836,
@@ -1618,177 +1625,7 @@
         ]
       },
       {
-        "fight_id": 51905755,
-        "fight_type": 0,
-        "farmer_name": "BlackSlash",
-        "farmer_id": 19932,
-        "team_name": null,
-        "leeks": [
-          {
-            "id": 23362,
-            "name": "BlueSlash",
-            "level": 301,
-            "farmer": 19932,
-            "farmer_name": "BlackSlash"
-          }
-        ],
-        "total_level": 301,
-        "turns": 8,
-        "date": 1774179016,
-        "key": "19932",
-        "leek_name": "BlueSlash",
-        "leek_level": 301,
-        "history": [
-          {
-            "fight_id": 51905755,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 8,
-            "date": 1774179016
-          },
-          {
-            "fight_id": 52243475,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 12,
-            "date": 1777124498
-          },
-          {
-            "fight_id": 51933893,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 17,
-            "date": 1774436414
-          },
-          {
-            "fight_id": 52201919,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 32,
-            "date": 1776780571
-          },
-          {
-            "fight_id": 51858831,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 39,
-            "date": 1773837007
-          },
-          {
-            "fight_id": 52243470,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 43,
-            "date": 1777124491
-          },
-          {
-            "fight_id": 51924724,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 48,
-            "date": 1774351804
-          },
-          {
-            "fight_id": 52005952,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 48,
-            "date": 1775052364
-          },
-          {
-            "fight_id": 52005950,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 48,
-            "date": 1775052361
-          },
-          {
-            "fight_id": 52053706,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 50,
-            "date": 1775475006
-          },
-          {
-            "fight_id": 52262841,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 51,
-            "date": 1777300067
-          },
-          {
-            "fight_id": 52201925,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 53,
-            "date": 1776780577
-          }
-        ]
-      },
-      {
-        "fight_id": 51953797,
-        "fight_type": 0,
-        "farmer_name": "WhiteSlash",
-        "farmer_id": 512,
-        "team_name": null,
-        "leeks": [
-          {
-            "id": 11942,
-            "name": "Veggy",
-            "level": 301,
-            "farmer": 512,
-            "farmer_name": "WhiteSlash"
-          }
-        ],
-        "total_level": 301,
-        "turns": 8,
-        "date": 1774611005,
-        "key": "512",
-        "leek_name": "Veggy",
-        "leek_level": 301,
-        "history": [
-          {
-            "fight_id": 51953797,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 8,
-            "date": 1774611005
-          }
-        ]
-      },
-      {
-        "fight_id": 52003493,
-        "fight_type": 0,
-        "farmer_name": "Agade",
-        "farmer_id": 44975,
-        "team_name": null,
-        "leeks": [
-          {
-            "id": 49742,
-            "name": "AgadeLeek3",
-            "level": 301,
-            "farmer": 44975,
-            "farmer_name": "Agade"
-          }
-        ],
-        "total_level": 301,
-        "turns": 8,
-        "date": 1775037619,
-        "key": "44975",
-        "leek_name": "AgadeLeek3",
-        "leek_level": 301,
-        "history": [
-          {
-            "fight_id": 52003493,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 8,
-            "date": 1775037619
-          }
-        ]
-      },
-      {
-        "fight_id": 52194802,
+        "fight_id": 52361264,
         "fight_type": 0,
         "farmer_name": "Legumatore",
         "farmer_id": 97006,
@@ -1803,12 +1640,19 @@
           }
         ],
         "total_level": 301,
-        "turns": 8,
-        "date": 1776715743,
+        "turns": 7,
+        "date": 1778264795,
         "key": "97006",
         "leek_name": "L\u00e9gumesTr\u00e9sBon",
         "leek_level": 301,
         "history": [
+          {
+            "fight_id": 52361264,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 7,
+            "date": 1778264795
+          },
           {
             "fight_id": 52194802,
             "total_level": 301,
@@ -1997,6 +1841,176 @@
             "total_capital": null,
             "turns": 48,
             "date": 1775838367
+          }
+        ]
+      },
+      {
+        "fight_id": 51905755,
+        "fight_type": 0,
+        "farmer_name": "BlackSlash",
+        "farmer_id": 19932,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 23362,
+            "name": "BlueSlash",
+            "level": 301,
+            "farmer": 19932,
+            "farmer_name": "BlackSlash"
+          }
+        ],
+        "total_level": 301,
+        "turns": 8,
+        "date": 1774179016,
+        "key": "19932",
+        "leek_name": "BlueSlash",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51905755,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 8,
+            "date": 1774179016
+          },
+          {
+            "fight_id": 52243475,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 12,
+            "date": 1777124498
+          },
+          {
+            "fight_id": 51933893,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 17,
+            "date": 1774436414
+          },
+          {
+            "fight_id": 52201919,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 32,
+            "date": 1776780571
+          },
+          {
+            "fight_id": 51858831,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 39,
+            "date": 1773837007
+          },
+          {
+            "fight_id": 52243470,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 43,
+            "date": 1777124491
+          },
+          {
+            "fight_id": 51924724,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 48,
+            "date": 1774351804
+          },
+          {
+            "fight_id": 52005952,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 48,
+            "date": 1775052364
+          },
+          {
+            "fight_id": 52005950,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 48,
+            "date": 1775052361
+          },
+          {
+            "fight_id": 52053706,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 50,
+            "date": 1775475006
+          },
+          {
+            "fight_id": 52262841,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 51,
+            "date": 1777300067
+          },
+          {
+            "fight_id": 52201925,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 53,
+            "date": 1776780577
+          }
+        ]
+      },
+      {
+        "fight_id": 51953797,
+        "fight_type": 0,
+        "farmer_name": "WhiteSlash",
+        "farmer_id": 512,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 11942,
+            "name": "Veggy",
+            "level": 301,
+            "farmer": 512,
+            "farmer_name": "WhiteSlash"
+          }
+        ],
+        "total_level": 301,
+        "turns": 8,
+        "date": 1774611005,
+        "key": "512",
+        "leek_name": "Veggy",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 51953797,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 8,
+            "date": 1774611005
+          }
+        ]
+      },
+      {
+        "fight_id": 52003493,
+        "fight_type": 0,
+        "farmer_name": "Agade",
+        "farmer_id": 44975,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 49742,
+            "name": "AgadeLeek3",
+            "level": 301,
+            "farmer": 44975,
+            "farmer_name": "Agade"
+          }
+        ],
+        "total_level": 301,
+        "turns": 8,
+        "date": 1775037619,
+        "key": "44975",
+        "leek_name": "AgadeLeek3",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 52003493,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 8,
+            "date": 1775037619
           }
         ]
       },
@@ -2663,6 +2677,13 @@
             "date": 1777573493
           },
           {
+            "fight_id": 52361186,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 8,
+            "date": 1778264407
+          },
+          {
             "fight_id": 52169244,
             "total_level": 301,
             "total_capital": null,
@@ -2703,6 +2724,13 @@
             "total_capital": null,
             "turns": 9,
             "date": 1777669407
+          },
+          {
+            "fight_id": 52361663,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 9,
+            "date": 1778268993
           },
           {
             "fight_id": 52012389,
@@ -10782,6 +10810,64 @@
       ]
     },
     {
+      "fight_id": 52361537,
+      "fight_type": 2,
+      "farmer_name": "Efr",
+      "farmer_id": 75627,
+      "team_name": "[ComponentRush]",
+      "leeks": [
+        {
+          "id": 103273,
+          "name": "Course\u00c0Pied",
+          "level": 301,
+          "farmer": 75627,
+          "farmer_name": "Efr"
+        },
+        {
+          "id": 103278,
+          "name": "\u00c9rudiw",
+          "level": 301,
+          "farmer": 97547,
+          "farmer_name": "Poliw"
+        },
+        {
+          "id": 103350,
+          "name": "MimiVedi",
+          "level": 301,
+          "farmer": 97544,
+          "farmer_name": "MimItems"
+        },
+        {
+          "id": 103303,
+          "name": "P\u00e9piteDOr",
+          "level": 301,
+          "farmer": 97543,
+          "farmer_name": "NewSlash"
+        },
+        {
+          "id": 103106,
+          "name": "DareDare",
+          "level": 301,
+          "farmer": 97564,
+          "farmer_name": "dardar"
+        }
+      ],
+      "total_level": 1505,
+      "turns": 10,
+      "date": 1778266867,
+      "key": "75627",
+      "leek_names": "Course\u00c0Pied, \u00c9rudiw, MimiVedi, P\u00e9piteDOr, DareDare",
+      "history": [
+        {
+          "fight_id": 52361537,
+          "total_level": 1505,
+          "total_capital": null,
+          "turns": 10,
+          "date": 1778266867
+        }
+      ]
+    },
+    {
       "fight_id": 51937951,
       "fight_type": 2,
       "farmer_name": "SachaBougPalette",
@@ -13886,8 +13972,8 @@
     "32858": {
       "id": 32858,
       "name": "Joalien",
-      "talent": 6404,
-      "ranking": 19,
+      "talent": 6390,
+      "ranking": 20,
       "country": "ps",
       "total_level": 1204,
       "trophies": 289,
@@ -13932,7 +14018,7 @@
           "id": 57902,
           "name": "LeeckyLuck",
           "level": 301,
-          "talent": 3168,
+          "talent": 3189,
           "life": 3520,
           "tp": 26,
           "mp": 7,
@@ -13973,7 +14059,7 @@
     "101978": {
       "id": 101978,
       "name": "Agade2",
-      "talent": 6093,
+      "talent": 6096,
       "ranking": null,
       "country": "ch",
       "total_level": 1204,
@@ -14317,8 +14403,8 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6450,
-      "ranking": 17,
+      "talent": 6405,
+      "ranking": 19,
       "country": null,
       "total_level": 1204,
       "trophies": 280,
@@ -15164,7 +15250,7 @@
           "id": 40322,
           "name": "KyoShinZamurato",
           "level": 301,
-          "talent": 3169,
+          "talent": 3160,
           "life": 2830,
           "tp": 27,
           "mp": 7,
@@ -15188,7 +15274,7 @@
       "id": 76431,
       "name": "BeatrixPotter",
       "talent": 6197,
-      "ranking": 23,
+      "ranking": 24,
       "country": "gb",
       "total_level": 1204,
       "trophies": 246,
@@ -15970,8 +16056,8 @@
     "76473": {
       "id": 76473,
       "name": "galactichitchleeker",
-      "talent": 6434,
-      "ranking": 18,
+      "talent": 6444,
+      "ranking": 17,
       "country": null,
       "total_level": 1204,
       "trophies": 270,
@@ -16190,7 +16276,7 @@
           "id": 131326,
           "name": "Claudios",
           "level": 301,
-          "talent": 3342,
+          "talent": 3361,
           "life": 3270,
           "tp": 26,
           "mp": 7,
@@ -16208,7 +16294,7 @@
           "id": 131380,
           "name": "Claudies",
           "level": 301,
-          "talent": 3185,
+          "talent": 3177,
           "life": 2740,
           "tp": 26,
           "mp": 6,
@@ -16318,7 +16404,7 @@
     "8414": {
       "id": 8414,
       "name": "FdHP",
-      "talent": 5679,
+      "talent": 5674,
       "ranking": 37,
       "country": "is",
       "total_level": 1204,
@@ -16492,7 +16578,7 @@
     "86242": {
       "id": 86242,
       "name": "thaddee",
-      "talent": 4060,
+      "talent": 4075,
       "ranking": 71,
       "country": "ps",
       "total_level": 1204,
@@ -16901,7 +16987,7 @@
     "97006": {
       "id": 97006,
       "name": "Legumatore",
-      "talent": 4063,
+      "talent": 4048,
       "ranking": null,
       "country": "ps",
       "total_level": 1204,
@@ -16948,24 +17034,24 @@
           "name": "FruitBon",
           "level": 301,
           "talent": 2602,
-          "life": 3320,
-          "tp": 25,
-          "mp": 6,
-          "strength": 500,
-          "agility": 0,
-          "wisdom": 550,
-          "resistance": 500,
-          "science": 130,
-          "magic": 40,
-          "frequency": 170,
-          "cores": 8,
-          "ram": 23
+          "life": 2980,
+          "tp": 27,
+          "mp": 5,
+          "strength": 480,
+          "agility": 120,
+          "wisdom": 470,
+          "resistance": 470,
+          "science": 110,
+          "magic": 230,
+          "frequency": 160,
+          "cores": 4,
+          "ram": 21
         },
         "105671": {
           "id": 105671,
           "name": "L\u00e9gumesTr\u00e9sBon",
           "level": 301,
-          "talent": 3388,
+          "talent": 3314,
           "life": 3070,
           "tp": 25,
           "mp": 7,
@@ -17663,97 +17749,10 @@
         "name": "Senjougahara"
       }
     },
-    "97545": {
-      "id": 97545,
-      "name": "BabyKraspen",
-      "talent": 5830,
-      "ranking": 32,
-      "country": "jp",
-      "total_level": 1204,
-      "trophies": 286,
-      "leeks": {
-        "103084": {
-          "id": 103084,
-          "name": "BabyKraton",
-          "level": 301,
-          "talent": 2740,
-          "life": 3070,
-          "tp": 27,
-          "mp": 6,
-          "strength": 0,
-          "agility": 300,
-          "wisdom": 500,
-          "resistance": 400,
-          "science": 90,
-          "magic": 550,
-          "frequency": 180,
-          "cores": 18,
-          "ram": 25
-        },
-        "103157": {
-          "id": 103157,
-          "name": "BabyKrasseux",
-          "level": 301,
-          "talent": 2775,
-          "life": 3054,
-          "tp": 27,
-          "mp": 6,
-          "strength": 0,
-          "agility": 280,
-          "wisdom": 500,
-          "resistance": 440,
-          "science": 90,
-          "magic": 542,
-          "frequency": 180,
-          "cores": 18,
-          "ram": 25
-        },
-        "103328": {
-          "id": 103328,
-          "name": "BabyKrapule",
-          "level": 301,
-          "talent": 2921,
-          "life": 3054,
-          "tp": 27,
-          "mp": 7,
-          "strength": 0,
-          "agility": 280,
-          "wisdom": 500,
-          "resistance": 400,
-          "science": 90,
-          "magic": 532,
-          "frequency": 180,
-          "cores": 18,
-          "ram": 25
-        },
-        "103559": {
-          "id": 103559,
-          "name": "BabyKraneur",
-          "level": 301,
-          "talent": 2787,
-          "life": 3054,
-          "tp": 27,
-          "mp": 7,
-          "strength": 0,
-          "agility": 280,
-          "wisdom": 500,
-          "resistance": 400,
-          "science": 90,
-          "magic": 532,
-          "frequency": 180,
-          "cores": 18,
-          "ram": 25
-        }
-      },
-      "team": {
-        "id": 9480,
-        "name": "ComponentRush"
-      }
-    },
     "97544": {
       "id": 97544,
       "name": "MimItems",
-      "talent": 5698,
+      "talent": 5688,
       "ranking": 35,
       "country": null,
       "total_level": 1204,
@@ -17830,6 +17829,93 @@
           "frequency": 180,
           "cores": 4,
           "ram": 20
+        }
+      },
+      "team": {
+        "id": 9480,
+        "name": "ComponentRush"
+      }
+    },
+    "97545": {
+      "id": 97545,
+      "name": "BabyKraspen",
+      "talent": 5794,
+      "ranking": 31,
+      "country": "jp",
+      "total_level": 1204,
+      "trophies": 286,
+      "leeks": {
+        "103084": {
+          "id": 103084,
+          "name": "BabyKraton",
+          "level": 301,
+          "talent": 2740,
+          "life": 3070,
+          "tp": 27,
+          "mp": 6,
+          "strength": 0,
+          "agility": 300,
+          "wisdom": 500,
+          "resistance": 400,
+          "science": 90,
+          "magic": 550,
+          "frequency": 180,
+          "cores": 18,
+          "ram": 25
+        },
+        "103157": {
+          "id": 103157,
+          "name": "BabyKrasseux",
+          "level": 301,
+          "talent": 2775,
+          "life": 3054,
+          "tp": 27,
+          "mp": 6,
+          "strength": 0,
+          "agility": 280,
+          "wisdom": 500,
+          "resistance": 440,
+          "science": 90,
+          "magic": 542,
+          "frequency": 180,
+          "cores": 18,
+          "ram": 25
+        },
+        "103328": {
+          "id": 103328,
+          "name": "BabyKrapule",
+          "level": 301,
+          "talent": 2921,
+          "life": 3054,
+          "tp": 27,
+          "mp": 7,
+          "strength": 0,
+          "agility": 280,
+          "wisdom": 500,
+          "resistance": 400,
+          "science": 90,
+          "magic": 532,
+          "frequency": 180,
+          "cores": 18,
+          "ram": 25
+        },
+        "103559": {
+          "id": 103559,
+          "name": "BabyKraneur",
+          "level": 301,
+          "talent": 2787,
+          "life": 3054,
+          "tp": 27,
+          "mp": 7,
+          "strength": 0,
+          "agility": 280,
+          "wisdom": 500,
+          "resistance": 400,
+          "science": 90,
+          "magic": 532,
+          "frequency": 180,
+          "cores": 18,
+          "ram": 25
         }
       },
       "team": {
@@ -18566,73 +18652,91 @@
         "name": "Hanekawa"
       }
     },
-    "18717": {
-      "id": 18717,
-      "name": "GrimReaper666",
-      "talent": 3232,
-      "ranking": 110,
-      "country": "fr",
-      "total_level": 903,
-      "trophies": 279,
+    "97564": {
+      "id": 97564,
+      "name": "dardar",
+      "talent": 2500,
+      "ranking": 195,
+      "country": null,
+      "total_level": 1204,
+      "trophies": 232,
       "leeks": {
-        "21233": {
-          "id": 21233,
-          "name": "MagicienSombre",
+        "103106": {
+          "id": 103106,
+          "name": "DareDare",
           "level": 301,
-          "talent": 2477,
-          "life": 3116,
-          "tp": 24,
+          "talent": 1613,
+          "life": 2610,
+          "tp": 19,
           "mp": 7,
-          "strength": 50,
-          "agility": 120,
-          "wisdom": 503,
-          "resistance": 383,
-          "science": 100,
-          "magic": 680,
+          "strength": 450,
+          "agility": 305,
+          "wisdom": 350,
+          "resistance": 220,
+          "science": 140,
+          "magic": 490,
           "frequency": 150,
-          "cores": 15,
-          "ram": 20
+          "cores": 6,
+          "ram": 22
         },
-        "22432": {
-          "id": 22432,
-          "name": "Kuriboh",
+        "103159": {
+          "id": 103159,
+          "name": "DurDur",
           "level": 301,
-          "talent": 2469,
-          "life": 3320,
-          "tp": 24,
+          "talent": 1731,
+          "life": 3315,
+          "tp": 19,
+          "mp": 5,
+          "strength": 510,
+          "agility": 330,
+          "wisdom": 530,
+          "resistance": 250,
+          "science": 180,
+          "magic": 50,
+          "frequency": 160,
+          "cores": 17,
+          "ram": 24
+        },
+        "103364": {
+          "id": 103364,
+          "name": "DiDonc",
+          "level": 301,
+          "talent": 1860,
+          "life": 3660,
+          "tp": 19,
           "mp": 7,
-          "strength": 70,
-          "agility": 80,
-          "wisdom": 503,
-          "resistance": 496,
-          "science": 100,
-          "magic": 603,
+          "strength": 510,
+          "agility": 320,
+          "wisdom": 470,
+          "resistance": 280,
+          "science": 160,
+          "magic": 130,
           "frequency": 150,
-          "cores": 15,
-          "ram": 20
+          "cores": 7,
+          "ram": 18
         },
-        "25054": {
-          "id": 25054,
-          "name": "Gyzarus",
+        "103615": {
+          "id": 103615,
+          "name": "DorDine",
           "level": 301,
-          "talent": 2442,
-          "life": 3120,
-          "tp": 25,
-          "mp": 7,
-          "strength": 100,
-          "agility": 80,
-          "wisdom": 545,
-          "resistance": 450,
-          "science": 100,
-          "magic": 595,
-          "frequency": 170,
-          "cores": 15,
-          "ram": 20
+          "talent": 1856,
+          "life": 3230,
+          "tp": 18,
+          "mp": 6,
+          "strength": 510,
+          "agility": 370,
+          "wisdom": 470,
+          "resistance": 50,
+          "science": 120,
+          "magic": 630,
+          "frequency": 140,
+          "cores": 5,
+          "ram": 16
         }
       },
       "team": {
-        "id": 2539,
-        "name": "LeeksTeam"
+        "id": 9480,
+        "name": "ComponentRush"
       }
     },
     "72990": {
@@ -18720,6 +18824,75 @@
       "team": {
         "id": 6737,
         "name": "DevBlanche"
+      }
+    },
+    "18717": {
+      "id": 18717,
+      "name": "GrimReaper666",
+      "talent": 3232,
+      "ranking": 110,
+      "country": "fr",
+      "total_level": 903,
+      "trophies": 279,
+      "leeks": {
+        "21233": {
+          "id": 21233,
+          "name": "MagicienSombre",
+          "level": 301,
+          "talent": 2477,
+          "life": 3116,
+          "tp": 24,
+          "mp": 7,
+          "strength": 50,
+          "agility": 120,
+          "wisdom": 503,
+          "resistance": 383,
+          "science": 100,
+          "magic": 680,
+          "frequency": 150,
+          "cores": 15,
+          "ram": 20
+        },
+        "22432": {
+          "id": 22432,
+          "name": "Kuriboh",
+          "level": 301,
+          "talent": 2469,
+          "life": 3320,
+          "tp": 24,
+          "mp": 7,
+          "strength": 70,
+          "agility": 80,
+          "wisdom": 503,
+          "resistance": 496,
+          "science": 100,
+          "magic": 603,
+          "frequency": 150,
+          "cores": 15,
+          "ram": 20
+        },
+        "25054": {
+          "id": 25054,
+          "name": "Gyzarus",
+          "level": 301,
+          "talent": 2442,
+          "life": 3120,
+          "tp": 25,
+          "mp": 7,
+          "strength": 100,
+          "agility": 80,
+          "wisdom": 545,
+          "resistance": 450,
+          "science": 100,
+          "magic": 595,
+          "frequency": 170,
+          "cores": 15,
+          "ram": 20
+        }
+      },
+      "team": {
+        "id": 2539,
+        "name": "LeeksTeam"
       }
     },
     "87850": {
@@ -18950,8 +19123,8 @@
     "124210": {
       "id": 124210,
       "name": "SachaBougPalette",
-      "talent": 6170,
-      "ranking": 25,
+      "talent": 6255,
+      "ranking": 23,
       "country": "fr",
       "total_level": 1204,
       "trophies": 265,
@@ -18960,7 +19133,7 @@
           "id": 130660,
           "name": "GeneralMamene",
           "level": 301,
-          "talent": 3513,
+          "talent": 3535,
           "life": 3160,
           "tp": 29,
           "mp": 8,
@@ -19436,8 +19609,8 @@
     "71485": {
       "id": 71485,
       "name": "BrocoliCosmique",
-      "talent": 5937,
-      "ranking": 29,
+      "talent": 6078,
+      "ranking": 28,
       "country": "ps",
       "total_level": 1204,
       "trophies": 298,
@@ -19523,8 +19696,8 @@
     "83260": {
       "id": 83260,
       "name": "FarmerIcarus",
-      "talent": 1774,
-      "ranking": 273,
+      "talent": 1792,
+      "ranking": 269,
       "country": "gb",
       "total_level": 947,
       "trophies": 226,
@@ -19923,7 +20096,7 @@
       "id": 53583,
       "name": "Tarama",
       "talent": 1272,
-      "ranking": 561,
+      "ranking": 562,
       "country": null,
       "total_level": 1204,
       "trophies": 220,
@@ -20705,8 +20878,8 @@
     "48992": {
       "id": 48992,
       "name": "Lmare",
-      "talent": 5781,
-      "ranking": 33,
+      "talent": 5730,
+      "ranking": 34,
       "country": "fr",
       "total_level": 1204,
       "trophies": 306,
@@ -20802,7 +20975,7 @@
           "id": 46733,
           "name": "JoeDalton",
           "level": 301,
-          "talent": 3209,
+          "talent": 3220,
           "life": 2630,
           "tp": 25,
           "mp": 5,
@@ -20820,7 +20993,7 @@
           "id": 51098,
           "name": "WilliamDalton",
           "level": 301,
-          "talent": 3228,
+          "talent": 3219,
           "life": 3270,
           "tp": 26,
           "mp": 5,
@@ -20838,7 +21011,7 @@
           "id": 51257,
           "name": "JackDalton",
           "level": 301,
-          "talent": 3265,
+          "talent": 3241,
           "life": 2420,
           "tp": 25,
           "mp": 6,
@@ -20880,7 +21053,7 @@
       "id": 66407,
       "name": "Magestik25",
       "talent": 6171,
-      "ranking": 24,
+      "ranking": 25,
       "country": null,
       "total_level": 1204,
       "trophies": 335,
@@ -21053,8 +21226,8 @@
     "98164": {
       "id": 98164,
       "name": "DrKouignamann",
-      "talent": 1126,
-      "ranking": 612,
+      "talent": 1113,
+      "ranking": 625,
       "country": null,
       "total_level": 1204,
       "trophies": 225,
@@ -21836,8 +22009,8 @@
     "106916": {
       "id": 106916,
       "name": "CHIPICEDBULB",
-      "talent": 1378,
-      "ranking": 484,
+      "talent": 1383,
+      "ranking": 481,
       "country": null,
       "total_level": 931,
       "trophies": 150,
@@ -21924,7 +22097,7 @@
       "id": 78250,
       "name": "Gandhictature",
       "talent": 6110,
-      "ranking": 27,
+      "ranking": 26,
       "country": "in",
       "total_level": 1204,
       "trophies": 325,
@@ -22010,8 +22183,8 @@
     "44975": {
       "id": 44975,
       "name": "Agade",
-      "talent": 6154,
-      "ranking": 26,
+      "talent": 6105,
+      "ranking": 27,
       "country": "ch",
       "total_level": 1204,
       "trophies": 261,
@@ -22491,7 +22664,7 @@
           "id": 131706,
           "name": "L\u00e9odaganDeCarm\u00e9lide",
           "level": 301,
-          "talent": 3515,
+          "talent": 3526,
           "life": 2930,
           "tp": 29,
           "mp": 8,
@@ -22862,8 +23035,8 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6280,
-      "ranking": 21,
+      "talent": 6320,
+      "ranking": 22,
       "country": null,
       "total_level": 1204,
       "trophies": 315,
@@ -23123,8 +23296,8 @@
     "58321": {
       "id": 58321,
       "name": "fujiwar",
-      "talent": 6370,
-      "ranking": 20,
+      "talent": 6411,
+      "ranking": 18,
       "country": "pe",
       "total_level": 1204,
       "trophies": 343,
@@ -23384,8 +23557,8 @@
     "76772": {
       "id": 76772,
       "name": "Kraspen",
-      "talent": 5995,
-      "ranking": 28,
+      "talent": 5852,
+      "ranking": 29,
       "country": "fm",
       "total_level": 1204,
       "trophies": 334,
@@ -23394,7 +23567,7 @@
           "id": 81638,
           "name": "Kraton",
           "level": 301,
-          "talent": 3232,
+          "talent": 3241,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -23412,7 +23585,7 @@
           "id": 81733,
           "name": "Krasseux",
           "level": 301,
-          "talent": 3212,
+          "talent": 3223,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -23448,7 +23621,7 @@
           "id": 82518,
           "name": "Kraneur",
           "level": 301,
-          "talent": 3378,
+          "talent": 3398,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -24591,8 +24764,8 @@
       "id": 51257,
       "name": "JackDalton",
       "level": 301,
-      "talent": 3265,
-      "ranking": 11,
+      "talent": 3241,
+      "ranking": 12,
       "life": 2420,
       "tp": 25,
       "mp": 6,
@@ -27196,8 +27369,8 @@
       "id": 131326,
       "name": "Claudios",
       "level": 301,
-      "talent": 3329,
-      "ranking": 10,
+      "talent": 3361,
+      "ranking": 9,
       "life": 3270,
       "tp": 26,
       "mp": 7,
@@ -30777,8 +30950,8 @@
       "id": 57902,
       "name": "LeeckyLuck",
       "level": 301,
-      "talent": 3168,
-      "ranking": 19,
+      "talent": 3189,
+      "ranking": 17,
       "life": 3520,
       "tp": 26,
       "mp": 7,
@@ -31276,8 +31449,8 @@
       "id": 82518,
       "name": "Kraneur",
       "level": 301,
-      "talent": 3378,
-      "ranking": 9,
+      "talent": 3398,
+      "ranking": 8,
       "life": 3465,
       "tp": 27,
       "mp": 7,
@@ -31907,7 +32080,7 @@
       "id": 131706,
       "name": "L\u00e9odaganDeCarm\u00e9lide",
       "level": 301,
-      "talent": 3515,
+      "talent": 3526,
       "ranking": 5,
       "life": 2930,
       "tp": 29,
@@ -32807,6 +32980,59 @@
         "seven_league_boots",
         "elevation",
         "therapy"
+      ]
+    },
+    "103106": {
+      "id": 103106,
+      "name": "DareDare",
+      "level": 301,
+      "talent": 1613,
+      "ranking": 1146,
+      "life": 2610,
+      "tp": 19,
+      "mp": 7,
+      "strength": 450,
+      "agility": 305,
+      "wisdom": 350,
+      "resistance": 220,
+      "science": 140,
+      "magic": 490,
+      "frequency": 150,
+      "cores": 6,
+      "ram": 22,
+      "farmer": {
+        "id": 97564,
+        "name": "dardar"
+      },
+      "weapons": [
+        "flame_thrower",
+        "grenade_launcher",
+        "heavy_sword",
+        "m_laser"
+      ],
+      "chips": [
+        "protein",
+        "motivation",
+        "spark",
+        "leather_boots",
+        "flash",
+        "shield",
+        "venom",
+        "stalactite",
+        "armoring",
+        "armor",
+        "rockfall",
+        "vaccine",
+        "regeneration",
+        "toxin",
+        "steroid",
+        "meteorite",
+        "remission",
+        "lightning",
+        "plague",
+        "wizard_bulb",
+        "elevation",
+        "arsenic"
       ]
     },
     "107203": {
@@ -33910,7 +34136,7 @@
       "name": "ArthurRoiDeBretagne",
       "level": 301,
       "talent": 3228,
-      "ranking": 14,
+      "ranking": 13,
       "life": 2930,
       "tp": 29,
       "mp": 8,
@@ -34955,6 +35181,55 @@
         "therapy"
       ]
     },
+    "103273": {
+      "id": 103273,
+      "name": "Course\u00c0Pied",
+      "level": 301,
+      "talent": 2836,
+      "ranking": 56,
+      "life": 3275,
+      "tp": 26,
+      "mp": 5,
+      "strength": 50,
+      "agility": 240,
+      "wisdom": 230,
+      "resistance": 120,
+      "science": 90,
+      "magic": 900,
+      "frequency": 160,
+      "cores": 15,
+      "ram": 18,
+      "farmer": {
+        "id": 75627,
+        "name": "Efr"
+      },
+      "weapons": [
+        "double_gun",
+        "flame_thrower",
+        "gazor",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "motivation",
+        "leather_boots",
+        "knowledge",
+        "jump",
+        "vaccine",
+        "prism",
+        "antidote",
+        "regeneration",
+        "soporific",
+        "manumission",
+        "wizardry",
+        "ball_and_chain",
+        "serum",
+        "teleportation",
+        "covid",
+        "elevation",
+        "fracture",
+        "arsenic"
+      ]
+    },
     "107373": {
       "id": 107373,
       "name": "SuperiorAlliumPorrum",
@@ -35000,6 +35275,53 @@
         "remission",
         "plague",
         "elevation"
+      ]
+    },
+    "103278": {
+      "id": 103278,
+      "name": "\u00c9rudiw",
+      "level": 301,
+      "talent": 1746,
+      "ranking": 964,
+      "life": 3120,
+      "tp": 19,
+      "mp": 5,
+      "strength": 460,
+      "agility": 350,
+      "wisdom": 360,
+      "resistance": 280,
+      "science": 70,
+      "magic": 0,
+      "frequency": 170,
+      "cores": 11,
+      "ram": 16,
+      "farmer": {
+        "id": 97547,
+        "name": "Poliw"
+      },
+      "weapons": [
+        "sword",
+        "rhino",
+        "enhanced_lightninger",
+        "heavy_sword"
+      ],
+      "chips": [
+        "motivation",
+        "cure",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "jump",
+        "armor",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress"
       ]
     },
     "881": {
@@ -35415,6 +35737,65 @@
         "bramble"
       ]
     },
+    "103303": {
+      "id": 103303,
+      "name": "P\u00e9piteDOr",
+      "level": 301,
+      "talent": 2717,
+      "ranking": 135,
+      "life": 3370,
+      "tp": 27,
+      "mp": 6,
+      "strength": 0,
+      "agility": 30,
+      "wisdom": 400,
+      "resistance": 400,
+      "science": 90,
+      "magic": 600,
+      "frequency": 160,
+      "cores": 15,
+      "ram": 28,
+      "farmer": {
+        "id": 97543,
+        "name": "NewSlash"
+      },
+      "weapons": [
+        "flame_thrower",
+        "b_laser",
+        "mysterious_electrisor",
+        "gazor"
+      ],
+      "chips": [
+        "wall",
+        "knowledge",
+        "solidification",
+        "jump",
+        "armor",
+        "vaccine",
+        "antidote",
+        "rampart",
+        "grapple",
+        "regeneration",
+        "toxin",
+        "boxing_glove",
+        "carapace",
+        "soporific",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "wizardry",
+        "ball_and_chain",
+        "fortress",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "dome",
+        "arsenic",
+        "resurrection"
+      ]
+    },
     "39820": {
       "id": 39820,
       "name": "Lamastico",
@@ -35733,6 +36114,57 @@
         "elevation",
         "fracture",
         "arsenic"
+      ]
+    },
+    "103350": {
+      "id": 103350,
+      "name": "MimiVedi",
+      "level": 301,
+      "talent": 2386,
+      "ranking": 282,
+      "life": 2900,
+      "tp": 27,
+      "mp": 6,
+      "strength": 556,
+      "agility": 390,
+      "wisdom": 570,
+      "resistance": 0,
+      "science": 110,
+      "magic": 106,
+      "frequency": 180,
+      "cores": 4,
+      "ram": 20,
+      "farmer": {
+        "id": 97544,
+        "name": "MimItems"
+      },
+      "weapons": [
+        "unstable_destroyer",
+        "bazooka",
+        "rhino",
+        "katana"
+      ],
+      "chips": [
+        "bandage",
+        "protein",
+        "motivation",
+        "knowledge",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "vaccine",
+        "prism",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "adrenaline",
+        "remission",
+        "serum",
+        "teleportation",
+        "elevation",
+        "metallic_bulb"
       ]
     },
     "105407": {
@@ -36813,7 +37245,7 @@
       "name": "MomentParfait",
       "level": 230,
       "talent": 870,
-      "ranking": 3517,
+      "ranking": 3518,
       "life": 2137,
       "tp": 20,
       "mp": 5,
@@ -38416,8 +38848,8 @@
       "id": 105671,
       "name": "L\u00e9gumesTr\u00e9sBon",
       "level": 301,
-      "talent": 3390,
-      "ranking": 8,
+      "talent": 3314,
+      "ranking": 10,
       "life": 3070,
       "tp": 25,
       "mp": 7,
@@ -40297,8 +40729,8 @@
       "id": 40322,
       "name": "KyoShinZamurato",
       "level": 301,
-      "talent": 3169,
-      "ranking": 18,
+      "talent": 3160,
+      "ranking": 19,
       "life": 2830,
       "tp": 27,
       "mp": 7,
@@ -40834,7 +41266,7 @@
       "name": "Po\u00e9sieBucoleek",
       "level": 301,
       "talent": 733,
-      "ranking": 3928,
+      "ranking": 3929,
       "life": 3105,
       "tp": 26,
       "mp": 7,
@@ -42785,7 +43217,7 @@
       "id": 130660,
       "name": "GeneralMamene",
       "level": 301,
-      "talent": 3524,
+      "talent": 3535,
       "ranking": 4,
       "life": 3160,
       "tp": 29,
@@ -43008,8 +43440,8 @@
       "id": 46733,
       "name": "JoeDalton",
       "level": 301,
-      "talent": 3209,
-      "ranking": 16,
+      "talent": 3220,
+      "ranking": 15,
       "life": 2630,
       "tp": 25,
       "mp": 5,
@@ -44139,8 +44571,8 @@
       "id": 81638,
       "name": "Kraton",
       "level": 301,
-      "talent": 3232,
-      "ranking": 12,
+      "talent": 3241,
+      "ranking": 11,
       "life": 3465,
       "tp": 27,
       "mp": 7,
@@ -44990,8 +45422,8 @@
       "id": 81733,
       "name": "Krasseux",
       "level": 301,
-      "talent": 3212,
-      "ranking": 15,
+      "talent": 3223,
+      "ranking": 14,
       "life": 3465,
       "tp": 27,
       "mp": 7,
@@ -45841,8 +46273,8 @@
       "id": 51098,
       "name": "WilliamDalton",
       "level": 301,
-      "talent": 3228,
-      "ranking": 13,
+      "talent": 3219,
+      "ranking": 16,
       "life": 3270,
       "tp": 26,
       "mp": 5,
