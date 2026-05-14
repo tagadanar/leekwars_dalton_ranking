@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T20:33:49.069421+00:00",
+  "last_updated": "2026-05-14T22:10:50.999044+00:00",
   "daltons": {
     "46733": [
       {
@@ -11090,6 +11090,13 @@
           "date": 1774386001
         },
         {
+          "fight_id": 52414832,
+          "total_level": 1505,
+          "total_capital": null,
+          "turns": 16,
+          "date": 1778790630
+        },
+        {
           "fight_id": 51815791,
           "total_level": 1505,
           "turns": 17,
@@ -13846,8 +13853,8 @@
     "48": {
       "id": 48,
       "name": "Skouarniek",
-      "talent": 2170,
-      "ranking": 210,
+      "talent": 2155,
+      "ranking": 214,
       "country": "mt",
       "total_level": 1204,
       "trophies": 202,
@@ -16434,7 +16441,7 @@
     "97950": {
       "id": 97950,
       "name": "Arcannos",
-      "talent": 2824,
+      "talent": 2809,
       "ranking": 142,
       "country": "fr",
       "total_level": 1203,
@@ -17373,7 +17380,7 @@
       "ranking": 121,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 256,
+      "trophies": 257,
       "leeks": {
         "64335": {
           "id": 64335,
@@ -20423,7 +20430,7 @@
       "id": 124738,
       "name": "DeKleek",
       "talent": 2819,
-      "ranking": 143,
+      "ranking": 142,
       "country": "fr",
       "total_level": 1013,
       "trophies": 205,
@@ -20735,7 +20742,7 @@
       "id": 53583,
       "name": "Tarama",
       "talent": 1202,
-      "ranking": 572,
+      "ranking": 571,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -21866,7 +21873,7 @@
       "id": 98164,
       "name": "DrKouignamann",
       "talent": 1097,
-      "ranking": 667,
+      "ranking": 666,
       "country": "fr",
       "total_level": 1204,
       "trophies": 225,
@@ -22562,7 +22569,7 @@
       "id": 42915,
       "name": "LeeKidder",
       "talent": 2636,
-      "ranking": 156,
+      "ranking": 157,
       "country": "fr",
       "total_level": 1204,
       "trophies": 252,
@@ -22648,8 +22655,8 @@
     "106916": {
       "id": 106916,
       "name": "CHIPICEDBULB",
-      "talent": 1395,
-      "ranking": 467,
+      "talent": 1409,
+      "ranking": 462,
       "country": "fr",
       "total_level": 932,
       "trophies": 150,
@@ -22909,8 +22916,8 @@
     "84405": {
       "id": 84405,
       "name": "Thidus",
-      "talent": 2168,
-      "ranking": 211,
+      "talent": 2183,
+      "ranking": 210,
       "country": "fr",
       "total_level": 1204,
       "trophies": 258,
@@ -31960,7 +31967,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 449,
-      "ranking": 6977,
+      "ranking": 6978,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -37936,7 +37943,7 @@
       "name": "MomentParfait",
       "level": 230,
       "talent": 861,
-      "ranking": 3496,
+      "ranking": 3498,
       "life": 2137,
       "tp": 20,
       "mp": 5,
