@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T21:59:26.810768+00:00",
+  "last_updated": "2026-05-15T22:54:41.226922+00:00",
   "daltons": {
     "46733": [
       {
@@ -14915,7 +14915,7 @@
       "id": 88167,
       "name": "mort",
       "talent": 2609,
-      "ranking": 160,
+      "ranking": 159,
       "country": "fr",
       "total_level": 1125,
       "trophies": 214,
@@ -15867,8 +15867,8 @@
     "40076": {
       "id": 40076,
       "name": "bibimission",
-      "talent": 2702,
-      "ranking": 151,
+      "talent": 2699,
+      "ranking": 150,
       "country": "dk",
       "total_level": 1204,
       "trophies": 269,
@@ -16563,8 +16563,8 @@
     "97950": {
       "id": 97950,
       "name": "Arcannos",
-      "talent": 2794,
-      "ranking": 145,
+      "talent": 2747,
+      "ranking": 148,
       "country": "fr",
       "total_level": 1203,
       "trophies": 237,
@@ -20552,7 +20552,7 @@
       "id": 124738,
       "name": "DeKleek",
       "talent": 2812,
-      "ranking": 144,
+      "ranking": 145,
       "country": "fr",
       "total_level": 1013,
       "trophies": 205,
@@ -22690,7 +22690,7 @@
     "42915": {
       "id": 42915,
       "name": "LeeKidder",
-      "talent": 2664,
+      "talent": 2657,
       "ranking": 154,
       "country": "fr",
       "total_level": 1204,
@@ -23299,8 +23299,8 @@
     "79295": {
       "id": 79295,
       "name": "TPE1",
-      "talent": 2880,
-      "ranking": 137,
+      "talent": 2892,
+      "ranking": 134,
       "country": "fr",
       "total_level": 1202,
       "trophies": 235,
@@ -31366,7 +31366,7 @@
       "name": "Portevoix",
       "level": 150,
       "talent": 784,
-      "ranking": 3614,
+      "ranking": 3615,
       "life": 1667,
       "tp": 14,
       "mp": 6,
@@ -38065,7 +38065,7 @@
       "name": "MomentParfait",
       "level": 230,
       "talent": 874,
-      "ranking": 3485,
+      "ranking": 3486,
       "life": 2137,
       "tp": 20,
       "mp": 5,
