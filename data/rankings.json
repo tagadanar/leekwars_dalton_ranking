@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T20:48:59.769761+00:00",
+  "last_updated": "2026-05-16T21:50:01.492385+00:00",
   "daltons": {
     "46733": [
       {
@@ -7939,6 +7939,13 @@
           "date": 1777637208
         },
         {
+          "fight_id": 52426341,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1778963916
+        },
+        {
           "fight_id": 52246417,
           "total_level": 1204,
           "total_capital": null,
@@ -8210,6 +8217,13 @@
           "total_capital": null,
           "turns": 31,
           "date": 1778797569
+        },
+        {
+          "fight_id": 52426337,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 32,
+          "date": 1778963905
         },
         {
           "fight_id": 52374436,
@@ -9974,11 +9988,25 @@
           "date": 1778196443
         },
         {
+          "fight_id": 52426436,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 14,
+          "date": 1778966346
+        },
+        {
           "fight_id": 52257781,
           "total_level": 1204,
           "total_capital": null,
           "turns": 17,
           "date": 1777237951
+        },
+        {
+          "fight_id": 52426420,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 17,
+          "date": 1778966328
         },
         {
           "fight_id": 52257770,
@@ -10000,6 +10028,13 @@
           "total_capital": null,
           "turns": 20,
           "date": 1776546278
+        },
+        {
+          "fight_id": 52426438,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 22,
+          "date": 1778966348
         },
         {
           "fight_id": 52211491,
@@ -10098,6 +10133,13 @@
           "total_capital": null,
           "turns": 30,
           "date": 1778618865
+        },
+        {
+          "fight_id": 52426451,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 33,
+          "date": 1778966373
         },
         {
           "fight_id": 51941502,
@@ -13794,8 +13836,8 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 6993,
-      "ranking": 8,
+      "talent": 7064,
+      "ranking": 6,
       "country": "fr",
       "total_level": 1204,
       "trophies": 340,
@@ -16034,7 +16076,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7285,
+      "talent": 7274,
       "ranking": 3,
       "country": "fr",
       "total_level": 1204,
@@ -16208,8 +16250,8 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7119,
-      "ranking": 5,
+      "talent": 7016,
+      "ranking": 7,
       "country": "fr",
       "total_level": 1204,
       "trophies": 335,
@@ -18165,7 +18207,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7198,
+      "talent": 7263,
       "ranking": 4,
       "country": "dj",
       "total_level": 1204,
@@ -18861,7 +18903,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6848,
+      "talent": 6852,
       "ranking": 10,
       "country": "fr",
       "total_level": 1204,
@@ -20370,7 +20412,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 6913,
+      "talent": 6911,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -21813,8 +21855,8 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7028,
-      "ranking": 7,
+      "talent": 7111,
+      "ranking": 5,
       "country": "fr",
       "total_level": 1204,
       "trophies": 280,
@@ -22161,8 +22203,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7121,
-      "ranking": 5,
+      "talent": 7005,
+      "ranking": 8,
       "country": null,
       "total_level": 1204,
       "trophies": 335,
@@ -22858,7 +22900,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1399,
-      "ranking": 463,
+      "ranking": 464,
       "country": "fr",
       "total_level": 933,
       "trophies": 150,
@@ -24670,7 +24712,7 @@
       "ranking": 17,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 288,
+      "trophies": 289,
       "leeks": {
         "59993": {
           "id": 59993,
