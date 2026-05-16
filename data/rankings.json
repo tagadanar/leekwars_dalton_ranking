@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T20:06:57.629790+00:00",
+  "last_updated": "2026-05-16T20:48:59.769761+00:00",
   "daltons": {
     "46733": [
       {
@@ -16034,7 +16034,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7247,
+      "talent": 7285,
       "ranking": 3,
       "country": "fr",
       "total_level": 1204,
@@ -16208,7 +16208,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7132,
+      "talent": 7119,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -18165,7 +18165,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7193,
+      "talent": 7198,
       "ranking": 4,
       "country": "dj",
       "total_level": 1204,
@@ -21813,7 +21813,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7049,
+      "talent": 7028,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -22162,7 +22162,7 @@
       "id": 76155,
       "name": "fabou",
       "talent": 7121,
-      "ranking": 6,
+      "ranking": 5,
       "country": null,
       "total_level": 1204,
       "trophies": 335,
@@ -47693,7 +47693,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 214,
       "talent": 344,
-      "ranking": 9117,
+      "ranking": 9116,
       "life": 2001,
       "tp": 17,
       "mp": 6,
