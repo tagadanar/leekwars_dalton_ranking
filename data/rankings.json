@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T17:57:18.777446+00:00",
+  "last_updated": "2026-05-16T18:59:23.814967+00:00",
   "daltons": {
     "46733": [
       {
@@ -8762,6 +8762,13 @@
           "date": 1778250247
         },
         {
+          "fight_id": 52425676,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 17,
+          "date": 1778954402
+        },
+        {
           "fight_id": 52263027,
           "total_level": 1204,
           "total_capital": null,
@@ -13457,7 +13464,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7682,
+      "talent": 7684,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -15419,7 +15426,7 @@
       "id": 19070,
       "name": "Amal",
       "talent": 6471,
-      "ranking": 17,
+      "ranking": 18,
       "country": "jp",
       "total_level": 1204,
       "trophies": 303,
@@ -16027,7 +16034,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7235,
+      "talent": 7247,
       "ranking": 3,
       "country": "fr",
       "total_level": 1204,
@@ -16201,7 +16208,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7144,
+      "talent": 7132,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -16439,7 +16446,7 @@
           "id": 131870,
           "name": "koe4",
           "level": 50,
-          "talent": 1212,
+          "talent": 1237,
           "life": 707,
           "tp": 12,
           "mp": 6,
@@ -20624,8 +20631,8 @@
     "124738": {
       "id": 124738,
       "name": "DeKleek",
-      "talent": 2834,
-      "ranking": 144,
+      "talent": 2850,
+      "ranking": 142,
       "country": "fr",
       "total_level": 1013,
       "trophies": 205,
@@ -20937,7 +20944,7 @@
       "id": 53583,
       "name": "Tarama",
       "talent": 1153,
-      "ranking": 584,
+      "ranking": 583,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -21284,8 +21291,8 @@
     "124760": {
       "id": 124760,
       "name": "Kleekteek",
-      "talent": 2858,
-      "ranking": 140,
+      "talent": 2842,
+      "ranking": 144,
       "country": "fr",
       "total_level": 1020,
       "trophies": 204,
@@ -21806,7 +21813,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7051,
+      "talent": 7049,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -23024,7 +23031,7 @@
     "44975": {
       "id": 44975,
       "name": "Agade",
-      "talent": 6100,
+      "talent": 6095,
       "ranking": 26,
       "country": "ch",
       "total_level": 1204,
@@ -24137,7 +24144,7 @@
     "58321": {
       "id": 58321,
       "name": "fujiwar",
-      "talent": 6471,
+      "talent": 6476,
       "ranking": 17,
       "country": "pe",
       "total_level": 1204,
@@ -27824,7 +27831,7 @@
       "name": "Moonpok",
       "level": 301,
       "talent": 1216,
-      "ranking": 2474,
+      "ranking": 2475,
       "life": 2427,
       "tp": 18,
       "mp": 5,
@@ -34987,8 +34994,8 @@
       "id": 131870,
       "name": "koe4",
       "level": 50,
-      "talent": 1212,
-      "ranking": 2556,
+      "talent": 1237,
+      "ranking": 2267,
       "life": 707,
       "tp": 12,
       "mp": 6,
@@ -39075,7 +39082,7 @@
       "name": "Tartar",
       "level": 301,
       "talent": 1213,
-      "ranking": 2545,
+      "ranking": 2546,
       "life": 2170,
       "tp": 23,
       "mp": 7,
@@ -43681,7 +43688,7 @@
       "name": "TSoni",
       "level": 250,
       "talent": 1229,
-      "ranking": 2319,
+      "ranking": 2320,
       "life": 1557,
       "tp": 23,
       "mp": 6,
