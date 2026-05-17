@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T17:59:08.046726+00:00",
+  "last_updated": "2026-05-17T19:03:52.288479+00:00",
   "daltons": {
     "46733": [
       {
@@ -8979,6 +8979,13 @@
           "date": 1778250245
         },
         {
+          "fight_id": 52433384,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 26,
+          "date": 1779040801
+        },
+        {
           "fight_id": 52113035,
           "total_level": 1204,
           "total_capital": null,
@@ -13527,7 +13534,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7551,
+      "talent": 7556,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -13857,7 +13864,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7084,
+      "talent": 7083,
       "ranking": 6,
       "country": "fr",
       "total_level": 1204,
@@ -14796,8 +14803,8 @@
     "66643": {
       "id": 66643,
       "name": "WRNYK",
-      "talent": 2992,
-      "ranking": 122,
+      "talent": 2974,
+      "ranking": 123,
       "country": "fr",
       "total_level": 1034,
       "trophies": 202,
@@ -17141,7 +17148,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7807,
+      "talent": 7808,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -17642,7 +17649,7 @@
       "id": 59622,
       "name": "fujiwar2",
       "talent": 2983,
-      "ranking": 123,
+      "ranking": 122,
       "country": "fr",
       "total_level": 1204,
       "trophies": 257,
@@ -19185,8 +19192,8 @@
     "124692": {
       "id": 124692,
       "name": "LeekMyTyTy",
-      "talent": 2892,
-      "ranking": 133,
+      "talent": 2910,
+      "ranking": 129,
       "country": "fr",
       "total_level": 1012,
       "trophies": 217,
@@ -19878,7 +19885,7 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 4000,
+      "talent": 4012,
       "ranking": 70,
       "country": "ps",
       "total_level": 1203,
@@ -21093,7 +21100,7 @@
     "53583": {
       "id": 53583,
       "name": "Tarama",
-      "talent": 1153,
+      "talent": 1155,
       "ranking": 588,
       "country": "fr",
       "total_level": 1204,
@@ -21963,7 +21970,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7178,
+      "talent": 7173,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -22225,7 +22232,7 @@
       "id": 98164,
       "name": "DrKouignamann",
       "talent": 1102,
-      "ranking": 666,
+      "ranking": 664,
       "country": "fr",
       "total_level": 1204,
       "trophies": 225,
@@ -23356,7 +23363,7 @@
       "id": 106937,
       "name": "huld",
       "talent": 2893,
-      "ranking": 132,
+      "ranking": 133,
       "country": "fr",
       "total_level": 1204,
       "trophies": 264,
@@ -31150,7 +31157,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 475,
-      "ranking": 6625,
+      "ranking": 6626,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -32319,7 +32326,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 449,
-      "ranking": 7015,
+      "ranking": 7013,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -35160,7 +35167,7 @@
       "name": "Portemurmure",
       "level": 50,
       "talent": 528,
-      "ranking": 5755,
+      "ranking": 5756,
       "life": 447,
       "tp": 13,
       "mp": 5,
@@ -37778,7 +37785,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 438,
-      "ranking": 7206,
+      "ranking": 7205,
       "life": 1418,
       "tp": 18,
       "mp": 6,
