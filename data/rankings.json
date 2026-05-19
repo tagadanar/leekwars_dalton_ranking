@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-19T20:34:46.560623+00:00",
+  "last_updated": "2026-05-19T22:16:42.446961+00:00",
   "daltons": {
     "46733": [
       {
@@ -11585,6 +11585,13 @@
           "date": 1778356808
         },
         {
+          "fight_id": 52451102,
+          "total_level": 1505,
+          "total_capital": null,
+          "turns": 18,
+          "date": 1779222612
+        },
+        {
           "fight_id": 51866102,
           "total_level": 1505,
           "total_capital": null,
@@ -14006,7 +14013,7 @@
       "id": 71182,
       "name": "Hell",
       "talent": 2782,
-      "ranking": 148,
+      "ranking": 149,
       "country": "fr",
       "total_level": 903,
       "trophies": 231,
@@ -14840,7 +14847,7 @@
       "id": 61513,
       "name": "KavaliovQuinquies",
       "talent": 4577,
-      "ranking": 60,
+      "ranking": 61,
       "country": "fr",
       "total_level": 1204,
       "trophies": 221,
@@ -16227,7 +16234,7 @@
     "40076": {
       "id": 40076,
       "name": "bibimission",
-      "talent": 2632,
+      "talent": 2618,
       "ranking": 160,
       "country": "dk",
       "total_level": 1204,
@@ -16923,8 +16930,8 @@
     "97950": {
       "id": 97950,
       "name": "Arcannos",
-      "talent": 2732,
-      "ranking": 152,
+      "talent": 2718,
+      "ranking": 153,
       "country": "fr",
       "total_level": 1203,
       "trophies": 237,
@@ -18029,7 +18036,7 @@
       "id": 120043,
       "name": "dulph2",
       "talent": 2727,
-      "ranking": 153,
+      "ranking": 152,
       "country": "fr",
       "total_level": 1121,
       "trophies": 240,
@@ -18967,8 +18974,8 @@
     "97545": {
       "id": 97545,
       "name": "BabyKraspen",
-      "talent": 5761,
-      "ranking": 30,
+      "talent": 5746,
+      "ranking": 32,
       "country": "jp",
       "total_level": 1204,
       "trophies": 287,
@@ -21659,7 +21666,7 @@
       "id": 124760,
       "name": "Kleekteek",
       "talent": 2786,
-      "ranking": 147,
+      "ranking": 148,
       "country": "fr",
       "total_level": 1020,
       "trophies": 204,
@@ -23312,7 +23319,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1469,
-      "ranking": 448,
+      "ranking": 449,
       "country": "fr",
       "total_level": 933,
       "trophies": 150,
@@ -24859,8 +24866,8 @@
     "76772": {
       "id": 76772,
       "name": "Kraspen",
-      "talent": 5752,
-      "ranking": 32,
+      "talent": 5783,
+      "ranking": 29,
       "country": "fm",
       "total_level": 1204,
       "trophies": 337,
@@ -25034,7 +25041,7 @@
       "id": 42473,
       "name": "Nsjtt",
       "talent": 2579,
-      "ranking": 164,
+      "ranking": 165,
       "country": "fr",
       "total_level": 1204,
       "trophies": 196,
@@ -29163,9 +29170,9 @@
       },
       "weapons": [
         "sword",
+        "unstable_destroyer",
         "flame_thrower",
-        "gazor",
-        "unbridled_gazor"
+        "gazor"
       ],
       "chips": [
         "knowledge",
@@ -32772,9 +32779,9 @@
       },
       "weapons": [
         "sword",
-        "unstable_destroyer",
         "flame_thrower",
-        "gazor"
+        "gazor",
+        "unbridled_gazor"
       ],
       "chips": [
         "leather_boots",
@@ -48485,7 +48492,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 214,
       "talent": 344,
-      "ranking": 9147,
+      "ranking": 9146,
       "life": 2001,
       "tp": 17,
       "mp": 6,
