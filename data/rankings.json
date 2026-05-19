@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-19T02:22:24.017193+00:00",
+  "last_updated": "2026-05-19T06:51:01.879302+00:00",
   "daltons": {
     "46733": [
       {
@@ -119,6 +119,13 @@
             "date": 1775548189
           },
           {
+            "fight_id": 52444313,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 9,
+            "date": 1779170491
+          },
+          {
             "fight_id": 51944151,
             "total_level": 301,
             "total_capital": null,
@@ -145,6 +152,13 @@
             "total_capital": null,
             "turns": 10,
             "date": 1776849019
+          },
+          {
+            "fight_id": 52444312,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 10,
+            "date": 1779170486
           },
           {
             "fight_id": 52082299,
@@ -1634,6 +1648,13 @@
             "date": 1776693296
           },
           {
+            "fight_id": 52444318,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 8,
+            "date": 1779170529
+          },
+          {
             "fight_id": 51884249,
             "total_level": 301,
             "total_capital": null,
@@ -2899,6 +2920,156 @@
         ]
       },
       {
+        "fight_id": 52444311,
+        "fight_type": 0,
+        "farmer_name": "ArthourCuillere",
+        "farmer_id": 124865,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 131876,
+            "name": "ArthurRoiDeBretagne",
+            "level": 301,
+            "farmer": 124865,
+            "farmer_name": "ArthourCuillere"
+          }
+        ],
+        "total_level": 301,
+        "turns": 5,
+        "date": 1779170481,
+        "key": "124865",
+        "leek_name": "ArthurRoiDeBretagne",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 52444311,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 5,
+            "date": 1779170481
+          },
+          {
+            "fight_id": 51896258,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 8,
+            "date": 1774096201
+          },
+          {
+            "fight_id": 52435336,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 8,
+            "date": 1779084254
+          },
+          {
+            "fight_id": 51917403,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 9,
+            "date": 1774276330
+          },
+          {
+            "fight_id": 52269517,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 9,
+            "date": 1777356061
+          },
+          {
+            "fight_id": 51915419,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 10,
+            "date": 1774259929
+          },
+          {
+            "fight_id": 51858205,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 11,
+            "date": 1773833923
+          },
+          {
+            "fight_id": 51917494,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 11,
+            "date": 1774278084
+          },
+          {
+            "fight_id": 51923055,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 11,
+            "date": 1774339318
+          },
+          {
+            "fight_id": 52209179,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 11,
+            "date": 1776849029
+          },
+          {
+            "fight_id": 51985885,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 12,
+            "date": 1774876794
+          },
+          {
+            "fight_id": 52130843,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 12,
+            "date": 1776164405
+          },
+          {
+            "fight_id": 52156968,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 12,
+            "date": 1776406346
+          },
+          {
+            "fight_id": 52323048,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 12,
+            "date": 1777875159
+          },
+          {
+            "fight_id": 52395855,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 12,
+            "date": 1778585404
+          },
+          {
+            "fight_id": 52281217,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 13,
+            "date": 1777464172
+          },
+          {
+            "fight_id": 52366104,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 13,
+            "date": 1778324401
+          },
+          {
+            "fight_id": 52189440,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 14,
+            "date": 1776693267
+          }
+        ]
+      },
+      {
         "fight_id": 52406540,
         "fight_type": 0,
         "farmer_name": "Legumatore",
@@ -3356,149 +3527,6 @@
             "total_capital": null,
             "turns": 7,
             "date": 1774436411
-          }
-        ]
-      },
-      {
-        "fight_id": 51896258,
-        "fight_type": 0,
-        "farmer_name": "ArthourCuillere",
-        "farmer_id": 124865,
-        "team_name": null,
-        "leeks": [
-          {
-            "id": 131493,
-            "name": "PercevalLeGallois",
-            "level": 301,
-            "farmer": 124865,
-            "farmer_name": "ArthourCuillere"
-          }
-        ],
-        "total_level": 301,
-        "turns": 8,
-        "date": 1774096201,
-        "key": "124865",
-        "leek_name": "PercevalLeGallois",
-        "leek_level": 301,
-        "history": [
-          {
-            "fight_id": 51896258,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 8,
-            "date": 1774096201
-          },
-          {
-            "fight_id": 52435336,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 8,
-            "date": 1779084254
-          },
-          {
-            "fight_id": 51917403,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 9,
-            "date": 1774276330
-          },
-          {
-            "fight_id": 52269517,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 9,
-            "date": 1777356061
-          },
-          {
-            "fight_id": 51915419,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 10,
-            "date": 1774259929
-          },
-          {
-            "fight_id": 51858205,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 11,
-            "date": 1773833923
-          },
-          {
-            "fight_id": 51917494,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 11,
-            "date": 1774278084
-          },
-          {
-            "fight_id": 51923055,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 11,
-            "date": 1774339318
-          },
-          {
-            "fight_id": 52209179,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 11,
-            "date": 1776849029
-          },
-          {
-            "fight_id": 51985885,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 12,
-            "date": 1774876794
-          },
-          {
-            "fight_id": 52130843,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 12,
-            "date": 1776164405
-          },
-          {
-            "fight_id": 52156968,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 12,
-            "date": 1776406346
-          },
-          {
-            "fight_id": 52323048,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 12,
-            "date": 1777875159
-          },
-          {
-            "fight_id": 52395855,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 12,
-            "date": 1778585404
-          },
-          {
-            "fight_id": 52281217,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 13,
-            "date": 1777464172
-          },
-          {
-            "fight_id": 52366104,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 13,
-            "date": 1778324401
-          },
-          {
-            "fight_id": 52189440,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 14,
-            "date": 1776693267
           }
         ]
       },
@@ -15917,8 +15945,8 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3788,
-      "ranking": 78,
+      "talent": 3730,
+      "ranking": 80,
       "country": "fr",
       "total_level": 1204,
       "trophies": 296,
@@ -16311,7 +16339,7 @@
           "id": 39820,
           "name": "Lamastico",
           "level": 301,
-          "talent": 3040,
+          "talent": 3053,
           "life": 2710,
           "tp": 26,
           "mp": 8,
@@ -16329,7 +16357,7 @@
           "id": 40322,
           "name": "KyoShinZamurato",
           "level": 301,
-          "talent": 3183,
+          "talent": 3172,
           "life": 2830,
           "tp": 27,
           "mp": 7,
@@ -17337,7 +17365,7 @@
           "id": 131291,
           "name": "Claudias",
           "level": 301,
-          "talent": 3170,
+          "talent": 3160,
           "life": 2850,
           "tp": 27,
           "mp": 6,
@@ -17657,7 +17685,7 @@
     "86242": {
       "id": 86242,
       "name": "thaddee",
-      "talent": 3972,
+      "talent": 3980,
       "ranking": 72,
       "country": "ps",
       "total_level": 1204,
@@ -18130,7 +18158,7 @@
           "id": 105671,
           "name": "L\u00e9gumesTr\u00e9sBon",
           "level": 301,
-          "talent": 3341,
+          "talent": 3340,
           "life": 2990,
           "tp": 27,
           "mp": 7,
@@ -18570,7 +18598,7 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3643,
+      "talent": 3633,
       "ranking": 83,
       "country": "fr",
       "total_level": 1204,
@@ -19102,7 +19130,7 @@
           "id": 47183,
           "name": "Jeez",
           "level": 301,
-          "talent": 2912,
+          "talent": 2929,
           "life": 2965,
           "tp": 27,
           "mp": 6,
@@ -19735,7 +19763,7 @@
       "id": 97564,
       "name": "dardar",
       "talent": 1626,
-      "ranking": 338,
+      "ranking": 339,
       "country": "fr",
       "total_level": 1204,
       "trophies": 232,
@@ -20046,7 +20074,7 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 4010,
+      "talent": 4022,
       "ranking": 70,
       "country": "ps",
       "total_level": 1203,
@@ -21262,7 +21290,7 @@
       "id": 53583,
       "name": "Tarama",
       "talent": 1155,
-      "ranking": 584,
+      "ranking": 583,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -21783,8 +21811,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3883,
-      "ranking": 76,
+      "talent": 3800,
+      "ranking": 77,
       "country": "fr",
       "total_level": 1204,
       "trophies": 311,
@@ -22141,7 +22169,7 @@
           "id": 46733,
           "name": "JoeDalton",
           "level": 301,
-          "talent": 3233,
+          "talent": 3206,
           "life": 2630,
           "tp": 25,
           "mp": 5,
@@ -22159,7 +22187,7 @@
           "id": 51098,
           "name": "WilliamDalton",
           "level": 301,
-          "talent": 3180,
+          "talent": 3170,
           "life": 3270,
           "tp": 26,
           "mp": 5,
@@ -22177,7 +22205,7 @@
           "id": 51257,
           "name": "JackDalton",
           "level": 301,
-          "talent": 3212,
+          "talent": 3199,
           "life": 2420,
           "tp": 25,
           "mp": 6,
@@ -22566,7 +22594,7 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 4033,
+      "talent": 4043,
       "ranking": 69,
       "country": "ps",
       "total_level": 1204,
@@ -23001,7 +23029,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3673,
+      "talent": 3683,
       "ranking": 81,
       "country": "fr",
       "total_level": 1204,
@@ -23176,7 +23204,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1469,
-      "ranking": 449,
+      "ranking": 451,
       "country": "fr",
       "total_level": 933,
       "trophies": 150,
@@ -23794,7 +23822,7 @@
           "id": 131360,
           "name": "CaradocDeVannes",
           "level": 300,
-          "talent": 2985,
+          "talent": 2943,
           "life": 1387,
           "tp": 30,
           "mp": 6,
@@ -23848,7 +23876,7 @@
           "id": 131876,
           "name": "ArthurRoiDeBretagne",
           "level": 301,
-          "talent": 3262,
+          "talent": 3345,
           "life": 2930,
           "tp": 29,
           "mp": 8,
@@ -24027,7 +24055,7 @@
     "53189": {
       "id": 53189,
       "name": "tagadamasio",
-      "talent": 2409,
+      "talent": 2423,
       "ranking": null,
       "country": "fr",
       "total_level": 1204,
@@ -24526,7 +24554,7 @@
           "id": 64231,
           "name": "Peuwahreau",
           "level": 301,
-          "talent": 3026,
+          "talent": 3025,
           "life": 2890,
           "tp": 27,
           "mp": 7,
@@ -24577,7 +24605,7 @@
           "id": 23362,
           "name": "BlueSlash",
           "level": 301,
-          "talent": 3194,
+          "talent": 3183,
           "life": 3420,
           "tp": 27,
           "mp": 7,
@@ -24636,7 +24664,7 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3987,
+      "talent": 4020,
       "ranking": 71,
       "country": "fr",
       "total_level": 1204,
@@ -24723,8 +24751,8 @@
     "76772": {
       "id": 76772,
       "name": "Kraspen",
-      "talent": 5801,
-      "ranking": 30,
+      "talent": 5816,
+      "ranking": 29,
       "country": "fm",
       "total_level": 1204,
       "trophies": 337,
@@ -25071,8 +25099,8 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3775,
-      "ranking": 79,
+      "talent": 3798,
+      "ranking": 78,
       "country": "fr",
       "total_level": 1204,
       "trophies": 232,
@@ -25930,7 +25958,7 @@
       "id": 51257,
       "name": "JackDalton",
       "level": 301,
-      "talent": 3212,
+      "talent": 3199,
       "ranking": 14,
       "life": 2420,
       "tp": 25,
@@ -26044,8 +26072,8 @@
       "id": 47183,
       "name": "Jeez",
       "level": 301,
-      "talent": 2912,
-      "ranking": 44,
+      "talent": 2929,
+      "ranking": 42,
       "life": 2965,
       "tp": 27,
       "mp": 6,
@@ -27999,7 +28027,7 @@
       "id": 131291,
       "name": "Claudias",
       "level": 301,
-      "talent": 3170,
+      "talent": 3160,
       "ranking": 19,
       "life": 2850,
       "tp": 27,
@@ -28906,8 +28934,8 @@
       "id": 131360,
       "name": "CaradocDeVannes",
       "level": 300,
-      "talent": 2985,
-      "ranking": 39,
+      "talent": 2943,
+      "ranking": 41,
       "life": 1387,
       "tp": 30,
       "mp": 6,
@@ -30754,63 +30782,12 @@
         "resurrection"
       ]
     },
-    "131493": {
-      "id": 131493,
-      "name": "PercevalLeGallois",
-      "level": 301,
-      "talent": 2456,
-      "ranking": 234,
-      "life": 2820,
-      "tp": 30,
-      "mp": 8,
-      "strength": 600,
-      "agility": 300,
-      "wisdom": 500,
-      "resistance": 130,
-      "science": 170,
-      "magic": 50,
-      "frequency": 150,
-      "cores": 5,
-      "ram": 20,
-      "farmer": {
-        "id": 124865,
-        "name": "ArthourCuillere"
-      },
-      "weapons": [
-        "neutrino",
-        "rhino",
-        "mysterious_electrisor",
-        "katana"
-      ],
-      "chips": [
-        "protein",
-        "stretching",
-        "leather_boots",
-        "knowledge",
-        "liberation",
-        "armoring",
-        "vaccine",
-        "antidote",
-        "warm_up",
-        "thorn",
-        "steroid",
-        "manumission",
-        "inversion",
-        "adrenaline",
-        "remission",
-        "serum",
-        "teleportation",
-        "elevation",
-        "mirror",
-        "bramble"
-      ]
-    },
     "127398": {
       "id": 127398,
       "name": "CloseEnough",
       "level": 298,
       "talent": 911,
-      "ranking": 3451,
+      "ranking": 3452,
       "life": 2961,
       "tp": 25,
       "mp": 8,
@@ -31967,7 +31944,7 @@
       "name": "TheBuche",
       "level": 249,
       "talent": 1125,
-      "ranking": 2760,
+      "ranking": 2761,
       "life": 2064,
       "tp": 20,
       "mp": 5,
@@ -35022,8 +34999,8 @@
       "id": 64231,
       "name": "Peuwahreau",
       "level": 301,
-      "talent": 3026,
-      "ranking": 37,
+      "talent": 3025,
+      "ranking": 38,
       "life": 2890,
       "tp": 27,
       "mp": 7,
@@ -35451,8 +35428,8 @@
       "id": 131876,
       "name": "ArthurRoiDeBretagne",
       "level": 301,
-      "talent": 3262,
-      "ranking": 12,
+      "talent": 3345,
+      "ranking": 10,
       "life": 2930,
       "tp": 29,
       "mp": 8,
@@ -35721,8 +35698,8 @@
       "id": 23362,
       "name": "BlueSlash",
       "level": 301,
-      "talent": 3194,
-      "ranking": 15,
+      "talent": 3183,
+      "ranking": 16,
       "life": 3420,
       "tp": 27,
       "mp": 7,
@@ -35830,7 +35807,7 @@
       "name": "TomateTransg\u00e9nique",
       "level": 301,
       "talent": 2929,
-      "ranking": 42,
+      "ranking": 43,
       "life": 2965,
       "tp": 27,
       "mp": 6,
@@ -37010,7 +36987,7 @@
       "name": "Fouineur",
       "level": 301,
       "talent": 2929,
-      "ranking": 43,
+      "ranking": 44,
       "life": 1610,
       "tp": 30,
       "mp": 6,
@@ -37116,8 +37093,8 @@
       "id": 39820,
       "name": "Lamastico",
       "level": 301,
-      "talent": 3040,
-      "ranking": 34,
+      "talent": 3053,
+      "ranking": 32,
       "life": 2710,
       "tp": 26,
       "mp": 8,
@@ -38194,7 +38171,7 @@
       "name": "RageRanger",
       "level": 301,
       "talent": 3048,
-      "ranking": 32,
+      "ranking": 33,
       "life": 2610,
       "tp": 30,
       "mp": 6,
@@ -40164,8 +40141,8 @@
       "id": 105671,
       "name": "L\u00e9gumesTr\u00e9sBon",
       "level": 301,
-      "talent": 3341,
-      "ranking": 10,
+      "talent": 3340,
+      "ranking": 11,
       "life": 2990,
       "tp": 27,
       "mp": 7,
@@ -42048,7 +42025,7 @@
       "id": 40322,
       "name": "KyoShinZamurato",
       "level": 301,
-      "talent": 3183,
+      "talent": 3172,
       "ranking": 17,
       "life": 2830,
       "tp": 27,
@@ -42585,7 +42562,7 @@
       "name": "Po\u00e9sieBucoleek",
       "level": 301,
       "talent": 748,
-      "ranking": 3750,
+      "ranking": 3749,
       "life": 3090,
       "tp": 26,
       "mp": 7,
@@ -44809,7 +44786,7 @@
       "id": 46733,
       "name": "JoeDalton",
       "level": 301,
-      "talent": 3233,
+      "talent": 3206,
       "ranking": 13,
       "life": 2630,
       "tp": 25,
@@ -44926,7 +44903,7 @@
       "name": "Peuwaroh",
       "level": 301,
       "talent": 3047,
-      "ranking": 33,
+      "ranking": 34,
       "life": 3130,
       "tp": 28,
       "mp": 7,
@@ -45941,7 +45918,7 @@
       "name": "Kraton",
       "level": 301,
       "talent": 3185,
-      "ranking": 16,
+      "ranking": 15,
       "life": 3465,
       "tp": 27,
       "mp": 7,
@@ -46792,7 +46769,7 @@
       "name": "Krasseux",
       "level": 301,
       "talent": 3290,
-      "ranking": 11,
+      "ranking": 12,
       "life": 3465,
       "tp": 27,
       "mp": 7,
@@ -47272,7 +47249,7 @@
       "name": "ColonelMamene",
       "level": 301,
       "talent": 2968,
-      "ranking": 40,
+      "ranking": 39,
       "life": 1370,
       "tp": 30,
       "mp": 6,
@@ -47642,7 +47619,7 @@
       "id": 51098,
       "name": "WilliamDalton",
       "level": 301,
-      "talent": 3180,
+      "talent": 3170,
       "ranking": 18,
       "life": 3270,
       "tp": 26,
