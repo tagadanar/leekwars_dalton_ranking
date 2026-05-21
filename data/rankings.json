@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T20:41:13.671850+00:00",
+  "last_updated": "2026-05-21T22:22:38.160865+00:00",
   "daltons": {
     "46733": [
       {
@@ -8264,6 +8264,20 @@
           "date": 1778963916
         },
         {
+          "fight_id": 52472547,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1779397964
+        },
+        {
+          "fight_id": 52472535,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1779397578
+        },
+        {
           "fight_id": 52246417,
           "total_level": 1204,
           "total_capital": null,
@@ -8290,6 +8304,13 @@
           "total_capital": null,
           "turns": 14,
           "date": 1778702451
+        },
+        {
+          "fight_id": 52472518,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 14,
+          "date": 1779397310
         },
         {
           "fight_id": 52472345,
@@ -8348,6 +8369,13 @@
           "date": 1778619066
         },
         {
+          "fight_id": 52472542,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 18,
+          "date": 1779397953
+        },
+        {
           "fight_id": 52298109,
           "total_level": 1204,
           "total_capital": null,
@@ -8367,6 +8395,20 @@
           "total_capital": null,
           "turns": 20,
           "date": 1777831911
+        },
+        {
+          "fight_id": 52472664,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 20,
+          "date": 1779398716
+        },
+        {
+          "fight_id": 52472546,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 20,
+          "date": 1779397961
         },
         {
           "fight_id": 52179217,
@@ -8446,6 +8488,13 @@
           "date": 1779136944
         },
         {
+          "fight_id": 52472541,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 23,
+          "date": 1779397949
+        },
+        {
           "fight_id": 52233345,
           "total_level": 1204,
           "total_capital": null,
@@ -8481,6 +8530,13 @@
           "date": 1778613045
         },
         {
+          "fight_id": 52472538,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 26,
+          "date": 1779397710
+        },
+        {
           "fight_id": 52253822,
           "total_level": 1204,
           "total_capital": null,
@@ -8493,6 +8549,13 @@
           "total_capital": null,
           "turns": 27,
           "date": 1778018553
+        },
+        {
+          "fight_id": 52472526,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 27,
+          "date": 1779397476
         },
         {
           "fight_id": 52179216,
@@ -8565,6 +8628,27 @@
           "date": 1778963905
         },
         {
+          "fight_id": 52472641,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 32,
+          "date": 1779398493
+        },
+        {
+          "fight_id": 52472508,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 33,
+          "date": 1779397270
+        },
+        {
+          "fight_id": 52472493,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 33,
+          "date": 1779395846
+        },
+        {
           "fight_id": 52374436,
           "total_level": 1204,
           "total_capital": null,
@@ -8577,6 +8661,13 @@
           "total_capital": null,
           "turns": 34,
           "date": 1778426995
+        },
+        {
+          "fight_id": 52472549,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 35,
+          "date": 1779397983
         },
         {
           "fight_id": 52253909,
@@ -8717,6 +8808,13 @@
           "total_capital": null,
           "turns": 58,
           "date": 1778000758
+        },
+        {
+          "fight_id": 52472509,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 62,
+          "date": 1779397284
         },
         {
           "fight_id": 52413500,
@@ -13894,7 +13992,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7666,
+      "talent": 7640,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -13981,7 +14079,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6681,
+      "talent": 6679,
       "ranking": 13,
       "country": "fr",
       "total_level": 1204,
@@ -14224,8 +14322,8 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7016,
-      "ranking": 8,
+      "talent": 7062,
+      "ranking": 7,
       "country": "fr",
       "total_level": 1204,
       "trophies": 340,
@@ -14576,7 +14674,7 @@
       "ranking": 205,
       "country": "fr",
       "total_level": 932,
-      "trophies": 211,
+      "trophies": 212,
       "leeks": {
         "106823": {
           "id": 106823,
@@ -15076,8 +15174,8 @@
     "53323": {
       "id": 53323,
       "name": "EplucheLegumes",
-      "talent": 2543,
-      "ranking": 173,
+      "talent": 2529,
+      "ranking": 178,
       "country": "fr",
       "total_level": 1204,
       "trophies": 245,
@@ -16029,7 +16127,7 @@
     "76418": {
       "id": 76418,
       "name": "Hyunew",
-      "talent": 6780,
+      "talent": 6859,
       "ranking": 11,
       "country": "fr",
       "total_level": 1204,
@@ -16290,7 +16388,7 @@
     "70281": {
       "id": 70281,
       "name": "KavaliovSepties",
-      "talent": 4701,
+      "talent": 4712,
       "ranking": 57,
       "country": "fr",
       "total_level": 1204,
@@ -16377,8 +16475,8 @@
     "40076": {
       "id": 40076,
       "name": "bibimission",
-      "talent": 2583,
-      "ranking": 167,
+      "talent": 2613,
+      "ranking": 165,
       "country": "dk",
       "total_level": 1204,
       "trophies": 269,
@@ -16464,7 +16562,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7299,
+      "talent": 7401,
       "ranking": 3,
       "country": "fr",
       "total_level": 1204,
@@ -16638,7 +16736,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 6925,
+      "talent": 6949,
       "ranking": 10,
       "country": "fr",
       "total_level": 1204,
@@ -16816,7 +16914,7 @@
       "ranking": 246,
       "country": "us",
       "total_level": 600,
-      "trophies": 244,
+      "trophies": 245,
       "leeks": {
         "131032": {
           "id": 131032,
@@ -17073,7 +17171,7 @@
     "97950": {
       "id": 97950,
       "name": "Arcannos",
-      "talent": 2759,
+      "talent": 2756,
       "ranking": 152,
       "country": "fr",
       "total_level": 1203,
@@ -17508,7 +17606,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7679,
+      "talent": 7699,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -18595,8 +18693,8 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7095,
-      "ranking": 6,
+      "talent": 7152,
+      "ranking": 4,
       "country": "dj",
       "total_level": 1204,
       "trophies": 307,
@@ -19291,7 +19389,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6996,
+      "talent": 6976,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -20800,8 +20898,8 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7106,
-      "ranking": 5,
+      "talent": 7001,
+      "ranking": 8,
       "country": "fr",
       "total_level": 1204,
       "trophies": 322,
@@ -22330,11 +22428,11 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7277,
-      "ranking": 4,
+      "talent": 7104,
+      "ranking": 5,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 280,
+      "trophies": 281,
       "leeks": {
         "46733": {
           "id": 46733,
@@ -22765,8 +22863,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7076,
-      "ranking": 7,
+      "talent": 7086,
+      "ranking": 6,
       "country": null,
       "total_level": 1204,
       "trophies": 335,
@@ -23113,7 +23211,7 @@
     "76695": {
       "id": 76695,
       "name": "ihsusikamet",
-      "talent": 6759,
+      "talent": 6747,
       "ranking": 12,
       "country": "fr",
       "total_level": 1204,
@@ -28394,7 +28492,7 @@
       "name": "80CHIPREMISSION",
       "level": 176,
       "talent": 506,
-      "ranking": 6138,
+      "ranking": 6140,
       "life": 1603,
       "tp": 15,
       "mp": 6,
@@ -31553,7 +31651,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 475,
-      "ranking": 6617,
+      "ranking": 6620,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -32722,7 +32820,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 449,
-      "ranking": 7009,
+      "ranking": 7004,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -38181,7 +38279,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 438,
-      "ranking": 7192,
+      "ranking": 7188,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -38448,7 +38546,7 @@
       },
       "weapons": [
         "neutrino",
-        "unstable_destroyer",
+        "rhino",
         "quantum_rifle",
         "heavy_sword"
       ],
@@ -38466,11 +38564,11 @@
         "regeneration",
         "steroid",
         "carapace",
+        "punishment",
         "manumission",
         "inversion",
         "adrenaline",
         "remission",
-        "devil_strike",
         "fortress",
         "teleportation",
         "elevation",
@@ -39964,7 +40062,7 @@
         "neutrino",
         "quantum_rifle",
         "heavy_sword",
-        "revoked_m_laser"
+        "m_laser"
       ],
       "chips": [
         "wall",
@@ -47979,8 +48077,8 @@
         "name": "Greener"
       },
       "weapons": [
-        "neutrino",
         "mysterious_electrisor",
+        "lightninger",
         "quantum_rifle",
         "heavy_sword"
       ],
