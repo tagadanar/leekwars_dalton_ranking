@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23T19:05:20.278338+00:00",
+  "last_updated": "2026-05-23T20:12:08.563254+00:00",
   "daltons": {
     "46733": [
       {
@@ -3323,6 +3323,13 @@
             "date": 1779295774
           },
           {
+            "fight_id": 52484119,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 8,
+            "date": 1779562590
+          },
+          {
             "fight_id": 52169244,
             "total_level": 301,
             "total_capital": null,
@@ -3524,6 +3531,13 @@
             "total_capital": null,
             "turns": 12,
             "date": 1778947957
+          },
+          {
+            "fight_id": 52484113,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 12,
+            "date": 1779562457
           },
           {
             "fight_id": 52281668,
@@ -12403,6 +12417,64 @@
       ]
     },
     {
+      "fight_id": 52484316,
+      "fight_type": 2,
+      "farmer_name": "Dynamex",
+      "farmer_id": 58615,
+      "team_name": "[Bataillon d'exploration]",
+      "leeks": [
+        {
+          "id": 63343,
+          "name": "Dynamex",
+          "level": 301,
+          "farmer": 58615,
+          "farmer_name": "Dynamex"
+        },
+        {
+          "id": 81645,
+          "name": "SushiAlwaysHere",
+          "level": 301,
+          "farmer": 76696,
+          "farmer_name": "ActiveSushi"
+        },
+        {
+          "id": 57011,
+          "name": "LeeKolonel",
+          "level": 301,
+          "farmer": 42915,
+          "farmer_name": "LeeKidder"
+        },
+        {
+          "id": 101381,
+          "name": "Dynaleak",
+          "level": 301,
+          "farmer": 58615,
+          "farmer_name": "Dynamex"
+        },
+        {
+          "id": 98475,
+          "name": "PoOtato",
+          "level": 301,
+          "farmer": 87622,
+          "farmer_name": "CompleteDisappointment"
+        }
+      ],
+      "total_level": 1505,
+      "turns": 16,
+      "date": 1779564647,
+      "key": "58615",
+      "leek_names": "Dynamex, SushiAlwaysHere, LeeKolonel, Dynaleak, PoOtato",
+      "history": [
+        {
+          "fight_id": 52484316,
+          "total_level": 1505,
+          "total_capital": null,
+          "turns": 16,
+          "date": 1779564647
+        }
+      ]
+    },
+    {
       "fight_id": 51937951,
       "fight_type": 2,
       "farmer_name": "SachaBougPalette",
@@ -16773,7 +16845,7 @@
           "id": 38413,
           "name": "hardleeker",
           "level": 301,
-          "talent": 3508,
+          "talent": 3470,
           "life": 2210,
           "tp": 29,
           "mp": 5,
@@ -17817,7 +17889,7 @@
           "id": 128883,
           "name": "Claudius",
           "level": 301,
-          "talent": 3503,
+          "talent": 3527,
           "life": 2610,
           "tp": 26,
           "mp": 5,
@@ -17853,7 +17925,7 @@
           "id": 131326,
           "name": "Claudios",
           "level": 301,
-          "talent": 3526,
+          "talent": 3500,
           "life": 3270,
           "tp": 26,
           "mp": 7,
@@ -18628,7 +18700,7 @@
           "id": 105671,
           "name": "L\u00e9gumesTr\u00e9sBon",
           "level": 301,
-          "talent": 3378,
+          "talent": 3400,
           "life": 2990,
           "tp": 27,
           "mp": 7,
@@ -18889,6 +18961,93 @@
       "team": {
         "id": 9857,
         "name": "Sucrerie"
+      }
+    },
+    "58615": {
+      "id": 58615,
+      "name": "Dynamex",
+      "talent": 4281,
+      "ranking": 65,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 264,
+      "leeks": {
+        "63343": {
+          "id": 63343,
+          "name": "Dynamex",
+          "level": 301,
+          "talent": 2417,
+          "life": 2920,
+          "tp": 30,
+          "mp": 5,
+          "strength": 0,
+          "agility": 30,
+          "wisdom": 120,
+          "resistance": 300,
+          "science": 100,
+          "magic": 735,
+          "frequency": 210,
+          "cores": 14,
+          "ram": 19
+        },
+        "63583": {
+          "id": 63583,
+          "name": "leekiLibre",
+          "level": 301,
+          "talent": 2403,
+          "life": 2920,
+          "tp": 28,
+          "mp": 5,
+          "strength": 50,
+          "agility": 80,
+          "wisdom": 170,
+          "resistance": 350,
+          "science": 140,
+          "magic": 785,
+          "frequency": 190,
+          "cores": 14,
+          "ram": 19
+        },
+        "101381": {
+          "id": 101381,
+          "name": "Dynaleak",
+          "level": 301,
+          "talent": 2402,
+          "life": 3020,
+          "tp": 28,
+          "mp": 5,
+          "strength": 0,
+          "agility": 70,
+          "wisdom": 250,
+          "resistance": 420,
+          "science": 90,
+          "magic": 700,
+          "frequency": 190,
+          "cores": 14,
+          "ram": 19
+        },
+        "101874": {
+          "id": 101874,
+          "name": "Damnleak",
+          "level": 301,
+          "talent": 2437,
+          "life": 3020,
+          "tp": 28,
+          "mp": 5,
+          "strength": 0,
+          "agility": 70,
+          "wisdom": 250,
+          "resistance": 420,
+          "science": 90,
+          "magic": 700,
+          "frequency": 190,
+          "cores": 14,
+          "ram": 19
+        }
+      },
+      "team": {
+        "id": 7709,
+        "name": "Bataillon d'exploration"
       }
     },
     "73979": {
@@ -22762,7 +22921,7 @@
           "id": 51257,
           "name": "JackDalton",
           "level": 301,
-          "talent": 3242,
+          "talent": 3231,
           "life": 2420,
           "tp": 25,
           "mp": 6,
@@ -22893,15 +23052,15 @@
       "talent": 2476,
       "ranking": 190,
       "country": "fr",
-      "total_level": 983,
+      "total_level": 986,
       "trophies": 197,
       "leeks": {
         "132355": {
           "id": 132355,
           "name": "Skydonia",
-          "level": 285,
+          "level": 286,
           "talent": 1849,
-          "life": 2522,
+          "life": 2525,
           "tp": 23,
           "mp": 6,
           "strength": 0,
@@ -22917,9 +23076,9 @@
         "132563": {
           "id": 132563,
           "name": "Skydo",
-          "level": 256,
+          "level": 257,
           "talent": 1648,
-          "life": 1255,
+          "life": 1258,
           "tp": 27,
           "mp": 5,
           "strength": 400,
@@ -22953,9 +23112,9 @@
         "132850": {
           "id": 132850,
           "name": "EniSkydo",
-          "level": 190,
+          "level": 191,
           "talent": 1378,
-          "life": 1867,
+          "life": 1870,
           "tp": 20,
           "mp": 6,
           "strength": 0,
@@ -23663,6 +23822,93 @@
           "frequency": 210,
           "cores": 20,
           "ram": 20
+        }
+      },
+      "team": {
+        "id": 7709,
+        "name": "Bataillon d'exploration"
+      }
+    },
+    "76696": {
+      "id": 76696,
+      "name": "ActiveSushi",
+      "talent": 4123,
+      "ranking": null,
+      "country": "fr",
+      "total_level": 1197,
+      "trophies": 234,
+      "leeks": {
+        "81552": {
+          "id": 81552,
+          "name": "SushiActive",
+          "level": 301,
+          "talent": 1226,
+          "life": 3365,
+          "tp": 25,
+          "mp": 5,
+          "strength": 560,
+          "agility": 260,
+          "wisdom": 520,
+          "resistance": 0,
+          "science": 90,
+          "magic": 120,
+          "frequency": 150,
+          "cores": 14,
+          "ram": 25
+        },
+        "81645": {
+          "id": 81645,
+          "name": "SushiAlwaysHere",
+          "level": 301,
+          "talent": 1862,
+          "life": 1960,
+          "tp": 27,
+          "mp": 5,
+          "strength": 0,
+          "agility": 0,
+          "wisdom": 130,
+          "resistance": 0,
+          "science": 900,
+          "magic": 0,
+          "frequency": 200,
+          "cores": 17,
+          "ram": 22
+        },
+        "90438": {
+          "id": 90438,
+          "name": "TheBeholder",
+          "level": 301,
+          "talent": 1735,
+          "life": 2355,
+          "tp": 22,
+          "mp": 6,
+          "strength": 445,
+          "agility": 230,
+          "wisdom": 400,
+          "resistance": 0,
+          "science": 40,
+          "magic": 80,
+          "frequency": 110,
+          "cores": 22,
+          "ram": 22
+        },
+        "90538": {
+          "id": 90538,
+          "name": "Knokker",
+          "level": 294,
+          "talent": 2010,
+          "life": 3499,
+          "tp": 23,
+          "mp": 5,
+          "strength": 460,
+          "agility": 255,
+          "wisdom": 420,
+          "resistance": 370,
+          "science": 70,
+          "magic": 120,
+          "frequency": 150,
+          "cores": 14,
+          "ram": 25
         }
       },
       "team": {
@@ -25144,7 +25390,7 @@
           "id": 63029,
           "name": "Peuwareau",
           "level": 301,
-          "talent": 3499,
+          "talent": 3475,
           "life": 3130,
           "tp": 28,
           "mp": 8,
@@ -25459,7 +25705,7 @@
           "id": 82518,
           "name": "Kraneur",
           "level": 301,
-          "talent": 3464,
+          "talent": 3462,
           "life": 3285,
           "tp": 26,
           "mp": 6,
@@ -25927,7 +26173,7 @@
           "id": 54510,
           "name": "twogether",
           "level": 301,
-          "talent": 3544,
+          "talent": 3554,
           "life": 2210,
           "tp": 29,
           "mp": 5,
@@ -26603,7 +26849,7 @@
       "name": "JackDalton",
       "level": 301,
       "talent": 3231,
-      "ranking": 13,
+      "ranking": 15,
       "life": 2420,
       "tp": 25,
       "mp": 6,
@@ -29259,8 +29505,8 @@
       "id": 131326,
       "name": "Claudios",
       "level": 301,
-      "talent": 3506,
-      "ranking": 3,
+      "talent": 3500,
+      "ranking": 4,
       "life": 3270,
       "tp": 26,
       "mp": 7,
@@ -33288,7 +33534,7 @@
       "id": 82518,
       "name": "Kraneur",
       "level": 301,
-      "talent": 3464,
+      "talent": 3462,
       "ranking": 7,
       "life": 3285,
       "tp": 26,
@@ -38617,7 +38863,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 438,
-      "ranking": 7187,
+      "ranking": 7188,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -38806,6 +39052,55 @@
         "elevation",
         "dome",
         "therapy"
+      ]
+    },
+    "101381": {
+      "id": 101381,
+      "name": "Dynaleak",
+      "level": 301,
+      "talent": 2402,
+      "ranking": 287,
+      "life": 3020,
+      "tp": 28,
+      "mp": 5,
+      "strength": 0,
+      "agility": 70,
+      "wisdom": 250,
+      "resistance": 420,
+      "science": 90,
+      "magic": 700,
+      "frequency": 190,
+      "cores": 14,
+      "ram": 19,
+      "farmer": {
+        "id": 58615,
+        "name": "Dynamex"
+      },
+      "weapons": [
+        "machine_gun",
+        "flame_thrower",
+        "j_laser"
+      ],
+      "chips": [
+        "motivation",
+        "wall",
+        "shield",
+        "solidification",
+        "venom",
+        "jump",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "plague",
+        "covid",
+        "dome",
+        "arsenic",
+        "resurrection"
       ]
     },
     "99341": {
@@ -40835,7 +41130,7 @@
       "id": 105671,
       "name": "L\u00e9gumesTr\u00e9sBon",
       "level": 301,
-      "talent": 3384,
+      "talent": 3400,
       "ranking": 10,
       "life": 2990,
       "tp": 27,
@@ -41103,7 +41398,7 @@
       "id": 54510,
       "name": "twogether",
       "level": 301,
-      "talent": 3544,
+      "talent": 3554,
       "ranking": 2,
       "life": 2210,
       "tp": 29,
@@ -43714,10 +44009,10 @@
     "132563": {
       "id": 132563,
       "name": "Skydo",
-      "level": 256,
+      "level": 257,
       "talent": 1648,
       "ranking": 1137,
-      "life": 1255,
+      "life": 1258,
       "tp": 27,
       "mp": 5,
       "strength": 400,
@@ -44453,7 +44748,7 @@
       "id": 38413,
       "name": "hardleeker",
       "level": 301,
-      "talent": 3488,
+      "talent": 3470,
       "ranking": 6,
       "life": 2210,
       "tp": 29,
@@ -45082,7 +45377,7 @@
       "id": 63029,
       "name": "Peuwareau",
       "level": 301,
-      "talent": 3499,
+      "talent": 3475,
       "ranking": 5,
       "life": 3130,
       "tp": 28,
@@ -46811,6 +47106,59 @@
         "arsenic"
       ]
     },
+    "81645": {
+      "id": 81645,
+      "name": "SushiAlwaysHere",
+      "level": 301,
+      "talent": 1862,
+      "ranking": null,
+      "life": 1960,
+      "tp": 27,
+      "mp": 5,
+      "strength": 0,
+      "agility": 0,
+      "wisdom": 130,
+      "resistance": 0,
+      "science": 900,
+      "magic": 0,
+      "frequency": 200,
+      "cores": 17,
+      "ram": 22,
+      "farmer": {
+        "id": 76696,
+        "name": "ActiveSushi"
+      },
+      "weapons": [
+        "neutrino",
+        "sword",
+        "unstable_destroyer",
+        "j_laser"
+      ],
+      "chips": [
+        "protein",
+        "knowledge",
+        "solidification",
+        "alteration",
+        "liberation",
+        "armoring",
+        "jump",
+        "mutation",
+        "antidote",
+        "grapple",
+        "steroid",
+        "boxing_glove",
+        "punishment",
+        "adrenaline",
+        "reflexes",
+        "teleportation",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "elevation",
+        "transmutation",
+        "tactician_bulb"
+      ]
+    },
     "75503": {
       "id": 75503,
       "name": "ArkansasBlack",
@@ -48068,12 +48416,62 @@
         "arsenic"
       ]
     },
+    "63343": {
+      "id": 63343,
+      "name": "Dynamex",
+      "level": 301,
+      "talent": 2417,
+      "ranking": 258,
+      "life": 2920,
+      "tp": 30,
+      "mp": 5,
+      "strength": 0,
+      "agility": 30,
+      "wisdom": 120,
+      "resistance": 300,
+      "science": 100,
+      "magic": 735,
+      "frequency": 210,
+      "cores": 14,
+      "ram": 19,
+      "farmer": {
+        "id": 58615,
+        "name": "Dynamex"
+      },
+      "weapons": [
+        "machine_gun",
+        "flame_thrower",
+        "j_laser",
+        "mysterious_electrisor"
+      ],
+      "chips": [
+        "motivation",
+        "wall",
+        "shield",
+        "solidification",
+        "venom",
+        "jump",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "fortress",
+        "serum",
+        "plague",
+        "covid",
+        "dome",
+        "arsenic",
+        "resurrection"
+      ]
+    },
     "128883": {
       "id": 128883,
       "name": "Claudius",
       "level": 301,
-      "talent": 3503,
-      "ranking": 4,
+      "talent": 3527,
+      "ranking": 3,
       "life": 2610,
       "tp": 26,
       "mp": 5,
