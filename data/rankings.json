@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T18:05:57.421878+00:00",
+  "last_updated": "2026-05-31T19:12:50.247607+00:00",
   "daltons": {
     "46733": [
       {
@@ -15271,7 +15271,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6661,
+      "talent": 6671,
       "ranking": 13,
       "country": "fr",
       "total_level": 1204,
@@ -16804,7 +16804,7 @@
       "talent": 2735,
       "ranking": 151,
       "country": "fr",
-      "total_level": 1133,
+      "total_level": 1134,
       "trophies": 214,
       "leeks": {
         "93329": {
@@ -16864,9 +16864,9 @@
         "104671": {
           "id": 104671,
           "name": "Malleur",
-          "level": 281,
+          "level": 282,
           "talent": 1396,
-          "life": 2535,
+          "life": 2538,
           "tp": 20,
           "mp": 4,
           "strength": 0,
@@ -18885,7 +18885,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7868,
+      "talent": 7838,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -18973,7 +18973,7 @@
       "id": 75471,
       "name": "sjrd",
       "talent": 2944,
-      "ranking": 126,
+      "ranking": 127,
       "country": "ch",
       "total_level": 1204,
       "trophies": 250,
@@ -20059,7 +20059,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7221,
+      "talent": 7227,
       "ranking": 4,
       "country": "dj",
       "total_level": 1204,
@@ -20147,7 +20147,7 @@
       "id": 99583,
       "name": "Ozymandias",
       "talent": 5614,
-      "ranking": 32,
+      "ranking": 31,
       "country": "fr",
       "total_level": 1204,
       "trophies": 242,
@@ -20494,7 +20494,7 @@
     "92936": {
       "id": 92936,
       "name": "Casanova",
-      "talent": 5631,
+      "talent": 5614,
       "ranking": 31,
       "country": "fr",
       "total_level": 1204,
@@ -20581,7 +20581,7 @@
     "97544": {
       "id": 97544,
       "name": "MimItems",
-      "talent": 5578,
+      "talent": 5595,
       "ranking": 34,
       "country": "fr",
       "total_level": 1204,
@@ -20842,7 +20842,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6930,
+      "talent": 6924,
       "ranking": 10,
       "country": "fr",
       "total_level": 1204,
@@ -21103,8 +21103,8 @@
     "124692": {
       "id": 124692,
       "name": "LeekMyTyTy",
-      "talent": 2928,
-      "ranking": 128,
+      "talent": 2946,
+      "ranking": 126,
       "country": "fr",
       "total_level": 1012,
       "trophies": 221,
@@ -23011,8 +23011,8 @@
     "53583": {
       "id": 53583,
       "name": "Tarama",
-      "talent": 1152,
-      "ranking": 594,
+      "talent": 1153,
+      "ranking": 591,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -23881,7 +23881,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 6936,
+      "talent": 6966,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -24404,7 +24404,7 @@
       "id": 87938,
       "name": "hypernavet",
       "talent": 4014,
-      "ranking": 72,
+      "ranking": 73,
       "country": "ps",
       "total_level": 1204,
       "trophies": 311,
@@ -26560,7 +26560,7 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 3943,
+      "talent": 3930,
       "ranking": 74,
       "country": "fr",
       "total_level": 1204,
@@ -26908,7 +26908,7 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6503,
+      "talent": 6493,
       "ranking": 18,
       "country": "fr",
       "total_level": 1204,
@@ -27169,8 +27169,8 @@
     "50168": {
       "id": 50168,
       "name": "tagadalone",
-      "talent": 3015,
-      "ranking": 122,
+      "talent": 2997,
+      "ranking": 123,
       "country": "fr",
       "total_level": 302,
       "trophies": 264,
@@ -29978,10 +29978,10 @@
     "104671": {
       "id": 104671,
       "name": "Malleur",
-      "level": 281,
+      "level": 282,
       "talent": 1396,
       "ranking": 1790,
-      "life": 2535,
+      "life": 2538,
       "tp": 20,
       "mp": 4,
       "strength": 0,
@@ -52656,6 +52656,13 @@
           "total_capital": 5600,
           "turns": 8,
           "date": 1779814806
+        },
+        {
+          "fight_id": 52543837,
+          "total_level": 1012,
+          "total_capital": 5600,
+          "turns": 8,
+          "date": 1780250401
         },
         {
           "fight_id": 52204162,
