@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02T21:51:55.058386+00:00",
+  "last_updated": "2026-06-02T23:38:05.047550+00:00",
   "daltons": {
     "46733": [
       {
@@ -9327,6 +9327,13 @@
           "date": 1779916250
         },
         {
+          "fight_id": 52560532,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 17,
+          "date": 1780436750
+        },
+        {
           "fight_id": 51850400,
           "total_level": 1204,
           "total_capital": null,
@@ -9871,6 +9878,13 @@
           "total_capital": null,
           "turns": 43,
           "date": 1776952318
+        },
+        {
+          "fight_id": 52560529,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 44,
+          "date": 1780436634
         },
         {
           "fight_id": 52180752,
@@ -16737,7 +16751,7 @@
       "id": 66643,
       "name": "WRNYK",
       "talent": 2910,
-      "ranking": 130,
+      "ranking": 129,
       "country": "fr",
       "total_level": 1034,
       "trophies": 204,
@@ -17171,8 +17185,8 @@
     "71271": {
       "id": 71271,
       "name": "Kaesorus",
-      "talent": 2674,
-      "ranking": 157,
+      "talent": 2686,
+      "ranking": 156,
       "country": "fr",
       "total_level": 1204,
       "trophies": 243,
@@ -17689,7 +17703,7 @@
     "76418": {
       "id": 76418,
       "name": "Hyunew",
-      "talent": 6790,
+      "talent": 6786,
       "ranking": 11,
       "country": "fr",
       "total_level": 1204,
@@ -18037,8 +18051,8 @@
     "40076": {
       "id": 40076,
       "name": "bibimission",
-      "talent": 2652,
-      "ranking": 160,
+      "talent": 2621,
+      "ranking": 165,
       "country": "dk",
       "total_level": 1204,
       "trophies": 271,
@@ -18124,7 +18138,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7305,
+      "talent": 7311,
       "ranking": 3,
       "country": "fr",
       "total_level": 1204,
@@ -18298,7 +18312,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7144,
+      "talent": 7136,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -18560,7 +18574,7 @@
       "id": 41108,
       "name": "Jace",
       "talent": 2862,
-      "ranking": 136,
+      "ranking": 137,
       "country": "fr",
       "total_level": 1204,
       "trophies": 208,
@@ -18733,8 +18747,8 @@
     "97950": {
       "id": 97950,
       "name": "Arcannos",
-      "talent": 2656,
-      "ranking": 159,
+      "talent": 2683,
+      "ranking": 157,
       "country": "fr",
       "total_level": 1203,
       "trophies": 237,
@@ -19255,8 +19269,8 @@
     "75471": {
       "id": 75471,
       "name": "sjrd",
-      "talent": 2802,
-      "ranking": 141,
+      "talent": 2789,
+      "ranking": 144,
       "country": "ch",
       "total_level": 1204,
       "trophies": 250,
@@ -20099,8 +20113,8 @@
     "50927": {
       "id": 50927,
       "name": "MrAnislider",
-      "talent": 2541,
-      "ranking": 174,
+      "talent": 2529,
+      "ranking": 175,
       "country": "co",
       "total_level": 1204,
       "trophies": 251,
@@ -21125,7 +21139,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7090,
+      "talent": 7110,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -22167,7 +22181,7 @@
       "id": 102191,
       "name": "Winner",
       "talent": 2901,
-      "ranking": 131,
+      "ranking": 132,
       "country": "fr",
       "total_level": 903,
       "trophies": 243,
@@ -22548,7 +22562,7 @@
       "id": 100153,
       "name": "Alcatraz",
       "talent": 2624,
-      "ranking": 165,
+      "ranking": 164,
       "country": "fr",
       "total_level": 1204,
       "trophies": 264,
@@ -22634,7 +22648,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 6953,
+      "talent": 6945,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -22895,8 +22909,8 @@
     "30010": {
       "id": 30010,
       "name": "Azimel",
-      "talent": 2543,
-      "ranking": 173,
+      "talent": 2531,
+      "ranking": 174,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -23226,7 +23240,7 @@
       "id": 63305,
       "name": "Panca",
       "talent": 2837,
-      "ranking": 138,
+      "ranking": 139,
       "country": "fr",
       "total_level": 835,
       "trophies": 237,
@@ -24164,7 +24178,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 6896,
+      "talent": 6906,
       "ranking": 10,
       "country": "fr",
       "total_level": 1204,
@@ -24339,7 +24353,7 @@
       "id": 125800,
       "name": "Skydonia",
       "talent": 2535,
-      "ranking": 177,
+      "ranking": 173,
       "country": "fr",
       "total_level": 1059,
       "trophies": 201,
@@ -24947,7 +24961,7 @@
     "76695": {
       "id": 76695,
       "name": "ihsusikamet",
-      "talent": 6787,
+      "talent": 6783,
       "ranking": 12,
       "country": "fr",
       "total_level": 1204,
@@ -25730,8 +25744,8 @@
     "106937": {
       "id": 106937,
       "name": "huld",
-      "talent": 2794,
-      "ranking": 144,
+      "talent": 2763,
+      "ranking": 147,
       "country": "fr",
       "total_level": 1204,
       "trophies": 265,
@@ -25904,8 +25918,8 @@
     "79295": {
       "id": 79295,
       "name": "TPE1",
-      "talent": 2720,
-      "ranking": 151,
+      "talent": 2708,
+      "ranking": 154,
       "country": "fr",
       "total_level": 1202,
       "trophies": 235,
@@ -26079,7 +26093,7 @@
       "id": 73154,
       "name": "Hyupy",
       "talent": 2927,
-      "ranking": 127,
+      "ranking": 128,
       "country": null,
       "total_level": 1204,
       "trophies": 225,
@@ -27104,8 +27118,8 @@
     "42473": {
       "id": 42473,
       "name": "Nsjtt",
-      "talent": 2685,
-      "ranking": 156,
+      "talent": 2679,
+      "ranking": 158,
       "country": "fr",
       "total_level": 1204,
       "trophies": 196,
@@ -44787,7 +44801,7 @@
       "name": "Hachecateur",
       "level": 301,
       "talent": 1482,
-      "ranking": 1424,
+      "ranking": 1423,
       "life": 2695,
       "tp": 21,
       "mp": 5,
