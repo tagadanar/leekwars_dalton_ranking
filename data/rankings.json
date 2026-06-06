@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-06T17:09:48.954742+00:00",
+  "last_updated": "2026-06-06T18:15:13.636783+00:00",
   "daltons": {
     "46733": [
       {
@@ -15827,7 +15827,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7693,
+      "talent": 7697,
       "ranking": 2,
       "country": "fr",
       "total_level": 1204,
@@ -15914,7 +15914,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6700,
+      "talent": 6677,
       "ranking": 12,
       "country": "fr",
       "total_level": 1204,
@@ -16157,7 +16157,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7042,
+      "talent": 7041,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -16854,7 +16854,7 @@
       "id": 87622,
       "name": "CompleteDisappointment",
       "talent": 3260,
-      "ranking": 110,
+      "ranking": 111,
       "country": "fr",
       "total_level": 902,
       "trophies": 215,
@@ -17096,8 +17096,8 @@
     "66643": {
       "id": 66643,
       "name": "WRNYK",
-      "talent": 2826,
-      "ranking": 142,
+      "talent": 2853,
+      "ranking": 136,
       "country": "fr",
       "total_level": 1034,
       "trophies": 204,
@@ -17358,7 +17358,7 @@
       "id": 52323,
       "name": "Leekspin1",
       "talent": 3248,
-      "ranking": 111,
+      "ranking": 112,
       "country": "fr",
       "total_level": 1204,
       "trophies": 264,
@@ -18484,8 +18484,8 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7199,
-      "ranking": 4,
+      "talent": 7196,
+      "ranking": 5,
       "country": "fr",
       "total_level": 1204,
       "trophies": 281,
@@ -18658,8 +18658,8 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7190,
-      "ranking": 5,
+      "talent": 7198,
+      "ranking": 4,
       "country": "fr",
       "total_level": 1204,
       "trophies": 336,
@@ -18920,7 +18920,7 @@
       "id": 41108,
       "name": "Jace",
       "talent": 2830,
-      "ranking": 140,
+      "ranking": 141,
       "country": "fr",
       "total_level": 1204,
       "trophies": 208,
@@ -19528,7 +19528,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7775,
+      "talent": 7778,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -20028,8 +20028,8 @@
     "59622": {
       "id": 59622,
       "name": "fujiwar2",
-      "talent": 3234,
-      "ranking": 112,
+      "talent": 3261,
+      "ranking": 110,
       "country": "fr",
       "total_level": 1204,
       "trophies": 259,
@@ -20349,7 +20349,7 @@
           "id": 105671,
           "name": "L\u00e9gumesTr\u00e9sBon",
           "level": 301,
-          "talent": 3321,
+          "talent": 3324,
           "life": 2990,
           "tp": 27,
           "mp": 7,
@@ -20702,7 +20702,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7281,
+      "talent": 7278,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -20964,7 +20964,7 @@
       "id": 97030,
       "name": "dulph",
       "talent": 3691,
-      "ranking": 80,
+      "ranking": 79,
       "country": "fr",
       "total_level": 1204,
       "trophies": 316,
@@ -21485,7 +21485,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 6915,
+      "talent": 6912,
       "ranking": 10,
       "country": "fr",
       "total_level": 1204,
@@ -22301,7 +22301,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3366,
+      "talent": 3359,
       "ranking": 106,
       "country": "fr",
       "total_level": 903,
@@ -23342,8 +23342,8 @@
     "124738": {
       "id": 124738,
       "name": "DeKleek",
-      "talent": 2907,
-      "ranking": 128,
+      "talent": 2889,
+      "ranking": 133,
       "country": "fr",
       "total_level": 1013,
       "trophies": 209,
@@ -23585,8 +23585,8 @@
     "63305": {
       "id": 63305,
       "name": "Panca",
-      "talent": 2838,
-      "ranking": 138,
+      "talent": 2837,
+      "ranking": 139,
       "country": "fr",
       "total_level": 835,
       "trophies": 238,
@@ -24002,7 +24002,7 @@
     "124760": {
       "id": 124760,
       "name": "Kleekteek",
-      "talent": 2639,
+      "talent": 2638,
       "ranking": 162,
       "country": "fr",
       "total_level": 1020,
@@ -24702,7 +24702,7 @@
       "ranking": 187,
       "country": "fr",
       "total_level": 1082,
-      "trophies": 202,
+      "trophies": 203,
       "leeks": {
         "132355": {
           "id": 132355,
@@ -25569,7 +25569,7 @@
       "id": 60830,
       "name": "Unstoppable",
       "talent": 3677,
-      "ranking": 79,
+      "ranking": 80,
       "country": "fr",
       "total_level": 1204,
       "trophies": 250,
@@ -26091,7 +26091,7 @@
       "id": 106937,
       "name": "huld",
       "talent": 2891,
-      "ranking": 132,
+      "ranking": 131,
       "country": "fr",
       "total_level": 1204,
       "trophies": 265,
@@ -27029,7 +27029,7 @@
     "58321": {
       "id": 58321,
       "name": "fujiwar",
-      "talent": 6454,
+      "talent": 6476,
       "ranking": 19,
       "country": "pe",
       "total_level": 1204,
@@ -27354,7 +27354,7 @@
           "id": 82518,
           "name": "Kraneur",
           "level": 301,
-          "talent": 3406,
+          "talent": 3403,
           "life": 3285,
           "tp": 26,
           "mp": 6,
@@ -27377,7 +27377,7 @@
     "99304": {
       "id": 99304,
       "name": "Fnouil",
-      "talent": 2427,
+      "talent": 2419,
       "ranking": 200,
       "country": "fr",
       "total_level": 915,
@@ -35183,7 +35183,7 @@
       "id": 82518,
       "name": "Kraneur",
       "level": 301,
-      "talent": 3406,
+      "talent": 3403,
       "ranking": 9,
       "life": 3285,
       "tp": 26,
@@ -42829,7 +42829,7 @@
       "id": 105671,
       "name": "L\u00e9gumesTr\u00e9sBon",
       "level": 301,
-      "talent": 3321,
+      "talent": 3324,
       "ranking": 11,
       "life": 2990,
       "tp": 27,
@@ -46578,7 +46578,7 @@
       "weapons": [
         "sword",
         "rhino",
-        "enhanced_lightninger",
+        "mysterious_electrisor",
         "m_laser"
       ],
       "chips": [
