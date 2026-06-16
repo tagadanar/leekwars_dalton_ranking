@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T00:34:35.412514+00:00",
+  "last_updated": "2026-06-16T06:35:12.153707+00:00",
   "daltons": {
     "46733": [
       {
@@ -18612,8 +18612,8 @@
     "71271": {
       "id": 71271,
       "name": "Kaesorus",
-      "talent": 2661,
-      "ranking": 159,
+      "talent": 2676,
+      "ranking": 155,
       "country": "fr",
       "total_level": 1204,
       "trophies": 243,
@@ -19217,8 +19217,8 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3851,
-      "ranking": 75,
+      "talent": 3786,
+      "ranking": 77,
       "country": "fr",
       "total_level": 1204,
       "trophies": 302,
@@ -20175,7 +20175,7 @@
       "id": 97950,
       "name": "Arcannos",
       "talent": 2676,
-      "ranking": 156,
+      "ranking": 155,
       "country": "fr",
       "total_level": 1203,
       "trophies": 237,
@@ -20961,7 +20961,7 @@
       "ranking": 60,
       "country": "ps",
       "total_level": 1204,
-      "trophies": 307,
+      "trophies": 309,
       "leeks": {
         "91285": {
           "id": 91285,
@@ -22044,7 +22044,7 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3744,
+      "talent": 3749,
       "ranking": 78,
       "country": "fr",
       "total_level": 1204,
@@ -22914,8 +22914,8 @@
     "25363": {
       "id": 25363,
       "name": "Szczypka",
-      "talent": 3675,
-      "ranking": 79,
+      "talent": 3667,
+      "ranking": 81,
       "country": "pl",
       "total_level": 1204,
       "trophies": 238,
@@ -23088,8 +23088,8 @@
     "101146": {
       "id": 101146,
       "name": "theonesolox",
-      "talent": 2458,
-      "ranking": 190,
+      "talent": 2473,
+      "ranking": 188,
       "country": "fr",
       "total_level": 1202,
       "trophies": 228,
@@ -23520,7 +23520,7 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 4104,
+      "talent": 4122,
       "ranking": 69,
       "country": "ps",
       "total_level": 1203,
@@ -25257,7 +25257,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3878,
+      "talent": 3896,
       "ranking": 72,
       "country": "fr",
       "total_level": 1204,
@@ -25432,7 +25432,7 @@
       "id": 124767,
       "name": "dulph4",
       "talent": 1612,
-      "ranking": 368,
+      "ranking": 369,
       "country": "fr",
       "total_level": 1011,
       "trophies": 219,
@@ -26911,7 +26911,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1330,
-      "ranking": 485,
+      "ranking": 486,
       "country": "fr",
       "total_level": 938,
       "trophies": 150,
@@ -27762,7 +27762,7 @@
     "53189": {
       "id": 53189,
       "name": "tagadamasio",
-      "talent": 2457,
+      "talent": 2442,
       "ranking": null,
       "country": "fr",
       "total_level": 1204,
@@ -28371,7 +28371,7 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 4027,
+      "talent": 4051,
       "ranking": 71,
       "country": "fr",
       "total_level": 1204,
@@ -28806,8 +28806,8 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3808,
-      "ranking": 76,
+      "talent": 3850,
+      "ranking": 74,
       "country": "fr",
       "total_level": 1204,
       "trophies": 232,
@@ -42892,7 +42892,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 849,
-      "ranking": 3562,
+      "ranking": 3561,
       "life": 1072,
       "tp": 12,
       "mp": 4,
