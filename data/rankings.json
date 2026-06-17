@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T20:09:11.222732+00:00",
+  "last_updated": "2026-06-17T22:07:53.189616+00:00",
   "daltons": {
     "46733": [
       {
@@ -10887,6 +10887,13 @@
           "date": 1779796687
         },
         {
+          "fight_id": 52692392,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 30,
+          "date": 1781730170
+        },
+        {
           "fight_id": 52261161,
           "total_level": 1204,
           "total_capital": null,
@@ -10969,6 +10976,13 @@
           "total_capital": null,
           "turns": 33,
           "date": 1780731575
+        },
+        {
+          "fight_id": 52692397,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 33,
+          "date": 1781730429
         },
         {
           "fight_id": 52374436,
@@ -13226,6 +13240,13 @@
           "total_capital": null,
           "turns": 24,
           "date": 1781158128
+        },
+        {
+          "fight_id": 52692297,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 24,
+          "date": 1781729113
         },
         {
           "fight_id": 52354188,
@@ -17338,7 +17359,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6819,
+      "talent": 6793,
       "ranking": 11,
       "country": "fr",
       "total_level": 1204,
@@ -17581,8 +17602,8 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7184,
-      "ranking": 5,
+      "talent": 7191,
+      "ranking": 6,
       "country": "fr",
       "total_level": 1204,
       "trophies": 341,
@@ -18103,8 +18124,8 @@
     "7740": {
       "id": 7740,
       "name": "nandz",
-      "talent": 1717,
-      "ranking": 296,
+      "talent": 1745,
+      "ranking": 282,
       "country": "fr",
       "total_level": 1050,
       "trophies": 223,
@@ -18433,8 +18454,8 @@
     "53323": {
       "id": 53323,
       "name": "EplucheLegumes",
-      "talent": 2502,
-      "ranking": 175,
+      "talent": 2518,
+      "ranking": 171,
       "country": "fr",
       "total_level": 1204,
       "trophies": 245,
@@ -18869,7 +18890,7 @@
       "id": 88167,
       "name": "mort",
       "talent": 2532,
-      "ranking": 170,
+      "ranking": 169,
       "country": "fr",
       "total_level": 1143,
       "trophies": 215,
@@ -19125,7 +19146,7 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6599,
+      "talent": 6586,
       "ranking": 14,
       "country": "fr",
       "total_level": 1204,
@@ -19473,8 +19494,8 @@
     "76418": {
       "id": 76418,
       "name": "Hyunew",
-      "talent": 6757,
-      "ranking": 12,
+      "talent": 6705,
+      "ranking": 13,
       "country": "fr",
       "total_level": 1204,
       "trophies": 289,
@@ -19908,8 +19929,8 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7183,
-      "ranking": 6,
+      "talent": 7215,
+      "ranking": 5,
       "country": "fr",
       "total_level": 1204,
       "trophies": 281,
@@ -20082,7 +20103,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7311,
+      "talent": 7265,
       "ranking": 4,
       "country": "fr",
       "total_level": 1204,
@@ -21883,8 +21904,8 @@
     "50927": {
       "id": 50927,
       "name": "MrAnislider",
-      "talent": 2584,
-      "ranking": 163,
+      "talent": 2599,
+      "ranking": 162,
       "country": "co",
       "total_level": 1204,
       "trophies": 251,
@@ -22126,7 +22147,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7319,
+      "talent": 7351,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -22909,7 +22930,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7049,
+      "talent": 7066,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -23519,7 +23540,7 @@
       "id": 73500,
       "name": "Monarch",
       "talent": 100,
-      "ranking": 23649,
+      "ranking": 23648,
       "country": "fr",
       "total_level": 301,
       "trophies": 217,
@@ -23552,7 +23573,7 @@
       "id": 97564,
       "name": "dardar",
       "talent": 1644,
-      "ranking": 345,
+      "ranking": 344,
       "country": "fr",
       "total_level": 1204,
       "trophies": 232,
@@ -24418,11 +24439,11 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 6999,
-      "ranking": 8,
+      "talent": 7000,
+      "ranking": 9,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 322,
+      "trophies": 326,
       "leeks": {
         "81460": {
           "id": 81460,
@@ -24680,7 +24701,7 @@
       "id": 30010,
       "name": "Azimel",
       "talent": 2513,
-      "ranking": 172,
+      "ranking": 174,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -25427,7 +25448,7 @@
       "id": 124760,
       "name": "Kleekteek",
       "talent": 2550,
-      "ranking": 168,
+      "ranking": 167,
       "country": "fr",
       "total_level": 1020,
       "trophies": 210,
@@ -25774,10 +25795,10 @@
     "124767": {
       "id": 124767,
       "name": "dulph4",
-      "talent": 1602,
-      "ranking": 380,
+      "talent": 1590,
+      "ranking": 384,
       "country": "fr",
-      "total_level": 1016,
+      "total_level": 1017,
       "trophies": 219,
       "leeks": {
         "131231": {
@@ -25819,9 +25840,9 @@
         "131570": {
           "id": 131570,
           "name": "dilph4",
-          "level": 239,
+          "level": 240,
           "talent": 1124,
-          "life": 1524,
+          "life": 1527,
           "tp": 20,
           "mp": 6,
           "strength": 40,
@@ -26035,8 +26056,8 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 6942,
-      "ranking": 10,
+      "talent": 7025,
+      "ranking": 8,
       "country": "fr",
       "total_level": 1204,
       "trophies": 286,
@@ -26210,7 +26231,7 @@
       "id": 125800,
       "name": "Skydonia",
       "talent": 2548,
-      "ranking": 169,
+      "ranking": 168,
       "country": "fr",
       "total_level": 1139,
       "trophies": 210,
@@ -26470,8 +26491,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 6975,
-      "ranking": 9,
+      "talent": 6871,
+      "ranking": 10,
       "country": null,
       "total_level": 1204,
       "trophies": 345,
@@ -27866,7 +27887,7 @@
       "ranking": 32,
       "country": "fr",
       "total_level": 1203,
-      "trophies": 257,
+      "trophies": 259,
       "leeks": {
         "131360": {
           "id": 131360,
@@ -29062,8 +29083,8 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6705,
-      "ranking": 13,
+      "talent": 6774,
+      "ranking": 12,
       "country": "fr",
       "total_level": 1204,
       "trophies": 292,
@@ -29802,7 +29823,7 @@
       "name": "BobineTesla",
       "level": 214,
       "talent": 1365,
-      "ranking": 1863,
+      "ranking": 1864,
       "life": 1609,
       "tp": 19,
       "mp": 6,
@@ -35883,10 +35904,10 @@
     "131570": {
       "id": 131570,
       "name": "dilph4",
-      "level": 239,
+      "level": 240,
       "talent": 1124,
       "ranking": 2782,
-      "life": 1524,
+      "life": 1527,
       "tp": 20,
       "mp": 6,
       "strength": 40,
@@ -37982,7 +38003,6 @@
         "steroid",
         "carapace",
         "punishment",
-        "manumission",
         "inversion",
         "adrenaline",
         "remission",
@@ -37990,6 +38010,7 @@
         "teleportation",
         "elevation",
         "dome",
+        "mirror",
         "bramble"
       ]
     },
@@ -42530,7 +42551,7 @@
       },
       "weapons": [
         "neutrino",
-        "plutonium_bazooka",
+        "unstable_destroyer",
         "quantum_rifle",
         "heavy_sword"
       ],
@@ -43189,7 +43210,7 @@
       "name": "dalph4",
       "level": 180,
       "talent": 1031,
-      "ranking": 3138,
+      "ranking": 3139,
       "life": 1257,
       "tp": 15,
       "mp": 5,
@@ -44108,7 +44129,6 @@
         "steroid",
         "carapace",
         "punishment",
-        "manumission",
         "inversion",
         "adrenaline",
         "remission",
@@ -44116,6 +44136,7 @@
         "teleportation",
         "elevation",
         "dome",
+        "mirror",
         "bramble"
       ]
     },
@@ -45929,7 +45950,7 @@
       "name": "Coot",
       "level": 250,
       "talent": 1363,
-      "ranking": 1867,
+      "ranking": 1868,
       "life": 2107,
       "tp": 21,
       "mp": 6,
@@ -52268,7 +52289,7 @@
         "name": "Greener"
       },
       "weapons": [
-        "mysterious_electrisor",
+        "plutonium_bazooka",
         "lightninger",
         "quantum_rifle",
         "heavy_sword"
