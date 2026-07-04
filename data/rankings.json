@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T17:04:01.387404+00:00",
+  "last_updated": "2026-07-04T18:06:50.226750+00:00",
   "daltons": {
     "46733": [
       {
@@ -20010,7 +20010,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7743,
+      "talent": 7747,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -20097,7 +20097,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6663,
+      "talent": 6675,
       "ranking": 12,
       "country": "fr",
       "total_level": 1204,
@@ -20427,7 +20427,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7033,
+      "talent": 7061,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -21124,7 +21124,7 @@
       "id": 87622,
       "name": "CompleteDisappointment",
       "talent": 3138,
-      "ranking": 114,
+      "ranking": 115,
       "country": "fr",
       "total_level": 902,
       "trophies": 216,
@@ -21714,8 +21714,8 @@
     "52323": {
       "id": 52323,
       "name": "Leekspin1",
-      "talent": 3130,
-      "ranking": 115,
+      "talent": 3160,
+      "ranking": 113,
       "country": "fr",
       "total_level": 1204,
       "trophies": 266,
@@ -22058,7 +22058,7 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6577,
+      "talent": 6603,
       "ranking": 13,
       "country": "fr",
       "total_level": 1204,
@@ -22233,7 +22233,7 @@
       "id": 19070,
       "name": "Amal",
       "talent": 6563,
-      "ranking": 15,
+      "ranking": 14,
       "country": "jp",
       "total_level": 1204,
       "trophies": 303,
@@ -22928,7 +22928,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7199,
+      "talent": 7187,
       "ranking": 5,
       "country": null,
       "total_level": 1204,
@@ -23276,7 +23276,7 @@
     "124565": {
       "id": 124565,
       "name": "koe",
-      "talent": 1927,
+      "talent": 1928,
       "ranking": 246,
       "country": "us",
       "total_level": 600,
@@ -23972,7 +23972,7 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7556,
+      "talent": 7528,
       "ranking": 2,
       "country": null,
       "total_level": 1204,
@@ -24642,7 +24642,7 @@
     "120043": {
       "id": 120043,
       "name": "dulph2",
-      "talent": 2757,
+      "talent": 2755,
       "ranking": 150,
       "country": "fr",
       "total_level": 1121,
@@ -25929,7 +25929,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7362,
+      "talent": 7358,
       "ranking": 3,
       "country": "fr",
       "total_level": 1204,
@@ -26745,7 +26745,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3336,
+      "talent": 3361,
       "ranking": 106,
       "country": "fr",
       "total_level": 903,
@@ -26883,7 +26883,7 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 4207,
+      "talent": 4206,
       "ranking": 67,
       "country": "ps",
       "total_level": 1203,
@@ -28866,7 +28866,7 @@
       "talent": 1588,
       "ranking": 385,
       "country": "fr",
-      "total_level": 1046,
+      "total_level": 1047,
       "trophies": 220,
       "leeks": {
         "131231": {
@@ -28908,9 +28908,9 @@
         "131570": {
           "id": 131570,
           "name": "dilph4",
-          "level": 252,
+          "level": 253,
           "talent": 1091,
-          "life": 1563,
+          "life": 1566,
           "tp": 20,
           "mp": 6,
           "strength": 40,
@@ -29124,7 +29124,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7279,
+      "talent": 7291,
       "ranking": null,
       "country": null,
       "total_level": 1204,
@@ -29559,7 +29559,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 6961,
+      "talent": 6935,
       "ranking": 9,
       "country": null,
       "total_level": 1204,
@@ -30777,7 +30777,7 @@
     "35256": {
       "id": 35256,
       "name": "Huracan",
-      "talent": 4916,
+      "talent": 4888,
       "ranking": 48,
       "country": "nr",
       "total_level": 1204,
@@ -32412,8 +32412,8 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6572,
-      "ranking": 14,
+      "talent": 6560,
+      "ranking": 15,
       "country": "fr",
       "total_level": 1204,
       "trophies": 299,
@@ -39691,10 +39691,10 @@
     "131570": {
       "id": 131570,
       "name": "dilph4",
-      "level": 252,
+      "level": 253,
       "talent": 1091,
       "ranking": 2865,
-      "life": 1563,
+      "life": 1566,
       "tp": 20,
       "mp": 6,
       "strength": 40,
