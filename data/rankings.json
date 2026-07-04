@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T18:06:50.226750+00:00",
+  "last_updated": "2026-07-04T19:06:33.308538+00:00",
   "daltons": {
     "46733": [
       {
@@ -13583,6 +13583,13 @@
           "date": 1783002814
         },
         {
+          "fight_id": 52871232,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 18,
+          "date": 1783188001
+        },
+        {
           "fight_id": 52263035,
           "total_level": 1204,
           "total_capital": null,
@@ -20010,7 +20017,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7747,
+      "talent": 7750,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -20097,7 +20104,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6675,
+      "talent": 6671,
       "ranking": 12,
       "country": "fr",
       "total_level": 1204,
@@ -20427,7 +20434,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7061,
+      "talent": 7065,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -26190,7 +26197,7 @@
     "124692": {
       "id": 124692,
       "name": "LeekMyTyTy",
-      "talent": 3057,
+      "talent": 3050,
       "ranking": 119,
       "country": "fr",
       "total_level": 1012,
@@ -26745,7 +26752,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3361,
+      "talent": 3390,
       "ranking": 106,
       "country": "fr",
       "total_level": 903,
@@ -27127,7 +27134,7 @@
       "id": 67893,
       "name": "LePetitPatatoseur",
       "talent": 3332,
-      "ranking": 107,
+      "ranking": 108,
       "country": "fr",
       "total_level": 1204,
       "trophies": 211,
@@ -28098,8 +28105,8 @@
     "53583": {
       "id": 53583,
       "name": "Tarama",
-      "talent": 1115,
-      "ranking": 629,
+      "talent": 1116,
+      "ranking": 637,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -29124,7 +29131,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7291,
+      "talent": 7288,
       "ranking": null,
       "country": null,
       "total_level": 1204,
@@ -29473,7 +29480,7 @@
       "id": 98164,
       "name": "DrKouignamann",
       "talent": 1047,
-      "ranking": 757,
+      "ranking": 755,
       "country": "fr",
       "total_level": 1204,
       "trophies": 229,
@@ -32673,7 +32680,7 @@
     "50168": {
       "id": 50168,
       "name": "tagadalone",
-      "talent": 3332,
+      "talent": 3339,
       "ranking": 107,
       "country": null,
       "total_level": 302,
