@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05T18:06:53.173617+00:00",
+  "last_updated": "2026-07-05T19:12:38.352889+00:00",
   "daltons": {
     "46733": [
       {
@@ -20773,7 +20773,7 @@
       "id": 48,
       "name": "Skouarniek",
       "talent": 2460,
-      "ranking": 184,
+      "ranking": 185,
       "country": "mt",
       "total_level": 1204,
       "trophies": 202,
@@ -22055,8 +22055,8 @@
     "23154": {
       "id": 23154,
       "name": "Bouss72",
-      "talent": 2415,
-      "ranking": 193,
+      "talent": 2431,
+      "ranking": 189,
       "country": "fr",
       "total_level": 1204,
       "trophies": 223,
@@ -25140,6 +25140,93 @@
         "name": "Sucrerie"
       }
     },
+    "4853": {
+      "id": 4853,
+      "name": "bigbrother",
+      "talent": 2419,
+      "ranking": 194,
+      "country": "ci",
+      "total_level": 940,
+      "trophies": 223,
+      "leeks": {
+        "5042": {
+          "id": 5042,
+          "name": "Cisco",
+          "level": 301,
+          "talent": 2130,
+          "life": 2720,
+          "tp": 28,
+          "mp": 6,
+          "strength": 500,
+          "agility": 90,
+          "wisdom": 370,
+          "resistance": 290,
+          "science": 100,
+          "magic": 0,
+          "frequency": 140,
+          "cores": 4,
+          "ram": 25
+        },
+        "12121": {
+          "id": 12121,
+          "name": "Juniper",
+          "level": 300,
+          "talent": 1951,
+          "life": 2017,
+          "tp": 25,
+          "mp": 5,
+          "strength": 540,
+          "agility": 350,
+          "wisdom": 300,
+          "resistance": 0,
+          "science": 70,
+          "magic": 0,
+          "frequency": 140,
+          "cores": 4,
+          "ram": 29
+        },
+        "128302": {
+          "id": 128302,
+          "name": "Plise",
+          "level": 227,
+          "talent": 1318,
+          "life": 2238,
+          "tp": 20,
+          "mp": 6,
+          "strength": 510,
+          "agility": 30,
+          "wisdom": 260,
+          "resistance": 260,
+          "science": 50,
+          "magic": 0,
+          "frequency": 140,
+          "cores": 4,
+          "ram": 23
+        },
+        "128688": {
+          "id": 128688,
+          "name": "P\u00e9tunias",
+          "level": 112,
+          "talent": 171,
+          "life": 1523,
+          "tp": 11,
+          "mp": 3,
+          "strength": 420,
+          "agility": 40,
+          "wisdom": 40,
+          "resistance": 40,
+          "science": 40,
+          "magic": 0,
+          "frequency": 160,
+          "cores": 3,
+          "ram": 12
+        }
+      },
+      "team": {
+        "id": 4586,
+        "name": "LFS"
+      }
+    },
     "58615": {
       "id": 58615,
       "name": "Dynamex",
@@ -26013,7 +26100,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7164,
+      "talent": 7171,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -26536,7 +26623,7 @@
       "id": 101146,
       "name": "theonesolox",
       "talent": 2410,
-      "ranking": 195,
+      "ranking": 196,
       "country": "fr",
       "total_level": 1202,
       "trophies": 228,
@@ -27211,7 +27298,7 @@
       "id": 67893,
       "name": "LePetitPatatoseur",
       "talent": 3333,
-      "ranking": 110,
+      "ranking": 109,
       "country": "fr",
       "total_level": 1204,
       "trophies": 211,
@@ -27784,7 +27871,7 @@
       "id": 30010,
       "name": "Azimel",
       "talent": 2464,
-      "ranking": 180,
+      "ranking": 181,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -27958,7 +28045,7 @@
       "id": 54597,
       "name": "Caneton",
       "talent": 2391,
-      "ranking": 199,
+      "ranking": 200,
       "country": "fr",
       "total_level": 903,
       "trophies": 236,
@@ -28183,7 +28270,7 @@
       "id": 53583,
       "name": "Tarama",
       "talent": 1116,
-      "ranking": 635,
+      "ranking": 636,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -28426,7 +28513,7 @@
       "id": 45397,
       "name": "JediMasters",
       "talent": 2407,
-      "ranking": 196,
+      "ranking": 197,
       "country": "gb",
       "total_level": 1204,
       "trophies": 194,
@@ -28950,7 +29037,7 @@
       "talent": 1628,
       "ranking": 375,
       "country": "fr",
-      "total_level": 1047,
+      "total_level": 1048,
       "trophies": 220,
       "leeks": {
         "131231": {
@@ -29010,9 +29097,9 @@
         "132188": {
           "id": 132188,
           "name": "dalph4",
-          "level": 194,
+          "level": 195,
           "talent": 937,
-          "life": 1299,
+          "life": 1302,
           "tp": 15,
           "mp": 5,
           "strength": 20,
@@ -29643,7 +29730,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 6906,
+      "talent": 6899,
       "ranking": 10,
       "country": null,
       "total_level": 1204,
@@ -32757,8 +32844,8 @@
     "50168": {
       "id": 50168,
       "name": "tagadalone",
-      "talent": 3341,
-      "ranking": 109,
+      "talent": 3311,
+      "ranking": 110,
       "country": null,
       "total_level": 302,
       "trophies": 272,
@@ -45748,6 +45835,60 @@
         "arsenic"
       ]
     },
+    "5042": {
+      "id": 5042,
+      "name": "Cisco",
+      "level": 301,
+      "talent": 2130,
+      "ranking": 494,
+      "life": 2720,
+      "tp": 28,
+      "mp": 6,
+      "strength": 500,
+      "agility": 90,
+      "wisdom": 370,
+      "resistance": 290,
+      "science": 100,
+      "magic": 0,
+      "frequency": 140,
+      "cores": 4,
+      "ram": 25,
+      "farmer": {
+        "id": 4853,
+        "name": "bigbrother"
+      },
+      "weapons": [
+        "neutrino",
+        "lightninger",
+        "heavy_sword",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "knowledge",
+        "shield",
+        "solidification",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "punishment",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum",
+        "teleportation",
+        "elevation"
+      ]
+    },
     "66484": {
       "id": 66484,
       "name": "Kavavin",
@@ -47490,10 +47631,10 @@
     "132188": {
       "id": 132188,
       "name": "dalph4",
-      "level": 194,
+      "level": 195,
       "talent": 937,
       "ranking": 3449,
-      "life": 1299,
+      "life": 1302,
       "tp": 15,
       "mp": 5,
       "strength": 20,
@@ -50024,6 +50165,60 @@
         "elevation",
         "dome",
         "therapy"
+      ]
+    },
+    "128302": {
+      "id": 128302,
+      "name": "Plise",
+      "level": 227,
+      "talent": 1318,
+      "ranking": 2016,
+      "life": 2238,
+      "tp": 20,
+      "mp": 6,
+      "strength": 510,
+      "agility": 30,
+      "wisdom": 260,
+      "resistance": 260,
+      "science": 50,
+      "magic": 0,
+      "frequency": 140,
+      "cores": 4,
+      "ram": 23,
+      "farmer": {
+        "id": 4853,
+        "name": "bigbrother"
+      },
+      "weapons": [
+        "neutrino",
+        "sword",
+        "bazooka",
+        "rhino"
+      ],
+      "chips": [
+        "protein",
+        "motivation",
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "jump",
+        "armor",
+        "rockfall",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "covetousness",
+        "inversion",
+        "adrenaline",
+        "remission",
+        "fortress",
+        "serum"
       ]
     },
     "128308": {
@@ -54472,6 +54667,48 @@
         "dome"
       ]
     },
+    "128688": {
+      "id": 128688,
+      "name": "P\u00e9tunias",
+      "level": 112,
+      "talent": 171,
+      "ranking": 14688,
+      "life": 1523,
+      "tp": 11,
+      "mp": 3,
+      "strength": 420,
+      "agility": 40,
+      "wisdom": 40,
+      "resistance": 40,
+      "science": 40,
+      "magic": 0,
+      "frequency": 160,
+      "cores": 3,
+      "ram": 12,
+      "farmer": {
+        "id": 4853,
+        "name": "bigbrother"
+      },
+      "weapons": [
+        "neutrino",
+        "broadsword",
+        "sword"
+      ],
+      "chips": [
+        "shock",
+        "bandage",
+        "pebble",
+        "protein",
+        "rock",
+        "motivation",
+        "stretching",
+        "wall",
+        "cure",
+        "shield",
+        "solidification",
+        "stalactite"
+      ]
+    },
     "57011": {
       "id": 57011,
       "name": "LeeKolonel",
@@ -56055,6 +56292,63 @@
         "metallic_bulb",
         "lightning_bulb",
         "resurrection"
+      ]
+    },
+    "12121": {
+      "id": 12121,
+      "name": "Juniper",
+      "level": 300,
+      "talent": 1951,
+      "ranking": 663,
+      "life": 2017,
+      "tp": 25,
+      "mp": 5,
+      "strength": 540,
+      "agility": 350,
+      "wisdom": 300,
+      "resistance": 0,
+      "science": 70,
+      "magic": 0,
+      "frequency": 140,
+      "cores": 4,
+      "ram": 29,
+      "farmer": {
+        "id": 4853,
+        "name": "bigbrother"
+      },
+      "weapons": [
+        "neutrino",
+        "mysterious_electrisor",
+        "lightninger",
+        "heavy_sword"
+      ],
+      "chips": [
+        "protein",
+        "motivation",
+        "stretching",
+        "leather_boots",
+        "knowledge",
+        "stalactite",
+        "armoring",
+        "jump",
+        "rockfall",
+        "prism",
+        "iceberg",
+        "antidote",
+        "regeneration",
+        "thorn",
+        "steroid",
+        "covetousness",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "serum",
+        "teleportation",
+        "elevation",
+        "mirror",
+        "bramble"
       ]
     },
     "81754": {
@@ -59593,6 +59887,58 @@
           "total_capital": 5340,
           "turns": 54,
           "date": 1773256939
+        }
+      ]
+    },
+    {
+      "fight_id": 52878284,
+      "fight_type": 1,
+      "farmer_name": "bigbrother",
+      "farmer_id": 4853,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 128302,
+          "name": "Plise",
+          "level": 227,
+          "farmer": 4853,
+          "farmer_name": "bigbrother"
+        },
+        {
+          "id": 128688,
+          "name": "P\u00e9tunias",
+          "level": 112,
+          "farmer": 4853,
+          "farmer_name": "bigbrother"
+        },
+        {
+          "id": 12121,
+          "name": "Juniper",
+          "level": 300,
+          "farmer": 4853,
+          "farmer_name": "bigbrother"
+        },
+        {
+          "id": 5042,
+          "name": "Cisco",
+          "level": 301,
+          "farmer": 4853,
+          "farmer_name": "bigbrother"
+        }
+      ],
+      "total_level": 940,
+      "turns": 13,
+      "date": 1783274401,
+      "key": "4853",
+      "leek_names": "Plise, P\u00e9tunias, Juniper, Cisco",
+      "total_capital": 5380,
+      "history": [
+        {
+          "fight_id": 52878284,
+          "total_level": 940,
+          "total_capital": 5380,
+          "turns": 13,
+          "date": 1783274401
         }
       ]
     },
