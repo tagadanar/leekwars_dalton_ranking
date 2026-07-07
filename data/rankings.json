@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T19:50:48.427914+00:00",
+  "last_updated": "2026-07-07T21:25:24.183277+00:00",
   "daltons": {
     "46733": [
       {
@@ -18434,6 +18434,13 @@
           "date": 1779652801
         },
         {
+          "fight_id": 52897611,
+          "total_level": 1505,
+          "total_capital": null,
+          "turns": 22,
+          "date": 1783458002
+        },
+        {
           "fight_id": 52830990,
           "total_level": 1505,
           "total_capital": null,
@@ -20962,7 +20969,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 6973,
+      "talent": 6967,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -21814,7 +21821,7 @@
     "1609": {
       "id": 1609,
       "name": "ToOnS",
-      "talent": 3564,
+      "talent": 3577,
       "ranking": 90,
       "country": "fr",
       "total_level": 1204,
@@ -23463,7 +23470,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7284,
+      "talent": 7311,
       "ranking": 3,
       "country": null,
       "total_level": 1204,
@@ -23637,7 +23644,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7154,
+      "talent": 7131,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -23986,7 +23993,7 @@
       "id": 19612,
       "name": "SalomonSanto",
       "talent": 3536,
-      "ranking": 94,
+      "ranking": 93,
       "country": "vc",
       "total_level": 1204,
       "trophies": 279,
@@ -24772,7 +24779,7 @@
       "ranking": null,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 257,
+      "trophies": 258,
       "leeks": {
         "65435": {
           "id": 65435,
@@ -25768,8 +25775,8 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7253,
-      "ranking": 5,
+      "talent": 7275,
+      "ranking": 4,
       "country": "dj",
       "total_level": 1204,
       "trophies": 315,
@@ -26551,8 +26558,8 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7280,
-      "ranking": 4,
+      "talent": 7265,
+      "ranking": 5,
       "country": "fr",
       "total_level": 1204,
       "trophies": 366,
@@ -28060,7 +28067,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 6997,
+      "talent": 6990,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -29746,7 +29753,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7231,
+      "talent": 7233,
       "ranking": 6,
       "country": null,
       "total_level": 1204,
@@ -30095,7 +30102,7 @@
       "id": 98164,
       "name": "DrKouignamann",
       "talent": 1041,
-      "ranking": 758,
+      "ranking": 759,
       "country": "fr",
       "total_level": 1204,
       "trophies": 230,
@@ -33209,7 +33216,7 @@
       "id": 122869,
       "name": "EF369",
       "talent": 3543,
-      "ranking": 92,
+      "ranking": 91,
       "country": "fr",
       "total_level": 1204,
       "trophies": 249,
@@ -47056,7 +47063,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 417,
-      "ranking": 7633,
+      "ranking": 7635,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -58229,7 +58236,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 216,
       "talent": 344,
-      "ranking": 9161,
+      "ranking": 9159,
       "life": 2007,
       "tp": 17,
       "mp": 6,
