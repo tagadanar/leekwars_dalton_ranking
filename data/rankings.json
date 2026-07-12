@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T21:04:34.008551+00:00",
+  "last_updated": "2026-07-12T21:51:22.226706+00:00",
   "daltons": {
     "46733": [
       {
@@ -18828,6 +18828,13 @@
           "date": 1774215002
         },
         {
+          "fight_id": 52941317,
+          "total_level": 1505,
+          "total_capital": null,
+          "turns": 19,
+          "date": 1783890001
+        },
+        {
           "fight_id": 52879216,
           "total_level": 1505,
           "total_capital": null,
@@ -22736,7 +22743,7 @@
     "1609": {
       "id": 1609,
       "name": "ToOnS",
-      "talent": 3676,
+      "talent": 3630,
       "ranking": 92,
       "country": "fr",
       "total_level": 1204,
@@ -24037,8 +24044,8 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3864,
-      "ranking": 87,
+      "talent": 3874,
+      "ranking": 86,
       "country": "fr",
       "total_level": 1204,
       "trophies": 305,
@@ -25168,8 +25175,8 @@
     "22189": {
       "id": 22189,
       "name": "TyTy03",
-      "talent": 3592,
-      "ranking": 95,
+      "talent": 3596,
+      "ranking": 96,
       "country": "fr",
       "total_level": 1204,
       "trophies": 237,
@@ -27821,7 +27828,7 @@
     "25363": {
       "id": 25363,
       "name": "Szczypka",
-      "talent": 3641,
+      "talent": 3627,
       "ranking": 93,
       "country": "pl",
       "total_level": 1204,
@@ -31799,7 +31806,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3682,
+      "talent": 3724,
       "ranking": 91,
       "country": "fr",
       "total_level": 1204,
@@ -33434,8 +33441,8 @@
     "122838": {
       "id": 122838,
       "name": "3F369",
-      "talent": 3747,
-      "ranking": 89,
+      "talent": 3728,
+      "ranking": 90,
       "country": "fr",
       "total_level": 1204,
       "trophies": 261,
@@ -34130,8 +34137,8 @@
     "122869": {
       "id": 122869,
       "name": "EF369",
-      "talent": 3510,
-      "ranking": 107,
+      "talent": 3530,
+      "ranking": 100,
       "country": "fr",
       "total_level": 1204,
       "trophies": 250,
@@ -37278,7 +37285,7 @@
       "name": "80CHIPREMISSION",
       "level": 178,
       "talent": 565,
-      "ranking": 5265,
+      "ranking": 5266,
       "life": 1609,
       "tp": 15,
       "mp": 6,
@@ -40792,7 +40799,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 557,
-      "ranking": 5437,
+      "ranking": 5438,
       "life": 1421,
       "tp": 17,
       "mp": 7,
