@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T20:56:43.746443+00:00",
+  "last_updated": "2026-07-16T22:07:53.858483+00:00",
   "daltons": {
     "46733": [
       {
@@ -17133,6 +17133,13 @@
           "date": 1778196443
         },
         {
+          "fight_id": 52978257,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1784235614
+        },
+        {
           "fight_id": 52426436,
           "total_level": 1204,
           "total_capital": null,
@@ -17194,6 +17201,13 @@
           "total_capital": null,
           "turns": 20,
           "date": 1781158322
+        },
+        {
+          "fight_id": 52978195,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 20,
+          "date": 1784235531
         },
         {
           "fight_id": 52426438,
@@ -17397,6 +17411,13 @@
           "total_capital": null,
           "turns": 39,
           "date": 1775071504
+        },
+        {
+          "fight_id": 52978189,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 40,
+          "date": 1784235524
         },
         {
           "fight_id": 52660586,
@@ -19519,6 +19540,13 @@
           "total_capital": null,
           "turns": 8,
           "date": 1774036801
+        },
+        {
+          "fight_id": 52978255,
+          "total_level": 1505,
+          "total_capital": null,
+          "turns": 13,
+          "date": 1784235602
         },
         {
           "fight_id": 52614216,
@@ -22365,8 +22393,8 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6943,
-      "ranking": 9,
+      "talent": 6915,
+      "ranking": 10,
       "country": "fr",
       "total_level": 1204,
       "trophies": 351,
@@ -22585,7 +22613,7 @@
           "id": 80953,
           "name": "Krat\u00e8re",
           "level": 301,
-          "talent": 3299,
+          "talent": 3314,
           "life": 3220,
           "tp": 28,
           "mp": 7,
@@ -23217,8 +23245,8 @@
     "7740": {
       "id": 7740,
       "name": "nandz",
-      "talent": 1697,
-      "ranking": 352,
+      "talent": 1709,
+      "ranking": 348,
       "country": "fr",
       "total_level": 1050,
       "trophies": 223,
@@ -23808,7 +23836,7 @@
     "32858": {
       "id": 32858,
       "name": "Joalien",
-      "talent": 6153,
+      "talent": 6162,
       "ranking": 24,
       "country": "ps",
       "total_level": 1204,
@@ -23836,7 +23864,7 @@
           "id": 36966,
           "name": "LeekyMinaj",
           "level": 301,
-          "talent": 3304,
+          "talent": 3317,
           "life": 2950,
           "tp": 25,
           "mp": 8,
@@ -23854,7 +23882,7 @@
           "id": 57902,
           "name": "LeeckyLuck",
           "level": 301,
-          "talent": 3310,
+          "talent": 3324,
           "life": 3520,
           "tp": 26,
           "mp": 7,
@@ -24326,7 +24354,7 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6583,
+      "talent": 6576,
       "ranking": 15,
       "country": "fr",
       "total_level": 1204,
@@ -24500,7 +24528,7 @@
     "19070": {
       "id": 19070,
       "name": "Amal",
-      "talent": 6493,
+      "talent": 6504,
       "ranking": 16,
       "country": "jp",
       "total_level": 1204,
@@ -24761,7 +24789,7 @@
     "76418": {
       "id": 76418,
       "name": "Hyunew",
-      "talent": 6911,
+      "talent": 6859,
       "ranking": 11,
       "country": "fr",
       "total_level": 1204,
@@ -25196,8 +25224,8 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7172,
-      "ranking": 7,
+      "talent": 7251,
+      "ranking": 4,
       "country": null,
       "total_level": 1204,
       "trophies": 289,
@@ -25370,8 +25398,8 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7289,
-      "ranking": 4,
+      "talent": 7219,
+      "ranking": 7,
       "country": "fr",
       "total_level": 1204,
       "trophies": 352,
@@ -26066,8 +26094,8 @@
     "76473": {
       "id": 76473,
       "name": "galactichitchleeker",
-      "talent": 6737,
-      "ranking": 13,
+      "talent": 6711,
+      "ranking": 14,
       "country": "fr",
       "total_level": 1204,
       "trophies": 270,
@@ -26240,11 +26268,11 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7381,
+      "talent": 7403,
       "ranking": 2,
       "country": null,
       "total_level": 1204,
-      "trophies": 295,
+      "trophies": 296,
       "leeks": {
         "128883": {
           "id": 128883,
@@ -27588,7 +27616,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7380,
+      "talent": 7368,
       "ranking": 3,
       "country": "dj",
       "total_level": 1204,
@@ -28371,8 +28399,8 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7198,
-      "ranking": 6,
+      "talent": 7225,
+      "ranking": 5,
       "country": "fr",
       "total_level": 1204,
       "trophies": 367,
@@ -30054,7 +30082,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7228,
+      "talent": 7225,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -30141,7 +30169,7 @@
     "71485": {
       "id": 71485,
       "name": "BrocoliCosmique",
-      "talent": 5920,
+      "talent": 5902,
       "ranking": 30,
       "country": "ps",
       "total_level": 1204,
@@ -31740,8 +31768,8 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 6941,
-      "ranking": 10,
+      "talent": 7146,
+      "ranking": 8,
       "country": null,
       "total_level": 1204,
       "trophies": 294,
@@ -32175,8 +32203,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7102,
-      "ranking": 8,
+      "talent": 7037,
+      "ranking": 9,
       "country": null,
       "total_level": 1204,
       "trophies": 353,
@@ -32266,7 +32294,7 @@
       "ranking": 72,
       "country": "ps",
       "total_level": 1204,
-      "trophies": 330,
+      "trophies": 331,
       "leeks": {
         "93072": {
           "id": 93072,
@@ -32610,7 +32638,7 @@
     "76695": {
       "id": 76695,
       "name": "ihsusikamet",
-      "talent": 6818,
+      "talent": 6732,
       "ranking": 12,
       "country": "fr",
       "total_level": 1204,
@@ -33132,11 +33160,11 @@
     "78250": {
       "id": 78250,
       "name": "Gandhictature",
-      "talent": 6100,
+      "talent": 6092,
       "ranking": 25,
       "country": "in",
       "total_level": 1204,
-      "trophies": 343,
+      "trophies": 345,
       "leeks": {
         "83163": {
           "id": 83163,
@@ -33219,7 +33247,7 @@
     "44975": {
       "id": 44975,
       "name": "Agade",
-      "talent": 5981,
+      "talent": 6000,
       "ranking": 26,
       "country": "ch",
       "total_level": 1204,
@@ -34158,7 +34186,7 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6381,
+      "talent": 6377,
       "ranking": 20,
       "country": "fr",
       "total_level": 1204,
@@ -34419,7 +34447,7 @@
     "58321": {
       "id": 58321,
       "name": "fujiwar",
-      "talent": 6401,
+      "talent": 6426,
       "ranking": 18,
       "country": "pe",
       "total_level": 1204,
@@ -34767,7 +34795,7 @@
     "76772": {
       "id": 76772,
       "name": "Kraspen",
-      "talent": 6333,
+      "talent": 6299,
       "ranking": 21,
       "country": "fm",
       "total_level": 1204,
@@ -34795,7 +34823,7 @@
           "id": 81733,
           "name": "Krasseux",
           "level": 301,
-          "talent": 3260,
+          "talent": 3247,
           "life": 3465,
           "tp": 27,
           "mp": 7,
@@ -35028,8 +35056,8 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6702,
-      "ranking": 14,
+      "talent": 6718,
+      "ranking": 13,
       "country": "fr",
       "total_level": 1204,
       "trophies": 301,
@@ -36348,8 +36376,8 @@
       "id": 36966,
       "name": "LeekyMinaj",
       "level": 301,
-      "talent": 3304,
-      "ranking": 18,
+      "talent": 3317,
+      "ranking": 16,
       "life": 2950,
       "tp": 25,
       "mp": 8,
@@ -38350,7 +38378,7 @@
       "name": "80CHIPREMISSION",
       "level": 178,
       "talent": 565,
-      "ranking": 5258,
+      "ranking": 5261,
       "life": 1609,
       "tp": 15,
       "mp": 6,
@@ -40858,7 +40886,7 @@
       "name": "78CHIPLIGHTNINGBULB",
       "level": 253,
       "talent": 1089,
-      "ranking": 2866,
+      "ranking": 2867,
       "life": 2266,
       "tp": 18,
       "mp": 6,
@@ -41310,7 +41338,7 @@
       "name": "CloseEnough",
       "level": 298,
       "talent": 998,
-      "ranking": 3266,
+      "ranking": 3264,
       "life": 2961,
       "tp": 25,
       "mp": 8,
@@ -41862,7 +41890,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 557,
-      "ranking": 5433,
+      "ranking": 5435,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -42355,7 +42383,7 @@
       "name": "Portevoix",
       "level": 150,
       "talent": 799,
-      "ranking": 3642,
+      "ranking": 3644,
       "life": 1667,
       "tp": 14,
       "mp": 6,
@@ -43176,7 +43204,7 @@
       "name": "NearMiss",
       "level": 117,
       "talent": 543,
-      "ranking": 5612,
+      "ranking": 5613,
       "life": 1558,
       "tp": 18,
       "mp": 6,
@@ -46371,7 +46399,7 @@
       "name": "Portemurmure",
       "level": 50,
       "talent": 525,
-      "ranking": 5842,
+      "ranking": 5843,
       "life": 447,
       "tp": 13,
       "mp": 5,
@@ -49549,7 +49577,7 @@
       "name": "Portechapeau",
       "level": 99,
       "talent": 720,
-      "ranking": 3916,
+      "ranking": 3915,
       "life": 724,
       "tp": 13,
       "mp": 6,
@@ -50108,7 +50136,7 @@
       "name": "MomentParfait",
       "level": 230,
       "talent": 987,
-      "ranking": 3303,
+      "ranking": 3302,
       "life": 2137,
       "tp": 20,
       "mp": 5,
@@ -50465,7 +50493,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 688,
-      "ranking": 4083,
+      "ranking": 4084,
       "life": 1072,
       "tp": 12,
       "mp": 4,
@@ -54335,7 +54363,7 @@
       "name": "Po\u00e9sieBucoleek",
       "level": 301,
       "talent": 755,
-      "ranking": 3736,
+      "ranking": 3737,
       "life": 3090,
       "tp": 26,
       "mp": 7,
