@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T05:05:44.247250+00:00",
+  "last_updated": "2026-07-17T07:22:07.882557+00:00",
   "daltons": {
     "46733": [
       {
@@ -8502,6 +8502,20 @@
           "date": 1782461311
         },
         {
+          "fight_id": 52980151,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 8,
+          "date": 1784271894
+        },
+        {
+          "fight_id": 52980032,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 8,
+          "date": 1784271428
+        },
+        {
           "fight_id": 52054857,
           "total_level": 1204,
           "total_capital": null,
@@ -8677,6 +8691,13 @@
           "date": 1783926034
         },
         {
+          "fight_id": 52980131,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 9,
+          "date": 1784271814
+        },
+        {
           "fight_id": 51844032,
           "total_level": 1204,
           "total_capital": null,
@@ -8836,6 +8857,13 @@
           "total_capital": null,
           "turns": 10,
           "date": 1783925723
+        },
+        {
+          "fight_id": 52980107,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 10,
+          "date": 1784271712
         },
         {
           "fight_id": 51828516,
@@ -9114,6 +9142,13 @@
           "total_capital": null,
           "turns": 12,
           "date": 1784098125
+        },
+        {
+          "fight_id": 52980088,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1784271619
         },
         {
           "fight_id": 51954990,
@@ -9753,6 +9788,20 @@
           "date": 1783926061
         },
         {
+          "fight_id": 52980120,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 16,
+          "date": 1784271765
+        },
+        {
+          "fight_id": 52980048,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 16,
+          "date": 1784271479
+        },
+        {
           "fight_id": 51844073,
           "total_level": 1204,
           "total_capital": null,
@@ -9933,6 +9982,13 @@
           "total_capital": null,
           "turns": 18,
           "date": 1782371205
+        },
+        {
+          "fight_id": 52980133,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 18,
+          "date": 1784271819
         },
         {
           "fight_id": 51951386,
@@ -10311,6 +10367,13 @@
           "total_capital": null,
           "turns": 31,
           "date": 1782289561
+        },
+        {
+          "fight_id": 52980086,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 31,
+          "date": 1784271607
         },
         {
           "fight_id": 52071777,
@@ -22313,7 +22376,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7721,
+      "talent": 7751,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -22400,7 +22463,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6915,
+      "talent": 6989,
       "ranking": 10,
       "country": "fr",
       "total_level": 1204,
@@ -23252,8 +23315,8 @@
     "7740": {
       "id": 7740,
       "name": "nandz",
-      "talent": 1709,
-      "ranking": 348,
+      "talent": 1698,
+      "ranking": 351,
       "country": "fr",
       "total_level": 1050,
       "trophies": 223,
@@ -24884,7 +24947,7 @@
       "id": 34434,
       "name": "fantonico",
       "talent": 3816,
-      "ranking": 86,
+      "ranking": 87,
       "country": "fr",
       "total_level": 1204,
       "trophies": 306,
@@ -25231,8 +25294,8 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7217,
-      "ranking": 5,
+      "talent": 7174,
+      "ranking": 7,
       "country": null,
       "total_level": 1204,
       "trophies": 289,
@@ -25405,7 +25468,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7211,
+      "talent": 7191,
       "ranking": 6,
       "country": "fr",
       "total_level": 1204,
@@ -26275,8 +26338,8 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7455,
-      "ranking": 2,
+      "talent": 7343,
+      "ranking": 3,
       "country": null,
       "total_level": 1204,
       "trophies": 296,
@@ -27623,8 +27686,8 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7352,
-      "ranking": 3,
+      "talent": 7450,
+      "ranking": 2,
       "country": "dj",
       "total_level": 1204,
       "trophies": 320,
@@ -28058,7 +28121,7 @@
     "92936": {
       "id": 92936,
       "name": "Casanova",
-      "talent": 4043,
+      "talent": 4030,
       "ranking": 84,
       "country": "it",
       "total_level": 1204,
@@ -28406,7 +28469,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7254,
+      "talent": 7311,
       "ranking": 4,
       "country": "fr",
       "total_level": 1204,
@@ -29049,7 +29112,7 @@
       "id": 97564,
       "name": "dardar",
       "talent": 1758,
-      "ranking": 325,
+      "ranking": 324,
       "country": "fr",
       "total_level": 1204,
       "trophies": 232,
@@ -30089,8 +30152,8 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7202,
-      "ranking": 7,
+      "talent": 7204,
+      "ranking": 5,
       "country": "fr",
       "total_level": 1204,
       "trophies": 326,
@@ -30264,7 +30327,7 @@
       "id": 83260,
       "name": "FarmerIcarus",
       "talent": 1790,
-      "ranking": 312,
+      "ranking": 313,
       "country": "gb",
       "total_level": 947,
       "trophies": 226,
@@ -31340,7 +31403,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3875,
+      "talent": 3882,
       "ranking": 85,
       "country": "fr",
       "total_level": 1204,
@@ -31775,7 +31838,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7146,
+      "talent": 7088,
       "ranking": 8,
       "country": null,
       "total_level": 1204,
@@ -32210,7 +32273,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7037,
+      "talent": 7009,
       "ranking": 9,
       "country": null,
       "total_level": 1204,
@@ -32906,7 +32969,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3710,
+      "talent": 3701,
       "ranking": 90,
       "country": "fr",
       "total_level": 1204,
@@ -33081,7 +33144,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1233,
-      "ranking": 552,
+      "ranking": 558,
       "country": "fr",
       "total_level": 940,
       "trophies": 150,
@@ -33950,8 +34013,8 @@
     "73155": {
       "id": 73155,
       "name": "tagadaveniradieux",
-      "talent": 1766,
-      "ranking": 323,
+      "talent": 1739,
+      "ranking": 333,
       "country": null,
       "total_level": 903,
       "trophies": 215,
@@ -34541,7 +34604,7 @@
     "122838": {
       "id": 122838,
       "name": "3F369",
-      "talent": 4088,
+      "talent": 4101,
       "ranking": 83,
       "country": "fr",
       "total_level": 1204,
@@ -35237,8 +35300,8 @@
     "122869": {
       "id": 122869,
       "name": "EF369",
-      "talent": 3502,
-      "ranking": 100,
+      "talent": 3486,
+      "ranking": 103,
       "country": "fr",
       "total_level": 1204,
       "trophies": 252,
@@ -38385,7 +38448,7 @@
       "name": "80CHIPREMISSION",
       "level": 178,
       "talent": 565,
-      "ranking": 5262,
+      "ranking": 5263,
       "life": 1609,
       "tp": 15,
       "mp": 6,
@@ -40893,7 +40956,7 @@
       "name": "78CHIPLIGHTNINGBULB",
       "level": 253,
       "talent": 1104,
-      "ranking": 2839,
+      "ranking": 2840,
       "life": 2266,
       "tp": 18,
       "mp": 6,
@@ -41897,7 +41960,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 557,
-      "ranking": 5438,
+      "ranking": 5437,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -42035,7 +42098,7 @@
       "name": "RubyLeek3",
       "level": 203,
       "talent": 1145,
-      "ranking": 2757,
+      "ranking": 2758,
       "life": 1746,
       "tp": 20,
       "mp": 5,
@@ -46962,7 +47025,7 @@
       "name": "Ptiplouf",
       "level": 301,
       "talent": 1132,
-      "ranking": 2786,
+      "ranking": 2785,
       "life": 2495,
       "tp": 25,
       "mp": 5,
@@ -49339,7 +49402,7 @@
       "name": "BetterLuckNextTime",
       "level": 117,
       "talent": 432,
-      "ranking": 7264,
+      "ranking": 7265,
       "life": 1418,
       "tp": 18,
       "mp": 6,
@@ -50143,7 +50206,7 @@
       "name": "MomentParfait",
       "level": 230,
       "talent": 987,
-      "ranking": 3303,
+      "ranking": 3301,
       "life": 2137,
       "tp": 20,
       "mp": 5,
@@ -55147,7 +55210,7 @@
       "name": "Porteserviette",
       "level": 184,
       "talent": 133,
-      "ranking": 18020,
+      "ranking": 18018,
       "life": 2279,
       "tp": 16,
       "mp": 4,
@@ -55244,7 +55307,7 @@
       "name": "Portemiracle",
       "level": 161,
       "talent": 94,
-      "ranking": 58421,
+      "ranking": 58426,
       "life": 2060,
       "tp": 16,
       "mp": 5,
@@ -56829,7 +56892,7 @@
       "name": "Laborantine",
       "level": 301,
       "talent": 1143,
-      "ranking": 2758,
+      "ranking": 2759,
       "life": 2635,
       "tp": 25,
       "mp": 5,
@@ -57588,7 +57651,7 @@
       "name": "P\u00e9tunias",
       "level": 116,
       "talent": 171,
-      "ranking": 14692,
+      "ranking": 14693,
       "life": 1535,
       "tp": 11,
       "mp": 3,
@@ -59487,7 +59550,7 @@
       "name": "Technicienne",
       "level": 301,
       "talent": 1137,
-      "ranking": 2776,
+      "ranking": 2777,
       "life": 2520,
       "tp": 22,
       "mp": 5,
