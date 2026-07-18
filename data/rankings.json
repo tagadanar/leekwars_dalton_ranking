@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18T20:54:23.043135+00:00",
+  "last_updated": "2026-07-18T21:52:22.523302+00:00",
   "daltons": {
     "46733": [
       {
@@ -13308,6 +13308,13 @@
           "date": 1779822331
         },
         {
+          "fight_id": 52997305,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 12,
+          "date": 1784410530
+        },
+        {
           "fight_id": 52246417,
           "total_level": 1204,
           "total_capital": null,
@@ -13630,6 +13637,13 @@
           "date": 1779822373
         },
         {
+          "fight_id": 52997304,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 23,
+          "date": 1784410487
+        },
+        {
           "fight_id": 52597161,
           "total_level": 1204,
           "total_capital": null,
@@ -13761,6 +13775,13 @@
           "total_capital": null,
           "turns": 27,
           "date": 1780856814
+        },
+        {
+          "fight_id": 52997308,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 27,
+          "date": 1784410555
         },
         {
           "fight_id": 52179216,
@@ -22645,7 +22666,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6921,
+      "talent": 6915,
       "ranking": 10,
       "country": "fr",
       "total_level": 1204,
@@ -22979,7 +23000,7 @@
       "ranking": 69,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 368,
+      "trophies": 369,
       "leeks": {
         "100625": {
           "id": 100625,
@@ -25476,7 +25497,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7349,
+      "talent": 7367,
       "ranking": 3,
       "country": null,
       "total_level": 1204,
@@ -25650,8 +25671,8 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7198,
-      "ranking": 6,
+      "talent": 7242,
+      "ranking": 5,
       "country": "fr",
       "total_level": 1204,
       "trophies": 352,
@@ -27868,8 +27889,8 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7263,
-      "ranking": 5,
+      "talent": 7236,
+      "ranking": 6,
       "country": "dj",
       "total_level": 1204,
       "trophies": 320,
@@ -28651,7 +28672,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7320,
+      "talent": 7314,
       "ranking": 4,
       "country": "fr",
       "total_level": 1204,
@@ -30334,8 +30355,8 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7038,
-      "ranking": 8,
+      "talent": 7019,
+      "ranking": 9,
       "country": "fr",
       "total_level": 1204,
       "trophies": 326,
@@ -31085,7 +31106,7 @@
       "ranking": 270,
       "country": "fr",
       "total_level": 801,
-      "trophies": 189,
+      "trophies": 190,
       "leeks": {
         "103174": {
           "id": 103174,
@@ -32020,7 +32041,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7167,
+      "talent": 7141,
       "ranking": 7,
       "country": null,
       "total_level": 1204,
@@ -32455,8 +32476,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7011,
-      "ranking": 9,
+      "talent": 7033,
+      "ranking": 8,
       "country": null,
       "total_level": 1204,
       "trophies": 353,
@@ -32542,8 +32563,8 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 4306,
-      "ranking": 73,
+      "talent": 4289,
+      "ranking": 74,
       "country": "ps",
       "total_level": 1204,
       "trophies": 331,
@@ -34438,7 +34459,7 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6358,
+      "talent": 6369,
       "ranking": 19,
       "country": "fr",
       "total_level": 1204,
@@ -38635,7 +38656,7 @@
       "name": "80CHIPREMISSION",
       "level": 178,
       "talent": 565,
-      "ranking": 5303,
+      "ranking": 5305,
       "life": 1609,
       "tp": 15,
       "mp": 6,
@@ -42640,7 +42661,7 @@
       "name": "Portevoix",
       "level": 150,
       "talent": 894,
-      "ranking": 3537,
+      "ranking": 3538,
       "life": 1727,
       "tp": 14,
       "mp": 6,
@@ -49833,7 +49854,7 @@
       "name": "Portechapeau",
       "level": 99,
       "talent": 720,
-      "ranking": 3948,
+      "ranking": 3947,
       "life": 724,
       "tp": 13,
       "mp": 6,
@@ -50749,7 +50770,7 @@
       "name": "Fantosynth\u00e8se",
       "level": 95,
       "talent": 688,
-      "ranking": 4115,
+      "ranking": 4113,
       "life": 1072,
       "tp": 12,
       "mp": 4,
