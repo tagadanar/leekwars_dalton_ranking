@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T22:52:15.793422+00:00",
+  "last_updated": "2026-07-19T23:58:18.384144+00:00",
   "daltons": {
     "46733": [
       {
@@ -23209,8 +23209,8 @@
     "44568": {
       "id": 44568,
       "name": "Madnicow",
-      "talent": 4712,
-      "ranking": 65,
+      "talent": 4566,
+      "ranking": 68,
       "country": "fr",
       "total_level": 1204,
       "trophies": 310,
@@ -23974,8 +23974,8 @@
     "1609": {
       "id": 1609,
       "name": "ToOnS",
-      "talent": 3624,
-      "ranking": 95,
+      "talent": 3734,
+      "ranking": 94,
       "country": "fr",
       "total_level": 1204,
       "trophies": 266,
@@ -26145,8 +26145,8 @@
     "19612": {
       "id": 19612,
       "name": "SalomonSanto",
-      "talent": 3537,
-      "ranking": 102,
+      "talent": 3515,
+      "ranking": 104,
       "country": "vc",
       "total_level": 1204,
       "trophies": 282,
@@ -26406,8 +26406,8 @@
     "22189": {
       "id": 22189,
       "name": "TyTy03",
-      "talent": 3563,
-      "ranking": 99,
+      "talent": 3540,
+      "ranking": 100,
       "country": "fr",
       "total_level": 1204,
       "trophies": 239,
@@ -27928,7 +27928,7 @@
     "58615": {
       "id": 58615,
       "name": "Dynamex",
-      "talent": 4422,
+      "talent": 4377,
       "ranking": 70,
       "country": "fr",
       "total_level": 1204,
@@ -28189,7 +28189,7 @@
     "97541": {
       "id": 97541,
       "name": "SushiRush",
-      "talent": 4659,
+      "talent": 4698,
       "ranking": 66,
       "country": "fr",
       "total_level": 1204,
@@ -28276,8 +28276,8 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3748,
-      "ranking": 91,
+      "talent": 3745,
+      "ranking": 92,
       "country": "fr",
       "total_level": 1204,
       "trophies": 333,
@@ -29146,7 +29146,7 @@
     "25363": {
       "id": 25363,
       "name": "Szczypka",
-      "talent": 3602,
+      "talent": 3589,
       "ranking": 96,
       "country": "pl",
       "total_level": 1204,
@@ -32690,7 +32690,7 @@
       "id": 87938,
       "name": "hypernavet",
       "talent": 4267,
-      "ranking": 75,
+      "ranking": 76,
       "country": "ps",
       "total_level": 1204,
       "trophies": 331,
@@ -33298,7 +33298,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3768,
+      "talent": 3782,
       "ranking": 89,
       "country": "fr",
       "total_level": 1204,
@@ -33820,8 +33820,8 @@
     "35256": {
       "id": 35256,
       "name": "Huracan",
-      "talent": 4530,
-      "ranking": 68,
+      "talent": 4787,
+      "ranking": 63,
       "country": "nr",
       "total_level": 1204,
       "trophies": 366,
@@ -35108,7 +35108,7 @@
       "id": 60894,
       "name": "Bux42",
       "talent": 4204,
-      "ranking": 79,
+      "ranking": 78,
       "country": "fr",
       "total_level": 1204,
       "trophies": 222,
@@ -35542,7 +35542,7 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3760,
+      "talent": 3758,
       "ranking": 90,
       "country": "fr",
       "total_level": 1204,
@@ -55643,7 +55643,7 @@
       "name": "Portemiracle",
       "level": 183,
       "talent": 251,
-      "ranking": 11339,
+      "ranking": 11338,
       "life": 2076,
       "tp": 16,
       "mp": 5,
@@ -56716,7 +56716,6 @@
       ],
       "chips": [
         "motivation",
-        "wall",
         "leather_boots",
         "knowledge",
         "liberation",
@@ -56726,15 +56725,16 @@
         "antidote",
         "steroid",
         "adrenaline",
+        "meteorite",
         "remission",
         "healer_bulb",
         "lightning",
         "fortress",
         "serum",
-        "teleportation",
         "fertilizer",
         "wizard_bulb",
         "elevation",
+        "metallic_bulb",
         "savant_bulb",
         "lightning_bulb"
       ]
@@ -57987,7 +57987,7 @@
       "name": "P\u00e9tunias",
       "level": 120,
       "talent": 208,
-      "ranking": 12614,
+      "ranking": 12615,
       "life": 1547,
       "tp": 11,
       "mp": 3,
@@ -59765,6 +59765,7 @@
         "wizardry",
         "remission",
         "healer_bulb",
+        "vampirization",
         "lightning",
         "fortress",
         "serum",
@@ -59772,8 +59773,7 @@
         "wizard_bulb",
         "elevation",
         "savant_bulb",
-        "lightning_bulb",
-        "resurrection"
+        "lightning_bulb"
       ]
     },
     "69482": {
