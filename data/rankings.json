@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T01:59:10.219289+00:00",
+  "last_updated": "2026-07-23T05:27:10.400219+00:00",
   "daltons": {
     "46733": [
       {
@@ -25893,8 +25893,8 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3992,
-      "ranking": 84,
+      "talent": 3970,
+      "ranking": 85,
       "country": "fr",
       "total_level": 1204,
       "trophies": 307,
@@ -28546,7 +28546,7 @@
     "58615": {
       "id": 58615,
       "name": "Dynamex",
-      "talent": 4273,
+      "talent": 4293,
       "ranking": 74,
       "country": "fr",
       "total_level": 1204,
@@ -29068,7 +29068,7 @@
     "92936": {
       "id": 92936,
       "name": "Casanova",
-      "talent": 4213,
+      "talent": 4215,
       "ranking": 77,
       "country": "it",
       "total_level": 1204,
@@ -30301,7 +30301,7 @@
     "97060": {
       "id": 97060,
       "name": "Portevent",
-      "talent": 4101,
+      "talent": 4071,
       "ranking": 83,
       "country": "fr",
       "total_level": 1108,
@@ -30457,7 +30457,7 @@
     "99628": {
       "id": 99628,
       "name": "SlightlySmartLeekStem",
-      "talent": 4288,
+      "talent": 4298,
       "ranking": 73,
       "country": "ps",
       "total_level": 1203,
@@ -32350,8 +32350,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 4130,
-      "ranking": 82,
+      "talent": 4150,
+      "ranking": 81,
       "country": "fr",
       "total_level": 1204,
       "trophies": 318,
@@ -33307,8 +33307,8 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 4269,
-      "ranking": 75,
+      "talent": 4259,
+      "ranking": 76,
       "country": "ps",
       "total_level": 1204,
       "trophies": 331,
@@ -35116,8 +35116,8 @@
     "53189": {
       "id": 53189,
       "name": "tagadamasio",
-      "talent": 2385,
-      "ranking": 211,
+      "talent": 2370,
+      "ranking": 213,
       "country": "fr",
       "total_level": 1204,
       "trophies": 201,
@@ -35638,8 +35638,8 @@
     "122838": {
       "id": 122838,
       "name": "3F369",
-      "talent": 4139,
-      "ranking": 81,
+      "talent": 4111,
+      "ranking": 82,
       "country": "fr",
       "total_level": 1204,
       "trophies": 262,
@@ -35812,7 +35812,7 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 4197,
+      "talent": 4212,
       "ranking": 78,
       "country": "fr",
       "total_level": 1204,
