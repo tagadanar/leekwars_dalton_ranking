@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T18:06:16.046012+00:00",
+  "last_updated": "2026-07-26T19:07:44.084127+00:00",
   "daltons": {
     "46733": [
       {
@@ -14123,6 +14123,13 @@
           "date": 1779393176
         },
         {
+          "fight_id": 53078779,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 15,
+          "date": 1785089244
+        },
+        {
           "fight_id": 52374427,
           "total_level": 1204,
           "total_capital": null,
@@ -14627,6 +14634,13 @@
           "date": 1781730170
         },
         {
+          "fight_id": 53078778,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 30,
+          "date": 1785089241
+        },
+        {
           "fight_id": 52261161,
           "total_level": 1204,
           "total_capital": null,
@@ -14863,6 +14877,13 @@
           "total_capital": null,
           "turns": 37,
           "date": 1784309401
+        },
+        {
+          "fight_id": 53078777,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 37,
+          "date": 1785089239
         },
         {
           "fight_id": 52261150,
@@ -23774,7 +23795,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7864,
+      "talent": 7865,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -25217,8 +25238,8 @@
     "66643": {
       "id": 66643,
       "name": "WRNYK",
-      "talent": 2970,
-      "ranking": 132,
+      "talent": 2960,
+      "ranking": 133,
       "country": "fr",
       "total_level": 1034,
       "trophies": 216,
@@ -25996,7 +26017,7 @@
     "19070": {
       "id": 19070,
       "name": "Amal",
-      "talent": 6675,
+      "talent": 6654,
       "ranking": 14,
       "country": "jp",
       "total_level": 1204,
@@ -26257,7 +26278,7 @@
     "76418": {
       "id": 76418,
       "name": "Hyunew",
-      "talent": 6773,
+      "talent": 6813,
       "ranking": 12,
       "country": "fr",
       "total_level": 1204,
@@ -26692,8 +26713,8 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7165,
-      "ranking": 8,
+      "talent": 7157,
+      "ranking": 7,
       "country": null,
       "total_level": 1204,
       "trophies": 293,
@@ -26866,7 +26887,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7175,
+      "talent": 7178,
       "ranking": 6,
       "country": "fr",
       "total_level": 1204,
@@ -27562,7 +27583,7 @@
     "76473": {
       "id": 76473,
       "name": "galactichitchleeker",
-      "talent": 6485,
+      "talent": 6495,
       "ranking": 16,
       "country": "fr",
       "total_level": 1204,
@@ -27736,8 +27757,8 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7341,
-      "ranking": 3,
+      "talent": 7356,
+      "ranking": 4,
       "country": null,
       "total_level": 1204,
       "trophies": 298,
@@ -29084,8 +29105,8 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7334,
-      "ranking": 4,
+      "talent": 7387,
+      "ranking": 2,
       "country": "dj",
       "total_level": 1204,
       "trophies": 321,
@@ -29867,8 +29888,8 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7373,
-      "ranking": 2,
+      "talent": 7364,
+      "ranking": 3,
       "country": "fr",
       "total_level": 1204,
       "trophies": 369,
@@ -31550,7 +31571,7 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7281,
+      "talent": 7245,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -32211,7 +32232,7 @@
       "id": 53583,
       "name": "Tarama",
       "talent": 980,
-      "ranking": 827,
+      "ranking": 828,
       "country": "fr",
       "total_level": 1204,
       "trophies": 220,
@@ -32627,8 +32648,8 @@
     "124760": {
       "id": 124760,
       "name": "Kleekteek",
-      "talent": 3121,
-      "ranking": 124,
+      "talent": 3131,
+      "ranking": 123,
       "country": "fr",
       "total_level": 1032,
       "trophies": 216,
@@ -33236,8 +33257,8 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 7166,
-      "ranking": 7,
+      "talent": 7147,
+      "ranking": 8,
       "country": null,
       "total_level": 1204,
       "trophies": 294,
@@ -33323,7 +33344,7 @@
     "66407": {
       "id": 66407,
       "name": "Magestik25",
-      "talent": 6420,
+      "talent": 6404,
       "ranking": 17,
       "country": "fr",
       "total_level": 1204,
@@ -33585,7 +33606,7 @@
       "id": 98164,
       "name": "DrKouignamann",
       "talent": 1032,
-      "ranking": 782,
+      "ranking": 783,
       "country": "fr",
       "total_level": 1204,
       "trophies": 231,
@@ -33671,7 +33692,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 6891,
+      "talent": 6888,
       "ranking": 11,
       "country": null,
       "total_level": 1204,
@@ -34193,8 +34214,8 @@
     "76695": {
       "id": 76695,
       "name": "ihsusikamet",
-      "talent": 6709,
-      "ranking": 13,
+      "talent": 6586,
+      "ranking": 15,
       "country": "fr",
       "total_level": 1204,
       "trophies": 256,
@@ -36611,8 +36632,8 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6591,
-      "ranking": 15,
+      "talent": 6631,
+      "ranking": 14,
       "country": "fr",
       "total_level": 1204,
       "trophies": 301,
@@ -46195,6 +46216,7 @@
         "steroid",
         "carapace",
         "punishment",
+        "manumission",
         "inversion",
         "adrenaline",
         "remission",
@@ -46202,7 +46224,6 @@
         "teleportation",
         "elevation",
         "dome",
-        "mirror",
         "bramble"
       ]
     },
@@ -54664,10 +54685,10 @@
     "128302": {
       "id": 128302,
       "name": "Plise",
-      "level": 250,
+      "level": 251,
       "talent": 1259,
       "ranking": 2181,
-      "life": 2327,
+      "life": 2330,
       "tp": 20,
       "mp": 6,
       "strength": 510,
@@ -56912,7 +56933,7 @@
       "name": "Portemiracle",
       "level": 214,
       "talent": 489,
-      "ranking": 6371,
+      "ranking": 6369,
       "life": 2419,
       "tp": 19,
       "mp": 5,
@@ -59307,7 +59328,7 @@
       "name": "P\u00e9tunias",
       "level": 122,
       "talent": 208,
-      "ranking": 12600,
+      "ranking": 12599,
       "life": 1553,
       "tp": 11,
       "mp": 3,
