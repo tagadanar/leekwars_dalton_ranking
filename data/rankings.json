@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T22:55:19.153823+00:00",
+  "last_updated": "2026-07-26T00:03:33.491867+00:00",
   "daltons": {
     "46733": [
       {
@@ -24980,8 +24980,8 @@
     "1609": {
       "id": 1609,
       "name": "ToOnS",
-      "talent": 4145,
-      "ranking": 81,
+      "talent": 4163,
+      "ranking": 80,
       "country": "fr",
       "total_level": 1204,
       "trophies": 272,
@@ -32738,7 +32738,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3986,
+      "talent": 3979,
       "ranking": 83,
       "country": "fr",
       "total_level": 1204,
@@ -36026,8 +36026,8 @@
     "122838": {
       "id": 122838,
       "name": "3F369",
-      "talent": 4180,
-      "ranking": 79,
+      "talent": 4154,
+      "ranking": 81,
       "country": "fr",
       "total_level": 1204,
       "trophies": 263,
@@ -36200,8 +36200,8 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 4109,
-      "ranking": 82,
+      "talent": 4182,
+      "ranking": 78,
       "country": "fr",
       "total_level": 1204,
       "trophies": 222,
@@ -62596,7 +62596,7 @@
       "name": "DeathShadow",
       "level": 256,
       "talent": 2179,
-      "ranking": 429,
+      "ranking": 430,
       "life": 2825,
       "tp": 25,
       "mp": 6,
@@ -62865,7 +62865,7 @@
       "name": "Yongyong",
       "level": 301,
       "talent": 2138,
-      "ranking": 480,
+      "ranking": 479,
       "life": 3065,
       "tp": 25,
       "mp": 4,
