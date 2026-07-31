@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T21:05:21.370491+00:00",
+  "last_updated": "2026-07-31T22:08:29.685591+00:00",
   "daltons": {
     "46733": [
       {
@@ -24977,7 +24977,7 @@
       "ranking": 235,
       "country": "fr",
       "total_level": 932,
-      "trophies": 215,
+      "trophies": 216,
       "leeks": {
         "106823": {
           "id": 106823,
@@ -25148,7 +25148,7 @@
       "id": 7740,
       "name": "nandz",
       "talent": 1667,
-      "ranking": 394,
+      "ranking": 392,
       "country": "fr",
       "total_level": 1050,
       "trophies": 223,
@@ -28174,7 +28174,7 @@
       "ranking": 6,
       "country": null,
       "total_level": 1204,
-      "trophies": 299,
+      "trophies": 300,
       "leeks": {
         "128883": {
           "id": 128883,
@@ -34975,8 +34975,8 @@
     "42915": {
       "id": 42915,
       "name": "LeeKidder",
-      "talent": 2552,
-      "ranking": 181,
+      "talent": 2583,
+      "ranking": 175,
       "country": "fr",
       "total_level": 1204,
       "trophies": 255,
@@ -35063,7 +35063,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1233,
-      "ranking": 551,
+      "ranking": 552,
       "country": "fr",
       "total_level": 940,
       "trophies": 150,
@@ -35932,8 +35932,8 @@
     "73155": {
       "id": 73155,
       "name": "tagadaveniradieux",
-      "talent": 1673,
-      "ranking": 389,
+      "talent": 1652,
+      "ranking": 400,
       "country": null,
       "total_level": 903,
       "trophies": 215,
@@ -44311,6 +44311,7 @@
         "grapple",
         "covetousness",
         "boxing_glove",
+        "inversion",
         "adrenaline",
         "repotting",
         "precipitation",
@@ -57823,6 +57824,7 @@
       "chips": [
         "jump",
         "covetousness",
+        "inversion",
         "adrenaline",
         "precipitation",
         "therapy"
@@ -61042,7 +61044,7 @@
         "neutrino",
         "electrisor",
         "lightninger",
-        "revoked_m_laser"
+        "heavy_sword"
       ],
       "chips": [
         "leather_boots",
@@ -61050,6 +61052,7 @@
         "jump",
         "grapple",
         "covetousness",
+        "inversion",
         "adrenaline",
         "precipitation"
       ]
