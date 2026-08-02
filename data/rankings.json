@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T16:57:45.416370+00:00",
+  "last_updated": "2026-08-02T18:04:41.627838+00:00",
   "daltons": {
     "46733": [
       {
@@ -25646,7 +25646,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7101,
+      "talent": 7081,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -26343,7 +26343,7 @@
       "id": 87622,
       "name": "CompleteDisappointment",
       "talent": 3325,
-      "ranking": 115,
+      "ranking": 116,
       "country": "fr",
       "total_level": 902,
       "trophies": 218,
@@ -26672,7 +26672,7 @@
     "66643": {
       "id": 66643,
       "name": "WRNYK",
-      "talent": 2968,
+      "talent": 2964,
       "ranking": 130,
       "country": "fr",
       "total_level": 1034,
@@ -26933,8 +26933,8 @@
     "52323": {
       "id": 52323,
       "name": "Leekspin1",
-      "talent": 3268,
-      "ranking": 117,
+      "talent": 3238,
+      "ranking": 118,
       "country": "fr",
       "total_level": 1204,
       "trophies": 271,
@@ -27277,7 +27277,7 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6532,
+      "talent": 6530,
       "ranking": 16,
       "country": "fr",
       "total_level": 1204,
@@ -28321,7 +28321,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7149,
+      "talent": 7152,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -29192,7 +29192,7 @@
       "id": 122557,
       "name": "tagadai",
       "talent": 7340,
-      "ranking": 3,
+      "ranking": 2,
       "country": null,
       "total_level": 1204,
       "trophies": 301,
@@ -29692,7 +29692,7 @@
       "id": 59622,
       "name": "fujiwar2",
       "talent": 2898,
-      "ranking": 138,
+      "ranking": 139,
       "country": "fr",
       "total_level": 1204,
       "trophies": 266,
@@ -29861,7 +29861,7 @@
     "120043": {
       "id": 120043,
       "name": "dulph2",
-      "talent": 2836,
+      "talent": 2822,
       "ranking": null,
       "country": "fr",
       "total_level": 1121,
@@ -30036,7 +30036,7 @@
       "id": 97519,
       "name": "PorteventAlt",
       "talent": 2899,
-      "ranking": 136,
+      "ranking": 137,
       "country": "fr",
       "total_level": 898,
       "trophies": 227,
@@ -30539,7 +30539,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7171,
+      "talent": 7192,
       "ranking": 7,
       "country": "dj",
       "total_level": 1204,
@@ -31322,8 +31322,8 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7352,
-      "ranking": 2,
+      "talent": 7331,
+      "ranking": 3,
       "country": "fr",
       "total_level": 1204,
       "trophies": 371,
@@ -31583,7 +31583,7 @@
     "124692": {
       "id": 124692,
       "name": "LeekMyTyTy",
-      "talent": 3106,
+      "talent": 3108,
       "ranking": 124,
       "country": "fr",
       "total_level": 1031,
@@ -32138,7 +32138,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3374,
+      "talent": 3376,
       "ranking": 113,
       "country": "fr",
       "total_level": 903,
@@ -32207,7 +32207,7 @@
     "97060": {
       "id": 97060,
       "name": "Portevent",
-      "talent": 4135,
+      "talent": 4106,
       "ranking": 80,
       "country": "fr",
       "total_level": 1159,
@@ -32693,10 +32693,10 @@
     "97590": {
       "id": 97590,
       "name": "PorteventSuppr",
-      "talent": 3300,
-      "ranking": 116,
+      "talent": 3331,
+      "ranking": 115,
       "country": "fr",
-      "total_level": 1123,
+      "total_level": 1125,
       "trophies": 215,
       "leeks": {
         "103137": {
@@ -32738,9 +32738,9 @@
         "132106": {
           "id": 132106,
           "name": "Porteespoir",
-          "level": 272,
+          "level": 273,
           "talent": 709,
-          "life": 3153,
+          "life": 3156,
           "tp": 24,
           "mp": 8,
           "strength": 470,
@@ -32756,9 +32756,9 @@
         "132575": {
           "id": 132575,
           "name": "Portemiracle",
-          "level": 249,
+          "level": 250,
           "talent": 642,
-          "life": 2634,
+          "life": 2637,
           "tp": 23,
           "mp": 8,
           "strength": 450,
@@ -32922,7 +32922,7 @@
       "ranking": 173,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 278,
+      "trophies": 279,
       "leeks": {
         "105990": {
           "id": 105990,
@@ -33596,8 +33596,8 @@
     "63305": {
       "id": 63305,
       "name": "Panca",
-      "talent": 2875,
-      "ranking": 139,
+      "talent": 2912,
+      "ranking": 134,
       "country": "fr",
       "total_level": 835,
       "trophies": 245,
@@ -35126,7 +35126,7 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 6952,
+      "talent": 6972,
       "ranking": 11,
       "country": null,
       "total_level": 1204,
@@ -35348,11 +35348,11 @@
           "level": 301,
           "talent": 1245,
           "life": 1550,
-          "tp": 30,
-          "mp": 8,
+          "tp": 29,
+          "mp": 11,
           "strength": 850,
           "agility": 70,
-          "wisdom": 375,
+          "wisdom": 90,
           "resistance": 40,
           "science": 0,
           "magic": 60,
@@ -35996,7 +35996,7 @@
     "42915": {
       "id": 42915,
       "name": "LeeKidder",
-      "talent": 2564,
+      "talent": 2549,
       "ranking": 178,
       "country": "fr",
       "total_level": 1204,
@@ -36954,7 +36954,7 @@
       "id": 73154,
       "name": "Hyupy",
       "talent": 2904,
-      "ranking": 135,
+      "ranking": 136,
       "country": null,
       "total_level": 1204,
       "trophies": 225,
@@ -37544,7 +37544,7 @@
     "58321": {
       "id": 58321,
       "name": "fujiwar",
-      "talent": 6296,
+      "talent": 6295,
       "ranking": 19,
       "country": "pe",
       "total_level": 1204,
@@ -53044,10 +53044,10 @@
     "132106": {
       "id": 132106,
       "name": "Porteespoir",
-      "level": 272,
+      "level": 273,
       "talent": 709,
-      "ranking": 3993,
-      "life": 3153,
+      "ranking": 3992,
+      "life": 3156,
       "tp": 24,
       "mp": 8,
       "strength": 470,
@@ -57556,12 +57556,18 @@
         "id": 98186,
         "name": "Smartiz"
       },
-      "weapons": [],
+      "weapons": [
+        "neutrino",
+        "enhanced_lightninger",
+        "heavy_sword",
+        "m_laser"
+      ],
       "chips": [
         "stalactite",
         "jump",
         "grapple",
-        "iced_bulb"
+        "iced_bulb",
+        "adrenaline"
       ]
     },
     "107925": {
@@ -58651,10 +58657,10 @@
     "132575": {
       "id": 132575,
       "name": "Portemiracle",
-      "level": 249,
+      "level": 250,
       "talent": 642,
       "ranking": 4331,
-      "life": 2634,
+      "life": 2637,
       "tp": 23,
       "mp": 8,
       "strength": 450,
@@ -62354,18 +62360,18 @@
       "level": 301,
       "talent": 1245,
       "ranking": null,
-      "life": 1550,
+      "life": 1470,
       "tp": 30,
-      "mp": 8,
-      "strength": 850,
-      "agility": 70,
-      "wisdom": 375,
-      "resistance": 40,
-      "science": 0,
-      "magic": 60,
-      "frequency": 160,
+      "mp": 9,
+      "strength": 900,
+      "agility": 80,
+      "wisdom": 140,
+      "resistance": 130,
+      "science": 60,
+      "magic": 110,
+      "frequency": 180,
       "cores": 1,
-      "ram": 14,
+      "ram": 6,
       "farmer": {
         "id": 98186,
         "name": "Smartiz"
@@ -62373,21 +62379,18 @@
       "weapons": [
         "neutrino",
         "lightninger",
-        "heavy_sword",
-        "revoked_m_laser"
+        "explorer_rifle",
+        "heavy_sword"
       ],
       "chips": [
-        "leather_boots",
+        "shock",
         "flash",
-        "puny_bulb",
+        "stalactite",
         "jump",
         "rockfall",
         "iceberg",
-        "grapple",
-        "covetousness",
-        "inversion",
         "adrenaline",
-        "precipitation"
+        "lightning"
       ]
     },
     "40755": {
