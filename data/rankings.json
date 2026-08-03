@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T21:06:56.467383+00:00",
+  "last_updated": "2026-08-03T22:09:39.026656+00:00",
   "daltons": {
     "46733": [
       {
@@ -7267,7 +7267,7 @@
         ]
       },
       {
-        "fight_id": 51827282,
+        "fight_id": 53168353,
         "fight_type": 0,
         "farmer_name": "koe",
         "farmer_id": 124565,
@@ -7276,16 +7276,25 @@
           {
             "id": 131032,
             "name": "koe",
-            "level": 301
+            "level": 301,
+            "farmer": 124565,
+            "farmer_name": "koe"
           }
         ],
         "total_level": 301,
-        "turns": 9,
-        "date": 1773625490,
+        "turns": 8,
+        "date": 1785793375,
         "key": "124565",
         "leek_name": "koe",
         "leek_level": 301,
         "history": [
+          {
+            "fight_id": 53168353,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 8,
+            "date": 1785793375
+          },
           {
             "fight_id": 51827282,
             "total_level": 301,
@@ -7910,6 +7919,89 @@
             "total_capital": null,
             "turns": 60,
             "date": 1785312112
+          }
+        ]
+      },
+      {
+        "fight_id": 53168324,
+        "fight_type": 0,
+        "farmer_name": "tagadalton",
+        "farmer_id": 42851,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 51613,
+            "name": "AvereIIDalton",
+            "level": 301,
+            "farmer": 42851,
+            "farmer_name": "tagadalton"
+          }
+        ],
+        "total_level": 301,
+        "turns": 5,
+        "date": 1785793243,
+        "key": "42851",
+        "leek_name": "AvereIIDalton",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 53168324,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 5,
+            "date": 1785793243
+          },
+          {
+            "fight_id": 52053810,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 29,
+            "date": 1775476801
+          }
+        ]
+      },
+      {
+        "fight_id": 53168400,
+        "fight_type": 0,
+        "farmer_name": "Pilow",
+        "farmer_id": 1,
+        "team_name": null,
+        "leeks": [
+          {
+            "id": 1,
+            "name": "Gorglucks",
+            "level": 301,
+            "farmer": 1,
+            "farmer_name": "Pilow"
+          }
+        ],
+        "total_level": 301,
+        "turns": 6,
+        "date": 1785794022,
+        "key": "1",
+        "leek_name": "Gorglucks",
+        "leek_level": 301,
+        "history": [
+          {
+            "fight_id": 53168400,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 6,
+            "date": 1785794022
+          },
+          {
+            "fight_id": 53158767,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 42,
+            "date": 1785704646
+          },
+          {
+            "fight_id": 53158765,
+            "total_level": 301,
+            "total_capital": null,
+            "turns": 64,
+            "date": 1785704646
           }
         ]
       },
@@ -9019,37 +9111,6 @@
         ]
       },
       {
-        "fight_id": 52053810,
-        "fight_type": 0,
-        "farmer_name": "tagadalton",
-        "farmer_id": 42851,
-        "team_name": null,
-        "leeks": [
-          {
-            "id": 46733,
-            "name": "JoeDalton",
-            "level": 301,
-            "farmer": 42851,
-            "farmer_name": "tagadalton"
-          }
-        ],
-        "total_level": 301,
-        "turns": 29,
-        "date": 1775476801,
-        "key": "42851",
-        "leek_name": "JoeDalton",
-        "leek_level": 301,
-        "history": [
-          {
-            "fight_id": 52053810,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 29,
-            "date": 1775476801
-          }
-        ]
-      },
-      {
         "fight_id": 51886197,
         "fight_type": 0,
         "farmer_name": "Kava3005",
@@ -9198,44 +9259,6 @@
             "total_capital": null,
             "turns": 37,
             "date": 1785582018
-          }
-        ]
-      },
-      {
-        "fight_id": 53158767,
-        "fight_type": 0,
-        "farmer_name": "Pilow",
-        "farmer_id": 1,
-        "team_name": null,
-        "leeks": [
-          {
-            "id": 90,
-            "name": "SkullGrog",
-            "level": 301,
-            "farmer": 1,
-            "farmer_name": "Pilow"
-          }
-        ],
-        "total_level": 301,
-        "turns": 42,
-        "date": 1785704646,
-        "key": "1",
-        "leek_name": "SkullGrog",
-        "leek_level": 301,
-        "history": [
-          {
-            "fight_id": 53158767,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 42,
-            "date": 1785704646
-          },
-          {
-            "fight_id": 53158765,
-            "total_level": 301,
-            "total_capital": null,
-            "turns": 64,
-            "date": 1785704646
           }
         ]
       },
@@ -25577,8 +25600,8 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 7337,
-      "ranking": 2,
+      "talent": 7313,
+      "ranking": 4,
       "country": "fr",
       "total_level": 1204,
       "trophies": 353,
@@ -25907,7 +25930,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7094,
+      "talent": 7073,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -27048,7 +27071,7 @@
           "id": 36966,
           "name": "LeekyMinaj",
           "level": 301,
-          "talent": 3173,
+          "talent": 3158,
           "life": 2950,
           "tp": 25,
           "mp": 8,
@@ -27973,7 +27996,7 @@
     "76418": {
       "id": 76418,
       "name": "Hyunew",
-      "talent": 6725,
+      "talent": 6721,
       "ranking": 11,
       "country": "fr",
       "total_level": 1204,
@@ -28408,8 +28431,8 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7255,
-      "ranking": 6,
+      "talent": 7309,
+      "ranking": 5,
       "country": null,
       "total_level": 1204,
       "trophies": 296,
@@ -28582,8 +28605,8 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7101,
-      "ranking": 8,
+      "talent": 7002,
+      "ranking": 10,
       "country": "fr",
       "total_level": 1204,
       "trophies": 357,
@@ -28766,7 +28789,7 @@
           "id": 131032,
           "name": "koe",
           "level": 301,
-          "talent": 3150,
+          "talent": 3166,
           "life": 3505,
           "tp": 25,
           "mp": 7,
@@ -29452,8 +29475,8 @@
     "122557": {
       "id": 122557,
       "name": "tagadai",
-      "talent": 7297,
-      "ranking": 4,
+      "talent": 7366,
+      "ranking": 3,
       "country": null,
       "total_level": 1204,
       "trophies": 301,
@@ -30800,8 +30823,8 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7272,
-      "ranking": 5,
+      "talent": 7230,
+      "ranking": 6,
       "country": "dj",
       "total_level": 1204,
       "trophies": 323,
@@ -31583,8 +31606,8 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7323,
-      "ranking": 3,
+      "talent": 7380,
+      "ranking": 2,
       "country": "fr",
       "total_level": 1204,
       "trophies": 371,
@@ -33266,8 +33289,8 @@
     "76604": {
       "id": 76604,
       "name": "nytope",
-      "talent": 7154,
-      "ranking": 7,
+      "talent": 7102,
+      "ranking": 8,
       "country": "fr",
       "total_level": 1204,
       "trophies": 326,
@@ -33441,7 +33464,7 @@
       "id": 83260,
       "name": "FarmerIcarus",
       "talent": 1722,
-      "ranking": 352,
+      "ranking": 354,
       "country": "gb",
       "total_level": 947,
       "trophies": 226,
@@ -34998,7 +35021,7 @@
           "id": 51257,
           "name": "JackDalton",
           "level": 301,
-          "talent": 3164,
+          "talent": 3163,
           "life": 3350,
           "tp": 29,
           "mp": 7,
@@ -35387,8 +35410,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7119,
-      "ranking": 8,
+      "talent": 7110,
+      "ranking": 7,
       "country": null,
       "total_level": 1204,
       "trophies": 357,
@@ -37301,8 +37324,8 @@
     "73155": {
       "id": 73155,
       "name": "tagadaveniradieux",
-      "talent": 1703,
-      "ranking": 373,
+      "talent": 1712,
+      "ranking": 371,
       "country": null,
       "total_level": 903,
       "trophies": 216,
@@ -39360,7 +39383,7 @@
       "id": 51257,
       "name": "JackDalton",
       "level": 301,
-      "talent": 3164,
+      "talent": 3163,
       "ranking": null,
       "life": 3350,
       "tp": 29,
@@ -39730,8 +39753,8 @@
       "id": 36966,
       "name": "LeekyMinaj",
       "level": 301,
-      "talent": 3173,
-      "ranking": 22,
+      "talent": 3158,
+      "ranking": 23,
       "life": 2950,
       "tp": 25,
       "mp": 8,
@@ -41685,7 +41708,7 @@
       "name": "Malleur",
       "level": 300,
       "talent": 1437,
-      "ranking": 1600,
+      "ranking": 1599,
       "life": 2597,
       "tp": 21,
       "mp": 5,
@@ -44665,7 +44688,7 @@
       "name": "Captp",
       "level": 301,
       "talent": 1511,
-      "ranking": 1356,
+      "ranking": 1355,
       "life": 1700,
       "tp": 21,
       "mp": 7,
@@ -44809,6 +44832,57 @@
         "elevation",
         "therapy",
         "arsenic"
+      ]
+    },
+    "51613": {
+      "id": 51613,
+      "name": "AvereIIDalton",
+      "level": 301,
+      "talent": 2789,
+      "ranking": null,
+      "life": 2710,
+      "tp": 22,
+      "mp": 16,
+      "strength": 480,
+      "agility": 340,
+      "wisdom": 130,
+      "resistance": -10,
+      "science": 40,
+      "magic": 240,
+      "frequency": 180,
+      "cores": 15,
+      "ram": 20,
+      "farmer": {
+        "id": 42851,
+        "name": "tagadalton"
+      },
+      "weapons": [
+        "neutrino",
+        "unstable_destroyer",
+        "flame_thrower",
+        "axe"
+      ],
+      "chips": [
+        "protein",
+        "motivation",
+        "spark",
+        "leather_boots",
+        "liberation",
+        "armoring",
+        "jump",
+        "rockfall",
+        "antidote",
+        "regeneration",
+        "steroid",
+        "manumission",
+        "inversion",
+        "adrenaline",
+        "winged_boots",
+        "teleportation",
+        "burning",
+        "elevation",
+        "arsenic",
+        "plasma"
       ]
     },
     "70051": {
@@ -45414,7 +45488,7 @@
       "name": "Almost",
       "level": 118,
       "talent": 674,
-      "ranking": 4150,
+      "ranking": 4149,
       "life": 1421,
       "tp": 17,
       "mp": 7,
@@ -46349,7 +46423,7 @@
       "name": "LeeckyLuck",
       "level": 301,
       "talent": 3151,
-      "ranking": 23,
+      "ranking": 24,
       "life": 3520,
       "tp": 26,
       "mp": 7,
@@ -52347,7 +52421,7 @@
       "name": "ChatGPT",
       "level": 229,
       "talent": 1536,
-      "ranking": 1292,
+      "ranking": 1293,
       "life": 2094,
       "tp": 22,
       "mp": 8,
@@ -53299,7 +53373,7 @@
       "name": "Porteespoir",
       "level": 279,
       "talent": 709,
-      "ranking": 3990,
+      "ranking": 3991,
       "life": 3174,
       "tp": 24,
       "mp": 8,
@@ -53659,7 +53733,7 @@
       "name": "Ktipitti",
       "level": 301,
       "talent": 1439,
-      "ranking": 1594,
+      "ranking": 1593,
       "life": 2580,
       "tp": 24,
       "mp": 6,
@@ -54322,7 +54396,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 671,
-      "ranking": 4160,
+      "ranking": 4159,
       "life": 3090,
       "tp": 25,
       "mp": 8,
@@ -55520,8 +55594,8 @@
       "id": 105671,
       "name": "L\u00e9gumesTr\u00e9sBon",
       "level": 301,
-      "talent": 3276,
-      "ranking": 18,
+      "talent": 3293,
+      "ranking": 15,
       "life": 2990,
       "tp": 27,
       "mp": 7,
@@ -60483,7 +60557,7 @@
       "name": "Laborantine",
       "level": 301,
       "talent": 1078,
-      "ranking": 2873,
+      "ranking": 2874,
       "life": 2635,
       "tp": 25,
       "mp": 5,
@@ -60589,50 +60663,6 @@
         "elevation",
         "dome",
         "arsenic"
-      ]
-    },
-    "46733": {
-      "id": 46733,
-      "name": "JoeDalton",
-      "level": 301,
-      "talent": 3246,
-      "ranking": null,
-      "life": 4020,
-      "tp": 30,
-      "mp": 5,
-      "strength": 600,
-      "agility": 50,
-      "wisdom": 330,
-      "resistance": 40,
-      "science": 110,
-      "magic": 40,
-      "frequency": 262,
-      "cores": 18,
-      "ram": 13,
-      "farmer": {
-        "id": 42851,
-        "name": "tagadalton"
-      },
-      "weapons": [
-        "pistol",
-        "magnum",
-        "rhino",
-        "heavy_sword"
-      ],
-      "chips": [
-        "protein",
-        "motivation",
-        "knowledge",
-        "puny_bulb",
-        "liberation",
-        "armoring",
-        "rocky_bulb",
-        "antidote",
-        "regeneration",
-        "steroid",
-        "manumission",
-        "adrenaline",
-        "elevation"
       ]
     },
     "81551": {
@@ -61847,7 +61877,7 @@
       "id": 81638,
       "name": "Kraton",
       "level": 301,
-      "talent": 3327,
+      "talent": 3326,
       "ranking": 13,
       "life": 3465,
       "tp": 27,
@@ -62842,7 +62872,7 @@
       "name": "Ouagadougou",
       "level": 301,
       "talent": 1429,
-      "ranking": 1641,
+      "ranking": 1640,
       "life": 2430,
       "tp": 19,
       "mp": 6,
@@ -64213,8 +64243,8 @@
       "id": 42931,
       "name": "Underling",
       "level": 301,
-      "talent": 3292,
-      "ranking": 15,
+      "talent": 3276,
+      "ranking": 18,
       "life": 3100,
       "tp": 27,
       "mp": 7,
@@ -64564,8 +64594,8 @@
       "id": 131032,
       "name": "koe",
       "level": 301,
-      "talent": 3150,
-      "ranking": 24,
+      "talent": 3166,
+      "ranking": 22,
       "life": 3505,
       "tp": 25,
       "mp": 7,
