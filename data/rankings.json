@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T16:53:25.262602+00:00",
+  "last_updated": "2026-08-07T17:52:14.386329+00:00",
   "daltons": {
     "46733": [
       {
@@ -25981,7 +25981,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7861,
+      "talent": 7863,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -26068,7 +26068,7 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 7305,
+      "talent": 7303,
       "ranking": 4,
       "country": "fr",
       "total_level": 1204,
@@ -26329,7 +26329,7 @@
     "21518": {
       "id": 21518,
       "name": "pakalatak",
-      "talent": 2997,
+      "talent": 3009,
       "ranking": 130,
       "country": "ch",
       "total_level": 1204,
@@ -26485,7 +26485,7 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7169,
+      "talent": 7191,
       "ranking": 7,
       "country": "fr",
       "total_level": 1204,
@@ -26848,7 +26848,7 @@
           "tp": 25,
           "mp": 6,
           "strength": 0,
-          "agility": 280,
+          "agility": 285,
           "wisdom": 520,
           "resistance": 0,
           "science": 80,
@@ -27685,7 +27685,7 @@
     "101978": {
       "id": 101978,
       "name": "Agade2",
-      "talent": 6088,
+      "talent": 6059,
       "ranking": 23,
       "country": "ch",
       "total_level": 1204,
@@ -27947,7 +27947,7 @@
       "id": 71271,
       "name": "Kaesorus",
       "talent": 2521,
-      "ranking": 183,
+      "ranking": 184,
       "country": "fr",
       "total_level": 1204,
       "trophies": 243,
@@ -28116,7 +28116,7 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6574,
+      "talent": 6571,
       "ranking": 15,
       "country": "fr",
       "total_level": 1204,
@@ -29160,7 +29160,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7046,
+      "talent": 7049,
       "ranking": 8,
       "country": "fr",
       "total_level": 1204,
@@ -29421,7 +29421,7 @@
     "41108": {
       "id": 41108,
       "name": "Jace",
-      "talent": 5440,
+      "talent": 5453,
       "ranking": 38,
       "country": "fr",
       "total_level": 1204,
@@ -30204,7 +30204,7 @@
     "8414": {
       "id": 8414,
       "name": "FdHP",
-      "talent": 5423,
+      "talent": 5452,
       "ranking": 39,
       "country": "is",
       "total_level": 1204,
@@ -30530,8 +30530,8 @@
     "59622": {
       "id": 59622,
       "name": "fujiwar2",
-      "talent": 2912,
-      "ranking": 136,
+      "talent": 2900,
+      "ranking": 137,
       "country": "fr",
       "total_level": 1204,
       "trophies": 266,
@@ -31049,7 +31049,7 @@
       "id": 50927,
       "name": "MrAnislider",
       "talent": 2520,
-      "ranking": 184,
+      "ranking": 185,
       "country": "co",
       "total_level": 1204,
       "trophies": 251,
@@ -31378,7 +31378,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7396,
+      "talent": 7379,
       "ranking": 2,
       "country": "dj",
       "total_level": 1204,
@@ -32161,7 +32161,7 @@
     "43276": {
       "id": 43276,
       "name": "Ref",
-      "talent": 7326,
+      "talent": 7327,
       "ranking": 3,
       "country": "fr",
       "total_level": 1204,
@@ -32977,7 +32977,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3335,
+      "talent": 3349,
       "ranking": 118,
       "country": "fr",
       "total_level": 903,
@@ -33535,7 +33535,7 @@
       "talent": 4043,
       "ranking": 81,
       "country": "fr",
-      "total_level": 1180,
+      "total_level": 1181,
       "trophies": 221,
       "leeks": {
         "103137": {
@@ -33595,9 +33595,9 @@
         "132575": {
           "id": 132575,
           "name": "Portemiracle",
-          "level": 278,
+          "level": 279,
           "talent": 783,
-          "life": 3221,
+          "life": 3224,
           "tp": 23,
           "mp": 8,
           "strength": 450,
@@ -33931,7 +33931,7 @@
     "71485": {
       "id": 71485,
       "name": "BrocoliCosmique",
-      "talent": 5931,
+      "talent": 5901,
       "ranking": 28,
       "country": "ps",
       "total_level": 1204,
@@ -34192,7 +34192,7 @@
     "124738": {
       "id": 124738,
       "name": "DeKleek",
-      "talent": 3053,
+      "talent": 3025,
       "ranking": 129,
       "country": "fr",
       "total_level": 1033,
@@ -34591,11 +34591,11 @@
     "97617": {
       "id": 97617,
       "name": "PorteventEsc",
-      "talent": 2502,
-      "ranking": 185,
+      "talent": 2530,
+      "ranking": 182,
       "country": "fr",
       "total_level": 802,
-      "trophies": 214,
+      "trophies": 215,
       "leeks": {
         "103174": {
           "id": 103174,
@@ -35008,7 +35008,7 @@
     "94042": {
       "id": 94042,
       "name": "Bux420",
-      "talent": 5515,
+      "talent": 5492,
       "ranking": 37,
       "country": "fr",
       "total_level": 1204,
@@ -36052,8 +36052,8 @@
     "76155": {
       "id": 76155,
       "name": "fabou",
-      "talent": 7034,
-      "ranking": 9,
+      "talent": 7029,
+      "ranking": 10,
       "country": null,
       "total_level": 1204,
       "trophies": 357,
@@ -37010,7 +37010,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1233,
-      "ranking": 543,
+      "ranking": 542,
       "country": "fr",
       "total_level": 940,
       "trophies": 150,
@@ -37096,8 +37096,8 @@
     "78250": {
       "id": 78250,
       "name": "Gandhictature",
-      "talent": 6039,
-      "ranking": 24,
+      "talent": 6026,
+      "ranking": 25,
       "country": "in",
       "total_level": 1204,
       "trophies": 351,
@@ -37271,7 +37271,7 @@
       "id": 44975,
       "name": "Agade",
       "talent": 6027,
-      "ranking": 25,
+      "ranking": 24,
       "country": "ch",
       "total_level": 1204,
       "trophies": 272,
@@ -39079,7 +39079,7 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6622,
+      "talent": 6621,
       "ranking": 12,
       "country": "fr",
       "total_level": 1204,
@@ -44341,7 +44341,7 @@
       "tp": 25,
       "mp": 6,
       "strength": 0,
-      "agility": 280,
+      "agility": 285,
       "wisdom": 520,
       "resistance": 0,
       "science": 80,
@@ -48624,7 +48624,7 @@
       "name": "Leekidator8000",
       "level": 301,
       "talent": 589,
-      "ranking": 4853,
+      "ranking": 4852,
       "life": 2610,
       "tp": 26,
       "mp": 5,
@@ -60009,10 +60009,10 @@
     "132575": {
       "id": 132575,
       "name": "Portemiracle",
-      "level": 278,
+      "level": 279,
       "talent": 783,
       "ranking": 3685,
-      "life": 3221,
+      "life": 3224,
       "tp": 23,
       "mp": 8,
       "strength": 450,
