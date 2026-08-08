@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T04:15:58.879200+00:00",
+  "last_updated": "2026-08-08T05:47:29.849775+00:00",
   "daltons": {
     "46733": [
       {
@@ -26572,7 +26572,7 @@
     "44568": {
       "id": 44568,
       "name": "Madnicow",
-      "talent": 3886,
+      "talent": 3896,
       "ranking": 85,
       "country": "fr",
       "total_level": 1204,
@@ -28638,8 +28638,8 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3564,
-      "ranking": 97,
+      "talent": 3553,
+      "ranking": 99,
       "country": "fr",
       "total_level": 1204,
       "trophies": 309,
@@ -29769,8 +29769,8 @@
     "22189": {
       "id": 22189,
       "name": "TyTy03",
-      "talent": 3767,
-      "ranking": 89,
+      "talent": 3734,
+      "ranking": 90,
       "country": "fr",
       "total_level": 1204,
       "trophies": 244,
@@ -31813,7 +31813,7 @@
     "92936": {
       "id": 92936,
       "name": "Casanova",
-      "talent": 3778,
+      "talent": 3815,
       "ranking": 88,
       "country": "it",
       "total_level": 1204,
@@ -32509,8 +32509,8 @@
     "25363": {
       "id": 25363,
       "name": "Szczypka",
-      "talent": 3673,
-      "ranking": 93,
+      "talent": 3720,
+      "ranking": 91,
       "country": "pl",
       "total_level": 1204,
       "trophies": 247,
@@ -35095,8 +35095,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3707,
-      "ranking": 91,
+      "talent": 3711,
+      "ranking": 92,
       "country": "fr",
       "total_level": 1204,
       "trophies": 321,
@@ -36835,8 +36835,8 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3580,
-      "ranking": 96,
+      "talent": 3569,
+      "ranking": 97,
       "country": "fr",
       "total_level": 1204,
       "trophies": 253,
@@ -39166,8 +39166,8 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3690,
-      "ranking": 92,
+      "talent": 3675,
+      "ranking": 93,
       "country": "fr",
       "total_level": 1204,
       "trophies": 232,
@@ -39254,7 +39254,7 @@
       "id": 122869,
       "name": "EF369",
       "talent": 3554,
-      "ranking": 99,
+      "ranking": 98,
       "country": "fr",
       "total_level": 1204,
       "trophies": 253,
@@ -55246,7 +55246,7 @@
       "name": "PistonHydroleek",
       "level": 301,
       "talent": 652,
-      "ranking": 4258,
+      "ranking": 4259,
       "life": 3090,
       "tp": 25,
       "mp": 8,
@@ -62344,7 +62344,7 @@
       "name": "P\u00e9tunias",
       "level": 123,
       "talent": 208,
-      "ranking": 12613,
+      "ranking": 12614,
       "life": 1556,
       "tp": 11,
       "mp": 3,
