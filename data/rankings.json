@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T04:32:05.543471+00:00",
+  "last_updated": "2026-08-15T05:28:27.962877+00:00",
   "daltons": {
     "46733": [
       {
@@ -32801,8 +32801,8 @@
     "92936": {
       "id": 92936,
       "name": "Casanova",
-      "talent": 3684,
-      "ranking": 95,
+      "talent": 3714,
+      "ranking": 94,
       "country": "it",
       "total_level": 1204,
       "trophies": 333,
@@ -33584,8 +33584,8 @@
     "25363": {
       "id": 25363,
       "name": "Szczypka",
-      "talent": 3752,
-      "ranking": 91,
+      "talent": 3735,
+      "ranking": 92,
       "country": "pl",
       "total_level": 1204,
       "trophies": 247,
@@ -33846,7 +33846,7 @@
       "id": 73500,
       "name": "Monarch",
       "talent": 100,
-      "ranking": 23590,
+      "ranking": 23591,
       "country": "fr",
       "total_level": 301,
       "trophies": 220,
@@ -36170,8 +36170,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3704,
-      "ranking": 94,
+      "talent": 3703,
+      "ranking": 93,
       "country": "fr",
       "total_level": 1204,
       "trophies": 321,
@@ -37301,7 +37301,7 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 3827,
+      "talent": 3838,
       "ranking": 90,
       "country": "ps",
       "total_level": 1204,
@@ -37997,7 +37997,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3573,
+      "talent": 3562,
       "ranking": 98,
       "country": "fr",
       "total_level": 1204,
@@ -38172,7 +38172,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1396,
-      "ranking": 482,
+      "ranking": 479,
       "country": "fr",
       "total_level": 941,
       "trophies": 150,
@@ -39719,7 +39719,7 @@
     "122838": {
       "id": 122838,
       "name": "3F369",
-      "talent": 3718,
+      "talent": 3716,
       "ranking": 93,
       "country": "fr",
       "total_level": 1204,
@@ -55659,7 +55659,7 @@
       "name": "Portechapeau",
       "level": 99,
       "talent": 322,
-      "ranking": 9711,
+      "ranking": 9710,
       "life": 664,
       "tp": 13,
       "mp": 6,
@@ -63876,7 +63876,7 @@
       "name": "P\u00e9tunias",
       "level": 123,
       "talent": 223,
-      "ranking": 12159,
+      "ranking": 12160,
       "life": 1556,
       "tp": 11,
       "mp": 3,
@@ -67194,7 +67194,7 @@
       "name": "79CHIPMETALLICBULB",
       "level": 216,
       "talent": 344,
-      "ranking": 9183,
+      "ranking": 9184,
       "life": 2007,
       "tp": 17,
       "mp": 6,
