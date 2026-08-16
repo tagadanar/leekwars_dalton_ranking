@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T03:51:49.916423+00:00",
+  "last_updated": "2026-08-16T04:37:16.050116+00:00",
   "daltons": {
     "46733": [
       {
@@ -27421,8 +27421,8 @@
     "44568": {
       "id": 44568,
       "name": "Madnicow",
-      "talent": 3874,
-      "ranking": 87,
+      "talent": 3869,
+      "ranking": 88,
       "country": "fr",
       "total_level": 1204,
       "trophies": 315,
@@ -30705,7 +30705,7 @@
     "22189": {
       "id": 22189,
       "name": "TyTy03",
-      "talent": 3896,
+      "talent": 3906,
       "ranking": 85,
       "country": "fr",
       "total_level": 1204,
@@ -32837,7 +32837,7 @@
       "id": 92936,
       "name": "Casanova",
       "talent": 3697,
-      "ranking": 95,
+      "ranking": 94,
       "country": "it",
       "total_level": 1204,
       "trophies": 333,
@@ -33619,7 +33619,7 @@
     "25363": {
       "id": 25363,
       "name": "Szczypka",
-      "talent": 3744,
+      "talent": 3774,
       "ranking": 91,
       "country": "pl",
       "total_level": 1204,
@@ -36205,8 +36205,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3701,
-      "ranking": 94,
+      "talent": 3744,
+      "ranking": 92,
       "country": "fr",
       "total_level": 1204,
       "trophies": 321,
@@ -39754,8 +39754,8 @@
     "122838": {
       "id": 122838,
       "name": "3F369",
-      "talent": 3710,
-      "ranking": 94,
+      "talent": 3695,
+      "ranking": 95,
       "country": "fr",
       "total_level": 1204,
       "trophies": 266,
@@ -63894,7 +63894,7 @@
       "name": "P\u00e9tunias",
       "level": 123,
       "talent": 223,
-      "ranking": 12161,
+      "ranking": 12158,
       "life": 1556,
       "tp": 11,
       "mp": 3,
