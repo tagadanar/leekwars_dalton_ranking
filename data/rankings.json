@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T16:31:10.784310+00:00",
+  "last_updated": "2026-08-19T17:30:52.710955+00:00",
   "daltons": {
     "46733": [
       {
@@ -19935,6 +19935,57 @@
       ]
     },
     {
+      "fight_id": 53358485,
+      "fight_type": 1,
+      "farmer_name": "Scribble",
+      "farmer_id": 62905,
+      "team_name": null,
+      "leeks": [
+        {
+          "id": 68610,
+          "name": "Phyrexia",
+          "level": 301,
+          "farmer": 62905,
+          "farmer_name": "Scribble"
+        },
+        {
+          "id": 67933,
+          "name": "Innistrad",
+          "level": 301,
+          "farmer": 62905,
+          "farmer_name": "Scribble"
+        },
+        {
+          "id": 68049,
+          "name": "Ravnica",
+          "level": 301,
+          "farmer": 62905,
+          "farmer_name": "Scribble"
+        },
+        {
+          "id": 68248,
+          "name": "Zendikar",
+          "level": 301,
+          "farmer": 62905,
+          "farmer_name": "Scribble"
+        }
+      ],
+      "total_level": 1204,
+      "turns": 9,
+      "date": 1787157001,
+      "key": "62905",
+      "leek_names": "Phyrexia, Innistrad, Ravnica, Zendikar",
+      "history": [
+        {
+          "fight_id": 53358485,
+          "total_level": 1204,
+          "total_capital": null,
+          "turns": 9,
+          "date": 1787157001
+        }
+      ]
+    },
+    {
       "fight_id": 51814185,
       "fight_type": 1,
       "farmer_name": "Amal",
@@ -27284,7 +27335,7 @@
     "512": {
       "id": 512,
       "name": "WhiteSlash",
-      "talent": 7681,
+      "talent": 7682,
       "ranking": 1,
       "country": "fr",
       "total_level": 1204,
@@ -27371,8 +27422,8 @@
     "1": {
       "id": 1,
       "name": "Pilow",
-      "talent": 6506,
-      "ranking": 14,
+      "talent": 6377,
+      "ranking": 18,
       "country": "fr",
       "total_level": 1204,
       "trophies": 355,
@@ -27696,7 +27747,7 @@
           "id": 32004,
           "name": "ClariceStarling",
           "level": 301,
-          "talent": 2225,
+          "talent": 2224,
           "life": 3724,
           "tp": 26,
           "mp": 7,
@@ -27719,8 +27770,8 @@
     "71182": {
       "id": 71182,
       "name": "Hell",
-      "talent": 2692,
-      "ranking": 165,
+      "talent": 2719,
+      "ranking": 158,
       "country": "fr",
       "total_level": 903,
       "trophies": 234,
@@ -27788,7 +27839,7 @@
     "56336": {
       "id": 56336,
       "name": "Losarou",
-      "talent": 6987,
+      "talent": 6986,
       "ranking": 9,
       "country": "fr",
       "total_level": 1204,
@@ -27875,8 +27926,8 @@
     "95252": {
       "id": 95252,
       "name": "Fulify",
-      "talent": 7029,
-      "ranking": 7,
+      "talent": 6999,
+      "ranking": 8,
       "country": "fr",
       "total_level": 1204,
       "trophies": 372,
@@ -27962,7 +28013,7 @@
     "44568": {
       "id": 44568,
       "name": "Madnicow",
-      "talent": 4064,
+      "talent": 4046,
       "ranking": 82,
       "country": "fr",
       "total_level": 1204,
@@ -28310,10 +28361,10 @@
     "100912": {
       "id": 100912,
       "name": "EstebanC3",
-      "talent": 3441,
-      "ranking": 114,
+      "talent": 3414,
+      "ranking": 116,
       "country": "fr",
-      "total_level": 1126,
+      "total_level": 1127,
       "trophies": 253,
       "leeks": {
         "106823": {
@@ -28373,9 +28424,9 @@
         "107145": {
           "id": 107145,
           "name": "DiamondLeek3",
-          "level": 255,
+          "level": 256,
           "talent": 1598,
-          "life": 2682,
+          "life": 2685,
           "tp": 23,
           "mp": 6,
           "strength": 500,
@@ -28988,8 +29039,8 @@
     "66643": {
       "id": 66643,
       "name": "WRNYK",
-      "talent": 2724,
-      "ranking": 157,
+      "talent": 2749,
+      "ranking": 148,
       "country": "fr",
       "total_level": 1034,
       "trophies": 218,
@@ -29075,7 +29126,7 @@
     "32858": {
       "id": 32858,
       "name": "Joalien",
-      "talent": 6097,
+      "talent": 6091,
       "ranking": 22,
       "country": "ps",
       "total_level": 1204,
@@ -29250,7 +29301,7 @@
       "id": 52323,
       "name": "Leekspin1",
       "talent": 2962,
-      "ranking": 134,
+      "ranking": 135,
       "country": "fr",
       "total_level": 1204,
       "trophies": 271,
@@ -29337,7 +29388,7 @@
       "id": 88167,
       "name": "mort",
       "talent": 2727,
-      "ranking": 155,
+      "ranking": 156,
       "country": "fr",
       "total_level": 1200,
       "trophies": 230,
@@ -29593,8 +29644,8 @@
     "100982": {
       "id": 100982,
       "name": "AntiSlash",
-      "talent": 6449,
-      "ranking": 16,
+      "talent": 6477,
+      "ranking": 15,
       "country": "fr",
       "total_level": 1204,
       "trophies": 291,
@@ -30115,7 +30166,7 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3707,
+      "talent": 3708,
       "ranking": 95,
       "country": "fr",
       "total_level": 1204,
@@ -30463,7 +30514,7 @@
     "34958": {
       "id": 34958,
       "name": "tagadanar",
-      "talent": 7359,
+      "talent": 7367,
       "ranking": 3,
       "country": null,
       "total_level": 1204,
@@ -30637,7 +30688,7 @@
     "53392": {
       "id": 53392,
       "name": "temakisushi",
-      "talent": 7179,
+      "talent": 7180,
       "ranking": 5,
       "country": "fr",
       "total_level": 1204,
@@ -30724,8 +30775,8 @@
     "41108": {
       "id": 41108,
       "name": "Jace",
-      "talent": 6394,
-      "ranking": 19,
+      "talent": 6378,
+      "ranking": 17,
       "country": "fr",
       "total_level": 1204,
       "trophies": 265,
@@ -30811,7 +30862,7 @@
     "124565": {
       "id": 124565,
       "name": "koe",
-      "talent": 1858,
+      "talent": 1859,
       "ranking": 274,
       "country": "us",
       "total_level": 600,
@@ -31246,8 +31297,8 @@
     "22189": {
       "id": 22189,
       "name": "TyTy03",
-      "talent": 3984,
-      "ranking": 85,
+      "talent": 4002,
+      "ranking": 84,
       "country": "fr",
       "total_level": 1204,
       "trophies": 244,
@@ -31333,8 +31384,8 @@
     "76473": {
       "id": 76473,
       "name": "galactichitchleeker",
-      "talent": 6426,
-      "ranking": 17,
+      "talent": 6408,
+      "ranking": 16,
       "country": "fr",
       "total_level": 1204,
       "trophies": 271,
@@ -31855,7 +31906,7 @@
     "4831": {
       "id": 4831,
       "name": "Valoutre",
-      "talent": 4339,
+      "talent": 4342,
       "ranking": 76,
       "country": "fr",
       "total_level": 1204,
@@ -32351,7 +32402,7 @@
     "120043": {
       "id": 120043,
       "name": "dulph2",
-      "talent": 2784,
+      "talent": 2766,
       "ranking": null,
       "country": "fr",
       "total_level": 1121,
@@ -32484,7 +32535,7 @@
           "id": 105178,
           "name": "FruitBon",
           "level": 301,
-          "talent": 2217,
+          "talent": 2189,
           "life": 2320,
           "tp": 28,
           "mp": 6,
@@ -33029,7 +33080,7 @@
     "73979": {
       "id": 73979,
       "name": "Greener",
-      "talent": 7131,
+      "talent": 7124,
       "ranking": 6,
       "country": "dj",
       "total_level": 1204,
@@ -33899,7 +33950,7 @@
     "33552": {
       "id": 33552,
       "name": "Plikplok",
-      "talent": 5728,
+      "talent": 5757,
       "ranking": 33,
       "country": "fr",
       "total_level": 1204,
@@ -34247,8 +34298,8 @@
     "124692": {
       "id": 124692,
       "name": "LeekMyTyTy",
-      "talent": 2956,
-      "ranking": 135,
+      "talent": 2987,
+      "ranking": 134,
       "country": "fr",
       "total_level": 1031,
       "trophies": 234,
@@ -34629,7 +34680,7 @@
       "id": 97564,
       "name": "dardar",
       "talent": 1740,
-      "ranking": 348,
+      "ranking": 349,
       "country": "fr",
       "total_level": 1204,
       "trophies": 234,
@@ -34802,7 +34853,7 @@
     "18717": {
       "id": 18717,
       "name": "GrimReaper666",
-      "talent": 3140,
+      "talent": 3144,
       "ranking": 127,
       "country": "fr",
       "total_level": 903,
@@ -34959,7 +35010,7 @@
       "id": 87850,
       "name": "Cosmos1",
       "talent": 2740,
-      "ranking": 149,
+      "ranking": 150,
       "country": "fr",
       "total_level": 852,
       "trophies": 201,
@@ -35115,7 +35166,7 @@
       "id": 102191,
       "name": "Winner",
       "talent": 2698,
-      "ranking": 163,
+      "ranking": 164,
       "country": "fr",
       "total_level": 903,
       "trophies": 246,
@@ -35183,7 +35234,7 @@
     "124210": {
       "id": 124210,
       "name": "SachaBougPalette",
-      "talent": 6158,
+      "talent": 6181,
       "ranking": 21,
       "country": "fr",
       "total_level": 1204,
@@ -35583,7 +35634,7 @@
       "id": 100153,
       "name": "Alcatraz",
       "talent": 2511,
-      "ranking": 184,
+      "ranking": 183,
       "country": "fr",
       "total_level": 1204,
       "trophies": 289,
@@ -35843,8 +35894,8 @@
     "83260": {
       "id": 83260,
       "name": "FarmerIcarus",
-      "talent": 1694,
-      "ranking": 381,
+      "talent": 1683,
+      "ranking": 389,
       "country": "gb",
       "total_level": 947,
       "trophies": 226,
@@ -36017,7 +36068,7 @@
     "124738": {
       "id": 124738,
       "name": "DeKleek",
-      "talent": 3049,
+      "talent": 3024,
       "ranking": 132,
       "country": "fr",
       "total_level": 1033,
@@ -36260,8 +36311,8 @@
     "63305": {
       "id": 63305,
       "name": "Panca",
-      "talent": 2747,
-      "ranking": 148,
+      "talent": 2743,
+      "ranking": 149,
       "country": "fr",
       "total_level": 835,
       "trophies": 245,
@@ -36416,8 +36467,8 @@
     "97617": {
       "id": 97617,
       "name": "sure",
-      "talent": 2513,
-      "ranking": 183,
+      "talent": 2504,
+      "ranking": 185,
       "country": "fr",
       "total_level": 802,
       "trophies": 225,
@@ -36833,8 +36884,8 @@
     "94042": {
       "id": 94042,
       "name": "Bux420",
-      "talent": 5362,
-      "ranking": 40,
+      "talent": 5392,
+      "ranking": 39,
       "country": "fr",
       "total_level": 1204,
       "trophies": 259,
@@ -36920,7 +36971,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3891,
+      "talent": 3888,
       "ranking": 90,
       "country": "fr",
       "total_level": 1204,
@@ -37008,7 +37059,7 @@
       "id": 123738,
       "name": "Dworkyn",
       "talent": 3430,
-      "ranking": 115,
+      "ranking": 114,
       "country": "fr",
       "total_level": 1204,
       "trophies": 178,
@@ -37355,7 +37406,7 @@
     "42851": {
       "id": 42851,
       "name": "tagadalton",
-      "talent": 6825,
+      "talent": 6795,
       "ranking": null,
       "country": null,
       "total_level": 1204,
@@ -37529,7 +37580,7 @@
     "39271": {
       "id": 39271,
       "name": "tagadagain",
-      "talent": 5752,
+      "talent": 5782,
       "ranking": 32,
       "country": null,
       "total_level": 1204,
@@ -37616,8 +37667,8 @@
     "66407": {
       "id": 66407,
       "name": "Magestik25",
-      "talent": 6399,
-      "ranking": 18,
+      "talent": 6368,
+      "ranking": 19,
       "country": "fr",
       "total_level": 1204,
       "trophies": 340,
@@ -37965,7 +38016,7 @@
       "id": 76155,
       "name": "fabou",
       "talent": 7026,
-      "ranking": 8,
+      "ranking": 7,
       "country": null,
       "total_level": 1204,
       "trophies": 357,
@@ -38138,7 +38189,7 @@
     "98186": {
       "id": 98186,
       "name": "Smartiz",
-      "talent": 5329,
+      "talent": 5300,
       "ranking": 41,
       "country": "rw",
       "total_level": 1203,
@@ -38486,8 +38537,8 @@
     "76695": {
       "id": 76695,
       "name": "ihsusikamet",
-      "talent": 6468,
-      "ranking": 15,
+      "talent": 6485,
+      "ranking": 14,
       "country": "fr",
       "total_level": 1204,
       "trophies": 260,
@@ -39018,7 +39069,7 @@
           "id": 83163,
           "name": "JeanJeanMoulin",
           "level": 301,
-          "talent": 2228,
+          "talent": 2243,
           "life": 3050,
           "tp": 27,
           "mp": 7,
@@ -39440,6 +39491,93 @@
         "name": "LFS"
       }
     },
+    "62905": {
+      "id": 62905,
+      "name": "Scribble",
+      "talent": 4692,
+      "ranking": 63,
+      "country": "fr",
+      "total_level": 1204,
+      "trophies": 230,
+      "leeks": {
+        "67933": {
+          "id": 67933,
+          "name": "Innistrad",
+          "level": 301,
+          "talent": 2639,
+          "life": 2270,
+          "tp": 28,
+          "mp": 5,
+          "strength": 460,
+          "agility": 360,
+          "wisdom": 380,
+          "resistance": 0,
+          "science": 590,
+          "magic": 80,
+          "frequency": 220,
+          "cores": 18,
+          "ram": 21
+        },
+        "68049": {
+          "id": 68049,
+          "name": "Ravnica",
+          "level": 301,
+          "talent": 2285,
+          "life": 2635,
+          "tp": 26,
+          "mp": 6,
+          "strength": 610,
+          "agility": 30,
+          "wisdom": 430,
+          "resistance": 300,
+          "science": 120,
+          "magic": 0,
+          "frequency": 200,
+          "cores": 16,
+          "ram": 21
+        },
+        "68248": {
+          "id": 68248,
+          "name": "Zendikar",
+          "level": 301,
+          "talent": 2504,
+          "life": 3235,
+          "tp": 25,
+          "mp": 6,
+          "strength": 60,
+          "agility": 230,
+          "wisdom": 520,
+          "resistance": 0,
+          "science": 10,
+          "magic": 670,
+          "frequency": 150,
+          "cores": 14,
+          "ram": 25
+        },
+        "68610": {
+          "id": 68610,
+          "name": "Phyrexia",
+          "level": 301,
+          "talent": 2481,
+          "life": 2635,
+          "tp": 26,
+          "mp": 6,
+          "strength": 610,
+          "agility": 30,
+          "wisdom": 430,
+          "resistance": 300,
+          "science": 120,
+          "magic": 0,
+          "frequency": 200,
+          "cores": 16,
+          "ram": 21
+        }
+      },
+      "team": {
+        "id": 10085,
+        "name": "DrozaLeek"
+      }
+    },
     "106937": {
       "id": 106937,
       "name": "huld",
@@ -39618,7 +39756,7 @@
       "id": 79295,
       "name": "TPE1",
       "talent": 2732,
-      "ranking": 151,
+      "ranking": 152,
       "country": "fr",
       "total_level": 1202,
       "trophies": 236,
@@ -39792,7 +39930,7 @@
       "id": 73154,
       "name": "Hyupy",
       "talent": 2732,
-      "ranking": 151,
+      "ranking": 152,
       "country": null,
       "total_level": 1204,
       "trophies": 225,
@@ -40121,7 +40259,7 @@
     "99783": {
       "id": 99783,
       "name": "Marcellus",
-      "talent": 6090,
+      "talent": 6084,
       "ranking": 23,
       "country": "fr",
       "total_level": 1204,
@@ -40382,7 +40520,7 @@
     "58321": {
       "id": 58321,
       "name": "fujiwar",
-      "talent": 6246,
+      "talent": 6316,
       "ranking": 20,
       "country": "pe",
       "total_level": 1204,
@@ -40469,7 +40607,7 @@
     "122838": {
       "id": 122838,
       "name": "3F369",
-      "talent": 3822,
+      "talent": 3843,
       "ranking": 92,
       "country": "fr",
       "total_level": 1204,
@@ -40643,7 +40781,7 @@
     "60894": {
       "id": 60894,
       "name": "Bux42",
-      "talent": 4037,
+      "talent": 4015,
       "ranking": 83,
       "country": "fr",
       "total_level": 1204,
@@ -40991,7 +41129,7 @@
     "55280": {
       "id": 55280,
       "name": "CultureBio",
-      "talent": 6532,
+      "talent": 6539,
       "ranking": 13,
       "country": "fr",
       "total_level": 1204,
@@ -41469,7 +41607,7 @@
       "name": "LeekNsjtt",
       "level": 301,
       "talent": 2233,
-      "ranking": 426,
+      "ranking": 428,
       "life": 2065,
       "tp": 21,
       "mp": 6,
@@ -42248,7 +42386,7 @@
       "name": "Rakdos",
       "level": 257,
       "talent": 1843,
-      "ranking": 779,
+      "ranking": 780,
       "life": 2068,
       "tp": 25,
       "mp": 6,
@@ -43704,7 +43842,7 @@
       "name": "PoOtato",
       "level": 301,
       "talent": 2190,
-      "ranking": 453,
+      "ranking": 452,
       "life": 2865,
       "tp": 27,
       "mp": 5,
@@ -44359,7 +44497,7 @@
       "name": "Bux42",
       "level": 301,
       "talent": 1808,
-      "ranking": 824,
+      "ranking": 823,
       "life": 3722,
       "tp": 24,
       "mp": 5,
@@ -44805,7 +44943,7 @@
       "name": "Bux44",
       "level": 301,
       "talent": 1846,
-      "ranking": 777,
+      "ranking": 778,
       "life": 3635,
       "tp": 25,
       "mp": 5,
@@ -45364,7 +45502,7 @@
       "name": "Menthe",
       "level": 301,
       "talent": 2214,
-      "ranking": 445,
+      "ranking": 444,
       "life": 2515,
       "tp": 25,
       "mp": 7,
@@ -46548,7 +46686,7 @@
       "name": "MasterLeekda",
       "level": 301,
       "talent": 2235,
-      "ranking": 425,
+      "ranking": 427,
       "life": 2640,
       "tp": 21,
       "mp": 7,
@@ -46920,54 +47058,56 @@
         "resurrection"
       ]
     },
-    "76125": {
-      "id": 76125,
-      "name": "Kreg",
+    "67933": {
+      "id": 67933,
+      "name": "Innistrad",
       "level": 301,
-      "talent": 1741,
-      "ranking": 953,
-      "life": 2340,
-      "tp": 27,
-      "mp": 3,
-      "strength": 650,
-      "agility": 50,
-      "wisdom": 330,
-      "resistance": 50,
-      "science": 130,
-      "magic": 50,
-      "frequency": 190,
-      "cores": 20,
+      "talent": 2639,
+      "ranking": 174,
+      "life": 2270,
+      "tp": 28,
+      "mp": 5,
+      "strength": 460,
+      "agility": 360,
+      "wisdom": 380,
+      "resistance": 0,
+      "science": 590,
+      "magic": 80,
+      "frequency": 220,
+      "cores": 18,
       "ram": 21,
       "farmer": {
-        "id": 71271,
-        "name": "Kaesorus"
+        "id": 62905,
+        "name": "Scribble"
       },
       "weapons": [
-        "rhino",
-        "enhanced_lightninger",
-        "rifle",
-        "heavy_sword"
+        "illicit_grenade_launcher",
+        "lightninger",
+        "quantum_rifle",
+        "m_laser"
       ],
       "chips": [
         "protein",
-        "motivation",
-        "stretching",
+        "leather_boots",
         "knowledge",
         "liberation",
         "armoring",
-        "jump",
         "vaccine",
-        "iceberg",
+        "mutation",
         "antidote",
-        "warm_up",
+        "regeneration",
         "steroid",
-        "covetousness",
         "adrenaline",
-        "meteorite",
         "remission",
-        "vampirization",
-        "mirror",
-        "therapy"
+        "lightning",
+        "reflexes",
+        "serum",
+        "seven_league_boots",
+        "doping",
+        "rage",
+        "elevation",
+        "transmutation",
+        "bramble"
       ]
     },
     "26974": {
@@ -47019,6 +47159,56 @@
         "teleportation",
         "elevation",
         "metallic_bulb"
+      ]
+    },
+    "76125": {
+      "id": 76125,
+      "name": "Kreg",
+      "level": 301,
+      "talent": 1741,
+      "ranking": 953,
+      "life": 2340,
+      "tp": 27,
+      "mp": 3,
+      "strength": 650,
+      "agility": 50,
+      "wisdom": 330,
+      "resistance": 50,
+      "science": 130,
+      "magic": 50,
+      "frequency": 190,
+      "cores": 20,
+      "ram": 21,
+      "farmer": {
+        "id": 71271,
+        "name": "Kaesorus"
+      },
+      "weapons": [
+        "rhino",
+        "enhanced_lightninger",
+        "rifle",
+        "heavy_sword"
+      ],
+      "chips": [
+        "protein",
+        "motivation",
+        "stretching",
+        "knowledge",
+        "liberation",
+        "armoring",
+        "jump",
+        "vaccine",
+        "iceberg",
+        "antidote",
+        "warm_up",
+        "steroid",
+        "covetousness",
+        "adrenaline",
+        "meteorite",
+        "remission",
+        "vampirization",
+        "mirror",
+        "therapy"
       ]
     },
     "106848": {
@@ -48389,6 +48579,58 @@
         "resurrection"
       ]
     },
+    "68049": {
+      "id": 68049,
+      "name": "Ravnica",
+      "level": 301,
+      "talent": 2285,
+      "ranking": 368,
+      "life": 2635,
+      "tp": 26,
+      "mp": 6,
+      "strength": 610,
+      "agility": 30,
+      "wisdom": 430,
+      "resistance": 300,
+      "science": 120,
+      "magic": 0,
+      "frequency": 200,
+      "cores": 16,
+      "ram": 21,
+      "farmer": {
+        "id": 62905,
+        "name": "Scribble"
+      },
+      "weapons": [
+        "neutrino",
+        "enhanced_lightninger",
+        "heavy_sword",
+        "m_laser"
+      ],
+      "chips": [
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "armor",
+        "iceberg",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "adrenaline",
+        "remission",
+        "lightning",
+        "fortress",
+        "serum",
+        "elevation",
+        "dome"
+      ]
+    },
     "127441": {
       "id": 127441,
       "name": "Almost",
@@ -48532,7 +48774,7 @@
       "name": "RubyLeek3",
       "level": 270,
       "talent": 1816,
-      "ranking": 816,
+      "ranking": 815,
       "life": 2767,
       "tp": 23,
       "mp": 6,
@@ -48790,7 +49032,7 @@
       "name": "CotteDemaille",
       "level": 300,
       "talent": 2243,
-      "ranking": 412,
+      "ranking": 413,
       "life": 1737,
       "tp": 30,
       "mp": 7,
@@ -48809,7 +49051,8 @@
       },
       "weapons": [
         "neutrino",
-        "mysterious_electrisor"
+        "mysterious_electrisor",
+        "heavy_sword"
       ],
       "chips": [
         "motivation",
@@ -49182,7 +49425,7 @@
       "name": "Pyrite",
       "level": 301,
       "talent": 1852,
-      "ranking": 771,
+      "ranking": 772,
       "life": 2000,
       "tp": 20,
       "mp": 5,
@@ -50202,7 +50445,7 @@
       "name": "NoMoreNatural",
       "level": 301,
       "talent": 2213,
-      "ranking": 446,
+      "ranking": 445,
       "life": 2740,
       "tp": 25,
       "mp": 7,
@@ -50882,10 +51125,10 @@
     "107145": {
       "id": 107145,
       "name": "DiamondLeek3",
-      "level": 255,
+      "level": 256,
       "talent": 1598,
       "ranking": 1281,
-      "life": 2682,
+      "life": 2685,
       "tp": 23,
       "mp": 6,
       "strength": 500,
@@ -51027,6 +51270,62 @@
         "elevation",
         "fracture",
         "savant_bulb",
+        "arsenic"
+      ]
+    },
+    "68248": {
+      "id": 68248,
+      "name": "Zendikar",
+      "level": 301,
+      "talent": 2504,
+      "ranking": 242,
+      "life": 3235,
+      "tp": 25,
+      "mp": 6,
+      "strength": 60,
+      "agility": 230,
+      "wisdom": 520,
+      "resistance": 0,
+      "science": 10,
+      "magic": 670,
+      "frequency": 150,
+      "cores": 14,
+      "ram": 25,
+      "farmer": {
+        "id": 62905,
+        "name": "Scribble"
+      },
+      "weapons": [
+        "double_gun",
+        "flame_thrower",
+        "mysterious_electrisor",
+        "gazor"
+      ],
+      "chips": [
+        "leather_boots",
+        "knowledge",
+        "venom",
+        "liberation",
+        "tranquilizer",
+        "armoring",
+        "vaccine",
+        "antidote",
+        "regeneration",
+        "toxin",
+        "soporific",
+        "adrenaline",
+        "wizardry",
+        "remission",
+        "healer_bulb",
+        "ball_and_chain",
+        "serum",
+        "plague",
+        "covid",
+        "elevation",
+        "metallic_bulb",
+        "fracture",
+        "savant_bulb",
+        "bramble",
         "arsenic"
       ]
     },
@@ -53853,7 +54152,7 @@
       "name": "Skithiryx",
       "level": 301,
       "talent": 2236,
-      "ranking": 422,
+      "ranking": 424,
       "life": 1970,
       "tp": 27,
       "mp": 5,
@@ -54818,7 +55117,7 @@
       "name": "BabyNsjtt",
       "level": 301,
       "talent": 2216,
-      "ranking": 443,
+      "ranking": 442,
       "life": 2155,
       "tp": 22,
       "mp": 6,
@@ -55254,7 +55553,7 @@
       "name": "Twinkle",
       "level": 301,
       "talent": 2240,
-      "ranking": 417,
+      "ranking": 418,
       "life": 2565,
       "tp": 27,
       "mp": 6,
@@ -55409,7 +55708,7 @@
       "name": "Cisco",
       "level": 301,
       "talent": 2228,
-      "ranking": 432,
+      "ranking": 433,
       "life": 2720,
       "tp": 28,
       "mp": 6,
@@ -56527,6 +56826,58 @@
         "bramble",
         "arsenic",
         "resurrection"
+      ]
+    },
+    "68610": {
+      "id": 68610,
+      "name": "Phyrexia",
+      "level": 301,
+      "talent": 2481,
+      "ranking": 254,
+      "life": 2635,
+      "tp": 26,
+      "mp": 6,
+      "strength": 610,
+      "agility": 30,
+      "wisdom": 430,
+      "resistance": 300,
+      "science": 120,
+      "magic": 0,
+      "frequency": 200,
+      "cores": 16,
+      "ram": 21,
+      "farmer": {
+        "id": 62905,
+        "name": "Scribble"
+      },
+      "weapons": [
+        "lightninger",
+        "heavy_sword",
+        "m_laser",
+        "revoked_m_laser"
+      ],
+      "chips": [
+        "wall",
+        "leather_boots",
+        "knowledge",
+        "shield",
+        "solidification",
+        "stalactite",
+        "liberation",
+        "armoring",
+        "armor",
+        "iceberg",
+        "antidote",
+        "rampart",
+        "regeneration",
+        "steroid",
+        "adrenaline",
+        "remission",
+        "lightning",
+        "fortress",
+        "serum",
+        "elevation",
+        "dome"
       ]
     },
     "101381": {
@@ -58958,8 +59309,8 @@
       "id": 105671,
       "name": "L\u00e9gumesTr\u00e9sBon",
       "level": 301,
-      "talent": 3210,
-      "ranking": 17,
+      "talent": 3194,
+      "ranking": 19,
       "life": 2990,
       "tp": 27,
       "mp": 7,
@@ -59117,8 +59468,8 @@
       "id": 83163,
       "name": "JeanJeanMoulin",
       "level": 301,
-      "talent": 2228,
-      "ranking": 430,
+      "talent": 2243,
+      "ranking": 410,
       "life": 3050,
       "tp": 27,
       "mp": 7,
@@ -59535,8 +59886,8 @@
       "id": 32004,
       "name": "ClariceStarling",
       "level": 301,
-      "talent": 2225,
-      "ranking": 434,
+      "talent": 2224,
+      "ranking": 435,
       "life": 3724,
       "tp": 26,
       "mp": 7,
@@ -60730,7 +61081,7 @@
       "name": "JerryWesterby",
       "level": 301,
       "talent": 2241,
-      "ranking": 413,
+      "ranking": 414,
       "life": 3230,
       "tp": 30,
       "mp": 5,
@@ -61356,9 +61707,9 @@
       },
       "weapons": [
         "neutrino",
-        "lightninger",
-        "heavy_sword",
-        "m_laser"
+        "rhino",
+        "dark_katana",
+        "heavy_sword"
       ],
       "chips": [
         "protein",
@@ -61378,6 +61729,7 @@
         "serum",
         "teleportation",
         "elevation",
+        "bramble",
         "resurrection"
       ]
     },
@@ -62108,7 +62460,7 @@
       "name": "Skydo",
       "level": 300,
       "talent": 2230,
-      "ranking": 428,
+      "ranking": 430,
       "life": 1687,
       "tp": 28,
       "mp": 5,
@@ -62445,8 +62797,8 @@
       "weapons": [
         "neutrino",
         "lightninger",
-        "heavy_sword",
-        "m_laser"
+        "katana",
+        "heavy_sword"
       ],
       "chips": [
         "protein",
@@ -62466,6 +62818,7 @@
         "serum",
         "teleportation",
         "elevation",
+        "bramble",
         "resurrection"
       ]
     },
@@ -63224,9 +63577,9 @@
       },
       "weapons": [
         "neutrino",
-        "lightninger",
-        "heavy_sword",
-        "m_laser"
+        "enhanced_lightninger",
+        "katana",
+        "heavy_sword"
       ],
       "chips": [
         "protein",
@@ -63246,6 +63599,7 @@
         "serum",
         "teleportation",
         "elevation",
+        "bramble",
         "resurrection"
       ]
     },
@@ -63771,7 +64125,7 @@
       "name": "Ratatouilleur",
       "level": 301,
       "talent": 2208,
-      "ranking": 448,
+      "ranking": 447,
       "life": 2685,
       "tp": 28,
       "mp": 5,
@@ -66379,7 +66733,7 @@
       "name": "Barrowgoyf",
       "level": 301,
       "talent": 2235,
-      "ranking": 424,
+      "ranking": 426,
       "life": 2455,
       "tp": 23,
       "mp": 6,
@@ -66718,8 +67072,8 @@
       "weapons": [
         "neutrino",
         "lightninger",
-        "heavy_sword",
-        "m_laser"
+        "katana",
+        "heavy_sword"
       ],
       "chips": [
         "protein",
@@ -66739,6 +67093,7 @@
         "serum",
         "teleportation",
         "elevation",
+        "bramble",
         "resurrection"
       ]
     },
@@ -67340,8 +67695,8 @@
       "id": 42860,
       "name": "JCGloomy",
       "level": 301,
-      "talent": 3181,
-      "ranking": 20,
+      "talent": 3211,
+      "ranking": 17,
       "life": 2810,
       "tp": 28,
       "mp": 7,
@@ -68161,9 +68516,9 @@
       },
       "weapons": [
         "neutrino",
-        "lightninger",
-        "heavy_sword",
-        "m_laser"
+        "rhino",
+        "dark_katana",
+        "heavy_sword"
       ],
       "chips": [
         "protein",
@@ -68605,7 +68960,7 @@
       "name": "D\u00e9cleek11",
       "level": 301,
       "talent": 1809,
-      "ranking": 819,
+      "ranking": 818,
       "life": 2570,
       "tp": 24,
       "mp": 6,
