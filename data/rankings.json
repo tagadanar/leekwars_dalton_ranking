@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T13:51:31.194984+00:00",
+  "last_updated": "2026-08-20T14:37:57.584935+00:00",
   "daltons": {
     "46733": [
       {
@@ -29941,7 +29941,7 @@
       "id": 55422,
       "name": "ArdRom",
       "talent": 2823,
-      "ranking": 145,
+      "ranking": 144,
       "country": "fr",
       "total_level": 1204,
       "trophies": 268,
@@ -31680,8 +31680,8 @@
     "75975": {
       "id": 75975,
       "name": "Leekspin2",
-      "talent": 2983,
-      "ranking": 136,
+      "talent": 2994,
+      "ranking": 135,
       "country": "fr",
       "total_level": 1204,
       "trophies": 254,
@@ -32267,8 +32267,8 @@
     "59622": {
       "id": 59622,
       "name": "fujiwar2",
-      "talent": 2844,
-      "ranking": 143,
+      "talent": 2817,
+      "ranking": 145,
       "country": "fr",
       "total_level": 1204,
       "trophies": 267,
@@ -32873,7 +32873,7 @@
       "id": 120562,
       "name": "NieCoach",
       "talent": 2855,
-      "ranking": 141,
+      "ranking": 142,
       "country": "fr",
       "total_level": 900,
       "trophies": 219,
@@ -34334,7 +34334,7 @@
       "id": 124692,
       "name": "LeekMyTyTy",
       "talent": 2985,
-      "ranking": 135,
+      "ranking": 136,
       "country": "fr",
       "total_level": 1031,
       "trophies": 234,
@@ -35530,7 +35530,7 @@
     "69433": {
       "id": 69433,
       "name": "Twinkle",
-      "talent": 2928,
+      "talent": 2943,
       "ranking": 139,
       "country": "fr",
       "total_level": 903,
@@ -36347,7 +36347,7 @@
       "id": 63305,
       "name": "Panca",
       "talent": 2743,
-      "ranking": 152,
+      "ranking": 151,
       "country": "fr",
       "total_level": 835,
       "trophies": 245,
@@ -36833,7 +36833,7 @@
       "id": 124760,
       "name": "Kleekteek",
       "talent": 2952,
-      "ranking": 137,
+      "ranking": 138,
       "country": "fr",
       "total_level": 1032,
       "trophies": 218,
@@ -38399,7 +38399,7 @@
       "id": 88468,
       "name": "NikolaTesla",
       "talent": 2841,
-      "ranking": 144,
+      "ranking": 143,
       "country": "fr",
       "total_level": 1042,
       "trophies": 221,
@@ -39446,7 +39446,7 @@
       "ranking": 52,
       "country": "nr",
       "total_level": 1204,
-      "trophies": 375,
+      "trophies": 376,
       "leeks": {
         "38703": {
           "id": 38703,
@@ -49854,20 +49854,18 @@
       },
       "weapons": [
         "machine_gun",
+        "bazooka",
         "rhino",
-        "enhanced_lightninger",
-        "heavy_sword"
+        "enhanced_lightninger"
       ],
       "chips": [
         "wall",
         "leather_boots",
         "solidification",
-        "stalactite",
         "liberation",
         "armoring",
         "jump",
         "armor",
-        "prism",
         "antidote",
         "regeneration",
         "steroid",
@@ -49875,11 +49873,11 @@
         "inversion",
         "remission",
         "winged_boots",
-        "lightning",
         "fortress",
         "serum",
         "teleportation",
         "wizard_bulb",
+        "elevation",
         "therapy",
         "resurrection"
       ]
