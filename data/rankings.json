@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T04:41:03.949676+00:00",
+  "last_updated": "2026-08-21T05:35:22.975438+00:00",
   "daltons": {
     "46733": [
       {
@@ -28055,7 +28055,7 @@
     "44568": {
       "id": 44568,
       "name": "Madnicow",
-      "talent": 3928,
+      "talent": 3942,
       "ranking": 89,
       "country": "fr",
       "total_level": 1204,
@@ -28230,7 +28230,7 @@
       "id": 94768,
       "name": "KavaliovNinies",
       "talent": 1347,
-      "ranking": 496,
+      "ranking": 495,
       "country": "fr",
       "total_level": 496,
       "trophies": 223,
@@ -28455,7 +28455,7 @@
           "mp": 6,
           "strength": 60,
           "agility": 70,
-          "wisdom": 500,
+          "wisdom": 505,
           "resistance": 0,
           "science": 10,
           "magic": 600,
@@ -31339,7 +31339,7 @@
     "22189": {
       "id": 22189,
       "name": "TyTy03",
-      "talent": 3985,
+      "talent": 4008,
       "ranking": 86,
       "country": "fr",
       "total_level": 1204,
@@ -34689,7 +34689,7 @@
       "id": 73500,
       "name": "Monarch",
       "talent": 100,
-      "ranking": 23594,
+      "ranking": 23593,
       "country": "fr",
       "total_level": 301,
       "trophies": 222,
@@ -37013,8 +37013,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3899,
-      "ranking": 91,
+      "talent": 3842,
+      "ranking": 92,
       "country": "fr",
       "total_level": 1204,
       "trophies": 322,
@@ -38144,7 +38144,7 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 3937,
+      "talent": 3962,
       "ranking": 88,
       "country": "ps",
       "total_level": 1204,
@@ -38840,7 +38840,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3680,
+      "talent": 3670,
       "ranking": 96,
       "country": "fr",
       "total_level": 1204,
@@ -39015,7 +39015,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1425,
-      "ranking": 473,
+      "ranking": 476,
       "country": "fr",
       "total_level": 942,
       "trophies": 150,
@@ -40649,8 +40649,8 @@
     "122838": {
       "id": 122838,
       "name": "3F369",
-      "talent": 3890,
-      "ranking": 92,
+      "talent": 3904,
+      "ranking": 91,
       "country": "fr",
       "total_level": 1204,
       "trophies": 267,
@@ -48819,7 +48819,7 @@
       "mp": 6,
       "strength": 60,
       "agility": 70,
-      "wisdom": 500,
+      "wisdom": 505,
       "resistance": 0,
       "science": 10,
       "magic": 600,
