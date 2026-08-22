@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T03:47:04.066214+00:00",
+  "last_updated": "2026-08-22T04:34:45.628486+00:00",
   "daltons": {
     "46733": [
       {
@@ -37173,7 +37173,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3807,
+      "talent": 3794,
       "ranking": 93,
       "country": "fr",
       "total_level": 1204,
@@ -38304,7 +38304,7 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 3937,
+      "talent": 3948,
       "ranking": 90,
       "country": "ps",
       "total_level": 1204,
@@ -39000,7 +39000,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3670,
+      "talent": 3660,
       "ranking": 96,
       "country": "fr",
       "total_level": 1204,
@@ -40809,7 +40809,7 @@
     "122838": {
       "id": 122838,
       "name": "3F369",
-      "talent": 3942,
+      "talent": 3953,
       "ranking": 89,
       "country": "fr",
       "total_level": 1204,
@@ -44961,7 +44961,7 @@
       "name": "80CHIPREMISSION",
       "level": 178,
       "talent": 579,
-      "ranking": 5034,
+      "ranking": 5035,
       "life": 1609,
       "tp": 15,
       "mp": 6,
