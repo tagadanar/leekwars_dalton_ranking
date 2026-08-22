@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T00:48:45.028275+00:00",
+  "last_updated": "2026-08-22T02:21:59.555211+00:00",
   "daltons": {
     "46733": [
       {
@@ -28303,7 +28303,7 @@
       "id": 94768,
       "name": "KavaliovNinies",
       "talent": 1347,
-      "ranking": 493,
+      "ranking": 495,
       "country": "fr",
       "total_level": 496,
       "trophies": 223,
@@ -37173,7 +37173,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3830,
+      "talent": 3844,
       "ranking": 92,
       "country": "fr",
       "total_level": 1204,
@@ -57192,7 +57192,7 @@
       "name": "Portechapeau",
       "level": 99,
       "talent": 262,
-      "ranking": 11013,
+      "ranking": 11014,
       "life": 664,
       "tp": 13,
       "mp": 6,
