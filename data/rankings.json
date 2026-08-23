@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23T04:40:33.037274+00:00",
+  "last_updated": "2026-08-23T05:32:29.516004+00:00",
   "daltons": {
     "46733": [
       {
@@ -28036,8 +28036,8 @@
     "21518": {
       "id": 21518,
       "name": "pakalatak",
-      "talent": 3681,
-      "ranking": 97,
+      "talent": 3756,
+      "ranking": 94,
       "country": "ch",
       "total_level": 1204,
       "trophies": 339,
@@ -28366,11 +28366,11 @@
     "44568": {
       "id": 44568,
       "name": "Madnicow",
-      "talent": 3867,
-      "ranking": 92,
+      "talent": 3896,
+      "ranking": 91,
       "country": "fr",
       "total_level": 1204,
-      "trophies": 321,
+      "trophies": 322,
       "leeks": {
         "48617": {
           "id": 48617,
@@ -28541,7 +28541,7 @@
       "id": 94768,
       "name": "KavaliovNinies",
       "talent": 1347,
-      "ranking": 491,
+      "ranking": 489,
       "country": "fr",
       "total_level": 496,
       "trophies": 223,
@@ -35362,8 +35362,8 @@
     "97060": {
       "id": 97060,
       "name": "Portevent",
-      "talent": 3713,
-      "ranking": 95,
+      "talent": 3703,
+      "ranking": 97,
       "country": "fr",
       "total_level": 1204,
       "trophies": 318,
@@ -37411,8 +37411,8 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3884,
-      "ranking": 91,
+      "talent": 3778,
+      "ranking": 93,
       "country": "fr",
       "total_level": 1204,
       "trophies": 322,
@@ -38542,8 +38542,8 @@
     "87938": {
       "id": 87938,
       "name": "hypernavet",
-      "talent": 3956,
-      "ranking": 89,
+      "talent": 3968,
+      "ranking": 88,
       "country": "ps",
       "total_level": 1204,
       "trophies": 335,
@@ -39238,7 +39238,7 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3647,
+      "talent": 3636,
       "ranking": 98,
       "country": "fr",
       "total_level": 1204,
@@ -39413,7 +39413,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1360,
-      "ranking": 489,
+      "ranking": 487,
       "country": "fr",
       "total_level": 942,
       "trophies": 150,
