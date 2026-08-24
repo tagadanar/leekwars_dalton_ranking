@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T00:51:15.147805+00:00",
+  "last_updated": "2026-08-24T02:29:12.015412+00:00",
   "daltons": {
     "46733": [
       {
@@ -28212,7 +28212,7 @@
     "21518": {
       "id": 21518,
       "name": "pakalatak",
-      "talent": 3799,
+      "talent": 3814,
       "ranking": 93,
       "country": "ch",
       "total_level": 1204,
@@ -28717,7 +28717,7 @@
       "id": 94768,
       "name": "KavaliovNinies",
       "talent": 1347,
-      "ranking": 492,
+      "ranking": 493,
       "country": "fr",
       "total_level": 496,
       "trophies": 223,
@@ -37587,7 +37587,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3793,
+      "talent": 3791,
       "ranking": 94,
       "country": "fr",
       "total_level": 1204,
@@ -39502,7 +39502,7 @@
       "id": 60830,
       "name": "Unstoppable",
       "talent": 3730,
-      "ranking": 97,
+      "ranking": 96,
       "country": "fr",
       "total_level": 1204,
       "trophies": 254,
@@ -39676,7 +39676,7 @@
       "id": 106916,
       "name": "CHIPICEDBULB",
       "talent": 1358,
-      "ranking": 487,
+      "ranking": 489,
       "country": "fr",
       "total_level": 942,
       "trophies": 150,
@@ -66445,7 +66445,7 @@
       "name": "P\u00e9tunias",
       "level": 124,
       "talent": 223,
-      "ranking": 12173,
+      "ranking": 12174,
       "life": 1559,
       "tp": 11,
       "mp": 3,
