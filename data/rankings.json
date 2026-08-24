@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T03:57:34.711197+00:00",
+  "last_updated": "2026-08-24T04:47:26.954270+00:00",
   "daltons": {
     "46733": [
       {
@@ -28212,7 +28212,7 @@
     "21518": {
       "id": 21518,
       "name": "pakalatak",
-      "talent": 3842,
+      "talent": 3856,
       "ranking": 92,
       "country": "ch",
       "total_level": 1204,
@@ -28542,7 +28542,7 @@
     "44568": {
       "id": 44568,
       "name": "Madnicow",
-      "talent": 3931,
+      "talent": 3943,
       "ranking": 90,
       "country": "fr",
       "total_level": 1204,
@@ -37587,7 +37587,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3811,
+      "talent": 3801,
       "ranking": 94,
       "country": "fr",
       "total_level": 1204,
@@ -39501,8 +39501,8 @@
     "60830": {
       "id": 60830,
       "name": "Unstoppable",
-      "talent": 3711,
-      "ranking": 97,
+      "talent": 3717,
+      "ranking": 95,
       "country": "fr",
       "total_level": 1204,
       "trophies": 254,
@@ -42006,7 +42006,7 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3669,
+      "talent": 3658,
       "ranking": 98,
       "country": "fr",
       "total_level": 1204,
@@ -57823,7 +57823,7 @@
       "name": "Portechapeau",
       "level": 99,
       "talent": 269,
-      "ranking": 10901,
+      "ranking": 10902,
       "life": 664,
       "tp": 13,
       "mp": 6,
