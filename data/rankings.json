@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T03:57:22.910555+00:00",
+  "last_updated": "2026-08-26T04:42:19.630348+00:00",
   "daltons": {
     "46733": [
       {
@@ -30829,7 +30829,7 @@
     "34434": {
       "id": 34434,
       "name": "fantonico",
-      "talent": 3674,
+      "talent": 3664,
       "ranking": 98,
       "country": "fr",
       "total_level": 1204,
@@ -34091,7 +34091,7 @@
     "97030": {
       "id": 97030,
       "name": "dulph",
-      "talent": 3727,
+      "talent": 3731,
       "ranking": 96,
       "country": "fr",
       "total_level": 1204,
@@ -37062,7 +37062,7 @@
       "id": 121160,
       "name": "Presque",
       "talent": 847,
-      "ranking": 962,
+      "ranking": 964,
       "country": "ca",
       "total_level": 650,
       "trophies": 162,
@@ -37895,7 +37895,7 @@
     "16731": {
       "id": 16731,
       "name": "Tabarius",
-      "talent": 3837,
+      "talent": 3852,
       "ranking": 93,
       "country": "fr",
       "total_level": 1204,
@@ -41618,7 +41618,7 @@
     "122838": {
       "id": 122838,
       "name": "3F369",
-      "talent": 3916,
+      "talent": 3929,
       "ranking": 92,
       "country": "fr",
       "total_level": 1204,
@@ -42314,7 +42314,7 @@
     "53234": {
       "id": 53234,
       "name": "Schrodinger",
-      "talent": 3663,
+      "talent": 3654,
       "ranking": 100,
       "country": "fr",
       "total_level": 1204,
