@@ -16,6 +16,10 @@ CONFIG_PATH = Path(__file__).parent / "config.json"
 CACHE_PATH = DATA_DIR / "cache.json"
 RANKINGS_PATH = DATA_DIR / "rankings.json"
 
+# Fight status values returned by the history/fight endpoints.
+FIGHT_STATUS_FINISHED = 2  # replay data available
+FIGHT_STATUS_VOID = 3      # aborted/voided (tournament errors): data and report are null
+
 REQUEST_DELAY = 1.0
 MAX_RETRIES = 3
 BACKOFF_BASE = 5
@@ -89,7 +93,7 @@ def login(session):
 
 def count_turns(fight):
     """Count turns from data.actions."""
-    actions = fight.get("data", {}).get("actions", [])
+    actions = (fight.get("data") or {}).get("actions", [])
     turns = 0
     for action in actions:
         if isinstance(action, list) and len(action) >= 2 and action[0] == 6:
@@ -290,6 +294,15 @@ def fetch_and_process_history(session, endpoint, cache_key, dalton_leek_ids, cac
     entries = []
     for hist_fight in new_fights:
         fight_id = hist_fight["id"]
+        status = hist_fight.get("status")
+        if status != FIGHT_STATUS_FINISHED:
+            # Voided/aborted fights (status 3) never get replay data — skip them
+            # for good. Anything else (pending, running) may still finish later,
+            # so leave it uncached and retry on the next run.
+            if status == FIGHT_STATUS_VOID:
+                cached_ids.add(fight_id)
+            continue
+
         fight_data = api_request(session, f"fight/get/{fight_id}")
         if not isinstance(fight_data, dict):
             cached_ids.add(fight_id)
