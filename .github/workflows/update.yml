@@ -2,7 +2,9 @@ name: Update Rankings
 
 on:
   schedule:
-    - cron: "0 * * * *"  # Every hour
+    # Hourly. Deliberately off minute 0: that slot is heavily contended on
+    # GitHub Actions and scheduled runs there get delayed, then dropped.
+    - cron: "37 * * * *"
   workflow_dispatch:         # Manual trigger
 
 permissions:
